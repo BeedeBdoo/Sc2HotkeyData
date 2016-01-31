@@ -22,12 +22,12 @@ def read_KeyData(filename):
 			if not '=' in line and not 'UnitCommands' in line:
 				key =  key[:line.count('\t')]
 				key.append(sline)
-				key_str = filename.replace('HotkeyData ','').replace('.txt','')+'/'+'/'.join(key)
+				key_str = filename.replace('data\HotkeyData ','').replace('.txt','')+'/'+'/'.join(key)
 				if key_str in key_dict:
 					print('ERROR:\nRepeated key in ',filename,' at\n',key_str)
 					return
 			else:
-				key_str = filename.replace('HotkeyData ','').replace('.txt','')+'/'+'/'.join(key)
+				key_str = filename.replace('data\HotkeyData ','').replace('.txt','')+'/'+'/'.join(key)
 				if key_str == key_str_save:
 					print('ERROR:\nRepeated key in ',filename,' at\n',key_str)
 				if not key_str in key_dict:
