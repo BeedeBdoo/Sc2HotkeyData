@@ -1,0 +1,370 @@
+Terran
+	Units
+		SCV
+			General
+				BasicUnitCommands
+				GatherProt=G
+				ReturnCargo=C
+				TerranBuild/SCV=B
+				TerranBuildAdvanced/SCV=V
+				Repair=R
+				Halt=T
+
+			Basic Structures
+				CommandCenter/SCV=C
+				Refinery/SCV=R
+				SupplyDepot/SCV=S
+				Barracks/SCV=B
+				EngineeringBay/SCV=E
+				Bunker/SCV=U
+				MissileTurret/SCV=T
+				PerditionTurret/SCV=P
+				HiveMindEmulator/SCV=I
+				Cancel=Escape
+
+			Advanced Structures (Front)
+				GhostAcademy/SCV=G
+				MercCompound/SCV=M
+				Starport/SCV=S
+				FusionCore/SCV=C
+				Cancel=Escape
+				
+			Advanced Structures (ingame)
+				Factory/SCV=F
+				Armory/SCV=A
+				Cancel=Escape
+
+		Marine
+			BasicUnitCommands
+			Stim=T
+			
+		Reaper
+			BasicUnitCommands
+			D8Charge/Reaper=G
+			
+		Marauder
+			BasicUnitCommands
+			Stim=T
+			JackhammerConcussionGrenade/Marauder=C
+
+		Siege Tank
+			BasicUnitCommands
+			SiegeMode=E
+			Unsiege=D
+	
+	Structures
+		Tech Lab
+			Attached to Barracks
+				Stimpack/BarracksTechLab=T
+				ResearchJackhammerConcussionGrenade/BarracksTechLab=C
+				ResearchStabilizerMedPacks/BarracksTechLab=E
+				ResearchIncineratorNozzles/BarracksTechLab=R
+				ResearchG4Charge/BarracksTechLab=G
+				Cancel=Escape
+
+			Attached to Factory
+				ResearchCerberusMines/FactoryTechLab=C
+				ResearchHighCapacityBarrels/FactoryTechLab=I
+				ResearchMultiLockTargetingSystem/FactoryTechLab=W
+				ResearchShapedBlast/FactoryTechLab=B
+				ResearchRegenerativeBioSteel/FactoryTechLab=R
+				Cancel=Escape
+
+			Attached to Starport
+				ResearchMedivacEnergyUpgrade/StarportTechLab=A
+				ResearchDurableMaterials/StarportTechLab=D
+				ResearchSeekerMissile/StarportTechLab=R
+				ResearchRavenEnergyUpgrade/StarportTechLab=T
+				ResearchBansheeCloak/StarportTechLab=C
+				Cancel=Escape
+		
+		Command Center
+			General (Front)
+				SCV=S
+				UpgradeToPlanetaryFortress/CommandCenter=P
+				Scan/CommandCenter=C
+				CalldownMULE/CommandCenter=E
+				SelectBuilder=Q
+				Rally=Y
+				CommandCenterLoad=O
+				CommandCenterUnloadAll=D
+				Lift=L
+				Cancel=Escape
+
+			Flying
+				PacifistUnitCommands
+				CommandCenterLoad=O
+				CommandCenterUnloadAll=D
+				Land=L
+
+		Orbital Command
+			SCV=S
+			Rally=Y
+			CalldownMULE/OrbitalCommand=E
+			SupplyDrop/OrbitalCommand=X
+			Scan/OrbitalCommand=C
+			Lift=L
+			Cancel=Escape
+
+		Barracks
+			General
+				Marine/Barracks=A
+				Marauder/Barracks=D
+				Reaper/Barracks=R
+				Ghost/Barracks=G
+				Medic/Barracks=E
+				Firebat/Barracks=F
+				SelectBuilder=Q
+				Rally=Y
+				TechLabBarracks/Barracks=X
+				Reactor/Barracks=C
+				TechReactorAI/Barracks=Z
+				Lift=L
+				Cancel=Escape
+
+			Flying
+				PacifistUnitCommands
+				TechLabBarracks/BarracksFlying=X
+				Reactor/BarracksFlying=C
+				Land=L
+				
+				Flying (Tech Reactor)
+				PacifistUnitCommands
+				TechReactor/BarracksFlying=Z
+				Land=L
+				
+		Factory
+			General
+				Vulture/Factory=V
+				Hellion/Factory=E
+				Goliath/Factory=G
+				SiegeTank/Factory=S
+				SelectBuilder=Q
+				Rally=Y
+				TechLabFactory/Factory=X
+				Reactor/Factory=C
+				TechReactorAI/Factory=Z
+				Lift=L
+				Cancel=Escape
+
+			Flying
+				PacifistUnitCommands
+				BuildTechLabFactory/FactoryFlying=X
+				Reactor/FactoryFlying=C
+				Land=L
+				
+			Flying (Tech Reactor)
+				PacifistUnitCommands
+				TechReactor/FactoryFlying=Z
+				Land=L
+
+		Starport
+			General
+				VikingFighter/Starport=V
+				Medivac/Starport=D
+				Raven/Starport=R
+				Banshee/Starport=E
+				Battlecruiser/Starport=B
+				Wraith/Starport=A
+				BuildHercules/Starport=H
+				SelectBuilder=Q
+				Rally=Y
+				TechLabStarport/Starport=X
+				Reactor/Starport=C
+				TechReactorAI/Starport=Z
+				Lift=L
+				Cancel=Escape
+
+			Flying
+				PacifistUnitCommands
+				BuildTechLabStarport/StarportFlying=X
+				Reactor/StarportFlying=C
+				Land=L
+				
+			Flying (Tech Reactor)
+				PacifistUnitCommands
+				TechReactor/StarportFlying=Z
+				Land=L
+
+		Bunker
+			Stop=S
+			Attack=A
+			SelectBuilder=Q
+			SetBunkerRallyPoint/Bunker=Y
+			Stim=T
+			BunkerLoad=L
+			BunkerUnloadAll=D
+			Salvage/Bunker=V
+			Cancel=Escape
+			
+		Planetary Fortress
+			SCV=S
+			StopPlanetaryFortress/PlanetaryFortress=P
+			Attack=A
+			Rally=Y
+			CommandCenterLoad=O
+			CommandCenterUnloadAll=D
+			Cancel=Escape
+
+		Missile Turret
+			Stop=S
+			Attack=A
+			SelectBuilder=Q
+			Halt=T
+			Cancel=Escape
+
+Terran Story
+	Units
+		Medic
+			BasicUnitCommands
+			MedicHeal/Medic=E,Auto-Cast
+			
+		Skibi's Angels (Merc Medic)
+			BasicUnitCommands
+			MercMedicHeal/MercMedic=E,Auto-Cast
+			
+		Firebat
+			BasicUnitCommands
+			IncineratorNozzles/Firebat=R
+			StimFirebat/Firebat=T
+			
+		Devil Dog (Firebat Merc)
+			BasicUnitCommands
+			IncineratorNozzles/DevilDog=R
+			StimFirebat/DevilDog=T
+			
+		Death Head (Reaper Merc)
+			BasicUnitCommands
+			D8Charge/MercReaper=G
+		
+		Hammer Securities (Marauder Merc)
+			BasicUnitCommands
+			Stim=T
+			JackhammerConcussionGrenade/HammerSecurity=C
+
+		Spectre
+			General
+				BasicUnitCommands
+				SpectreHoldFire/Spectre=F
+				SpectreWeaponsFree/Spectre=G
+				UltrasonicPulse/Spectre=U
+				Obliterate/Spectre=I
+				CloakOnBanshee=C
+				SpectreNukeCalldown/Spectre=N
+				Cancel=Escape
+				
+			Cloaked
+				BasicUnitCommands
+				SpectreHoldFire/Spectre=F
+				SpectreWeaponsFree/Spectre=G
+				UltrasonicPulse/Spectre=U
+				Obliterate/Spectre=I
+				CloakOff=D
+				SpectreNukeCalldown/Spectre=N
+				Cancel=Escape
+
+		Vulture
+			BasicUnitCommands
+			SpiderMine/Vulture=E
+			SpiderMineReplenish/Vulture=R,Auto-Cast
+			Cancel=Escape
+
+		Wraith
+			BasicUnitCommands
+			WraithCloakOn/Wraith=C
+			WraithCloakOff/Wraith=D
+
+		Science Vessel
+			BasicUnitCommands
+			NanoRepair/ScienceVessel=N,Auto-Cast
+			Irradiate/ScienceVessel=R
+
+		Hercules
+			BasicUnitCommands
+			HerculesLoad/Hercules=L
+			HerculesUnloadAll/Hercules=D
+
+		Jim Raynor
+			Castanar
+				BasicUnitCommands
+				PlantC4Charge/Raynor=D
+				TossGrenade/Raynor=T
+				ExperimentalPlasmaGun/Raynor=G
+				TheMorosDevice/Raynor=R
+
+			Char
+				BasicUnitCommands
+				RaynorSnipe/RaynorCommando=T
+
+		Tychus Findlay
+			BasicUnitCommands
+			TossGrenadeTychus/TychusCommando=T
+
+		Rory Swann
+			BasicUnitCommands
+			DutchPlaceTurret/Swann=T
+
+		Egon Stetmann
+			BasicUnitCommands
+			BonesHeal/Stetmann=E,Auto-Cast
+
+		Nova
+			BasicUnitCommands
+			NovaSnipe/Nova=R
+			Domination/Nova=D
+			ReleaseMinion/Nova=E
+			HeroNukeCalldown/Nova=N
+			Cancel=Escape
+
+		Gabriel Tosh
+			BasicUnitCommands
+			MindBlast/Tosh=B
+			VoodooShield/Tosh=D
+			Consumption/Tosh=C
+			HeroNukeCalldown/Tosh=N
+
+		Odin
+			BasicUnitCommands
+			OdinBarrage/Odin=B
+			OdinNukeCalldown/Odin=N
+			Cancel=Escape
+
+	Structures
+		Science Facility
+			ResearchMedic/ScienceFacility=C
+			ResearchFirebat/ScienceFacility=F
+			ResearchReaper/ScienceFacility=R
+			ResearchHellion/ScienceFacility=H
+			ResearchGoliath/ScienceFacility=G
+			ResearchSiegeTank/ScienceFacility=T
+			ResearchBunkerUpgrade/ScienceFacility=B
+			ResearchPerditionTurret/ScienceFacility=P
+			ResearchFireSuppression/ScienceFacility=Y
+			ResearchTechReactor/ScienceFacility=E
+	
+		Tech Reactor (Attached to Starport)
+			ResearchMedivacEnergyUpgrade/StarportTechReactor=A
+			ResearchBansheeCloak/StarportTechReactor=C
+			ResearchRavenEnergyUpgrade/StarportTechReactor=T
+			WraithCloak/StarportTechReactor=L
+			ResearchDurableMaterials/StarportTechReactor=D
+			ResearchSeekerMissile/StarportTechReactor=R
+			Cancel=Escape
+
+		Merc Compound
+			HireKelmorianMiners/MercCompound=P
+			HireDevilDogs/MercCompound=L
+			HireHammerSecurities/MercCompound=H
+			HireSpartanCompany/MercCompound=C
+			HireSiegeBreakers/MercCompound=K
+			HireHelsAngels/MercCompound=A
+			HireDuskWing/MercCompound=I
+			SelectBuilder=Q
+			Rally=Y
+			HireDukesRevenge/MercCompound=U
+			Halt=T
+			Cancel=Escape
+
+		Hive Mind Emulator
+			MindControl/HiveMindEmulator=C
+			Cancel=Escape

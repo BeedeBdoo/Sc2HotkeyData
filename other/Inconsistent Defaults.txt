@@ -1,0 +1,29 @@
+HotS: W, LotV: T
+DehakaMirrorImage/Dehaka
+StukovInfestedTerrans/InfestedStukov
+PsionicLift/K5Kerrigan
+PsionicLift/K5KerriganBurrowed
+PsionicLift/KerriganGhostLab=
+SwarmQueenZergling/HugeSwarmQueen
+SwarmQueenZergling/LargeSwarmQueen
+SwarmQueenZergling/SwarmQueen
+SwarmQueenZergling/SwarmQueenEgg
+PoisonNova/HotSNoxious
+SJHyperionFighters/SJHyperion
+
+Coop: E 		LotV: Q
+VoidDarkTemplarShadowFury/DarkTemplarShakuras
+
+HotS, LotV MP: T		LotV Campaign: C
+TemporalField/Mothership
+TemporalField/MothershipCore
+
+Coop: S		Left2Die mod: E
+ResearchStabilizerMedpacks/BarracksTechLab
+ResearchStabilizerMedPacks/BarracksTechReactor
+
+WoL Campaign: G			LotV Campaign: S
+Spectre/Barracks
+
+WoL Campaign: A			Hots Campaign: W		Coop, LotV Campaign: T
+Wraith/Starport

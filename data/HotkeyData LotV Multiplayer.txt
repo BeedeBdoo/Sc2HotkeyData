@@ -1,0 +1,814 @@
+Protoss
+	Units
+		Probe
+			General
+				BasicUnitCommands
+				GatherProt=G
+				ReturnCargo=C
+				ProtossBuild/Probe=B
+				ProtossBuildAdvanced/Probe=V
+
+			Basic Structures
+				Nexus/Probe=N
+				Assimilator/Probe=A
+				Pylon/Probe=E
+				Gateway/Probe=G
+				Forge/Probe=F
+				CyberneticsCore/Probe=Y
+				PhotonCannon/Probe=C
+				Cancel=Escape
+
+			ProbeAdvanced Structures
+				TwilightCouncil/Probe=C
+				Stargate/Probe=S
+				RoboticsFacility/Probe=R
+				TemplarArchive/Probe=T
+				FleetBeacon/Probe=F
+				RoboticsBay/Probe=B
+				DarkShrine/Probe=D
+				Cancel=Escape
+
+		Zealot
+			BasicUnitCommands
+			Charge/Zealot=C,Auto-Cast
+			Rally=Y
+
+		Adept
+			BasicUnitCommands
+			AdeptPhaseShift/Adept=F
+			Rally=Y
+
+		Sentry
+			General
+				BasicUnitCommands
+				GuardianShield/Sentry=G
+				ForceField/Sentry=F
+				Hallucination/Sentry=C
+				Rally=Y
+
+			Hallucinations
+				ProbeHallucination/Sentry=E
+				ZealotHallucination/Sentry=Z
+				AdeptHallucination/Sentry=H
+				StalkerHallucination/Sentry=S
+				ImmortalHallucination/Sentry=I
+				HighTemplarHallucination/Sentry=T
+				ArchonHallucination/Sentry=N
+				VoidRayHallucination/Sentry=V
+				PhoenixHallucination/Sentry=X
+				WarpPrismHallucination/Sentry=R
+				OracleHallucination/Sentry=L
+				ColossusHallucination/Sentry=C
+				DisruptorHallucination/Sentry=D
+				Cancel=Escape
+
+		Stalker
+			BasicUnitCommands
+			Blink/Stalker=B
+			Rally=Y
+
+		Dark Templar
+			BasicUnitCommands
+			AWrp=C
+			Rally=Y
+
+		High Templar
+			BasicUnitCommands
+			Feedback/HighTemplar=F
+			PsiStorm/HighTemplar=T
+			AWrp=C
+			Rally=Y
+
+		Warp Prism
+			BasicUnitCommands
+			PhasingMode/WarpPrism=E
+			TransportMode/WarpPrism=T
+			BunkerLoad=L
+			BunkerUnloadAll=D
+
+		Immortal
+			BasicUnitCommands
+			ImmortalOverload/Immortal=B,Auto-Cast
+
+		Disruptor
+			BasicUnitCommands
+			PurificationNovaTargeted/Disruptor=V
+			Rally=Y
+
+		Phoenix
+			BasicUnitCommands
+			GravitonBeam/Phoenix=G
+			Cancel=Escape
+
+		Void Ray
+			BasicUnitCommands
+			VoidRaySwarmDamageBoost/VoidRay=E
+
+		Oracle
+			PacifistUnitCommands
+			OracleAttack=A
+			OracleRevelation/Oracle=R
+			OracleBuildStasisTrap/Oracle=T
+			OracleWeaponOn/Oracle=C
+			OracleWeaponOff/Oracle=D
+			Cancel=Escape
+
+		Carrier
+			BasicUnitCommands
+			Interceptor/Carrier=I,Auto-Cast
+			ReleaseInterceptors/Carrier=R
+			Cancel=Escape
+
+		Mothership Core
+			BasicUnitCommands
+			MorphToMothership/MothershipCore=U
+			MothershipCoreWeapon/MothershipCore=F
+			MothershipCoreMassRecall/MothershipCore=R
+			TemporalField/MothershipCore=T
+			Cancel=Escape
+
+		Mothership
+			BasicUnitCommands
+			MothershipCoreWeapon/Mothership=F
+			MothershipMassRecall/Mothership=R
+			TemporalField/Mothership=T
+
+	Structures
+		Nexus
+			Probe/Nexus=E
+			MothershipCore/Nexus=M
+			Stop=S
+			Attack=A
+			Rally=Y
+			TimeWarp/Nexus=C
+			Cancel=Escape
+
+		Gateway
+			General
+				Zealot=Z
+				Sentry=E
+				Stalker=S
+				WarpInAdept/Gateway=H
+				HighTemplar=T
+				DarkTemplar=D
+				Rally=Y
+				UpgradeToWarpGate/Gateway=G
+				Cancel=Escape
+
+			Warp Gate
+				Zealot=Z
+				Sentry=E
+				Stalker=S
+				WarpInAdept/WarpGate=H
+				HighTemplar=T
+				DarkTemplar=D
+				Rally=Y
+				MorphBackToGateway/WarpGate=M
+
+		Forge
+			ProtossGroundWeaponsLevel1/Forge=G
+			ProtossGroundArmorLevel1/Forge=A
+			ProtossShieldsLevel1/Forge=S
+			Cancel=Escape
+
+		Cybernetics Core
+			ProtossAirWeaponsLevel1/CyberneticsCore=E
+			ProtossAirArmorLevel1/CyberneticsCore=A
+			ResearchWarpGate/CyberneticsCore=G
+			Cancel=Escape
+
+		Twilight Council
+			ResearchCharge/TwilightCouncil=C
+			ResearchStalkerTeleport/TwilightCouncil=B
+			AdeptResearchPiercingUpgrade/TwilightCouncil=A
+			Cancel=Escape
+
+		Stargate
+			Phoenix/Stargate=X
+			Oracle/Stargate=E
+			VoidRay/Stargate=V
+			Tempest/Stargate=T
+			Carrier/Stargate=C
+			Rally=Y
+			Cancel=Escape
+
+		Robotics Facility
+			Observer/RoboticsFacility=B
+			WarpPrism/RoboticsFacility=A
+			Immortal/RoboticsFacility=I
+			Colossus/RoboticsFacility=C
+			WarpinDisruptor/RoboticsFacility=D
+			Rally=Y
+			Cancel=Escape
+
+		Templar Archives
+			ResearchPsiStorm/TemplarArchive=T
+			Cancel=Escape
+
+		Fleet Beacon
+			AnionPulseCrystals/FleetBeacon=R
+			ResearchInterceptorLaunchSpeedUpgrade/FleetBeacon=G
+			Cancel=Escape
+
+		Robotics Bay
+			ResearchGraviticBooster/RoboticsBay=B
+			ResearchGraviticDrive/RoboticsBay=G
+			ResearchExtendedThermalLance/RoboticsBay=E
+			Cancel=Escape
+
+Terran
+	Units
+		SCV
+			General
+				BasicUnitCommands
+				GatherProt=G
+				ReturnCargo=C
+				TerranBuild/SCV=B
+				TerranBuildAdvanced/SCV=V
+				Repair=R
+				Halt=T
+
+			Basic Structures
+				CommandCenter/SCV=C
+				Refinery/SCV=R
+				SupplyDepot/SCV=S
+				Barracks/SCV=B
+				EngineeringBay/SCV=E
+				Bunker/SCV=U
+				MissileTurret/SCV=T
+				SensorTower/SCV=N
+				Cancel=Escape
+
+			Advanced Structures
+				GhostAcademy/SCV=G
+				Factory/SCV=F
+				Armory/SCV=A
+				Starport/SCV=S
+				FusionCore/SCV=C
+				Cancel=Escape
+
+		Marine
+			BasicUnitCommands
+			Stim=T
+
+		Reaper
+			BasicUnitCommands
+			KD8Charge/Reaper=D
+
+		Ghost
+			BasicUnitCommands
+			CloakOnBanshee=C
+			CloakOff=D
+			GhostHoldFire/Ghost=F
+			WeaponsFree/Ghost=G
+			ChannelSnipe/Ghost=R
+			EMP/Ghost=E
+			NukeCalldown/Ghost=N
+			Cancel=Escape
+
+		Hellion
+			BasicUnitCommands
+			MorphToHellion/Hellion=E
+			MorphToHellionTank/Hellion=D
+
+		Widow Mine
+			BasicUnitCommands
+			WidowMineBurrow/WidowMine=E
+			WidowMineUnburrow/WidowMine=D
+
+		Siege Tank
+			BasicUnitCommands
+			SiegeMode=E
+			Unsiege=D
+
+		Cyclone
+			BasicUnitCommands
+			LockOn/Cyclone=C
+			Cancel=Escape
+
+		Viking
+			BasicUnitCommands
+			FighterMode=E
+			AssaultMode=D
+
+		Medivac
+			BasicUnitCommands
+			Heal/Medivac=E,Auto-Cast
+			MedivacSpeedBoost/Medivac=B
+			BunkerLoad=L
+			BunkerUnloadAll=D
+
+		Liberator
+			BasicUnitCommands
+			LiberatorAGMode/Liberator=E
+			LiberatorAAMode/Liberator=D
+
+		Raven
+			BasicUnitCommands
+			AutoTurret/Raven=T
+			PointDefenseDrone/Raven=D
+			HunterSeekerMissile/Raven=R
+
+		Battlecruiser
+			BasicUnitCommands
+			YamatoGun=Y
+			Hyperjump/Battlecruiser=T
+
+	Structures
+		Command Center
+			General
+				SCV=S
+				OrbitalCommand/CommandCenter=B
+				UpgradeToPlanetaryFortress/CommandCenter=P
+				SelectBuilder=Q
+				Rally=Y
+				CommandCenterLoad=O
+				CommandCenterUnloadAll=D
+				Lift=L
+				Halt=T
+				Cancel=Escape
+
+			Flying
+				PacifistUnitCommands
+				CommandCenterLoad=O
+				CommandCenterUnloadAll=D
+				Land=L
+
+			Construction
+				SelectBuilder=Q
+				Rally=Y
+				Halt=T
+				Cancel=Escape
+
+		Orbital Command
+			SCV=S
+			Rally=Y
+			CalldownMULE/OrbitalCommand=E
+			SupplyDrop/OrbitalCommand=X
+			Scan/OrbitalCommand=C
+			Lift=L
+			Cancel=Escape
+
+		Planetary Fortress
+			SCV=S
+			StopPlanetaryFortress/PlanetaryFortress=P
+			Attack=A
+			Rally=Y
+			CommandCenterLoad=O
+			CommandCenterUnloadAll=D
+			Cancel=Escape
+
+		Supply Depot
+			General
+				SelectBuilder=Q
+				Lower/SupplyDepot=R
+				Halt=T
+				Cancel=Escape
+
+			Lowered
+				Raise/SupplyDepotLowered=R
+
+		Barracks
+			General
+				Marine/Barracks=A
+				Reaper/Barracks=R
+				Marauder/Barracks=D
+				Ghost/Barracks=G
+				SelectBuilder=Q
+				Rally=Y
+				TechLabBarracks/Barracks=X
+				Reactor/Barracks=C
+				Lift=L
+				Halt=T
+				Cancel=Escape
+
+			Flying
+				PacifistUnitCommands
+				TechLabBarracks/BarracksFlying=X
+				Reactor/BarracksFlying=C
+				Land=L
+
+			Engineering BayGeneral
+			TerranInfantryWeaponsLevel1/EngineeringBay=E
+			TerranInfantryArmorLevel1/EngineeringBay=A
+			ResearchHiSecAutoTracking/EngineeringBay=H
+			ResearchNeosteelFrame/EngineeringBay=N
+			UpgradeBuildingArmorLevel1/EngineeringBay=B
+			SelectBuilder=Q
+			Halt=T
+			Cancel=Escape
+
+		Bunker
+			General
+				Stop=S
+				Attack=A
+				SelectBuilder=Q
+				SetBunkerRallyPoint/Bunker=Y
+				Stim=T
+				BunkerLoad=L
+				BunkerUnloadAll=D
+				Salvage/Bunker=V
+				Cancel=Escape
+
+			Construction
+				SelectBuilder=Q
+				SetBunkerRallyPoint/Bunker=Y
+				Halt=T
+				Cancel=Escape
+
+		Missile Turret
+			Stop=S
+			Attack=A
+			SelectBuilder=Q
+			Halt=T
+			Cancel=Escape
+
+		Ghost Academy
+			ResearchPersonalCloaking/GhostAcademy=C
+			SelectBuilder=Q
+			NukeArm/GhostAcademy=N
+			Halt=T
+			Cancel=Escape
+
+		Factory
+			General
+				Hellion/Factory=E
+				WidowMine/Factory=D
+				SiegeTank/Factory=S
+				BuildCyclone/Factory=N
+				HellionTank/Factory=R
+				Thor/Factory=T
+				SelectBuilder=Q
+				Rally=Y
+				TechLabFactory/Factory=X
+				Reactor/Factory=C
+				Lift=L
+				Cancel=Escape
+
+			Flying
+				PacifistUnitCommands
+				BuildTechLabFactory/FactoryFlying=X
+				Reactor/FactoryFlying=C
+				Land=L
+
+		Armory
+			TerranVehicleWeaponsLevel1/Armory=E
+			TerranVehicleAndShipPlatingLevel1/Armory=V
+			TerranShipWeaponsLevel1/Armory=S
+			SelectBuilder=Q
+			Halt=T
+			Cancel=Escape
+
+		Starport
+			General
+				VikingFighter/Starport=V
+				Medivac/Starport=D
+				Liberator/Starport=N
+				Raven/Starport=R
+				Banshee/Starport=E
+				Battlecruiser/Starport=B
+				SelectBuilder=Q
+				Rally=Y
+				TechLabStarport/Starport=X
+				Reactor/Starport=C
+				Lift=L
+				Cancel=Escape
+
+			Flying
+				PacifistUnitCommands
+				BuildTechLabStarport/StarportFlying=X
+				Reactor/StarportFlying=C
+				Land=L
+
+		Fusion Core
+			ResearchBattlecruiserSpecializations/FusionCore=R
+			ResearchBattlecruiserEnergyUpgrade/FusionCore=B
+			SelectBuilder=Q
+			Halt=T
+			Cancel=Escape
+
+		Tech Lab
+			Attached to Barracks
+				ResearchShieldWall/BarracksTechLab=C
+				Stimpack/BarracksTechLab=T
+				ResearchPunisherGrenades/BarracksTechLab=G
+				Cancel=Escape
+
+			Attached to Factory
+				ResearchHighCapacityBarrels/FactoryTechLab=I
+				ResearchDrillClaws/FactoryTechLab=C
+				CycloneResearchLockOnDamageUpgrade/FactoryTechLab=R
+				Cancel=Escape
+
+			Attached to Starport
+				ResearchHighCapacityFuelTanks/StarportTechLab=R
+				ResearchExplosiveShrapnelShells/StarportTechLab=E
+				ResearchRavenEnergyUpgrade/StarportTechLab=T
+				ResearchBansheeCloak/StarportTechLab=C
+				BansheeSpeed/StarportTechLab=B
+				ResearchBallisticRange/StarportTechLab=N
+				Cancel=Escape
+
+Zerg
+	Units
+		Larva
+			Zerg Cocoon
+				Attack=A
+				Rally=Y
+				Cancel=Escape
+
+			General
+				Drone/Larva=D
+				Overlord/Larva=V
+				Zergling/Larva=Z
+				Roach/Larva=R
+				Hydralisk/Larva=H
+				Mutalisk/Larva=T
+				Corruptor/Larva=C
+				Infestor/Larva=F
+				SwarmHostMP/Larva=A
+				Viper/Larva=E
+				Ultralisk/Larva=U
+				Cancel=Escape
+
+		Drone
+			General
+				BasicUnitCommands
+				GatherProt=G
+				ReturnCargo=C
+				ZergBuild/Drone=B
+				ZergBuildAdvanced/Drone=V
+				BurrowDown=R
+
+			Basic Structures
+				Hatchery/Drone=H
+				Extractor/Drone=E
+				SpawningPool/Drone=S
+				EvolutionChamber/Drone=V
+				RoachWarren/Drone=R
+				BanelingNest/Drone=B
+				SpineCrawler/Drone=C
+				SporeCrawler/Drone=A
+				Cancel=Escape
+
+			Advanced Structures
+				HydraliskDen/Drone=H
+				InfestationPit/Drone=I
+				Spire/Drone=S
+				NydusNetwork/Drone=N
+				UltraliskCavern/Drone=U
+				Cancel=Escape
+
+		Zergling
+			BasicUnitCommands
+			Baneling/Zergling=E
+			BurrowDown=R
+
+		Baneling
+			General
+				BasicUnitCommands
+				Explode/Baneling=X
+				EnableBuildingAttack/Baneling=F
+				DisableBuildingAttack/Baneling=G
+				BurrowDown=R
+
+			Burrowed
+				Attack=A
+				Explode/BanelingBurrowed=X
+				BurrowUp=R,Auto-Cast
+
+		Roach
+			BasicUnitCommands
+			Ravager/Roach=V
+			BurrowDown=R
+
+		Ravager
+			BasicUnitCommands
+			RavagerCorrosiveBile/Ravager=C
+			BurrowDown=R
+
+		Hydralisk
+			BasicUnitCommands
+			LurkerMP/Hydralisk=E
+			BurrowDown=R
+
+		Lurker
+			General
+				BasicUnitCommands
+				BurrowLurkerMP=R
+
+			Burrowed
+				Stop=S
+				Attack=A
+				LurkerHoldFire/LurkerMPBurrowed=F
+				LurkerCancelHoldFire/LurkerMPBurrowed=G
+				LurkerBurrowUp=R
+
+		Viper
+			BasicUnitCommands
+			ViperConsume/Viper=C
+			FaceEmbrace/Viper=D
+			BlindingCloud/Viper=B
+			ParasiticBomb/Viper=R
+
+		Corruptor
+			BasicUnitCommands
+			CausticSpray/Corruptor=C
+			BroodLord/Corruptor=B
+			Cancel=Escape
+
+		Swarm Host
+			Burrowed
+				Attack=A
+				VoidSwarmHostSpawnLocust/SwarmHostBurrowedMP=C
+				SwarmHostBurrowUp=R
+
+			General
+				BasicUnitCommands
+				SwarmHost/SwarmHostMP=C
+				SwarmHostBurrowDown=R
+
+		Locust (Flying)
+			BasicUnitCommands
+			LocustMPFlyingSwoop/LocustMPFlying=Z,Auto-Cast
+
+		Infestor
+			General
+				BasicUnitCommands
+				InfestedTerrans/Infestor=T
+				FungalGrowth/Infestor=F
+				NeuralParasite/Infestor=E
+				Cancel=Escape
+				BurrowDown=R
+
+			Burrowed
+				BasicUnitCommands
+				InfestedTerrans/InfestorBurrowed=T
+				BurrowUp=R,Auto-Cast
+
+		Overlord
+			General (BunkerUnloadAll shouldn't be here)
+				BasicUnitCommands
+				MorphToOverseer/Overlord=V
+				GenerateCreep/Overlord=G
+				MorphtoOverlordTransport/Overlord=T
+				BunkerUnloadAll=D
+				Cancel=Escape
+
+			Creeping (BunkerUnloadAll shouldn't be here)
+				BasicUnitCommands
+				MorphToOverseer/Overlord=V
+				StopGenerateCreep=C
+				MorphtoOverlordTransport/Overlord=T
+				BunkerUnloadAll=D
+				Cancel=Escape
+
+		Droplord
+			General
+				BasicUnitCommands
+				MorphToOverseer/Overlord=V
+				GenerateCreep/Overlord=G
+				BunkerLoad=L
+				BunkerUnloadAll=D
+				Cancel=Escape
+
+			Creeping
+				BasicUnitCommands
+				MorphToOverseer/Overlord=V
+				StopGenerateCreep=C
+				BunkerLoad=L
+				BunkerUnloadAll=D
+				Cancel=Escape
+
+		Overseer
+			BasicUnitCommands
+			SpawnChangeling/Overseer=C
+			Contaminate/Overseer=E
+
+		Queen
+			BasicUnitCommands
+			BuildCreepTumor/Queen=C
+			MorphMorphalisk/Queen=V
+			Transfusion/Queen=T
+			BurrowDown=R
+			
+	Structures
+		Hatchery
+			Larva=S
+			Queen=Q
+			ResearchBurrow=B
+			overlordspeed=P
+			RallyEgg=G
+			Rally=Y
+			Lair/Hatchery=L
+			Cancel=Escape
+
+		Lair
+			Larva=S
+			Queen=Q
+			ResearchBurrow=B
+			overlordspeed=P
+			RallyEgg=G
+			Rally=Y
+			Hive/Lair=H
+			Cancel=Escape
+
+		Hive
+			Larva=S
+			Queen=Q
+			ResearchBurrow=B
+			overlordspeed=P
+			RallyEgg=G
+			Rally=Y
+			Cancel=Escape
+
+		Spawning Pool
+			zerglingmovementspeed/SpawningPool=M
+			zerglingattackspeed/SpawningPool=A
+			Cancel=Escape
+
+		Evolution Chamber
+			zergmeleeweapons1/EvolutionChamber=M
+			zergmissileweapons1/EvolutionChamber=A
+			zerggroundarmor1/EvolutionChamber=C
+			Cancel=Escape
+
+		Roach Warren
+			EvolveGlialRegeneration/RoachWarren=G
+			EvolveTunnelingClaws/RoachWarren=T
+			Cancel=Escape
+
+		Baneling Nest
+			EvolveCentrificalHooks/BanelingNest=C
+			Cancel=Escape
+
+		Spine Crawler
+			General
+				Stop=S
+				Attack=A
+				SpineCrawlerUproot/SpineCrawler=R
+				Cancel=Escape
+
+			Uprooted
+				BasicUnitCommands
+				SpineCrawlerRoot/SpineCrawlerUprooted=R
+				Cancel=Escape
+
+		Spore Crawler
+			General
+				Stop=S
+				Attack=A
+				SporeCrawlerUproot/SporeCrawler=R
+				Cancel=Escape
+
+			Uprooted
+				BasicUnitCommands
+				SporeCrawlerRoot/SporeCrawlerUprooted=R
+				Cancel=Escape
+
+		Hydralisk Den
+			hydraliskspeed/HydraliskDen=G
+			MutateintoLurkerDen/HydraliskDen=D
+			Cancel=Escape
+
+		Lurker Den
+			hydraliskspeed/LurkerDenMP=G
+			Cancel=Escape
+
+		Infestation Pit
+			EvolveInfestorEnergyUpgrade/InfestationPit=G
+			ResearchNeuralParasite/InfestationPit=E
+			Cancel=Escape
+
+		Spire
+			zergflyerattack1=A
+			zergflyerarmor1=C
+			GreaterSpire/Spire=G
+			Cancel=Escape
+
+		Greater Spire
+			zergflyerattack1=A
+			zergflyerarmor1=C
+			Cancel=Escape
+
+		Nydus Network
+			Stop=S
+			SummonNydusWorm/NydusNetwork=N
+			Rally=Y
+			BunkerLoad=L
+			BunkerUnloadAll=D
+			Cancel=Escape
+
+		Ultralisk Cavern
+			EvolveChitinousPlating/UltraliskCavern=C
+			Cancel=Escape
+
+		Creep Tumor
+			BuildCreepTumorPropagate/CreepTumorBurrowed=C
+			Cancel=Escape
+
+		Nydus Worm
+			Stop=S
+			Rally=Y
+			BunkerLoad=L
+			BunkerUnloadAll=D

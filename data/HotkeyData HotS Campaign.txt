@@ -1,0 +1,447 @@
+Protoss
+	Units
+		Stargate
+			Phoenix/Stargate=X
+			VoidRay/Stargate=V
+			Carrier/Stargate=C
+			Oracle/Stargate=E
+			Tempest/Stargate=T
+			WarpInScout/Stargate=S
+			Rally=Y
+			Cancel=Escape
+
+		Fleet Beacon
+			ResearchInterceptorLaunchSpeedUpgrade/FleetBeacon=G
+			OracleEnergyUpgrade/FleetBeacon=A
+			TempestRangeUpgrade/FleetBeacon=S
+			Cancel=Escape
+
+Terran
+	Structures
+		Barracks
+			General
+				Marine/Barracks=A
+				Marauder/Barracks=D
+				Reaper/Barracks=R
+				Ghost/Barracks=G
+				Medic/Barracks=E
+				Firebat/Barracks=F
+				Spectre/Barracks=S
+				SelectBuilder=Q
+				Rally=Y
+				TechLabBarracks/Barracks=X
+				Reactor/Barracks=C
+				TechReactorAI/Barracks=Z
+				Lift=L
+				Cancel=Escape
+				
+			General (non-constructing)
+				Marine/Barracks=A
+				Marauder/Barracks=D
+				Reaper/Barracks=R
+				Ghost/Barracks=G
+				Medic/Barracks=E
+				Firebat/Barracks=F
+				Spectre/Barracks=S
+				MengskUnits/Barracks=M
+				Rally=Y
+				TechLabBarracks/Barracks=X
+				Reactor/Barracks=C
+				TechReactorAI/Barracks=Z
+				Lift=L
+				Cancel=Escape
+				
+			Mengsk Units
+				Marine/Barracks=A
+				Marauder/Barracks=D
+				Reaper/Barracks=R
+				Firebat/Barracks=F
+				Medic/Barracks=E
+				HireKelmorianMiners/Barracks=P
+				HireHammerSecurities/Barracks=H
+				HireDevilDogs/Barracks=L
+				MercReaper/Barracks=J
+				MercMedic/Barracks=B
+				Cancel=Escape
+			
+		Factory
+			General
+				Hellion/Factory=E
+				SiegeTank/Factory=S
+				WarHound/Factory=R
+				CampaignVehicles/Factory=A
+				SelectBuilder=Q
+				Rally=Y
+				TechLabFactory/Factory=X
+				Reactor/Factory=C
+				TechReactorAI/Factory=Z
+				Lift=L
+				Cancel=Escape
+			
+			General (non-constructing)
+				Hellion/Factory=E
+				SiegeTank/Factory=S
+				WarHound/Factory=R
+				CampaignVehicles/Factory=A
+				MengskUnits/Factory=M
+				Rally=Y
+				TechLabFactory/Factory=X
+				Reactor/Factory=C
+				TechReactorAI/Factory=Z
+				Lift=L
+				Cancel=Escape
+				
+			Campaign Vehicles
+				Vulture/Factory=V
+				Predator/Factory=P
+				Diamondback/Factory=D
+				Goliath/Factory=G
+				MicroBot/Factory=M
+				Thor/Factory=T
+				Hellion/Factory=E
+				Cancel=Escape
+
+			Mengsk Units
+				Hellion/Factory=E
+				Goliath/Factory=G
+				SiegeTank/Factory=S
+				Diamondback/Factory=D
+				Thor/Factory=T
+				MercHellion/Factory=N
+				HireSpartanCompany/Factory=C
+				HireSiegeBreakers/Factory=K
+				Cancel=Escape
+				
+		Starport
+			General
+				VikingFighter/Starport=V
+				Medivac/Starport=D
+				Raven/Starport=R
+				Banshee/Starport=E
+				Battlecruiser/Starport=B
+				CampaignVehicles=A
+				SelectBuilder=Q
+				Rally=Y
+				TechLabStarport/Starport=X
+				Reactor/Starport=C
+				TechReactorAI/Starport=Z
+				Lift=L
+				Cancel=Escape
+				
+			General (non-constructing)
+				VikingFighter/Starport=V
+				Medivac/Starport=D
+				Raven/Starport=R
+				Banshee/Starport=E
+				Battlecruiser/Starport=B
+				CampaignVehicles=A
+				MengskUnits/Starport=M
+				Rally=Y
+				TechLabStarport/Starport=X
+				Reactor/Starport=C
+				TechReactorAI/Starport=Z
+				Lift=L
+				Cancel=Escape
+
+			Campaign Vehicles
+				Wraith/Starport=W
+				BuildHercules/Starport=H
+				Raven/Starport=R
+				Battlecruiser/Starport=B
+				Cancel=Escape
+
+			Mengsk Units
+				VikingFighter/Starport=V
+				Banshee/Starport=E
+				Wraith/Starport=W
+				Battlecruiser/Starport=B
+				HireDuskWing/Starport=I
+				HireHelsAngels/Starport=A
+				HireDukesRevenge/Starport=U
+				Cancel=Escape
+				
+			
+Terran Story
+	Units
+		Hyperion
+			BasicUnitCommands
+			SJHyperionFightersRecall/SJHyperion=X
+			SJHyperionBlink/SJHyperion=Q
+			SJHyperionFighters/SJHyperion=W
+			SJHyperionYamato/SJHyperion=E
+			SJHyperionLightningStorm/SJHyperion=R
+			
+			
+Zerg
+	Units
+		Larva
+			Swarm Queen Egg
+				SwarmQueenZergling/SwarmQueenEgg=W
+				SwarmQueenRoach/SwarmQueenEgg=E
+				SwarmQueenHydralisk/SwarmQueenEgg=D
+				Cancel=Escape
+				
+		Zergling (Swarmling Strain)
+			BasicUnitCommands
+			Baneling/HotSSwarmling=E
+			BurrowDown=R
+			
+		Zergling (Raptor Strain)
+			BasicUnitCommands
+			Baneling/HotSRaptor=E
+			BurrowDown=R
+
+		Baneling (Splitter Strain)
+			General
+				BasicUnitCommands
+				Explode/HotSSplitterlingBig=X
+				EnableBuildingAttack/HotSSplitterlingBig=F
+				BurrowDown=R
+
+			Enabled Building Attack
+				BasicUnitCommands
+				Explode/HotSSplitterlingBig=X
+				DisableBuildingAttack/HotSSplitterlingBig=G
+				BurrowDown=R
+
+			Burrowed
+				Attack=A
+				Explode/HotSSplitterlingBigBurrowed=X
+				BurrowUp=R,Auto-Cast
+		
+		Baneling (Splitter Strain,split)
+			General
+				BasicUnitCommands
+				Explode/HotSSplitterlingBig=X
+				EnableBuildingAttackSplitterling/HotSSplitterlingBig=F
+				BurrowDown=R
+
+			Enabled Building Attack
+				BasicUnitCommands
+				Explode/HotSSplitterlingBig=X
+				DisableBuildingAttackSplitterling/HotSSplitterlingBig=G
+				BurrowDown=R
+
+			Burrowed
+				Attack=A
+				Explode/HotSSplitterlingBigBurrowed=X
+				BurrowUp=R,Auto-Cast
+
+		Baneling (Hunter Strain)
+			General
+				BasicUnitCommands
+				Explode/HotSHunter=X
+				EnableBuildingAttack/HotSHunter=F
+				BurrowDown=R
+
+			Enabled Building Attack
+				BasicUnitCommands
+				Explode/HotSHunter=X
+				DisableBuildingAttack/HotSHunter=G
+				BurrowDown=R
+
+			Burrowed
+				Explode/HotSHunterBurrowed=X
+				BurrowUp=R,Auto-Cast
+		
+		Hydralisk (Impaler Strain)
+			BasicUnitCommands
+			Impaler/HydraliskImpaler=E
+			HydraliskFrenzy/HydraliskImpaler=T
+			BurrowDown=R
+
+		Hydralisk (Lurker Strain)
+			BasicUnitCommands
+			Lurker/HydraliskLurker=E
+			HydraliskFrenzy/HydraliskLurker=T
+			BurrowDown=R
+		
+		Infestor
+			BasicUnitCommands
+			FungalGrowth/Infestor=F
+			NPSwarm/Infestor=E
+			InfestorConsumption/Infestor=C
+			BurrowDown=R
+							
+		Swarm Host
+			General (Rapid Incubation)
+				BasicUnitCommands
+				RapidIncubation/SwarmHost=A
+				SwarmHostRoot=R
+				
+			General (Burrow)
+				BasicUnitCommands
+				RapidIncubation/SwarmHost=A
+				SwarmHostRootBurrow=R
+				
+			Rooted (Rapid Incubation)
+				Stop=S
+				Attack=A
+				LocustLaunch/SwarmHostRooted=C
+				RapidIncubation/SwarmHostRooted=A
+				SwarmHostUproot=R
+
+			Burrowed
+				Stop=S
+				Attack=A
+				LocustLaunch/SwarmHostBurrowed=C
+				RapidIncubation/SwarmHostBurrowed=A
+				SwarmHostUprootUnburrow=R
+
+		Swarm Host (Carrion Strain)
+			General (Rapid Incubation)
+				BasicUnitCommands
+				RapidIncubation/SwarmHostSplitA=A
+				SwarmHostRoot=R
+				
+			General (Burrow)
+				BasicUnitCommands
+				RapidIncubation/SwarmHostSplitA=A
+				SwarmHostRootBurrow=R
+				
+			Rooted (Rapid Incubation)
+				Stop=S
+				Attack=A
+				LocustFlyingLaunch/SwarmHostSplitARooted=C
+				RapidIncubation/SwarmHostSplitARooted=A
+				SwarmHostUproot=R
+
+			Burrowed
+				Stop=S
+				Attack=A
+				LocustFlyingLaunch/SwarmHostSplitABurrowed=C
+				RapidIncubation/SwarmHostSplitBBurrowed=A
+				SwarmHostUprootUnburrow=R
+
+		Swarm Host (Creeper Strain)
+			General (Rapid Incubation)
+				BasicUnitCommands
+				SwarmHostDeepBurrow/SwarmHostSplitB=D
+				RapidIncubation/SwarmHostSplitB=A
+				SwarmHostRoot=R
+				
+			General (Burrow)
+				BasicUnitCommands
+				SwarmHostDeepBurrow/SwarmHostSplitB=D
+				RapidIncubation/SwarmHostSplitB=A
+				SwarmHostRootBurrow=R
+				
+			Rooted (Rapid Incubation)
+				Stop=S
+				Attack=A
+				LocustLaunchCreeper/SwarmHostSplitBRooted=C
+				SwarmHostDeepBurrow/SwarmHostSplitBRooted=D
+				RapidIncubation/SwarmHostSplitBRooted=A
+				SwarmHostUproot=R
+
+			Burrowed
+				Stop=S
+				Attack=A
+				LocustLaunchCreeper/SwarmHostSplitBBurrowed=C
+				SwarmHostDeepBurrow/SwarmHostSplitBBurrowed=D
+				RapidIncubation/SwarmHostSplitBBurrowed=A
+				SwarmHostUprootUnburrow=R
+				
+		Ultralisk (Noxious Strain)
+			BasicUnitCommands
+			PoisonNova/HotSNoxious=W,Auto-Cast
+			BurrowChargeCampaignNoxious/HotSNoxious=C,Auto-Cast
+			BurrowDown=R
+
+		Ultralisk (Torrasque)
+			General
+				BasicUnitCommands
+				BurrowChargeCampaign/HotSTorrasque=C,Auto-Cast
+				TorrasqueChrysalis/HotSTorrasque=Q
+				BurrowDown=R
+				
+			Burrowed
+				BasicUnitCommands
+				TorrasqueChrysalis/HotSTorrasqueBurrowed=Q
+				BurrowUp=R,Auto-Cast
+
+Zerg Story
+	Units
+		Dehaka
+			BasicUnitCommands
+			Drag/Dehaka=Q
+			DehakaMirrorImage/Dehaka=W
+			DehakaHeal/Dehaka=E
+			BurrowDown=R
+
+		Dehaka Spawn
+			BasicUnitCommands
+			Drag/DehakaMirrorImage=Q
+			BurrowDown=R
+
+		Alexei Stukov
+			BasicUnitCommands
+			DevastatingShot/InfestedStukov=Q
+			StukovInfestedTerrans/InfestedStukov=W
+			StukovCrystalChannel/InfestedStukov=Period
+			
+		Kerrigan
+			General
+				BasicUnitCommands
+				MindBolt/K5Kerrigan=Q
+				PsionicLift/K5Kerrigan=W
+				WildMutation/K5Kerrigan=E
+				K5Leviathan/K5Kerrigan=D
+				BurrowDown=R
+
+			Burrowed
+				BasicUnitCommands
+				MindBolt/K5KerriganBurrowed=Q,NotAvailable
+				PsionicLift/K5KerriganBurrowed=W,NotAvailable
+				WildMutation/K5KerriganBurrowed=E,NotAvailable
+				K5Leviathan/K5KerriganBurrowed=D,NotAvailable
+				BurrowUp=R,Auto-Cast
+
+			Umoja Missions
+				BasicUnitCommands
+				MindBolt/KerriganGhostLab=Q
+				PsionicLift/KerriganGhostLab=W
+		
+		Lyote (Enemy Within Mission)
+			Stop=S
+			Consume/Lyote=W
+		
+		Giant Ursadon (Enemy Within Mission)
+			BasicUnitCommands
+			Consume/GiantYeti=W
+			GiantYetiLeap/GiantYeti=Q
+		
+		Niadra (Enemy Within Mission)
+			Stage 3
+				BasicUnitCommands
+				SwarmQueenParasiticInvasion/HugeSwarmQueen=Q
+				SwarmQueenZergling/HugeSwarmQueen=W
+				SwarmQueenRoach/HugeSwarmQueen=E
+				SwarmQueenHydralisk/HugeSwarmQueen=D
+				BurrowDown=R
+
+			Stage 2
+				BasicUnitCommands
+				SwarmQueenParasiticInvasion/LargeSwarmQueen=Q
+				SwarmQueenZergling/LargeSwarmQueen=W
+				SwarmQueenRoach/LargeSwarmQueen=E
+				GrowHugeQueen/LargeSwarmQueen=G
+				BurrowDown=R
+
+			Larva
+				BasicUnitCommands
+				ParasiticInvasion/LarvalQueen=Q
+				GrowSwarmQueen/LarvalQueen=G
+
+			Stage 1
+				BasicUnitCommands
+				SwarmQueenParasiticInvasion/SwarmQueen=Q
+				SwarmQueenZergling/SwarmQueen=W
+				GrowLargeQueen/SwarmQueen=G
+				BurrowDown=R
+
+		Ultralisk (Noxious Strain)
+			BasicUnitCommands
+			PoisonNova/HotSNoxious=W,Auto-Cast
+			BurrowChargeCampaignNoxious/HotSNoxious=C,Auto-Cast
+			BurrowDown=R

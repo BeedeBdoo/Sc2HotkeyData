@@ -1,0 +1,87 @@
+Coop inheritages
+Basic format:		Ability1		->	Ability2, using Ability1 as alias
+
+Twilight Council
+Artanis Commander				Vorazun Commander					Karax Commander
+ResearchCharge				->	ResearchShadowCharge				ResearchCharge
+ResearchDragoonRange		->	ResearchStalkerTeleport				ResearchEnergizerReclamation
+ResearchWhirlwind			->	ResearchShadowStun					ResearchKaraxEnergyRegenUpgrade
+ResearchDragoonChassis		->	ResearchBlinkShieldRestoreUpgrade	ZealotPurifierResearchReconstruction
+
+
+Fleet Beacon
+Artanis Commander					Vorazun Commander					Karax Commander
+AnionPulseCrystals				->	ResearchCorsairDisruptionWeb		AnionPulseCrystals
+ResearchDoubleGravitonBeam		->	ResearchCorsairPermanentCloak		ResearchPhaseArmor
+ResearchTempestDisintegration	->	ResearchVoidRayVoidPrismaticRange	ResearchCarrierRepairDrones
+									ResearchOracleStasisWardUpgrade
+
+
+Robotics Bay
+Artanis Commander								Karax Commander
+ResearchGraviticBooster						->	ResearchGraviticBooster
+ResearchBarrier								->	ResearchShadowCannon
+ResearchReaverIncreasedScarabCount
+ResearchReaverIncreasedScarabSplashRadius	->	ResearchFireBeam
+												ResearchExtendedThermalLance
+
+
+SCV
+Raynor Commander		Swann Commander
+Bunker				->	PerditionTurret
+MissileTurret		->	BuildKelMorianMissileTurret
+
+
+Engineering Bay
+Raynor Commander					Swann Commander
+ResearchNeosteelFrame			->	ResearchHiSecAutoTracking
+UpgradeBuildingArmorLevel1		->	UpgradeBuildingArmorLevel1
+
+Swann Commander							Raynor Commander
+ResearchFireSuppressionSystems		->	ResearchShrikeTurret
+ResearchImprovedTurretAttackSpeed	->	ResearchFortifiedBunker
+
+Factory
+Swann Commander			Raynor Commander
+HellionTank			->	Vulture
+
+Swann Commander			Swann Commander	(progression)
+TechLabFactory		->	TechReactorFactory
+
+
+Starport
+Raynor Commander		Swann Commander
+VikingFighter
+						Wraith
+Banshee				->	BuildHercules
+Battlecruiser		->	BuildScienceVessel
+
+Swann Commander			Swann Commander	(progression)
+TechLabStarport		->	TechReactorStarport
+
+
+Armory
+Swann Commander							Raynor Commander
+ResearchRegenerativeBioSteel		->	ResearchRaynorAfterburners
+
+
+Tech Lab (Factory)
+Swann Commander							Raynor Commander
+ResearchHighCapacityBarrels			->	ResearchNanoConstructor
+ResearchHellbatHellArmor			->	ResearchCerberusMines
+ResearchAresClassTargetingSystem	->	ResearchImprovedSiegeMode
+
+
+Tech Lab (Starport)
+Raynor Commander						Swann Commander
+ResearchBansheeCloak				->	ResearchWraithImprovedBurstLaser
+ResearchShockwaveMissileBattery		->	ResearchDisplacementField
+ResearchPhobosClassWeaponsSystem	->	ResearchScienceVesselFreeRepair
+ResearchRipwaveMissiles				->	ResearchDefensiveMatrixTarget
+
+
+Evolution Chamber
+Kerrigan Commander					Zagara Commander
+EvolveKerriganHeroicFortitude	->	EvolveKerriganHeroicFortitude
+EvolveK5ChainLightning			->	EvolveMedusaBlades
+EvolveK5Cooldowns				->	EvolveAberrationArmorAura
