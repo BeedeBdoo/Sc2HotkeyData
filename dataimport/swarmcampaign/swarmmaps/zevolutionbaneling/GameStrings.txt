@@ -1,0 +1,5 @@
+Button/Tooltip/Obelisk=Ancient structure that contains hidden Protoss knowledge.
+Unit/Name/CharEggSackOneEgg=Baneling Nest
+Unit/Name/CharEggSackThreeEgg=Baneling Nest
+Unit/Name/CharEggSackTwoEgg=Baneling Nest
+Unit/Name/DNAPickup=Mitosaurus Essence

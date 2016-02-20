@@ -1,0 +1,2 @@
+Button/Tooltip/UmojanLabGenerator=Generator powering the Containment Cell. Destroy it to free the captive Ultralisks.
+Unit/Name/ScienceFacility=Weapons Facility

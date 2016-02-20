@@ -1,0 +1,2100 @@
+Button/Name/Aberration=Morph to Aberration
+Button/Name/AberrationPassive=Aberration
+Button/Name/AberrationTowering=Towering
+Button/Name/AcceleratedMorph=Accelerated Morph
+Button/Name/AdvancedMitosis=Advanced Mitosis
+Button/Name/AdvancedMitosisDrone=Advanced Mitosis
+Button/Name/Alacrity=Alacrity
+Button/Name/AncillaryCarapace=Chitinous Carapace
+Button/Name/AncillaryCarapaceHydralisk=Ancillary Carapace
+Button/Name/Apocalypse=Apocalypse
+Button/Name/AshWormBurrowMove=Deep Tunnel
+Button/Name/AutomatedExtractor=Mutate into Automated Extractor
+Button/Name/BanelingCorrosiveBile=Corrosive Acid
+Button/Name/BanelingHeal=Regenerative Acid
+Button/Name/BanelingHealSmall=Regenerative Acid
+Button/Name/BanelingHunterPassive=Baneling
+Button/Name/BanelingPassive=Baneling
+Button/Name/BanelingSplitterlingPassive=Baneling
+Button/Name/BanelingSplitterlingSplitPassive=Division
+Button/Name/BarbedTalons=Barbed Talons
+Button/Name/BarbedTentacles=Barbed Tentacles
+Button/Name/BioAcids=Bio-Acids
+Button/Name/BrillianceAura=Brilliance Aura
+Button/Name/BroodLordPassive=Brood Lord
+Button/Name/BroodMother=Rapid Gestation
+Button/Name/BuildKorhalSporeCannon=Mutate Bile Launcher
+Button/Name/BurrowCharge=Burrow Charge
+Button/Name/BurrowChargeCampaign=Burrow Charge
+Button/Name/BurrowChargeCampaignNoxious=Burrow Charge
+Button/Name/BurrowLurker=Burrow
+Button/Name/BurrowSurge=Burrow Surge
+Button/Name/BurrowSwarmHost=Burrow
+Button/Name/BurstingGlands=Bursting Glands
+Button/Name/CampaignVehicles=Campaign Vehicles
+Button/Name/CancelMorphToKerriganBrawler=Cancel Change to Primal Focus
+Button/Name/CancelMorphToKerriganCorruption=Cancel Change to Corruption Focus
+Button/Name/CancelMorphToKerriganNotFlyer=Cancel Change to Swarm Focus
+Button/Name/CancelMorphToKerriganSpecOps=Cancel Change to Destruction Focus
+Button/Name/Cannibalize100=Cannibalize
+Button/Name/Cannibalize50=Cannibalize
+Button/Name/Cannibalize75=Cannibalize
+Button/Name/Carapace=Carapace
+Button/Name/CarryCarcass=Carry Carcass
+Button/Name/CellularFissionUpgrade=Cellular Fission
+Button/Name/CentrifugalHooksUpgrade=Centrifugal Hooks
+Button/Name/ChainReaction=Chain Reaction
+Button/Name/ChitinousPlating=Chitinous Plating
+Button/Name/ChitinousPlatingUpgrade=Chitinous Plating
+Button/Name/ClarityOfPurposeAura=Clarity of Purpose
+Button/Name/Confusion=Confusion
+Button/Name/Consume=Consume Host
+Button/Name/ConsumeEssence=Consume Essence
+Button/Name/CorpserPassive=Infest Roachlings
+Button/Name/CorrosiveBile=Corrosive Acid
+Button/Name/CorrosiveSpores=Corrosive Spores
+Button/Name/CorrosiveVenom=Corrosive Venom
+Button/Name/CreepGeneration=Creep Generation
+Button/Name/CreepSpread=Creep Spread
+Button/Name/CreepTumorPassive=Creep Generator
+Button/Name/CreepingDoom=Creeping Doom
+Button/Name/DeafeningRoar=Deafening Roar
+Button/Name/DeathAura=Life Drain
+Button/Name/DeathAuraOff=Cancel Life Drain
+Button/Name/DeepBurrow=Deep Tunnel
+Button/Name/Dehaka=Dehaka
+Button/Name/DehakaCliffJumper=Cliff Jumper
+Button/Name/DehakaDevour=Devour
+Button/Name/DehakaFlurry=Flurry
+Button/Name/DehakaHeal=Mend
+Button/Name/DehakaLeap=Leap (Dehaka)
+Button/Name/DehakaMirrorImage=Generate Spawns
+Button/Name/DehakaMirrorImageCliffJumper=Cliff Jumper
+Button/Name/DemolitionEfficiency=Demolition Efficiency
+Button/Name/DevastatingShot=Corrosive Blast
+Button/Name/Devour=Devour
+Button/Name/DisableToxicAdrenaline=Disable Toxic Adrenaline
+Button/Name/DisablingCloud=Disabling Cloud
+Button/Name/Drag=Drag
+Button/Name/EatMeat=Eat Meat
+Button/Name/EnableBuildingAttackSplitterling=Enable Structure Attack
+Button/Name/EnableToxicAdrenaline=Enable Toxic Adrenaline
+Button/Name/EngorgedAppendages=Engorged Appendages
+Button/Name/EnhancedCarapace=Enhanced Carapace
+Button/Name/Enrage=Enrage
+Button/Name/Ensnare=Ensnare
+Button/Name/EruptiveSpores=Eruptive Spores
+Button/Name/ExoSkeleton=Exoskeleton
+Button/Name/ExplosiveGlaive=Sundering Glave
+Button/Name/ExplosiveSpines=Explosive Spines
+Button/Name/ExtendedLash=Extended Lash
+Button/Name/FibrousCoreUpgrade=Fibrous Core
+Button/Name/Flight=Flight
+Button/Name/FocusedGathering=Focused Gathering
+Button/Name/FracturingSpines=Fracturing Spines
+Button/Name/FreeUltralisk=Free Ultralisk
+Button/Name/FrenzyUpgrade=Frenzy
+Button/Name/GenerateCorrosiveOoze=Corrosive Ooze
+Button/Name/GiantYetiLeap=Leap
+Button/Name/GlaiveWurmUpgrade=Glave Wurm
+Button/Name/GooPuddle=Toxic Bile
+Button/Name/GravityWell=Gravity Well
+Button/Name/GreaterSpireBroodlord=Mutate into Greater Spire
+Button/Name/GreaterSpireViper=Mutate into Greater Spire
+Button/Name/GroovedSpines=Grooved Spines
+Button/Name/GrowHugeQueen=Grow
+Button/Name/GrowLargeQueen=Grow
+Button/Name/GrowSwarmQueen=Grow
+Button/Name/HardenedThorax=Hardened Thorax
+Button/Name/Haymaker=Haymaker
+Button/Name/HealthDispenser=Health Dispenser
+Button/Name/HealthDispenserPickup=Health Dispenser Pickup
+Button/Name/HipExtensors=Pelvic Extensors
+Button/Name/HiveMind=Hive Mind
+Button/Name/HostCorpses=Host Corpses
+Button/Name/HotSAcceleratedMutation=Accelerated Mutation
+Button/Name/HotSAdrenalGlands=Adrenal Glands
+Button/Name/HotSBioPlasmidDischarge=Bio-Plasmid Discharge
+Button/Name/HotSBioStasis=Bio-Stasis
+Button/Name/HotSCannibalize=Cannibalize
+Button/Name/HotSCausticAdditive=Caustic Additive
+Button/Name/HotSCellRejuvenation=Cell Rejuvenation
+Button/Name/HotSCorrosiveTalons=Corrosive Talons
+Button/Name/HotSElongatedProboscis=Elongated Proboscis
+Button/Name/HotSEnhancedBileDucts=Bile Ducts
+Button/Name/HotSGapingMaw=Gaping Maw
+Button/Name/HotSHardenedCarapace=Hardened Carapace
+Button/Name/HotSHardenedClaws=Hardened Claws
+Button/Name/HotSImprovedOsmosis=Improved Osmosis
+Button/Name/HotSImprovedSporeTracking=Prescient Spores
+Button/Name/HotSInterlockingScales=Interlocking Plates
+Button/Name/HotSKeneticMitosis=Kinetic Mitosis
+Button/Name/HotSLeviathan=Leviathan
+Button/Name/HotSMetabolicBoost=Metabolic Boost
+Button/Name/HotSNoxious=Ultralisk
+Button/Name/HotSOmegaStorm=Omega Storm
+Button/Name/HotSOrganicCarapace=Organic Carapace
+Button/Name/HotSPressurizedGlands=Pressurized Glands
+Button/Name/HotSProtoSentience=Secondary Membrane
+Button/Name/HotSRaptorCharge=Combat Leap
+Button/Name/HotSRedundantMembranes=Hardened Carapace
+Button/Name/HotSRoachDamage=Hydriodic Bile
+Button/Name/HotSRoachShield=Adaptive Plating
+Button/Name/HotSSalivatingGullet=Salivating Gullet
+Button/Name/HotSSecondaryGooDucts=Secondary Esophagus
+Button/Name/HotSStoneBurrow=Stone Burrow
+Button/Name/HotSTissueAssimilation=Tissue Assimilation
+Button/Name/HotSTorrasque=Ultralisk
+Button/Name/HotSToxicBile=Toxic Bile
+Button/Name/HotSViscousSecretion=Viscous Secretion
+Button/Name/HotSZerglingFrenzy=Adrenal Overload
+Button/Name/HotSZerglingFury=Fury
+Button/Name/HotSZerglingRange=Extended Claws
+Button/Name/HotSZerglingSunder=Sunder
+Button/Name/HunterCliffJumper=Cliff Jumper
+Button/Name/HybridChannelEnd=Hybrid Channel End
+Button/Name/HybridChannelStart=Hybrid Channel Start
+Button/Name/HybridRelease=Hybrid Release
+Button/Name/HydraliskDenImpalerPassive=Hydralisk
+Button/Name/HydraliskDenLurkerPassive=Hydralisk
+Button/Name/HydraliskFrenzy=Frenzy
+Button/Name/HydraliskImpaler=Hydralisk Impaler
+Button/Name/HydraliskImpalerPassive=Hydralisk
+Button/Name/HydraliskLurker=Hydralisk Lurker
+Button/Name/HydraliskLurkerPassive=Hydralisk
+Button/Name/HydraliskPassive=Hydralisk
+Button/Name/HyperionKorhalRegen=Repair
+Button/Name/HyperionKorhalRegenOff=Halt Repairs
+Button/Name/HyperionKorhalYamato=Yamato Cannon
+Button/Name/Impaler=Morph to Impaler
+Button/Name/ImpalerDen=Mutate into Impaler Den
+Button/Name/ImpalerMorph=Impaler Morph
+Button/Name/ImpalerPassive=Impaler
+Button/Name/ImprovedBurrow=Improved Burrow
+Button/Name/IncendiarySpores=Incendiary Spores
+Button/Name/Infest=Infest
+Button/Name/InfestStructure=Infest Structure
+Button/Name/InfestedBanshees=Infested Banshees
+Button/Name/InfestedCortex=Infested Cortex
+Button/Name/InfestedMedics=Infested Medics
+Button/Name/InfestedSiegeBreakers=Infested Siege Breakers
+Button/Name/InfestorConsumption=Consumption
+Button/Name/InfestorPassive=Infestor
+Button/Name/InterlockingScalesMutaliskUpgrade=Interlocking Scales
+Button/Name/K5ArmorAura=Armor Aura
+Button/Name/K5ArmyEnergy=Army Energy
+Button/Name/K5AutoExtractor=Automated Extractors
+Button/Name/K5BrillianceAura=Brilliance Aura
+Button/Name/K5ChainLightning=Chain Reaction
+Button/Name/K5Cooldowns=Ability Efficiency
+Button/Name/K5CreepBonuses=Malignant Creep
+Button/Name/K5DropPods=Drop-Pods
+Button/Name/K5EndlessSwarm=Endless Swarm
+Button/Name/K5FasterLarva=Faster Larvae
+Button/Name/K5Fury=Fury
+Button/Name/K5GasBonuses=Vespene Efficiency
+Button/Name/K5HatcheryCost=Cheaper Hatcheries
+Button/Name/K5HeroicFortitude=Heroic Fortitude
+Button/Name/K5ImprovedCrawlers=Improved Crawlers
+Button/Name/K5ImprovedOverlords=Improved Overlords
+Button/Name/K5InfestBroodlings=Infest Broodlings
+Button/Name/K5Leviathan=Spawn Leviathan
+Button/Name/K5LeviathanPlaceholder=Spawn Leviathan  (Active)
+Button/Name/K5PrimalSlashPassive=Leaping Strike Passive
+Button/Name/K5PrimalStrength=Primal Strength
+Button/Name/K5RangeUpgrade=Range Upgrade
+Button/Name/K5TwoDrones=Twin Drones
+Button/Name/K5VampiricAura=Vampiric Aura
+Button/Name/K5ZerglingRespawn=Zergling Reconstitution
+Button/Name/KerriganConsume=Consume
+Button/Name/KerriganCorruption=Corruption
+Button/Name/KerriganCorruptionMarines=Corruption
+Button/Name/KerriganCrawlers=Crawlers
+Button/Name/KerriganEndlessSwarm=Endless Swarm
+Button/Name/KerriganEnhance=Kerrigan Enhance
+Button/Name/KerriganEnhanceOff=Kerrigan Enhance Off
+Button/Name/KerriganFeedback=Feedback
+Button/Name/KerriganFlyerSiege=Kerrigan Flyer Siege
+Button/Name/KerriganFrenzy=Frenzy
+Button/Name/KerriganGhostLabPlasmaRound=Plasma Round
+Button/Name/KerriganGhostLabSnipe=Penetrator Round
+Button/Name/KerriganHealingPowers=Healing Powers
+Button/Name/KerriganInfestation=Infestation
+Button/Name/KerriganLabCloak=Cloak
+Button/Name/KerriganLabEMP=EMP
+Button/Name/KerriganLabPsiGrip=Psi Grip
+Button/Name/KerriganLabSnipe=Snipe
+Button/Name/KerriganLifeDrain=Life Drain
+Button/Name/KerriganMorphMenu=Change Battle Focus
+Button/Name/KerriganMorphtoKerriganFlying=Kerrigan Morph to Kerrigan Flying
+Button/Name/KerriganMorphtoKerriganGhost=Kerrigan Morph to Kerrigan Ghost
+Button/Name/KerriganMorphtoKerriganQueenofBlades=Kerrigan Morph to Kerrigan, Queen of Blades
+Button/Name/KerriganNydusWyrm=Broodling Nest
+Button/Name/KerriganRegeneration=Rapid Recovery
+Button/Name/KerriganRenewal=Renewal
+Button/Name/KerriganRevive=Revive Standard
+Button/Name/KerriganReviveCocoon=Kerrigan Revive Cocoon
+Button/Name/KerriganRevivePlacement=Revive Placement
+Button/Name/KerriganRulerRoot=Protector
+Button/Name/KerriganRulerUproot=Stop Protecting
+Button/Name/KerriganStoryMorph=Kerrigan Story Morph
+Button/Name/KerriganSummonUltralisk=Spawn Ultralisk
+Button/Name/KerriganSwarmMistressFrenzy=Frenzy
+Button/Name/KerriganTossGrenade=Grenade
+Button/Name/KerriganVortex=Vortex
+Button/Name/KerriganVortexReturn=Vortex
+Button/Name/KerrigansWrath=Kerrigan's Wrath
+Button/Name/KorhalSporeCannon=Bile Launcher
+Button/Name/KorhalSporeCannonBombardment=Bombardment
+Button/Name/KorhalSporeCannonRegen=Rapid Regeneration
+Button/Name/KorhalSporeCannonRoot=Root
+Button/Name/KraithCrashingCharge=Crashing Charge
+Button/Name/KraithSpineVolley=Spine Volley
+Button/Name/LabTurret=Umojan Lab Turret
+Button/Name/LashingTongue=Lashing Tongue
+Button/Name/LearnSJHyperionBlink4=Learn SJHyperion Blink4
+Button/Name/LearnSJHyperionShipUpgrade1=Learn SJHyperion Ship Upgrade1
+Button/Name/LeviathanPassive=Leviathan
+Button/Name/LocustFlyingLaunch=Spawn Locusts
+Button/Name/LocustFlyingLaunchPressurizedGlands=Spawn Locust
+Button/Name/LocustLaunch=Spawn Locusts
+Button/Name/LocustLaunchCreeper=Spawn Locusts
+Button/Name/LocustLaunchPressurizedGlands=Spawn Locust
+Button/Name/LocustSpeed=Locust Speed
+Button/Name/Lurker=Morph to Lurker
+Button/Name/LurkerDen=Mutate into Lurker Den
+Button/Name/LurkerPassive=Lurker
+Button/Name/MaarChannelEnd=Maar Channel End
+Button/Name/MaarChannelStart=Maar Channel Start
+Button/Name/MengskUnits=Train Elite Unit
+Button/Name/MercHellion=Outback Hunter
+Button/Name/MercMedic=Skibi's Angel
+Button/Name/MercMedicHeal=Greater Heal
+Button/Name/MercReaper=Death Head
+Button/Name/MercUnits=Merc Units
+Button/Name/MetabolicAcceleration=Metabolic Acceleration
+Button/Name/MicroBot=Sentry Bot
+Button/Name/MindBolt=Kinetic Blast
+Button/Name/MinionFrenzy=Minion Frenzy
+Button/Name/MonarchBlades=Monarch Blades
+Button/Name/MorphBanelingToHunter=Morph Baneling to Hunter
+Button/Name/MorphBanelingToSplitterling=Morph Baneling to Splitterling
+Button/Name/MorphHydraliskToHydraliskImpaler=Morph Hydralisk to Impaler
+Button/Name/MorphHydraliskToHydraliskLurker=Morph Hydralisk to Lurker
+Button/Name/MorphIsKerriganBrawler=Primal Focus
+Button/Name/MorphIsKerriganCorruption=Corruption Focus
+Button/Name/MorphIsKerriganNotFlyer=Swarm Focus
+Button/Name/MorphIsKerriganRuler=Protector Focus
+Button/Name/MorphIsKerriganSpecOps=Destruction Focus
+Button/Name/MorphRoachToCorpser=Morph Roach to Corpser
+Button/Name/MorphRoachToVile=Morph Roach to Vile
+Button/Name/MorphSwarmHostToSplitA=Morph Swarm Host to Carrion
+Button/Name/MorphSwarmHostToSplitB=Morph Swarm Host to Creeper
+Button/Name/MorphToCorpser=Morph to Roach
+Button/Name/MorphToDroneFull=Morph To Drone Full
+Button/Name/MorphToHotSNoxious=Morph to Ultralisk
+Button/Name/MorphToHotSTorrasque=Morph to Ultralisk
+Button/Name/MorphToHydraliskImpaler=Morph to Hydralisk
+Button/Name/MorphToHydraliskLurker=Morph to Hydralisk
+Button/Name/MorphToKerriganBrawler=Primal Focus
+Button/Name/MorphToKerriganCorruption=Corruption Focus
+Button/Name/MorphToKerriganNotFlyer=Swarm Focus
+Button/Name/MorphToKerriganReviveCocoon=Morph To Kerrigan Revive Cocoon
+Button/Name/MorphToKerriganRuler=Protector Focus
+Button/Name/MorphToKerriganSpecOps=Destruction Focus
+Button/Name/MorphToMutaliskBroodlord=Morph to Mutalisk
+Button/Name/MorphToMutaliskLeviathan=Morph To Mutalisk Leviathan
+Button/Name/MorphToMutaliskViper=Morph to Mutalisk
+Button/Name/MorphToPrimalHost=Morph to Primal Host
+Button/Name/MorphToPrimalHostBurrowed=Morph to Primal Host Burrowed
+Button/Name/MorphToRaptor=Morph to Zergling
+Button/Name/MorphToSwarmHost=Morph to Swarm Host
+Button/Name/MorphToSwarmHostBurrowed=Morph to Swarm Host
+Button/Name/MorphToSwarmHostSplitA=Morph to Swarm Host
+Button/Name/MorphToSwarmHostSplitB=Morph to Swarm Host
+Button/Name/MorphToSwarmling=Morph to Zergling
+Button/Name/MorphToVile=Morph to Roach
+Button/Name/MorphToViper=Morph to Viper
+Button/Name/MorphUltraliskToNoxious=Morph Ultralisk to Noxious
+Button/Name/MorphUltraliskToTorrasque=Morph Ultralisk to Torrasque
+Button/Name/MorphZerglingToRaptor=Morph Zergling to Raptor
+Button/Name/MorphZerglingToSwarmling=Morph Zergling to Swarmling
+Button/Name/MorphtoDefiler=Morph to Defiler
+Button/Name/MorphtoDevourer=Morph to Devourer
+Button/Name/MorphtoHunter=Morph to Baneling
+Button/Name/MorphtoLurker=Morph to Lurker
+Button/Name/MorphtoSplitterling=Morph to Baneling
+Button/Name/MuscularAugments=Muscular Augmentation
+Button/Name/MutaliskBroodlord=Mutalisk
+Button/Name/MutaliskBroodlordPassive=Mutalisk
+Button/Name/MutaliskBroodlordPassiveGreater=Mutalisk
+Button/Name/MutaliskLeviathan=Mutalisk
+Button/Name/MutaliskPassive=Mutalisk
+Button/Name/MutaliskPassiveGreater=Mutalisk
+Button/Name/MutaliskRapidRegeneration=Rapid Regeneration
+Button/Name/MutaliskViper=Mutalisk
+Button/Name/MutaliskViperPassive=Mutalisk
+Button/Name/MutaliskViperPassiveGreater=Mutalisk
+Button/Name/MutationEfficiency=Mutation Efficiency
+Button/Name/NPDomination=Neural Parasite
+Button/Name/NPReleaseMinion=Release
+Button/Name/NPSwarm=Parasitic Domination
+Button/Name/NoxiousCloud=Noxious Cloud
+Button/Name/NoxiousCreep=Noxious Creep
+Button/Name/NoxiousCreepStukov=Noxious Creep
+Button/Name/NoxiousFumes=Noxious Fumes
+Button/Name/NydusNetwork=Mutate into Greater Nydus Network
+Button/Name/OmegaliskChrysalis=Omegalisk Rebirth
+Button/Name/Overmind=Overmind
+Button/Name/PenetratingSpines=Penetrating Spines
+Button/Name/PoisonNova=Toxic Blast
+Button/Name/Pounce=Pounce
+Button/Name/PrimalBaseDefense=Primal Base Defense
+Button/Name/PrimalBuildingRoot=Root
+Button/Name/PrimalBuildingUproot=Uproot
+Button/Name/PrimalConsume=Consume
+Button/Name/PrimalEggPower1=Primal Egg Power 1
+Button/Name/PrimalExtractor=Primal Extractor
+Button/Name/PrimalFlyer=Guardian
+Button/Name/PrimalGasCloud=Primal Gas Cloud
+Button/Name/PrimalHeal=Mend
+Button/Name/PrimalHive=Primal Hive
+Button/Name/PrimalHostRoot=Root
+Button/Name/PrimalHostUproot=Uproot
+Button/Name/PrimalHydralisk=Primal Hydralisk
+Button/Name/PrimalInstincts=Primal Instincts
+Button/Name/PrimalMutalisk=Primal Mutalisk
+Button/Name/PrimalProductionA=Primal Production A
+Button/Name/PrimalProductionB=Primal Production B
+Button/Name/PrimalProductionC=Primal Production C
+Button/Name/PrimalRage=Primal Rage
+Button/Name/PrimalRavage=Ravage
+Button/Name/PrimalRoach=Primal Roach
+Button/Name/PrimalRoar=Primal Roar
+Button/Name/PrimalShock=Primal Shock
+Button/Name/PrimalSlash=Leaping Strike
+Button/Name/PrimalSpawning=Spawn Locusts
+Button/Name/PrimalTownHall=Primal Town Hall
+Button/Name/PrimalUltralisk=Primal Ultralisk
+Button/Name/PrimalWhelp=Primal Whelp
+Button/Name/PrimalZergling=Primal Zergling
+Button/Name/ProjectileCreep=Projectile Creep
+Button/Name/ProtectiveBarrier=Protective Barrier
+Button/Name/ProtectiveSheath=Protective Sheath
+Button/Name/ProtossFrigateUndock=Protoss Frigate Undock
+Button/Name/ProtossWarpAway=Warping Away
+Button/Name/PsiBolt=Psi Bolt
+Button/Name/PsiDisintegratorPowerLink=Psi Destroyer Power Link -- On
+Button/Name/PsiDisintegratorPowerLinkOff=Psi Destroyer Power Link -- Off
+Button/Name/PsiStrike=Psionic Shift
+Button/Name/PsiStrikeWalkHoldPosition=Psi Strike Walk Hold Position
+Button/Name/PsiStrikeWalkMove=Psi Strike Walk Move
+Button/Name/PsiStrikeWalkPatrol=Psi Strike Walk Patrol
+Button/Name/PsiStrikeWalkScanMove=Psi Strike Walk Scan Move
+Button/Name/PsiStrikeWalkTurn=Psi Strike Walk Turn
+Button/Name/PsionicLift=Crushing Grip
+Button/Name/PsionicPulse=Psionic Pulse
+Button/Name/PsionicShadow=Psionic Shadow
+Button/Name/PsionicShield=Psionic Shield
+Button/Name/Queen=Birth Swarm Queen
+Button/Name/QueenBurstHeal=Rapid Transfusion
+Button/Name/QueenChannel=Channel
+Button/Name/QueenHeal=Heal
+Button/Name/QueenOfBlades=Queen Of Blades
+Button/Name/QueenPassive=Swarm Queen
+Button/Name/QueenofVenom=Queenof Venom
+Button/Name/Rampage=Rampage
+Button/Name/RampageAttack=Rampage Attack
+Button/Name/RapidIncubation=Rapid Incubation
+Button/Name/RapidMetamorph=Rapid Metamorph
+Button/Name/RapidRegenerationRoach=Rapid Regeneration Roach
+Button/Name/RaptorCliffJumper=Cliff Jumper
+Button/Name/RaptorDeath=Raptor Death
+Button/Name/RaptorPassive=Aggressive
+Button/Name/Ravasaur=Primal Ravasaur
+Button/Name/RaynorLabMagazine=Raynor Lab Magazine
+Button/Name/RebirthQueenofBlades=Rebirth Queenof Blades
+Button/Name/RebirthQueenofBladesHatchery=Rebirth Queenof Blades Hatchery
+Button/Name/ReductiveBileUpgrade=Reductive Bile Upgrade
+Button/Name/RegenerationAura=Regeneration Aura
+Button/Name/ReinforcedCellMembrane=Reinforced Cell Membrane
+Button/Name/RespawnZergling=Zergling Reconstitution
+Button/Name/ReviveToKerriganBrawler=Revive To Kerrigan Brawler
+Button/Name/ReviveToKerriganCorruption=Revive To Kerrigan Corruption
+Button/Name/ReviveToKerriganNotFlyer=Revive To Kerrigan Not Flyer
+Button/Name/ReviveToKerriganSpecOps=Revive To Kerrigan Spec Ops
+Button/Name/RoachCorpser=Roach
+Button/Name/RoachCorpserPassive=Roach
+Button/Name/RoachSpeed=Roach Speed
+Button/Name/RoachVile=Morph to Roach
+Button/Name/RoachVilePassive=Roach
+Button/Name/RottingBileUpgrade=Rotting Bile Upgrade
+Button/Name/RoyalGuard=Royal Guard
+Button/Name/RuptureUpgrade=Rupture
+Button/Name/SJFighter1=Tac Fighter
+Button/Name/SJFighter1PH=Tac Fighter
+Button/Name/SJGriffon=Griffon
+Button/Name/SJHyperionBanshees=SJHyperion Banshees
+Button/Name/SJHyperionBanshees2=SJHyperion Banshees2
+Button/Name/SJHyperionBanshees3=SJHyperion Banshees3
+Button/Name/SJHyperionBansheesRecall=SJHyperion Banshees Recall
+Button/Name/SJHyperionBlink=Jump
+Button/Name/SJHyperionBlink2=Ion Thrusters [Level 2]
+Button/Name/SJHyperionBlink3=Ion Thrusters [Level 3]
+Button/Name/SJHyperionBuildBanshee=Build Cloaked Bombers
+Button/Name/SJHyperionBuildFighters=Build Tac Fighters
+Button/Name/SJHyperionFighters=Fighter Strike [Level 1]
+Button/Name/SJHyperionFighters1=Launch Fighters 1
+Button/Name/SJHyperionFighters2=Fighter Strike [Level 2]
+Button/Name/SJHyperionFighters3=Fighter Strike [Level 3]
+Button/Name/SJHyperionFighters4=Fighter Strike [Level 4]
+Button/Name/SJHyperionFightersRecall=Recall Fighters
+Button/Name/SJHyperionIonThrusters=Ion Thrusters
+Button/Name/SJHyperionLevelUp=SJHyperion Level Up
+Button/Name/SJHyperionLightningStorm=Electric Field [Level 1]
+Button/Name/SJHyperionLightningStorm2=Electric Field [Level 2]
+Button/Name/SJHyperionLightningStorm3=Electric Field [Level 3]
+Button/Name/SJHyperionLightningStorm4=Electric Field [Level 4]
+Button/Name/SJHyperionShield=SJHyperion Shield
+Button/Name/SJHyperionShipUpgrade2=SJHyperion Ship Upgrade2
+Button/Name/SJHyperionShipUpgrade3=SJHyperion Ship Upgrade3
+Button/Name/SJHyperionShipUpgrade4=SJHyperion Ship Upgrade4
+Button/Name/SJHyperionYamato=Yamato [Level 1]
+Button/Name/SJHyperionYamato2=Yamato [Level 2]
+Button/Name/SJHyperionYamato3=Yamato [Level 3]
+Button/Name/SJHyperionYamato4=Yamato [Level 4]
+Button/Name/SJPickupMinerals=Pickup Minerals
+Button/Name/SJPickupSalvage=Pickup Salvage
+Button/Name/SJPirateLightningStorm=Electric Field
+Button/Name/SJPointDefense=Point Defense Laser
+Button/Name/SJPointDefenseDrone=Build Point Defense Drone [Level 1]
+Button/Name/SJPointDefenseDrone2=Build Point Defense Drone [Level 2]
+Button/Name/SJPointDefenseDrone3=Build Point Defense Drone [Level 3]
+Button/Name/SJSpaceStationValerianWarpIn=Valerian's Space Station Warp
+Button/Name/SJValkyrie=Valkyrie
+Button/Name/Sacrifice=Sacrifice
+Button/Name/SecondaryOrgans=Secondary Organs
+Button/Name/SeekerWurmUpgrade=Seeker Wurm Upgrade
+Button/Name/ShadowStep=Shadow Step
+Button/Name/SlivanPuke=Slivan Puke
+Button/Name/SpineLash=Spine Lash
+Button/Name/Splitterling=Splitterling
+Button/Name/SplitterlingBigSapStructure=Enable Structure Attack
+Button/Name/SplitterlingMediumSapStructure=Enable Structure Attack
+Button/Name/SplitterlingSmallSapStructure=Enable Structure Attack
+Button/Name/StopConsumingHatred=Stop Consuming Hatred
+Button/Name/StopGenerateCorrosiveOoze=Stop Generate Corrosive Ooze
+Button/Name/StukovCrystalChannel=Stukov Crystal Channel
+Button/Name/StukovInfestedTerrans=Spawn Infested Terrans
+Button/Name/StukovRegenAura=Regeneration Aura
+Button/Name/StunningBlast=Stunning Blast
+Button/Name/SummonGreaterNydusWorm=Spawn Greater Nydus Worm
+Button/Name/SummonNydusWorm=Spawn Greater Nydus Worm
+Button/Name/Suppression=Suppression
+Button/Name/SwarmHostCarrionPassive=Swarm Host
+Button/Name/SwarmHostCreeperPassive=Swarm Host
+Button/Name/SwarmHostDeepBurrow=Deep Tunnel
+Button/Name/SwarmHostDeepBurrowUnderground=Deep Tunnel
+Button/Name/SwarmHostGenerateCreep=Generate Creep
+Button/Name/SwarmHostRoot=Root
+Button/Name/SwarmHostRootBurrow=Burrow
+Button/Name/SwarmHostSplitA=Swarm Host Split A
+Button/Name/SwarmHostSplitB=Swarm Host Split B
+Button/Name/SwarmHostUproot=Uproot
+Button/Name/SwarmHostUprootUnburrow=Unburrow
+Button/Name/SwarmQueen=Swarm Queen
+Button/Name/SwarmQueenCorpser=Birth Roach
+Button/Name/SwarmQueenHydralisk=Birth Hydralisk
+Button/Name/SwarmQueenHydraliskImpaler=Birth Hydralisk
+Button/Name/SwarmQueenHydraliskLurker=Birth Hydralisk
+Button/Name/SwarmQueenParasiticInvasion=Parasitic Invasion
+Button/Name/SwarmQueenRaptor=Birth Zergling
+Button/Name/SwarmQueenRegenAura=Regeneration Aura
+Button/Name/SwarmQueenRoach=Birth Roach
+Button/Name/SwarmQueenSwarmling=Birth Zergling
+Button/Name/SwarmQueenVile=Birth Roach
+Button/Name/SwarmQueenZergling=Birth Zergling
+Button/Name/SwarmlingPassive=Rapid Gestation
+Button/Name/TitanMechBombardment=Bombardment
+Button/Name/TitanMechGunShot=Minigun Strafe
+Button/Name/TitanMechGunShotCharge=Charge Up
+Button/Name/TitanMechMissileShot=Fire Missile
+Button/Name/TitanMechRepel=Repel
+Button/Name/TorrasqueChrysalis=Reincarnation
+Button/Name/TorrasqueChrysalisFakeTimer=Reincarnation Suppressed
+Button/Name/TransfusionChain=Transfusion Chain
+Button/Name/TunnelingClaws=Tunneling Claws
+Button/Name/UltraliskNoxiousPassive=Ultralisk
+Button/Name/UltraliskTorrasquePassive=Ultralisk
+Button/Name/VampiricAura=Vampiric Aura
+Button/Name/VespeneEfficiency=Vespene Efficiency
+Button/Name/VespeneTransfusion=Vespene Transfusion
+Button/Name/VilePassive=Debilitating Saliva
+Button/Name/ViperConsumption=Consumption
+Button/Name/ViperPassive=Viper
+Button/Name/VolitileEjection=Volatile Ejection
+Button/Name/WarbotCharge=Warbot Charge
+Button/Name/Web=Web
+Button/Name/WildAggresion=Wild Aggresion
+Button/Name/WildMutation=Wild Mutation
+Button/Name/WingsOfHatred=Wings Of Hatred
+Button/Name/WingsofConsumingHatred=Wingsof Consuming Hatred
+Button/Name/WrathOfTheXelNaga=Wrath Of The Xel Naga
+Button/Name/YagdraFireball=Spit Fire
+Button/Name/YagdraFirebreath=Fire Breath
+Button/Name/YagdraTunnel=Yagdra Tunnel
+Button/Name/ZHybridPsychicClones=Separation
+Button/Name/ZerglingBurrowMove=Tunneling Claws
+Button/Name/ZerglingRaptorPassive=Zergling
+Button/Name/ZerglingRespawnCounter=Zergling Reconstitution Count
+Button/Name/ZerglingRespawnPassive=Reconstitution
+Button/Name/ZerglingRespawnPrimary=Set Primary Zergling Reconstitution
+Button/Name/ZerglingSwarmlingPassive=Zergling
+Button/Name/ZeusLoad=Load
+Button/Name/ZeusRapidDeployment=Rapid Deployment
+Button/Name/ZeusUnloadAll=Unload All
+Button/Name/ZurvanLightningBreath=Zurvan Lightning Breath
+Button/Name/ZurvanSpawnPrimalHydralisk=Spawn Primal Hydralisk
+Button/Name/ZurvanSpawnPrimalUltralisk=Spawn Primal Ultralisk
+Button/Name/ZurvanSpawnPrimalZergling=Spawn Primal Zergling
+Button/Name/ZurvanSpawnRavasaur=Spawn Ravasaur
+Button/Name/ZurvanTentacleSlam=Tentacle Slam
+Button/Tooltip/AbandonedBuilding=Abandoned structure.
+Button/Tooltip/Aberration=Aberrations are durable units that deal heavy damage to armored targets.<n/><n/><c val="ffff8a">Can attack ground units.</c>
+Button/Tooltip/AberrationPassive=Evolution Chamber allows you to morph Aberrations.
+Button/Tooltip/AberrationTowering=Aberrations can walk over smaller units.
+Button/Tooltip/AcceleratedMorph=Morph time nearly instant.
+Button/Tooltip/AdvancedMitosis=Zerglings morph extremely quickly.
+Button/Tooltip/AdvancedMitosisDrone=Two Drones morph for the same mineral and Larva costs as one.
+Button/Tooltip/Alacrity=Nearby friendly units gain a 30% boost to movement speed.
+Button/Tooltip/AncillaryCarapace=Roach gains +25 life.
+Button/Tooltip/AncillaryCarapaceHydralisk=Hydralisk gains +20 maximum life.
+Button/Tooltip/Apocalypse=Deals <d ref="Effect,ApocalypseDamage,Amount"/> damage to enemy units and <d ref="(Effect,ApocalypseDamage,Amount) + (Effect,ApocalypseDamage,AttributeBonus[Structure])"/> damage to enemy structures in a large area.
+Button/Tooltip/Apocalypse1=Deals massive damage in a large area.
+Button/Tooltip/Apocalypse2=Deals massive damage in a larger area.
+Button/Tooltip/Apocalypse3=Deals massive damage in a large area.
+Button/Tooltip/AshWorm=Gigantic worm species native to Ignus. Tunnels through the terrain to attack unsuspecting prey.
+Button/Tooltip/AshWormBurrowMove=Tunnel to another location.
+Button/Tooltip/AutomatedExtractor=Mutated over a Vespene Geyser to allow automatic harvesting of vespene gas.
+Button/Tooltip/AutomatedExtractorTextKicker4=<s val="Kicker_Refinery">+4 </s><IMG path="Assets\Textures\icon-gas-zerg.dds" height="28" width="28"/>
+Button/Tooltip/AutomatedExtractorTextKicker5=<s val="Kicker_Refinery">+5</s><IMG path="Assets\Textures\icon-gas-zerg.dds" height="32" width="32"/>
+Button/Tooltip/BanelingCorrosiveBile=Increases base attack damage against primary target by 100%. Splash damage remains the same.
+Button/Tooltip/BanelingEggNest=Move Kerrigan nearby to release Banelings from the nest.
+Button/Tooltip/BanelingHeal=In addition to dealing normal damage, Baneling explosions also heal nearby friendly units and structures.
+Button/Tooltip/BanelingHealSmall=In addition to dealing normal damage, Baneling explosions also heal nearby friendly units and structures.
+Button/Tooltip/BanelingHunterPassive=Hunter Strain<n/><n/>Baneling Nest enables you to morph Banelings from Zerglings.
+Button/Tooltip/BanelingNest=<c val="ffff8a">Enables:</c><n/>- Banelings from Zerglings
+Button/Tooltip/BanelingPassive=Baneling Nest enables you to morph Banelings from Zerglings.
+Button/Tooltip/BanelingSplitterlingPassive=Splitter Strain<n/><n/>Baneling Nest enables you to morph Banelings from Zerglings.
+Button/Tooltip/BanelingSplitterlingSplitPassive=Splits into two smaller Baneling Spawn upon death or eruption.
+Button/Tooltip/BarbedTalons=Leap deals 10 damage on impact.
+Button/Tooltip/BarbedTentacles=Six tentacles grab units and pull them forward, dealing damage over time.
+Button/Tooltip/BioAcids=Baneling deals +10 base damage.
+Button/Tooltip/Brakk=An aggressive Primal Zerg pack leader. Commands the primal forces assaulting the Swarm.
+Button/Tooltip/BrillianceAura=Kerrigan and all friendly units regenerate +1 additional energy per <d time="1" precision="1"/>.
+Button/Tooltip/BroodLordCocoon=This cocoon contains a Mutalisk that is morphing into a Brood Lord.
+Button/Tooltip/BroodLordPassive=Greater Spire enables you to morph Brood Lords from Mutalisks.
+Button/Tooltip/BroodMother=A highly evolved Queen with the ability to control entire broods.
+Button/Tooltip/BuildCreepTumor=A burrowed creep generator. Creep feeds nearby Zerg structures. A Creep Tumor can spawn additional Creep Tumors.<n/><n/><c val="#ColorAttackInfo">Bonus: Zerg move faster on creep.</c>
+Button/Tooltip/BuildCreepTumorPropagate=A burrowed creep generator. Creep feeds nearby Zerg structures. A Creep Tumor can spawn additional Creep Tumors.<n/><n/><c val="#ColorAttackInfo">Bonus: Zerg move faster on creep.</c>
+Button/Tooltip/Bulldozer=Terran crawler built to move soil, rubble, and clear debris.
+Button/Tooltip/BurrowChargeCampaign=Ultralisk burrows and charges toward units. When the Ultralisk unburrows, all enemy units nearby are knocked back and stunned for 2 seconds.
+Button/Tooltip/BurrowChargeCampaignNoxious=Ultralisk burrows and charges toward units. When the Ultralisk unburrows, all enemy units nearby are knocked back and stunned for 2 seconds.
+Button/Tooltip/BurrowLurker=Buries the Lurker underground. Burrowed Lurkers are unable to move, but they cannot be seen without detection.
+Button/Tooltip/BurrowSurge=Ultralisk burrows to target location.
+Button/Tooltip/BurrowSwarmHost=Allows Swarm Hosts to burrow. When burrowed, they cannot be seen without detection.
+Button/Tooltip/BurstingGlands=Acid splash also damages nearby enemies.
+Button/Tooltip/CampaignVehicles=
+Button/Tooltip/Cannibalize100=Consume a corpse to regain 10 life per second, up to 30 life per corpse. Can gain up to max life +100 using this ability.<n/><n/>Channeled ability.
+Button/Tooltip/Cannibalize50=Consume a corpse to regain 10 life per second, up to 30 life per corpse. Can gain up to max life +50 using this ability.<n/><n/>Channeled ability.
+Button/Tooltip/Cannibalize75=Consume a corpse to regain 10 life per second, up to 30 life per corpse. Can gain up to max life +75 using this ability.<n/><n/>Channeled ability.
+Button/Tooltip/Carapace=Kerrigan gains +5 armor.
+Button/Tooltip/CarrionNest=Nesting structure of the Carrion Wasp. A large number of Wasps can emerge from a single nest.
+Button/Tooltip/CarryCarcass=Drag a carcass.
+Button/Tooltip/CellularFissionUpgrade=Reduces Mutalisk cost by 50%.
+Button/Tooltip/CentrifugalHooksUpgrade=Increases Baneling's movement speed by 25%.
+Button/Tooltip/ChainReaction=Kerrigan's attacks deal normal damage to her target then jump to additional nearby enemies. Deals <d ref="Effect,ChainReaction2Damage,Amount"/> damage to up to four additional targets.
+Button/Tooltip/ChainReaction1=NOT USED
+Button/Tooltip/ChainReaction2=NOT USED
+Button/Tooltip/ChainReaction3=NOT USED
+Button/Tooltip/CharEggSackOneEgg=Move Kerrigan nearby to collect this egg before Zagara.
+Button/Tooltip/CharEggSackThreeEgg=Move Kerrigan nearby to collect these eggs before Zagara.
+Button/Tooltip/CharEggSackTwoEgg=Move Kerrigan nearby to collect these eggs before Zagara.
+Button/Tooltip/ChitinousPlating=Ultralisks gain +100 life.
+Button/Tooltip/ClarityOfPurposeAura=Doubles energy-regeneration rate for Kerrigan and nearby allies.
+Button/Tooltip/ColonistHutDecayedUnit=Abandoned Umojan Hut infested by Naktul's brood.
+Button/Tooltip/Confusion=Target enemy units will attack each other for <d time="4"/>.
+Button/Tooltip/Confusion1=NOT USED
+Button/Tooltip/Confusion2=Target enemy units will attack each other for <d time="4"/>.
+Button/Tooltip/Confusion3=NOT USED
+Button/Tooltip/Consume=Devours the creature from within, giving biomass to the zerg.
+Button/Tooltip/ConsumeEssence=Deals <d ref="Effect,ConsumeEssenceKillEnemy,Amount"/> damage to target biological enemy. Kerrigan regenerates <d ref="Effect,ConsumeEssenceKerriganHeal,VitalArray[0].Change"/> life, and nearby friendly units regenerate <d ref="Effect,ConsumeEssenceHeal,VitalArray[0].Change"/> life.
+Button/Tooltip/CorpserPassive=Enemies damaged by the Roach become infested and will spawn two Roachlings if killed quickly.
+Button/Tooltip/CorrosiveBile=Devoured units take 50% more damage.
+Button/Tooltip/CorrosiveSpores=All enemies in target area take +3 damage per hit for the next <d ref="Behavior,CorrosiveSpores,Duration"/> seconds.
+Button/Tooltip/CorrosiveVenom=Base damage increased by 50%.
+Button/Tooltip/CreepGeneration=Swarm Host generates creep while rooted.
+Button/Tooltip/CreepSpread=Reduces spawn time of Creep Tumors and drastically increases spread rate and spread size.
+Button/Tooltip/CreepTumor=A burrowed creep generator. Creep feeds nearby Zerg structures. A Creep Tumor can spawn additional Creep Tumors.<n/><n/><c val="#ColorAttackInfo">Bonus: Zerg move faster on creep.</c>
+Button/Tooltip/CreepTumorPassive=Automatically produces creep to feed nearby Zerg structures.<n/><n/><c val="#ColorAttackInfo">Bonus: Zerg move faster on creep.</c>
+Button/Tooltip/CreepingDoom=Creep slows enemy attack and movement speeds by <d ref="(1 - Behavior,QueenofVenomDamage,Modification.MoveSpeedMultiplier) * 100"/>%.
+Button/Tooltip/CreepingDoom1=Creep slows enemy attack and movement speeds by <d ref="(1 - Behavior,QueenofVenomDamage,Modification.MoveSpeedMultiplier) * 100"/>%.
+Button/Tooltip/CreepingDoom2=Creep slows enemy attack and movement speeds by <d ref="(1 - Behavior,QueenofVenomDamage,Modification.MoveSpeedMultiplier) * 100"/>%.
+Button/Tooltip/CreepingDoom3=Creep slows enemy attack and movement speeds by <d ref="(1 - Behavior,QueenofVenomDamage,Modification.MoveSpeedMultiplier) * 100"/>%.
+Button/Tooltip/CritterCarrionBug=Insectoid species native to Cruxas III. Emerge from Carrion Nests.
+Button/Tooltip/DNAPickup=Usable essence.
+Button/Tooltip/DeadQueenUnit=Splayed corpse of the once powerful Broodmother.
+Button/Tooltip/DeafeningRoar=Ultralisk lets out a roar that stuns nearby ground units for <d time="3"/>.
+Button/Tooltip/DeathAura=Nearby enemies take 10 damage per <d time="1" precision="1"/>. Kerrigan gains +5 life per enemy damaged.
+Button/Tooltip/DeathAura1=Nearby enemies take 15 damage per <d time="1" precision="1"/>. Kerrigan gains +20 life per enemy killed.
+Button/Tooltip/DeathAura2=Nearby enemies take 20 damage per <d time="1" precision="1"/>. Kerrigan gains +20 life per enemy killed.
+Button/Tooltip/DeathAura3=Nearby enemies take 25 damage per <d time="1" precision="1"/>. Kerrigan gains +20 life per enemy killed.
+Button/Tooltip/DeathAuraOff=Turns off Life Drain.
+Button/Tooltip/DeepBurrow=Kerrigan tunnels deep underground and surfaces at target point.
+Button/Tooltip/DefensiveWall45GateLargeWest=Towering gate built to prevent Zerg forces from accessing the fortress. Destroy it to begin the attack.
+Button/Tooltip/DefilerBoneSample=The skeletal remains of a Defiler. Abathur would love to get his hands on these.
+Button/Tooltip/Dehaka=A Primal Pack Leader. A skilled fighter who is immune to the effects of the Psi Destroyer Field.<n/><n/><c val="ffff8a">Can attack ground and air units.</c>
+Button/Tooltip/DehakaCliffJumper=Dehaka can jump up and down cliffs.
+Button/Tooltip/DehakaDevour=Bites a large chunk out of the target and heals Dehaka.
+Button/Tooltip/DehakaFlurry=Dehaka creates a flurry of blows that damage all nearby enemies.
+Button/Tooltip/DehakaHeal=Heals Dehaka for <d ref="Effect,DehakaHealBig,VitalArray[0].Change"/>, and heals nearby friendly units for <d ref="Effect,DehakaHealSmall,VitalArray[0].Change"/>. An additional 50% of the amount healed regenerates over <d time="15"/>.
+Button/Tooltip/DehakaLeap=Dehaka leaps into the air and stuns nearby enemies when he lands.
+Button/Tooltip/DehakaMirrorImage=Generates two Spawns of Dehaka that deal 100% normal damage but have 50% life. Spawns last <d time="30"/>.
+Button/Tooltip/DehakaMirrorImageCliffJumper=Dehaka's Spawns can jump up and down cliffs.
+Button/Tooltip/DehakaReviveCocoon=Dehaka is reviving within this cocoon.
+Button/Tooltip/DehakaRightArm=Left behind by whatever creature tore it from Dehaka's torso. Apparently he isn't very appetizing.
+Button/Tooltip/DemolitionEfficiency=Baneling's base damage against structures increased by 20%.
+Button/Tooltip/DesertEnergyCannon=Drakken defense cannon capable of destroying targets within planetary orbit. Destroy it before Jim arrives.
+Button/Tooltip/DestroyerZerglingGasText=<s val="Kicker_Gas">5</s> <IMG path="Assets\Textures\icon-gas-protoss.dds" height="28" width="28"/>
+Button/Tooltip/DevastatingShot=Deals 200 damage to target unit or structure. Target also takes increased damage for <d time="5"/>.
+Button/Tooltip/Devour=The Primal Ultralisk swallows a unit whole. The swallowed unit takes 5 damage per <d time="1" precision="1"/> while it is being devoured.<n/><n/>The swallowed unit will be recovered if the Primal Ultralisk is destroyed.<n/><n/>Massive units are immune.
+Button/Tooltip/DisableBuildingAttack=Prevents Banelings from automatically targeting structures. Banelings can still be explicitly ordered to attack structures.<n/><n/>Banelings deal <d ref="(Effect,HotSBanelingExplodeLargeDirect,Amount) + (Effect,HotSBanelingExplodeLargeDirect,AttributeBonus[Structure])"/> damage to structures.
+Button/Tooltip/DisableBuildingAttackSplitterling=Prevents Banelings from automatically targeting structures. Banelings can still be explicitly ordered to attack structures.<n/><n/>Banelings deal <d ref="(Effect,HotSBanelingExplodeSmallDirect,Amount) + (Effect,HotSBanelingExplodeSmallDirect,AttributeBonus[Structure])"/> damage to structures.
+Button/Tooltip/DisableToxicAdrenaline=Disables Toxic Adrenaline.
+Button/Tooltip/DisablingCloud=Creates a cloud that slows movement speed and prevents enemy units and structures from attacking and using energy-based abilities. Lasts for <d ref="(Effect,DisablingCloud,PeriodCount + 1) * Effect,DisablingCloud,PeriodicPeriodArray[0]"/> seconds.
+Button/Tooltip/Drag=Pulls the target to Dehaka's location and temporarily stuns it.
+Button/Tooltip/EatMeat=Devour nearby meat.
+Button/Tooltip/EnableBuildingAttack=Allows Banelings to automatically target structures.<n/><n/>Banelings deal <d ref="(Effect,HotSBanelingExplodeLargeDirect,Amount) + (Effect,HotSBanelingExplodeLargeDirect,AttributeBonus[Structure])"/> damage to structures.
+Button/Tooltip/EnableBuildingAttackSplitterling=Allows Banelings to automatically target structures.<n/><n/>Banelings deal <d ref="(Effect,HotSBanelingExplodeSmallDirect,Amount) + (Effect,HotSBanelingExplodeSmallDirect,AttributeBonus[Structure])"/> damage to structures.
+Button/Tooltip/EnableToxicAdrenaline=Produces units twice as fast. Suffers 2 damage per <d time="1" precision="1"/>. Automatically disables at sub 2 hit points.
+Button/Tooltip/EnhancedCarapace=Life increased by 25%.
+Button/Tooltip/Enrage=Kerrigan gains +25 damage and attacks 50% faster for <d time="5"/>.
+Button/Tooltip/Ensnare=Ensnares enemy units within a 1.5 radius. Reduces attack and movement speeds by 25%.
+Button/Tooltip/EruptiveSpores=Splash radius increased by 50%.
+Button/Tooltip/ExoSkeleton=Armor increased by 2.
+Button/Tooltip/ExpeditionJumpGate=Jump Gate connected to Shakuras's warp network. Only specialized craft can travel through the Gate.
+Button/Tooltip/ExplosiveGlaive=Mutalisk gains +9 damage vs. armored units. Attacks no longer bounce to additional targets.
+Button/Tooltip/ExplosiveSpines=Attacks against air units deal +25% damage. They deal +33% damage to all enemy air targets in a 1.5 radius.
+Button/Tooltip/ExtendedLash=Spine Lash's range increased by 50%.
+Button/Tooltip/FaceEmbrace=Pulls target unit to the Viper. Enemy is stunned for 1 second.
+Button/Tooltip/FibrousCoreUpgrade=Mutalisk gains +35 life.
+Button/Tooltip/FighterResupplyModelText=+1 Fighter
+Button/Tooltip/Flight=Kerrigan can soar into the air through sheer force of will.
+Button/Tooltip/FocusedGathering=Drones gather 20% more minerals and 25% more vespene gas.
+Button/Tooltip/FracturingSpines=Doubles the width of the Lurker's area attack.
+Button/Tooltip/FungalGrowth=Immobilizes target units and deals 60 damage over <d time="4"/>. Reveals cloaked and burrowed units.
+Button/Tooltip/GehennaCruiser=Gigantic Terran Battlecruiser. Impervious to normal attacks.
+Button/Tooltip/GenerateCorrosiveOoze=Continuously drops Corrosive Ooze on all ground units at target location. Enemy units in area of effect take 5 damage per <d time="1" precision="1"/>.
+Button/Tooltip/GiantYeti=An exceptionally large specimen of Kaldir's native Ursadon subspecies.
+Button/Tooltip/GiantYetiLeap=Ursadon leaps to a location, stunning nearby enemies on impact.
+Button/Tooltip/GlaiveWurmUpgrade=Mutalisk gains a bounce attack.
+Button/Tooltip/GooPuddle=Banelings leave a puddle that damages and slows enemies.
+Button/Tooltip/GravityWell=Creates a powerful psionic force that pulls enemy units toward it for <d time="8"/>.
+Button/Tooltip/GreaterNydusWorm=Powerful Nydus worm strain capable of tunneling across incredible distances.
+Button/Tooltip/GreaterSpireBroodlord=<c val="ffff8a">Enables:</c><n/>- Brood Lords from Mutalisks
+Button/Tooltip/GreaterSpireViper=<c val="ffff8a">Enables:</c><n/>- Vipers from Mutalisks
+Button/Tooltip/GroovedSpines=Hydralisk gains +1 attack range.
+Button/Tooltip/GrowHugeQueen=Consumes biomass to grow the Broodmother. Allows her to support additional minions and Birth Hydralisks.
+Button/Tooltip/GrowLargeQueen=Consumes biomass to grow the Broodmother. Allows her to support additional minions and Birth Roaches.
+Button/Tooltip/GrowSwarmQueen=Morph into a Broodmother. A Broodmother can birth Zerglings and collect biomass with her attack.
+Button/Tooltip/GunTower=The Tactical Operations Center is guarded by an advanced gun system. Destroy it and the fortress will fall.
+Button/Tooltip/HardenedThorax=Life increased by 10.
+Button/Tooltip/Haymaker=Deals 20 damage to all enemies in area around Kerrigan, stunning them for 2 seconds.
+Button/Tooltip/HealerBot=
+Button/Tooltip/HealthDispenser=Creates Restoration Charges that restore life and energy to Kerrigan, Raynor, and nearby friendly units when picked up.
+Button/Tooltip/HipExtensors=Leap distance increased by 20%.
+Button/Tooltip/HireMercPilot=Hires Merc Pilot.
+Button/Tooltip/HiveMind=Drones gather 1 additional gas or mineral per harvesting trip.
+Button/Tooltip/HostCorpses=Each enemy killed by Kerrigan spawns a friendly Drone.
+Button/Tooltip/HotSAcceleratedMutation=Brood Lord cost reduced by 50%.
+Button/Tooltip/HotSBioPlasmidDischarge=Deals <d ref="Effect,HotSBioPlasmidDischargeDamage,Amount"/> damage to a target unit or structure from long range.
+Button/Tooltip/HotSBioStasis=Enemies in target area are stunned for <d ref="Behavior,HotSBioStasis,Duration"/> seconds. Does not affect Heroic units or Structures.
+Button/Tooltip/HotSCausticAdditive=Corrosive Ooze damage increased to 7 per second.
+Button/Tooltip/HotSCellRejuvenation=Gain 10 life per kill
+Button/Tooltip/HotSCorrosiveTalons=Attacks reduce target enemy's armor. Stacks up to five times.
+Button/Tooltip/HotSEnhancedBileDucts=Attacks continue to damage the enemy for 2 damage per <d time="1" precision="1"/>. Lasts <d time="2"/>.
+Button/Tooltip/HotSGapingMaw=Devourer's attack speed increased by 25%.
+Button/Tooltip/HotSHardenedCarapace=Gains +1 armor.
+Button/Tooltip/HotSHardenedClaws=Burrow movement speed increased by 60%.
+Button/Tooltip/HotSHunter=Suicide unit. Deals damage over a small area upon death. Launches toward enemy at range 6.<n/><n/><c val="ffff8a">Can attack ground units.</c>
+Button/Tooltip/HotSImprovedOsmosis=Spore duration increased by 50%.
+Button/Tooltip/HotSImprovedSporeTracking=Devourer can attack ground units.
+Button/Tooltip/HotSInterlockingScales=Can instantly burrow and unburrow 
+Button/Tooltip/HotSKeneticMitosis=Broodling splits into two on impact.
+Button/Tooltip/HotSLeviathan=Massive Zerg vessel. Can use Bio-Plasmid Discharge and Bio-Stasis.<n/><n/><c val="ffff8a">Can attack ground and air units.</c>
+Button/Tooltip/HotSMetabolicBoost=Movement speed increased by 60%.
+Button/Tooltip/HotSNoxious=Heavy assault beast. Has an area-damage cleave attack. Poisons enemies.<n/><n/><c val="ffff8a">Can attack ground units.</c>
+Button/Tooltip/HotSOmegaStorm=Blankets target area in psionic energies, dealing <d ref="Effect,HotSOmegaStorm,PeriodCount * Effect,HotSOmegaStormDamage,Amount"/> damage over <d ref="Effect,HotSOmegaStorm,PeriodCount * Effect,HotSOmegaStorm,PeriodicPeriodArray[0]"/> seconds.
+Button/Tooltip/HotSOrganicCarapace=Roach regenerates faster both while burrowed and unburrowed.
+Button/Tooltip/HotSPressurizedGlands=Locusts can attack both ground and air units.
+Button/Tooltip/HotSRaptor=Fast melee unit. Leaps over obstacles and onto targets from range. Deals increased damage. Can morph into a Baneling.<n/><n/><c val="FFFF8A">Can attack ground units.</c>
+Button/Tooltip/HotSRaptorCharge=Allows Raptor to leap toward its target. Ability can be used only once every <d ref="Abil,HotSRaptorCharge,Cost.Cooldown.TimeUse"/> seconds.
+Button/Tooltip/HotSRedundantMembranes=Zergling gains +10 maximum life.
+Button/Tooltip/HotSRoachDamage=Roach gains +<d ref="Upgrade,HotSRoachDamage,EffectArray[0].Value / Effect,AcidSalivaU"/> damage vs. light units.
+Button/Tooltip/HotSRoachShield=Roach gains +<d ref="Behavior,RoachShield,Modification[0].LifeArmorBonus"/> armor when life is under 50%.
+Button/Tooltip/HotSSalivatingGullet=Burrow attack penalty reduced by 50%.
+Button/Tooltip/HotSSecondaryGooDucts=Corrosive Ooze splash radius increased.
+Button/Tooltip/HotSSplitterlingBig=Suicide unit. Deals damage over a small area upon death. Splits into smaller units as it dies. <n/><n/><c val="ffff8a">Can attack ground units.</c>
+Button/Tooltip/HotSSplitterlingMedium=Suicide unit. Deals damage over a small area upon death. <n/><n/><c val="ffff8a">Can attack ground units.</c>
+Button/Tooltip/HotSStoneBurrow=Takes 50% less damage while burrowed
+Button/Tooltip/HotSSwarmling=Fast melee unit. Spawns in groups of three. Morphs almost instantly. Can morph into a Baneling.<n/><n/><c val="FFFF8A">Can attack ground units.</c>
+Button/Tooltip/HotSTissueAssimilation=Can cannibalize to +75 life.
+Button/Tooltip/HotSTorrasque=Heavy assault beast. Has an area-damage cleave attack. When killed, can be revived.<n/><n/><c val="ffff8a">Can attack ground units.</c>
+Button/Tooltip/HotSToxicBile=Attack damage increased by 20%.
+Button/Tooltip/HotSViscousSecretion=Duration of stuns caused by Spine Lash increased to <d time="4"/>.
+Button/Tooltip/HotSZerglingFrenzy=Attack speed increased by 50%.
+Button/Tooltip/HotSZerglingFury=Attack speed increases with each attack. Can stack up to <d ref="(Behavior,ZerglingFury5,Modification.AttackSpeedMultiplier - 1) * 100"/>% increased attack speed.
+Button/Tooltip/HotSZerglingSunder=Attacks weaken the target, causing it to take 30% more damage from all ranged attacks.
+Button/Tooltip/HugeSwarmQueen=Broodmother Niadra. Can birth Zerg minions and collect biomass with her attack.
+Button/Tooltip/HugeSwarmQueenBurrowed=Broodmother Niadra. Can birth Zerg minions and collect biomass with her attack.
+Button/Tooltip/HunterCliffJumper=This unit can jump up and down cliffs.
+Button/Tooltip/Hybrid=Monstrous creature made from both Protoss and Zerg DNA. Capable of powerful attacks.<n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c><n/><c val="FFE303">Detector</c>
+Button/Tooltip/HybridDominator=Powerful psionic attacker.<n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c><n/><c val="FFE303">Detector</c>
+Button/Tooltip/HybridHatchEntrance=High-tech security gate protecting the entrance lift to Skygeirr's lab.
+Button/Tooltip/HybridHoldingCellSmallUnit=Holding cell designed to house and sustain developing Hybrid.
+Button/Tooltip/HybridRelease=
+Button/Tooltip/HybridScienceFacility=Biological research facility.
+Button/Tooltip/Hydralisk=High-damage ranged unit.<n/><n/><c val="ffff8a">Can attack ground and air units.</c>
+Button/Tooltip/HydraliskDeathGasRefundModelText=<s val="Kicker_Gas">+25 </s><IMG path="Assets\Textures\icon-gas-zerg.dds" height="28" width="28"/>
+Button/Tooltip/HydraliskDen=<c val="ffff8a">Enables:</c><n/>- Hydralisks from Larvae
+Button/Tooltip/HydraliskDenImpaler=Can mutate into an Impaler Den.</n></n><c val="ffff8a">Enables:</c><n/>- Hydralisks from Larvae
+Button/Tooltip/HydraliskDenImpalerPassive=Impaler Strain<n/><n/>Hydralisk Den enables you to morph Hydralisks.
+Button/Tooltip/HydraliskDenLurker=Can mutate into a Lurker Den.</n></n><c val="ffff8a">Enables:</c><n/>- Hydralisks from Larvae
+Button/Tooltip/HydraliskDenLurkerPassive=Lurker Strain<n/><n/>Hydralisk Den enables you to morph Hydralisks.
+Button/Tooltip/HydraliskFrenzy=Attack speed increased by 50% for <d ref="Behavior,HydraliskFrenzy,Duration"/> seconds.
+Button/Tooltip/HydraliskImpaler=High-damage ranged unit. Can morph into an Impaler.<n/><n/><c val="ffff8a">Can attack ground and air units.</c>
+Button/Tooltip/HydraliskImpalerPassive=Impaler Strain<n/><n/>Impaler Den enables you to morph Hydralisks.
+Button/Tooltip/HydraliskLurker=High-damage ranged unit. Can morph into a Lurker.<n/><n/><c val="ffff8a">Can attack ground and air units.</c>
+Button/Tooltip/HydraliskLurkerEgg=This cocoon contains a Hydralisk that is morphing into a Lurker.
+Button/Tooltip/HydraliskLurkerPassive=Lurker Strain<n/><n/>Lurker Den enables you to morph Hydralisks.
+Button/Tooltip/HydraliskPassive=Hydralisk Den enables you to morph Hydralisks.
+Button/Tooltip/HyperionKorhal=Flagship of Raynor's Raiders. Protect it from the Dominion.
+Button/Tooltip/HyperionKorhalRegen=The Hyperion powers down and starts repairing damage.
+Button/Tooltip/HyperionKorhalRegenOff=Cancels current repairs.
+Button/Tooltip/HyperionKorhalYamato=Blasts target with a devastating plasma cannon, causing <d ref="Effect,HyperionKorhalYamatoDamage,Amount"/> damage.
+Button/Tooltip/Impaler=Long-range anti-armor ambusher. Must burrow to attack.<n/><n/><c val="ffff8a">Can attack ground units.</c>
+Button/Tooltip/ImpalerBurrowed=Long-range anti-armor ambusher. Must burrow to attack.<n/><n/><c val="ffff8a">Can attack ground units.</c>
+Button/Tooltip/ImpalerDen=<c val="ffff8a">Enables:</c><n/>- Impalers from Hydralisks
+Button/Tooltip/ImpalerEgg=This cocoon contains a Hydralisk that is morphing into an Impaler.
+Button/Tooltip/ImpalerMorph=Allows Hydralisks to morph into Impalers.
+Button/Tooltip/ImpalerPassive=Impaler Den enables you to morph Impalers from Hydralisks.
+Button/Tooltip/ImprovedBurrow=Takes 50% less damage while burrowed.
+Button/Tooltip/IncendiarySpores=Swarm Guardian deals +10 damage to light armor.
+Button/Tooltip/Infest=Infests target unit, permanently placing it under Kerrigan's control.
+Button/Tooltip/InfestationPit=<c val="ffff8a">Enables:</c><n/>- Infestors from Larvae<n/>- Swarm Hosts from Larvae
+Button/Tooltip/InfestedBanshees=Spawns two Infested Banshees.
+Button/Tooltip/InfestedBarracks=This structure is infested and under Zerg control.
+Button/Tooltip/InfestedCC=This structure is infested and under Zerg control.
+Button/Tooltip/InfestedCocoon=This terran has been infested.
+Button/Tooltip/InfestedCortex=Kerrigan gains +<d ref="Behavior,KerriganInfestedCortex,Modification.VitalMaxArray[2]"/> additional energy.
+Button/Tooltip/InfestedDominionHousing1=Housing Garrison for the Dominion forces stationed on the Skygeirr platform.
+Button/Tooltip/InfestedDominionHousing2=Housing Garrison for the Dominion forces stationed on the Skygeirr platform.
+Button/Tooltip/InfestedDominionHousing3=Housing Garrison for the Dominion forces stationed on the Skygeirr platform.
+Button/Tooltip/InfestedMedics=Spawns two Infested Medics.
+Button/Tooltip/InfestedMercHaven=One of the few places the soldiers stationed on Skyegeirr have to blow off some steam.
+Button/Tooltip/InfestedSiegeBreakers=Spawns two Infested Siege Breakers.
+Button/Tooltip/InfestedStukov=Once a vice admiral of the UED, Stukov is now infested and commands other Infested Terrans.<n/><n/><c val="ffff8a">Can attack ground and air units.</c>
+Button/Tooltip/InfestedSupply=This structure is infested and under Zerg control.
+Button/Tooltip/Infestor=Infestation specialist. Can move while burrowed. Can use the Fungal Growth, Parasitic Domination, and Consumption abilities.<n/><n/><c val="ffff8a">Cannot attack.</c>
+Button/Tooltip/Infestor2=Infestation specialist. Can move while burrowed. Can use the Fungal Growth, Parasitic Domination, and Consumption abilities.
+Button/Tooltip/InfestorConsumption=Drains up to 75 life from a friendly Zerg unit and gives the Infestor 2 energy for each point of life drained.
+Button/Tooltip/InfestorPassive=Infestation Pit enables you to morph Infestors.
+Button/Tooltip/InterlockingScalesMutaliskUpgrade=Mutalisk gains +1 armor.
+Button/Tooltip/K5ArmorAura=Increases armor of all units in range 15.
+Button/Tooltip/K5ArmyEnergy=Zerg units that use energy begin with +100 starting and maximum energy.
+Button/Tooltip/K5AutoExtractor=Extractors automatically extract vespene gas without Drones.
+Button/Tooltip/K5BrillianceAura=+1 Mana Regen
+Button/Tooltip/K5ChainLightning=SEE Chain Reaction.
+Button/Tooltip/K5Cooldowns=Kerrigan's abilities have their cooldown and energy cost reduced by 20%.
+Button/Tooltip/K5CreepBonuses=Your units and structures gain increased life regeneration and 30% increased attack speed while on creep. Creep Tumors also spread creep faster and farther. 
+Button/Tooltip/K5DropPods=Delivers Primal Zerg forces with timed life to the battlefield. Drop-Pods contain <w><d ref="Effect,K5DropPodZerglings,SpawnCount * 5"/> Zerglings,</w> <w><d ref="Effect,K5DropPodRoach,SpawnCount * 5"/> Roaches,</w> and <w><d ref="Effect,K5DropPodInitialPlacement1,SpawnCount * 5"/> Hydralisks.</w>
+Button/Tooltip/K5EndlessSwarm=Friendly units near Kerrigan spawn Broodlings upon death.
+Button/Tooltip/K5Fury=Each attack temporarily increases Kerrigan's attack speed by <d ref="(Behavior,KerriganPrimalRage1,Modification.AttackSpeedMultiplier - 1) * 100"/>%. Can stack up to <d ref="(Behavior,KerriganPrimalRage5,Modification.AttackSpeedMultiplier - 1) * 100"/>% increased attack speed.
+Button/Tooltip/K5GasBonuses=Vespene gas harvesting efficiency increased by 25%.
+Button/Tooltip/K5HatcheryCost=Hatcheries cost 200 minerals less to mutate.
+Button/Tooltip/K5HeroicFortitude=Kerrigan gains +200 maximum life.<n/>Life-regeneration rate increased by 100%.
+Button/Tooltip/K5ImprovedCrawlers=Spine Crawlers and Spore Crawlers gain +50% life and +50% attack speed.
+Button/Tooltip/K5ImprovedOverlords=Overlords morph instantly and provide 50% more supply.
+Button/Tooltip/K5InfestBroodlings=Enemies damaged by Kerrigan become infested and will spawn <d ref="Effect,K5InfestBroodlingsDeathCU,SpawnCount"/> Broodlings with timed life if killed quickly.
+Button/Tooltip/K5Kerrigan=Kerrigan is a powerful hero. She has a large amount of life, strong attacks, and devastating psionic abilities.
+Button/Tooltip/K5KerriganQoB=Kerrigan is the primal Queen of Blades. She has a large amount of life, strong attacks, and devastating psionic abilities.
+Button/Tooltip/K5Leviathan=Summons a mighty flying Leviathan with timed life. Deals massive damage and has energy-based abilities.<n/><n/><c val="ffff8a">Can attack ground and air units.</c>
+Button/Tooltip/K5LeviathanPlaceholder=The mighty flying Leviathan has been summoned. Deals massive damage and has energy-based abilities. If killed, the Leviathan can be spawned again after <d ref="Abil,K5Leviathan,Cost[0].Cooldown.TimeUse"/> seconds.<n/><n/><c val="ffff8a">Can attack ground and air units.</c>
+Button/Tooltip/K5PrimalSlashPassive=Kerrigan gains +200 life, +10 damage, and +1 armor.
+Button/Tooltip/K5PrimalStrength=Kerrigan gains +200 life, +10 damage, and +1 armor.
+Button/Tooltip/K5RangeUpgrade=Kerrigan's normal attack range increased by <d ref="Upgrade,K5RangeUpgrade,EffectArray[0].Value"/>.
+Button/Tooltip/K5TwoDrones=Drones morph in groups of two at no additional cost and require less supply.
+Button/Tooltip/K5VampiricAura=Kerrigan and allies steal life when dealing damage with normal attacks.
+Button/Tooltip/K5ZerglingRespawn=Killed Zerglings respawn from your primary Hatchery at no cost. Respawns up to <d ref="Effect,ZerglingRespawnTooltipDummy,SpawnCount"/> Zerglings every <d time="30"/> until all Zerglings have returned to life.
+Button/Tooltip/KerriganConsume=Destroys target ally to gain energy. Energy gained is equal to the target's maximum life.
+Button/Tooltip/KerriganConsume1=Destroys target ally to gain energy. Energy gained is equal to the target's maximum life.
+Button/Tooltip/KerriganConsume2=Destroys target ally to gain energy. Energy gained is equal to the target's maximum life.
+Button/Tooltip/KerriganConsume3=Destroys target ally to gain energy. Energy gained is equal to the target's maximum life.
+Button/Tooltip/KerriganCorruptionMarines=Land-based Terran units killed by Kerrigan become Infested Terrans.
+Button/Tooltip/KerriganCrawlers=Spine Crawler and Spore Crawler resource costs reduced by 50%. Mutation time reduced by 30%.
+Button/Tooltip/KerriganCrawlers1=Spine Crawler and Spore Crawler resource gas costs reduced by 50%. Mutation time reduced by 40%.
+Button/Tooltip/KerriganCrawlers2=Spine Crawler and Spore Crawler resource gas costs reduced by 50%. Mutation time reduced by 50%.
+Button/Tooltip/KerriganCrawlers3=Spine Crawler and Spore Crawler resource gas costs reduced by 50%. Mutation time reduced by 60%.
+Button/Tooltip/KerriganEndlessSwarm=All friendly units spawn Broodlings upon death.
+Button/Tooltip/KerriganEndlessSwarm1=NOT USED
+Button/Tooltip/KerriganEndlessSwarm2=NOT USED
+Button/Tooltip/KerriganEndlessSwarm3=NOT USED
+Button/Tooltip/KerriganEnhance=Enhances Kerrigan.
+Button/Tooltip/KerriganEnhanceOff=Stop using Kerrigan Enhance.
+Button/Tooltip/KerriganFeedback=Attackers take 5 damage.
+Button/Tooltip/KerriganFrenzy=Kerrigan and all friendly units attack x% faster for <d time="10"/>.<n/><n/><s val="KerriganEvolution">Evolution Chamber:</s> Increases attack speed by 10% per upgrade.
+Button/Tooltip/KerriganGhost=The Queen of Blades!
+Button/Tooltip/KerriganGhostLab=Sarah Kerrigan is an elite Ghost with more life, a stronger attack, and devastating psionic abilities.
+Button/Tooltip/KerriganGhostLabPlasmaRound=Kerrigan fires a Plasma Round that deals <d ref="Effect,KerriganGhostLabPlasmaRoundDamage,Amount"/> damage. Deals <d ref="Effect,KerriganGhostLabPlasmaRoundDamage,AttributeBonus[6]"/> extra damage to massive units.
+Button/Tooltip/KerriganGhostLabSnipe=After carefully aiming, Kerrigan fires a Penetrator Round that strikes enemies along its path, dealing <d ref="Effect,KerriganGhostLabSnipeDamage,Amount"/> damage.
+Button/Tooltip/KerriganHealingPowers=Kerrigan heals any of her units touching the water of the Primal Pool.
+Button/Tooltip/KerriganInfestation=An Infested Terran spawns from each enemy killed by Kerrigan's attacks or abilities.
+Button/Tooltip/KerriganLabCloak=Cloaks Kerrigan, preventing enemy units from seeing or attacking her. Kerrigan will only be revealed by detectors or effects.<n/><n/><c val="f078ff">Drains <d ref="-1 * (Behavior,GhostCloak,Modification.VitalRegenArray[2] + Unit,Ghost,EnergyRegenRate)" precision="1"/> energy per second.</c>
+Button/Tooltip/KerriganLabEMP=Creates an electromagnetic pulse that deals 100 damage to shields and drains all energy from units in the targeted area. Cloaked units hit by EMP are revealed for a short time.
+Button/Tooltip/KerriganLabPsiGrip=Lifts target unit into the air, disabling them for <d ref="Behavior,PsiGrip,Duration"/> seconds.
+Button/Tooltip/KerriganLabSnipe=A careful shot, dealing 125 damage. Ignores armor.<n/><n/><c val="#ColorAttackInfo">Can target only biological units.</c>
+Button/Tooltip/KerriganLevelUpText=<s val="Kicker_LevelUp">Level Up</s>
+Button/Tooltip/KerriganLifeDrain=Steal 30 life from each enemy target and heal each nearby friendly unit for total damage done.
+Button/Tooltip/KerriganLifeDrain1=NOT USED
+Button/Tooltip/KerriganLifeDrain2=NOT USED
+Button/Tooltip/KerriganLifeDrain3=NOT USED
+Button/Tooltip/KerriganMorphMenu=Kerrigan can change her Battle Focus. Requires a 15 second morph time.
+Button/Tooltip/KerriganNydusWyrm=Summons a Broodling Nest that spawns six Broodlings every <d time="10"/>.
+Button/Tooltip/KerriganNydusWyrm1=NOT USED
+Button/Tooltip/KerriganNydusWyrm2=NOT USED
+Button/Tooltip/KerriganNydusWyrm3=NOT USED
+Button/Tooltip/KerriganQueenOfBlades=The Queen of Blades!
+Button/Tooltip/KerriganRegeneration=Kerrigan regenerates life and energy rapidly while out of combat.
+Button/Tooltip/KerriganRenewal=Heals all friendly units on the map for 100 life over <d time="10"/>.
+Button/Tooltip/KerriganRenewal1=Heals all friendly units on the map for 150 life over <d time="10"/>.
+Button/Tooltip/KerriganRenewal2=Heals all friendly units on the map for 200 life over <d time="10"/>.
+Button/Tooltip/KerriganRenewal3=Heals all friendly units on the map for 250 life over <d time="10"/>.
+Button/Tooltip/KerriganReviveCocoon=Kerrigan is reviving within this cocoon.
+Button/Tooltip/KerriganRevivePlacement=Cannot find space to revive Kerrigan.
+Button/Tooltip/KerriganRulerRoot=Kerrigan becomes immobile and gains +<d ref="Unit,KerriganRulerTower,LifeMax - Unit,KerriganRuler,LifeMax"/> life, +<d ref="Effect,KerriganRulerDamage,Amount - Effect,KerriganRangedDamage,Amount"/> attack damage, and +<d ref="Weapon,KerriganRulerTower,Range - Weapon,KerriganRuler,Range"/> range.
+Button/Tooltip/KerriganRulerRoot1=Kerrigan becomes immobile and gains +<d ref="Unit,KerriganRulerTower,LifeMax - Unit,KerriganRuler,LifeMax"/> life, +<d ref="Effect,KerriganRulerDamage,Amount - Effect,KerriganRangedDamage,Amount"/> attack damage, and +<d ref="Weapon,KerriganRulerTower,Range - Weapon,KerriganRuler,Range"/> range.
+Button/Tooltip/KerriganRulerRoot2=Kerrigan becomes immobile and gains +<d ref="Unit,KerriganRulerTower,LifeMax - Unit,KerriganRuler,LifeMax"/> life, +<d ref="Effect,KerriganRulerDamage,Amount - Effect,KerriganRangedDamage,Amount"/> attack damage, and +<d ref="Weapon,KerriganRulerTower,Range - Weapon,KerriganRuler,Range"/> range.
+Button/Tooltip/KerriganRulerRoot3=Kerrigan becomes immobile and gains +<d ref="Unit,KerriganRulerTower,LifeMax - Unit,KerriganRuler,LifeMax"/> life, +<d ref="Effect,KerriganRulerDamage,Amount - Effect,KerriganRangedDamage,Amount"/> attack damage, and +<d ref="Weapon,KerriganRulerTower,Range - Weapon,KerriganRuler,Range"/> range.
+Button/Tooltip/KerriganRulerUproot=Returns Kerrigan to mobile form.
+Button/Tooltip/KerriganSwarmMistressFrenzy=Kerrigan and nearby allies gain +<d ref="(Behavior,KerriganSwarmMistressFrenzy,Modification.AttackSpeedMultiplier - 1) * 100"/>% increased attack and movement speeds for <d ref="Behavior,KerriganSwarmMistressFrenzy,Duration"/> seconds.
+Button/Tooltip/KerriganSwarmMistressFrenzy1=NOT USED
+Button/Tooltip/KerriganSwarmMistressFrenzy2=NOT USED
+Button/Tooltip/KerriganSwarmMistressFrenzy3=NOT USED
+Button/Tooltip/KerriganTossGrenade=Tosses a grenade that explodes for <d ref="Effect,KerriganTossGrenadeDamage,Amount"/> damage in a small radius. <n/><n/><c val="ffff8a">Does not harm friendly units.</c>
+Button/Tooltip/KerriganVortex=Transforms Kerrigan into a swirling maelstrom of energy. Deals 50 damage per <d time="1" precision="1"/> to nearby enemy units, and 100 damage per <d time="1" precision="1"/> to nearby enemy structures.
+Button/Tooltip/KerriganVortexReturn=Returns Kerrigan to her natural state.
+Button/Tooltip/KerrigansWrath=Primal units across a large area will be stunned for <d time="20"/>.
+Button/Tooltip/KorhalCannon=Drakken Defense Cannon designed to destroy enemy forces as they enter orbit.
+Button/Tooltip/KorhalGateEast=Security Gate leading directly into the heart of Augustgrad.
+Button/Tooltip/KorhalGateWest=Security Gate leading directly into the heart of Augustgrad.
+Button/Tooltip/KorhalPalaceGate=[PH] Korhal Palace Gate. Heavily fortified. Good luck!
+Button/Tooltip/KorhalPalaceTurret=Extremely powerful turrets that cannot be attacked. Breaking down the Palace Gate is the only way to victory.<n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c>
+Button/Tooltip/KorhalSporeCannon=These powerful Bile Launchers are the Swarm's only hope to destroy Korhal's defense network.
+Button/Tooltip/KorhalSporeCannonRegen=Bile Launcher regenerates life rapidly when out of combat.
+Button/Tooltip/Kraith=An immense Pack Leader who charges at foes. Can launch projectiles at unsuspecting prey.
+Button/Tooltip/KraithCrashingCharge=Kraith charges forward, dealing damage to units and knocking them back. Hitting a wall will cause rocks and debris to fall from the ceiling.
+Button/Tooltip/KraithSpineVolley=Kraith shoots a stream of spines at the target.
+Button/Tooltip/LabTurret=This automated-defense device releases gas that damages biological organisms.
+Button/Tooltip/LabTurretUp=Automated Gas Defense system. Destroy to open the containment door.
+Button/Tooltip/LargeSwarmQueen=Broodmother Niadra. Can birth Zerg minions and collect biomass with her attack.
+Button/Tooltip/LargeSwarmQueenBurrowed=Broodmother Niadra. Can birth Zerg minions and collect biomass with her attack.
+Button/Tooltip/LarvalQueen=A larval broodmother that can invade enemies. Seek out biomass to evolve and grow.
+Button/Tooltip/LashingTongue=Can Devour units up to range 3 away.
+Button/Tooltip/LeapingCritter=Native Karak species of Calus. Evolved powerful quadriceps to adapt to the rugged environment. Leaps through the air to attack foes.
+Button/Tooltip/LearnSJHyperionBanshees2=Increases the launch and storage capacities of Banshees by +1.
+Button/Tooltip/LearnSJHyperionBanshees3=Further increases the launch and storage capacities of Banshees by +2.
+Button/Tooltip/LearnSJHyperionBanshees32=Further increases the launch and storage capacities of Banshees by +2.
+Button/Tooltip/LearnSJHyperionBlink2=Increases Ion Thrusters' range by +2 and decreases cooldown by 1 second.
+Button/Tooltip/LearnSJHyperionBlink3=Further increases Ion Thrusters' range by +3 and decreases cooldown by 2 seconds.
+Button/Tooltip/LearnSJHyperionBlink4=Further increases Ion Thrusters' range by +3 and decreases cooldown by 2 seconds.
+Button/Tooltip/LearnSJHyperionFighters2=Increases the launch and storage capacities of Tac Fighters by +<d ref="Upgrade,SJHyperionFighterLaunch2,EffectArray[0].Value"/>. Also increases Tac Fighters' life by +10.
+Button/Tooltip/LearnSJHyperionFighters3=Further increases the launch and storage capacities of Tac Fighters by +<d ref="Upgrade,SJHyperionFighterLaunch3,EffectArray[0].Value"/>. Also increases Tac Fighters' life by +15.
+Button/Tooltip/LearnSJHyperionFighters4=Further increases the launch and storage capacities of Tac Fighters by +<d ref="Upgrade,SJHyperionFighterLaunch4,EffectArray[0].Value"/>. Also increases Tac Fighters' life by +20.
+Button/Tooltip/LearnSJHyperionLightningStorm2=Increases Electric Field's range by +<d ref="Upgrade,SJHyperionLightningStorm2,EffectArray[0].Value"/> and the duration of its stuns by +<d ref="Upgrade,SJHyperionLightningStorm2,EffectArray[1].Value"/> seconds.
+Button/Tooltip/LearnSJHyperionLightningStorm3=Further increases Electric Field's range by +<d ref="Upgrade,SJHyperionLightningStorm3,EffectArray[0].Value"/> and the duration of its stuns by +<d ref="Upgrade,SJHyperionLightningStorm3,EffectArray[1].Value"/> seconds. Electric Field also deals 50 damage to all enemy units trapped in the storm.
+Button/Tooltip/LearnSJHyperionShipUpgrade2=Increases the Hyperion's life by +<d ref="Upgrade,SJHyperionShipUpgrade2,EffectArray[1].Value"/> and attack damage by +<d ref="Upgrade,SJHyperionShipUpgrade2,EffectArray[6].Value"/>.
+Button/Tooltip/LearnSJHyperionShipUpgrade3=Further increases the Hyperion's life by +<d ref="Upgrade,SJHyperionShipUpgrade3,EffectArray[1].Value"/> and attack damage by +<d ref="Upgrade,SJHyperionShipUpgrade3,EffectArray[6].Value"/>.
+Button/Tooltip/LearnSJHyperionShipUpgrade4=Further increases the Hyperion's life by +<d ref="Upgrade,SJHyperionShipUpgrade4,EffectArray[1].Value"/> and attack damage by +<d ref="Upgrade,SJHyperionShipUpgrade4,EffectArray[6].Value"/>.
+Button/Tooltip/LearnSJHyperionYamato2=Increases the Yamato Cannon's damage by +<d ref="Upgrade,SJHyperionYamato2,EffectArray[0].Value"/>.
+Button/Tooltip/LearnSJHyperionYamato3=Further increases the Yamato Cannon's damage by +<d ref="Upgrade,SJHyperionYamato3,EffectArray[0].Value"/>, and decreases the cooldown by 2 seconds.
+Button/Tooltip/LearnSJHyperionYamato4=Further increases the Yamato Cannon's damage by +<d ref="Upgrade,SJHyperionYamato4,EffectArray[0].Value"/>, and decreases the cooldown by 3 seconds.
+Button/Tooltip/LearnSJPointDefenseDrone2=Increases the Point Defense Drone's energy, allowing it to shoot down four more incoming missiles.
+Button/Tooltip/LearnSJPointDefenseDrone3=Further increases the Point Defense Drone's energy, allowing it to shoot down six more incoming missiles.
+Button/Tooltip/LeviathanPassive=Spire enables you to morph Leviathans from Mutalisks.
+Button/Tooltip/Locust=Spawns from Swarm Hosts. Locusts last <d ref="Behavior,LocustTimedLife,Duration"/> seconds.<n/><n/><c val="#ColorAttackInfo">Can attack ground units.</c>
+Button/Tooltip/LocustFlyingLaunch=Sends flying Locusts to target location.
+Button/Tooltip/LocustLaunch=Sends Locusts to target location.
+Button/Tooltip/LocustLaunchCreeper=Sends Locusts to target location.
+Button/Tooltip/LocustSpeed=Locusts move 20% faster.
+Button/Tooltip/LogisticsHeadquarters=Local Dominion Headquarters.
+Button/Tooltip/Lurker=Area-damage ambusher. Must burrow to attack. <n/><n/><c val="ffff8a">Can attack ground units.</c>
+Button/Tooltip/LurkerDen=<c val="ffff8a">Enables:</c><n/>- Lurkers from Hydralisks
+Button/Tooltip/LurkerFromHydraliskBurrowed=Area-damage ambusher. Must burrow to attack. <n/><n/>Hydralisk will unburrow before morphing.<n/><n/><c val="ffff8a">Can attack ground units.</c>
+Button/Tooltip/LurkerPassive=Lurker Den enables you to morph Lurkers from Hydralisks.
+Button/Tooltip/MarineWarfield=Commander of the Dominion occupying force on Char.
+Button/Tooltip/MatriarchDNAPickup=Greater Essence
+Button/Tooltip/MediumTastyCorpse=The meaty Biomass of a Quillgor Alpha. Have a Drone drag it to the Ancient One.
+Button/Tooltip/MengskBC=Powerful warship. Part of Mengsk's elite guard.<n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c>
+Button/Tooltip/MengskBanshee=Tactical-strike aircraft. Part of Mengsk's elite guard.<n/><n/><c val="#ColorAttackInfo">Can attack ground units.</c>
+Button/Tooltip/MengskDiamondback=Fast, high-damage hovertank. Rail gun can fire while the Red Adder is moving. Part of Mengsk's elite guard.<n/><n/><c val="#ColorAttackInfo">Can attack ground units.</c>
+Button/Tooltip/MengskFirebat=Specialized anti-infantry attacker. Part of Mengsk's elite guard.<n/><n/><c val="#ColorAttackInfo">Can attack ground units.</c>
+Button/Tooltip/MengskGoliath=Heavy-fire support unit. Part of Mengsk's elite guard.<n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c>
+Button/Tooltip/MengskHellion=Fast scout. Has a flame attack that damages all enemy units in its line of fire. Can turn into a close-range combat unit. Part of Mengsk's elite guard.<n/><n/><c val="#ColorAttackInfo">Can attack ground units.</c>
+Button/Tooltip/MengskMarauder=Heavy assault infantry. Part of Mengsk's elite guard.<n/><n/><c val="#ColorAttackInfo">Can attack ground units.</c>
+Button/Tooltip/MengskMarine=General-purpose infantry. Part of Mengsk's elite guard.<n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c>
+Button/Tooltip/MengskMedic=Support trooper. Heals nearby biological units. Part of Mengsk's elite guard.<n/><n/><c val="ffff8a">Cannot attack.</c>
+Button/Tooltip/MengskPalaceGate=Fortified entrance to the Palace. Destroy it and end Mengsk's reign once and for all.
+Button/Tooltip/MengskReaper=Raider. Can jump up and down cliffs. Part of Mengsk's elite guard.<n/><n/><c val="#ColorAttackInfo">Can attack ground units.</c>
+Button/Tooltip/MengskSiegeTank=Heavy tank. Can switch to Siege Mode to provide long-range artillery support. Part of Mengsk's elite guard.<n/><n/><c val="#ColorAttackInfo">Can attack ground units.</c>
+Button/Tooltip/MengskThor=Heavy assault mech. Part of Mengsk's elite guard.<n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c>
+Button/Tooltip/MengskUnits=
+Button/Tooltip/MengskVikingAssault=Durable support unit. Can switch to Fighter Mode to attack air units. Part of Mengsk's elite guard.<n/><n/><c val="#ColorAttackInfo">Can attack ground units.</c>
+Button/Tooltip/MengskVikingFighter=Durable support flyer. Loaded with strong anti-capital air missiles. Can switch to Assault Mode to attack ground units. Part of Mengsk's elite guard.<n/><n/><c val="#ColorAttackInfo">Can attack air units.</c>
+Button/Tooltip/MengskWraith=Highly mobile flying unit. Excellent at surgical strikes.<n/><n/><c val="ffff8a">Can attack ground and air units.</c>
+Button/Tooltip/MercHellion=
+Button/Tooltip/MercMedic=
+Button/Tooltip/MercMedicHeal=Heals a friendly biological target.<n/><n/><c val="f078ff"> Heals target for 4 life per 1 energy.</c>
+Button/Tooltip/MercPilot=Target mechanical unit gains +100 maximum life permanently. Unit is stunned for <d time="6"/> while it upgrades.
+Button/Tooltip/MercReaper=
+Button/Tooltip/MetabolicAcceleration=Reduces creation time for all units by 33%.
+Button/Tooltip/MicroBot=Sentry Bot 209, for all your pacification needs.
+Button/Tooltip/MindBolt=Kerrigan deals <d ref="Effect,MindBoltDamage,Amount"/> damage to target unit or structure from long range.
+Button/Tooltip/MindBolt1=NOT USED
+Button/Tooltip/MindBolt2=NOT USED
+Button/Tooltip/MindBolt3=NOT USED
+Button/Tooltip/MinionFrenzy=Locusts attack 20% faster.
+Button/Tooltip/Mitosaurus=A native insectoid species of the planet Nelyth. Has a decentralized nervous system allowing it to split into two smaller creatures upon death.
+Button/Tooltip/MitosaurusB=A native insectoid species of the planet Nelyth. Has a decentralized nervous system allowing it to split into two smaller creatures upon death.
+Button/Tooltip/MitosaurusC=A native insectoid species of the planet Nelyth.
+Button/Tooltip/MonarchBlades=Splash damage of Ultralisk attacks increased to <d ref="Effect,HotSUltraliskKaiserBladesSecondaryUpgradeDamage,Amount"/>.
+Button/Tooltip/MorphIsKerriganBrawler=Active focus.
+Button/Tooltip/MorphIsKerriganCorruption=Active focus.
+Button/Tooltip/MorphIsKerriganNotFlyer=Active focus.
+Button/Tooltip/MorphIsKerriganRuler=Active focus.
+Button/Tooltip/MorphIsKerriganSpecOps=Active focus.
+Button/Tooltip/MorphMorphalisk=Target Hatchery, Lair, or Hive spawns four Larvae in <d ref="Behavior,QueenSpawnLarvaTimer,Duration"/> seconds.
+Button/Tooltip/MorphToCorpser=Corpser Strain<n/><n/>Assault unit. Regenerates life quickly while burrowed. Can infest the enemy with Roachlings. <n/><n/><c val="#ColorAttackInfo">Can attack ground units.</c>
+Button/Tooltip/MorphToHotSNoxious=Noxious Strain<n/><n/>Heavy assault beast. Has an area-damage cleave attack. Poisons enemies.<n/><n/><c val="ffff8a">Can attack ground units.</c>
+Button/Tooltip/MorphToHotSTorrasque=Torrasque Strain<n/><n/>Heavy assault beast. Has an area-damage cleave attack. When killed, can be revived.<n/><n/><c val="ffff8a">Can attack ground units.</c>
+Button/Tooltip/MorphToHydraliskImpaler=Impaler Strain<n/><n/>High-damage ranged unit. Can morph into an Impaler.<n/><n/><c val="ffff8a">Can attack ground and air units.</c>
+Button/Tooltip/MorphToHydraliskLurker=Lurker Strain<n/><n/>High-damage ranged unit. Can morph into a Lurker.<n/><n/><c val="ffff8a">Can attack ground and air units.</c>
+Button/Tooltip/MorphToKerriganBrawler=Changes Kerrigan's focus to Primal.
+Button/Tooltip/MorphToKerriganCorruption=Changes Kerrigan's focus to Corruption.
+Button/Tooltip/MorphToKerriganNotFlyer=Changes Kerrigan's focus to Swarm.
+Button/Tooltip/MorphToKerriganRuler=Changes Kerrigan's Focus to Corruption.
+Button/Tooltip/MorphToKerriganSpecOps=Changes Kerrigan's focus to Destruction.
+Button/Tooltip/MorphToMutaliskBroodlord=Brood Lord Strain<n/><n/>Air unit. Bounces its shot to strike multiple targets. Can morph into a Brood Lord.<n/><n/><c val="ffff8a">Can attack ground and air units.</c>
+Button/Tooltip/MorphToMutaliskViper=Viper Strain<n/><n/>Air unit. Bounces its shot to strike multiple targets. Can morph into a Viper.<n/><n/><c val="ffff8a">Can attack ground and air units.</c>
+Button/Tooltip/MorphToRaptor=Raptor Strain<n/><n/>Fast melee unit. Leaps over obstacles and onto targets from range. Deals increased damage. Can morph into a Baneling.<n/><n/><c val="FFFF8A">Can attack ground units.</c>
+Button/Tooltip/MorphToSwarmHostSplitA=Carrion Strain<n/><n/>Living host. Can burrow to spawn an endless wave of flying Locust minions. Flying Locusts are faster and deal more damage, but have less life than ground Locusts.<n/><n/><c val="ffff8a">Minions can attack ground units.</c>
+Button/Tooltip/MorphToSwarmHostSplitB=Creeper Strain<n/><n/>Living host. Can burrow to spawn an endless wave of Locust minions. Can use the Deep Tunnel ability and generate creep while burrowed.<n/><n/><c val="ffff8a">Minions can attack ground units.</c> 
+Button/Tooltip/MorphToSwarmling=Swarmling Strain<n/><n/>Fast melee unit. Spawns in groups of three. Morphs almost instantly. Can morph into a Baneling.<n/><n/><c val="FFFF8A">Can attack ground units.</c>
+Button/Tooltip/MorphToVile=Vile Strain<n/><n/>Assault unit. Regenerates life quickly while burrowed. Can debilitate the enemy.<n/><n/><c val="#ColorAttackInfo">Can attack ground units.</c>
+Button/Tooltip/MorphToViper=Advanced aerial caster. Can use Abduct, Disabling Cloud, and Consumption abilities.
+Button/Tooltip/MorphtoDefiler=Caster
+Button/Tooltip/MorphtoDevourer=Anti-Air
+Button/Tooltip/MorphtoHunter=Hunter Strain<n/><n/>Suicide unit. Deals damage over a small area upon death. Launches toward enemies at range 6.<n/><n/><c val="ffff8a">Can attack ground units.</c>
+Button/Tooltip/MorphtoSplitterling=Splitter Strain<n/><n/>Suicide unit. Deals damage over a small area upon death. Splits into smaller units as it dies. <n/><n/><c val="ffff8a">Can attack ground units.</c>
+Button/Tooltip/MuscularAugments=Movement speed increased by 25%.
+Button/Tooltip/MutaliskBroodlord=Air unit. Bounces its shot to strike multiple targets. Can morph into a Brood Lord.<n/><n/><c val="ffff8a">Can attack ground and air units.</c>
+Button/Tooltip/MutaliskBroodlordPassive=Broodlord Strain<n/><n/>Spire enables you to morph Mutalisks.
+Button/Tooltip/MutaliskBroodlordPassiveGreater=Broodlord Strain<n/><n/>Greater Spire enables you to morph Mutalisks.
+Button/Tooltip/MutaliskLeviathan=Leviathan Strain<n/><n/>Air unit. Bounces its shot to strike multiple targets.<n/><n/><c val="ffff8a">Can attack ground and air units.</c>
+Button/Tooltip/MutaliskPassive=Spire enables you to morph Mutalisks.
+Button/Tooltip/MutaliskPassiveGreater=Greater Spire enables you to morph Mutalisks.
+Button/Tooltip/MutaliskRapidRegeneration=Mutalisk regenerates life quickly while out of combat.
+Button/Tooltip/MutaliskViper=Air unit. Bounces its shot to strike multiple targets. Can morph into a Viper.<n/><n/><c val="ffff8a">Can attack ground and air units.</c>
+Button/Tooltip/MutaliskViperPassive=Viper Strain<n/><n/>Spire enables you to morph Mutalisks.
+Button/Tooltip/MutaliskViperPassiveGreater=Viper Strain<n/><n/>Greater Spire enables you to morph Mutalisks.
+Button/Tooltip/MutationEfficiency=Vespene gas cost for mutating structures reduced by 60%.
+Button/Tooltip/NPDomination=Target unit is controlled by the Swarm.
+Button/Tooltip/NPReleaseMinion=Releases Neural Parasited unit. The unit will suffer horrible mental and physical side effects and die after a short time.
+Button/Tooltip/NPSwarm=Target unit is permanently controlled by the Swarm.
+Button/Tooltip/NarudXelNaga=Ancient shapeshifter wearing the guise of Terran scientist Emil Narud.
+Button/Tooltip/NoxiousCloud=Nearby enemy ground units take <d ref="(Effect,NoxiousFumesDamage,Amount) / Behavior,TimeScaleConversionBehavior,Duration)" precision="1"/> damage per second.
+Button/Tooltip/NoxiousCreep=Immobilizes enemies in the area of effect for 3 seconds. Target also takes more damage while under the effect of Noxious Creep.
+Button/Tooltip/NoxiousCreepStukov=Immobilizes enemies in the area of effect for 3 seconds. Target also takes more damage while under the effect of Noxious Creep.
+Button/Tooltip/NoxiousFumes=Nearby enemy ground units take <d ref="(Effect,NoxiousFumesDamage,Amount) / Behavior,TimeScaleConversionBehavior,Duration)" precision="1"/> damage per second.
+Button/Tooltip/NuclearMissileSilo=Silo built for the housing and storage of nuclear weapons.
+Button/Tooltip/NukeSiloNova=Destroy this Nuke Silo to advance the Swarm invasion of Cruxas III.
+Button/Tooltip/NydusNetwork=Friendly ground units can use the Nydus Network to instantly travel to any other Nydus Network or Nydus Worm owned by the player.<n/><n/><c val="ffff8a">Enables:</c><n/>- Greater Nydus Worm
+Button/Tooltip/OmegaliskChrysalis=What it says
+Button/Tooltip/Overlord=Increases supply. Supply allows you to create more units.<n/><n/><c val="ffff8a">Cannot attack.</c>
+Button/Tooltip/Overmind=Kerrigan grants 100 supply.
+Button/Tooltip/ParalyticSpines=Hydralisk attacks decrease target's movement and attack speeds by <d ref="(1 - Behavior,ParalyticSpines,Modification.MoveSpeedMultiplier) * 100"/>%.
+Button/Tooltip/ParasiticInvasion=Causes the Larva to leap toward the targeted creature, infest it, and take control.
+Button/Tooltip/PenetratingSpines=Attack damage increased.
+Button/Tooltip/PickupChronoRiftCharge=Ancient Xel'Naga information repository.
+Button/Tooltip/PickupChronoRiftChargeSwarm=Observation device of Xel'Naga origin. Contains a millennia worth of Primal Zerg genetic information.
+Button/Tooltip/PickupGas10=This item can be collected.
+Button/Tooltip/PickupGas10Text=<s val="Kicker_Gas">+10 </s><IMG path="Assets\Textures\icon-gas-terran.dds" height="28" width="28"/>
+Button/Tooltip/PickupGas25=This item can be collected.
+Button/Tooltip/PickupGas25Text=<s val="Kicker_Gas">+25 </s><IMG path="Assets\Textures\icon-gas-terran.dds" height="28" width="28"/>
+Button/Tooltip/PickupGas50=This item can be collected.
+Button/Tooltip/PickupGas50Text=<s val="Kicker_Gas">+50 </s><IMG path="Assets\Textures\icon-gas-terran.dds" height="28" width="28"/>
+Button/Tooltip/PickupHealth500Text=<s val="Kicker_Health">+500 life</s>.
+Button/Tooltip/PoisonNova=Instantly deals 20 damage to enemy ground units nearby.
+Button/Tooltip/PosthumousMitosis=20% chance to spawn two Broodlings upon death.
+Button/Tooltip/Pounce=Kerrigan leaps to the target point. Enemies in the impact area suffer 30 damage and are stunned for 2 seconds.
+Button/Tooltip/Predator=Anti-infantry specialist that deals area damage with each attack.<n/><n/><c val="#ColorAttackInfo">Can attack ground units.</c>
+Button/Tooltip/PrimalBaseDefense=Primary defense structure. Deals area damage.<n/><n/><c val="ffff8a">Can attack ground and air units.</c><n/><c val="FFE303">Detector</c>
+Button/Tooltip/PrimalBuildingRoot=Roots the structure, allowing it to produce.
+Button/Tooltip/PrimalBuildingUproot=Uproots the structure, allowing it to move about freely.
+Button/Tooltip/PrimalConsume=Kills target friendly unit. Primal Caster gains +1 energy per point of life.
+Button/Tooltip/PrimalCorruptor=Anti-air flyer.<n/><n/><c val="ffff8a">Can attack air units.</c>
+Button/Tooltip/PrimalEggPower1=Deals 100 damage to all enemies in the Primal Spawning Pool. Heals all friendly units in the pool for 100.
+Button/Tooltip/PrimalExtractor=Mutated over a Vespene Geyser to allow harvesting of vespene gas.
+Button/Tooltip/PrimalFlyer=Long-range anti-ground flyer. Has a weak anti-air attack.<n/><n/><c val="ffff8a">Can attack ground and air units.</c>
+Button/Tooltip/PrimalGasCloud=Deals 10 damage per <d time="1" precision="1"/> to enemy units in target area.<n/><n/>Channeled ability.
+Button/Tooltip/PrimalHeal=Heals Kerrigan for <d ref="Effect,PrimalHealBig,VitalArray[0].Change"/> life and friendly biological units nearby for <d ref="Effect,PrimalHealSmall,VitalArray[0].Change"/> life. An additional 50% of the amount healed regenerates over <d time="15"/>.
+Button/Tooltip/PrimalHeal1=NOT USED
+Button/Tooltip/PrimalHeal2=NOT USED
+Button/Tooltip/PrimalHeal3=NOT USED
+Button/Tooltip/PrimalHive=
+Button/Tooltip/PrimalHydralisk=Ranged attacker.<n/><n/><c val="ffff8a">Can attack ground units.</c>
+Button/Tooltip/PrimalInstincts=Kerrigan's abilities cost no energy.
+Button/Tooltip/PrimalMutalisk=Air unit. Bounces its shot to strike multiple targets.<n/><n/><c val="ffff8a">Can attack ground and air units.</c>
+Button/Tooltip/PrimalProductionA=Produces Primal Melee, Primal Ranged, and Primal Splitters.
+Button/Tooltip/PrimalProductionB=Produces Primal Flyer, and Primal Caster.
+Button/Tooltip/PrimalProductionC=Produces Primal Tough Guy.
+Button/Tooltip/PrimalRage=Kerrigan attacks faster with each consecutive strike. Stacks 3 times.
+Button/Tooltip/PrimalRage2=Kerrigan attacks faster with each consecutive strike. Stacks 5 times.
+Button/Tooltip/PrimalRavage=Kills target non-massive, non-heroic enemy ground unit, and regenerates 200 life over <d time="10"/>.
+Button/Tooltip/PrimalRoach=Assault unit.<n/><n/><c val="#ColorAttackInfo">Can attack ground units.</c>
+Button/Tooltip/PrimalRoar=Doubles attack speed and increases movement speed by 50% for Kerrigan and nearby units. Lasts 5 seconds.
+Button/Tooltip/PrimalShock=Enemy Primal units in the Primal Pool are slowed for <d time="10"/>.
+Button/Tooltip/PrimalSlash=Kerrigan leaps to her target and deals <d ref="Effect,PrimalSlash,Amount"/> damage. Can be used without a target to travel quickly.<n/><n/><c val="ffff8a">Passive: Kerrigan gains +10 damage.<n/>Passive: Attack range reduced by 3.</c>
+Button/Tooltip/PrimalSlash1=NOT USED
+Button/Tooltip/PrimalSlash2=NOT USED
+Button/Tooltip/PrimalSlash3=NOT USED
+Button/Tooltip/PrimalSpawning=Stimulates the pool and spawns a horde of flying Locusts. More powerful than regular Locusts, they can fly and survive for much longer. They will seek out nearby enemies automatically but will dissipate if they get too far from the pool.
+Button/Tooltip/PrimalSunkenColony=Ancient defense colony evolved by the Overmind millenia ago. Slow but powerful tentacles tunnel through the ground to attack foes.
+Button/Tooltip/PrimalTownHall=Large creature that attacks enemies and spawns Primal Zerg.
+Button/Tooltip/PrimalUltralisk=Durable melee unit.<n/><n/><c val="ffff8a">Can attack ground units.</c>
+Button/Tooltip/PrimalWhelp=Cute, until it starts eating your kneecaps.
+Button/Tooltip/PrimalZergling=Fast melee creature.<n/><n/><c val="ffff8a">Can attack ground units.</c>
+Button/Tooltip/ProjectileCreep=Shoots a creep-creating projectile toward the target point.
+Button/Tooltip/ProtectiveBarrier=Protects targeted units from all damage for <d ref="Behavior,ProtectiveBarrier,Duration"/> seconds.
+Button/Tooltip/ProtectiveSheath=Kerrigan encases herself with her wings and focuses on healing. Kerrigan gains +10 armor and regenerates 15 life per second until fully recovered.
+Button/Tooltip/ProtossBaseBioMassStorage=Storage device built to contain biological specimens for climate research.
+Button/Tooltip/ProtossDockingBayUnit=Houses specialized Ark Shuttles capable of traveling through the warp network.
+Button/Tooltip/ProtossFrigate=Super massive Protoss transportation vessel.
+Button/Tooltip/ProtossRadioTower=Amplification tower that allows distant colonies to communicate with Shakuras through the Khala.
+Button/Tooltip/ProtossWarpDriveUnit=Quantum induction reactor powering the warp engines. Destroy it to drop the ship out of warp.
+Button/Tooltip/PsiBolt=Unleashes a psionic bolt that deals 200 damage to target unit.
+Button/Tooltip/PsiDecimator=The ultimate anti-zerg weapon. Capable of disrupting the zerg's psionic link and tearing zerg tissue apart at a cellular level. Destroy it or the Swarm will fall.
+Button/Tooltip/PsiDisintegratorPowerLink=Directs energy from the central reactor allowing the Psi Destroyer to increase its range. Once destroyed the field will power down.
+Button/Tooltip/PsiDisintegratorPowerLinkOff=
+Button/Tooltip/PsiStrike=Kerrigan dashes through enemies, dealing <d ref="Effect,PsiStrikeDamage,Amount"/> damage to all enemies in her path.<n/><n/><c val="ffff8a">Passive: Movement speed increased by 30%.</c>
+Button/Tooltip/PsiStrike1=NOT USED
+Button/Tooltip/PsiStrike2=NOT USED
+Button/Tooltip/PsiStrike3=NOT USED
+Button/Tooltip/PsiStrikeWalkHoldPosition=Orders selected units to stay where they are and attack enemies within range. Units will neither chase down enemies nor move to engage.
+Button/Tooltip/PsiStrikeWalkMove=Orders selected units to move to the target area or follow the target unit. Moving units will not engage enemies.
+Button/Tooltip/PsiStrikeWalkPatrol=Orders selected units to patrol between their current position and the target area. Units will attack enemies and move to engage nearby enemies.
+Button/Tooltip/PsiStrikeWalkScanMove=Orders selected units to move to the target area or follow the target unit. Scan-moving units will not engage enemies.
+Button/Tooltip/PsiStrikeWalkTurn=Orders selected units to turn toward the target area or unit.
+Button/Tooltip/PsionicLift=Enemies in target area are stunned for <d ref="Behavior,PsionicLift,Duration"/> seconds and take <d ref="Behavior,PsionicLift,Duration * Effect,PsionicLiftDamage,Amount"/> damage over time.<n/><n/><c val="ffff8a">Does not stun heroic units.</c>
+Button/Tooltip/PsionicLift1=NOT USED
+Button/Tooltip/PsionicLift2=NOT USED
+Button/Tooltip/PsionicLift3=NOT USED
+Button/Tooltip/PsionicPulse=Enemies in target area are stunned for <d time="3"/> and take 5 damage over <d ref="Behavior,PsionicPulse,Duration"/> seconds.
+Button/Tooltip/PsionicShadow=Creates a controllable psionic shadow of Kerrigan. Shadow has the same life as Kerrigan and deals 50% of Kerrigan's damage.
+Button/Tooltip/PsionicShield=Kerrigan is immune to all incoming damage for <d time="10"/>.
+Button/Tooltip/Queen=Support unit. Can use Spawn Creep Tumor and Rapid Transfusion.<n/><n/><c val="ffff8a">Can attack ground and air units.</c>
+Button/Tooltip/QueenBurstHeal=Heals a unit or structure for 25 life over time.
+Button/Tooltip/QueenHeal=Like Medivac heal.
+Button/Tooltip/QueenOfBlades=Kerrigan unleashes an attack that deals 100 damage to all enemy units in a line.
+Button/Tooltip/QueenPassive=Spawning Pool allows you to birth Swarm Queens from Hatcheries, Lairs, and Hives.
+Button/Tooltip/QueenofVenom=Enemy units on your creep take 4 damage per <d time="1" precision="1"/>.
+Button/Tooltip/RallyEgg=Sends morphed worker units and Overlords to the designated point. Workers rallied to Mineral Fields or Extractors will begin gathering automatically.
+Button/Tooltip/Rampage=Deals massive damage to units and structures in a 180-degree arc in front of the Ultralisk, and knocks back units.<n/><n/>Deals extra damage to structures.
+Button/Tooltip/RampageAttack=The Ultralisk is able to crash into structures, dealing massive damage.
+Button/Tooltip/RapidGenesis=Zerglings morph instantly.
+Button/Tooltip/RapidIncubation=Locusts spawn 20% faster.
+Button/Tooltip/RapidMetamorph=Banelings morph almost instantly.
+Button/Tooltip/RapidMutation=Banelings morph 50% faster.
+Button/Tooltip/RapidRegenerationRoach=Regenerates life at an even faster rate.
+Button/Tooltip/RaptorCliffJumper=This unit can jump up and down cliffs.
+Button/Tooltip/RaptorDeath=When a nearby Raptor dies, the unit gets increased movement and attack speed and can leap short distances.
+Button/Tooltip/RaptorPassive=Zergling gains +2 damage.
+Button/Tooltip/Ravasaur=Ranged unit. Shoots large globs of acid at long range.<n/><n/><c val="ffff8a">Can attack ground and air units.</c>
+Button/Tooltip/RaynorLab=Rebel commander of Raynor's Raiders.
+Button/Tooltip/RebirthQueenofBlades=Revives the Queen of Blades at target point.
+Button/Tooltip/RebirthQueenofBladesHatchery=Revives the Queen of Blades at this structure.
+Button/Tooltip/ReductiveBileUpgrade=Killed units yield double the resources.
+Button/Tooltip/RegenerationAura=Kerrigan and all friendly zerg units regenerate an additional 1 life per two seconds.
+Button/Tooltip/ReinforcedCellMembrane=Life increased by 20.
+Button/Tooltip/RespawnZergling=Respawns up to <d ref="Effect,ZerglingRespawnTooltipDummy,SpawnCount"/> Zerglings at no cost until all Zerglings have returned to life.
+Button/Tooltip/RoachCorpser=Assault unit. Regenerates life quickly while burrowed. Can infest the enemy with Roachlings. <n/><n/><c val="#ColorAttackInfo">Can attack ground units.</c>
+Button/Tooltip/RoachCorpserPassive=Corpser Strain<n/><n/>Roach Warren enables you to morph Roaches.
+Button/Tooltip/RoachPassive=Roach Warren enables you to morph Roaches.
+Button/Tooltip/RoachSpeed=Roach speed increased by 33%.
+Button/Tooltip/RoachVile=Assault unit. Regenerates life quickly while burrowed. Attacks debilitate the target, slowing its attack and movement speeds.<n/><n/><c val="#ColorAttackInfo">Can attack ground units.</c>
+Button/Tooltip/RoachVilePassive=Vile Strain<n/><n/>Roach Warren enables you to morph Roaches.
+Button/Tooltip/RoachWarren=<c val="ffff8a">Enables:</c><n/>- Roaches from Larvae
+Button/Tooltip/RoyalGuard=Summons two elite Hydralisks to accompany and protect Kerrigan.
+Button/Tooltip/RuptureUpgrade=Blast radius increased by 50%.
+Button/Tooltip/SJBattlecruiser=Powerful warship.<n/><n/><c val="ffff8a">Can attack ground and air units.</c>
+Button/Tooltip/SJCloakedMine=Travels in a straight line and deals area damage to nearby units on impact.<n/><n/><c val="ffff8a">Can attack air units.</c>
+Button/Tooltip/SJFighter1=The Hyperion's fighters. Excellent at engaging enemy spacecraft and long-range targets.<n/><n/><c val="ffff8a">Can attack air units.</c>
+Button/Tooltip/SJFighter1PH=The Hyperion's Tac Fighters excel at engaging enemy spacecraft and long-range targets.<n/><n/><c val="ffff8a">Can attack air units.</c>
+Button/Tooltip/SJGriffon=Highly mobile flying unit.<n/><n/><c val="ffff8a">Can attack air units.</c>
+Button/Tooltip/SJHyperion=A powerful warship modified by Raynor's Raiders to support Tac Fighters and a short-range tactical warp jump.<n/><n/><c val="ffff8a">Can attack ground and air units.</c>
+Button/Tooltip/SJHyperionBanshees=Launches up to 3 Banshees toward target location. Banshees can attack only structures.<n/><n/>Restock price per bomber: <c val="ffff00">40</c> minerals
+Button/Tooltip/SJHyperionBanshees2=Launches up to 4 Banshees toward target location. Banshees can attack only structures.<n/><n/>Restock price per bomber: <c val="ffff00">40</c> minerals<n/>
+Button/Tooltip/SJHyperionBanshees3=Launches up to 6 Banshees toward target location. Banshees can attack only structures.<n/><n/>Restock price per bomber: <c val="ffff00">40</c> minerals
+Button/Tooltip/SJHyperionBansheesRecall=Recalls all deployed Banshees to the Hyperion.<n/>
+Button/Tooltip/SJHyperionBlink=The Hyperion warps to a nearby target location. Good for escaping from dangerous situations.
+Button/Tooltip/SJHyperionBlink2=NOT USED
+Button/Tooltip/SJHyperionBlink3=NOT USED
+Button/Tooltip/SJHyperionBuildBanshee=
+Button/Tooltip/SJHyperionBuildFighters=
+Button/Tooltip/SJHyperionFighters=Launches up to <d ref="Abil,SJHyperionFighters,Cost[0].Charge.CountMax"/> Tac Fighters toward target location. Tac Fighters are excellent at engaging enemy fighters and long-range targets.
+Button/Tooltip/SJHyperionFighters2=Launches up to <d ref="Abil,SJHyperionFighters,Cost[0].Charge.CountMax"/> Tac Fighters toward target location. Tac Fighters are excellent at engaging enemy fighters and long-range targets.
+Button/Tooltip/SJHyperionFighters3=Launches up to <d ref="Abil,SJHyperionFighters,Cost[0].Charge.CountMax"/> Tac Fighters toward target location. Tac Fighters are excellent at engaging enemy fighters and long-range targets.
+Button/Tooltip/SJHyperionFighters4=Launches up to <d ref="Abil,SJHyperionFighters,Cost[0].Charge.CountMax"/> Tac Fighters toward target location. Tac Fighters are excellent at engaging enemy fighters and long-range targets.
+Button/Tooltip/SJHyperionFightersRecall=Recalls all deployed Tac Fighters to the Hyperion.
+Button/Tooltip/SJHyperionIonThrusters=A momentary boost of speed to escape from dangerous situations.
+Button/Tooltip/SJHyperionLevelUp=Use minerals to upgrade onboard systems.
+Button/Tooltip/SJHyperionLightningStorm=Disables nearby enemy units for <d ref="Behavior,SJHyperionLightningStormStun,Duration"/> seconds.
+Button/Tooltip/SJHyperionLightningStorm2=Disables nearby enemy units for <d ref="Behavior,SJHyperionLightningStormStun,Duration"/> seconds.
+Button/Tooltip/SJHyperionLightningStorm3=Disables nearby enemy units for <d ref="Behavior,SJHyperionLightningStormStun,Duration"/> seconds.
+Button/Tooltip/SJHyperionLightningStorm4=Disables nearby enemy units for <d ref="Behavior,SJHyperionLightningStormStun,Duration"/> seconds.
+Button/Tooltip/SJHyperionRegen=The Hyperion powers down and starts repairing damage and restocking ships. <n/><n/>Full repairs will cost <c val="ffff00"><d ref="Effect,HyperionTotalRepair,Amount"/></c> minerals.
+Button/Tooltip/SJHyperionRegen2=The Hyperion powers down and starts repairing. Full repairs will cost <d ref="Effect,HyperionTotalRepair,Amount"/> minerals
+Button/Tooltip/SJHyperionRegen3=The Hyperion powers down and starts repairing. Full repairs will cost <d ref="Effect,HyperionTotalRepair,Amount"/> minerals
+Button/Tooltip/SJHyperionRegenNotNeeded=The Hyperion powers down and starts repairing damage and restocking ships. <n/><n/><c val="00ffff">Repairs not needed.</c>
+Button/Tooltip/SJHyperionRegenOff=Cancels repairs and brings weapons back online.
+Button/Tooltip/SJHyperionShield=Surrounds the Hyperion with a shield that can absorb <d ref="Behavior,SJHyperionShield,Modification.VitalMaxArray[1]"/> damage. 
+Button/Tooltip/SJHyperionYamato=Blasts target with a devastating plasma cannon, causing <d ref="Effect,SJHyperionYamatoDamage,Amount"/> damage.
+Button/Tooltip/SJHyperionYamato2=Blasts target with a devastating plasma cannon, causing <d ref="Effect,SJHyperionYamatoDamage,Amount"/> damage.
+Button/Tooltip/SJHyperionYamato3=Blasts target with a devastating plasma cannon, causing <d ref="Effect,SJHyperionYamatoDamage,Amount"/> damage.
+Button/Tooltip/SJHyperionYamato4=Blasts target with a devastating plasma cannon, causing <d ref="Effect,SJHyperionYamatoDamage,Amount"/> damage.
+Button/Tooltip/SJMercAATower=Defensive structure with a powerful long-range attack.<n/><n/><c val="ffff8a">Can attack air units.</c>
+Button/Tooltip/SJMercStarport=Mercenary air-unit production facility.
+Button/Tooltip/SJMineralFormation1=Free floating cluster of raw minerals.
+Button/Tooltip/SJMineralFormation2=Free floating cluster of raw minerals.
+Button/Tooltip/SJPickupHealth500=Mechanical drone designed to repair hulls damaged by asteroid impact.
+Button/Tooltip/SJPirateCapitalShip=A powerful warship with cloaking technology and an electric field that can disable enemy craft.<n/><n/><c val="ffff8a">Can attack ground and air units.</c>
+Button/Tooltip/SJPirateLightningStorm=Disables all enemy units within range <d ref="Effect,SJPirateLightningStorm,PeriodCount * 0.5 + 0.5"/> for <d ref="Behavior,SJPirateLightningStormStun,Duration"/> seconds.
+Button/Tooltip/SJPointDefense=Automated defensive laser that intercepts enemy projectiles.<n/><n/>Effective against Vikings, Banshees, Griffons, Valkyries, Battlecruisers, and Missile Turrets.<n/><n/><c val="f078ff">Each shot consumes <d ref="Weapon,SJPointDefenseLaser,Cost.Vital[2]"/> energy.</c>
+Button/Tooltip/SJPointDefenseDrone=Uses a laser to shoot down up to <d ref="Unit,SJPointDefenseDrone,EnergyMax / 10"/> enemy missiles. <n/>Cannot target special attacks. <n/>Times out after <d ref="Behavior,SJPointDefenseDroneTimedLife,Duration"/> seconds.
+Button/Tooltip/SJPointDefenseDrone2=Uses a laser to shoot down up to <d ref="Unit,SJPointDefenseDrone,EnergyMax / 10"/> enemy missiles. <n/>Cannot target special attacks. <n/>Times out after <d ref="Behavior,SJPointDefenseDroneTimedLife,Duration"/> seconds.
+Button/Tooltip/SJPointDefenseDrone3=Uses a laser to shoot down up to <d ref="Unit,SJPointDefenseDrone,EnergyMax / 10"/> enemy missiles. <n/>Cannot target special attacks. <n/>Times out after <d ref="Behavior,SJPointDefenseDroneTimedLife,Duration"/> seconds.
+Button/Tooltip/SJSpaceStationMercenary=Space Station controlled by Mercenaries. Produces Griffons to engage the enemy.<n/><n/><c val="ffff8a">Can attack air units.</c>
+Button/Tooltip/SJSpaceStationValerian=Space Station controlled by Valerian Mengsk. Produces Wraiths and Vikings to engage the enemy. Can repair the Hyperion to full life.<n/><n/><c val="ffff8a">Can attack air units.</c>
+Button/Tooltip/SJValkyrie=Highly mobile flying unit. Mira Han's powerful long-range bombers.<n/><n/><c val="ffff8a">Can attack air units.</c>
+Button/Tooltip/SJViking=Highly mobile flying unit. Excellent at surgical strikes.<n/><n/><c val="ffff8a">Can attack air units.</c>
+Button/Tooltip/SJWraith=Highly mobile flying unit. Produced by Valerian's Space Station.<n/><n/><c val="ffff8a">Can attack ground and air units.</c>
+Button/Tooltip/ScantipedeParasitic=Parasites swarm within its exoskeleton. Upon exposure to its spray the victim is quickly impregnated with parasites which burst from their unwilling corpse.
+Button/Tooltip/ScantipedeParasiticSmall=Parasites swarm within its exoskeleton. Upon exposure to its spray the victim is quickly impregnated with parasites which burst from their unwilling corpse.
+Button/Tooltip/Scientist=A terran expert in the sciences.
+Button/Tooltip/SecondaryOrgans=Hydralisk's maximum life increased by 25%. 
+Button/Tooltip/SecretDocuments=Contains part of the prisoner log identifying political prisoners aboard the Moros. Move Kerrigan nearby to collect.
+Button/Tooltip/SerratedSpike=Damage caused by Spine Lash increased to 30.
+Button/Tooltip/ShadowStep=Teleports Kerrigan to target point. Moves up to range 8.
+Button/Tooltip/ShipEscapePod=Emergency short-range escape pods.
+Button/Tooltip/ShipGeneratorSmall=Conduit powering a nearby Psionic Shield.
+Button/Tooltip/Slivan=The Eternal Mother. Spawns Creepers and vomits acid to slow her victims.
+Button/Tooltip/SlivanCreep=Suicide unit. Chases after enemies and explodes when it gets close.<n/><n/><c val="ffff8a">Can attack ground units.</c>
+Button/Tooltip/SlivanPuke=Slivan vomits acid onto the ground that damages and slows units in the area.
+Button/Tooltip/SpaceArmoredGenerator=Secures the prison deck holding Jim Raynor to the Moros. It must be protected.
+Button/Tooltip/SpaceCowCorpse=The carcass of a Qullgor Alpha. It seems they smell even worse on the inside. Can be Harvested by Drones.
+Button/Tooltip/SpaceCowMedium=Dominant Alpha Quillgor. Lords over a small pack of lesser Quillgor.
+Button/Tooltip/SpaceCowSmall=Primal Zerg ruminant omnivore. Roams in small herds.
+Button/Tooltip/SpacePrisoner=Captive Terran. Incarcerated for life aboard the Moros.
+Button/Tooltip/SpacePrisonerBig=Captive Terran. Incarcerated for life aboard the Moros.
+Button/Tooltip/SpacePrisonerSpecial=Captive Terran. Incarcerated for life aboard the Moros.
+Button/Tooltip/Spawn=Spawns units.
+Button/Tooltip/SpawnBanelings=Kerrigan spawns six Banelings with timed life.
+Button/Tooltip/SpawnBanelings1=NOT USED
+Button/Tooltip/SpawnBanelings2=NOT USED
+Button/Tooltip/SpawnBanelings3=NOT USED
+Button/Tooltip/SpawnBroodlings=Deals heavy damage to target, and spawns <d ref="Effect,SpawnBroodlingsCreateUnits,SpawnCount[0]"/> Broodlings in target area.
+Button/Tooltip/SpawnHydralisks=Spawns <d ref="Effect,SpawnHydralisks,SpawnCount"/> Hydralisks at target point.
+Button/Tooltip/SpawnUltralisk=Spawns an Ultralisk at target point.
+Button/Tooltip/SpawningPool=<c val="ffff8a">Enables:</c><n/>- Swarm Queens at the Hatchery, Lair, or Hive<n/>- Zerglings from Larvae<n/>- Spine Crawlers from Drones
+Button/Tooltip/SpineCrawlerPassive=Spawning Pool allows you to mutate Drones into Spine Crawlers.
+Button/Tooltip/SpineLash=Deals 20 damage and stuns the target for 3 seconds.
+Button/Tooltip/SpiralHooks=Movement speed increased by 25%.
+Button/Tooltip/Spire=Contains upgrades for Zerg air units. Can mutate into a Greater Spire.<n/><n/><c val="ffff8a">Enables:</c><n/>- Mutalisks from Larvae
+Button/Tooltip/Splitterling=Ground unit. Splits into smaller units as it dies.
+Button/Tooltip/SplitterlingBigSapStructure=The Baneling detonates against a structure for <d ref="Effect,HotSSplitterlingVolatileBurstBuildingDamageBig,Amount"/> damage. Right-click target structure to have the Baneling automatically use this ability.<n/><n/><c val="#ColorAttackInfo">Can target enemy structures.</c>
+Button/Tooltip/SplitterlingMediumSapStructure=The Baneling detonates against a structure for <d ref="Effect,HotSSplitterlingVolatileBurstBuildingDamageMedium,Amount"/> damage. Right-click target structure to have the Baneling automatically use this ability.<n/><n/><c val="#ColorAttackInfo">Can target enemy structures.</c>
+Button/Tooltip/SplitterlingSmallSapStructure=The Baneling detonates against a structure for <d ref="Effect,HotSSplitterlingVolatileBurstBuildingDamageSmall,Amount"/> damage. Right-click target structure to have the Baneling automatically use this ability.<n/><n/><c val="#ColorAttackInfo">Can target enemy structures.</c>
+Button/Tooltip/SporeCrawlerPassive=Evolution Chamber allows you to mutate Drones into Spore Crawlers.
+Button/Tooltip/Spyrocites=Four Zerglings morphed per Larva.
+Button/Tooltip/StarshipVentdoorUnit=Restricts access to the ship's ventilation shaft.
+Button/Tooltip/StopConsumingHatred=Stop using Wings of Consuming Hatred.
+Button/Tooltip/StopGenerateCorrosiveOoze=Stops the flow of Corrosive Ooze.
+Button/Tooltip/StukovCrystalChannel=
+Button/Tooltip/StukovInfestedTerrans=Spawns four Infested Terrans. Infested Terrans last <d ref="Behavior,StukovInfestedTerranTimedLife,Duration"/> seconds.
+Button/Tooltip/StukovRegenAura=Nearby friendly units regenerate life.
+Button/Tooltip/StukovReviveCocoon=Stukov is reviving within this cocoon.
+Button/Tooltip/SummonGreaterNydusWorm=Summons a Nydus 'Dragon' at the target location.<n/>Friendly ground units can use a Nydus 'Dragon' to instantly travel to any other Nydus 'Dragon' or Nydus Network owned by the player. Grows creep used to feed nearby Zerg structures.<n/><n/><c val="#ColorAttackInfo">Bonus: Zerg move faster on creep.</c>
+Button/Tooltip/Suppression=All enemies within range 5 have their attack and movement speeds reduced by 25%.
+Button/Tooltip/SwarmHost=Siege unit that attacks while rooted or burrowed by spawning Locusts. Locusts last <d ref="Behavior,LocustTimedLife,Duration"/> seconds.<n/><n/><c val="#ColorAttackInfo">Locusts can attack ground units.</c>
+Button/Tooltip/SwarmHostCarrionPassive=Carrion Strain<n/><n/>Infestation Pit enables you to morph Swarm Hosts.
+Button/Tooltip/SwarmHostCreeperPassive=Creeper Strain<n/><n/>Infestation Pit enables you to morph Swarm Hosts.
+Button/Tooltip/SwarmHostDeepBurrow=Can travel quickly to any location with creep.
+Button/Tooltip/SwarmHostDeepBurrowUnderground=Allows Swarm Host to travel quickly to any locations covered by creep.
+Button/Tooltip/SwarmHostGenerateCreep=Generates creep while Swarm Host is burrowed or rooted.
+Button/Tooltip/SwarmHostRoot=Roots the Swarm Host. Prevents it from moving, but allows it to spawn Locusts.
+Button/Tooltip/SwarmHostRootBurrow=Burrows the Swarm Host. Prevents it from moving, but allows it to spawn Locusts.
+Button/Tooltip/SwarmHostSplitA=Siege unit that attacks while rooted or burrowed by spawning flying Locusts. Flying Locusts are faster and deal more damage, but have less life than ground Locusts.<n/><n/><c val="ffff8a">Locusts can attack ground units.</c>
+Button/Tooltip/SwarmHostSplitB=Siege unit that attacks while rooted or burrowed by spawning Locusts. Can use the Deep Tunnel ability and generate creep while burrowed.<n/><n/><c val="ffff8a">Locusts can attack ground units.</c>
+Button/Tooltip/SwarmHostUproot=Uproots the Swarm Host. Prevents it from spawning, but allows it to move about freely.
+Button/Tooltip/SwarmHostUprootUnburrow=Unburrows the Swarm Host. Prevents it from spawning, but allows it to move about freely.
+Button/Tooltip/SwarmQueen=Broodmother Niadra. Can birth Zerg minions and collect biomass with her attack.
+Button/Tooltip/SwarmQueenBurrowed=Broodmother Niadra. Can birth Zerg minions and collect biomass with her attack.
+Button/Tooltip/SwarmQueenCorpser=Corpser Strain<n/><n/>Assault unit. Regenerates life quickly while burrowed. Can infest the enemy with Roachlings.<n/><n/><c val="#ColorAttackInfo">Can attack ground units.</c>
+Button/Tooltip/SwarmQueenHydralisk=High-damage ranged unit.<n/><n/><c val="ffff8a">Can attack ground and air units.</c>
+Button/Tooltip/SwarmQueenHydraliskImpaler=Impaler Strain<n/><n/>Ranged attacker.<n/><n/><c val="ffff8a">Can attack ground and air units.</c>
+Button/Tooltip/SwarmQueenHydraliskLurker=Lurker Strain<n/><n/>Ranged attacker.<n/><n/><c val="ffff8a">Can attack ground and air units.</c>
+Button/Tooltip/SwarmQueenMorphEgg=This cocoon contains a growing Broodmother.
+Button/Tooltip/SwarmQueenMorphing=This cocoon contains a growing Broodmother.
+Button/Tooltip/SwarmQueenMorphingLarge=This cocoon contains a growing Broodmother.
+Button/Tooltip/SwarmQueenParasiticInvasion=Infests target with a parasite that devours the unit so the Swarm Queen gains biomass.
+Button/Tooltip/SwarmQueenRaptor=Raptor Strain<n/><n/>Fast melee unit. Leaps over obstacles and onto targets from range. Deals increased damage. Can morph into a Baneling.<n/><n/><c val="FFFF8A">Can attack ground units.</c>
+Button/Tooltip/SwarmQueenRegenAura=Nearby friendly units gain rapid life regeneration.
+Button/Tooltip/SwarmQueenRoach=Assault unit. Regenerates life quickly while burrowed.<n/><n/><c val="#ColorAttackInfo">Can attack ground units.</c>
+Button/Tooltip/SwarmQueenRoachHydraLarva=Morphs into Zerg units.
+Button/Tooltip/SwarmQueenSwarmling=Swarmling Strain<n/><n/>Fast melee unit. Spawns in groups of three. Can morph into a Baneling.<n/><n/><c val="FFFF8A">Can attack ground units.</c>
+Button/Tooltip/SwarmQueenVile=Vile Strain<n/><n/>Assault unit. Regenerates life quickly while burrowed. Can debilitate the enemy.<n/><n/><c val="#ColorAttackInfo">Can attack ground units.</c>
+Button/Tooltip/SwarmQueenZergling=Fast melee unit. Can morph into a Baneling.<n/><n/><c val="FFFF8A">Can attack ground units.</c>
+Button/Tooltip/SwarmQueenZerglingLarva=Morphs into Zerg units.
+Button/Tooltip/SwarmlingPassive=Morphs almost instantly. Spawns in groups of three.
+Button/Tooltip/Terrorzor=A massive and wild primal creature. Capable of powerful attacks that strike many targets at once.
+Button/Tooltip/TissueAssimilation=Gains life equal to 40% of all damage dealt from normal attacks.
+Button/Tooltip/TitanMechAssault=Prototype Viking variant with advanced targeting and weapons systems.
+Button/Tooltip/TitanMechBombardment=Fly low to the ground, dropping a large payload of bombs onto unsuspecting targets in a straight line.
+Button/Tooltip/TitanMechFighter=Prototype Viking variant with advanced targeting and weapons systems.
+Button/Tooltip/TitanMechGunShot=Fires miniguns, dealing area damage around the impact point. Can fire in rapid succession for massive damage.
+Button/Tooltip/TitanMechGunShotCharge=Prepare to fire miniguns.
+Button/Tooltip/TitanMechMissileShot=Paints a target location and fires a single missile at it. Deals area damage around the impact point. Can fire in rapid succession for massive damage.
+Button/Tooltip/TitanMechRepel=A quick blast from the engines to knock back units.
+Button/Tooltip/TorrasqueChrysalis=Allows the Ultralisk to revive upon death.<n/>Cooldown: <d time="60"/>
+Button/Tooltip/TorrasqueChrysalisFakeTimer=The Ultralisk cannot revive at this time.
+Button/Tooltip/TransfusionChain=Instantly restores 125 life to target biological unit or structure. The restore effect will also bounce twice, healing units near the original target for 50 and 25 life.
+Button/Tooltip/TributaryDigestiveTract=Unit can Devour two units simultaneously.
+Button/Tooltip/TunnelingClaws=Can move at full speed while burrowed. Burrowed regeneration rate increased by 100%.
+Button/Tooltip/Ultralisk=Heavy assault unit. Has an area-damage cleave attack.<n/><n/><c val="ffff8a">Can attack ground units.</c>
+Button/Tooltip/UltraliskCavern=<c val="ffff8a">Enables:</c><n/>- Ultralisks from Larvae
+Button/Tooltip/UltraliskNoxiousPassive=Noxious Strain<n/><n/>Ultralisk Cavern enables you to morph Ultralisks.
+Button/Tooltip/UltraliskPassive=Ultralisk Cavern enables you to morph Ultralisks.
+Button/Tooltip/UltraliskTorrasquePassive=Torrasque Strain<n/><n/>Ultralisk Cavern enables you to morph Ultralisks.
+Button/Tooltip/UmojanLabDebris=Collapsed debris. Can be destroyed with conventional weapons.
+Button/Tooltip/UmojanLabGenerator=Generator powering the Zergling Holding Pens. Destroy to free the captive Zerglings.
+Button/Tooltip/UmojanLabMicrobot=Automated defense unit.
+Button/Tooltip/UmojanLabTramEngineLeft=Engine that propels the Tram forward. Protect it from the Dominion.
+Button/Tooltip/UmojanLabTramEngineRight=Engine that propels the Tram forward. Protect it from the Dominion.
+Button/Tooltip/UmojanLabWarbot=Large warbot built to pacify uncontrolled Zerg experiments.
+Button/Tooltip/UnifiedWill=Overlords hatch in <d time="5"/>.
+Button/Tooltip/UnknownButton=Deals 250 damage to target structure.
+Button/Tooltip/ValerianLab=Renegade prince of the Terran Dominion.
+Button/Tooltip/VampiricAura=Kerrigan and nearby allies gain life with every attack. Life gained is 10% of attack damage.
+Button/Tooltip/VampiricAura1=NOT USED
+Button/Tooltip/VampiricAura2=Kerrigan and nearby allies gain life with every attack. Life gained is 20% of attack damage.
+Button/Tooltip/VampiricAura3=NOT USED
+Button/Tooltip/VenomSacs=Poison slow effects increased by 35%.
+Button/Tooltip/VespeneEfficiency=25 Vespene Gas is recovered on death.
+Button/Tooltip/VespeneTransfusion=Extractors require no Drones to harvest vespene gas.
+Button/Tooltip/ViciousGlaive=Attacks bounce three additional times, hitting up to six targets. Bounces also travel farther.
+Button/Tooltip/VilePassive=Attacks debilitate targets, slowing attack and movement speeds by <d ref="(1 - Behavior,VileAcidSlowFlatAmount,Modification.MoveSpeedMultiplier) * 100"/>%. Heroic units are slowed by <d ref="(1 - Behavior,VileAcidSlowFlatAmountHeroic,Modification.MoveSpeedMultiplier) * 100"/>%.
+Button/Tooltip/Viper=Advanced aerial caster. Can use Abduct, Disabling Cloud, and Consumption abilities.<n/><n/><c val="ffff8a">Can attack air units.</c>
+Button/Tooltip/ViperCocoon=This cocoon contains a Mutalisk that is morphing into a Viper.
+Button/Tooltip/ViperConsumption=Drains up to 75 life from a friendly Zerg unit and gives the Viper 2 energy for each point of life drained.
+Button/Tooltip/ViperPassive=Greater Spire enables you to morph Vipers from Mutalisks.
+Button/Tooltip/Virophage=
+Button/Tooltip/ViscousDischarge=Banelings cover their targets with a viscous discharge, slowing their movement speed for 1.5 seconds.
+Button/Tooltip/Vitality=Kerrigan gains +75 maximum life.
+Button/Tooltip/Web=Wraps the target air unit in a sticky web. The unit cannot move or attack, and is treated as a ground unit.
+Button/Tooltip/WeightedSpines=Damage to secondary targets increased by 50%.
+Button/Tooltip/WildAggresion=Target enemy units will begin attacking each other for <d time="20"/>.
+Button/Tooltip/WildMutation=Friendly zerg units in the target area gain +<d ref="Behavior,WildMutation,Modification.VitalMaxArray[1]"/> maximum life and <d ref="(Behavior,WildMutation,Modification.AttackSpeedMultiplier - 1) * 100"/>% increased attack speed for <d ref="Behavior,WildMutation,Duration"/> seconds.<n/><n/><c val="ffff8a">Does not affect heroic units.</c>
+Button/Tooltip/WingsOfHatred=Kerrigan's melee attack deals splash damage. Also allows her to leap up and down cliff edges.
+Button/Tooltip/WingsOfHatred1=Kerrigan's melee attack deals splash damage. Also allows her to leap up and down cliff edges.
+Button/Tooltip/WingsOfHatred2=Kerrigan's melee attack deals splash damage. Also allows her to leap up and down cliff edges.
+Button/Tooltip/WingsOfHatred3=Kerrigan's melee attack deals splash damage. Also allows her to jump up and down cliffs.
+Button/Tooltip/WingsofConsumingHatred=All nearby enemies take 5 damage per <d time="1" precision="1"/>.<n/><n/><c val="f078ff">Drains 5 energy per <d time="1" precision="1"/>.</c>
+Button/Tooltip/WrathOfTheXelNaga=Kerrigan unleashes a psionic scream that travels in all directions. Deals 150 damage to all units in a 3 tile radius.
+Button/Tooltip/XelNagaCrystal=Ancient Xel'Naga Crystal thrumming with psionic energy.
+Button/Tooltip/Yagdra=Vile and dangerous Pack Leader who breathes acid, tunnels through the ground, and lays eggs.
+Button/Tooltip/YagdraEggBig=A Primal Zerg creature writhes within.
+Button/Tooltip/YagdraEggSmall=A Primal Zerg creature writhes within.
+Button/Tooltip/YagdraFireball=Yagdra spits acid at the target location after 2 seconds.
+Button/Tooltip/YagdraFirebreath=Channels a cone of acid. Will turn to chase the target while breathing acid.
+Button/Tooltip/YagdraTunnel=Yagdra burrows and erupts at target location, dealing damage to units in the area and knocking them back.
+Button/Tooltip/Yeti=Native Ursadon subspecies.
+Button/Tooltip/YetiMomma=Aggressive Matriarch of a sleuth of Ursadon.
+Button/Tooltip/ZHybridPsychicClones=Creates two identical clones with full life and shields.
+Button/Tooltip/ZaGara=The first of Kerrigan's Broodmothers. Seeks to create a Swarm of her own on Char.
+Button/Tooltip/ZergBiomassPickup=Usable Zerg Biomass. Move Kerrigan nearby to collect the biomass and gain a level.
+Button/Tooltip/ZergTowerArtillery=Dormant nest swarming with Scourge. Place a Creep Tumor nearby to awaken.
+Button/Tooltip/ZerglingBurrowMove=Can move at full speed while burrowed.
+Button/Tooltip/ZerglingPassive=Spawning Pool enables you to morph Zerglings.
+Button/Tooltip/ZerglingRaptorPassive=Raptor Strain<n/><n/>Spawning Pool enables you to morph Zerglings.
+Button/Tooltip/ZerglingRespawnCounter=Zergling biomass available to be reconstituted.
+Button/Tooltip/ZerglingRespawnPassive=Will respawn at the Hatchery when killed.
+Button/Tooltip/ZerglingRespawnPrimary=Sets this structure to be the primary location where Zerglings will respawn.
+Button/Tooltip/ZerglingSwarmlingPassive=Swarmling Strain<n/><n/>Spawning Pool enables you to morph Zerglings.
+Button/Tooltip/Zerus02Chrysalis=Within Kerrigan's form is being restructured by ancient Zerg essences. Protect the Chrysalis until her metamorphosis is complete.
+Button/Tooltip/ZerusAlienTreeHover=A free-roaming creature that feeds on microscopic Zerg organisms.
+Button/Tooltip/ZerusAlienTreeViper=Aggressive plant species. Attacks nearby units.
+Button/Tooltip/ZeusLoad=Loads units into the Zeus's hold.
+Button/Tooltip/ZeusRapidDeployment=The Zeus deploys loaded troops almost instantly.<n/>
+Button/Tooltip/ZeusUnloadAll=Unloads all units.
+Button/Tooltip/ZurvanCore=The most powerful Primal Zerg on Zerus.
+Button/Tooltip/ZurvanLightningBreath=Deals massive damage to all targets in front of Zurvan.
+Button/Tooltip/ZurvanSpawnPrimalHydralisk=Zurvan spits out a Primal Hydralisk.
+Button/Tooltip/ZurvanSpawnPrimalUltralisk=Zurvan spits out a Primal Ultralisk.
+Button/Tooltip/ZurvanSpawnPrimalZergling=Zurvan spits out a Primal Zergling.
+Button/Tooltip/ZurvanSpawnRavasaur=Zurvan spits out a Ravasaur.
+Button/Tooltip/ZurvanSubmerged=An ancient Primal Zerg of untold power that has survived for millions of years.
+Button/Tooltip/ZurvanTentacleSlam=Slams the ground, damaging all units in a line under the tentacle for <d ref="Effect,ZurvanTentacleSlamDamage,Amount"/> damage.
+Button/Tooltip/overlordspeed=Increases the movement speed of <c val="ffff8a">Overlords</c>.
+Unit/Category/ZergCharacter=Zerg Characters
+Unit/InfoText/DNAPickup=Collect to evolve the Swarm
+Unit/InfoText/GasCanister25=Use any ground unit to collect 25 Vespene gas.
+Unit/InfoText/GasCanister50=Use any ground unit to collect 50 Vespene gas.
+Unit/InfoText/PickupChronoRiftChargeSwarm=Xel'Naga Relic
+Unit/LifeArmorName/CritterCarapace=Critter Carapace
+Unit/LifeArmorName/ZergGroundArmor=Zerg Ground Carapace 
+Unit/Name/AcidSpores=Acid Spores
+Unit/Name/AcidSporesMissile=Acid Spore
+Unit/Name/AiurChefEnergyDrinkSwarm=Pylon Poweraid
+Unit/Name/ArmoredGenerator=Armored Generator
+Unit/Name/AshWorm=Ash Worm
+Unit/Name/AshWormWeapon=Ash Worm
+Unit/Name/AutomatedExtractor=Automated Extractor
+Unit/Name/BallOfDeath=Ball of Death
+Unit/Name/BanelingEggNest=Baneling Nest
+Unit/Name/BanelingPuddle=Baneling Puddle
+Unit/Name/BigTastyCorpse=Tyrannozor Corpse
+Unit/Name/Brakk=Brakk
+Unit/Name/BrakkAirWeapon=Brakk (Anti-Air)
+Unit/Name/BroodMother=Naktul
+Unit/Name/BroodMotherBurrowed=Naktul
+Unit/Name/BroodMotherWeapon=Brood Mother Weapon
+Unit/Name/Bulldozer=Bulldozer
+Unit/Name/Bus=Bus
+Unit/Name/CannibalizeCorpse=Cannibalize Corpse
+Unit/Name/CarrionBug=Carrion Wasp
+Unit/Name/CarrionNest=Carrion Nest
+Unit/Name/Cerberus=Cerberus
+Unit/Name/CerberusLeftLMWeapon=Cerberus (Left)
+Unit/Name/CerberusRightLMWeapon=Cerberus (Right)
+Unit/Name/Char02CircleofDeath=Circle of Death
+Unit/Name/CharDestructibleArch=Destructible Arch
+Unit/Name/CharDestructibleArchRubble=Destructible Arch Rubble
+Unit/Name/CharEggSackOneEgg=Small Egg Cluster
+Unit/Name/CharEggSackThreeEgg=Large Egg Cluster
+Unit/Name/CharEggSackTwoEgg=Egg Cluster
+Unit/Name/ColonistHutDecayedUnit=Hut
+Unit/Name/Corsair=Corsair
+Unit/Name/CreepGen5=Creep Generator 5 Cells
+Unit/Name/CreepGen7=Creep Generator 7 Cells
+Unit/Name/CreepTumorUsed=Creep Tumor
+Unit/Name/DNAPickup=Essence
+Unit/Name/DeadQueenUnit=Nafash's Corpse
+Unit/Name/DefensiveWall=Fortress Wall
+Unit/Name/DefensiveWall45=Fortress Wall
+Unit/Name/DefensiveWall45GateEast=Fortress Gate
+Unit/Name/DefensiveWall45GateLargeEast=Fortress Gate
+Unit/Name/DefensiveWall45GateLargeWest=Fortress Gate
+Unit/Name/DefensiveWall45GateWest=Fortress Gate
+Unit/Name/DefensiveWall45Inner=Fortress Wall
+Unit/Name/DefensiveWall45Outer=Fortress Wall
+Unit/Name/DefensiveWall45Ramp=Fortress Wall
+Unit/Name/DefensiveWall90=Fortress Wall
+Unit/Name/DefensiveWall90Inner=Fortress Wall
+Unit/Name/DefensiveWall90Outer=Fortress Wall
+Unit/Name/DefensiveWallGate=Fortress Gate
+Unit/Name/Defiler=Defiler
+Unit/Name/Dehaka=Dehaka
+Unit/Name/DehakaAirWeapon=Dehaka (Anti-Air)
+Unit/Name/DehakaMirrorImage=Dehaka Spawn
+Unit/Name/DehakaMirrorImageWeapon=Dehaka Spawn
+Unit/Name/DehakaPlaceholder=Dehaka Placeholder
+Unit/Name/DehakaReviveCocoon=Dehaka's Cocoon
+Unit/Name/DehakaRightArm=Dehaka's Right Arm
+Unit/Name/DesertEnergyCannon=Drakken Pulse Cannon
+Unit/Name/DestructibleUmojanLabFloodLights=Flood Light
+Unit/Name/DestructibleUmojanLabPowerCell=Containment Cell
+Unit/Name/DestructibleUmojanLabTestTube=Test Tube
+Unit/Name/DestructibleZerusTree=Tree
+Unit/Name/DevastatingShotWeapon=Devastating Shot Weapon
+Unit/Name/DevourTongueMissile=Devour Tongue Missile
+Unit/Name/Devourer=Devourer
+Unit/Name/DevourerMissile=Devourer
+Unit/Name/DragMissile=Drag Missile
+Unit/Name/DroneFull=Drone
+Unit/Name/EnergyBlastFlyingWeapon=Energy Blast Flying Weapon
+Unit/Name/EnergyBlastWeapon=Energy Blast
+Unit/Name/EnsnareWeapon=Ensnare
+Unit/Name/Excavator=Excavator
+Unit/Name/Expedition02ShuttleRadar=Shuttle Radar
+Unit/Name/ExpeditionJumpGate=Warp Conduit
+Unit/Name/ExplodingGasBarrelLarge=Gas Barrel
+Unit/Name/ExplosiveSporesMissile=Explosive Spores Missile
+Unit/Name/ExtendingBridgeDirtyNELong10=Extending Bridge Dirty - NE - Height 10 - Long - Retracted
+Unit/Name/ExtendingBridgeDirtyNELong10Out=Extending Bridge Dirty - NE - Height 10 - Long - Extended
+Unit/Name/ExtendingBridgeDirtyNELong8=Extending Bridge Dirty - NE - Height 8 - Long - Retracted
+Unit/Name/ExtendingBridgeDirtyNELong8Out=Extending Bridge Dirty - NE - Height 8 - Long - Extended
+Unit/Name/ExtendingBridgeDirtyNEShort10=Extending Bridge Dirty - NE - Height 10 - Short - Retracted
+Unit/Name/ExtendingBridgeDirtyNEShort10Out=Extending Bridge Dirty - NE - Height 10 - Short - Extended
+Unit/Name/ExtendingBridgeDirtyNEShort8=Extending Bridge Dirty - NE - Height 8 - Short - Retracted
+Unit/Name/ExtendingBridgeDirtyNEShort8Out=Extending Bridge Dirty - NE - Height 8 - Short - Extended
+Unit/Name/ExtendingBridgeDirtyNEWide10=Extending Bridge Dirty - NE - Height 10 - Wide - Retracted
+Unit/Name/ExtendingBridgeDirtyNEWide10Out=Extending Bridge Dirty - NE - Height 10 - Wide - Extended
+Unit/Name/ExtendingBridgeDirtyNEWide8=Extending Bridge Dirty - NE - Height 8 - Wide - Retracted
+Unit/Name/ExtendingBridgeDirtyNEWide8Out=Extending Bridge Dirty - NE - Height 8 - Wide - Extended
+Unit/Name/ExtendingBridgeDirtyNWLong10=Extending Bridge Dirty - NW - Height 10 - Long - Retracted
+Unit/Name/ExtendingBridgeDirtyNWLong10Out=Extending Bridge Dirty - NW - Height 10 - Long - Extended
+Unit/Name/ExtendingBridgeDirtyNWLong8=Extending Bridge Dirty - NW - Height 8 - Long - Retracted
+Unit/Name/ExtendingBridgeDirtyNWLong8Out=Extending Bridge Dirty - NW - Height 8 - Long - Extended
+Unit/Name/ExtendingBridgeDirtyNWShort10=Extending Bridge Dirty - NW - Height 10 - Short - Retracted
+Unit/Name/ExtendingBridgeDirtyNWShort10Out=Extending Bridge Dirty - NW - Height 10 - Short - Extended
+Unit/Name/ExtendingBridgeDirtyNWShort8=Extending Bridge Dirty - NW - Height 8 - Short - Retracted
+Unit/Name/ExtendingBridgeDirtyNWShort8Out=Extending Bridge Dirty - NW - Height 8 - Short - Extended
+Unit/Name/ExtendingBridgeDirtyNWWide10=Extending Bridge Dirty - NW - Height 10 - Wide - Retracted
+Unit/Name/ExtendingBridgeDirtyNWWide10Out=Extending Bridge Dirty - NW - Height 10 - Wide - Extended
+Unit/Name/ExtendingBridgeDirtyNWWide8=Extending Bridge Dirty - NW - Height 8 - Wide - Retracted
+Unit/Name/ExtendingBridgeDirtyNWWide8Out=Extending Bridge Dirty - NW - Height 8 - Wide - Extended
+Unit/Name/ExtendingBridgeNE=Extending Bridge
+Unit/Name/ExtendingBridgeNELong10=Extending Bridge - NE - Height 10 - Long - Retracted
+Unit/Name/ExtendingBridgeNELong10Out=Extending Bridge - NE - Height 10 - Long - Extended
+Unit/Name/ExtendingBridgeNELong8=Extending Bridge - NE - Height 8 - Long - Retracted
+Unit/Name/ExtendingBridgeNELong8Out=Extending Bridge - NE - Height 8 - Long - Extended
+Unit/Name/ExtendingBridgeNEOut=Extending Bridge
+Unit/Name/ExtendingBridgeNEShort10=Extending Bridge - NE - Height 10 - Short - Retracted
+Unit/Name/ExtendingBridgeNEShort10Out=Extending Bridge - NE - Height 10 - Short - Extended
+Unit/Name/ExtendingBridgeNEShort8=Extending Bridge - NE - Height 8 - Short - Retracted
+Unit/Name/ExtendingBridgeNEShort8Out=Extending Bridge - NE - Height 8 - Short - Extended
+Unit/Name/ExtendingBridgeNW=Extending Bridge
+Unit/Name/ExtendingBridgeNWLong10=Extending Bridge - NW - Height 10 - Long - Retracted
+Unit/Name/ExtendingBridgeNWLong10Out=Extending Bridge - NW - Height 10 - Long - Extended
+Unit/Name/ExtendingBridgeNWLong8=Extending Bridge - NW - Height 8 - Long - Retracted
+Unit/Name/ExtendingBridgeNWLong8Out=Extending Bridge - NW - Height 8 - Long - Extended
+Unit/Name/ExtendingBridgeNWOut=Extending Bridge
+Unit/Name/ExtendingBridgeNWShort10=Extending Bridge - NW - Height 10 - Short - Retracted
+Unit/Name/ExtendingBridgeNWShort10Out=Extending Bridge - NW - Height 10 - Short - Extended
+Unit/Name/ExtendingBridgeNWShort8=Extending Bridge - NW - Height 8 - Short - Retracted
+Unit/Name/ExtendingBridgeNWShort8Out=Extending Bridge - NW - Height 8 - Short - Extended
+Unit/Name/ExtendingBridgeSE=Extending Bridge
+Unit/Name/ExtendingBridgeSEOut=Extending Bridge
+Unit/Name/ExtendingBridgeSW=Extending Bridge
+Unit/Name/ExtendingBridgeSWOut=Extending Bridge
+Unit/Name/ExtractorPipes=Extractor
+Unit/Name/FrozenZergOverlord=Frozen Overlord
+Unit/Name/GasCanisterProtoss25=Gas Crystals
+Unit/Name/GasCanisterProtoss50=Gas Crystals
+Unit/Name/GehennaCruiser=Gorgon Battlecruiser
+Unit/Name/GehennaCruiserALMWeapon=Gehenna Cruiser ALM Weapon
+Unit/Name/GehennaCruiserLMWeapon=Gehenna Cruiser LM Weapon
+Unit/Name/GiantYeti=Giant Ursadon
+Unit/Name/GiantYetiLeapMissile=Giant Ursadon Leap Missile
+Unit/Name/GorgonCruiserMissile=Gorgon Cruiser Missile
+Unit/Name/GreaterNydusWorm=Greater Nydus Worm
+Unit/Name/Guardian=Guardian
+Unit/Name/GuideArrowUnit=Guide Arrow
+Unit/Name/GunTower=Tactical Operations Center
+Unit/Name/GunTowerBWeapon=Gun Tower B Weapon
+Unit/Name/GunTowerCWeapon=Gun Tower C Weapon
+Unit/Name/GunTowerDWeapon=Gun Tower D Weapon
+Unit/Name/GunTowerSmall=Gun Tower
+Unit/Name/GunTowerSmallWeapon=Gun Tower (Small)
+Unit/Name/GunTowerWeapon=Tactical Operations Center
+Unit/Name/HealerBot=Recovery Terminal
+Unit/Name/HealthDispenser=Recovery Terminal
+Unit/Name/HealthDispenserPickup=Restoration Charge
+Unit/Name/HotSBarbedTentacleMissile=Barbed Tentacle Missile
+Unit/Name/HotSBioPlasmidDischargeWeapon=HotS Bio Plasmid Discharge Weapon
+Unit/Name/HotSBioStasisMissile=HotS Bio Stasis Missile
+Unit/Name/HotSEggFactory=Old - Swarm Host
+Unit/Name/HotSEggFactorySplitA=Old - Carrion
+Unit/Name/HotSEggFactorySplitB=Old - Creeper
+Unit/Name/HotSHunter=Baneling
+Unit/Name/HotSHunterBurrowed=Baneling
+Unit/Name/HotSHunterPlaceholder=HotS Hunter Placeholder
+Unit/Name/HotSKerrigan=Kerrigan
+Unit/Name/HotSLeviathan=Leviathan
+Unit/Name/HotSLeviathanScourgeMissile=HotS Leviathan Scourge Missile
+Unit/Name/HotSLeviathanTentacleAMissile=HotS Leviathan Tentacle A Missile
+Unit/Name/HotSLeviathanTentacleBMissile=HotS Leviathan Tentacle B Missile
+Unit/Name/HotSLeviathanTentacleCMissile=HotS Leviathan Tentacle C Missile
+Unit/Name/HotSLeviathanTentacleDMissile=HotS Leviathan Tentacle D Missile
+Unit/Name/HotSNoxious=Ultralisk
+Unit/Name/HotSNoxiousBurrowed=Ultralisk
+Unit/Name/HotSRaptor=Zergling
+Unit/Name/HotSRaptorChargeMissile=HotS Raptor Charge Missile
+Unit/Name/HotSRaptorPlaceholder=HotS Raptor Placeholder
+Unit/Name/HotSSplitterlingBig=Baneling
+Unit/Name/HotSSplitterlingBigBurrowed=Baneling
+Unit/Name/HotSSplitterlingMedium=Baneling Spawn
+Unit/Name/HotSSplitterlingMediumBurrowed=Baneling Spawn
+Unit/Name/HotSSplitterlingSmall=Baneling
+Unit/Name/HotSSplitterlingSmallBurrowed=Baneling Spawn
+Unit/Name/HotSSwarmling=Zergling
+Unit/Name/HotSTorrasque=Ultralisk
+Unit/Name/HotSTorrasqueBurrowed=Ultralisk
+Unit/Name/HugeSwarmQueen=Niadra
+Unit/Name/HugeSwarmQueenBurrowed=Niadra
+Unit/Name/HybridAntiAirAttackWeapon=Weapon - Hybrid (Anti-Air)
+Unit/Name/HybridChannel=Hybrid
+Unit/Name/HybridDominator=Hybrid Dominator
+Unit/Name/HybridDoorsThinLeft=Gate
+Unit/Name/HybridDoorsThinLeftLowered=Gate
+Unit/Name/HybridDoorsThinRight=Gate
+Unit/Name/HybridDoorsThinRightLowered=Gate
+Unit/Name/HybridDoorsWideLeft=Gate
+Unit/Name/HybridDoorsWideLeftLowered=Gate
+Unit/Name/HybridDoorsWideMelt=Gate
+Unit/Name/HybridDoorsWideRight=Gate
+Unit/Name/HybridDoorsWideRightLowered=Gate
+Unit/Name/HybridHatchEntrance=Lab Entrance
+Unit/Name/HybridHoldingCellSmallUnit=Hybrid Holding Cell
+Unit/Name/HybridHoldingCellUnit=Hybrid Holding Cell
+Unit/Name/HybridLabDoorsLeft=Lab Doors
+Unit/Name/HybridLabDoorsLeftLowered=Lab Doors
+Unit/Name/HybridLabDoorsRight=Lab Doors
+Unit/Name/HybridLabDoorsRightLowered=Lab Doors
+Unit/Name/HybridReleaseFallbackUnit=Hybrid Release Fallback Unit
+Unit/Name/HybridReleaseWeapon=Weapon - Release Hybrid from Cage
+Unit/Name/HybridScienceFacility=Science Facility
+Unit/Name/HybridSecurityWallLeft=Security Door
+Unit/Name/HybridSecurityWallLeftLowered=Security Door
+Unit/Name/HybridSecurityWallRight=Security Door
+Unit/Name/HybridSecurityWallRightLowered=Security Door
+Unit/Name/HybridTestTube=Hybrid Test Tube
+Unit/Name/HybridTestTubeUnit=Test Tube
+Unit/Name/HybridUltraliskShackled=Hybrid Ultralisk Shackled
+Unit/Name/HydraliskEgg=Hydralisk Cocoon
+Unit/Name/HydraliskImpaler=Hydralisk
+Unit/Name/HydraliskLurker=Hydralisk
+Unit/Name/HydraliskLurkerEgg=Lurker Cocoon
+Unit/Name/HyperionDirectLMWeapon=Hyperion Direct LM Weapon
+Unit/Name/HyperionKorhal=Hyperion
+Unit/Name/HyperionKorhalAirWeapon=Hyperion (Korhal) Air
+Unit/Name/HyperionKorhalGroundWeapon=Hyperion (Korhal) Ground
+Unit/Name/HyperionKorhalYamatoWeapon=Hyperion (Korhal) Yamato Cannon
+Unit/Name/IceProtossCrates=Protoss Crates
+Unit/Name/Impaler=Impaler
+Unit/Name/ImpalerDen=Impaler Den
+Unit/Name/ImpalerEgg=Impaler Cocoon
+Unit/Name/ImpalerWeapon=Primal Lurker
+Unit/Name/InfestedAbominationVomitWeapon=Abomination Vomit
+Unit/Name/InfestedBanshee=Infested Banshee
+Unit/Name/InfestedBansheeWeapon=Infested Banshee Weapon
+Unit/Name/InfestedDominionHousing1=Dominion Garrison
+Unit/Name/InfestedDominionHousing2=Dominion Garrison
+Unit/Name/InfestedDominionHousing3=Dominion Garrison
+Unit/Name/InfestedMedic=Infested Medic
+Unit/Name/InfestedMercHaven=Wyld Wyngs
+Unit/Name/InfestedSiegeBreaker=Infested Siege Tank
+Unit/Name/InfestedSiegeBreakerSieged=Infested Siege Tank
+Unit/Name/InfestedStukov=Alexei Stukov
+Unit/Name/InfestedStukovWeapon=Infested Stukov
+Unit/Name/InvisibleProtossWarpAwayUnit=Invisible Protoss Warp-Away Unit
+Unit/Name/K5DroppodPlacement=K5 Droppod Placement
+Unit/Name/K5Kerrigan=Kerrigan
+Unit/Name/K5KerriganBurrowed=Kerrigan
+Unit/Name/K5KerriganPsiStrike=Kerrigan
+Unit/Name/KerriganBase=Kerrigan
+Unit/Name/KerriganBaseStory=Kerrigan
+Unit/Name/KerriganBrawler=Kerrigan
+Unit/Name/KerriganBrawlerBurrowed=Kerrigan
+Unit/Name/KerriganCorruption=Kerrigan
+Unit/Name/KerriganCorruptionBurrowed=Kerrigan
+Unit/Name/KerriganFlyer=Kerrigan
+Unit/Name/KerriganGhost=Kerrigan
+Unit/Name/KerriganGhostBurrowed=Kerrigan
+Unit/Name/KerriganGhostLab=Sarah Kerrigan
+Unit/Name/KerriganGhostLabPlasmaRoundWeapon=Weapon -- Plasma Round (Kerrigan/Lab)
+Unit/Name/KerriganGhostLabUnarmed=Sarah Kerrigan
+Unit/Name/KerriganInfestBroodling=Broodling
+Unit/Name/KerriganInfestedTerran=Infested Terran
+Unit/Name/KerriganMorphCocoon=Kerrigan's Cocoon
+Unit/Name/KerriganNotFlyer=Kerrigan
+Unit/Name/KerriganNotFlyerBurrowed=Kerrigan
+Unit/Name/KerriganNydusWyrm=Broodling Nest
+Unit/Name/KerriganQueenOfBlades=Kerrigan
+Unit/Name/KerriganQueenOfBladesBurrowed=Kerrigan
+Unit/Name/KerriganRangedWeapon=Kerrigan Ranged Weapon
+Unit/Name/KerriganReviveCocoon=Kerrigan's Cocoon
+Unit/Name/KerriganRuler=Kerrigan
+Unit/Name/KerriganSpecOps=Kerrigan
+Unit/Name/KerriganSpecOpsBurrowed=Kerrigan
+Unit/Name/KerriganVortex=Kerrigan
+Unit/Name/KerriganVortexFlying=Kerrigan
+Unit/Name/KerriganVortexGhost=Kerrigan
+Unit/Name/KorhalBaseDoor=Base Door
+Unit/Name/KorhalCannon=Air Defense Cannon
+Unit/Name/KorhalGateControl=Gate Control
+Unit/Name/KorhalGateEast=Augustgrad Gate
+Unit/Name/KorhalGateWest=Augustgrad Gate
+Unit/Name/KorhalPalaceGate=Korhal Palace Gate
+Unit/Name/KorhalPalaceGateWeapon=Korhal Palace Gate
+Unit/Name/KorhalPalaceTurret=Korhal Palace Turret
+Unit/Name/KorhalPalaceTurretLeft=Korhal Palace Turret
+Unit/Name/KorhalPalaceTurretRight=Korhal Palace Turret
+Unit/Name/KorhalSporeCannon=Bile Launcher
+Unit/Name/KorhalSporeCannonMissile=Bile Launcher (Fire Missile, Korhal)
+Unit/Name/KorhalWall=Korhal Wall
+Unit/Name/Kraith=Kraith
+Unit/Name/KraithSpineVolleyWeapon=Weapon -- Spine Volley
+Unit/Name/LabExtendingBridge=Lab Extending Bridge
+Unit/Name/LabExtendingBridgeOut=Lab Extending Bridge
+Unit/Name/LabTurret=Gas Turret
+Unit/Name/LabTurretUp=Gas Turret
+Unit/Name/LargeSwarmQueen=Niadra
+Unit/Name/LargeSwarmQueenBurrowed=Niadra
+Unit/Name/LarvalQueen=Larva
+Unit/Name/Lasarra=Lasarra
+Unit/Name/LeapingCritter=Leaping Karak
+Unit/Name/LiftControl=Prison Deck Coupling
+Unit/Name/LittleTastyCorpse=Small Corpse
+Unit/Name/Locust=Locust
+Unit/Name/LocustEggAMissileWeapon=Locust Egg A Missile Weapon
+Unit/Name/LocustEggAWeaponMissileWeapon=Locust Egg AWeapon Missile Weapon
+Unit/Name/LocustEggBMissileWeapon=Locust Egg B Missile Weapon
+Unit/Name/LocustEggBWeaponMissileWeapon=Locust Egg BWeapon Missile Weapon
+Unit/Name/LocustEggCreeperAMissileWeapon=Locust Egg Creeper A Missile Weapon
+Unit/Name/LocustEggCreeperAWeaponMissileWeapon=Locust Egg Creeper AWeapon Missile Weapon
+Unit/Name/LocustEggCreeperBMissileWeapon=Locust Egg Creeper B Missile Weapon
+Unit/Name/LocustEggCreeperBWeaponMissileWeapon=Locust Egg Creeper BWeapon Missile Weapon
+Unit/Name/LocustFlying=Locust
+Unit/Name/LocustFlyingEggAMissileWeapon=Locust Flying Egg A Missile Weapon
+Unit/Name/LocustFlyingEggAWeaponMissileWeapon=Locust Flying Egg AWeapon Missile Weapon
+Unit/Name/LocustFlyingEggBMissileWeapon=Locust Flying Egg B Missile Weapon
+Unit/Name/LocustFlyingEggBWeaponMissileWeapon=Locust Flying Egg BWeapon Missile Weapon
+Unit/Name/LocustFlyingWeapon=Locust (Flyer)
+Unit/Name/LocustWeapon=Locust
+Unit/Name/Lurker=Lurker
+Unit/Name/LurkerDen=Lurker Den
+Unit/Name/LurkerEgg=Lurker Cocoon
+Unit/Name/Maar=Hybrid
+Unit/Name/MaarChannel=Hybrid
+Unit/Name/MarineWarfield=General Warfield
+Unit/Name/MarineWarfieldWeapon=General Warfield
+Unit/Name/MatriarchDNAPickup=Greater Essence
+Unit/Name/MediumTastyCorpse=Quillgor Biomass
+Unit/Name/MengskBC=Pride of Augustgrad
+Unit/Name/MengskBCALMWeapon=Mengsk BC A LM Weapon
+Unit/Name/MengskBCGLMWeapon=Mengsk BC G LM Weapon
+Unit/Name/MengskBanshee=Night Wolf
+Unit/Name/MengskBansheeWeapon=Banshee (Mengsk Elite)
+Unit/Name/MengskDiamondback=Red Adder
+Unit/Name/MengskFirebat=Prometheus Company
+Unit/Name/MengskGoliath=Bulwark Company
+Unit/Name/MengskGoliathAWeapon=Mengsk Goliath A Weapon
+Unit/Name/MengskHellion=Outback Hunter
+Unit/Name/MengskMarauder=Aegis Guard
+Unit/Name/MengskMarauderLMWeapon=Mengsk Marauder LM Weapon
+Unit/Name/MengskMarine=Son of Korhal
+Unit/Name/MengskMedic=Field Response Theta
+Unit/Name/MengskPalaceGate=Mengsk's Palace
+Unit/Name/MengskReaper=Death Head
+Unit/Name/MengskReaperD8ChargeWeapon=Mengsk Reaper D8 Charge Weapon
+Unit/Name/MengskReaperPlaceholder=Mengsk Reaper Placeholder
+Unit/Name/MengskSiegeTank=Shock Division
+Unit/Name/MengskSiegeTankSieged=Shock Division
+Unit/Name/MengskThor=Blackhammer
+Unit/Name/MengskThorAAWeapon=Mengsk Thor AA Weapon
+Unit/Name/MengskVikingAssault=Sky Fury
+Unit/Name/MengskVikingFighter=Sky Fury
+Unit/Name/MengskVikingFighterWeapon=Viking (Fighter, Mengsk Elite)
+Unit/Name/MengskWraith=Winged Nightmare
+Unit/Name/MengskWraithAirWeaponLeft=Mengsk Wraith Air Weapon Left
+Unit/Name/MengskWraithAirWeaponRight=Mengsk Wraith Air Weapon Right
+Unit/Name/MengskWraithGroundWeapon=Mengsk Wraith Ground Weapon
+Unit/Name/MercCalldownCenter=Merc Haven
+Unit/Name/MercCommander=Warhound
+Unit/Name/MercHellion=Outback Hunter
+Unit/Name/MercMedic=Skibi's Angel
+Unit/Name/MercReaper=Death Head
+Unit/Name/MercReaperD8ChargeWeapon=Merc Reaper D-9 Charge
+Unit/Name/MercReaperPlaceholder=Merc Reaper (PH)
+Unit/Name/MilitarizedColonistShip=Zeus Lander
+Unit/Name/MilitarizedColonistShipAirLMWeapon=Militarized Colonist Ship Air LM Weapon
+Unit/Name/MilitarizedColonistShipGroundLMWeapon=Militarized Colonist Ship Ground LM Weapon
+Unit/Name/MilitarizedColonistShipOmega=Militarized Colonist Ship Omega (Deprecated, use Militarized Colonist Ship)
+Unit/Name/MilitarizedColonistTransport=Militarized Transport
+Unit/Name/MindBoltWeapon=Kinetic Blast
+Unit/Name/Mitosaurus=Mitoscarab
+Unit/Name/MitosaurusAWeapon=Mitosaurus A Weapon
+Unit/Name/MitosaurusB=Mitoscarab
+Unit/Name/MitosaurusBSplitWeapon=Mitosaurus B Split Weapon
+Unit/Name/MitosaurusBWeapon=Mitosaurus B Weapon
+Unit/Name/MitosaurusC=Mitoscarab
+Unit/Name/MitosaurusCSplitWeapon=Mitosaurus C Split Weapon
+Unit/Name/MitosaurusCWeapon=Mitosaurus C Weapon
+Unit/Name/MitosaurusD=Mitosaurus 
+Unit/Name/MitosaurusDWeapon=Mitosaurus D Weapon
+Unit/Name/MitoscarabASplitWeapon=Mitosaurus A Split Weapon
+Unit/Name/MoebiusLabConsolesDestructible=Console
+Unit/Name/MoebiusLabDestructibleDoor=Door
+Unit/Name/MoebiusLabDoorsThinLeft=Lab Door
+Unit/Name/MoebiusLabDoorsThinLeftLowered=Lab Door
+Unit/Name/MoebiusLabDoorsThinRight=Lab Door
+Unit/Name/MoebiusLabDoorsThinRightLowered=Lab Door
+Unit/Name/MoebiusLabDoorsWideLeft=Lab Door
+Unit/Name/MoebiusLabDoorsWideLeftLowered=Lab Door
+Unit/Name/MoebiusLabDoorsWideRight=Lab Door
+Unit/Name/MoebiusLabDoorsWideRightLowered=Lab Door
+Unit/Name/MoebiusLabHoldingPen=Holding Pen
+Unit/Name/MoebiusLabStasisTubeDestructible=Stasis Tube
+Unit/Name/MutaliskBroodlord=Mutalisk
+Unit/Name/MutaliskGlaveWurmAttack1Missile=Mutalisk Glave Wurm Attack1 Missile
+Unit/Name/MutaliskGlaveWurmAttack2Missile=Mutalisk Glave Wurm Attack2 Missile
+Unit/Name/MutaliskGlaveWurmAttack3Missile=Mutalisk Glave Wurm Attack3 Missile
+Unit/Name/MutaliskGlaveWurmAttack4Missile=Mutalisk Glave Wurm Attack4 Missile
+Unit/Name/MutaliskLeviathan=Mutalisk
+Unit/Name/MutaliskViper=Mutalisk
+Unit/Name/NPDominationTentacleMissile=NP Domination Tentacle Missile
+Unit/Name/NPDominationWeapon=NP Domination Weapon
+Unit/Name/NPSwarmTentacleMissile=NP Swarm Tentacle Missile
+Unit/Name/NPSwarmWeapon=NP Swarm Weapon
+Unit/Name/NarudXelNaga=Narud
+Unit/Name/NaturalGas25=Gas
+Unit/Name/NaturalGas50=Gas
+Unit/Name/NoxiousCreepUnit=Noxious Creep
+Unit/Name/NuclearMissileSilo=Nuclear Missile Silo
+Unit/Name/NydusNetwork=Greater Nydus Network
+Unit/Name/OmegaliskChrysalis=Omegalisk Chrysalis
+Unit/Name/OmegaliskCorpse=Omegalisk Corpse
+Unit/Name/ParasiticInvasionWeapon=Parasitic Invasion
+Unit/Name/PathingBlocker1x1Diagonal=Dynamic Pathing Blocker 1x1 (Diagonal)
+Unit/Name/PathingBlocker2x2Diagonal=Dynamic Pathing Blocker 2x2 (Diagonal)
+Unit/Name/PathingBlocker3x3Diagonal=Dynamic Pathing Blocker 3x3 (Diagonal)
+Unit/Name/PathingBlocker4x4Diagonal=Dynamic Pathing Blocker 4x4 (Diagonal)
+Unit/Name/PickupChronoRiftChargeSwarm=Xel'Naga Relic
+Unit/Name/PickupEngineCharge=Engine Charge
+Unit/Name/PoisonGasCloud=Poison Gas Cloud
+Unit/Name/PrimalBaseDefense=Primal Base Defense
+Unit/Name/PrimalBaseDefenseUprooted=Primal Base Defense
+Unit/Name/PrimalBaseDefenseWeapon=Primal Base Defense
+Unit/Name/PrimalBaseWeapon=Primal Hatchery
+Unit/Name/PrimalCorruptor=Primal Corruptor
+Unit/Name/PrimalCorruptorWeapon=Primal Corruptor Weapon
+Unit/Name/PrimalExtractor=Primal Extractor
+Unit/Name/PrimalFlyer=Guardian
+Unit/Name/PrimalFlyerWeapon=Primal Guardian
+Unit/Name/PrimalGasCloudWeapon=Primal Gas Cloud Weapon
+Unit/Name/PrimalHost=Primal Host
+Unit/Name/PrimalHydralisk=Hydralisk
+Unit/Name/PrimalHydraliskWeapon=Primal Hydralisk
+Unit/Name/PrimalLarvaBirth=Primal Larva
+Unit/Name/PrimalLocust=Locust
+Unit/Name/PrimalLocustFlying=Primal Locust
+Unit/Name/PrimalLocustFlyingWeapon=Primal Locust Flying Weapon
+Unit/Name/PrimalLocustWeapon=Primal Locust Weapon
+Unit/Name/PrimalMutalisk=Mutalisk
+Unit/Name/PrimalProductionA=Primal Production A
+Unit/Name/PrimalProductionAUprooted=Primal Production A
+Unit/Name/PrimalProductionB=Primal Production B
+Unit/Name/PrimalProductionBUprooted=Primal Production B
+Unit/Name/PrimalProductionC=Primal Production C
+Unit/Name/PrimalProductionCUprooted=Primal Production C
+Unit/Name/PrimalRoach=Roach
+Unit/Name/PrimalRoachWeapon=Primal Roach
+Unit/Name/PrimalSunkenColony=Impaler Colony
+Unit/Name/PrimalSunkenColonyWeapon=Primal Sunken Colony Weapon
+Unit/Name/PrimalTownHall=Primal Hive
+Unit/Name/PrimalTownHallUprooted=Primal Hive
+Unit/Name/PrimalUltralisk=Ultralisk
+Unit/Name/PrimalViperAirWeapon=Primal Viper Air Weapon
+Unit/Name/PrimalWhelp=Primal Whelp
+Unit/Name/PrimalZergling=Zergling
+Unit/Name/PrisonShipJumpDrive=Jump Drive
+Unit/Name/ProjectileCreepSpreadUnit=Projectile Creep Spread Tentacle
+Unit/Name/ProjectileCreepWeapon=Projectile Creep Weapon
+Unit/Name/ProtossBaseBioMassStorage=Stasis Chamber
+Unit/Name/ProtossCruiser=Cruiser
+Unit/Name/ProtossCruiserWeapon=Weapon -- Cruiser
+Unit/Name/ProtossDockingBayUnit=Docking Bay
+Unit/Name/ProtossFrigate=Shuttle
+Unit/Name/ProtossFrigateDocked=Shuttle
+Unit/Name/ProtossMobileSatellite=Protoss Mobile Satellite
+Unit/Name/ProtossRadioTower=Psi-link Spire
+Unit/Name/ProtossReliquaryUnit=Protoss Reliquary
+Unit/Name/ProtossWarpDriveUnit=Warp Drive
+Unit/Name/PsiBoltWeapon=Psi Bolt
+Unit/Name/PsiDecimator=Psi Destroyer
+Unit/Name/PsiDisintegratorPowerLink=Power Link
+Unit/Name/PsiDisintegratorPowerLinkOff=Power Link -- Off
+Unit/Name/PsionicShadow=Psionic Shadow
+Unit/Name/PukePuddle=Acid Puddle
+Unit/Name/Queen=Swarm Queen
+Unit/Name/QueenChannelWeapon=Queen Channel Weapon
+Unit/Name/QueenChannelWeaponB=Queen Channel Weapon B
+Unit/Name/QueenChannelWeaponC=Queen Channel Weapon C
+Unit/Name/QueenClassic=Queen
+Unit/Name/Ravasaur=Ravasaur
+Unit/Name/RavasaurAirWeapon=Ravasaur Air Weapon
+Unit/Name/RavasaurWeapon=Ravasaur Weapon
+Unit/Name/RaynorLab=Jim Raynor
+Unit/Name/RaynorsRaidersDropship=Raynor's Raiders Dropship
+Unit/Name/RefineryPipes=Refinery
+Unit/Name/RoachCorpser=Roach
+Unit/Name/RoachCorpserAcidSalivaWeapon=Roach Corpser Acid Saliva Weapon
+Unit/Name/RoachCorpserBurrowed=Roach
+Unit/Name/RoachVile=Roach
+Unit/Name/RoachVileAcidSalivaWeapon=Roach Vile Acid Saliva Weapon
+Unit/Name/RoachVileBurrowed=Roach
+Unit/Name/Roachling=Roachling
+Unit/Name/SJBanshee=Cloaked Bomber
+Unit/Name/SJBansheeWeapon=Weapon -- Banshee
+Unit/Name/SJBattlecruiser=Battlecruiser
+Unit/Name/SJBattlecruiserWeapon=Weapon -- Battlecruiser 
+Unit/Name/SJCloakedMine=Mag Mine
+Unit/Name/SJCloakedMineWeapon=SJ Cloaked Mine Weapon
+Unit/Name/SJFighter1=Tac Fighter
+Unit/Name/SJFighter1PH=Tactical Fighter
+Unit/Name/SJFighter1Weapon=Weapon -- Hyperion Fighter 1
+Unit/Name/SJFighterBeacon=SJ Fighter Beacon
+Unit/Name/SJGriffon=Griffon
+Unit/Name/SJGriffonWeapon=Weapon -- Griffon
+Unit/Name/SJHyperion=Hyperion
+Unit/Name/SJHyperionBWeapon=SJ Hyperion B Weapon
+Unit/Name/SJHyperionWeapon=Weapon -- Hyperion
+Unit/Name/SJHyperionYamatoWeapon=Weapon -- Hyperion Yamato
+Unit/Name/SJMercAATower=Ordnance Tower
+Unit/Name/SJMercAATowerWeapon=Weapon -- Merc Anti-Air Tower
+Unit/Name/SJMercStarport=Merc Starport
+Unit/Name/SJMineralFormation1=Small Mineral Cluster
+Unit/Name/SJMineralFormation2=Mineral Cluster
+Unit/Name/SJPickupHealth500=Restore Full Life
+Unit/Name/SJPickupMinerals=Pick Up Minerals
+Unit/Name/SJPickupMineralsB=Pick Up Minerals
+Unit/Name/SJPickupSalvage=Pick Up Salvage
+Unit/Name/SJPirateCapitalShip=Pirate Capital Ship
+Unit/Name/SJPirateCapitalShipLeftLMWeapon=SJ Pirate Capital Ship Left LM Weapon
+Unit/Name/SJPirateCapitalShipRightLMWeapon=SJ Pirate Capital Ship Right LM Weapon
+Unit/Name/SJPirateYamatoAWeapon=SJ Pirate Yamato A Weapon
+Unit/Name/SJPirateYamatoBWeapon=SJ Pirate Yamato B Weapon
+Unit/Name/SJPointDefenseDrone=Point Defense Drone
+Unit/Name/SJPointDefenseDroneReleaseWeapon=Point Defense Drone Release
+Unit/Name/SJSpaceStationMercenary=Mercenary Space Station
+Unit/Name/SJSpaceStationMercenaryShield=Mercenary Space Station Shield
+Unit/Name/SJSpaceStationMercenaryWeapon=SJ Space Station Mercenary Weapon
+Unit/Name/SJSpaceStationValerian=Valerian's Space Station
+Unit/Name/SJSpaceStationValerianWarpIn=SJ Space Station Valerian Warp In
+Unit/Name/SJSpaceStationValerianWeapon=SJ Space Station Valerian Weapon
+Unit/Name/SJValkyrie=Valkyrie
+Unit/Name/SJValkyrieWeapon=Weapon -- Valkyrie
+Unit/Name/SJViking=Viking
+Unit/Name/SJVikingWeapon=Weapon -- Viking
+Unit/Name/SJWraith=Wraith
+Unit/Name/SJWraithWeapon=Weapon -- Wraith
+Unit/Name/SMX1CharSet=SMX1 -- Char Set
+Unit/Name/SMX1CharSet2=SMX1 -- Char Set 2
+Unit/Name/SMX1CharSet3=SMX1 -- Char Set 3
+Unit/Name/SMX1CharSet4=SMX1 -- Char Set 4
+Unit/Name/ScantipedeParasitic=Scantipede
+Unit/Name/ScantipedeParasiticSmall=Scantipede
+Unit/Name/ScantipedeParasiticSmallWeapon=Parasitic Scantipede (Small)
+Unit/Name/ScantipedeParasiticWeapon=Parasitic Scantipede
+Unit/Name/ScourgeNestAcquireMissile=Scourge Nest Acquire
+Unit/Name/SentryMine=Sentry Mine
+Unit/Name/ShipEscapePod=Escape Pod
+Unit/Name/ShipForceFieldWallLongULBR=Force Field Wall Long
+Unit/Name/ShipForceFieldWallLongURBL=Force Field Wall Long
+Unit/Name/ShipForceFieldWallULBR=Force Field Wall
+Unit/Name/ShipForceFieldWallURBL=Force Field Wall
+Unit/Name/ShipGeneratorSmall=Psi Broadcaster
+Unit/Name/SlaynMissileTurretLeft=Particle Cannon
+Unit/Name/SlaynMissileTurretRight=Particle Cannon
+Unit/Name/Slivan=Slivan
+Unit/Name/SlivanCollisionDummy=Slivan Collision Dummy
+Unit/Name/SlivanCreep=Creeper
+Unit/Name/SlivanCreepSpawnWeapon=Slivan Creep Spawn Weapon11
+Unit/Name/SlivanPukeWeapon=Slivan Acid
+Unit/Name/SlivanUnit1=Slivan Tumor
+Unit/Name/SlivanUnit2=Slivan Tumor
+Unit/Name/SlivanUnit3=Slivan Tumor
+Unit/Name/SlivanUnit4=Slivan Tumor
+Unit/Name/SpaceArmoredGenerator=Armored Generator
+Unit/Name/SpaceCowCorpse=Quillgor Biomass
+Unit/Name/SpaceCowMedium=Quillgor Alpha
+Unit/Name/SpaceCowRock=Space Cow Rock
+Unit/Name/SpaceCowRockSmall=Space Cow Rock Small
+Unit/Name/SpaceCowSmall=Quillgor
+Unit/Name/SpaceDestructibleDoodad=Destructible Floor Panels
+Unit/Name/SpacePrisonDoorsThinLeft=Gate
+Unit/Name/SpacePrisonDoorsThinLeftLowered=Gate
+Unit/Name/SpacePrisonDoorsThinRight=Gate
+Unit/Name/SpacePrisonDoorsThinRightLowered=Gate
+Unit/Name/SpacePrisonDoorsWideLeft=Gate
+Unit/Name/SpacePrisonDoorsWideLeftLowered=Gate
+Unit/Name/SpacePrisonDoorsWideMelt=Gate
+Unit/Name/SpacePrisonDoorsWideRight=Gate
+Unit/Name/SpacePrisonDoorsWideRightLowered=Gate
+Unit/Name/SpacePrisoner=Prisoner
+Unit/Name/SpacePrisonerBig=Prisoner
+Unit/Name/SpacePrisonerSpecial=Prisoner
+Unit/Name/SpaceReinforcementStorageNE=Space Reinforcement Storage
+Unit/Name/SpaceReinforcementStorageNEOpen=Space Reinforcement Storage
+Unit/Name/SpaceReinforcementStorageNW=Space Reinforcement Storage
+Unit/Name/SpaceReinforcementStorageNWOpen=Space Reinforcement Storage
+Unit/Name/SpaceReinforcementStorageSE=Space Reinforcement Storage
+Unit/Name/SpaceReinforcementStorageSEOpen=Space Reinforcement Storage
+Unit/Name/SpaceReinforcementStorageSW=Space Reinforcement Storage
+Unit/Name/SpaceReinforcementStorageSWOpen=Space Reinforcement Storage
+Unit/Name/SpaceReinforcementStorageUnit=Space Reinforcement Storage Unit
+Unit/Name/SpaceVentDestructibleUnit=Vent
+Unit/Name/SpawnBroodlingsWeapon=Spawn Broodlings Weapon
+Unit/Name/SpikeBurstWeapon=Spike Burst
+Unit/Name/SplitterBig=Bangling
+Unit/Name/SplitterMedium=Bangling
+Unit/Name/SplitterSmall=Bangling
+Unit/Name/StarshipHoldingPenLargeUnit=Holding Pen
+Unit/Name/StarshipHoldingPenUnit=Holding Pen
+Unit/Name/StarshipVentdoorUnit=Vent Access
+Unit/Name/StarshipVentdoorUnitULBR=Vent Access
+Unit/Name/StukovInfestedTerran=Infested Terran
+Unit/Name/StukovReviveCocoon=Stukov's Cocoon
+Unit/Name/SwarmHost=Swarm Host
+Unit/Name/SwarmHostBurrowed=Swarm Host
+Unit/Name/SwarmHostRooted=Swarm Host
+Unit/Name/SwarmHostSplitA=Swarm Host
+Unit/Name/SwarmHostSplitABurrowed=Swarm Host
+Unit/Name/SwarmHostSplitARooted=Swarm Host
+Unit/Name/SwarmHostSplitB=Swarm Host
+Unit/Name/SwarmHostSplitBBurrowed=Swarm Host
+Unit/Name/SwarmHostSplitBPlacement=Swarm Host Split BPlacement
+Unit/Name/SwarmHostSplitBRooted=Swarm Host
+Unit/Name/SwarmLarva=Swarm Larva
+Unit/Name/SwarmQueen=Niadra
+Unit/Name/SwarmQueenAcidSpinesMissile=Acid Spines Missile
+Unit/Name/SwarmQueenBurrowed=Niadra
+Unit/Name/SwarmQueenMorphEgg=Broodmother Cocoon
+Unit/Name/SwarmQueenMorphing=Broodmother Cocoon
+Unit/Name/SwarmQueenMorphingLarge=Broodmother Cocoon
+Unit/Name/SwarmQueenRoachHydraLarva=Swarm Queen Roach/Hydralisk Larva
+Unit/Name/SwarmQueenZerglingLarva=Swarm Queen Zergling Larva
+Unit/Name/Talis=Talis
+Unit/Name/TalisWeapon=Talis Weapon
+Unit/Name/TerranBiomass=Terran Biomass
+Unit/Name/TerrorlingPlaceholder=Terrorling Placeholder
+Unit/Name/Terrorzor=Tyrannozor
+Unit/Name/TitanMech=Archangel
+Unit/Name/TitanMechAssault=Archangel
+Unit/Name/TitanMechBombardmentFlyByWeapon=Archangel Bombardment Fly-By
+Unit/Name/TitanMechFighter=Archangel
+Unit/Name/TitanMechGunWeapon=Weapon -- Archangel Gun
+Unit/Name/TitanMechMissileWeapon=Archangel Missile
+Unit/Name/TorrasqueChrysalis=Ultralisk Chrysalis
+Unit/Name/TorrasqueCorpse=Ultralisk Corpse
+Unit/Name/UmojanGoliath=Umojan Goliath
+Unit/Name/UmojanLabCageDestructible=Cage
+Unit/Name/UmojanLabCatwalkCollapsing=Catwalk
+Unit/Name/UmojanLabCeilingTrash=Umojan Lab Ceiling Wreckage
+Unit/Name/UmojanLabCrashSiteMedium=Umojan Lab Crash Site Medium
+Unit/Name/UmojanLabCrashSiteSmall=Umojan Lab Crash Site Small
+Unit/Name/UmojanLabDebris=Destructible Debris
+Unit/Name/UmojanLabDissectionArmDestructible=Dissection Arm
+Unit/Name/UmojanLabDoorsLeft=Lab Security Door
+Unit/Name/UmojanLabDoorsLeftLowered=Lab Security Door
+Unit/Name/UmojanLabDoorsRight=Lab Security Door
+Unit/Name/UmojanLabDoorsRightLowered=Lab Security Door
+Unit/Name/UmojanLabDoorsThinLeft=Lab Door
+Unit/Name/UmojanLabDoorsThinLeftLowered=Lab Door
+Unit/Name/UmojanLabDoorsThinRight=Lab Door
+Unit/Name/UmojanLabDoorsThinRightLowered=Lab Door
+Unit/Name/UmojanLabDoorsWideLeft=Umojan Lab Door
+Unit/Name/UmojanLabDoorsWideLeftLowered=Umojan Lab Door
+Unit/Name/UmojanLabDoorsWideRight=Umojan Lab Door
+Unit/Name/UmojanLabDoorsWideRightLowered=Umojan Lab Door
+Unit/Name/UmojanLabGenerator=Generator
+Unit/Name/UmojanLabHoloProjectorUnit=Holoprojector
+Unit/Name/UmojanLabLabGate00Left=Lab Gate
+Unit/Name/UmojanLabLabGate00LeftLowered=Lab Gate
+Unit/Name/UmojanLabLabGate00Right=Lab Gate
+Unit/Name/UmojanLabLabGate00RightLowered=Lab Gate
+Unit/Name/UmojanLabLabGate01Left=Lab Gate
+Unit/Name/UmojanLabLabGate01LeftLowered=Lab Gate
+Unit/Name/UmojanLabLabGate01Right=Lab Gate
+Unit/Name/UmojanLabLabGate01RightLowered=Lab Gate
+Unit/Name/UmojanLabMicrobot=Sentry Bot
+Unit/Name/UmojanLabMineralField=Mineral Field
+Unit/Name/UmojanLabMonitorFloorDestructible1=Monitor
+Unit/Name/UmojanLabMonitorFloorDestructible2=Monitor
+Unit/Name/UmojanLabMonitorFloorDestructible3=Monitor
+Unit/Name/UmojanLabStasisTubeDestructible1=Stasis Tube
+Unit/Name/UmojanLabStasisTubeDestructible2=Stasis Tube
+Unit/Name/UmojanLabTramEngineLeft=Tram Engine
+Unit/Name/UmojanLabTramEngineRight=Tram Engine
+Unit/Name/UmojanLabWallDoorsLeft=Umojan Lab Security Door (Wall) (Left)
+Unit/Name/UmojanLabWallDoorsLeftLowered=Umojan Lab Security Door (Wall) (Left, Open)
+Unit/Name/UmojanLabWallDoorsRight=Umojan Lab Security Door (Wall) (Right)
+Unit/Name/UmojanLabWallDoorsRightLowered=Umojan Lab Security Door (Wall) (Right, Open)
+Unit/Name/UmojanLabWarbot=Eradicator
+Unit/Name/UmojanLabZergCageUnit=Holding Pen
+Unit/Name/UmojanLabZergCratesUnit=Holding Pen
+Unit/Name/Unbuildable1x1=Unbuildable 1x1
+Unit/Name/Unbuildable3x3=Unbuildable 3x3
+Unit/Name/ValerianLab=Valerian Mengsk
+Unit/Name/ViperAirWeapon=Viper (Anti-Air)
+Unit/Name/ViperCocoon=Viper Cocoon
+Unit/Name/VirophageMissile=Virophage Missile
+Unit/Name/VortexOfDoom=Vortex of Doom
+Unit/Name/WarfieldBasePlatform=Tactical Operations Center Platform
+Unit/Name/WarfieldFortress=General Warfield's Fortress
+Unit/Name/WebWeapon=Web
+Unit/Name/XelNagaCrystal=Xel'Naga Crystal
+Unit/Name/Yagdra=Yagdra
+Unit/Name/YagdraEggBig=Zerg Cocoon
+Unit/Name/YagdraEggSmall=Zerg Cocoon
+Unit/Name/YagdraFireballWeapon=Spit Acid
+Unit/Name/Yeti=Ursadon
+Unit/Name/YetiMomma=Ursadon Matriarch
+Unit/Name/YetiPlaceholder=Yeti Placeholder
+Unit/Name/YoinkMissile=Abduct Missile
+Unit/Name/ZHybridPlasmaWeapon=Hybrid Dominator Plasma
+Unit/Name/ZaGara=Zagara
+Unit/Name/ZaGaraAcidSpinesMissile=Acid Spines Missile
+Unit/Name/ZaGaraBurrowed=Zagara
+Unit/Name/ZergBiomassPickup=Zerg Biomass
+Unit/Name/ZergDropPodLarge=Drop-Pod
+Unit/Name/ZergEggNest=Zerg Egg Nest
+Unit/Name/ZergEggNestSmall=Zerg Egg Nest Small
+Unit/Name/ZergTowerArtillery=Scourge Nest
+Unit/Name/ZergTowerArtilleryFireMissile=Zerg Tower Artillery Fire Missile
+Unit/Name/ZergTowerArtilleryLaunchSquidMissile=Zerg Tower Artillery Launch Squid Missile
+Unit/Name/ZergTowerArtilleryLaunchSwarmMissile=Zerg Tower Artillery Launch Swarm Missile
+Unit/Name/ZerglingRespawnControllerUnit=Zergling Reconstitution Controller Unit
+Unit/Name/ZerglingRespawnWeapon=Zergling Reconstitution Weapon
+Unit/Name/Zerus01CorpseRadar=Corpse Radar
+Unit/Name/Zerus02Chrysalis=Kerrigan's Chrysalis
+Unit/Name/ZerusAlienTreeHover=Spore Ray
+Unit/Name/ZerusAlienTreeViper=Zerusian Needler
+Unit/Name/ZerusAlienTreeViperA=Zerus Alien Tree Viper A
+Unit/Name/ZerusAlienTreeViperB=Zerus Alien Tree Viper B
+Unit/Name/ZerusAlienTreeViperC=Zerus Alien Tree Viper C
+Unit/Name/ZerusAlienTreeWalker=Gigablossom
+Unit/Name/ZerusBossTarget=Zerus Boss Target
+Unit/Name/ZerusWaterfallUnit=Zerus Waterfall
+Unit/Name/ZurvanCore=Zurvan
+Unit/Name/ZurvanLatentEnergy=Zurvan Latent Energy (Hard Mode)
+Unit/Name/ZurvanLightningBreather=Zurvan Lightning Breather
+Unit/Name/ZurvanSpawnPrimalHydraliskWeapon=Zurvan Spawn Primal Hydralisk Weapon
+Unit/Name/ZurvanSpawnPrimalUltraliskWeapon=Zurvan Spawn Primal Ultralisk Weapon
+Unit/Name/ZurvanSpawnPrimalZerglingWeapon=Zurvan Spawn Primal Zergling Weapon
+Unit/Name/ZurvanSpawnRavasaurWeapon=Zurvan Spawn Ravasaur Weapon
+Unit/Name/ZurvanSubmerged=Ancient One
+Unit/Name/ZurvanTentacle=Zurvan Tentacle
+Unit/ShieldArmorName/ZergWildMutation=Mutated Shell
+Unit/Tooltip/HealthDispenser=Recovery Terminal
+Unit/Tooltip/RecoveryTerminal=Recovery Terminal
