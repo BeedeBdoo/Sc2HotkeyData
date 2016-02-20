@@ -1,0 +1,2 @@
+Unit/Name/DNAPickup=Karak DNA
+Unit/Name/ZerusAlienTreeWalker=Nest

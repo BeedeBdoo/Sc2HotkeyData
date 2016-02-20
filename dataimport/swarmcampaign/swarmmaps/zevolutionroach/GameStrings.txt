@@ -1,0 +1,5 @@
+Unit/Name/CivilianFemale=Civilian
+Unit/Name/CivilianFemaleEvo=Maye
+Unit/Name/DNAPickup=Critter DNA
+Unit/Name/Dog1=Diamond
+Unit/Name/Dog2=Onyx

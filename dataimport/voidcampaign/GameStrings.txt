@@ -1,0 +1,1963 @@
+Button/Name/ActivateShieldGenerator=Activate Shield Generator
+Button/Name/AdeptPassive=Adept
+Button/Name/AetherMawAetherStorm=Aether Storm
+Button/Name/AiurProtectorDamageBoost=Prismatic Alignment
+Button/Name/AlarakAvatar=Terrazine Insanity
+Button/Name/AlarakDeadlyCharge=Deadly Charge
+Button/Name/AlarakForkedLightning=Forked Lightning
+Button/Name/AlarakImprovedSoulSteal=Improved Soul Steal
+Button/Name/AlarakInsanity=Insanity
+Button/Name/AlarakKnockback=Destruction Wave
+Button/Name/AlarakMindBlast=Plasma Scourge
+Button/Name/AlarakPsiOrb=Psionic Orb
+Button/Name/AlarakSingularity=Singularity
+Button/Name/AlarakSoulSteal=Overwhelming Power
+Button/Name/AlarmBotLaserOff=Alarm Bot Laser Off
+Button/Name/AlarmBotLaserOn=Alarm Bot Laser On
+Button/Name/AmonCrystalDarkInertia=Dark Inertia
+Button/Name/AmonCrystalDematerialize=Dematerialize
+Button/Name/AmonHostDeathBeam=Death Beam
+Button/Name/AmonHostDeathBlast=Death Blast
+Button/Name/AmonTentacleA=Void Laser
+Button/Name/AmonTentacleB=Omnia Burst
+Button/Name/AmonTentacleC=Anima Shower
+Button/Name/AmonTentacleCHeal=Anima Beam
+Button/Name/AmonTentacleD=World Cleave
+Button/Name/AmonTentacleDShowsAoE=World Cleave [Shows AoE]
+Button/Name/ArbiterCloakField=Cloak Field
+Button/Name/ArcNodeSpawnShadowOfTheVoid=Arc Node Spawn Shadow Of The Void
+Button/Name/ArchiveShakurasLower=Archive Shakuras - Lower
+Button/Name/ArchiveShakurasRaise=Archive Shakuras - Raise
+Button/Name/ArchonAdvancedMergeSelection=Archon Merge
+Button/Name/ArtanisAstralWind=Astral Wind
+Button/Name/ArtanisAttackSpec=Attack Specialization
+Button/Name/ArtanisCasterSpec=Caster Specialization
+Button/Name/ArtanisChannel=Artanis Channel - On
+Button/Name/ArtanisChannelOff=Artanis Channel - Off
+Button/Name/ArtanisFeedback=Feedback
+Button/Name/ArtanisForceOfWill=Force Of Will
+Button/Name/ArtanisHeroicShield=Heroic Shield
+Button/Name/ArtanisInspire=Inspire
+Button/Name/ArtanisLightningDash=Lightning Dash
+Button/Name/ArtanisMaelstrom=Maelstrom
+Button/Name/ArtanisOvercharge=Overcharge
+Button/Name/ArtanisPremonition=Premonition
+Button/Name/ArtanisResurgence=Resurgence
+Button/Name/ArtanisTemporalField=Temporal Field
+Button/Name/AscendantPassive=Ascendant
+Button/Name/AscendantSacrifice=Sacrifice
+Button/Name/AttackChampions=Attack
+Button/Name/AutomatedAssimilator=Orbital Assimilator
+Button/Name/AvengerPassive=Avenger
+Button/Name/BeamCaster1=Beam Caster Beam 1
+Button/Name/BeamCaster10=Beam Caster Beam 10
+Button/Name/BeamCaster11=Beam Caster Beam 11
+Button/Name/BeamCaster2=Beam Caster Beam 2
+Button/Name/BeamCaster3=Beam Caster Beam 3
+Button/Name/BeamCaster4=Beam Caster Beam 4
+Button/Name/BeamCaster5=Beam Caster Beam 5
+Button/Name/BeamCaster6=Beam Caster Beam 6
+Button/Name/BeamCaster7=Beam Caster Beam 7
+Button/Name/BeamCaster8=Beam Caster Beam 8
+Button/Name/BeamCaster9=Beam Caster Beam 9
+Button/Name/BeastNestTriggerDummy=Beast Nest Trigger Dummy
+Button/Name/BlinkShieldRestoreUpgrade=Phase Reactor
+Button/Name/BloodHunterPassive=Blood Hunter
+Button/Name/CarrierAiur=Warp in Carrier
+Button/Name/CarrierBomberBomb=Carrier Bomber Bomb
+Button/Name/CarrierBomberRemove=Carrier Bomber Remove
+Button/Name/CarrierHyperjump=Warp Field
+Button/Name/CarrierInterceptorBombActive=Bombing Run
+Button/Name/CarrierPassive=Carrier
+Button/Name/CarrierRepairDroneHeal=Repair
+Button/Name/CarrierTaldarim=Warp in Mothership
+Button/Name/CelestialBeam=Celestial Beam
+Button/Name/ChangeFacing=Change Facing
+Button/Name/ChargeAncientXelNagaArtifact=Charge Ancient Xel'Naga Artifact
+Button/Name/ChargedCannon=Charged Cannon
+Button/Name/ChomperBeastEatMeat=Eat Meat
+Button/Name/CircleofDeathOff=Circle of Death (Off)
+Button/Name/CircleofDeathOn=Circle of Death (On)
+Button/Name/CloakOnFlagship=Cloak On Flagship
+Button/Name/ColossusAiur=Warp in Reaver
+Button/Name/ColossusPassive=Colossus
+Button/Name/ColossusPurifier=Warp in Colossus
+Button/Name/ColossusTaldarim=Warp in Wrathwalker
+Button/Name/ConsumeMoveToCaster=Consume Move To Caster
+Button/Name/CripplingPsionicStorm=Crippling Psionic Storm
+Button/Name/DarkArchonChampionMaelstrom=Maelstrom
+Button/Name/DarkArchonConfusion=Confusion
+Button/Name/DarkArchonMergeSelection=Shadow Archon Merge
+Button/Name/DarkArchonMindControl=Mind Control
+Button/Name/DarkArchonPassive=Dark Archon
+Button/Name/DarkConsumptionOff=Dark Consumption Off
+Button/Name/DarkConsumptionOn=Dark Consumption On
+Button/Name/DarkShrineAssignRally=Rally
+Button/Name/DarkTemplarAiur=Warp in Avenger
+Button/Name/DarkTemplarChampionBlink=Deep Shadow Blink
+Button/Name/DarkTemplarChampionDarkReinforcements=Dark Reinforcements
+Button/Name/DarkTemplarChampionDeepShadows=Deep Shadows
+Button/Name/DarkTemplarChampionDetectorRadar=Detector Radar
+Button/Name/DarkTemplarChampionPermanentlyCloaked=Veil of Shadows
+Button/Name/DarkTemplarChampionVoidPrison=Void Prison
+Button/Name/DarkTemplarCliffBlink=Cliff Blink
+Button/Name/DarkTemplarDeepShadows=Deep Shadows
+Button/Name/DarkTemplarNobleSacrifice=Noble Sacrifice
+Button/Name/DarkTemplarPassive=Dark Templar
+Button/Name/DarkTemplarPowerStrike=Power Strike
+Button/Name/DarkTemplarRecall=Emergency Recall
+Button/Name/DarkTemplarShakuras=Warp in Dark Templar
+Button/Name/DarkTemplarStunningBlow=Stunning Blow
+Button/Name/DarkTemplarTaldarim=Warp in Blood Hunter
+Button/Name/DeactivateShieldGenerator=Deactivate Shield Generator
+Button/Name/DetonateAncientXelNagaArtifact=Detonate Ancient Xel'Naga Artifact
+Button/Name/DisruptionCloud=Void Storm
+Button/Name/Dragoon=Warp In Dragoon
+Button/Name/DragoonCliffJump=Cliff Jumping
+Button/Name/DragoonPassive=Dragoon
+Button/Name/DuranMightySwing=Mighty Swing
+Button/Name/DuranVoidBreath=Void Breath
+Button/Name/DuranVoidGrip=Void Grip
+Button/Name/EMPNova=EMP Nova
+Button/Name/EnergyChannel=Energy Channel
+Button/Name/EnergyNovaAiur06=Energy Nova Aiur06
+Button/Name/EngineerHeroDismantle=Dismantle
+Button/Name/EngineerHeroTinker=Tinker
+Button/Name/EngineerHeroTinkering=Tinkering
+Button/Name/EnterWormhole=Enter Wormhole
+Button/Name/EntropicBlast=Entropic Blast
+Button/Name/FanPushOff=Fan Push (Off)
+Button/Name/FanPushOn=Fan Push (On)
+Button/Name/FenixBattleChargeStun=Battle Charge Stun
+Button/Name/FenixChampionAirGravitonPrison=Graviton Prison
+Button/Name/FenixChampionPowerShield=Power Shield
+Button/Name/FenixChargeStun=Thunderous Charge
+Button/Name/FenixCyberOperativeHack=Hack
+Button/Name/FenixCyberOperativeNuke=Fenix Cyber Operative Nuke
+Button/Name/FenixCyberOperativeOverclock=Fenix Cyber Operative Overclock
+Button/Name/FenixCyberOperativeWeapon=Fenix Cyber Operative Weapon
+Button/Name/FenixCyberOperativeWeaponOff=Fenix Cyber Operative Weapon Off
+Button/Name/FenixExecute=Execute
+Button/Name/FenixHardenedShield=Hardened Shield
+Button/Name/FenixMassMegaShield=Mass Mega Shield
+Button/Name/FenixPsionicAvatar=Psionic Avatar
+Button/Name/FenixRevive=Revive
+Button/Name/FenixSOACharge=Thunderous Charge
+Button/Name/FenixStormShield=Storm Shield
+Button/Name/FenixSunderAura=Sunder Aura
+Button/Name/FenixThorns=Thorns
+Button/Name/FenixWhirlwind=Whirlwind
+Button/Name/FlagshipTimeBomb=Time Bomb
+Button/Name/FlagshipWarpInPhoenix=Flagship Warp In Phoenix
+Button/Name/FlagshipWarpInScout=Flagship Warp In Scout
+Button/Name/FlameBeastFireball=Flame Beast Fireball
+Button/Name/FlyerBeastDive=Dive
+Button/Name/FlyerBeastFlyHigh=Fly high
+Button/Name/FlyerBeastFlyerling=Spawn Flyerling
+Button/Name/GravitonBeamUrun=Graviton Beam Urun
+Button/Name/GravitonBeamVoidCampaign=Graviton Beam
+Button/Name/HarbingerEnervatingBeam=Enervating Beam
+Button/Name/HaveBarrier=Improved Barrier
+Button/Name/HealingPsionicStorm=Plasma Surge
+Button/Name/HighArchon=Warp In High Archon
+Button/Name/HighArchonPsiStorm=Psionic Storm
+Button/Name/HighTemplarAiur=Warp in High Templar
+Button/Name/HighTemplarCripple=Cripple
+Button/Name/HighTemplarPassive=High Templar
+Button/Name/HighTemplarShakuras=Warp in Dark Archon
+Button/Name/HighTemplarTaldarim=Warp in Ascendant
+Button/Name/HybridConsumeZerg=Consume Zerg
+Button/Name/HybridDominatorPlasmaBlast=Plasma Blast
+Button/Name/HybridGeneralPhaseShift=Phase Shift
+Button/Name/HybridNemesisStream=Hybrid Nemesis Vile Stream
+Button/Name/HybridUrunMassRecall=Mass Recall
+Button/Name/HyperionVoidCoopHyperjump=Hyperjump
+Button/Name/HyperionVoidCoopYamatoCannon=Yamato Cannon
+Button/Name/ImmortalAiur=Warp in Immortal
+Button/Name/ImmortalBarrierBase=Barrier
+Button/Name/ImmortalPurifier=Warp in Resistor
+Button/Name/ImmortalShakuras=Warp in Annihilator
+Button/Name/ImmortalShakurasAntiAirMissiles=Anti Air Missiles
+Button/Name/ImmortalShakurasShadowCannon=Shadow Cannon
+Button/Name/ImmortalTaldarim=Warp in Vanguard
+Button/Name/ImmortalTaldarimScatterCannon=Scatter Cannon
+Button/Name/InstigatorPassive=Instigator
+Button/Name/JellyGrab=Jelly Grab
+Button/Name/KaiserWormBanelingMissile=Void Thrasher Baneling Missile
+Button/Name/KaiserWormScourgeMissile=Void Barrage
+Button/Name/KaraxCliffJump=Grasping Tentacles
+Button/Name/KaraxDisintegrationBeam=Disintegration Beam
+Button/Name/KaraxEmergencyShield=Emergency Shield
+Button/Name/KaraxMassRecall=Mass Recall
+Button/Name/KaraxMechanicalRepair=Mechanical Repair
+Button/Name/KaraxMicroBot=Servitor
+Button/Name/KaraxMicroBotShieldRecharge=Karax Micro Bot Shield Recharge
+Button/Name/KaraxOverload=Overload
+Button/Name/KaraxPylonCannonCharges=Pylon Cannon Charges
+Button/Name/KaraxPylonCannonGuardianShield=Pylon Cannon Guardian Shield
+Button/Name/KaraxRepairDrone=Shield Restore Drone
+Button/Name/KaraxRepairDroneRepair=Shield Restore
+Button/Name/KaraxShieldDamage=KaraxShieldDamage
+Button/Name/KaraxSpawnReplicants=KaraxSpawnReplicants
+Button/Name/KaraxStasisField=Quantum Force
+Button/Name/KaraxUrgency=Urgency
+Button/Name/KerriganEpilogue03CreepTeleport=Creep Teleport
+Button/Name/KerriganEpilogue03Extinction=Extinction
+Button/Name/KerriganEpilogue03Heal=Celestial Radiance
+Button/Name/KerriganEpilogue03LeapAttack=Heavenly Strike
+Button/Name/KerriganEpilogue03LineDashAttack=Astral Shift
+Button/Name/KerriganEpilogue03QuantumBlast=Quantum Blast
+Button/Name/KerriganEpilogue03QuantumRay=Quantum Ray
+Button/Name/KerriganEpilogue03StrikeAmon=KerriganEpilogue03StrikeAmon
+Button/Name/KerriganEpilogue03StrikeGround=Kerrigan Epilogue03 Strike Ground
+Button/Name/KerriganEpilogueDamageAura=Cosmic Fury
+Button/Name/KerriganNova=KerriganNova
+Button/Name/KerriganVoidApocalypse=Apocalypse
+Button/Name/KerriganVoidChainReaction=Chain Reaction
+Button/Name/KerriganVoidFury=Fury
+Button/Name/KerriganVoidKineticBlast=Kinetic Blast
+Button/Name/KerriganVoidSpawnBanelings=Spawn Banelings
+Button/Name/KhaydarinBeam=Khaydarin Beam
+Button/Name/KhaydarinMonolith=Warp In Khaydarin Monolith
+Button/Name/KhaydarinMonolithPassive=Khaydarin Monolith
+Button/Name/LaserBotLaserOff=Laser Bot Laser Off
+Button/Name/LaserBotLaserOn=Laser Bot Laser On
+Button/Name/LavaBall=Lava Ball
+Button/Name/LightningShooter=Lightning Shooter
+Button/Name/LightningShooterDummy=Lightning Shooter Dummy
+Button/Name/LightningStrike=Lightning Strike
+Button/Name/MatrixOverload=Matrix Overload
+Button/Name/MatrixOverloadEnergizer=Matrix Overload
+Button/Name/MegaArchonCombust=Combust
+Button/Name/MegaArchonConjure=Conjure
+Button/Name/MegaArchonConsume=Consume
+Button/Name/MegalithCutterBeam=Megalith Cutter Beam
+Button/Name/MegalithCutterDock=Megalith dock with Cybros Lock
+Button/Name/MissileShooterBurst1=Missile Shooter Burst1
+Button/Name/MissileShooterBurst2=Missile Shooter Burst2
+Button/Name/MissileShooterBurst3=Missile Shooter Burst3
+Button/Name/MissileShooterBurst4=Missile Shooter Burst4
+Button/Name/MissileShooterBurst5=Missile Shooter Burst5
+Button/Name/MissileShooterBurst6=Missile Shooter Burst6
+Button/Name/MissileShooterChannel1=MissileShooter Channel 1
+Button/Name/MissileShooterChannel2=MissileShooter Channel 2
+Button/Name/MissileShooterChannel3=MissileShooter Channel 3
+Button/Name/MissileShooterChannel4=MissileShooter Channel 4
+Button/Name/MissileShooterChannel5=MissileShooter Channel 5
+Button/Name/MissileShooterChannel6=MissileShooter Channel 6
+Button/Name/MissileShooterChannel7=MissileShooter Channel 7
+Button/Name/MissileShooterChannel8=MissileShooter Channel 8
+Button/Name/MissileTurretPassive=Missile Turret
+Button/Name/MohandarOmnislash=Shadow Fury
+Button/Name/MohandarShadowClone=Shadow Clone
+Button/Name/MohandarShadowClonePassive=Shadow Clone
+Button/Name/MohandarStickyBomb=Sticky Bomb
+Button/Name/Monitor=Warp in Havoc
+Button/Name/MonitorPassive=Havoc
+Button/Name/MorphBackToRoboticsFacility=Transform to Robotics Facility
+Button/Name/MorphBackToStargate=Transform to Stargate
+Button/Name/MorphToDuranKorhal=Finish Morph
+Button/Name/MorphToDuranMorphKorhal=Start Morph
+Button/Name/MorphtoFenixAir=Morph to Fenix (Air)
+Button/Name/MorphtoFenixGround=Morph to Fenix (Ground)
+Button/Name/MorphtoRubble=Morph to Rubble
+Button/Name/MothershipPassive=Mothership
+Button/Name/MothershipTaldarim=Mothership Taldarim
+Button/Name/MoveChampions=Move
+Button/Name/NarudEpilogueBlink=Narud Epilogue Blink
+Button/Name/NarudEpilogueBuild=Narud Epilogue Build
+Button/Name/NarudEpilogueMine=Narud Epilogue Void Mine
+Button/Name/NarudEpilogueShadowStep=Narud Epilogue Void Phase Step
+Button/Name/NarudEpilogueSpawnModeOff=Void Thrasher Spawn Mode Off
+Button/Name/NarudEpilogueSpawnModeOn=Void Thrasher Spawn Mode On
+Button/Name/NarudEpilogueStun=Narud Epilogue Void Prison
+Button/Name/NarudEpilogueSummonShadeofNarud=Summon Void Thrasher
+Button/Name/NarudEpilogueTrain=Narud Epilogue Train
+Button/Name/NarudEpilogueVoidMissile=Narud Epilogue Void Missile
+Button/Name/NydusBeastDeepTunnel=Deep Tunnel
+Button/Name/NydusBeastFireball=Fireball
+Button/Name/NydusBeastSpawnBaneling=Spawn Baneling
+Button/Name/NydusBeastSpawnHydralisk=Spawn Hydralisk
+Button/Name/NydusBeastSpawnRoach=Spawn Roach
+Button/Name/NydusBeastSpawnZergling=Spawn Zergling
+Button/Name/OracleTimeWarp=Time Warp
+Button/Name/Page2=Page 2
+Button/Name/PerditionTurretPassive=Perdition Turret
+Button/Name/PhaseCannon=Phase Cannon
+Button/Name/PhaseSmith=Phase-Smith
+Button/Name/PhaseSmithPurify=Purify
+Button/Name/PhoenixAiur=Warp in Phoenix
+Button/Name/PhoenixAiurGravitonBeam=Graviton Beam
+Button/Name/PhoenixAiurGravitonBeamPassive=Double Graviton Beam
+Button/Name/PhoenixBomber=Warp in Skytalon
+Button/Name/PhotonCannonLongRangeMode=Long Range Mode
+Button/Name/PhotonCannonPassive=Photon Cannon
+Button/Name/PhotonCannonStandardRangeMode=Standard Range Mode
+Button/Name/PhotonCannonTeleport=Teleport
+Button/Name/PitAlarakBlink=Pit Alarak Blink
+Button/Name/PitAlarakChargeUp=Pit Alarak Charge Up
+Button/Name/PitAlarakChargeUpCancel=Pit Alarak Charge Up Cancel
+Button/Name/PitAlarakFightDummyAbility=Pit Alarak Fight Dummy Ability
+Button/Name/PitAlarakKillMalash=Pit Alarak Kill Malash
+Button/Name/PitAlarakPsiShift=Pit Alarak Psi Shift
+Button/Name/PitAlarakSuperMove=Pit Alarak Super Move
+Button/Name/PitAlarakTerrazineTeleport=Pit Alarak Terrazine Teleport
+Button/Name/PitMalashChargeUp=Pit Malash Charge Up
+Button/Name/PitMalashChargeUpCancel=Pit Malash Charge Up Cancel
+Button/Name/PitMalashFightDummyAbility=Pit Malash Fight Dummy Ability
+Button/Name/PitMalashKillAlarak=Pit Malash Kill Alarak
+Button/Name/PitMalashPsiShift=Pit Malash Psi Shift
+Button/Name/PitMalashSuperMove=Pit Malash Super Move
+Button/Name/PitMalashUppercut=Pit Malash Uppercut
+Button/Name/PlaceWormhole=Place Wormhole
+Button/Name/PlanetCrackerOff=Planet Cracker (Off)
+Button/Name/ProdigalEngineer=Master Phase-smith
+Button/Name/PrologueVoidArmor=Void Armor
+Button/Name/ProtoTitanFighter1PH=Proto Titan Fighter1 
+Button/Name/ProtoTitanFighters=Proto Titan Fighters
+Button/Name/ProtoTitanFightersRecall=Proto Titan Fighters Recall
+Button/Name/ProtoTitanShieldRecharge=Shield Drone
+Button/Name/PsionicAmplifier=Psionic Amplifier
+Button/Name/PsionicSuperStorm=Psionic Super Storm
+Button/Name/QueenClassicParasite=Parasite
+Button/Name/Reaver=Reaver
+Button/Name/ReaverChampionScarabs=Create Scarab
+Button/Name/ReaverPassive=Reaver
+Button/Name/ReaverScarabs=Create Scarab
+Button/Name/Reclamation=Reclamation
+Button/Name/RepairDrones=Repair Drones
+Button/Name/RepairSupportDroneA=Repair Support Drone A
+Button/Name/RepairSupportDroneB=Repair Support Drone B
+Button/Name/ReplicantBanshee=Replicant Banshee
+Button/Name/ReplicantHellbats=Replicant Hellbats
+Button/Name/ReplicantReplicate=Replicate
+Button/Name/ReplicantSiegeTank=Replicant Siege Tank
+Button/Name/ReplicantWidowMines=Replicant Widow Mines
+Button/Name/RoboticsBayReaverTooltip=Reaver Tech Structure
+Button/Name/RuneShieldOff=Rune Shield Off
+Button/Name/RuneShieldOn=Rune Shield On
+Button/Name/SOAAlarak=Calldown Alarak
+Button/Name/SOAAutoAssimilator=Orbital Assimilator
+Button/Name/SOACheatDeath=Cheat Death
+Button/Name/SOAChronoBeam=Chrono Beam
+Button/Name/SOACloak=Unit Cloak
+Button/Name/SOAConstructionTime=Construction Time
+Button/Name/SOADisabled1=Fabrication Matrix Disabled
+Button/Name/SOADisabled2=Assault Cluster Disabled
+Button/Name/SOADisabled3=Defensive Cluster Disabled
+Button/Name/SOADisabled4=Annihilation Cluster Disabled
+Button/Name/SOADragoonRevive=Dragoon Revive
+Button/Name/SOAEmergencyRecall=Emergency Recall
+Button/Name/SOAEnergize=Energize
+Button/Name/SOAFenix=Deploy Fenix
+Button/Name/SOAFenixUpgraded=Deploy Talandar
+Button/Name/SOAGlobalChrono=Global Chrono
+Button/Name/SOAGlobalCloak=Global Cloak
+Button/Name/SOAGravitonBomb=Temporal Field
+Button/Name/SOAHarvestingBeam=Harvesting Beam
+Button/Name/SOAHeroicShield=Guardian Shell
+Button/Name/SOAImprovedChrono=Improved Chrono Boost
+Button/Name/SOAInspiration=Inspiration
+Button/Name/SOALaserAttack=Laser Attack
+Button/Name/SOAMatrixOverload=Matrix Overload
+Button/Name/SOAMothership=Purifier Mothership
+Button/Name/SOAMothershipBlink=Blink
+Button/Name/SOAMothershipBlinkStrike=Blink Strike
+Button/Name/SOAMothershipGravitonPulse=Graviton Pulse
+Button/Name/SOAMothershipLineAttack=Thermal Lance
+Button/Name/SOAOrbitalStrike=Orbital Strike
+Button/Name/SOAPhotonCannon=Photon Cannon
+Button/Name/SOAPlanetCrackerA=Planet Cracker A
+Button/Name/SOAPlanetCrackerB=Planet Cracker
+Button/Name/SOAProtoTitan=Proto Titan
+Button/Name/SOAProxyPylon=Deploy Pylon
+Button/Name/SOAPuriferMothershipBeamAttack=Beam Attack
+Button/Name/SOAPurification=Purification
+Button/Name/SOAPurifierBeam=Purifier Beam
+Button/Name/SOAPurifierMothership=SOA Purifier Mothership
+Button/Name/SOAPylonOvercharge=Pylon Overcharge
+Button/Name/SOAPylonPower=Project Power Field
+Button/Name/SOAQuatro=Quatro
+Button/Name/SOARadar=Nexus Overcharge
+Button/Name/SOARadarNexus=Nexus Overcharge
+Button/Name/SOARecall=Mass Recall
+Button/Name/SOARepairBeam=Reconstruction Beam
+Button/Name/SOAShieldBattery=Shield Battery
+Button/Name/SOAShieldRegen=Shield Regen
+Button/Name/SOAShieldRegeneration=Shield Regeneration
+Button/Name/SOAShieldRestore=Shield Restore
+Button/Name/SOAStarfall=Starfall
+Button/Name/SOAStrafeAttack=Solar Bombardment
+Button/Name/SOAStrafeAttackDummy=Solar Bombardment Create Targeter
+Button/Name/SOAStrafeAttackUnit=Solar Bombardment Target
+Button/Name/SOASuperChrono=Chrono Surge
+Button/Name/SOASuperPowerField=Matrix Overload
+Button/Name/SOASuperShield=Shield Overcharge
+Button/Name/SOAThermalLance=Solar Lance
+Button/Name/SOATimeFreeze=Time Stop
+Button/Name/SOATimeWarp=Time Warp
+Button/Name/SOAVortex=Vortex
+Button/Name/SOAVortexStorm=Vortex Storm
+Button/Name/SOAWarpGateCharges=Warp Charges
+Button/Name/SOAWarpInReinforcements=Warp In Reinforcements
+Button/Name/SOAWarpTech=Warp Harmonization
+Button/Name/ScoutSpeedBoost=Afterburner
+Button/Name/ScoutStats=Destruction Beam
+Button/Name/SentryAiur=Warp in Sentry
+Button/Name/SentryEnsnare=Ensnare
+Button/Name/SentryMineVoidAttack=Sentry Mine Void Attack
+Button/Name/SentryMiniTimeWarp=Mini Time Warp
+Button/Name/SentryPassive=Sentry
+Button/Name/SentryPurifier=Warp in Energizer
+Button/Name/SentryTaldarimForceField=Force Field
+Button/Name/Servitors=Servitors
+Button/Name/Shadow01YamatoBlast=Shadow01 Yamato Blast
+Button/Name/ShadowArchonControl=Mind Control
+Button/Name/ShadowBlade=Shadow Blade
+Button/Name/ShieldBattery=Warp in Shield Battery
+Button/Name/ShieldBatteryRecharge=Restore
+Button/Name/ShrineGuardianAntiGrav=Shrine Guardian Anti Grav
+Button/Name/ShrineGuardianDeath=Shrine Guardian Death
+Button/Name/Slam=Slam
+Button/Name/SoulAbsorption=Soul Absorption
+Button/Name/SpawnHybridHydralisk=Spawn Hybrid Hydralisk
+Button/Name/SpawnHybridMutalisk=Spawn Hybrid Mutalisk
+Button/Name/SpawnHybridRoach=Spawn Hybrid Roach
+Button/Name/SpawnHybridUltralisk=Spawn Hybrid Ultralisk
+Button/Name/SpawnHybridZergling=Spawn Hybrid Zergling
+Button/Name/SpawnShadowBanshee=Spawn Shadow Banshee
+Button/Name/SpawnShadowBattlecruiser=Spawn Shadow Battlecruiser
+Button/Name/SpawnShadowColossus=Spawn Shadow Colossus
+Button/Name/SpawnShadowGhost=Spawn Shadow Ghost
+Button/Name/SpawnShadowHydralisk=Spawn Shadow Hydralisk
+Button/Name/SpawnShadowMarine=Spawn Shadow Marine
+Button/Name/SpawnShadowMutalisk=Spawn Shadow Mutalisk
+Button/Name/SpawnShadowOverseer=Spawn Shadow Overseer
+Button/Name/SpawnShadowStalker=Spawn Shadow Stalker
+Button/Name/SpawnShadowUltralisk=Spawn Shadow Ultralisk
+Button/Name/SpawnShadowVoidRay=Spawn Shadow Void Ray
+Button/Name/SpawnShadowZealot=Spawn Shadow Zealot
+Button/Name/SpawnShadowZergling=Spawn Shadow Zergling
+Button/Name/SpearofAdunAOEBlast=Spear of Adun AOE Blast
+Button/Name/SpearofAdunLineAOE=Spear of Adun Line AOE
+Button/Name/SpearofAdunSingleTarget=Spear of Adun Single Target
+Button/Name/SplitterBeastSplinter=Splinter
+Button/Name/SquadSight=Squad Sight
+Button/Name/StalkerAiur=Warp in Dragoon
+Button/Name/StalkerBlinkMultiple=Blink
+Button/Name/StalkerBlinkShieldRestoreBase=Blink
+Button/Name/StalkerPassive=Stalker
+Button/Name/StalkerPurifier=Warp in Instigator
+Button/Name/StalkerShakuras=Warp in Stalker
+Button/Name/StarShipAdun_DoorDefaultLower=Star Ship Adun Door Default Lower
+Button/Name/StarShipAdun_DoorDefaultRaise=Star Ship Adun Door Default Raise
+Button/Name/StarShipAdun_DoorSmallDefaultLower=Star Ship Adun Door Small Default Lower
+Button/Name/StarShipAdun_DoorSmallDefaultRaise=Star Ship Adun Door Small Default Raise
+Button/Name/StasisCocoon=Stasis Cocoon
+Button/Name/StormBeastLightningStorm=Storm Beast Lightning Storm
+Button/Name/StranglerBeastStrangle=Strangle
+Button/Name/StranglerTentacleStrangle=Strangler Tentacle Strangle
+Button/Name/StukovBossBlast=Boss Blast
+Button/Name/SummonAcolytes=Summon Acolytes
+Button/Name/SuperiorWarpGates=Superior Warp Gates
+Button/Name/TargetLock=Target Lock
+Button/Name/TempestPassive=Tempest
+Button/Name/TempleDoorDefaultLower=Temple Door Lower
+Button/Name/TempleDoorDefaultRaise=Temple Door Raise
+Button/Name/TerrazineCloudEnhance=Terrazine Cloud Enhance
+Button/Name/TransformtoStationTransformerOff=Transform to Station Transformer Off
+Button/Name/TransformtoStationTransformerOn=Transform to Station Transformer On
+Button/Name/Ulnar01MechanismDown=Ulnar01 Mechanism Down
+Button/Name/Ulnar01MechanismUp=Ulnar01 Mechanism Up
+Button/Name/UltrasonicPulseEnhanced=Ultrasonic Pulse Enhanced
+Button/Name/UmbraSpireRebirth=Void Chasm Rebirth
+Button/Name/UmbraSpireSpawnShadowOfTheVoid=Spawn Shadow of the Void
+Button/Name/UpgradeToRoboticsFacilityWarp=Transform to Warp Robotics Facility
+Button/Name/UpgradeToStargateWarp=Transform to Warp Stargate
+Button/Name/UrunsFury=Urun's Fury
+Button/Name/VindictusBlink=Chrono Shift
+Button/Name/VindictusVoidMine=Void Mine
+Button/Name/VoidArchonFastArchon=Archon Fast Archon
+Button/Name/VoidArchonFinalAct=Archon Final Act
+Button/Name/VoidArchonShieldRegen=Archon Shield Regen
+Button/Name/VoidArchonShockAttack=Archon Shock Attack
+Button/Name/VoidCarrierBombingRun=Carrier Bombing Run
+Button/Name/VoidCarrierDeploySpeed=Carrier Deploy Speed
+Button/Name/VoidCarrierInterceptorAOE=Interceptor AOE
+Button/Name/VoidCarrierInterceptorCount=Carrier Interceptor Count
+Button/Name/VoidCarrierInterceptorDeployRange=Carrier Interceptor Deploy Range
+Button/Name/VoidCarrierPurifier=Void Carrier Purifier
+Button/Name/VoidCarrierShakuras=Void Carrier Shakuras
+Button/Name/VoidCarrierShields=Carrier Shields
+Button/Name/VoidCarrierTaldarim=Warp in Mothership
+Button/Name/VoidColossusAiur=Void Colossus Aiur
+Button/Name/VoidColossusBeamScanWidth=Colossus Beam Scan Width
+Button/Name/VoidColossusChargedBlast=Charged Blast
+Button/Name/VoidColossusDamage=Colossus Damage
+Button/Name/VoidColossusFireBeam=Fire Beam
+Button/Name/VoidColossusPhasedLegs=Colossus Phased Legs
+Button/Name/VoidColossusPurifier=Void Colossus Purifier
+Button/Name/VoidColossusRange=Colossus Range
+Button/Name/VoidColossusSlow=Void Colossus Slow
+Button/Name/VoidColossusTaldarim=Void Colossus Tal'Darim
+Button/Name/VoidCorruption=Void Corruption
+Button/Name/VoidCorruptionMissile=Void Corruption Missile
+Button/Name/VoidDarkArchonDarkAmulet=Dark Archon Dark Amulet
+Button/Name/VoidDarkArchonImprovedMaelstrom=Dark Archon Improved Maelstrom
+Button/Name/VoidDarkArchonPermanentCloak=Dark Archon Permanent Cloak
+Button/Name/VoidDarkTemplarDarkArchon=Dark Templar Shadow Archon
+Button/Name/VoidDarkTemplarDeepShadowBlink=Deep Shadow Blink
+Button/Name/VoidDarkTemplarMovementSpeed=Dark Templar Movement Speed
+Button/Name/VoidDarkTemplarPowerStrike=Dark Templar Power Strike
+Button/Name/VoidDarkTemplarShadowFury=Shadow Fury
+Button/Name/VoidDarkTemplarShadowSlip=Dark Templar Shadow Slip
+Button/Name/VoidDarkTemplarShieldSteal=Dark Templar Shield Steal
+Button/Name/VoidDarkTemplarStun=Dark Templar Stun
+Button/Name/VoidEmpowermentOff=Void Empowerment Off
+Button/Name/VoidEmpowermentOn=Void Empowerment On
+Button/Name/VoidHighTemplarAiur=Void High Templar Aiur
+Button/Name/VoidHighTemplarArchonAdvanced=High Archon
+Button/Name/VoidHighTemplarCastRange=High Templar Cast Range
+Button/Name/VoidHighTemplarCloak=Cloak
+Button/Name/VoidHighTemplarEnergyRegen=High Templar Energy Regen
+Button/Name/VoidHighTemplarMergeTime=High Templar Merge Time
+Button/Name/VoidHighTemplarMindBlast=Mind Blast
+Button/Name/VoidHighTemplarPsiOrb=Psionic Orb
+Button/Name/VoidHighTemplarPsiStormCripple=Psi Storm Cripple
+Button/Name/VoidHighTemplarPsiStormFilter=Psi Storm Filter
+Button/Name/VoidHighTemplarShakuras=Void High Templar Shakuras
+Button/Name/VoidHighTemplarTaldarim=Void High Templar Taldarim
+Button/Name/VoidHighTemplarTerazine=Terazine
+Button/Name/VoidHighTemplarTwilightMessiah=High Templar Twilight Messiah
+Button/Name/VoidHighTemplarWeapon=High Templar Weapon
+Button/Name/VoidImmortalDisruptorOrb=Disruptor Orb
+Button/Name/VoidImmortalPurifierCannon=Purifier Cannon
+Button/Name/VoidImmortalRange=Immortal Range
+Button/Name/VoidImmortalRevive=Revive
+Button/Name/VoidImmortalShield=Immortal Shield
+Button/Name/VoidImmortalShieldRestore=Overload
+Button/Name/VoidImmortalStasisHeal=Immortal Stasis Heal
+Button/Name/VoidImmortalStrafeCannons=Void Immortal Strafe Cannons
+Button/Name/VoidImmortalSuperCannons=Immortal Super Cannons
+Button/Name/VoidImmortalWeaponSplash=Immortal Weapon Splash
+Button/Name/VoidOracleFutureSelf=Future Self
+Button/Name/VoidPhoenixAiur=Void Phoenix Aiur
+Button/Name/VoidPhoenixDeathBlossom=Void Phoenix Death Blossom
+Button/Name/VoidPhoenixDisruptionWeb=Void Phoenix Disruption Web
+Button/Name/VoidPhoenixDoubleGraviton=Void Phoenix Double Graviton
+Button/Name/VoidPhoenixGravitonCooldown=Void Phoenix Graviton Cooldown
+Button/Name/VoidPhoenixGravitonDamage=Void Phoenix Graviton Damage
+Button/Name/VoidPhoenixPhasingArmor=Phasing Armor
+Button/Name/VoidPhoenixPurifier=Warp in Mirage
+Button/Name/VoidPhoenixRangeUpgrade=Void Phoenix Range Upgrade
+Button/Name/VoidPhoenixScoutMissiles=Void Phoenix Scout Missiles
+Button/Name/VoidPhoenixTaldarim=VoidPhoenixTaldarim
+Button/Name/VoidPylon=Warp in Void Pylon
+Button/Name/VoidRayAiur=Warp in Arbiter
+Button/Name/VoidRayPrismaticAlignmentBase=Prismatic Alignment
+Button/Name/VoidRayShakuras=Warp in Void Ray
+Button/Name/VoidRayTaldarim=Warp in Destroyer
+Button/Name/VoidRayVoidDamageBoost=Prismatic Alignment
+Button/Name/VoidRayVoidPrismaticRange=Prismatic Range
+Button/Name/VoidReaverScarabDamage=Increased Scarab Damage
+Button/Name/VoidReaverSplashSize=Increased Scarab Splash Size
+Button/Name/VoidRift=Summon Void Rift
+Button/Name/VoidRiftUnselectable=Build Void Rift
+Button/Name/VoidSentryAiur=Void Sentry Aiur
+Button/Name/VoidSentryBlackHole=Black Hole
+Button/Name/VoidSentryChronoBeam=Chrono Beam
+Button/Name/VoidSentryCombatChrono=Combat Chrono
+Button/Name/VoidSentryCombatChronoAura=Combat Chrono Aura
+Button/Name/VoidSentryForcePush=Force Push
+Button/Name/VoidSentryHallucination=Hallucination
+Button/Name/VoidSentryMobileMode=Mobile Mode
+Button/Name/VoidSentryPhasingMode=Phasing Mode
+Button/Name/VoidSentryPurifier=Void Sentry Purifier
+Button/Name/VoidSentryPurifierPassive=Energizer
+Button/Name/VoidSentryShakuras=Warp in Manipulator
+Button/Name/VoidSentryShieldRepair=Shield Recharge
+Button/Name/VoidSentryShieldRepairDouble=Double Shield Recharge
+Button/Name/VoidSentryUpgradedDisruptionBeam=Upgraded Disruption Beam
+Button/Name/VoidShieldCapacitor=Shield Capacitor
+Button/Name/VoidStalkerAssaultBlink=Stalker Assault Blink
+Button/Name/VoidStalkerBlinkCloak=Stalker Blink Cloak
+Button/Name/VoidStalkerBlinkHallucination=Blink Hallucination
+Button/Name/VoidStalkerBlinkShieldRestore=Blink Shield Restore
+Button/Name/VoidStalkerDragoonArmor=Dragoon Chassis
+Button/Name/VoidStalkerDragoonWeapon=Phase Disruptor
+Button/Name/VoidStalkerMultishot=Stalker Multishot
+Button/Name/VoidStalkerRange=Stalker Range
+Button/Name/VoidStalkerShieldRegen=Stalker Shield Regen
+Button/Name/VoidStasis=Void Stasis
+Button/Name/VoidTempestRange=Tempest Range
+Button/Name/VoidTempestStructureDamage=Tempest Structure Damage
+Button/Name/VoidTempestVision=Tempest Vision
+Button/Name/VoidTendrilDeathGrip=Void Shard Death Grip
+Button/Name/VoidTendrilDeathGripAutoCast=Void Shard Death Grip Auto Cast
+Button/Name/VoidTendrilShockwave=Shockwave
+Button/Name/VoidTendrilUnstableEnergy=Void Shard Unstable Energy
+Button/Name/VoidTendrilVoidZone=Void Shard Void Zone
+Button/Name/VoidThrasherLightningAoE=Lightning AoE
+Button/Name/VoidThrasherLightningAoEExtra=Lightning AoE Extra
+Button/Name/VoidThrasherThrasherWave=Thrasher Wave
+Button/Name/VoidVoidRayAiur=Void Void Ray Aiur
+Button/Name/VoidVoidRayBeamBounce=Destruction Beam
+Button/Name/VoidVoidRayChargeBeam=Charge Beam
+Button/Name/VoidVoidRayChargeSpeed=Void Ray Charge Speed
+Button/Name/VoidVoidRayMoveSpeed=Void Ray Move Speed
+Button/Name/VoidVoidRayOverload=Overload
+Button/Name/VoidVoidRayPrismaticAlignmentCloak=Void Ray Prismatic Alignment Cloak
+Button/Name/VoidVoidRayPrismaticAlignmentDamage=Void Ray Prismatic Alignment Damage
+Button/Name/VoidVoidRayShakuras=Void Void Ray Aiur
+Button/Name/VoidVoidRayTaldarim=Void Void Ray Taldarim
+Button/Name/VoidZealotChargeImmunity=Zealot Charge Immunity
+Button/Name/VoidZealotCleave=Cleave
+Button/Name/VoidZealotHealth=Zealot Health
+Button/Name/VoidZealotKillFrenzy=Zealot Kill Frenzy
+Button/Name/VoidZealotShadowCharge=Shadow Charge
+Button/Name/VoidZealotShadowChargeStun=Darkcoil
+Button/Name/VoidZealotShieldRestore=Shield Capacitor
+Button/Name/VoidZealotSuperShield=Super Shield
+Button/Name/VoidZealotTerazineFury=Terazine Fury
+Button/Name/VoidZealotWhirlwind=Whirlwind
+Button/Name/VorazunBlink=Shadow Dash
+Button/Name/VulcanChampionScraper=Scraper
+Button/Name/VulcanChampionShieldRestore=Shield Restore
+Button/Name/VulcanChampionWarpInPylonCannon=Warp In Pylon Cannon
+Button/Name/WarpGateWarpAway=Warping Away
+Button/Name/WarpInActiveArtanisChampion=Artanis
+Button/Name/WarpInActiveDarkArchonChampion=Alarak
+Button/Name/WarpInActiveDarkTemplarChampion=Vorazun
+Button/Name/WarpInActiveFenixChampion=Fenix
+Button/Name/WarpInActiveFenixChampionAir=Fenix (Air)
+Button/Name/WarpInActiveReaverChampion=Reaver Champion
+Button/Name/WarpInActiveVulcanChampion=Karax
+Button/Name/WarpInActiveZeratulChampion=Warp In Zeratul
+Button/Name/WarpInArtanisChampion=Warp In Artanis
+Button/Name/WarpInCloudburstTower=Warp In Cloudburst Tower
+Button/Name/WarpInDarkArchonChampion=Warp In Alarak
+Button/Name/WarpInDarkTemplarChampion=Warp In Vorazun
+Button/Name/WarpInEnergyArcTower=Warp In Energy Arc Tower
+Button/Name/WarpInEngineFluidTower=Warp In Engine Fluid Tower
+Button/Name/WarpInFenixChampion=Warp In Fenix
+Button/Name/WarpInFenixChampionAir=Warp In Fenix (Air)
+Button/Name/WarpInMegaArchon=Warp In Mega Archon
+Button/Name/WarpInOverchargeTower=Warp In Overcharge Tower
+Button/Name/WarpInPhotonTower=Warp In Photon Tower
+Button/Name/WarpInReaver=Warp In Reaver
+Button/Name/WarpInReaverChampion=Warp In Reaver Champion
+Button/Name/WarpInReplicant=Warp in Replicant
+Button/Name/WarpInRoboticsWarpFacility=Warp In Warp Robotics Facility
+Button/Name/WarpInStarWarpGate=Warp In Warp Stargate
+Button/Name/WarpInUnits=Warp In Units
+Button/Name/WarpInVulcanChampion=Warp In Karax
+Button/Name/WarpInWarpGate=Warp In Warp Gate
+Button/Name/WarpInZeratulChampion=Warp In Zeratul
+Button/Name/WarpinDisruptionWard=WarpinDisruptionWard
+Button/Name/WarpinEnergizer=Warp in Energizer
+Button/Name/WarpinPurifierUnits=Warp in Purifier Units
+Button/Name/WarpinSoACaster=Warp in SoA Caster
+Button/Name/WrathwalkerPassive=Wrathwalker
+Button/Name/XelNagaChargedCrystalMorph=Xel Naga Charged Crystal Morph
+Button/Name/XelNagaConstructRegenerateOff=Xel Naga Construct Regenerate Off
+Button/Name/XelNagaConstructRegenerateOn=Xel Naga Construct Regenerate On
+Button/Name/XelNagaConstructSmash=XelNaga Construct Smash
+Button/Name/XelNagaConstructWhirlwindOff=Xel Naga Construct Whirlwind Off
+Button/Name/XelNagaConstructWhirlwindOn=Xel Naga Construct Whirlwind On
+Button/Name/XelNagaShadowStep=Xel'Naga Shadow Step
+Button/Name/YamatoBlastAmbient=Yamato Blast Ambient
+Button/Name/ZagaraVoidCoopAttackUpgrade=Medusa Blades
+Button/Name/ZagaraVoidCoopBanelingBarrage=Baneling Barrage
+Button/Name/ZagaraVoidCoopBanelingSpawner=Birthing Chamber
+Button/Name/ZagaraVoidCoopCollectEssence=Collect Essence
+Button/Name/ZagaraVoidCoopCreepBonuses=Malignant Creep
+Button/Name/ZagaraVoidCoopCreepMaster=Build Creep Tumor
+Button/Name/ZagaraVoidCoopDeepTunnel=Deep Tunnel
+Button/Name/ZagaraVoidCoopDevouringMaw=Devouring Maw [WIP]
+Button/Name/ZagaraVoidCoopGasBonuses=Vespene Efficiency
+Button/Name/ZagaraVoidCoopInfestedPods=Infested Pods
+Button/Name/ZagaraVoidCoopNydusWorm=Summon Greater Nydus Worm
+Button/Name/ZagaraVoidCoopRelentlessSwarmer=Relentless Swarmer
+Button/Name/ZagaraVoidCoopSpawnBroodlings=Spawn Broodlings
+Button/Name/ZagaraVoidCoopSpawnHunterKillers=Spawn Hunter Killers
+Button/Name/ZagaraVoidCoopSpawnMutalisk=Spawn Mutalisks
+Button/Name/ZagaraVoidCoopTransfusionWave=Transfusion Wave
+Button/Name/ZealotAiur=Warp in Zealot
+Button/Name/ZealotPurifier=Warp in Sentinel
+Button/Name/ZealotPurifierRevive=Reconstruction
+Button/Name/ZealotShakuras=Warp in Centurion
+Button/Name/ZeratulBlinkAiur01=Blink Strike
+Button/Name/ZeratulVoidAiur01Magazine=Zeratul Void Aiur01 Magazine
+Button/Name/ZeratulVoidPrisonAiur01=Void Sanctuary
+Button/Tooltip/ActivateShieldGenerator=Enables the shield generator, providing shielding to all nearby allies.
+Button/Tooltip/Adept=Purifier Faction<n/>Ranged specialist. Can use Psionic Transfer.<n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c>
+Button/Tooltip/AdeptPassive=Cybernetics Core allows you to warp in Adepts.
+Button/Tooltip/AdeptPhaseShift=Projects an invulnerable Shade that can move but cannot attack. Enemies that touch the shade take <d ref="Effect,AdeptPsionicTransferDamage,Amount"/> extra damage from all sources for <d ref="Behavior,AdeptPsionicTransferDamageDebuff,Duration"/> seconds.<n/><n/>The Adept teleports to the Shade's location <d ref="Behavior,AdeptPhaseShiftTimer,Duration"/> seconds after activation.<n/><n/>Can be canceled after activation.
+Button/Tooltip/Aiur01MechanismDisabler=Zerg infestation that disables Protoss technology.
+Button/Tooltip/Aiur03MechanismDisabler=Zerg infestation that disables Protoss technology.
+Button/Tooltip/AiurCityWarpGateAbandoned=Provides access to Aiur's warp network.
+Button/Tooltip/AiurProtector=Surgical strike craft.<n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c>
+Button/Tooltip/AiurProtectorDamageBoost=Realigns the Protector's Prismatic Beam to gain +<d ref="Behavior,AiurProtectorDamageBoost,Modification[0].DamageDealtAttributeScaled[Armored]"/> damage vs. Armored units.
+Button/Tooltip/AiurProtectorDamageBoostOff=Turns off Prismatic Alignment.
+Button/Tooltip/Aiur_City_WarpGate_Abandoned=Provides access to Aiur's warp network.
+Button/Tooltip/AlarakAvatar=Alarak goes into a terrazine induced frenzy, empowering all of his spells for the duration. Gain additional charges for his abilities. Lasts <d time="60"/>.
+Button/Tooltip/AlarakChampion=Highlord of the Tal'darim. Powerful Psionic Warrior.
+Button/Tooltip/AlarakDeadlyCharge=Alarak intercepts target enemy unit and strikes it for <d ref="Effect,AlarakDeadlyChargeDamage,Amount"/> damage.
+Button/Tooltip/AlarakKnockback=Unleashes a massive wave of force in a straight line, dealing <d ref="Effect,DestructionWaveDamage,Amount"/> damage (+<d ref="Effect,DestructionWaveDamageAir,Amount"/> vs Air) to enemies in its path and knocking them back.<n/><n/><c val="#ColorAttackInfo">Massive units are knocked back a shorter distance.</c>
+Button/Tooltip/AlarakSingularity=Deals <d ref="Effect,AlarakSingularityDamage,Amount"/> damage to a target and pulls any nearby enemy units within <d ref="Effect,AlarakSingularitySearch,AreaArray[0].Radius"/> radius to the target.
+Button/Tooltip/Alpha02DefenseCannon=Drakken Defense Cannon designed to destroy enemy forces as they enter orbit.
+Button/Tooltip/AmonCrystalDarkInertia=Lowers the movement and attack speed of nearby enemy units by 20% and deals damage over time.
+Button/Tooltip/AmonCrystalEpilogue03=Emits a barrier that protects Amon. Vulnerable only when it rises to the surface to recharge.
+Button/Tooltip/AmonShardA=A construct of the Void. Fires a powerful beam at a single target.
+Button/Tooltip/AmonShardB=A construct of the Void. Bombards targets with multiple attacks.
+Button/Tooltip/AmonShardC=A construct of the Void. Launches an attack that deals damage in an area around the impact zone.
+Button/Tooltip/AmonTentacleA=A construct of the Void. Fires a powerful beam at a single target.
+Button/Tooltip/AmonTentacleB=A construct of the Void. Bombards targets with multiple attacks.
+Button/Tooltip/AmonTentacleC=A construct of the Void. Launches an attack that deals damage in an area around the impact zone.
+Button/Tooltip/AmonUmbraSpireEpilogue03=Continually births unending waves of Amon's minions from the ether of the Void.
+Button/Tooltip/Arbiter=Aiur Faction<n/>Army support craft. Has Stasis Field, Recall and Cloak Field abilities.<n/><n/><c val="ffff8a">Can attack ground and air units.</c>
+Button/Tooltip/ArbiterCloakField=Cloaks friendly units near the Arbiter.
+Button/Tooltip/ArbiterMPStasisField=Places enemy units in target area into stasis for <d ref="Behavior,ArbiterMPStasisField,Duration"/> seconds. Units in stasis cannot move, attack, be attacked or be affected by abilities.
+Button/Tooltip/ArcNode=A construct of the Void. Drains life from nearby sources to feed Amon's Host Body.
+Button/Tooltip/ArchiveShakuras=Stores energy reserves for the city of Talematros.
+Button/Tooltip/ArchiveShakurasSealed=Stores energy reserves for the city of Talematros.
+Button/Tooltip/ArtanisAstralWind=Heals Artanis and all nearby friendly units for <d ref="Effect,ArtanisAstralWindSelf,VitalArray[0].Change"/> life and <d ref="Effect,ArtanisAstralWindSelf,VitalArray[1].Change"/> shields.
+Button/Tooltip/ArtanisChannel=
+Button/Tooltip/ArtanisChannelOff=
+Button/Tooltip/ArtanisFeedback=Drains all energy from the target. Deals 1 damage per point of energy.
+Button/Tooltip/ArtanisForceOfWill=Shield regeneration increased by 300%. Regenerates 1 Life per second.
+Button/Tooltip/ArtanisHeroicShieldHeal=Heroic Shield also restores 25 Shields to the shielded unit
+Button/Tooltip/ArtanisLightningDash=Artanis charges forward, unleashing a blast of energy that deals 100 damage to nearby enemies and stuns them for 2 seconds.
+Button/Tooltip/ArtanisMaelstrom=Creates a focused blast of psionic energy that stuns all enemies in the target area for 3 seconds.
+Button/Tooltip/ArtanisPremonition=Glimpses into the future give Artanis a 25% chance to evade damage from an attack. When this triggers Artanis will take no damage and gain 25 energy.
+Button/Tooltip/ArtanisResurgence=Grants Artanis invulnerability for <d ref="Behavior,ArtanisResurgenceInvulnerable,Duration"/> seconds upon taking lethal damage, preventing death and replenishing his Shields and Life.<n/><n/>Also releases a large blast of energy that knocks back and deals <d ref="Effect,ArtanisResurgenceEnemyImpactDamage,Amount"/> damage to all nearby enemies.<n/><n/>This effect cannot occur more than once every <d ref="Behavior,ArtanisResurgenceDisable,Duration"/> seconds.
+Button/Tooltip/ArtanisVoid=Hierarch of the Daelaam. Powerful psionic and melee warrior.
+Button/Tooltip/ArtanisVoidAiur01=Powerful melee warrior. Can use psionic abilities.<n/><n/><c val="ffff8a">Can attack ground units.</c>
+Button/Tooltip/ArtanisVoidUlnar=Hierarch of the Daelaam. Powerful psionic melee warrior.
+Button/Tooltip/ArtifactAiur06=A Xel'Naga artifact of mysterious origin and incredible power. The last hope for defeating Amon.
+Button/Tooltip/ArtifactChamber=A Moebius Corps device built to contain the Keystone.
+Button/Tooltip/ArtifactUlnarA=Unlocks the doors within Ulnar.
+Button/Tooltip/ArtifactUlnarB=Unlocks the doors within Ulnar.
+Button/Tooltip/ArtifactUlnarC=
+Button/Tooltip/ArtifactUlnarPedestalBlue=
+Button/Tooltip/AscendantPassive=Templar Archives allows you to warp in Ascendants.
+Button/Tooltip/AscendantSacrifice=Reduces target friendly unit to <d ref="Effect,AscendantSacrificeDamage,Amount"/> life (shields are not affected).<n/><n/>Grants the Ascendant <d ref="Effect,AscendantSacrificeDamage25,LeechFraction[Energy]"/> energy for each life point reduced, up to its maximum energy.<n/><n/><c val="#ColorAttackInfo">Can only target friendly units.</c>
+Button/Tooltip/AttackChampions=Orders selected units to move to the target point, fighting nearby enemies along the way. Targeting a unit with the Attack command orders that it be attacked until it is destroyed.
+Button/Tooltip/AutomatedAssimilator=Warped in over a Vespene Geyser to allow harvesting of vespene gas.
+Button/Tooltip/AutomatedAssimilatorTextKicker4=<s val="Kicker_Refinery">+4</s><IMG path="Assets\Textures\icon-gas-protoss.dds" height="28" width="28"/>
+Button/Tooltip/AutomatedAssimilatorTextKicker5=<s val="Kicker_Refinery">+5</s><IMG path="Assets\Textures\icon-gas-protoss.dds" height="28" width="28"/>
+Button/Tooltip/AvengerPassive=Dark Shrine allows you to warp in Avengers.
+Button/Tooltip/BanelingNest=<c val="ffff8a">Enables:</c><n/>- Banelings from Zerglings
+Button/Tooltip/BloodHunterPassive=Dark Shrine allows you to warp in Blood Hunters.
+Button/Tooltip/Bloodletter=Powerful melee warrior.<n/><n/><c val="ffff8a">Can attack ground units.</c>
+Button/Tooltip/Carrier=Capital ship. Builds and launches Interceptors that attack enemy targets.<n/><n/><c val="ffff8a">Can attack ground and air units.</c>
+Button/Tooltip/CarrierAiur=Aiur Faction<n/>Capital ship. Builds and launches Interceptors that attack enemy targets. Repair Drones heal nearby mechanical units.<n/><n/><c val="ffff8a">Can attack ground and air units.</c>
+Button/Tooltip/CarrierHyperjump=Warp to any visible location.
+Button/Tooltip/CarrierInterceptorBombActive=Interceptors will bombard the ground with area damaging attacks for <d time="10"/>.
+Button/Tooltip/CarrierPassive=Fleet Beacon enables you to warp in Carriers.
+Button/Tooltip/CarrierPurifier=Purifier Faction<n/>Capital ship. Can build and launch Interceptors to make attacks. Can use Warp Field to teleport to any visible map location.<n/><n/><c val="ffff8a">Can attack ground and air units.</c>
+Button/Tooltip/CarrierRepairDrone=Flying spy. Cloak renders the unit invisible to enemies without detection.<n/><n/><c val="FFE303">Detector</c>
+Button/Tooltip/CarrierRepairDroneHeal=Heals a friendly mechanical unit.<n/><n/><c val="f078ff">Heals 2 life per second.</c>
+Button/Tooltip/CarrierTaldarim=Tal'darim Faction<n/>Ultimate Protoss vessel. Can use Black Hole, Blink, and Thermal Lance.<n/><n/><c val="ffff8a">Can attack ground and air units.</c>
+Button/Tooltip/CelestialBeam=Kerrigan deals <d ref="Effect,CelestialBeamWeaponDamage,Amount/Effect,CelestialBeamWeaponFinalPersistant,PeriodicPeriodArray[0]"/> damage per second to target unit from an unlimited range. Pauses the transfer of power to Kerrigan while in use.
+Button/Tooltip/CelestialLock=Sophisticated mechanism that controls access to the Temple of Unification.
+Button/Tooltip/CelestialLockDisabler=Zerg infestation that disables Protoss technology.
+Button/Tooltip/Charge=Intercepts enemy ground units and increases movement speed.
+Button/Tooltip/ChargedBlast=Overcharge internal systems, gaining <d ref="Behavior,ChargedBlastSpeedBoost,Modification.MoveSpeedBonus * 100 - 100" precision="2"/>% increased movement speed and complete invulnerability until it reaches its target delivering a powerful blast of energy that deals <d ref="Effect,ChargedBlastDamage,Amount"/> damage.<n/><n/><c val="#ColorAttackInfo">Damages enemy ground units only.</c>
+Button/Tooltip/ChargedCannon=Fires a laser with <d ref="Actor,ChargedCannonGuide,Height"/> range, dealing <d ref="Effect,ChargedCannonDamage,Amount"/> damage.
+Button/Tooltip/CircleofDeathOff=Deactivates the energy.
+Button/Tooltip/CircleofDeathOn=Activate the energy.
+Button/Tooltip/CliffWalk=This unit can walk up and down cliffs.
+Button/Tooltip/CloakOnFlagship=Turns on the Flagships cloaking field.
+Button/Tooltip/CloudburstTower=Area defensive structure.<n/><n/><c val="ffff8a">Can attack ground and air units.</c><n/><c val="FFE303">Detector</c>
+Button/Tooltip/CollapsibleRockTowerDiagonalPurifier02=Rocks that can be destroyed to collapse the cave entrance.
+Button/Tooltip/CollapsibleRockTowerPurifier02=Rocks that can be destroyed to collapse the cave entrance.
+Button/Tooltip/Colossus=Powerful battle strider. Can walk up and down cliffs. Attacks incinerate multiple enemies at once.<n/><n/><c val="ffff8a">Can attack ground units.</c>
+Button/Tooltip/ColossusAiur=Aiur Faction<n/>Area damage siege unit. Shoots scarabs for high burst damage.<n/><n/><c val="ffff8a">Can attack ground units.</c>
+Button/Tooltip/ColossusPassive=Robotics Bay allows you to warp in Colossi.
+Button/Tooltip/ColossusPurifier=Purifier Faction<n/>Battle strider with a powerful area attack. Can walk up and down cliffs. Attacks set fire to the ground, dealing extra damage to enemies over time.<n/><n/><c val="ffff8a">Can attack ground units.</c>
+Button/Tooltip/ColossusTaldarim=Tal'darim Faction<n/>Battle strider with a powerful single target attack. Can walk up and down cliffs.<n/><n/><c val="ffff8a">Can attack ground and air units.</c>
+Button/Tooltip/ConstrictionDisabler10x10=Zerg infestation that disables Protoss technology.
+Button/Tooltip/ConstrictionDisabler2x2=Zerg infestation that disables Protoss technology.
+Button/Tooltip/ConstrictionDisabler3x3=Zerg infestation that disables Protoss technology.
+Button/Tooltip/ConstrictionDisabler4x4=Zerg infestation that disables Protoss technology.
+Button/Tooltip/Corsair=Nerazim Faction<n/>Air superiority starfighter. Can use Disruption Web.<n/><n/><c val="ffff8a">Can attack air units.</c>
+Button/Tooltip/CorsairMP=Nerazim Faction<n/>Air superiority starfighter. Can use Disruption Web.<n/><n/><c val="ffff8a">Can attack air units.</c>
+Button/Tooltip/CorsairMPDisruptionWeb=Creates a web of energy on the ground that prevents enemy structures and ground units from attacking for <d time="10"/>.
+Button/Tooltip/CripplingPsionicStorm=Creates a storm of psionic energy that lasts 4 seconds, causing up to 80 damage to all enemy units in the target area. Does NOT damage friendly units.
+Button/Tooltip/CyberneticsCore=Contains weapon and armor upgrades for Protoss air units.
+Button/Tooltip/CyberneticsCoreAdept=Contains weapon and armor upgrades for Protoss air units.<n/><n/><c val="ffff8a">Enables:</c><n/>- Adepts at the Gateway
+Button/Tooltip/CyberneticsCoreAdeptMonitor=Contains weapon and armor upgrades for Protoss air units.<n/><n/><c val="ffff8a">Enables:</c><n/>- Adepts at the Gateway<n/>- Havocs at the Gateway
+Button/Tooltip/CyberneticsCoreAdeptSentry=Contains weapon and armor upgrades for Protoss air units.<n/><n/><c val="ffff8a">Enables:</c><n/>- Adepts at the Gateway<n/>- Sentries at the Gateway
+Button/Tooltip/CyberneticsCoreAdeptSentryAiur=Contains weapon and armor upgrades for Protoss air units.<n/><n/><c val="ffff8a">Enables:</c><n/>- Adepts at the Gateway<n/>- Sentries at the Gateway
+Button/Tooltip/CyberneticsCoreAdeptSentryPurifier=Contains weapon and armor upgrades for Protoss air units.<n/><n/><c val="ffff8a">Enables:</c><n/>- Adepts at the Gateway<n/>- Energizers at the Gateway
+Button/Tooltip/CyberneticsCoreDragoon=Contains weapon and armor upgrades for Protoss air units.<n/><n/><c val="ffff8a">Enables:</c><n/>- Dragoons at the Gateway
+Button/Tooltip/CyberneticsCoreDragoonMonitor=Contains weapon and armor upgrades for Protoss air units.<n/><n/><c val="ffff8a">Enables:</c><n/>- Dragoons at the Gateway<n/>- Havocs at the Gateway
+Button/Tooltip/CyberneticsCoreDragoonSentry=Contains weapon and armor upgrades for Protoss air units.<n/><n/><c val="ffff8a">Enables:</c><n/>- Dragoons at the Gateway<n/>- Sentries at the Gateway
+Button/Tooltip/CyberneticsCoreDragoonSentryAiur=Contains weapon and armor upgrades for Protoss air units.<n/><n/><c val="ffff8a">Enables:</c><n/>- Dragoons at the Gateway<n/>- Sentries at the Gateway
+Button/Tooltip/CyberneticsCoreDragoonSentryPurifier=Contains weapon and armor upgrades for Protoss air units.<n/><n/><c val="ffff8a">Enables:</c><n/>- Dragoons at the Gateway<n/>- Energizers at the Gateway
+Button/Tooltip/CyberneticsCoreMonitor=Contains weapon and armor upgrades for Protoss air units.<n/><n/><c val="ffff8a">Enables:</c><n/>- Havocs at the Gateway
+Button/Tooltip/CyberneticsCoreSentry=Contains weapon and armor upgrades for Protoss air units.<n/><n/><c val="ffff8a">Enables:</c><n/>- Sentries at the Gateway
+Button/Tooltip/CyberneticsCoreSentryAiur=Contains weapon and armor upgrades for Protoss air units.<n/><n/><c val="ffff8a">Enables:</c><n/>- Sentries at the Gateway
+Button/Tooltip/CyberneticsCoreSentryPurifier=Contains weapon and armor upgrades for Protoss air units.<n/><n/><c val="ffff8a">Enables:</c><n/>- Energizers at the Gateway
+Button/Tooltip/CyberneticsCoreStalker=Contains weapon and armor upgrades for Protoss air units.<n/><n/><c val="ffff8a">Enables:</c><n/>- Stalkers at the Gateway
+Button/Tooltip/CyberneticsCoreStalkerMonitor=Contains weapon and armor upgrades for Protoss air units.<n/><n/><c val="ffff8a">Enables:</c><n/>- Stalkers at the Gateway<n/>- Havocs at the Gateway
+Button/Tooltip/CyberneticsCoreStalkerSentry=Contains weapon and armor upgrades for Protoss air units.<n/><n/><c val="ffff8a">Enables:</c><n/>- Stalkers at the Gateway<n/>- Sentries at the Gateway
+Button/Tooltip/CyberneticsCoreStalkerSentryAiur=Contains weapon and armor upgrades for Protoss air units.<n/><n/><c val="ffff8a">Enables:</c><n/>- Stalkers at the Gateway<n/>- Sentries at the Gateway
+Button/Tooltip/CyberneticsCoreStalkerSentryPurifier=Contains weapon and armor upgrades for Protoss air units.<n/><n/><c val="ffff8a">Enables:</c><n/>- Stalkers at the Gateway<n/>- Energizers at the Gateway
+Button/Tooltip/CyberneticsCoreStalkerShakuras=Contains weapon and armor upgrades for Protoss air units.<n/><n/><c val="ffff8a">Enables:</c><n/>- Stalkers at the Gateway
+Button/Tooltip/CyberneticsCoreStalkerShakurasMonitor=Contains weapon and armor upgrades for Protoss air units.<n/><n/><c val="ffff8a">Enables:</c><n/>- Stalkers at the Gateway<n/>- Havocs at the Gateway
+Button/Tooltip/CyberneticsCoreStalkerShakurasSentry=Contains weapon and armor upgrades for Protoss air units.<n/><n/><c val="ffff8a">Enables:</c><n/>- Stalkers at the Gateway<n/>- Sentries at the Gateway
+Button/Tooltip/CyberneticsCoreStalkerShakurasSentryAiur=Contains weapon and armor upgrades for Protoss air units.<n/><n/><c val="ffff8a">Enables:</c><n/>- Stalkers at the Gateway<n/>- Sentries at the Gateway
+Button/Tooltip/CyberneticsCoreStalkerShakurasSentryPurifier=Contains weapon and armor upgrades for Protoss air units.<n/><n/><c val="ffff8a">Enables:</c><n/>- Stalkers at the Gateway<n/>- Energizers at the Gateway
+Button/Tooltip/DarkArchon=Has powerful psionic abilities. Can use Confusion and Mind Control.</c>
+Button/Tooltip/DarkArchonChampion=Highlord of the Tal'darim. Powerful psionic warrior.
+Button/Tooltip/DarkArchonChampionMaelstrom=Creates a focused blast of psionic energy that stuns all non-heroic enemies in the target area for 3 seconds.
+Button/Tooltip/DarkArchonConfusion=Forces enemy units in the target area to attack each other for <d ref="Behavior,DarkArchonConfusion,Duration"/> seconds.<n/><n/><c val="#ColorAttackInfo">Heroic units are immune.</c>
+Button/Tooltip/DarkArchonMergeSelection=Sacrifices 2 Dark Templar to create a Shadow Archon.
+Button/Tooltip/DarkArchonMindControl=Permanently takes control of a target enemy unit.<n/><n/><c val="#ColorAttackInfo">Heroic units are immune.</c>
+Button/Tooltip/DarkArchonPassive=Templar Archives allows you to warp in Dark Archons.
+Button/Tooltip/DarkShrine=Dark Templar tech structure.
+Button/Tooltip/DarkShrineAssignRally=Sends recalled Avengers to the designated point.
+Button/Tooltip/DarkShrineDarkTemplar=<c val="ffff8a">Enables:</c><n/>- Dark Templar at the Gateway
+Button/Tooltip/DarkShrineDarkTemplarAiur=<c val="ffff8a">Enables:</c><n/>- Avengers at the Gateway
+Button/Tooltip/DarkShrineDarkTemplarShakuras=<c val="ffff8a">Enables:</c><n/>- Dark Templar at the Gateway
+Button/Tooltip/DarkShrineDarkTemplarTaldarim=<c val="ffff8a">Enables:</c><n/>- Blood Hunters at the Gateway
+Button/Tooltip/DarkTemplar=Deadly warrior-assassin. Permanently cloaked. <n/><n/><c val="ffff8a">Can attack ground units.</c>
+Button/Tooltip/DarkTemplarAiur=Aiur Faction<n/>Deadly warrior-assassin. Permanently cloaked. Can use Recall on Death.<n/><n/><c val="ffff8a">Can attack ground units.</c>
+Button/Tooltip/DarkTemplarArchonTooltip=Deadly warrior-assassin. Cloak renders the unit invisible to enemies without detection. Can transform into an Archon.<n/><n/><c val="ffff8a">Can attack ground units.</c>
+Button/Tooltip/DarkTemplarChampion=Matriarch of the Nerazim. Powerful cloaked warrior.
+Button/Tooltip/DarkTemplarChampionBlink=Teleports Mohandar to the targeted location and makes him unable to be detected by enemy detectors for 5 seconds.
+Button/Tooltip/DarkTemplarChampionPermanentlyCloaked=Vorazun is permanently cloaked. Shield regeneration rate is greatly increased while Vorazun is undetected.
+Button/Tooltip/DarkTemplarChampionVoidPrison=Imprisons the enemy in psionic energy, stunning it and suppressing its ability to detect for <d ref="Behavior,DarkTemplarChampionVoidPrison,Duration"/> seconds.<n/><n/><c val="ffff8a">Can imprison ground and air units.</c>
+Button/Tooltip/DarkTemplarPassive=Dark Shrine allows you to warp in Dark Templars.
+Button/Tooltip/DarkTemplarRecall=The Avenger is automatically recalled to a Dark Shrine with full shields and life upon taking fatal damage. This effect cannot occur more than once every <d ref="Behavior,DarkTemplarRecentlyRecalled,Cost.Cooldown.TimeStart"/> seconds.
+Button/Tooltip/DarkTemplarShakuras=Nerazim Faction<n/>Deadly warrior-assassin. Permanently cloaked. Can use Shadow Fury.<n/><n/><c val="ffff8a">Can attack ground units.</c>
+Button/Tooltip/DarkTemplarShuttle=Evacuation shuttles carrying the Nerazim survivors of the zerg invasion.
+Button/Tooltip/DarkTemplarTaldarim=Tal'darim Faction<n/>Deadly warrior-assassin. Permanently cloaked. Can use Void Stasis.<n/><n/><c val="ffff8a">Can attack ground units.</c>
+Button/Tooltip/DeactivateShieldGenerator=Deactivate the shield generator.
+Button/Tooltip/DeathLaser=Area defensive structure.<n/><n/><c val="ffff8a">Can attack ground and air units.</c><n/><c val="FFE303">Detector</c>
+Button/Tooltip/DisruptionCloud=Creates a cloud for <d ref="(Effect,DisruptionCloudCP,PeriodCount + 1) * Effect,DisruptionCloudCP,PeriodicPeriodArray[0]"/> seconds that reduces attack range of units under it to melee range.
+Button/Tooltip/Dragoon=Aiur Faction<n/>Ranged assault strider. Has enhanced life and attack damage.<n/><n/><c val="ffff8a">Can attack ground and air units.</c>
+Button/Tooltip/DragoonPassive=Cybernetics Core allows you to warp in Dragoons.
+Button/Tooltip/DuranMightySwing=Mighty Swing
+Button/Tooltip/DuranVoidBreath=Void Breath
+Button/Tooltip/DuranVoidGrip=Void Grip
+Button/Tooltip/EggPurpleAiur01=Zerg units morph in the safety of these cocoons.
+Button/Tooltip/EggVoid=Zerg units morph in the safety of these cocoons.
+Button/Tooltip/EnergyArcTower=Area defensive structure.<n/><n/><c val="ffff8a">Can attack ground and air units.</c><n/><c val="FFE303">Detector</c>
+Button/Tooltip/EnergyChannel=Channel energies into a target object.
+Button/Tooltip/EngineFluidTower=Area defensive structure.<n/><n/><c val="ffff8a">Can attack ground and air units.</c><n/><c val="FFE303">Detector</c>
+Button/Tooltip/EngineerHero=Engineer Hero
+Button/Tooltip/EnterWormhole=Teleports the enemy or allied target unit to an existing Wormhole.
+Button/Tooltip/EntropicBlast=Channels a beam at the target location. After 4 seconds, deals heavy damage to all units in the area.
+Button/Tooltip/Epilogue02VoidRift=Continually summons Amon's minions from the Void.
+Button/Tooltip/EvolutionChamber=Contains upgrades for Zerg ground units.<n/><n/><c val="ffff8a">Enables:</c><n/>- Aberrations from Larvae with Lair or Hive
+Button/Tooltip/Factory=Vehicle-production facility. <n/><n/><c val="ffff8a">Enables:</c><n/>- Vultures<n/>- Hellions
+Button/Tooltip/FakeGlaciusShield=The Planet Cracker will attempt to destroy this Fake Glacius Shield, buying us time to reach the Access Point. 
+Button/Tooltip/FanPush=
+Button/Tooltip/FanPushOff=Turn on the fans.
+Button/Tooltip/FanPushOn=Turn on the fans.
+Button/Tooltip/FenixChampion=Powerful robotic warrior based on Purifier technology.
+Button/Tooltip/FenixChampionAir=Versatile high-speed fighter.<n/><n/><c val="ffff8a">Can attack ground and air units.</c>
+Button/Tooltip/FenixChampionPowerShield=Activates a Power Shield, reducing all damage taken to 0 for <d ref="Behavior,FenixChampionPowerShield,Duration"/> seconds.
+Button/Tooltip/FenixCocoon=Fenix is being reconstructed.
+Button/Tooltip/FenixCyberOperativeVoid=Fenix Cyber Operative
+Button/Tooltip/FenixCyberOperativeWeapon=Activates the Fenix Cyber Operative Weapon, halting energy regeneration and enabling a powerful attack.
+Button/Tooltip/FenixCyberOperativeWeaponOff=Disables the Fenix Cyber Operative Weapon.
+Button/Tooltip/FenixHardenedShield=Reduces incoming damage to a maximum of 10 while the Immortal still has shields.
+Button/Tooltip/FenixSOACharge=Fenix charges at target enemy unit, stunning it and all enemy units near it for <d ref="Behavior,FenixChargeStun,Duration"/> seconds.
+Button/Tooltip/FenixWhirlwind=All nearby enemies take <d ref="Effect,FenixWhirlwindDamage,Amount/Behavior,FenixWhirlwind,Period"/> damage per second for <d ref="Behavior,FenixWhirlwind,Duration"/> seconds. Fenix can move while Whirlwind is active.
+Button/Tooltip/Flagship=Ultimate Protoss vessel. Can instantly recall multiple units to its current location.<n/><n/><c val="ffff8a">Can attack ground and air units.</c>
+Button/Tooltip/FlagshipWarpInPhoenix=Warps in a Phoenix.
+Button/Tooltip/FlagshipWarpInScout=Warps in a Scout.
+Button/Tooltip/FlakCannon=Extremely powerful turrets that cannot be attacked. Breaking down the Palace Gate is the only way to victory.<n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c>
+Button/Tooltip/FleetBeacon=Carrier tech structure.
+Button/Tooltip/FleetBeaconCarrier=<c val="ffff8a">Enables:</c></n>- Carriers at the Stargate
+Button/Tooltip/FleetBeaconCarrierAiur=<c val="ffff8a">Enables:</c></n>- Carriers at the Stargate
+Button/Tooltip/FleetBeaconMothershipTaldarim=<c val="ffff8a">Enables:</c><n/>- Mothership at the Stargate
+Button/Tooltip/FleetBeaconSOAMothershipv4=<c val="ffff8a">Enables:</c><n/>- Mothership at the Stargate
+Button/Tooltip/FleetBeaconTempest=<c val="ffff8a">Enables:</c><n/>- Tempests at the Stargate
+Button/Tooltip/FleetBeaconTempestPurifier=<c val="ffff8a">Enables:</c></n>- Tempest at the Stargate
+Button/Tooltip/FlyerBeastFlyerling=Spawns a Flyerling at target location.
+Button/Tooltip/Forge=Contains weapon and armor upgrades for Protoss ground units and shield upgrades for all Protoss units and structures.<n/><n/><c val="ffff8a">Enables:</c><n/>- Photon Cannons from Probes
+Button/Tooltip/ForgeKhaydarinMonolith=Contains weapon and armor upgrades for Protoss ground units and shield upgrades for all Protoss units and structures.<n/><n/><c val="ffff8a">Enables:</c><n/>- Photon Cannons from Probes<n/>- Khaydarin Monoliths from Probes
+Button/Tooltip/GasCanisterLargeProtoss=Canister of refined vespene gas.
+Button/Tooltip/GasCanisterProtoss25=Canister of refined vespene gas.
+Button/Tooltip/GasCanisterProtoss50=Canister of refined vespene gas.
+Button/Tooltip/Gateway=Warps in Protoss ground units.
+Button/Tooltip/GatewayZealot=Warps in Protoss ground units.<n/><n/><c val="ffff8a">Enables:</c><n/>- Zealots
+Button/Tooltip/GatewayZealotAiur=Warps in Protoss ground units.<n/><n/><c val="ffff8a">Enables:</c><n/>- Zealots
+Button/Tooltip/GatewayZealotPurifier=Warps in Protoss ground units.<n/><n/><c val="ffff8a">Enables:</c><n/>- Sentinels
+Button/Tooltip/GatewayZealotShakuras=Warps in Protoss ground units.<n/><n/><c val="ffff8a">Enables:</c><n/>- Centurions
+Button/Tooltip/GlaciusTechnologyVault=Houses prototype technology from the Purifier revival program. Cannot withstand direct fire from the Displacement Beam.
+Button/Tooltip/GravitonBeam=Makes the target unit float in the air, disabling its abilities and dealing damage over time. Effect lasts up to <d time="10"/>.<n/><n/><c val="#ColorAttackInfo">Massive units are immune.</c>
+Button/Tooltip/GravitonBeamVoidCampaign=Makes the target unit float in the air, disabling its abilities. Effect lasts up to <d time="10"/>.<n/><n/><c val="#ColorAttackInfo">Massive units are immune.</c>
+Button/Tooltip/GreaterSpire=Contains upgrades for Zerg air units.<n/><n/><c val="ffff8a">Enables:</c><n/>- Mutalisks from Larvae
+Button/Tooltip/GreaterSpireBroodlord=Contains upgrades for Zerg air units.<n/><n/><c val="ffff8a">Enables:</c><n/>- Mutalisks from Larvae<n/>- Brood Lords from Mutalisks
+Button/Tooltip/Guardian=Long-range anti-ground flyer. <n/><n/><c val="ffff8a">Can attack ground units.</c>
+Button/Tooltip/GuardianShield=Creates a range 4 aura that reduces all incoming attack damage to friendly units by 2. Lasts <d time="15"/>.
+Button/Tooltip/HealingPsionicStorm=Psionic Storm restores <d ref="((Effect,HighArchonPsiStormPersistent,PeriodCount+1)*(Effect,HighArchonPsiStormHeal,RechargeVitalRate))/2"/> shields to friendly units in the target area.<c/>
+Button/Tooltip/HiOutputLaser=174 gigawatt laser bore. The power of the sun at your fingertips.
+Button/Tooltip/HighTemplar=Potent psionic master. Can use Feedback and Psionic Storm. Can merge into an Archon.<n/><n/><c val="ffff8a">Can attack ground units.</c>
+Button/Tooltip/HighTemplarAiur=Aiur Faction<n/>Potent psionic master. Can use Feedback and Psionic Storm. Can merge into an Archon.<n/><n/><c val="ffff8a">Can attack ground units.</c>
+Button/Tooltip/HighTemplarArchonTooltip=Potent psionic master. Can use Feedback and Psionic Storm. Can transform into an Archon.<n/><n/><c val="ffff8a">Can attack ground units.</c>
+Button/Tooltip/HighTemplarCripple=Target unit takes <d ref="Effect,HighTemplarCrippleDamage,Amount"/> damage and has its armor reduced by 5 for <d ref="Behavior,HighTemplarCripple,Duration"/> seconds.
+Button/Tooltip/HighTemplarPassive=Templar Archives allows you to warp in High Templars.
+Button/Tooltip/HighTemplarShakuras=Nerazim Faction<n/>Potent psionic master. Can use Confuse and Mind Control.<n/><n/><c val="ffff8a">Can attack ground and air units.</c>
+Button/Tooltip/HighTemplarTaldarim=Tal'darim Faction<n/>Potent psionic master. Can use Psionic Orb, Mind Blast, and Sacrifice.<n/><n/><c val="ffff8a">Can attack ground units.</c>
+Button/Tooltip/Hive=Further evolved version of the Hatchery that allows additional upgrades and structures to be produced. Also spawns all Zerg units and receives gathered resources.
+Button/Tooltip/HybridAiur01=Monstrous creature made from both Protoss and Zerg DNA. Capable of powerful attacks.<n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c><n/><c val="FFE303">Detector</c>
+Button/Tooltip/HybridBehemoth=Colossal creature made from both Protoss and Zerg DNA. Capable of powerful attacks.<n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c><n/><c val="FFE303">Detector</c>
+Button/Tooltip/HybridConsumeZerg=Consumes all Zerg in the area.
+Button/Tooltip/HybridDominatorPlasmaBlast=Shoots a ball of bio-plasma toward a target, causing <d ref="Effect,HybridCPlasmaBlastDamage,Amount"/> damage.
+Button/Tooltip/HybridDominatorVoid=Powerful psionic attacker.<n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c><n/><c val="FFE303">Detector</c>
+Button/Tooltip/HybridGeneral=Powerful psionic attacker.<n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c><n/><c val="FFE303">Detector</c>
+Button/Tooltip/HybridGeneralPhaseShift=Causes the targeted unit to phase out for <d ref="Behavior,HybridGeneralPhaseShift,Duration"/> seconds. Phased units are immune to all damage and most effects, but they are unable to attack or use abilities.
+Button/Tooltip/HybridNemesis=Powerful psionic flyer.<n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c>
+Button/Tooltip/HybridUrunMassRecall=Teleports Urun and all nearby friendly units to the targeted structure.
+Button/Tooltip/HydraliskDenImpaler=Can mutate into an Impaler Den.</n></n><c val="ffff8a">Enables:</c><n/>- Hydralisks from Larvae
+Button/Tooltip/HyperionKorhal=
+Button/Tooltip/HyperionVoidCoop=
+Button/Tooltip/HyperionVoidCoopHyperjump=Hyperjump to the targeted location.
+Button/Tooltip/HyperionVoidCoopYamatoCannon=Blasts a unit with a devastating plasma cannon, dealing <d ref="Effect,HyperionVoidCoopYamatoCannonDamage,Amount"/> damage to it and nearby enemies.
+Button/Tooltip/ImmortalAiur=Aiur Faction<n/>Assault strider. Can use Barrier to absorb damage.<n/><n/><c val="FFFF8A">Can attack ground units.</c>
+Button/Tooltip/ImmortalBarrierBase=Absorbs up to <d ref="Behavior,ImmortalBarrierBase,DamageResponse.ModifyLimit"/> damage. Lasts for <d ref="Behavior,ImmortalOverload,Duration"/> seconds.
+Button/Tooltip/ImmortalPurifier=Purifier Faction<n/>Melee attacker. Has shields that deflect high-damage attacks.<n/><n/><c val="FFFF8A">Can attack ground units.</c>
+Button/Tooltip/ImmortalShakuras=Nerazim Faction<n/>Assault Strider. Can use Shadow Cannon to damage air and ground units.<n/><n/><c val="FFFF8A">Can attack ground units.</c>
+Button/Tooltip/ImmortalShakurasShadowCannon=Deal <d ref="Effect,ImmortalShakurasShadowCannonDamage,Amount*Effect,ImmortalShakurasShadowCannonCP,PeriodCount"/> damage to target unit or structure. <n/><n/><c val="#ColorAttackInfo">Can target ground and air units.</c>
+Button/Tooltip/ImmortalTaldarim=Tal'darim Faction<n/>Assault Strider. Attacks deal damage in an area around target enemy unit.<n/><n/><c val="ffff8a">Can attack ground units.</c>
+Button/Tooltip/ImmortalTaldarimScatterCannon=Attacks deal damage to target enemy ground unit and other enemy ground units near it.<n/><n/><c val="ffff8a">Damages enemy ground units only.</c>
+Button/Tooltip/Infestor=Infestation specialist. Can use the Fungal Growth and Infested Terran abilities.
+Button/Tooltip/InfestorEpilogue03=Infestation specialist. Can use the Fungal Growth, Infested Terran, and Consumption abilities.
+Button/Tooltip/InstigatorPassive=Cybernetics Core allows you to warp in Instigators.
+Button/Tooltip/KaiserWormBanelingMissile=Launchs a Baneling at the target location which explodes upon impact.
+Button/Tooltip/KaiserWormScourgeMissile=Launches a Void Barrage at the target unit, dealing <d ref="Effect,KaiserWormScourgeMissileDamage,Amount"/> damage.
+Button/Tooltip/KaraxChampion=Templar phase-smith. Uses a pair of Servitors to perform ranged attacks.
+Button/Tooltip/KaraxCliffJump=Allows Karax to scale cliffs.
+Button/Tooltip/KaraxDisintegrationBeam=Targets a single unit and does <d ref="Effect,KaraxDisintegrationBeamDamage,Amount * Effect,KaraxDisintegrationBeamCP,PeriodCount"/> damage over <d ref="Effect,KaraxDisintegrationBeamCP,PeriodicPeriodArray[0] * Effect,KaraxDisintegrationBeamCP,PeriodCount"/> seconds.
+Button/Tooltip/KaraxEmergencyShield=Shields friendly units, granting them <d ref="Behavior,KaraxEmergencyShield,Modification.VitalMaxArray[Shields]"/> additional shields for <d ref="Behavior,KaraxEmergencyShield,Duration"/> seconds.
+Button/Tooltip/KaraxMechanicalRepair=Karax can now repair the life of mechanical units.
+Button/Tooltip/KaraxMicroBot2Unit=Combat drones that automatically strafe their Carrier's target. Carriers may not attack without Interceptors.<n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c>
+Button/Tooltip/KaraxMicroBotActivatedUnit=Combat drones that automatically attack Karax's target.<n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c>
+Button/Tooltip/KaraxMicroBotDeactivatedUnit=Combat drones that automatically strafe their Carrier's target. Carriers may not attack without Interceptors.<n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c>
+Button/Tooltip/KaraxOverload=Trigger an electrical overload to shock an enemy, dealing <d ref="Effect,KaraxOverloadDamage,Amount"/> damage and stunning it for <d ref="Behavior,KaraxOverloadStun,Duration"/> seconds.
+Button/Tooltip/KaraxPylonCannonCharges=Can now store up to 3 charges of Pylon Cannons and reduces cooldown by 20%.
+Button/Tooltip/KaraxPylonCannonGuardianShield=Pylon Cannons provide a permanent Guardian Shield while they're active.
+Button/Tooltip/KaraxRepairDrone=Spawn a Shield Restore Drone that restores 10 shields per second to all friendly units in the area. Lasts <d time="15"/>.
+Button/Tooltip/KaraxRepairDroneRepair=Restores 3 shield per second to units in range.
+Button/Tooltip/KaraxShieldDamage=While Shield Restore is active that unit will shock an enemy for 10 damage each second.
+Button/Tooltip/KaraxSpawnReplicants=Spawn replicants that immediately morph into a specific Terran mechanical unit.
+Button/Tooltip/KerriganEpilogue02=Queen of Blades and leader of the Swarm. The only being capable of housing the essence of a Xel'Naga.
+Button/Tooltip/KerriganEpilogue03=Ascended Xel'Naga. A being of godlike power and the only one who can stand against Amon.
+Button/Tooltip/KerriganEpilogue03Burrowed=Ascended Xel'Naga. A being of godlike power and the only one who can stand against Amon.
+Button/Tooltip/KerriganEpilogue03CreepTeleport=Kerrigan teleports herself and all nearby zerg units in a huge radius to any location on the map with creep. <n/><n/><c val="#ColorAttackInfo">Will not teleport Drones or Overlords.</c>
+Button/Tooltip/KerriganEpilogue03Extinction=After channeling celestial energy for <d ref="Effect,KerriganEpilogue03Extinction,PeriodicPeriodArray[1]"/> seconds, Kerrigan releases a massive shockwave that deals <d ref="Effect,KerriganEpilogue03ExtinctionPulseDamageNormal,Amount"/> damage to all enemies on the map. All Void Entities are instantly obliterated.
+Button/Tooltip/KerriganEpilogue03Heal=Heals Kerrigan for <d ref="Effect,KerriganEpilogue03HealBig,VitalArray[Life].Change"/> life and nearby friendly units in a huge radius for <d ref="Effect,KerriganEpilogue03HealSmall,VitalArray[Life].Change"/> life.
+Button/Tooltip/KerriganEpilogue03LeapAttack=Kerrigan leaps to her target and deals 400 damage to it. Can be used without a target and at great range to travel quickly.
+Button/Tooltip/KerriganEpilogue03LineDashAttack=Kerrigan dashes through enemies, dealing 100 damage to all enemies in her path. Leaves behind a trail of ethereal energy that damages enemies for 50 over 5 sec.
+Button/Tooltip/KerriganEpilogue03QuantumBlast=Kerrigan deals 500 damage to target unit or structure from long range.
+Button/Tooltip/KerriganEpilogue03QuantumRay=Kerrigan charges up and fires a beam of energy at a target enemy unit for <d ref="Effect,KerriganEpilogue03QuantumRayDamage,Amount*Effect,KerriganEpilogue03QuantumRayDamageCP,PeriodCount"/> damage.
+Button/Tooltip/KerriganEpilogueDamageAura=Nearby friendly units in a huge radius gain 25% increased attack speed and 25% increased movement speed.
+Button/Tooltip/KerriganVoid=Queen of Blades and leader of the Swarm. Powerful psionic ranged attacker.
+Button/Tooltip/KerriganVoidApocalypse=Deals <d ref="Effect,KerriganVoidApocalypseDamage,Amount"/> damage to enemy units and <d ref="(Effect,KerriganVoidApocalypseDamage,Amount) + (Effect,KerriganVoidApocalypseDamage,AttributeBonus[Structure])"/> damage to enemy structures in a large area.
+Button/Tooltip/KerriganVoidChainReaction=Kerrigan's attacks deal normal damage to her target then jump to additional nearby enemies. Deals <d ref="Effect,KerriganVoidUlnar02ChainReaction2Damage,Amount"/> damage to up to four additional targets.
+Button/Tooltip/KerriganVoidCoopEconDrop1=Stockpile of refined minerals.
+Button/Tooltip/KerriganVoidCoopEconDrop1Text=<s val="Kicker_Minerals">+10 </s><IMG path="Assets\Textures\icon-mineral-zerg.dds" height="28" width="28"/>
+Button/Tooltip/KerriganVoidCoopEconDrop1UpgradedText=<s val="Kicker_Minerals">+20 </s><IMG path="Assets\Textures\icon-mineral-zerg.dds" height="28" width="28"/>
+Button/Tooltip/KerriganVoidCoopEconDrop2Text=<s val="Kicker_Minerals">+10 </s><IMG path="Assets\Textures\icon-mineral-zerg.dds" height="28" width="28"/><n/><s val="Kicker_Gas">+5 </s><IMG path="Assets\Textures\icon-gas-zerg.dds" height="28" width="28"/>
+Button/Tooltip/KerriganVoidCoopEconDrop2UpgradedText=<s val="Kicker_Minerals">+20 </s><IMG path="Assets\Textures\icon-mineral-zerg.dds" height="28" width="28"/><n/><s val="Kicker_Gas">+10 </s><IMG path="Assets\Textures\icon-gas-zerg.dds" height="28" width="28"/>
+Button/Tooltip/KerriganVoidCoopEconDrop3Text=<s val="Kicker_Minerals">+20 </s><IMG path="Assets\Textures\icon-mineral-zerg.dds" height="28" width="28"/><n/><s val="Kicker_Gas">+10 </s><IMG path="Assets\Textures\icon-gas-zerg.dds" height="28" width="28"/>
+Button/Tooltip/KerriganVoidCoopEconDrop3UpgradedText=<s val="Kicker_Minerals">+40 </s><IMG path="Assets\Textures\icon-mineral-zerg.dds" height="28" width="28"/><n/><s val="Kicker_Gas">+20 </s><IMG path="Assets\Textures\icon-gas-zerg.dds" height="28" width="28"/>
+Button/Tooltip/KerriganVoidCoopEconDrop4Text=<s val="Kicker_Minerals">+40 </s><IMG path="Assets\Textures\icon-mineral-zerg.dds" height="28" width="28"/><n/><s val="Kicker_Gas">+20 </s><IMG path="Assets\Textures\icon-gas-zerg.dds" height="28" width="28"/>
+Button/Tooltip/KerriganVoidCoopEconDrop4UpgradedText=<s val="Kicker_Minerals">+80 </s><IMG path="Assets\Textures\icon-mineral-zerg.dds" height="28" width="28"/><n/><s val="Kicker_Gas">+40 </s><IMG path="Assets\Textures\icon-gas-zerg.dds" height="28" width="28"/>
+Button/Tooltip/KerriganVoidCoopEconDrop5Text=<s val="Kicker_Minerals">+50 </s><IMG path="Assets\Textures\icon-mineral-zerg.dds" height="28" width="28"/><n/><s val="Kicker_Gas">+25 </s><IMG path="Assets\Textures\icon-gas-zerg.dds" height="28" width="28"/>
+Button/Tooltip/KerriganVoidCoopEconDrop5UpgradedText=<s val="Kicker_Minerals">+100 </s><IMG path="Assets\Textures\icon-mineral-zerg.dds" height="28" width="28"/><n/><s val="Kicker_Gas">+50 </s><IMG path="Assets\Textures\icon-gas-zerg.dds" height="28" width="28"/>
+Button/Tooltip/KerriganVoidCoopEconDropLT1Text=<s val="Kicker_Minerals">+5 <IMG path="Assets\Textures\icon-mineral-zerg.dds" height="28" width="28"/>
+Button/Tooltip/KerriganVoidCoopEconDropLT1UpgradedText=<s val="Kicker_Minerals">+10 <IMG path="Assets\Textures\icon-mineral-zerg.dds" height="28" width="28"/>
+Button/Tooltip/KerriganVoidFury=Each attack temporarily increases Kerrigan's attack speed by <d ref="(Behavior,KerriganVoidUlnar02PrimalRage1,Modification.AttackSpeedMultiplier - 1) * 100"/>%. Can stack up to <d ref="(Behavior,KerriganVoidUlnar02PrimalRage5,Modification.AttackSpeedMultiplier - 1) * 100"/>% increased attack speed.
+Button/Tooltip/KerriganVoidKineticBlast=Kerrigan deals <d ref="Effect,KerriganVoidKineticBlastDamage,Amount"/> damage to target unit or structure from long range.
+Button/Tooltip/KerriganVoidSpawnBanelings=Kerrigan spawns six Banelings with timed life.
+Button/Tooltip/KerriganVoidUlnar02=Queen of Blades and leader of the Swarm. Powerful psionic ranged attacker.
+Button/Tooltip/KhaydarinBeam=Deals <d ref="Effect,KhaydarinBeamDamage,Amount"/> damage to a single target. Prioritizes targets with the most Life.
+Button/Tooltip/KhaydarinMonolith=Extremely powerful defensive structure. Has superior range and damage, but is very expensive and attacks slowly.<n/><n/><c val="ffff8a">Can attack ground and air units.
+Button/Tooltip/KhaydarinMonolithPassive=Forge allows you to warp in Khaydarin Monoliths.
+Button/Tooltip/Lair=Evolved version of the Hatchery that allows additional upgrades and structures to be produced. Also spawns all Zerg units and receives gathered resources.<n/><n/><c val="ffff8a">Enables:</c><n/>- Aberrations from Larvae with Evolution Chamber
+Button/Tooltip/LaserBotLaserOff=Laser Bot Laser Off
+Button/Tooltip/LaserBotLaserOn=Laser Bot Laser On
+Button/Tooltip/LaunchBayShakuras=Houses specialized Ark Shuttles capable of traveling through the warp network.
+Button/Tooltip/LesserBeast=Primal Zerg ruminant omnivore. Roams in small herds.
+Button/Tooltip/LightningBomb=Deals <d ref="Effect,LightningBombDamage,Amount*Behavior,LightningBomb,Duration/Behavior,LightningBomb,Period"/> damage over <d ref="Behavior,LightningBomb,Duration"/> seconds to target enemy unit or structure.
+Button/Tooltip/MatrixOverload=All friendly units gain <d ref="Behavior,MatrixOverloadTarget,Modification.MoveSpeedMultiplier*100-100"/>% movement speed and <d ref="Behavior,MatrixOverloadTarget,Modification.AttackSpeedMultiplier*100-100"/>% attack speed within Pylon power fields. Effect lasts for up to <d ref="Behavior,MatrixOverloadTarget,Duration"/> seconds after leaving.<n/><n/><c val="ffff8a">Passive ability.</c>
+Button/Tooltip/MatrixOverloadEnergizer=All friendly units gain a <d ref="Behavior,MatrixOverloadTarget,Modification.MoveSpeedMultiplier*100-100"/>% bonus to movement speed and a <d ref="Behavior,MatrixOverloadTarget,Modification.AttackSpeedMultiplier*100-100"/>% bonus to attack speed while positioned within an Energizer's power field. Effect lasts for up to <d ref="Behavior,MatrixOverloadTarget,Duration"/> seconds after leaving the power field.<n/><n/><c val="ffff8a">Passive ability.</c>
+Button/Tooltip/MegaArchon=Powerful psionic attacker.<n/><n/><c val="ffff8a">Can attack ground and air units.</c>
+Button/Tooltip/MegalithCutter=A Purifier device that can destabilize the locks keeping Cybros in stasis.
+Button/Tooltip/MissileTurretPassive=Engineering Bay allows you to build Missile Turrets.
+Button/Tooltip/MohandarOmnislash=Rapidly teleport to random enemies within <d ref="Effect,MohandarOmnislashSearch,AreaArray[0].Radius"/> radius <d ref="Effect,MohandarOmnislashPersistent,PeriodCount"/> times, attacking each of them for <d ref="Effect,MohandarOmnislashDamage,Amount"/> damage. A single target can be hit more than once.<n/><n/><c val="FFFF00">Can target ground units.</c>
+Button/Tooltip/MohandarShadowClone=Vorazun creates a hallucination of herself that deals 50% damage and takes double damage.
+Button/Tooltip/MohandarShadowClonePassive=This is a hallucination of Vorazun. It deals half damage and takes double damage.
+Button/Tooltip/MohandarStickyBomb=Launches a sticky bomb at the targeted unit. After <d ref="Behavior,MohandarStickyBomb,Duration"/> seconds, the bomb explodes, dealing <d ref="Effect,MohandarStickyBombDamage,Amount"/> damage to the target unit and slowing all nearby units by <d ref="Behavior,MohandarStickyBombSlow,Modification.MoveSpeedMultiplier * 100"/>% for <d ref="Behavior,MohandarStickyBombSlow,Duration"/> seconds.
+Button/Tooltip/Monitor=Tal'darim Faction<n/>Robotic support unit. Can use Target Lock, Squad Sight, and Force Field.
+Button/Tooltip/MonitorPassive=Cybernetics Core allows you to warp in Havocs.
+Button/Tooltip/MorphBackToRoboticsFacility=Transforms this Warp Robotics Facility back to a Robotics Facility.
+Button/Tooltip/MorphBackToStargate=Transforms this Warp Stargate back to a Stargate.
+Button/Tooltip/MorphToDuranKorhal=Finish Morph
+Button/Tooltip/MorphToDuranMorphKorhal=Start Morph
+Button/Tooltip/MorphtoRubble=Morphs this Pylon Purifier into Pylon Purifier Rubble.
+Button/Tooltip/MothershipAiur06=Ultimate Protoss vessel. Can use Mass Recall and Time Warp abilities.<n/><n/><c val="ffff8a">Can attack ground and air units.</c>
+Button/Tooltip/MothershipPassive=Fleet Beacon enables you to warp in Mothership.
+Button/Tooltip/MoveChampions=Orders selected units to move to the target area or follow the target unit. Moving units will not engage enemies.
+Button/Tooltip/NaniteCloudTurret=Automated Gas Defense system. Destroy to open the containment door.
+Button/Tooltip/NarudEpilogue=Xel'Naga shapeshifter. Possesses powerful psionic and Void manipulation abilities.
+Button/Tooltip/NarudEpilogueSpawnModeOff=Turn Spawn Mode Off
+Button/Tooltip/NarudEpilogueSpawnModeOn=Turn Spawn Mode On
+Button/Tooltip/NarudEpilogueSummonShadeofNarud=Summons a Void Thrasher at the targeted location.
+Button/Tooltip/Nexus=Primary structure. Can receive gathered resources. Can use the Chrono Boost ability.<n/><n/><c val="ffff8a">Enables:</c><n/>- Probes
+Button/Tooltip/NullCircuit=Keeps each Cybros quadrant in stasis. Destroying the circuits will reactivate a quadrant.
+Button/Tooltip/NullCircuitActivated=This circuit no longer blocks power to this quadrant.
+Button/Tooltip/NydusBeast=A powerful behemoth birthed from the Void.
+Button/Tooltip/NydusBeastDeepTunnel=The Void Thrasher burrows and erupts at target location, dealing damage to units in the area and knocking them back.
+Button/Tooltip/NydusBeastFireball=The Void Thrasher spits fire at the target location after 2 seconds.
+Button/Tooltip/NydusBeastSpawnBaneling=Void Thrasher spits out a Baneling.
+Button/Tooltip/NydusBeastSpawnHydralisk=Void Thrasher spits out a Hydralisk.
+Button/Tooltip/NydusBeastSpawnRoach=Void Thrasher spits out a Roach.
+Button/Tooltip/NydusBeastSpawnZergling=Void Thrasher spits out a Zergling.
+Button/Tooltip/Oracle=Flying Caster.<n/><n/><c val="ffff8a">Can attack ground units.</c><n/><c val="FFE303">Detector</c>
+Button/Tooltip/OracleTimeWarp=Slows enemy movement and attack speed in target area for <d time="30"/>.
+Button/Tooltip/Overcharge=Overcharge internal systems, increasing movement speed for <d ref="Behavior,OverchargeSpeedBoost,Duration"/> seconds and dealing <d ref="Effect,OverchargeDamage,Amount/Behavior,Overcharge,Period"/> damage per second to nearby enemy units. While Overcharged, the caster is invulnerable, untargetable, and can pass through all units. Damage field lasts <d time="6"/>.
+Button/Tooltip/OverchargeTower=Primary defensive structure.<n/><n/><c val="ffff8a">Can attack ground and air units.</c><n/><c val="FFE303">Detector</c>
+Button/Tooltip/PermanentlyCloaked=This unit is permanently cloaked.
+Button/Tooltip/PhaseCannon=Phases in a Photon Cannon that lasts for <d ref="Behavior,PhaseCannonTimedLife,Duration"/> seconds before leaving the battlefield.<n/><n/>The Photon Cannon must be placed within a power field.
+Button/Tooltip/Phoenix=Air superiority starfighter. Can use Graviton Beam.<n/><n/><c val="ffff8a">Can attack air units.</c>
+Button/Tooltip/PhoenixAiur=Aiur Faction<n/>Air superiority starfighter. Can use Graviton Beam on two enemy units simultaneously.<n/><n/><c val="ffff8a">Can attack air units.</c>
+Button/Tooltip/PhoenixAiurGravitonBeam=Makes the target unit float in the air, disabling its abilities. Effect lasts up to <d time="10"/>.<n/><n/><c val="#ColorAttackInfo">Massive units are immune.</c>
+Button/Tooltip/PhoenixAiurGravitonBeamPassive=Graviton Beam affects an additional enemy ground unit near the primary target.
+Button/Tooltip/PhoenixBomber=Tal'darim Faction<n/>Versatile high-speed fighter.<n/><n/><c val="ffff8a">Can attack ground and air units.</c>
+Button/Tooltip/PhoenixBomberGround=Damage beam deals area damage to ground targets. Can activate while moving.
+Button/Tooltip/PhoenixPurifier=Purifier Faction<n/>Air superiority starfighter. Can use Graviton Beam and Phasing Armor.<n/><n/><c val="ffff8a">Can attack air units.</c>
+Button/Tooltip/PhotonCannonPassive=Forge allows you to warp in Photon Cannons.
+Button/Tooltip/PhotonTower=Primary defensive structure.<n/><n/><c val="ffff8a">Can attack ground and air units.</c><n/><c val="FFE303">Detector</c>
+Button/Tooltip/PickupBeastPart=
+Button/Tooltip/PickupGas200Text=<s val="Kicker_Gas">+200 </s><IMG path="Assets\Textures\icon-gas-terran.dds" height="28" width="28"/>
+Button/Tooltip/PickupGasProtoss100Text=<s val="Kicker_Gas">+100 </s><IMG path="Assets\Textures\icon-gas-protoss.dds" height="28" width="28"/>
+Button/Tooltip/PickupGasProtoss200Text=<s val="Kicker_Gas">+200 </s><IMG path="Assets\Textures\icon-gas-protoss.dds" height="28" width="28"/>
+Button/Tooltip/PickupGasProtoss25Text=<s val="Kicker_Gas">+25 </s><IMG path="Assets\Textures\icon-gas-protoss.dds" height="28" width="28"/>
+Button/Tooltip/PickupGasProtoss50Text=<s val="Kicker_Gas">+50 </s><IMG path="Assets\Textures\icon-gas-protoss.dds" height="28" width="28"/>
+Button/Tooltip/PickupMinerals250Text=<s val="Kicker_Minerals">+250 </s><IMG path="Assets\Textures\icon-mineral-terran.dds" height="28" width="28"/>
+Button/Tooltip/PitAlarak=First Ascendant of the Tal'darim. A ruthless psionic warrior who seeks vengeance against Amon.
+Button/Tooltip/PitMalash=Highlord of the Tal'darim. Commands the full might of the Death Fleet. Loyal to Amon.
+Button/Tooltip/PlaceWormhole=Creates a Wormhole that the Oracle can teleport units to. Only one Wormhole can exist at any time. 
+Button/Tooltip/PlanetCrackerOff=Turn off the Planet Cracker beam.
+Button/Tooltip/PlatformPowerCore=Fuel source for the Hybrid breeding facility.
+Button/Tooltip/PlatformStabilizer=Maintains Sky Shield's orbital stability. Cannot function properly unless all stabilizers are operational.
+Button/Tooltip/PortalConductor=A Xel'Naga artifact that is being used to open a portal to the Void.
+Button/Tooltip/PowerConductor=This circuit no longer blocks power to this quadrant.
+Button/Tooltip/PowerConductorLock=Keeps each Cybros quadrant in stasis. Destroying the circuits will reactivate a quadrant.
+Button/Tooltip/PowerCoreHousing=Energy sources of considerable size that once powered the Purifier program's experiments.
+Button/Tooltip/ProdigalEngineer=Karax generates a power field similar to a Pylon. Structures within the power field gain <d ref="(Behavior,ProdigalEngineerAttackTarget,Modification.AttackSpeedMultiplier*100)-100"/>% attack speed and <d ref="(Behavior,ProdigalEngineerProductionTarget,Modification.TimeScale*100)-100"/>% production speed.
+Button/Tooltip/PrologueVoidArmor=Grants nearby friendly units +<d ref="Behavior,PrologueVoidArmor,Modification.VitalMaxArray[Shields]"/> shields for <d ref="Behavior,PrologueVoidArmor,Duration"/> seconds.
+Button/Tooltip/PsiStorm=Creates a storm of psionic energy that lasts 4 seconds, causing up to 80 damage to all enemy units in the target area. Does not damage friendly units.
+Button/Tooltip/PurifierCoreMatrix=Cybros's central power structure. Destroying the matrix will also destroy the station.
+Button/Tooltip/Purifier_Destructible_Rock_Huge_BLUR=Barrier that can be destroyed to allow access to new areas.
+Button/Tooltip/PylonCannon=Primary defensive structure.<n/><n/><c val="ffff8a">Can attack ground and air units.</c><n/><c val="FFE303">Detector</c>
+Button/Tooltip/PylonPurifier=Provides supply.<n/>Supply allows you to warp in more units.<n/>Creates power for nearby structures.
+Button/Tooltip/PylonPurifierRubble=Provides supply.<n/>Supply allows you to warp in more units.<n/>Creates power for nearby structures.
+Button/Tooltip/QueenClassic=Flying Support Unit. Can use Parasite, Ensnare, Spawn Broodlings and Spawn Creep Tumor.
+Button/Tooltip/QueenClassicParasite=Infect the target unit with a Parasite, granting vision of everything the infected unit can see.
+Button/Tooltip/RawSolarite=Solarite in its purest form. Can be used to upgrade the Solar Core.
+Button/Tooltip/Reaper=Raider. Can jump up and down cliffs. Regenerates life quickly while out of combat. Can use D8 Charge.<n/><n/><c val="#ColorAttackInfo">Can attack ground units.</c>
+Button/Tooltip/Reaver=Aiur Faction<n/>Area damage siege unit. Builds and launches Scarabs for high burst damage.<n/><n/><c val="ffff8a">Can attack ground units.</c>
+Button/Tooltip/ReaverBurrowed=Aiur Faction<n/>Area damage siege unit. Shoots scarabs for high burst damage.<n/><n/><c val="ffff8a">Can attack ground units.</c>
+Button/Tooltip/ReaverChampionScarabs=Creates Scarabs that launch at the Reaver's target. Reavers may not attack without Scarabs.<n/><n/><c val="#ColorAttackInfo">Can attack ground units.</c>
+Button/Tooltip/ReaverPassive=Robotics Bay allows you to warp in Reavers.
+Button/Tooltip/ReaverScarabs=Builds Scarabs that automatically launch at the Reaver's target and explode for area damage.<n/><n/><c val="#ColorAttackInfo">Can attack ground units.</c>
+Button/Tooltip/Reclamation=Permanently takes control of target enemy robotic unit or Protoss structure. Robotic units include Sentries, Immortals, Reavers and Colossi.
+Button/Tooltip/RepairDrones=Two repair drones automatically heal friendly mechanical units near the Carrier.
+Button/Tooltip/ReplicantReplicate=Replicant turns into a copy of the targeted unit for <d time="60"/>. If the Replicant dies or the duration expires it will revert to its original form.
+Button/Tooltip/ResearchBarrier=Increases the amount of damage absorbed by the Immortal's Barrier by 100%.
+Button/Tooltip/ResearchBlinkShieldRestoreUpgrade=Allows the Stalker's Blink ability to restore <d ref="Effect,VoidStalkerBlinkRestoreModifyUnit,VitalArray[Shields].Change*(Behavior,VoidStalkerBlinkShieldRestore,Duration/Behavior,VoidStalkerBlinkShieldRestore,Period)"/> shields over <d time="5"/> after use.
+Button/Tooltip/RoachWarren=<c val="ffff8a">Enables:</c><n/>- Roaches from Larvae
+Button/Tooltip/RoboticsBay=Colossus tech structure.
+Button/Tooltip/RoboticsBayColossus=<c val="ffff8a">Enables:</c><n/>- Colossus at the Robotics Facility
+Button/Tooltip/RoboticsBayColossusPurifier=<c val="ffff8a">Enables:</c><n/>- Colossus at the Robotics Facility
+Button/Tooltip/RoboticsBayColossusTaldarim=<c val="ffff8a">Enables:</c><n/>- Wrathwalker at the Robotics Facility
+Button/Tooltip/RoboticsBayReaver=Reaver tech structure.<n/><n/><c val="ffff8a">Enables:</c><n/>- Reaver at the Robotics Facility
+Button/Tooltip/RoboticsFacility=Warps in Protoss robotic units.
+Button/Tooltip/RoboticsFacilityImmortal=Warps in Protoss robotic units.<n/><n/><c val="ffff8a">Enables:</c></n>- Immortals
+Button/Tooltip/RoboticsFacilityImmortalAiur=Warps in Protoss robotic units.<n/><n/><c val="ffff8a">Enables:</c></n>- Immortals
+Button/Tooltip/RoboticsFacilityImmortalShakuras=Warps in Protoss robotic units.<n/><n/><c val="ffff8a">Enables:</c></n>- Annihilators
+Button/Tooltip/RoboticsFacilityImmortalTaldarim=Warps in Protoss robotic units.<n/><n/><c val="ffff8a">Enables:</c></n>- Vanguards
+Button/Tooltip/RoboticsFacilityWarp=Warps in Protoss robotic units.
+Button/Tooltip/RoguePurifier=A powerful rogue Purifier whose AI has become irreversibly unstable.
+Button/Tooltip/RoguePurifierSupportDroneA=A support drone programmed to accompany a Warden and provide additional firepower.
+Button/Tooltip/RoguePurifierSupportDroneB=A support drone programmed to accompany a Warden and recharge its shields.
+Button/Tooltip/RuneShield5=Insulates units within its radius against storms in the region.
+Button/Tooltip/RuneShieldOff=Turn Rune Shield Off
+Button/Tooltip/RuneShieldOn=Turn Rune Shield On
+Button/Tooltip/SOAAutoAssimilator=Vespene Gas is automatically harvested from Assimilators without requiring Probes.<n/><n/><c val="ffff8a">Passive ability.</c>
+Button/Tooltip/SOACheatDeath=Rescues a unit from certain death, allowing it to be warped back in for free at any time. Must be warped in within a Pylon power field.<n/><n/><c val="FFFF00"> Can store up to 20 supply worth of units at a time. </c>
+Button/Tooltip/SOACheatDeathBackup=Rescues a unit from certain death, allowing it to be warped back in for free at any time. Must be warped in within a Pylon power field.<n/><n/><c val="FFFF00"> Can store up to 20 supply worth of units at a time. </c><n/>Zealot: <d ref="Effect,SOACDZe,Amount"/><n/>Stalker: <d ref="Effect,SOACDSt,Amount"/><n/>Sentry: <d ref="Effect,SOACDSe,Amount"/><n/>High Templar: <d ref="Effect,SOACDHt,Amount"/><n/>Dark Templar: <d ref="Effect,SOACDDt,Amount"/><n/>Immortal: <d ref="Effect,SOACDIm,Amount"/><n/>Colossus: <d ref="Effect,SOACDCo,Amount"/><n/>Phoenix: <d ref="Effect,SOACDPh,Amount"/><n/>VoidRay: <d ref="Effect,SOACDVr,Amount"/><n/>Carrier: <d ref="Effect,SOACDCa,Amount"/>
+Button/Tooltip/SOAChronoBeam=Increase the production speed of the target building. Lasts for <d time="40"/>.
+Button/Tooltip/SOACloak=Target friendly units gain cloak for <d time="10"/>.
+Button/Tooltip/SOAConstructionTime= All buildings warp in quicker.
+Button/Tooltip/SOADisabled1=This system has taken heavy damage and can no longer be used.
+Button/Tooltip/SOADisabled2=This system has taken heavy damage and can no longer be used.
+Button/Tooltip/SOADisabled3=This system has taken heavy damage and can no longer be used.
+Button/Tooltip/SOADisabled4=This system has taken heavy damage and can no longer be used.
+Button/Tooltip/SOADragoonRevive=Warp in a Dragoon. Consumes a charge.<n/><n/>Gain a Dragoon charge: When a Zealot is killed, it has a 50% chance of surviving death and be placed into a Dragoon body. 
+Button/Tooltip/SOAEmergencyRecall=Instantly teleport all of your forces to the Core.
+Button/Tooltip/SOAFenix=Deploys Fenix onto the battlefield, dealing 200 damage to enemy units in the target area upon impact.<n/><n/>Fenix attacks on his own and can cast Whirlwind, Thunderous Charge and Shield Capacitors.<n/><n/>Fenix leaves the battlefield after <d time="30"/>.
+Button/Tooltip/SOAFenixUpgraded=Deploys Talandar onto the battlefield, dealing 200 damage to enemy units in the target area upon impact.<n/><n/>Talandar attacks on his own and can cast Whirlwind, Thunderous Charge and Shield Capacitors.<n/><n/>Talandar leaves the battlefield after <d time="30"/>.
+Button/Tooltip/SOAGlobalChrono= Apply chrono boost to all production and research buildings.
+Button/Tooltip/SOAGlobalCloak=All friendly units gain Cloak for <d time="10"/>.
+Button/Tooltip/SOAGravitonBomb=Drops 3 Temporal Fields that freeze enemy units and structures in time for <d ref="Effect,SOAGravitonBombCP,PeriodCount * Effect,SOAGravitonBombCP,PeriodicPeriodArray[0]"/> seconds.<n/><n/><c val="#ColorAttackInfo">Heroic units are slowed by <d ref="Behavior,SOAGravitonBombHeroicUnit,Modification.AttackSpeedMultiplier * 100"/>%.</c>
+Button/Tooltip/SOAHarvestingBeam=Orbitally extracts either 300 Minerals or 200 Vespene Gas from a target Mineral Field or Vespene Geyser.
+Button/Tooltip/SOAHeroicShield=Friendly units become invulnerable for <d time="5"/>, preventing death. Each unit can be shielded only once every <d time="60"/>.<n/><n/><c val="ffff8a">Passive ability.</c>
+Button/Tooltip/SOAInspiration=Target friendly units gain 50% attack and movement speed increase for <d time="10"/>.
+Button/Tooltip/SOALaserAttack=Strike an enemy instantly with an orbital laser for 200 damage.
+Button/Tooltip/SOAMatrixOverload=All friendly units gain <d ref="Behavior,MatrixOverloadTarget,Modification.MoveSpeedMultiplier*100-100"/>% movement speed and <d ref="Behavior,MatrixOverloadTarget,Modification.AttackSpeedMultiplier*100-100"/>% attack speed within Pylon power fields. Effect lasts for up to <d ref="Behavior,MatrixOverloadTarget,Duration"/> seconds after leaving.<n/><n/><c val="ffff8a">Passive ability.</c>
+Button/Tooltip/SOAMothership=Warp in a powerful Purifier Mothership that lasts for 5 min. Has Blink Strike and Graviton Pulse abilities.
+Button/Tooltip/SOAMothershipBlink=Teleports the Mothership to target location.
+Button/Tooltip/SOAMothershipBlinkStrike=Blink to target location and fire <d ref="Effect,SOAMothershipBlinkStrikeCP,PeriodCount-1"/> shots below the Mothership, dealing <d ref="Effect,SOAMothershipBlinkStrikeDamage,Amount"/> (<d ref="Effect,SOAMothershipBlinkStrikeDamage,Amount+Effect,SOAMothershipBlinkStrikeDamage,AttributeBonus[Armored]"/> vs Armored units) damage per shot.
+Button/Tooltip/SOAMothershipGravitonPulse=Enemy units within range 5 of the Mothership are lifted into the air for <d time="10"/>.<n/><n/><c val="ffff8a">Massive and Heroic enemies are immune.</c>
+Button/Tooltip/SOAMothershipLineAttack=Deals <d ref="Effect,SOAMothershipLineAttackDamage,Amount"/> damage to all enemies in a straight line up to 10 range away.
+Button/Tooltip/SOAMothershipv4=Ultimate Protoss vessel.<n/><n/><c val="ffff8a">Can attack ground and air units.</c>
+Button/Tooltip/SOAOrbitalStrike=Fire 5 lasers onto the battlefield from orbit, each of them dealing <d ref="Effect,SOAOrbitalStrikeDamage,Amount"/> (<d ref="Effect,SOAOrbitalStrikeDamage,AttributeBonus[Armored]+Effect,SOAOrbitalStrikeDamage,Amount"/> vs armored units) area damage.
+Button/Tooltip/SOAPhotonCannon= Photon cannons gain a high damage single target attack ability.
+Button/Tooltip/SOAPlanetCrackerA=Unleash a massive area of effect attack at the target location. The beam can be moved after casting.
+Button/Tooltip/SOAProtoTitan=Summon a mighty Proto Titan to fight for you until it is killed. This ability may only be used once per mission.
+Button/Tooltip/SOAProxyPylon=Quickly warps in a Pylon to any visible location.
+Button/Tooltip/SOAPurification=Deals <d ref="Effect,SOAPurification,PeriodCount*Effect,SOAPurificationInitialDamage,Amount"/> damage (<d ref="Effect,SOAPurification,PeriodCount*(Effect,SOAPurificationInitialDamage,Amount+Effect,SOAPurificationInitialDamage,AttributeBonus[Structure])"/> damage vs structures) to enemies in the target area. Targets also take an additional <d ref="Behavior,SOAPurificationBurning,Duration/Behavior,SOAPurificationBurning,Period*Effect,SOAPurificationBurningDamage,Amount"/> damage over <d ref="Behavior,SOAPurificationBurning,Duration"/> seconds.
+Button/Tooltip/SOAPurifierBeam=Fires a beam that deals <d ref="Effect,SOAPurifierBeamDamage,Amount*Behavior,SOAPurifierBeamFiring,Duration*(1/Behavior,SOAPurifierBeamFiring,Period)" player="current"/> (<d ref="(Effect,SOAPurifierBeamDamage,Amount+Effect,SOAPurifierBeamDamage,AttributeBonus[Armored])*Behavior,SOAPurifierBeamFiring,Duration*(1/Behavior,SOAPurifierBeamFiring,Period)" player="current"/> vs Armored) damage over <d ref="Behavior,SOAPurifierBeamFiring,Duration" player="current"/> seconds. The beam will auto-acquire targets if not manually controlled.
+Button/Tooltip/SOAPurifierMothership=Summon a purifier mothership that deals massive damage.
+Button/Tooltip/SOAPylonOvercharge= Targeted Pylon draws energy from the Spear of Adun, gaining <d ref="Behavior,SOAPylonWeapon,Modification.VitalMaxArray[Shields]"/> shields and a powerful attack. Lasts <d ref="Behavior,SOAPylonWeapon,Duration"/> seconds.
+Button/Tooltip/SOAPylonPower=Project a power field onto the target location. Using this ability again will move the power field to a new location. Your ally may also use this field.
+Button/Tooltip/SOAQuatro=Your units now begin missions with one level of Weapon, Armor and Shield upgrades. Weapon upgrades increase damage by 10% to 15%.<n/><n/>An additional level of upgrades are now available, allowing units to reach 4 levels of upgrades.<n/><n/><c val="ffff8a">Passive ability.</c>
+Button/Tooltip/SOARadar=The Nexus automatically attacks nearby enemy ground and air units for <d ref="Effect,MothershipCoreWeaponDamage,Amount"/> damage.<n/><n/><c val="ffff8a">Passive ability.</c>
+Button/Tooltip/SOARadarNexus=The Nexus automatically attacks nearby enemy ground and air units for <d ref="Effect,MothershipCoreWeaponDamage,Amount"/> damage.<n/><n/><c val="ffff8a">Passive ability.</c>
+Button/Tooltip/SOARecall=Instantly teleports all friendly units in the target area to your primary Nexus. Protects teleported units with a barrier that absorbs up to <d ref="Behavior,SOASuperShield,DamageResponse.ModifyLimit"/> damage and lasts for <d ref="Behavior,SOASuperShield,Duration"/> seconds.
+Button/Tooltip/SOARepairBeam=Mechanical units are automatically repaired for <d ref="Effect,SOARepairBeamHeal,RechargeVitalRate"/>  (<d ref="Effect,SOARepairBeamHealStructure,RechargeVitalRate"/> for structures) life per second. Up to 3 targets can be repaired at once.<n/><n/><c val="ffff8a">Passive ability.</c>
+Button/Tooltip/SOAShieldBattery= Drones can build Shield batteries.
+Button/Tooltip/SOAShieldRegen=Increased Shield Regeneration rate
+Button/Tooltip/SOAShieldRegeneration= Restores <d ref="Effect,SOAShieldRegenerationMU,VitalArray[Shields].Change*(Behavior,SOAShieldRegeneration,Duration/Behavior,SOAShieldRegeneration,Period)"/> shields over <d ref="Behavior,SOAShieldRegeneration,Duration"/> seconds for all units and structures.
+Button/Tooltip/SOAShieldRestore=Units regenerate shields more quickly in the target area. Lasts for <d time="60"/>.
+Button/Tooltip/SOAStarfall= Attacks units randomly in an area.
+Button/Tooltip/SOAStrafeAttack=Fires <d ref="(Behavior,SOAStrafeAttack,Duration/Behavior,SOAStrafeAttack,Period)"/> random shots from the Spear of Adun, devastating the target area for <d time ="15"/>. Each shot deals <d ref="Effect,SOAStrafeAttackDamage,Amount"/> (<d ref="(Effect,SOAStrafeAttackDamage,Amount) + (Effect,SOAStrafeAttackDamage,AttributeBonus[Armored])"/> vs Armored) area damage.
+Button/Tooltip/SOAStrafeAttackUnit=Choose a location to strafe.
+Button/Tooltip/SOASuperChrono=Increases the target structure's unit warp in and research speeds by 1000% for <d time="20"/>.
+Button/Tooltip/SOASuperPowerField=All friendly units gain a <d ref="Behavior,MatrixOverloadTarget,Modification.MoveSpeedMultiplier*100-100"/>% bonus to movement speed and a <d ref="Behavior,MatrixOverloadTarget,Modification.AttackSpeedMultiplier*100-100"/>% bonus to attack speed while positioned within a Pylon's power field. Effect lasts for up to <d ref="Behavior,MatrixOverloadTarget,Duration"/> seconds after leaving the power field.<n/><n/><c val="ffff8a">Passive ability.</c>
+Button/Tooltip/SOASuperShield=Allows friendly units and structures to absorb up to <d ref="Behavior,SOASuperShield,DamageResponse.ModifyLimit" player="current"/> damage. Lasts for <d ref="Behavior,SOASuperShield,Duration"/> seconds.
+Button/Tooltip/SOAThermalLance=Strafes the target area with 3 laser beams, dealing <d ref="Effect,SOAThermalLanceDamage,Amount"/> damage with each beam.
+Button/Tooltip/SOATimeFreeze=Freezes all enemies in time for <d ref="Behavior,SOATimeFreeze,Duration"/> seconds.
+Button/Tooltip/SOATimeWarp=Enemies in the target area are slowed to a stand still. Lasts for <d time="15"/>.
+Button/Tooltip/SOAVortex=Target group of enemies are caught within a gravity Vortex and destroyed.
+Button/Tooltip/SOAVortexStorm=Generate 3 wandering Vortex Storms that each deal 900 damage to enemy units and structures over <d time="30"/>.
+Button/Tooltip/SOAWarpGateCharges=Increases the number of charges on Warp Gates, Star Warp Gates and Robotics Warp Facilities by 2.<n/><n/><c val="ffff8a">Passive ability.</c>
+Button/Tooltip/SOAWarpInReinforcements=Quickly warps in a Pylon with 2 Zealots and 2 Stalkers to any visible location.
+Button/Tooltip/SOAWarpInReinforcementsAdept=Quickly warps in a Pylon with 2 Zealots and 2 Adepts to any visible location.
+Button/Tooltip/SOAWarpInReinforcementsDragoon=Quickly warps in a Pylon with 2 Zealots and 2 Dragoons to any visible location.
+Button/Tooltip/SOAWarpInReinforcementsStalker=Quickly warps in a Pylon with 2 Zealots and 2 Stalkers to any visible location.
+Button/Tooltip/SOAWarpInReinforcementsStalkerPurifier=Quickly warps in a Pylon with 2 Zealots and 2 Resistors to any visible location.
+Button/Tooltip/SOAWarpInReinforcementsStalkerShakuras=Quickly warps in a Pylon with 2 Zealots and 2 Stalkers to any visible location.
+Button/Tooltip/SOAWarpInReinforcementsZealot=Quickly warps in a Pylon with 2 Zealots and 2 Stalkers to any visible location.
+Button/Tooltip/SOAWarpInReinforcementsZealotAdept=Quickly warps in a Pylon with 2 Zealots and 2 Adepts to any visible location.
+Button/Tooltip/SOAWarpInReinforcementsZealotAiur=Quickly warps in a Pylon with 2 Zealots and 2 Stalkers to any visible location.
+Button/Tooltip/SOAWarpInReinforcementsZealotAiurAdept=Quickly warps in a Pylon with 2 Zealots and 2 Adepts to any visible location.
+Button/Tooltip/SOAWarpInReinforcementsZealotAiurDragoon=Quickly warps in a Pylon with 2 Zealots and 2 Dragoons to any visible location.
+Button/Tooltip/SOAWarpInReinforcementsZealotAiurStalker=Quickly warps in a Pylon with 2 Zealots and 2 Stalkers to any visible location.
+Button/Tooltip/SOAWarpInReinforcementsZealotAiurStalkerPurifier=Quickly warps in a Pylon with 2 Zealots and 2 Resistors to any visible location.
+Button/Tooltip/SOAWarpInReinforcementsZealotAiurStalkerShakuras=Quickly warps in a Pylon with 2 Zealots and 2 Stalkers to any visible location.
+Button/Tooltip/SOAWarpInReinforcementsZealotDragoon=Quickly warps in a Pylon with 2 Zealots and 2 Dragoons to any visible location.
+Button/Tooltip/SOAWarpInReinforcementsZealotPurifier=Quickly warps in a Pylon with 2 Sentinels and 2 Stalkers to any visible location.
+Button/Tooltip/SOAWarpInReinforcementsZealotPurifierAdept=Quickly warps in a Pylon with 2 Sentinels and 2 Adepts to any visible location.
+Button/Tooltip/SOAWarpInReinforcementsZealotPurifierDragoon=Quickly warps in a Pylon with 2 Sentinels and 2 Dragoons to any visible location.
+Button/Tooltip/SOAWarpInReinforcementsZealotPurifierStalker=Quickly warps in a Pylon with 2 Sentinels and 2 Stalkers to any visible location.
+Button/Tooltip/SOAWarpInReinforcementsZealotPurifierStalkerPurifier=Quickly warps in a Pylon with 2 Sentinels and 2 Resistors to any visible location.
+Button/Tooltip/SOAWarpInReinforcementsZealotPurifierStalkerShakuras=Quickly warps in a Pylon with 2 Sentinels and 2 Stalkers to any visible location.
+Button/Tooltip/SOAWarpInReinforcementsZealotShakuras=Quickly warps in a Pylon with 2 Centurions and 2 Stalkers to any visible location.
+Button/Tooltip/SOAWarpInReinforcementsZealotShakurasAdept=Quickly warps in a Pylon with 2 Zealots and 2 Adepts to any visible location.
+Button/Tooltip/SOAWarpInReinforcementsZealotShakurasDragoon=Quickly warps in a Pylon with 2 Centurions and 2 Dragoons to any visible location.
+Button/Tooltip/SOAWarpInReinforcementsZealotShakurasStalker=Quickly warps in a Pylon with 2 Centurions and 2 Stalkers to any visible location.
+Button/Tooltip/SOAWarpInReinforcementsZealotShakurasStalkerPurifier=Quickly warps in a Pylon with 2 Centurions and 2 Resistors to any visible location.
+Button/Tooltip/SOAWarpInReinforcementsZealotShakurasStalkerShakuras=Quickly warps in a Pylon with 2 Centurions and 2 Stalkers to any visible location.
+Button/Tooltip/SOAWarpInReinforcementsZealotStalker=Quickly warps in a Pylon with 2 Zealots and 2 Stalkers to any visible location.
+Button/Tooltip/SOAWarpInReinforcementsZealotStalkerPurifier=Quickly warps in a Pylon with 2 Zealots and 2 Resistors to any visible location.
+Button/Tooltip/SOAWarpInReinforcementsZealotStalkerShakuras=Quickly warps in a Pylon with 2 Zealots and 2 Stalkers to any visible location.
+Button/Tooltip/SOAWarpTech=Stargates and Robotics Facilities can transform to utilize Warp In technology. Warp In cooldowns are 20% faster than original build times.<n/><n/><c val="ffff8a">Passive ability.</c>
+Button/Tooltip/SacredJellyBeast=Fauna native to Slayn. Its body naturally produces Solarite.
+Button/Tooltip/Scout=Versatile air and ground attacker. Afterburners can be activated for a temporary speed boost.<n/><n/><c val="ffff8a">Can attack ground and air units.</c>
+Button/Tooltip/ScoutSpeedBoost=<n/>Increases the Scout's movement speed by 100% for <d time="20"/>.
+Button/Tooltip/SecurityNode=Warps in Protoss ground units.<n/><n/><c val="ffff8a">Enables:</c><n/>- Zealots
+Button/Tooltip/SecurityNode2=Warps in Protoss ground units.<n/><n/><c val="ffff8a">Enables:</c><n/>- Zealots
+Button/Tooltip/Sentry=Robotic support unit. Can use Shield Recharge and Guardian Shield.<n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c>
+Button/Tooltip/SentryAiur=Aiur Faction<n/>Robotic support unit. Can use Double Shield Recharge and Guardian Shield.<n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c>
+Button/Tooltip/SentryPassive=Cybernetics Core allows you to warp in Sentries.
+Button/Tooltip/SentryPhasing=Purifier Faction<n/>Robotic support unit. Creates power for nearby structures. Can use Chrono Beam and Mobile Mode.<n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c>
+Button/Tooltip/SentryPurifier=Purifier Faction<n/>Robotic support unit. Can use Chrono Beam and Phasing Mode.<n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c>
+Button/Tooltip/SentryTaldarimForceField=Creates a solid barrier that lasts for <d ref="Behavior,ForceFieldFate,Duration"/> seconds and impedes movement of ground units.<n/><n/><c val="#ColorAttackInfo">Massive units shatter Force Fields on contact.</c>
+Button/Tooltip/ShadeofNarud=A powerful behemoth birthed from the Void.
+Button/Tooltip/ShadowArchonControl=When killed, enemies that have been damaged by this unit will attack its allies for a short time before death.
+Button/Tooltip/ShadowBattlecruiser=Gigantic Terran Battlecruiser. Impervious to normal attacks.
+Button/Tooltip/ShadowBlade=Slashes an enemy unit for 500 damage.<n/><n/><c val="ffff8a">Can only target ground units.</c>
+Button/Tooltip/ShadowScrambler=Generates electromagnetic pulses that damage Protoss shields.
+Button/Tooltip/ShadowShieldGenerator=Large shield generator. Provides a shield bonus to all Terran units within its protection radius.
+Button/Tooltip/ShieldBattery=Restores shields to nearby friendly units and structures.
+Button/Tooltip/ShieldBatteryRecharge=Restores target unit or structure's shields.<n/><n/><c val="f078ff">Restores 3 shields per 1 energy.</c><n/><n/><c val="#ColorAttackInfo">Autocasting targets units and defensive structures only.</c>
+Button/Tooltip/ShrineGuardianDeath=
+Button/Tooltip/Slam=Slams the ground in a <d ref="Effect,SlamSearch,AreaArray[0].Arc"/> degree arc, dealing <d ref="Effect,SlamDamage,Amount"/> damage.
+Button/Tooltip/SlaynElemental=Fauna native to Slayn. Its body naturally produces Solarite.
+Button/Tooltip/SoulAbsorption=Alarak heals 20 Life and restores 20 Shields when a nearby biological unit is slain.
+Button/Tooltip/SpawningPool=<c val="ffff8a">Enables:</c><n/>- Queens at the Hatchery, Lair, or Hive<n/>- Zerglings from Larvae<n/>- Spine Crawlers from Drones<n/>- Spore Crawlers from Drones
+Button/Tooltip/SpearofAdunSingleTarget=Spear of Adun deals <d ref="Effect,SpearofAdunSingleTargetDamage,Amount"/> damage to target unit or structure from long range.
+Button/Tooltip/Spectre=Infiltration unit. Can use Ultrasonic Pulse and Cloak. Can also call down Tactical Nukes built at the Ghost Academy.<n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c>
+Button/Tooltip/SplitterBeastSplinter=Creates a Splitter Beast Splinter.
+Button/Tooltip/SporeCrawlerPassive=Spawning Pool allows you to mutate Drones into Spore Crawlers.
+Button/Tooltip/SquadSight=Increases the attack range of all nearby friendly units by <d ref="Behavior,ObserverSquadSight,Modification.WeaponRange"/>.
+Button/Tooltip/Stalker=Ranged attack strider. Can use Blink.<n/><n/><c val="ffff8a">Can attack ground and air units.</c>
+Button/Tooltip/StalkerAiur=Aiur Faction<n/>Ranged assault strider. Has enhanced life and attack damage.<n/><n/><c val="ffff8a">Can attack ground and air units.</c>
+Button/Tooltip/StalkerBlinkMultiple=Teleports the Stalker to a nearby target location. Ability regains a charge every <d ref="Abil,BlinkMultiple,Cost[0].Charge.TimeUse"/> seconds. Can store a maximum of 3 charges.
+Button/Tooltip/StalkerBlinkShieldRestoreBase=Teleports the Stalker to a nearby target location. Ability can only be used once every <d ref="Abil,Blink,Cost[0].Cooldown.TimeUse"/> seconds.
+Button/Tooltip/StalkerPassive=Cybernetics Core allows you to warp in Stalkers.
+Button/Tooltip/StalkerPurifier=Purifier Faction<n/>Ranged support strider. Can store multiple Blink charges.<n/><n/><c val="ffff8a">Can attack ground and air units.</c>
+Button/Tooltip/StalkerShakuras=Nerazim Faction<n/>Ranged attack strider. Shields are restored after using Blink.<n/><n/><c val="ffff8a">Can attack ground and air units.</c>
+Button/Tooltip/Stargate=Warps in Protoss air units.
+Button/Tooltip/StargateArbiterMP=Warps in Protoss air units.<n/><n/><c val="ffff8a">Enables:</c><n/>- Arbiters
+Button/Tooltip/StargateCorsairMP=Warps in Protoss air units.<n/><n/><c val="ffff8a">Enables:</c><n/>- Corsairs
+Button/Tooltip/StargateCorsairMPArbiterMP=Warps in Protoss air units.<n/><n/><c val="ffff8a">Enables:</c><n/>- Corsairs<n/>- Arbiters
+Button/Tooltip/StargateCorsairMPVoidRay=Warps in Protoss air units.<n/><n/><c val="ffff8a">Enables:</c><n/>- Corsairs<n/>- Void Rays
+Button/Tooltip/StargateCorsairMPVoidRayShakuras=Warps in Protoss air units.<n/><n/><c val="ffff8a">Enables:</c><n/>- Corsairs<n/>- Void Rays
+Button/Tooltip/StargateCorsairMPVoidRayTaldarim=Warps in Protoss air units.<n/><n/><c val="ffff8a">Enables:</c><n/>- Corsairs<n/>- Destroyers
+Button/Tooltip/StargatePhoenix=Warps in Protoss air units.<n/><n/><c val="ffff8a">Enables:</c><n/>- Phoenixes
+Button/Tooltip/StargatePhoenixAiur=Warps in Protoss air units.<n/><n/><c val="ffff8a">Enables:</c><n/>- Phoenixes
+Button/Tooltip/StargatePhoenixAiurArbiterMP=Warps in Protoss air units.<n/><n/><c val="ffff8a">Enables:</c><n/>- Phoenixes<n/>- Arbiters
+Button/Tooltip/StargatePhoenixAiurVoidRay=Warps in Protoss air units.<n/><n/><c val="ffff8a">Enables:</c><n/>- Phoenixes<n/>- Void Rays
+Button/Tooltip/StargatePhoenixAiurVoidRayShakuras=Warps in Protoss air units.<n/><n/><c val="ffff8a">Enables:</c><n/>- Phoenixes<n/>- Void Rays
+Button/Tooltip/StargatePhoenixAiurVoidRayTaldarim=Warps in Protoss air units.<n/><n/><c val="ffff8a">Enables:</c><n/>- Phoenixes<n/>- Destroyers
+Button/Tooltip/StargatePhoenixArbiterMP=Warps in Protoss air units.<n/><n/><c val="ffff8a">Enables:</c><n/>- Phoenixes<n/>- Arbiters
+Button/Tooltip/StargatePhoenixPurifierArbiterMP=Warps in Protoss air units.<n/><n/><c val="ffff8a">Enables:</c><n/>- Mirages<n/>- Arbiters
+Button/Tooltip/StargatePhoenixPurifierVoidRay=Warps in Protoss air units.<n/><n/><c val="ffff8a">Enables:</c><n/>- Mirages<n/>- Void Rays
+Button/Tooltip/StargatePhoenixPurifierVoidRayShakuras=Warps in Protoss air units.<n/><n/><c val="ffff8a">Enables:</c><n/>- Mirages<n/>- Void Rays
+Button/Tooltip/StargatePhoenixPurifierVoidRayTaldarim=Warps in Protoss air units.<n/><n/><c val="ffff8a">Enables:</c><n/>- Mirages<n/>- Destroyers
+Button/Tooltip/StargatePhoenixVoidRay=Warps in Protoss air units.<n/><n/><c val="ffff8a">Enables:</c><n/>- Phoenixes<n/>- Void Rays
+Button/Tooltip/StargatePhoenixVoidRayShakuras=Warps in Protoss air units.<n/><n/><c val="ffff8a">Enables:</c><n/>- Phoenixes<n/>- Void Rays
+Button/Tooltip/StargatePhoenixVoidRayTaldarim=Warps in Protoss air units.<n/><n/><c val="ffff8a">Enables:</c><n/>- Phoenixes<n/>- Destroyers
+Button/Tooltip/StargateScout=Warps in Protoss air units.<n/><n/><c val="ffff8a">Enables:</c><n/>- Scouts
+Button/Tooltip/StargateScoutArbiterMP=Warps in Protoss air units.<n/><n/><c val="ffff8a">Enables:</c><n/>- Scouts<n/>- Arbiters
+Button/Tooltip/StargateScoutVoidRay=Warps in Protoss air units.<n/><n/><c val="ffff8a">Enables:</c><n/>- Scouts<n/>- Void Rays
+Button/Tooltip/StargateScoutVoidRayShakuras=Warps in Protoss air units.<n/><n/><c val="ffff8a">Enables:</c><n/>- Scouts<n/>- Void Rays
+Button/Tooltip/StargateScoutVoidRayTaldarim=Warps in Protoss air units.<n/><n/><c val="ffff8a">Enables:</c><n/>- Scouts<n/>- Destroyers
+Button/Tooltip/StargateVoidRay=Warps in Protoss air units.<n/><n/><c val="ffff8a">Enables:</c><n/>- Void Rays
+Button/Tooltip/StargateVoidRayShakuras=Warps in Protoss air units.<n/><n/><c val="ffff8a">Enables:</c><n/>- Void Rays
+Button/Tooltip/StargateVoidRayTaldarim=Warps in Protoss air units.<n/><n/><c val="ffff8a">Enables:</c><n/>- Destroyers
+Button/Tooltip/StargateWarp=Enables warp in of Protoss air units.
+Button/Tooltip/StranglerBeast=
+Button/Tooltip/StranglerTentacleStrangle=Disable target unit.
+Button/Tooltip/SummonAcolytes=Summon Acolytes
+Button/Tooltip/SuperiorWarpGates=Warp Gates can hold up to 3 charges.<n/><n/><c val ="#ColorAttackInfo">Passive Ability.<c/>
+Button/Tooltip/TargetLock=Increases damage dealt to target enemy unit by <d ref="Behavior,ObserverTargetLock,Modification.DamageTakenFraction[Splash]*100"/>%. Effect lasts as long as the Havoc remains locked onto the target.
+Button/Tooltip/Tempest=Purifier Faction<n/>Siege artillery craft. Attacks from long range. Can use Disintegration.<n/><n/><c val="ffff8a">Can attack ground and air units.</c>
+Button/Tooltip/TempestFleetBeacon=Tempest tech Structure
+Button/Tooltip/TempestPassive=Fleet Beacon enables you to warp in Tempests.
+Button/Tooltip/TempestPurifier=Purifier Faction<n/>Siege artillery craft. Attacks from long range. Can use Disintegration.<n/><n/><c val="ffff8a">Can attack ground and air units.</c>
+Button/Tooltip/TemplarArchive=High Templar tech structure.
+Button/Tooltip/TemplarArchiveDarkArchon=<c val="ffff8a">Enables:</c><n/>- Dark Archons at the Gateway
+Button/Tooltip/TemplarArchiveHighArchonTemplar=<c val="ffff8a">Enables:</c><n/>- High Templar at the Gateway<n/>- Archon Merge from High Templar
+Button/Tooltip/TemplarArchiveHighTemplar=<c val="ffff8a">Enables:</c><n/>- High Templar at the Gateway<n/>- Archon Merge from High Templar
+Button/Tooltip/TemplarArchiveHighTemplarTaldarim=<c val="ffff8a">Enables:</c><n/>- Ascendants at the Gateway
+Button/Tooltip/TempleShakuras02=Houses powerful Xel'Naga technology capable of manipulating vast quantities of energy.
+Button/Tooltip/TerminalAccessBarrier=Quantum induction reactor powering the warp engines. Destroy it to drop the ship out of warp.
+Button/Tooltip/TerrazineTempleNESW=Powerful Ascendants who are fiercely loyal to Highlord Ma'lash.
+Button/Tooltip/TerrazineTempleNWSE=Powerful Ascendants who are fiercely loyal to Highlord Ma'lash.
+Button/Tooltip/TheBridgeAlpha01=Main structure. Protect this or the ship is destroyed.
+Button/Tooltip/ThermonuclearMissile=Flying spy. Cloak renders the unit invisible to enemies without detection.<n/><n/><c val="FFE303">Detector</c>
+Button/Tooltip/TimeWarp=Places target structure in a Chrono Boost, causing it to operate <d ref="((Behavior,TimeWarpProduction,Modification.TimeScale) - 1) * 100" precision="1"/>% faster.
+Button/Tooltip/Ulnar01Mechanism=Sophisticated mechanism that controls access to the Temple of Unification.
+Button/Tooltip/UltraliskCavern=<c val="ffff8a">Enables:</c><n/>- Ultralisks from Larvae
+Button/Tooltip/UltrasonicPulseEnhanced=Stuns enemy units in target area for a short time, including Heroic units.
+Button/Tooltip/UmbraSpireRebirth=Reactivates a Void Chasm
+Button/Tooltip/UpgradeToRoboticsFacilityWarp=Upgrades this Robotics Facility to a Warp Robotics Facility, allowing it to warp in units to any location powered by a Pylon.
+Button/Tooltip/UpgradeToStargateWarp=Upgrades this Stargate to a Warp Stargate, allowing it to warp in units to any location powered by a Pylon.
+Button/Tooltip/UpgradeToWarpGate=Upgrades this Gateway to a Warp Gate, allowing it to warp in units to any location powered by a Pylon.
+Button/Tooltip/UrunCarrier=Capital ship. Can build and launch Interceptors to make attacks.<n/><n/><c val="ffff8a">Can attack ground and air units.</c>
+Button/Tooltip/UrunsFury=Empowers a Transmogrifier
+Button/Tooltip/VindictusBlink=Teleport to another location
+Button/Tooltip/VoidCarrierNerazim=Nerazim Faction<n/>Capital ship. Can build and launch Interceptors to make attacks.  Can also perform bombing attacks.<n/><n/><c val="ffff8a">Can attack ground and air units.</c>
+Button/Tooltip/VoidChasm=Continually births unending waves of Amon's minions from the ether of the Void.
+Button/Tooltip/VoidColossusChargedBlast=Attacks a single unit or structure for heavy damage. Can attack while moving. Deals bonus damage to structures.
+Button/Tooltip/VoidColossusFireBeam=Attacks set fire to the ground, dealing an additional <d ref="Effect,ThermalLancesFireBeamDamage,Amount*Effect,ThermalLancesFireBeamCP,PeriodCount"/> damage to enemy ground units in the area over <d ref="Effect,ThermalLancesFireBeamCP,PeriodCount*Effect,ThermalLancesFireBeamCP,PeriodicPeriodArray[0]"/> seconds.
+Button/Tooltip/VoidColossusNerazim=
+Button/Tooltip/VoidColossusSlow=Enemies hit by the Colossus's attack have thier attack and movement speeds slowed.
+Button/Tooltip/VoidCorruption=A construct of highly concentrated Void energies.
+Button/Tooltip/VoidCrystal=A Xel'Naga artifact that is being used to open a portal to the Void.
+Button/Tooltip/VoidDarkTemplarDarkArchon=Two Dark Templar can merge together to form a Shadow Archon.
+Button/Tooltip/VoidDarkTemplarDeepShadowBlink=Teleport to a nearby target location and become undetectable for <d ref="Behavior,VoidDarkTemplarDeepShadows,Duration"/> seconds. Movement speed increased by <d ref="(Behavior,VoidDarkTemplarDeepShadows,Modification.MoveSpeedMultiplier-1)*100"/>% and can attack air and ground units for the duration. 
+Button/Tooltip/VoidDarkTemplarShadowFury=Jump from target to target, dealing <d ref="Effect,DarkTemplarShadowFuryDamage,Amount"/> damage with each jump. Hits <d ref="Behavior,DarkTemplarShadowFuryController,PeriodCount+1"/> times.
+Button/Tooltip/VoidHighTemplarCloak=Permanently cloaked.
+Button/Tooltip/VoidHighTemplarMindBlast=Deals <d ref="Effect,VoidHighTemplarMindBlastDamage,Amount"/> damage to target enemy unit.
+Button/Tooltip/VoidHighTemplarPsiOrb=Unleashes a traveling Psionic Orb that deals <d ref="Effect,VoidHighTemplarPsiOrbDamage,Amount/Effect,VoidHighTemplarPsiOrbPersistent,PeriodicPeriodArray[0]"/> damage per second to all enemies along its path.
+Button/Tooltip/VoidHighTemplarTerazine=Energy costs reduced by 67%.
+Button/Tooltip/VoidHighTemplarTwilightMessiah=Energy costs of Cripple and Psionic Storm abilities reduced by 67%.
+Button/Tooltip/VoidImmortalPurifierCannon=Deals 300 damage to target air or ground unit from long range.
+Button/Tooltip/VoidImmortalRevive=Revives itself when killed.
+Button/Tooltip/VoidPhoenixDisruptionWeb=Disables the attacks of all enemy units and structures in the target area for <d ref="Effect,CorsairMPDisruptionWebCreatePersistent,PeriodCount * Effect,CorsairMPDisruptionWebCreatePersistent,PeriodicPeriodArray[0]"/> seconds.
+Button/Tooltip/VoidPhoenixGravitonDamage=Graviton Beam now deals <d ref="Effect,PhoenixAiurGravitonBeamDamage,Amount/Behavior,PhoenixAiurGravitonBeam,Period*Behavior,PhoenixAiurGravitonBeam,Duration"/> damage over the <d ref="Behavior,PhoenixAiurGravitonBeam,Duration"/> second duration in addition to the stun.
+Button/Tooltip/VoidPhoenixPhasingArmor=Prevents the Mirage from taking damage for <d ref="Behavior,VoidPhoenixPhasingArmorBuff,Duration"/> seconds after being attacked. Cannot occur more than once every <d ref="Behavior,VoidPhoenixPhasingArmor,DamageResponse.Cost.Cooldown.TimeUse"/> seconds.
+Button/Tooltip/VoidPhoenixPurifier=Purifier Faction<n/>Air superiority starfighter. Can use Graviton Beam and Phasing Armor.<n/><n/><c val="ffff8a">Can attack air units.</c>
+Button/Tooltip/VoidPylon=Provides supply, allowing you to warp in more units. Provides power to nearby structures.
+Button/Tooltip/VoidRay=Surgical strike craft. Deals increased damage with prolonged attacks.<n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c>
+Button/Tooltip/VoidRayPrismaticAlignmentBase=Increases damage dealt by the Void Ray as it continues to attack, up to a maximum of +<d ref="Effect,VoidRayVoidEnhancedDamage,AttributeBonus[Armored]"/> damage to Armored units and structures.
+Button/Tooltip/VoidRayShakuras=Nerazim Faction<n/>Surgical strike craft. Has Prismatic Alignment and Prismatic Range abilities.<n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c>
+Button/Tooltip/VoidRaySwarmDamageBoost=Realigns the Void Ray's Prismatic Beam to gain +<d ref="Effect,VoidRayVoidEnhancedDamage,AttributeBonus[Armored]"/> damage vs. armored units for <d ref="Behavior,VoidRaySwarmDamageBoost,Duration[0]"/> seconds.
+Button/Tooltip/VoidRayTaldarim=Tal'darim Faction<n/>Area assault craft. Can use Destruction Beam to attack multiple units.<n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c>
+Button/Tooltip/VoidRayVoidDamageBoost=Realigns its Prismatic Beam to gain +<d ref="Behavior,VoidRayVoidDamageBoost,Modification.WeaponRange"/> range and +<d ref="Effect,VoidRayVoidEnhancedDamage,AttributeBonus[Armored]"/> damage vs. armored units for <d ref="Behavior,VoidRayVoidDamageBoost,Duration[0]"/> seconds.
+Button/Tooltip/VoidRayVoidPrismaticRange=Increases the range of the Void Ray's Prismatic Beam as it continues to attack, up to a maximum of +<d ref="Behavior,VoidRayChargeBeamRangePhase3,Modification.WeaponRange"/> range.
+Button/Tooltip/VoidReaverScarabDamage=Scarabs gain +25 damage.
+Button/Tooltip/VoidReaverSplashSize=Scarabs explosion range increase by 40%.
+Button/Tooltip/VoidRift=Continually summons Amon's minions from the Void.
+Button/Tooltip/VoidSentryBlackHole=Stuns enemy units in the target area for <d ref="Effect,VoidSentryBlackHolePersistent,PeriodCount*Effect,VoidSentryBlackHolePersistent,PeriodicPeriodArray[0]"/> seconds.
+Button/Tooltip/VoidSentryChronoBeam=Friendly target gains 50% attack and 50% movement speed.
+Button/Tooltip/VoidSentryCombatChrono=Increases a friendly unit's movement and attack speeds by 20%. Lasts <d time="20"/>.
+Button/Tooltip/VoidSentryCombatChronoAura=Creates a range 4 aura that increases the attack speed of all friendly units inside by 10%. Lasts <d time="15"/>.
+Button/Tooltip/VoidSentryForcePush=Forces away the targeted unit, pushing them back a long distance.
+Button/Tooltip/VoidSentryHallucination=Distract enemies with a hallucinated Zealot.
+Button/Tooltip/VoidSentryMobileMode=Transforms the Energizer to Mobile Mode. The Energizer can move, but no longer creates a power field.
+Button/Tooltip/VoidSentryNerazim=Purifier Faction<n/>Long range support unit. Can use Combat Chrono Aura and Force Push.<n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c>
+Button/Tooltip/VoidSentryPhasingMode=Transforms the Energizer to Phasing Mode and generates a power field as if it was a Pylon. The Energizer cannot move in this mode.
+Button/Tooltip/VoidSentryPurifierPassive=Cybernetics Core allows you to warp in Energizers.
+Button/Tooltip/VoidSentryShieldRepair=Recharges the shields of a friendly Protoss unit. <n/><n/><c val="f078ff">Restores <d ref="Effect,VoidSentryShieldRepair,RechargeVitalRate*Effect,VoidSentryShieldRepair,DrainVitalCostFactor"/> shields per 1 energy.</c>
+Button/Tooltip/VoidSentryShieldRepairDouble=Recharges the shields of two friendly Protoss units. <n/><n/><c val="f078ff">Restores <d ref="Effect,VoidSentryShieldRepair,RechargeVitalRate*Effect,VoidSentryShieldRepair,DrainVitalCostFactor"/> shields per 1 energy.</c>
+Button/Tooltip/VoidShard=A construct of the Void. Drains life from nearby sources to feed Amon's Host Body.
+Button/Tooltip/VoidShieldCapacitor=Fully restores Fenix's shields. Autocasting activates Shield Capacitor when Fenix's shields have been depleted.
+Button/Tooltip/VoidShrine=Powerful Ascendants who are fiercely loyal to Highlord Ma'lash.
+Button/Tooltip/VoidSpearofAdun=Ultimate Protoss vessel.
+Button/Tooltip/VoidStalkerAssaultBlink=Annihilator gains <d ref="(Behavior,VoidStalkerBlinkAttackSpeed,Modification.AttackSpeedMultiplier-1)*100"/>% attack speed for <d ref="Behavior,VoidStalkerBlinkAttackSpeed,Duration"/> seconds after using Blink.
+Button/Tooltip/VoidStalkerBlinkShieldRestore=Restores <d ref="Effect,VoidStalkerBlinkRestoreModifyUnit,VitalArray[Shields].Change*(Behavior,VoidStalkerBlinkShieldRestore,Duration/Behavior,VoidStalkerBlinkShieldRestore,Period)"/> shields over <d ref="Behavior,VoidStalkerBlinkShieldRestore,Duration"/> seconds upon using Blink.
+Button/Tooltip/VoidStalkerDragoonArmor=The durable chassis of Dragoons provides them additional life over other striders.
+Button/Tooltip/VoidStalkerDragoonWeapon=Dragoons fire a slow but powerful anti-matter bolt.
+Button/Tooltip/VoidStalkerMultishot=Attacks hit an additional nearby target dealing 80% damage.
+Button/Tooltip/VoidStasis=Disables the target's attacks, abilities, movement, detection, production and tech for <d ref="Behavior,DarkTemplarVoidStasis,Duration"/> seconds. Units and structures in stasis cannot be attacked or affected by abilities.<n/><n/><c val="#ColorAttackInfo">Can target ground units and structures.</c>
+Button/Tooltip/VoidThrasher=A powerful behemoth birthed from the Void.
+Button/Tooltip/VoidThrasherLightningAoE=Launches a lightning based ability that does area-of-effect damage at target location.
+Button/Tooltip/VoidThrasherLightningAoEExtra=Launches a lightning based ability that does area-of-effect damage at target location.
+Button/Tooltip/VoidThrasherRumble=Dangerous Void Thrasher. Slay it before it destroys the Warp Conduit.
+Button/Tooltip/VoidThrasherThrasherWave=Releases a burst of psionic energy radiating outward from the Void Thrasher, knocking away all units and stunning them momentarily.
+Button/Tooltip/VoidThrasherWalker=A powerful behemoth birthed from the Void.
+Button/Tooltip/VoidVoidRayBeamBounce=Prismatic Beam splits and deals damage to additional nearby targets as the Destroyer continues to attack, up to a maximum of 3 additional targets.
+Button/Tooltip/VoidVoidRayChargeBeam=Prismatic beam deals more damage to all armor types the longer the Void Ray remains in combat.
+Button/Tooltip/VoidVoidRayOverload=When activated Prismatic Alignment causes enemies to explode when killed, dealing damage to other nearby enemies. The more prismatic damage that enemy takes, the bigger and more damaging the explosion.
+Button/Tooltip/VoidZealotShadowCharge=Intercepts enemy ground units and increases movement speed. Briefly cloaks the Centurion and allows it to move through other units.
+Button/Tooltip/VoidZealotShadowChargeStun=Stuns target enemy ground unit and all nearby enemy ground units <d ref="Behavior,VoidZealotShadowChargeStun,Duration" precision="1"/> seconds.</n></n><c val="#ColorAttackInfo">Massive units are slowed.</c>
+Button/Tooltip/VoidZealotShieldRestore=Restores 50 shields to the Zealot.
+Button/Tooltip/VoidZealotSuperShield=Increases maximum shields from 50 to 250.
+Button/Tooltip/VoidZealotWhirlwind=Deals <d ref="Effect,VoidZealotWhirlwindDamage,Amount/Behavior,VoidZealotWhirlwind,Period"/> damage per second to all nearby enemy units. Lasts <d ref="Behavior,VoidZealotWhirlwind,Duration"/> seconds.
+Button/Tooltip/VorazunBlink=Teleports Vorazun to the targeted location and resets Shadow Fury's cooldown.
+Button/Tooltip/VorazunChampion=Matriarch of the Nerazim. Powerful cloaked warrior.
+Button/Tooltip/VorazunShadowFury=Rapidly teleport to random enemies within <d ref="Effect,VorazunShadowFurySearch,AreaArray[0].Radius"/> radius <d ref="Behavior,VorazunShadowFuryController,PeriodCount+1"/> times, attacking each of them for <d ref="Effect,VorazunShadowFuryDamage,Amount"/> damage. A single target can be hit more than once.<n/><n/><c val="FFFF00">Can target ground units.</c>
+Button/Tooltip/VulcanChampion=Templar phase-smith. Uses a pair of Servitors to perform ranged attacks.
+Button/Tooltip/WarpConduitShakuras01=Jump Gate connected to Shakuras's warp network. Only specialized craft can travel through the Gate.
+Button/Tooltip/WarpInActiveZeratulChampion=Zeratul is active.
+Button/Tooltip/WarpInAdept=Purifier Faction<n/>Ranged specialist. Can use Psionic Transfer.<n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c>
+Button/Tooltip/WarpInReplicant=Mimic unit. Can turn into a copy of an allied or enemy unit.
+Button/Tooltip/WarpInRoboticsWarpFacility=Enables warp in of Protoss robotic units.
+Button/Tooltip/WarpInScout=Purifier Faction<n/>Versitile air and ground attacker. Afterburners can be activated for a temporary speed boost.<n/><n/><c val="ffff8a">Can attack ground and air units.</c>
+Button/Tooltip/WarpInStarWarpGate=Enables warp in of Protoss air units.
+Button/Tooltip/WarpInWarpGate=Enables warp in of Protoss ground units.
+Button/Tooltip/WarpPrismGiant=Heavy duty Warp Prism powered by a pure Solarite reactor.
+Button/Tooltip/WarpPrismGiantPhasing=Heavy duty Warp Prism powered by a pure Solarite reactor.
+Button/Tooltip/WarpinPurifierUnits=Purifier Faction Units
+Button/Tooltip/WrathwalkerPassive=Robotics Bay allows you to warp in Wrathwalker.
+Button/Tooltip/XelNagaChargedCrystal=Receptacles of the temple's mysterious energies.
+Button/Tooltip/XelNagaChargedCrystalInert=Receptacles of the temple's mysterious energies.
+Button/Tooltip/XelNagaConstruct=Powerful guardians that test the strength of those who seek the Halls of Revelation.
+Button/Tooltip/XelNagaDevice=An enigmatic Xel'Naga artifact that continuously emits solar energy.
+Button/Tooltip/XelNagaShadowStep=Shadow step to the targeted location.
+Button/Tooltip/ZagaraVoidCoopBanelingBarrage=Launches <d ref="Effect,ZagaraVoidCoopBanelingBarrageCP,PeriodCount"/> Banelings towards the target point. Each Baneling explodes for <d ref="Effect,ZagaraVoidCoopBanelingBarrageExplodeSearchUnit,Amount"/> damage (<d ref="Effect,ZagaraVoidCoopBanelingBarrageExplodeSearchStructure,Amount"/> vs structures).
+Button/Tooltip/ZagaraVoidCoopBroodlingIncubation=Your ground units spawn a Broodling when they are killed.
+Button/Tooltip/ZagaraVoidCoopCooldowns=Zagara's abilities have their cooldown and energy cost reduced by 20%.
+Button/Tooltip/ZagaraVoidCoopCreepBonuses=Your units and structures gain increased life regeneration and 30% increased attack speed while on creep. Creep Tumors also spread creep faster and farther. 
+Button/Tooltip/ZagaraVoidCoopCreepMasterRegen=Zagara's life regenerates faster on creep.
+Button/Tooltip/ZagaraVoidCoopFury=Each attack temporarily increases Zagara's attack speed by <d ref="(Behavior,ZagaraVoidCoopFury1,Modification.AttackSpeedMultiplier - 1) * 100"/>%. Can stack up to <d ref="(Behavior,ZagaraVoidCoopFury5,Modification.AttackSpeedMultiplier - 1) * 100"/>% increased attack speed.
+Button/Tooltip/ZagaraVoidCoopGasBonuses=Vespene gas harvesting efficiency increased by 25%.
+Button/Tooltip/ZagaraVoidCoopImprovedOverlords=Overlords morph instantly and provide 50% more supply.
+Button/Tooltip/ZagaraVoidCoopInfestBroodlings=Enemies damaged by Zagara become infested and will spawn <d ref="Effect,ZagaraVoidCoopInfestBroodlingsDeathCU,SpawnCount"/> Broodlings with timed life if killed quickly.
+Button/Tooltip/ZagaraVoidCoopInfestedPods=A drop pod lands at target area causing <d ref="Effect,ZagaraVoidCoopInfestedPodsImpactDamage,Amount"/> damage, <d ref="Effect,ZagaraVoidCoopInfestedPodsImpactCU,SpawnCount"/> Roachlings spawn at the target area. Does NOT require vision.
+Button/Tooltip/ZagaraVoidCoopNydusWorm=Summon a Greater Nydus Worm at target location. Units can enter a Worm and exit from another Worm very quickly. Can be cast MAP WIDE and used by your ally.
+Button/Tooltip/ZagaraVoidCoopRelentlessSwarmer=Zagara's supply cap is limited to 100, but her combat units have reduced resource costs and morph times.
+Button/Tooltip/ZagaraVoidCoopSpawnBroodlings=Infests an enemy unit. When it is killed, it will spawn broodlings.
+Button/Tooltip/ZagaraVoidCoopSpawnHunterKillers=Spawns <d ref="Effect,ZagaraVoidCoopSpawnHunterKillersCU,SpawnCount"/> Hunter Killers at the target point that last <d ref="Behavior,ZagaraVoidCoopSpawnHunterKillersTimedLife,Duration"/> seconds.
+Button/Tooltip/ZagaraVoidCoopWildInfestation=Targeted zerg unit gains +<d ref="Behavior,ZagaraVoidCoopWildInfestation,Modification.VitalMaxArray[1]"/> maximum life and <d ref="(Behavior,ZagaraVoidCoopWildInfestation,Modification.AttackSpeedMultiplier - 1) * 100"/>% increased attack speed.<n/><n/><c val="ffff8a">Does not affect heroic units.</c>
+Button/Tooltip/ZagaraVoidCoopZerglingRespawn=Killed Zerglings respawn from your primary Hatchery at no cost. Respawns up to <d ref="Effect,ZerglingRespawnTooltipDummy,SpawnCount"/> Zerglings every <d time="30"/> until all Zerglings have returned to life.
+Button/Tooltip/ZakoomCrystalFragment=
+Button/Tooltip/Zealot=Powerful melee warrior. Can use Charge.<n/><n/><c val="ffff8a">Can attack ground units.</c>
+Button/Tooltip/ZealotAiur=Aiur Faction<n/>Powerful melee warrior. Has Charge and Whirlwind abilities.<n/><n/><c val="ffff8a">Can attack ground units.</c>
+Button/Tooltip/ZealotHallucination=Powerful melee warrior.<n/><n/><c val="ffff8a">Can attack ground units.</c>
+Button/Tooltip/ZealotPurifier=Purifier Faction<n/>Powerful melee warrior. Has Charge and Reconstruction abilities.<n/><n/><c val="ffff8a">Can attack ground units.</c>
+Button/Tooltip/ZealotPurifierRevive=Revives the Sentinel when killed. This effect can only occur once every <d ref="Behavior,ZealotPurifierReviveSupressed,Cost.Cooldown.TimeStart"/> seconds.
+Button/Tooltip/ZealotShakuras=Nerazim Faction<n/>Powerful melee warrior. Has Shadow Charge and Darkcoil abilities.<n/><n/><c val="ffff8a">Can attack ground units.</c>
+Button/Tooltip/ZenithStone=Regulates the flow of energy within the Xel'Naga temple.
+Button/Tooltip/ZeratulVoidPrisonAiur01=Creates a large dome in which enemies are slowed to a standstill.
+Unit/Category/HybridAiur01Units=Hybrid
+Unit/Category/ProtossUnits=Protoss
+Unit/Category/ZergUnits=Zerg
+Unit/InfoText/GasCanisterEX2Protoss100=Use any ground unit to collect 100 Vespene gas.
+Unit/InfoText/GasCanisterEX2Protoss200=Use any ground unit to collect 200 Vespene gas.
+Unit/InfoText/GasCanisterEX2Protoss25=Use any ground unit to collect 25 Vespene gas.
+Unit/InfoText/GasCanisterEX2Protoss50=Use any ground unit to collect 50 Vespene gas.
+Unit/InfoText/GasCanisterLargeProtoss=Use any ground unit to collect 200 vespene gas.
+Unit/InfoText/KerriganVoidCoopEconDrop1=Use any ground unit to collect 100 minerals.
+Unit/InfoText/LargePalletMinerals=Use any ground unit to collect 250 minerals.
+Unit/InfoText/NaturalGasAir=Use any unit to collect 100 vespene gas.
+Unit/InfoText/NaturalMineralsAir=Use any unit to collect 100 minerals.
+Unit/InfoText/XelNagaDevice=Xel'Naga Relic
+Unit/LifeArmorName/HybridAiur01Armor=Hybrid Armor
+Unit/LifeArmorName/HybridArmor=Void Carapace
+Unit/LifeArmorName/ProtossArmor=Protoss Armor
+Unit/LifeArmorName/ProtossBuildingPlating=Protoss Armor
+Unit/LifeArmorName/ProtossPlating=Protoss Plating
+Unit/LifeArmorName/SlaynElemental=Elemental Armor
+Unit/LifeArmorName/VoidArmor=Void Carapace
+Unit/LifeArmorName/XelNagaPlating=Xel'Naga Plating
+Unit/LifeArmorName/ZergBuildingArmor=Zerg Building Armor
+Unit/LifeArmorName/ZergGroundArmor=Zerg Ground Carapace
+Unit/Name/AdunGenerator=Power Cell
+Unit/Name/Aiur01MechanismDisabler=Constriction
+Unit/Name/Aiur03MechanismDisabler=Constriction
+Unit/Name/AiurCityWarpGateAbandoned=Protoss Warp Conduit
+Unit/Name/AiurRockDebris2x2=Rock Debris
+Unit/Name/AiurRockDebris4x4=Rock Debris
+Unit/Name/AiurTempleStoneGate=Aiur Temple Stone Gate
+Unit/Name/AiurTempleStoneGateDiagonalBLUR=Aiur Temple Stone Gate Diagonal BLUR FF
+Unit/Name/AiurTempleStoneGateDiagonalBLURLowered=Aiur Temple Stone Gate Diagonal BLUR FF Lowered
+Unit/Name/AiurTempleStoneGateDiagonalBLURRF=Aiur Temple Stone Gate Diagonal BLUR RF
+Unit/Name/AiurTempleStoneGateDiagonalBLURRFLowered=Aiur Temple Stone Gate Diagonal BLUR RF Lowered
+Unit/Name/AiurTempleStoneGateDiagonalULBR=Aiur Temple Stone Gate Diagonal ULBR FF
+Unit/Name/AiurTempleStoneGateDiagonalULBRLowered=Aiur Temple Stone Gate Diagonal ULBR FF Lowered
+Unit/Name/AiurTempleStoneGateDiagonalULBRRF=Aiur Temple Stone Gate Diagonal ULBR RF
+Unit/Name/AiurTempleStoneGateDiagonalULBRRFLowered=Aiur Temple Stone Gate Diagonal ULBR RF Lowered
+Unit/Name/AiurTempleStoneGateStraightHorizontalBF=Aiur Temple Stone Gate Straight Horizontal BF
+Unit/Name/AiurTempleStoneGateStraightHorizontalBFLowered=Aiur Temple Stone Gate Straight Horizontal BF Lowered
+Unit/Name/AiurTempleStoneGateStraightHorizontalFF=Aiur Temple Stone Gate Straight Horizontal FF
+Unit/Name/AiurTempleStoneGateStraightHorizontalFFLowered=Aiur Temple Stone Gate Straight Horizontal FF Lowered
+Unit/Name/AiurTempleStoneGateStraightVerticalLF=Aiur Temple Stone Gate Straight Vertical LF
+Unit/Name/AiurTempleStoneGateStraightVerticalLFLowered=Aiur Temple Stone Gate Straight Vertical LF Lowered
+Unit/Name/AiurTempleStoneGateStraightVerticalRF=Aiur Temple Stone Gate Straight Vertical RF
+Unit/Name/AiurTempleStoneGateStraightVerticalRFLowered=Aiur Temple Stone Gate Straight Vertical RF Lowered
+Unit/Name/AlarakChampion=Alarak
+Unit/Name/AlarakPsiOrbMissile=Alarak Psi Orb Missile
+Unit/Name/AlarakPsiOrbUpgraded=Alarak Psi Orb Upgraded
+Unit/Name/AlarakSoulStealDummyAttackMissile=Alarak Soul Steal Dummy Attack Missile
+Unit/Name/AmonAetherMawEpilogue03=Aether Maw
+Unit/Name/AmonCrystalEpilogue03=Void Crystal
+Unit/Name/AmonEpilogue03Unit=Amon
+Unit/Name/AmonHostBody=Amon's Host
+Unit/Name/AmonHostDeathBeamUnit=Amon Host Death Beam Unit
+Unit/Name/AmonRepulserField=Amon Repulser Field
+Unit/Name/AmonRepulserField20=Amon Repulser Field (20)
+Unit/Name/AmonShardA=Torment Construct
+Unit/Name/AmonShardB=Rampage Construct
+Unit/Name/AmonShardBWeapon=Amon Shard BWeapon
+Unit/Name/AmonShardC=Oblivion Construct
+Unit/Name/AmonShardCWeapon=Amon Shard CWeapon
+Unit/Name/AmonShardD=World Cleaver
+Unit/Name/AncientXelNagaArtifact=Aiur Psi-Reactor
+Unit/Name/AnnihilatorStalkerGroundWeapon=Annihilator Stalker
+Unit/Name/AntiGravitonBurstMissile=Anti Graviton Burst Missile
+Unit/Name/ArchiveShakuras=Vault
+Unit/Name/ArchiveShakurasSealed=Vault
+Unit/Name/ArtanisBlinkAiur02Missile=Blink Missile
+Unit/Name/ArtanisLightningDashMissile=Artanis Lightning Dash Missile
+Unit/Name/ArtanisVoid=Artanis
+Unit/Name/ArtanisVoidUlnarWeapon=Artanis Void Ulnar Weapon
+Unit/Name/ArtanisVoidWeapon=Artanis Void Weapon
+Unit/Name/ArtifactAiur06=Keystone
+Unit/Name/ArtifactChamber=Keystone Platform
+Unit/Name/ArtifactUlnarA=Temple Door Key
+Unit/Name/ArtifactUlnarB=Temple Door Key
+Unit/Name/ArtifactUlnarPedestalBlue=Artifact Pedestal
+Unit/Name/ArtifactUlnarPedestalOrange=Artifact Pedestal
+Unit/Name/AssimilatorProtossGeyser=Assimilator
+Unit/Name/AssimilatorPurifierGeyser=Assimilator
+Unit/Name/AssimilatorShakurasGeyser=Assimilator
+Unit/Name/AutomatedAssimilator=Orbital Assimilator
+Unit/Name/BanelingEggNestVoid=Baneling Nest
+Unit/Name/BeamCaster=Beam Caster
+Unit/Name/BossTargetFlying=Boss Target Flying
+Unit/Name/BroodlingEscort=Broodling
+Unit/Name/CarrierAiur=Carrier
+Unit/Name/CarrierInterceptorBombWeapon=Carrier Interceptor Bomb Weapon
+Unit/Name/CarrierRepairDrone=Repair Drone
+Unit/Name/CarrierTaldarim=Skylord
+Unit/Name/CelestialBeamPowerWeapon=Celestial Beam Power Weapon
+Unit/Name/CelestialBeamWeapon=Celestial Beam Weapon
+Unit/Name/CelestialLock=Celestial Lock
+Unit/Name/CelestialLockBurrowed=Mechanism
+Unit/Name/CelestialLockDisabler=Constriction
+Unit/Name/CollapsibleRockTowerDebrisPurifier02=Rocks
+Unit/Name/CollapsibleRockTowerDiagonalPurifier02=Rock Tower
+Unit/Name/CollapsibleRockTowerDiagonalPurifier02HighlightTooltip=Attack to collapse cave
+Unit/Name/CollapsibleRockTowerPurifier02=Rock Tower
+Unit/Name/CollapsibleRockTowerPushUnitPurifier02=Rocks
+Unit/Name/ColossusPurifier=Colossus
+Unit/Name/ColossusTaldarim=Wrathwalker
+Unit/Name/ConstrictionDisabler10x10=Constriction
+Unit/Name/ConstrictionDisabler2x2=Constriction
+Unit/Name/ConstrictionDisabler3x3=Constriction
+Unit/Name/ConstrictionDisabler4x4=Constriction
+Unit/Name/CreepBlocker13x13=Dynamic Creep Blocker 13x13
+Unit/Name/CreepPodsUnit=Creep Pods
+Unit/Name/CreepTumorQueenNoCreep=Creep Tumor No Creep
+Unit/Name/CreepTumorZagara=Creep Tumor
+Unit/Name/CybrosLock=Cybros Lock
+Unit/Name/DarkArchon=Dark Archon
+Unit/Name/DarkArchonWeapon=Dark Archon Weapon
+Unit/Name/DarkTemplarAiur=Avenger
+Unit/Name/DarkTemplarShakuras=Dark Templar
+Unit/Name/DarkTemplarShakurasWeapon=Dark Templar Shakuras Weapon
+Unit/Name/DarkTemplarShuttle=Nerazim Transport
+Unit/Name/DarkTemplarTalDarimShadowClone=Avenger
+Unit/Name/DarkTemplarTaldarim=Blood Hunter
+Unit/Name/DestructibleAiurDebris6x6=Destructible Aiur Debris
+Unit/Name/DisruptionWard=Disruption Ward
+Unit/Name/Dragoon=Dragoon
+Unit/Name/DuelBubbleUnit=Duel Bubble Unit
+Unit/Name/DuelBubbleUnitBlocker=Duel Bubble Unit Blocker
+Unit/Name/Epilogue02VoidRift=Void Rift
+Unit/Name/ExtractorPurifier=Extractor
+Unit/Name/ExtractorShakuras=Extractor
+Unit/Name/FenixChampion=Fenix
+Unit/Name/FenixChampionAirAirLeft=Fenix (Air) Air Left
+Unit/Name/FenixChampionAirAirRight=Fenix (Air) Air Right
+Unit/Name/FenixChampionWeapon=Fenix Weapon
+Unit/Name/FenixSOA=Fenix
+Unit/Name/FenixSOAUpgraded=Talandar
+Unit/Name/Flagship=Tal'darim Mothership
+Unit/Name/FlagshipInterceptor=Interceptor
+Unit/Name/ForceFieldEmitter=Atmosphere Stabilizer
+Unit/Name/GasBeamAutoPickup=Vespene Beam Auto Pickup
+Unit/Name/GasCanister=Vespene Canister
+Unit/Name/GasCanisterLargeProtoss=Vespene
+Unit/Name/GasCanisterProtoss=Vespene
+Unit/Name/GasCanisterProtoss25=Vespene
+Unit/Name/GasCanisterProtoss50=Vespene
+Unit/Name/GasCanisterZerg=Vespene Pod
+Unit/Name/GeneratorCore=Generator Core
+Unit/Name/GlaciusDefenseCannon=Glacius Plasma Cannon
+Unit/Name/GlaciusTechnologyVault=Technology Vault
+Unit/Name/HighArchonTemplar=High Templar
+Unit/Name/HighTemplarShakuras=Signifier
+Unit/Name/HighTemplarTaldarim=Ascendant
+Unit/Name/HighTemplarWeapon=High Templar Weapon
+Unit/Name/HybridBehemoth=Hybrid Behemoth
+Unit/Name/HybridBehemothAntiAirAttackWeapon=Hybrid Behemoth Anti Air Attack Weapon
+Unit/Name/HybridConsumeZergMissile=Hybrid - Consume Zerg (Missile)
+Unit/Name/HybridDominatorVoid=Hybrid Dominator
+Unit/Name/HybridDominatorVoidPlasmaWeapon=Hybrid Dominator Void Plasma Weapon
+Unit/Name/HybridGeneral=Hybrid Mastermind
+Unit/Name/HybridGeneralWeapon=Hybrid General Weapon
+Unit/Name/HybridHoldingCellSmallUnitVoid=Hybrid Stasis Chamber
+Unit/Name/HybridNemesis=Hybrid Nemesis
+Unit/Name/HybridNemesisStreamWeapon=Hybrid Nemesis Stream Weapon
+Unit/Name/ImmortalAiur=Immortal
+Unit/Name/ImmortalShakuras=Annihilator
+Unit/Name/ImmortalShakurasAntiAirMissile=Immortal Shakuras Anti-Air Missile
+Unit/Name/ImmortalShakurasShadowCannonMissile=Immortal Shakuras Shadow Cannon Missile
+Unit/Name/ImmortalTaldarim=Vanguard
+Unit/Name/ImmortalTaldarimWeaponMissile=Immortal Tal'darim Weapon Missile
+Unit/Name/InterceptorAiur=Interceptor
+Unit/Name/Invisible2x2=Invisible 2x2
+Unit/Name/Invisible3x3=Invisible 3x3
+Unit/Name/InvisibleEscortFlying=Invisible Escort - Flying
+Unit/Name/InvisibleTutorialHelper=Invisible Helper
+Unit/Name/KaiserWormBanelingMissile=Void Thrasher Baneling Missile
+Unit/Name/KaiserWormScourgeMissile=Void Thrasher Scourge Missile
+Unit/Name/KaraxChampion=Karax
+Unit/Name/KaraxChampionWeaponMissile=Karax Weapon (Missile)
+Unit/Name/KaraxInvisiblePylon=Invisible Pylon
+Unit/Name/KaraxRepairDrone=Shield Restore Drone
+Unit/Name/KaraxRepairDroneReleaseWeapon=Karax Repair Drone Release Weapon
+Unit/Name/KerriganEpilogue02=Kerrigan
+Unit/Name/KerriganEpilogue03=Kerrigan
+Unit/Name/KerriganEpilogue03QuantumBlastWeapon=Kerrigan Quantum Blast Weapon
+Unit/Name/KerriganEpilogue03StrikeAmon=Kerrigan
+Unit/Name/KerriganEpilogue03StrikeAmonTarget=Kerrigan Strike Amon Target
+Unit/Name/KerriganVoid=Kerrigan
+Unit/Name/KerriganVoidBurrowed=Kerrigan
+Unit/Name/KerriganVoidCoopEconDrop1=Resource Pickup
+Unit/Name/KerriganVoidCoopEconDrop2=Resource Pickup
+Unit/Name/KerriganVoidCoopEconDrop3=Resource Pickup
+Unit/Name/KerriganVoidCoopEconDrop4=Resource Pickup
+Unit/Name/KerriganVoidCoopEconDrop5=Resource Pickup
+Unit/Name/KerriganVoidCoopEconDropLT1=Resource Pickup
+Unit/Name/KerriganVoidCoopEconDropSubtip=Only you can pick this up
+Unit/Name/KerriganVoidKineticBlastWeapon=Kerrigan Void Kinetic Blast Weapon
+Unit/Name/KerriganVoidUlnar02=Kerrigan
+Unit/Name/KerriganXelNagaReviveCocoon=Kerrigan (Reviving)
+Unit/Name/KhaydarinMonolith=Khaydarin Monolith
+Unit/Name/KorhalArtifactContainmentField=Keystone Containment Field
+Unit/Name/KorhalDestructiblePlatformLarge=Korhal Destructible Platform Large
+Unit/Name/KorhalDestructiblePlatformMedium=Korhal Destructible Platform Medium
+Unit/Name/KorhalDestructiblePlatformSmall=Korhal Destructible Platform Small
+Unit/Name/KorhalKeystone=Keystone
+Unit/Name/LargePalletMinerals=Large Mineral Pallet
+Unit/Name/LaunchBayShakuras=Launch Bay
+Unit/Name/LightningShooter=Lightning Shooter
+Unit/Name/MalashPitFightWeapon=Malash Pit Fight Weapon
+Unit/Name/MegalithCutter=Megalith
+Unit/Name/MineralBeamAutoPickup=Mineral Beam Auto Pickup
+Unit/Name/MissileShooterBurst1Weapon=Missile Shooter Burst1 Weapon
+Unit/Name/MissileShooterBurst2Weapon=Missile Shooter Burst2 Weapon
+Unit/Name/MissileShooterBurst3Weapon=Missile Shooter Burst3 Weapon
+Unit/Name/MissileShooterBurst4Weapon=Missile Shooter Burst4 Weapon
+Unit/Name/MissileShooterBurst5Weapon=Missile Shooter Burst5 Weapon
+Unit/Name/MissileShooterBurst6Weapon=Missile Shooter Burst6 Weapon
+Unit/Name/MissileShooterChannel1Weapon=Missile Shooter Channel1 Weapon
+Unit/Name/MissileShooterChannel2Weapon=Missile Shooter Channel2 Weapon
+Unit/Name/MissileShooterChannel3Weapon=Missile Shooter Channel3 Weapon
+Unit/Name/MissileShooterChannel4Weapon=Missile Shooter Channel4 Weapon
+Unit/Name/MissileShooterChannel5Weapon=Missile Shooter Channel5 Weapon
+Unit/Name/MissileShooterChannel6Weapon=Missile Shooter Channel6 Weapon
+Unit/Name/MissileShooterChannel7Weapon=Missile Shooter Channel7 Weapon
+Unit/Name/MissileShooterChannel8Weapon=Missile Shooter Channel8 Weapon
+Unit/Name/MissileShooterUlnar01=MissileShooter Ulnar 01
+Unit/Name/MohandarStickyBombMissile=Mohandar Sticky Bomb (Missile)
+Unit/Name/Monitor=Havoc
+Unit/Name/MothershipAiur06=Mothership
+Unit/Name/NaniteCloudTurret=Nanite Cloud Emitter
+Unit/Name/NarudEpilogue=Narud
+Unit/Name/NarudEpilogueMine=Void Mine
+Unit/Name/NarudEpilogueMineWeapon=Narud Epilogue Mine Weapon
+Unit/Name/NarudEpilogueShadowStep=Narud Epilogue Shadow Step
+Unit/Name/NarudEpilogueSpawnMissile=Narud Epilogue Spawn Missile
+Unit/Name/NarudEpilogueSpawnShadeofNarudMissile=Narud Epilogue Spawn Void Thrasher Missile
+Unit/Name/NarudEpilogueVoidMissileWeapon=Narud Epilogue Void Missile Weapon
+Unit/Name/NaturalGas=Vespene
+Unit/Name/NaturalGas25=Vespene
+Unit/Name/NaturalGas50=Vespene
+Unit/Name/NaturalGasAir=Vespene
+Unit/Name/NaturalMineralsAir=Mineral Shards
+Unit/Name/NullCircuit=Null Circuit
+Unit/Name/NullCircuitActivated=Null Circuit
+Unit/Name/PalletGas=Vespene Pallet
+Unit/Name/PathableShieldRadius11=Pathable Shield Radius 11
+Unit/Name/PathingBlocker12x12Diagonal=Dynamic Pathing Blocker 12x12 (Diagonal)
+Unit/Name/PathingBlocker16x16Diagonal=Dynamic Pathing Blocker 16x16 (Diagonal)
+Unit/Name/PathingBlocker6x6Diagonal=Dynamic Pathing Blocker 6x6 (Diagonal)
+Unit/Name/PathingBlocker8x8Diagonal=Dynamic Pathing Blocker 8x8 (Diagonal)
+Unit/Name/PhoenixAiur=Phoenix
+Unit/Name/PhoenixPurifier=Mirage
+Unit/Name/PhoenixPurifierAirWeaponLeft=Phoenix Purifier Air Weapon Left
+Unit/Name/PhoenixPurifierAirWeaponRight=Phoenix Purifier Air Weapon Right
+Unit/Name/PhoenixScoutMissileWeaponLeft=Phoenix Scout Missile Weapon Left
+Unit/Name/PhoenixScoutMissileWeaponRight=Phoenix Scout Missile Weapon Right
+Unit/Name/PhotonCannonBlastWeapon=Photon Cannon Blast Weapon
+Unit/Name/PhotonCannonLRWeapon=Photon Cannon LRWeapon
+Unit/Name/PickupMineralsAir=Minerals
+Unit/Name/PitAlarak=Alarak
+Unit/Name/PitAlarakPsiOrbMissile=Pit Alarak Psi Orb Missile
+Unit/Name/PitMalash=Ma'lash
+Unit/Name/PitMalashSuperMoveWeapon=Pit Malash Super Move Weapon
+Unit/Name/PlaceWormholeUnit=Place Wormhole Unit
+Unit/Name/PlanetCrackerPurifierUnit=Planet Cracker
+Unit/Name/PlanetCrackerPurifierUnitCinematic=Planet Cracker
+Unit/Name/PlanetCrackerUlnarUnit=Planet Cracker
+Unit/Name/PlatformPlate=Platform Plate
+Unit/Name/PlatformPowerCore=Platform Power Core
+Unit/Name/PlatformStabilizer=Platform Stabilizer
+Unit/Name/PowerCore=Power Core
+Unit/Name/PowerCoreHousing=Power Core Housing
+Unit/Name/ProgressBarDummy=Progress Bar Dummy Unit
+Unit/Name/PrologueZeratul=Zeratul
+Unit/Name/ProtossBridge=Protoss Bridge
+Unit/Name/ProtossBridgeNELong10=Protoss Bridge - NE - Height 10 - Long - Retracted
+Unit/Name/ProtossBridgeNELong10Out=Protoss Bridge - NE - Height 10 - Long - Extended
+Unit/Name/ProtossBridgeNELong8=Protoss Bridge - NE - Height 8 - Long - Retracted
+Unit/Name/ProtossBridgeNELong8Out=Protoss Bridge - NE - Height 8 - Long - Extended
+Unit/Name/ProtossBridgeNEShort10=Protoss Bridge - NE - Height 10 - Short - Retracted
+Unit/Name/ProtossBridgeNEShort10Out=Protoss Bridge - NE - Height 10 - Short - Extended
+Unit/Name/ProtossBridgeNEShort8=Protoss Bridge - NE - Height 8 - Short - Retracted
+Unit/Name/ProtossBridgeNEShort8Out=Protoss Bridge - NE - Height 8 - Short - Extended
+Unit/Name/ProtossBridgeNWLong10=Protoss Bridge - NW - Height 10 - Long - Retracted
+Unit/Name/ProtossBridgeNWLong10Out=Protoss Bridge - NW - Height 10 - Long - Extended
+Unit/Name/ProtossBridgeNWLong8=Protoss Bridge - NW - Height 8 - Long - Retracted
+Unit/Name/ProtossBridgeNWLong8Out=Protoss Bridge - NW - Height 8 - Long - Extended
+Unit/Name/ProtossBridgeNWShort10=Protoss Bridge - NW - Height 10 - Short - Retracted
+Unit/Name/ProtossBridgeNWShort10Out=Protoss Bridge - NW - Height 10 - Short - Extended
+Unit/Name/ProtossBridgeNWShort8=Protoss Bridge - NW - Height 8 - Short - Retracted
+Unit/Name/ProtossBridgeNWShort8Out=Protoss Bridge - NW - Height 8 - Short - Extended
+Unit/Name/ProtossPurifierGateWideLeft=Protoss Purifier Gate (Wide, Left)
+Unit/Name/ProtossPurifierGateWideLeftLowered=Protoss Purifier Gate (Wide, Left, Lowered)
+Unit/Name/ProtossPurifierGateWideRight=Protoss Purifier Gate (Wide, Right)
+Unit/Name/ProtossPurifierGateWideRightLowered=Protoss Purifier Gate (Wide, Right, Lowered)
+Unit/Name/ProtossWarpDriveUnit=
+Unit/Name/Purifier03VespeneTank=Vespene Tank
+Unit/Name/PurifierCellBlock12x12A=Purifier Confinement Tower
+Unit/Name/PurifierCellBlock12x12B=Purifier Confinement Tower
+Unit/Name/PurifierCellBlock12x12C=Purifier Confinement Tower
+Unit/Name/PurifierCellBlock12x8A=Purifier Confinement Tower
+Unit/Name/PurifierCellBlock12x8B=Purifier Confinement Tower
+Unit/Name/PurifierCellBlock12x8C=Purifier Confinement Tower
+Unit/Name/PurifierCellBlock8x12A=Purifier Confinement Tower
+Unit/Name/PurifierCellBlock8x12B=Purifier Confinement Tower
+Unit/Name/PurifierCellBlock8x12C=Purifier Confinement Tower
+Unit/Name/PurifierCellBlock8x8A=Purifier Confinement Tower
+Unit/Name/PurifierCellBlock8x8B=Purifier Confinement Tower
+Unit/Name/PurifierCellBlock8x8C=Purifier Confinement Tower
+Unit/Name/PurifierCellBlockParent=PurifierCellBlockParent
+Unit/Name/PurifierCoreMatrix=Purifier Core Matrix
+Unit/Name/Purifier_Destructible_Rock_Huge_BLUR=Rocks
+Unit/Name/Purifier_Door=Purifier Door
+Unit/Name/Purifier_DoorE=Purifier Door E
+Unit/Name/Purifier_DoorELowered=Purifier Door E Lowered
+Unit/Name/Purifier_DoorN=Purifier Door N
+Unit/Name/Purifier_DoorNE=Purifier Door NE
+Unit/Name/Purifier_DoorNELowered=Purifier Door NE Lowered
+Unit/Name/Purifier_DoorNLowered=Purifier Door N Lowered
+Unit/Name/Purifier_DoorNW=Purifier Door NW
+Unit/Name/Purifier_DoorNWLowered=Purifier Door NW Lowered
+Unit/Name/Purifier_DoorSmall=Purifier_DoorSmall (Parent)
+Unit/Name/Purifier_DoorSmallE=Purifier Door Small East
+Unit/Name/Purifier_DoorSmallELowered=Purifier Door Small East Lowered
+Unit/Name/Purifier_DoorSmallN=Purifier Door Small North
+Unit/Name/Purifier_DoorSmallNE=Purifier Door Small North East
+Unit/Name/Purifier_DoorSmallNELowered=Purifier Door Small North East Lowered
+Unit/Name/Purifier_DoorSmallNLowered=Purifier Door Small North Lowered
+Unit/Name/Purifier_DoorSmallNW=Purifier Door Small North West
+Unit/Name/Purifier_DoorSmallNWLowered=Purifier Door Small North West Lowered
+Unit/Name/PylonContainmentUnit=Pylon Containment Unit
+Unit/Name/Queen=Queen
+Unit/Name/QueenClassicParasiteMissile=Queen Classic Parasite Missile
+Unit/Name/RaisingPlatform=Raising Platform
+Unit/Name/RaisingPlatform6x4Lowered=Raising Platform 6x4 Lowered
+Unit/Name/RaisingPlatform6x4Raised=Raising Platform 6x4 Raised
+Unit/Name/RaisingPlatform8x8Lowered=Raising Platform 8x8 Lowered
+Unit/Name/RaisingPlatform8x8Raised=Raising Platform 8x8 Raised
+Unit/Name/RaisingPlatformDiagonalNWSELowered=Raising Platform Diagonal NWSE Lowered
+Unit/Name/RaisingPlatformDiagonalNWSERaised=Raising Platform Diagonal NWSE Raised
+Unit/Name/RaisingWreckage=Raising Wreckage
+Unit/Name/RawSolarite=Raw Solarite
+Unit/Name/Reaver=Reaver
+Unit/Name/RoboticsFacilityWarp=Warp Robotics Facility
+Unit/Name/RoguePurifier=Purifier Warden
+Unit/Name/RoguePurifierAirWeapon=Rogue Purifier Air Weapon
+Unit/Name/RoguePurifierSupportDroneA=Warden Support Alpha
+Unit/Name/RoguePurifierSupportDroneB=Warden Support Omega
+Unit/Name/SOAGravitonBombMissile=SOA Graviton Bomb Missile
+Unit/Name/SOALaserAttackMissile=SOA Laser Attack Missile
+Unit/Name/SOAMothership=Purifier Mothership
+Unit/Name/SOAMothershipBlinkStrikeMissile=SOA Mothership Blink Strike Missile
+Unit/Name/SOAMothershipLineAttackWeapon=SOA Mothership Line Attack Weapon
+Unit/Name/SOAMothershipv4=Mothership
+Unit/Name/SOAOrbitalStrikeMissile=SOA Orbital Strike Missile
+Unit/Name/SOAPlanetCrackerAUnit=SOA Planet Cracker AUnit
+Unit/Name/SOAPurifierBeamUnit=Purifier Beam
+Unit/Name/SOAPylonPowerUnit=SOA Pylon Power Unit
+Unit/Name/SOASuperTimeWarpUnit=SOA Super Time Warp Unit
+Unit/Name/SOAThermalLanceTargeter=SOA Thermal Lance Targeter
+Unit/Name/SOAVortexStormUnit=SOA Vortex Storm Unit
+Unit/Name/SOAWarpInReinforcementsPowerUnit=SOA Warp In Reinforcements Power Unit
+Unit/Name/Scarab=Scarab
+Unit/Name/ScarabWeapon=Scarab Weapon
+Unit/Name/SentryAiur=Sentry
+Unit/Name/SentryCampaignBase=Sentry Campaign Base
+Unit/Name/SentryPhasing=Energizer
+Unit/Name/SentryPurifier=Energizer
+Unit/Name/Shadow01YamatoBlastMissile=Shadow01 Yamato Blast (Missile)
+Unit/Name/ShadowBattlecruiser=Shadow Battlecruiser
+Unit/Name/ShadowCloud=Shadow Cloud
+Unit/Name/ShadowCloudEpilogue01=Shadow Cloud
+Unit/Name/ShadowCloudSmallEpilogue01=Shadow Cloud Small
+Unit/Name/ShadowScrambler=EMP Scrambler
+Unit/Name/ShadowShieldGenerator=Shadow Shield Generator
+Unit/Name/ShadowShieldGeneratorSmall=Shadow Shield Generator
+Unit/Name/ShadowTendril=Shadow Tendril
+Unit/Name/ShadowYamatoMissile=Shadow Yamato (Missile)
+Unit/Name/ShakurasBaseShieldTargetHigh=Shakuras Base Shield Target - High
+Unit/Name/ShakurasBaseShieldTargetLow=Shakuras Base Shield Target - Low
+Unit/Name/ShakurasBaseShieldTargetMedium=Shakuras Base Shield Target - Medium
+Unit/Name/ShieldBattery=Shield Battery
+Unit/Name/ShieldBatteryNerazim=Shield Battery
+Unit/Name/ShrineGuardian=Tal’darim Ascendant
+Unit/Name/SiegeBreakerSiegeModeMorphModel=Siege Breaker
+Unit/Name/SiegeBreakerTankModeMorphModel=Siege Breaker
+Unit/Name/SlaynElemental=Slayn Elemental
+Unit/Name/SlaynElementalGrabAirUnit=Solarite Cocoon
+Unit/Name/SlaynElementalGrabGroundUnit=Solarite Cocoon
+Unit/Name/SoACaster=SoA Caster
+Unit/Name/SoulAbsorptionMissle=Soul Absorption Missile
+Unit/Name/SpearofAdunSingleTarget=Spear of Adun Single Target
+Unit/Name/StalkerPurifier=Instigator
+Unit/Name/StalkerSecondaryWeapon=Stalker Secondary Weapon
+Unit/Name/StalkerShakuras=Stalker
+Unit/Name/StarShipAdun_Door=Star Ship Adun Door
+Unit/Name/StarShipAdun_DoorE=Star Ship Adun Door E
+Unit/Name/StarShipAdun_DoorELowered=Star Ship Adun Door E Lowered
+Unit/Name/StarShipAdun_DoorN=Star Ship Adun Door N
+Unit/Name/StarShipAdun_DoorNE=Star Ship Adun Door NE
+Unit/Name/StarShipAdun_DoorNELowered=Star Ship Adun Door NE Lowered
+Unit/Name/StarShipAdun_DoorNLowered=Star Ship Adun Door N Lowered
+Unit/Name/StarShipAdun_DoorNW=Star Ship Adun Door NW
+Unit/Name/StarShipAdun_DoorNWLowered=Star Ship Adun Door NW Lowered
+Unit/Name/StarShipAdun_DoorS=Star Ship Adun Door S
+Unit/Name/StarShipAdun_DoorSE=Star Ship Adun Door SE
+Unit/Name/StarShipAdun_DoorSELowered=Star Ship Adun Door SE Lowered
+Unit/Name/StarShipAdun_DoorSLowered=Star Ship Adun Door S Lowered
+Unit/Name/StarShipAdun_DoorSW=Star Ship Adun Door SW
+Unit/Name/StarShipAdun_DoorSWLowered=Star Ship Adun Door SW Lowered
+Unit/Name/StarShipAdun_DoorSmall=Star Ship Adun Door Small (Parent)
+Unit/Name/StarShipAdun_DoorSmallE=Star Ship Adun Door Small E
+Unit/Name/StarShipAdun_DoorSmallELowered=Star Ship Adun Door Small E Lowered
+Unit/Name/StarShipAdun_DoorSmallN=Star Ship Adun Door Small N
+Unit/Name/StarShipAdun_DoorSmallNE=Star Ship Adun Door Small NE
+Unit/Name/StarShipAdun_DoorSmallNELowered=Star Ship Adun Door Small NE Lowered
+Unit/Name/StarShipAdun_DoorSmallNLowered=Star Ship Adun Door Small N Lowered
+Unit/Name/StarShipAdun_DoorSmallNW=Star Ship Adun Door Small NW
+Unit/Name/StarShipAdun_DoorSmallNWLowered=Star Ship Adun Door Small NW Lowered
+Unit/Name/StarShipAdun_DoorW=Star Ship Adun Door W
+Unit/Name/StarShipAdun_DoorWLowered=Star Ship Adun Door W Lowered
+Unit/Name/StarShipAdun_JumpPadDoor=Star Ship Adun Jump Pad Door
+Unit/Name/StarShipAdun_JumpPadDoorE=Star Ship Adun Jump Pad Door E
+Unit/Name/StarShipAdun_JumpPadDoorELowered=Star Ship Adun Jump Pad Door E Lowered
+Unit/Name/StarShipAdun_JumpPadDoorN=Star Ship Adun Jump Pad Door N
+Unit/Name/StarShipAdun_JumpPadDoorNE=Star Ship Adun Jump Pad Door NE
+Unit/Name/StarShipAdun_JumpPadDoorNELowered=Star Ship Adun Jump Pad Door NE Lowered
+Unit/Name/StarShipAdun_JumpPadDoorNLowered=Star Ship Adun Jump Pad Door N Lowered
+Unit/Name/StarShipAdun_JumpPadDoorNW=Star Ship Adun Jump Pad Door NW
+Unit/Name/StarShipAdun_JumpPadDoorNWLowered=Star Ship Adun Jump Pad Door NW Lowered
+Unit/Name/StarShipAdun_JumpPadDoorS=Star Ship Adun Jump Pad Door S
+Unit/Name/StarShipAdun_JumpPadDoorSE=Star Ship Adun Jump Pad Door SE
+Unit/Name/StarShipAdun_JumpPadDoorSELowered=Star Ship Adun Jump Pad Door SE Lowered
+Unit/Name/StarShipAdun_JumpPadDoorSLowered=Star Ship Adun Jump Pad Door S Lowered
+Unit/Name/StarShipAdun_JumpPadDoorSW=Star Ship Adun Jump Pad Door SW
+Unit/Name/StarShipAdun_JumpPadDoorSWLowered=Star Ship Adun Jump Pad Door SW Lowered
+Unit/Name/StarShipAdun_JumpPadDoorW=Star Ship Adun Jump Pad Door W
+Unit/Name/StarShipAdun_JumpPadDoorWLowered=Star Ship Adun Jump Pad Door W Lowered
+Unit/Name/StargateWarp=Warp Stargate
+Unit/Name/StasisCocoonController=Stasis Cocoon
+Unit/Name/StasisCocoonControllerAir=Stasis Cocoon
+Unit/Name/StranglerBeastWeaponMissile=Strangler Beast Weapon (Missile)
+Unit/Name/SunkenColony=Sunken Colony
+Unit/Name/TalDarimForcefieldGate=Tal'darim Forcefield Gate
+Unit/Name/TalDarimForcefieldGateSE=Tal'darim Forcefield Gate SE Facing - Raised
+Unit/Name/TalDarimForcefieldGateSELowered=Tal'darim Forcefield Gate SE - Lowered
+Unit/Name/TalDarimForcefieldGateSW=Tal'darim Forcefield Gate SW Facing - Raised
+Unit/Name/TalDarimForcefieldGateSWLowered=Tal'darim Forcefield Gate SW - Lowered
+Unit/Name/TempestPurifier=Tempest
+Unit/Name/TempestPurifierWeapon=Tempest Purifier Weapon
+Unit/Name/TempestPurifierWeaponGround=Tempest Purifier Weapon Ground
+Unit/Name/TempleShakuras02=Xel'Naga Temple
+Unit/Name/TerrazineTempleNESW=Guardian of Ma'lash
+Unit/Name/TerrazineTempleNWSE=Guardian of Ma'lash
+Unit/Name/TheBridgeCannonWeapon=The Bridge Cannon Weapon
+Unit/Name/TreasureGoblin=Treasure Goblin
+Unit/Name/TutorialAttackBeacon=Attack Beacon (Tutorial)
+Unit/Name/TutorialCameraBeacon=Camera Beacon
+Unit/Name/UltrasonicPulseEnhancedWeapon=Ultrasonic Pulse Enhanced Weapon
+Unit/Name/UnstableEnergy=Unstable Energy
+Unit/Name/UrunWeaponLeft=Ion Cannons
+Unit/Name/VindictusAirWeapon=Vindictus Air Weapon
+Unit/Name/VindictusMineWeapon=Vindictus Mine Weapon
+Unit/Name/VoidCarrierNerazim=Devastator
+Unit/Name/VoidCarrierPurifier=Purifier Primus
+Unit/Name/VoidChasm=Void Chasm
+Unit/Name/VoidChasmDormant=Dormant Void Chasm
+Unit/Name/VoidChasmSpawnShadowMissile=Void Chasm Spawn Shadow Missile
+Unit/Name/VoidColossusAiur=Wrathwalker
+Unit/Name/VoidColossusPurifier=Megalith
+Unit/Name/VoidColossusTaldarim=Reaver
+Unit/Name/VoidCorruption=Void Corruption
+Unit/Name/VoidCorruptionMissileWeapon=Void Corruption Missile Weapon
+Unit/Name/VoidCrystal=Void Crystal
+Unit/Name/VoidDarkTemplarAiur=Twilight Templar
+Unit/Name/VoidDarkTemplarNerazim=Dark Prelate
+Unit/Name/VoidDarkTemplarTaldarim=Infiltrator
+Unit/Name/VoidHighTemplarAiur=High Templar
+Unit/Name/VoidHighTemplarNerazim=Signifier
+Unit/Name/VoidHighTemplarPsiOrbMissile=High Templar Psi Orb Missile
+Unit/Name/VoidHighTemplarTaldarim=Ascendant
+Unit/Name/VoidImmortalAiur=Immortal
+Unit/Name/VoidImmortalPurifier=Resistor
+Unit/Name/VoidImmortalPurifierCannonMissile=Void Immortal Purifier Cannon Missile
+Unit/Name/VoidImmortalReviveCorpse=Void Immortal Revive Corpse
+Unit/Name/VoidImmortalReviveWreckage=Immortal Wreckage
+Unit/Name/VoidPhoenixAiur=Phoenix
+Unit/Name/VoidPhoenixTaldarim=Skytalon
+Unit/Name/VoidPylon=Void Pylon
+Unit/Name/VoidRayAiur=Void Ray
+Unit/Name/VoidRayCampaignBase=VoidRayCampaignBase
+Unit/Name/VoidRayShakuras=Void Ray
+Unit/Name/VoidRayTaldarim=Destroyer
+Unit/Name/VoidRift=Void Rift
+Unit/Name/VoidRiftAutoBuild=Void Rift Auto Build
+Unit/Name/VoidRiftUnselectable=Void Rift
+Unit/Name/VoidSeekerCrashed=Void Seeker
+Unit/Name/VoidSentryAiur=Sentry
+Unit/Name/VoidSentryNerazim=Manipulator
+Unit/Name/VoidSentryPurifier=Energizer
+Unit/Name/VoidShard=Void Shard
+Unit/Name/VoidShardSpawnShadowAttackWeapon=Void Shard Spawn Shadow Attack Weapon
+Unit/Name/VoidShrine=Guardian of Ma'lash
+Unit/Name/VoidSpearofAdun=Spear of Adun
+Unit/Name/VoidTendrilDeathGripCrystal=Void Shard Death Grip Crystal
+Unit/Name/VoidTendrilUnstableEnergy=Void Shard Unstable Energy
+Unit/Name/VoidTendrilVoidZoneWeapon=Void Shard Void Zone Weapon
+Unit/Name/VoidThrasher=Void Thrasher
+Unit/Name/VoidThrasherFireballMissile=Void Thrasher - Fireball (Missile)
+Unit/Name/VoidThrasherRumble=Void Thrasher (Rumble)
+Unit/Name/VoidThrasherShieldFireballMissile=Void Thrasher Shield Fireball Missile
+Unit/Name/VoidThrasherSpawnBanelingMissile=Void Thrasher - Spawn Baneling (Missile)
+Unit/Name/VoidThrasherSpawnHydraliskMissile=Void Thrasher - Spawn Hydralisk (Missile)
+Unit/Name/VoidThrasherSpawnRoachMissile=Void Thrasher - Spawn Roach (Missile)
+Unit/Name/VoidThrasherSpawnZerglingMissile=Void Thrasher - Spawn Zergling (Missile)
+Unit/Name/VoidThrasherWalker=Void Thrasher
+Unit/Name/VoidVoidRayShakuras=Void Ray
+Unit/Name/VoidVoidRayTaldarim=Destroyer
+Unit/Name/VorazunChampion=Vorazun
+Unit/Name/WarpConduitShakuras01=Warp Conduit
+Unit/Name/WarpPrismGiant=Titanic Warp Prism
+Unit/Name/WarpPrismGiantPhasing=Titanic Warp Prism
+Unit/Name/WreckingCrewAssaultMorphModel=Hel's Angel
+Unit/Name/WreckingCrewFighterMorphModel=Hel's Angel
+Unit/Name/XelNagaChargedCrystal=Xel'Naga Charged Crystal
+Unit/Name/XelNagaChargedCrystalInert=Xel'Naga Charged Crystal
+Unit/Name/XelNagaConstruct=Xel'Naga Construct
+Unit/Name/XelNagaConstructChaseBeamUnit=Xel Naga Construct Chase Beam Unit
+Unit/Name/XelNagaDevice=Xel'Naga Device
+Unit/Name/XelNagaObeliskAiur06=Xel'Naga Obelisk
+Unit/Name/XelNagaTempleDoorLarge=Xel'naga Temple Door Large
+Unit/Name/XelNagaTempleDoorLargeE=Xel'naga Temple Door Large - E Facing - Closed
+Unit/Name/XelNagaTempleDoorLargeELowered=Xel'naga Temple Door Large - E Facing - Open
+Unit/Name/XelNagaTempleDoorLargeN=Xel'naga Temple Door Large - N Facing - Closed
+Unit/Name/XelNagaTempleDoorLargeNE=Xel'naga Temple Door Large - NE Facing - Closed
+Unit/Name/XelNagaTempleDoorLargeNELowered=Xel'naga Temple Door Large - NE Facing - Open
+Unit/Name/XelNagaTempleDoorLargeNLowered=Xel'naga Temple Door Large - N Facing - Open
+Unit/Name/XelNagaTempleDoorLargeNW=Xel'naga Temple Door Large - NW Facing - Closed
+Unit/Name/XelNagaTempleDoorLargeNWLowered=Xel'naga Temple Door Large - NW Facing - Open
+Unit/Name/XelNagaTempleDoorLargeS=Xel'naga Temple Door Large - S Facing - Closed
+Unit/Name/XelNagaTempleDoorLargeSE=Xel'naga Temple Door Large - SE Facing - Closed
+Unit/Name/XelNagaTempleDoorLargeSELowered=Xel'naga Temple Door Large - SE Facing - Open
+Unit/Name/XelNagaTempleDoorLargeSLowered=Xel'naga Temple Door Large - S Facing - Open
+Unit/Name/XelNagaTempleDoorLargeSW=Xel'naga Temple Door Large - SW Facing - Closed
+Unit/Name/XelNagaTempleDoorLargeSWLowered=Xel'naga Temple Door Large - SW Facing - Open
+Unit/Name/XelNagaTempleDoorLargeW=Xel'naga Temple Door Large - W Facing - Closed
+Unit/Name/XelNagaTempleDoorLargeWLowered=Xel'naga Temple Door Large - W Facing - Open
+Unit/Name/XelNagaTowerEpilogue=Celestial Tower
+Unit/Name/XelNagaTowerEpilogueLarge=Celestial Tower
+Unit/Name/YamatoBlastAmbientMissile=Yamato Blast Ambient (Missile)
+Unit/Name/ZagaraReviveCocoon=Zagara's Cocoon
+Unit/Name/ZakoomCrystalFragment=Zakoom Crystal Fragment
+Unit/Name/ZealotAiur=Zealot
+Unit/Name/ZealotPurifier=Sentinel
+Unit/Name/ZealotPurifierReviveCorpse=Sentinel Wreckage
+Unit/Name/ZealotShakuras=Centurion
+Unit/Name/ZenithStone=Zenith Stone
+Unit/Name/ZeratulBlinkAiur01Missile=Zeratul Blink Missile
+Unit/Name/ZeratulVoid=Zeratul
+Unit/Name/ZeratulVoidAiur01=Zeratul
+Unit/Name/ZerglingCarbot=Zergling
+Unit/ShieldArmorName/HybridAiur01Shields=Hybrid Shields
+Unit/ShieldArmorName/HybridNemesisShields=Hybrid Nemesis Shields
+Unit/ShieldArmorName/HybridShields=Hybrid Shields
+Unit/ShieldArmorName/ProtossPlasmaShields=Protoss Plasma Shields
+Unit/ShieldArmorName/VoidShardShields=Shields
+Unit/ShieldArmorName/VoidShields=Void Shields
+Unit/ShieldArmorName/XelNagaShields=Xel'Naga Shields

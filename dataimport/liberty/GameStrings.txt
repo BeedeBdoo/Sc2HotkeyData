@@ -1,0 +1,1673 @@
+Button/Name/250mmStrikeCannons=250mm Strike Cannons
+Button/Name/AWrp=Archon Merge
+Button/Name/AcquireMove=Scan Move
+Button/Name/Archon=Warp In Archon
+Button/Name/ArchonHallucination=Summon Archon Hallucination
+Button/Name/ArchonWarpTarget=Archon Merge
+Button/Name/Armory=Build Armory
+Button/Name/AssaultMode=Assault Mode
+Button/Name/Assimilator=Warp In Assimilator
+Button/Name/Attack=Attack
+Button/Name/AttackBarrage=Attack Ground
+Button/Name/AttackBuilding=Attack
+Button/Name/AttackRedirect=Attack
+Button/Name/AttackTowards=Attack Towards
+Button/Name/AttackWarpPrism=Attack
+Button/Name/AutoTurret=Build Auto-Turret
+Button/Name/Baneling=Morph to Baneling
+Button/Name/BanelingFromZerglingBurrowed=Morph to Baneling
+Button/Name/BanelingNest=Mutate into Baneling Nest
+Button/Name/Banshee=Build Banshee
+Button/Name/Barracks=Build Barracks
+Button/Name/Battlecruiser=Build Battlecruiser
+Button/Name/Blink=Blink
+Button/Name/BroodLord=Morph to Brood Lord
+Button/Name/BuildCreepTumor=Spawn Creep Tumor
+Button/Name/BuildCreepTumorPropagate=Spawn Creep Tumor
+Button/Name/BuildTechLabBarracks=Build Tech Lab
+Button/Name/BuildTechLabFactory=Build Tech Lab
+Button/Name/BuildTechLabStarport=Build Tech Lab
+Button/Name/Bunker=Build Bunker
+Button/Name/BunkerLoad=Load
+Button/Name/BunkerUnloadAll=Unload All
+Button/Name/BurrowDown=Burrow
+Button/Name/BurrowMove=Burrow
+Button/Name/BurrowUp=Unburrow
+Button/Name/CalldownMULE=Calldown: MULE
+Button/Name/Cancel=Cancel
+Button/Name/CancelBuilding=Cancel
+Button/Name/CancelCocoon=Cancel
+Button/Name/CancelCocoonMorph=Cancel
+Button/Name/CancelMutateMorph=Cancel
+Button/Name/CancelSlot=Cancel
+Button/Name/CancelUpgradeMorph=Cancel
+Button/Name/Carrier=Warp In Carrier
+Button/Name/Charge=Charge
+Button/Name/Cheer=Cheer
+Button/Name/CliffWalk=Cliff Walk
+Button/Name/CloakOff=Decloak
+Button/Name/CloakOnBanshee=Cloak
+Button/Name/CloakOnGhost=Cloak
+Button/Name/CloakingField=Cloaking Field
+Button/Name/Colossus=Warp In Colossus
+Button/Name/ColossusHallucination=Summon Colossus Hallucination
+Button/Name/CommandCenter=Build Command Center
+Button/Name/CommandCenterLoad=Load
+Button/Name/CommandCenterUnloadAll=Unload All
+Button/Name/CommanderArtanisFleetBeaconUpgradesPack=Fleet Beacon Upgrade Cache
+Button/Name/CommanderArtanisHighArchon=High Archon
+Button/Name/CommanderArtanisImprovedSolarBombardment=Spear of Adun: Solar Onslaught
+Button/Name/CommanderArtanisReaverUpgradesPack=Reaver Upgrades Pack
+Button/Name/CommanderArtanisRoboticsBayUpgradesPack=Robotics Bay Upgrade Cache
+Button/Name/CommanderArtanisSpearofAdunGuardianShell=Spear of Adun: Guardian Shell
+Button/Name/CommanderArtanisSpearofAdunMatrixOverload=Spear of Adun: Matrix Overload
+Button/Name/CommanderArtanisSpearofAdunShieldOvercharge=Spear of Adun: Shield Overcharge
+Button/Name/CommanderArtanisSpearofAdunSolarBombardment=Spear of Adun: Solar Bombardment
+Button/Name/CommanderArtanisSpearofAdunWarpHarmonization=Spear of Adun: Warp Harmonization
+Button/Name/CommanderArtanisStartingMaxSupply=Glory of the Daelaam
+Button/Name/CommanderArtanisSwiftRetribution=Swift Retribution
+Button/Name/CommanderArtanisTemplarArchivesUpgradesPack=Templar Archives Upgrade Cache
+Button/Name/CommanderArtanisTwilightCouncilUpgradesPack=Twilight Council Upgrade Cache
+Button/Name/CommanderArtanisUnlockReaver=New Unit: Reaver
+Button/Name/CommanderArtanisUnlockTempest=New Unit: Tempest
+Button/Name/CommanderArtanisWarpgateCharges=Superior Warp Gates
+Button/Name/CommanderKaraxCyberneticsCoreUpgradesPack=Cybernetics Core Upgrade Cache
+Button/Name/CommanderKaraxFleetBeaconUpgradesPack=Fleet Beacon Upgrade Cache
+Button/Name/CommanderKaraxForgeUpgradesPack=Forge Upgrade Cache
+Button/Name/CommanderKaraxInstantStructureWarp=Khalai Ingenuity
+Button/Name/CommanderKaraxMassChronoUpgrade=Spear of Adun: Chrono Overload
+Button/Name/CommanderKaraxOrbitalAssault=Orbital Assault
+Button/Name/CommanderKaraxPurifierBeamUpgrade=Spear of Adun: Purifier Protocol
+Button/Name/CommanderKaraxRoboticsBayUpgradesPack=Robotics Bay Upgrade Cache
+Button/Name/CommanderKaraxSolarForgeUpgradesPack1=Solar Forge Upgrade Cache 1
+Button/Name/CommanderKaraxSolarForgeUpgradesPack2=Solar Forge Upgrade Cache 2
+Button/Name/CommanderKaraxTwilightCouncilUpgradesPack=Twilight Council Upgrade Cache
+Button/Name/CommanderKaraxUnitSpawnBarrier=Unity Barrier
+Button/Name/CommanderKaraxUnlockKhaydarinMonolith=New Unit: Khaydarin Monolith
+Button/Name/CommanderKaraxUnlockPurifierBeam=Spear of Adun: Purifier Beam
+Button/Name/CommanderKaraxUnlockRepairBeam=Spear of Adun: Reconstruction Beam
+Button/Name/CommanderKaraxUnlockSOAChronoPassive=Spear of Adun: Chrono Field
+Button/Name/CommanderKaraxUnlockSOAPassiveOrbitalStrike=Spear of Adun: Passive Orbital Strike
+Button/Name/CommanderKaraxUnlockShieldBatteryBarrier=Unlock: Shield Battery Barrier
+Button/Name/CommanderKerriganCrushingGripWave=Immobilization Wave
+Button/Name/CommanderKerriganGreaterNydusWorm=Omega Worm
+Button/Name/CommanderKerriganHydraliskandLurkerUpgradesPack=Hydralisk/Lurker Upgrade Cache
+Button/Name/CommanderKerriganImprovedLeapingStrike=Ravage
+Button/Name/CommanderKerriganKerriganEnergyRegeneration=Queen of Blades
+Button/Name/CommanderKerriganKerriganUpgradesPack=Kerrigan Upgrade Cache
+Button/Name/CommanderKerriganKerrigansFury=Fury
+Button/Name/CommanderKerriganMalignantCreep=Malignant Creep
+Button/Name/CommanderKerriganMutatingCarapace=Mutating Carapace
+Button/Name/CommanderKerriganSpireUpgradesPack=Spire Upgrade Cache
+Button/Name/CommanderKerriganUltraliskEvolutionTorrasque=Ultralisk Evolution: Torrasque
+Button/Name/CommanderKerriganUltraliskUpgradesPack=Ultralisk Upgrade Cache
+Button/Name/CommanderKerriganUnlockLurker=New Unit: Lurker
+Button/Name/CommanderKerriganZerglingEvolutionRaptor=Zergling Evolution: Raptor
+Button/Name/CommanderKerriganZerglingUpgradesPack=Spawning Pool Upgrade Cache
+Button/Name/CommanderRaynorAdditionalArmoryUpgrades=Armory Upgrade Cache
+Button/Name/CommanderRaynorBansheeAirStrike=Banshee Airstrike
+Button/Name/CommanderRaynorEngineeringBayUpgradePack=Engineering Bay Upgrade Cache
+Button/Name/CommanderRaynorFactoryUpgradePack=Factory Upgrade Cache
+Button/Name/CommanderRaynorFirebatandMedicRange=Nano-Projectors
+Button/Name/CommanderRaynorHyperionAbility=Hyperion: Point Defense Drone
+Button/Name/CommanderRaynorHyperionAdvancedTargetingSystems=Hyperion: Advanced Targeting Systems
+Button/Name/CommanderRaynorImprovedInfantryWeapons=Mercenary Munitions
+Button/Name/CommanderRaynorImprovedMULECalldown=Improved Calldown: MULE
+Button/Name/CommanderRaynorInfantrySpecialist=Infantry Specialist
+Button/Name/CommanderRaynorInfantryUpgradePack=Infantry Upgrade Cache
+Button/Name/CommanderRaynorOrbitalDepots=Orbital Depots
+Button/Name/CommanderRaynorOrbitalDropPods=Orbital Drop-Pods
+Button/Name/CommanderRaynorStarportUpgradePack=Starport Upgrade Cache
+Button/Name/CommanderRaynorUnlockBattlecruiser=New Unit: Battlecruiser
+Button/Name/CommanderSwannArmoryUpgradePack=Armory Upgrade Cache
+Button/Name/CommanderSwannCombatDrop=Combat Drop
+Button/Name/CommanderSwannEngineeringBayUpgradesPack=Engineering Bay Upgrade Cache
+Button/Name/CommanderSwannFactoryUpgradesPack=Factory Upgrade Cache
+Button/Name/CommanderSwannImmortalityProtocol=Immortality Protocol
+Button/Name/CommanderSwannImprovedCombatDrop=Six for the Price of Four
+Button/Name/CommanderSwannImprovedLaserDrill=Drakken Laser Drill: Pulse Cannon
+Button/Name/CommanderSwannImprovedSCVs=Improved SCVs
+Button/Name/CommanderSwannImprovedTurrets=Betty and the Gang
+Button/Name/CommanderSwannIncreasedVehicleHealth=Mechanical Know-how
+Button/Name/CommanderSwannTechReactors=Tech Reactors
+Button/Name/CommanderSwannUnlockAdditionalStarportTechLabUpgrades=Starport Upgrade Cache
+Button/Name/CommanderSwannUnlockCyclone=Unlock: Cyclone
+Button/Name/CommanderSwannUnlockThor=New Unit: Thor
+Button/Name/CommanderSwannVehicleSpecialist=Vehicle Specialist
+Button/Name/CommanderSwannVespeneDrone=Vespene Harvester
+Button/Name/CommanderTraitArtanisSOAOrbitalStrike=Commander Trait Artanis SOAOrbital Strike
+Button/Name/CommanderTraitArtanisSOAProjectPowerField=Commander Trait Artanis SOAProject Power Field
+Button/Name/CommanderTraitArtanisSOAShieldOvercharge=Commander Trait Artanis SOAShield Overcharge
+Button/Name/CommanderTraitKaraxSOAChronoWave=Commander Trait Karax SOAChrono Wave
+Button/Name/CommanderTraitKaraxSOAOrbitalStrike=Commander Trait Karax SOAOrbital Strike
+Button/Name/CommanderTraitKaraxSOASolarLance=Commander Trait Karax SOASolar Lance
+Button/Name/CommanderTraitKerriganAssimilationAura=Commander Trait Kerrigan Assimilation Aura
+Button/Name/CommanderTraitKerriganLeapingStrike=Commander Trait Kerrigan Leaping Strike
+Button/Name/CommanderTraitKerriganPsionicShift=Commander Trait Kerrigan Psionic Shift
+Button/Name/CommanderTraitRaynorHyperionHyperjump=Commander Trait Raynor Hyperion Hyperjump
+Button/Name/CommanderTraitRaynorHyperionYamatoCannon=Commander Trait Raynor Hyperion Yamato Cannon
+Button/Name/CommanderTraitRaynorSummonHyperion=Commander Trait Raynor Summon Hyperion
+Button/Name/CommanderTraitSwannConcentratedBeam=Commander Trait Swann Concentrated Beam
+Button/Name/CommanderTraitSwannDrakkenLaserDrill=Commander Trait Swann Drakken Laser Drill
+Button/Name/CommanderTraitSwannDrakkenLaserDrillAttack=Commander Trait Swann Drakken Laser Drill Attack
+Button/Name/CommanderTraitVorazunSOABlackHole=Commander Trait Vorazun SOABlack Hole
+Button/Name/CommanderTraitVorazunSOASummonDarkPylon=Commander Trait Vorazun SOASummon Dark Pylon
+Button/Name/CommanderTraitVorazunSOASummonShadowGuard=Commander Trait Vorazun SOASummon Shadow Guard
+Button/Name/CommanderTraitZagaraBanelingBarrage=Commander Trait Zagara Baneling Barrage
+Button/Name/CommanderTraitZagaraMassFrenzy=Commander Trait Zagara Mass Frenzy
+Button/Name/CommanderTraitZagaraSpawnHunterKillers=Commander Trait Zagara Spawn Hunter Killers
+Button/Name/CommanderVorazunCloakedUnitsDamageBoost=Strike from the Shadows
+Button/Name/CommanderVorazunDarkArchonUpgradesPack=Dark Archon Upgrade Cache
+Button/Name/CommanderVorazunDarkPylonRecall=Dark Pylon: Recall
+Button/Name/CommanderVorazunDarkTemplarUpgradesPack=Dark Templar Upgrade Cache
+Button/Name/CommanderVorazunFleetBeaconUpgradesPack=Fleet Beacon Upgrade Cache
+Button/Name/CommanderVorazunImprovedShieldRegeneration=Veil of Shadows
+Button/Name/CommanderVorazunImprovedSpearofAdunBlackhole=Spear of Adun: Event Horizon
+Button/Name/CommanderVorazunImprovedTimeStop=Spear of Adun: Chronomancy
+Button/Name/CommanderVorazunShadowGuardGainDetectionSuppression=Shadow Guard: Void Shroud
+Button/Name/CommanderVorazunShadowGuardIncreasedSpawnCount=Shadow Legion
+Button/Name/CommanderVorazunShadowStalk=Shroud of Adun
+Button/Name/CommanderVorazunSpearofAdunEmergencyRecall=Spear of Adun: Emergency Recall
+Button/Name/CommanderVorazunSpearofAdunOrbitalAssimilators=Spear of Adun: Orbital Assimilators
+Button/Name/CommanderVorazunSpearofAdunTimeStop=Spear of Adun: Time Stop
+Button/Name/CommanderVorazunTwilightCouncilUpgradesPack=Twilight Council Upgrade Cache
+Button/Name/CommanderVorazunUnlockDarkArchon=New Unit: Dark Archon
+Button/Name/CommanderZagaraBanelingEvolutionSplitterling=Baneling Evolution: Splitter
+Button/Name/CommanderZagaraBanelingNestUpgradesPack=Baneling Nest Upgrade Cache
+Button/Name/CommanderZagaraBileLauncherUpgradesPack=Bile Launcher Upgrade Cache
+Button/Name/CommanderZagaraEvolutionChamberUpgradesPack=Evolution Chamber Upgrade Cache
+Button/Name/CommanderZagaraImprovedInjectLarva=Inject Larvae
+Button/Name/CommanderZagaraImprovedMassRoachDrop=Darken the Skies
+Button/Name/CommanderZagaraIncubateBanelings=Incubate Banelings
+Button/Name/CommanderZagaraIncubateBroodlings=Incubate Broodlings
+Button/Name/CommanderZagaraMassRoachDrop=Infested Drop
+Button/Name/CommanderZagaraMasterSpawner=Broodmother
+Button/Name/CommanderZagaraRelentless=Relentless Swarmer
+Button/Name/CommanderZagaraScourgeUpgradesPack=Scourge Upgrade Cache
+Button/Name/CommanderZagaraUnlockBileLauncher=New Unit: Bile Launcher
+Button/Name/CommanderZagaraVolatileBanelingNest=Baneling Nest: Birthing Chamber
+Button/Name/CommanderZagaraZerglingEvolutionSwarmling=Zergling Evolution: Swarmling
+Button/Name/CommanderZagaraZerglingUpgradesPack=Zergling Upgrade Cache
+Button/Name/ConcussiveGrenade=Concussive Shells
+Button/Name/Contaminate=Contaminate
+Button/Name/CorruptionAbility=Corruption
+Button/Name/Corruptor=Morph to Corruptor
+Button/Name/CreepTumor=Creep Tumor
+Button/Name/CyberneticsCore=Warp In Cybernetics Core
+Button/Name/D8Charge=D8 Charge
+Button/Name/Dance=Dance
+Button/Name/DarkShrine=Warp In Dark Shrine
+Button/Name/DarkTemplar=Warp In Dark Templar
+Button/Name/Detector=Detector
+Button/Name/Disguise=Disguise
+Button/Name/Drone=Morph to Drone
+Button/Name/EMP=EMP Round
+Button/Name/EngineeringBay=Build Engineering Bay
+Button/Name/EvolutionChamber=Mutate into Evolution Chamber
+Button/Name/EvolveAnabolicSynthesis2=Evolve Anabolic Synthesis
+Button/Name/EvolveCentrificalHooks=Evolve Centrifugal Hooks
+Button/Name/EvolveChitinousPlating=Evolve Chitinous Plating
+Button/Name/EvolveGlialRegeneration=Evolve Glial Reconstitution
+Button/Name/EvolveInfestorEnergyUpgrade=Evolve Pathogen Glands
+Button/Name/EvolveOrganicCarapace=Evolve Organic Carapace
+Button/Name/EvolvePeristalsis=Evolve Peristalsis
+Button/Name/EvolveTunnelingClaws=Evolve Tunneling Claws
+Button/Name/EvolveVentralSacks=Evolve Ventral Sacs
+Button/Name/Explode=Explode
+Button/Name/Extractor=Mutate into Extractor
+Button/Name/Factory=Build Factory
+Button/Name/Feedback=Feedback
+Button/Name/FighterMode=Fighter Mode
+Button/Name/FleetBeacon=Warp In Fleet Beacon
+Button/Name/ForceField=Force Field
+Button/Name/Forge=Warp In Forge
+Button/Name/Frenzied=Frenzied
+Button/Name/Frenzy=Frenzy
+Button/Name/FungalGrowth=Fungal Growth
+Button/Name/FusionCore=Build Fusion Core
+Button/Name/Gateway=Warp In Gateway
+Button/Name/Gather=Gather
+Button/Name/GatherMULE=Gather
+Button/Name/GatherProt=Gather
+Button/Name/GatherTerr=Gather
+Button/Name/GatherZerg=Gather
+Button/Name/GenerateCreep=Generate Creep
+Button/Name/Ghost=Train Ghost
+Button/Name/GhostAcademy=Build Ghost Academy
+Button/Name/GhostHoldFire=Hold Fire
+Button/Name/GravitonBeam=Graviton Beam
+Button/Name/GravitonCatapult=Graviton Catapult
+Button/Name/GreaterSpire=Mutate into Greater Spire
+Button/Name/GuardianShield=Guardian Shield
+Button/Name/Hallucination=Hallucination
+Button/Name/Halt=Halt
+Button/Name/HardenedShield=Hardened Shield
+Button/Name/Hatchery=Mutate into Hatchery
+Button/Name/Heal=Heal
+Button/Name/Hellion=Build Hellion
+Button/Name/Herd=Herd
+Button/Name/HighTemplar=Warp In High Templar
+Button/Name/HighTemplarHallucination=Summon 2 High Templar Hallucinations
+Button/Name/Hive=Mutate into Hive
+Button/Name/HoldFire=Hold Fire
+Button/Name/HoldFireSpecial=Hold Fire (Special)
+Button/Name/HunterSeekerMissile=Seeker Missile
+Button/Name/Hydralisk=Morph to Hydralisk
+Button/Name/HydraliskDen=Mutate into Hydralisk Den
+Button/Name/Immortal=Warp In Immortal
+Button/Name/ImmortalHallucination=Summon Immortal Hallucination
+Button/Name/InfestationPit=Mutate into Infestation Pit
+Button/Name/InfestedTerrans=Infested Terran
+Button/Name/Infestor=Morph to Infestor
+Button/Name/Interceptor=Build Interceptor
+Button/Name/JetPack=Jet Pack
+Button/Name/Lair=Mutate into Lair
+Button/Name/Land=Land 
+Button/Name/Larva=Select Larva
+Button/Name/Leech=Leech
+Button/Name/Lift=Lift Off
+Button/Name/Load=Load
+Button/Name/Lower=Lower
+Button/Name/Marauder=Train Marauder
+Button/Name/Marine=Train Marine
+Button/Name/MassRecall=Mass Recall
+Button/Name/Medivac=Build Medivac
+Button/Name/MedivacLoad=Load
+Button/Name/MedivacUnloadAll=Unload All
+Button/Name/MissileTurret=Build Missile Turret
+Button/Name/MorphBackToGateway=Transform to Gateway
+Button/Name/MorphMorphalisk=Spawn Larvae
+Button/Name/MorphToOverseer=Morph to Overseer
+Button/Name/Mothership=Warp In Mothership
+Button/Name/Move=Move
+Button/Name/MoveHoldPosition=Hold Position
+Button/Name/MovePatrol=Patrol
+Button/Name/Mutalisk=Morph to Mutalisk
+Button/Name/NeuralParasite=Neural Parasite
+Button/Name/Nexus=Warp In Nexus
+Button/Name/NukeArm=Arm Silo with Nuke
+Button/Name/NukeCalldown=Tac Nuke Strike
+Button/Name/NydusCanal=Mutate into Nydus Worm
+Button/Name/NydusCanalLoad=Load
+Button/Name/NydusCanalUnloadAll=Unload All
+Button/Name/NydusNetwork=Mutate into Nydus Network
+Button/Name/Observer=Warp In Observer
+Button/Name/ObverseIncubation=Evolve Obverse Incubation
+Button/Name/OrbitalCommand=Upgrade to Orbital Command
+Button/Name/Overlord=Morph to Overlord
+Button/Name/OverlordTransportLoad=Load
+Button/Name/OverlordTransportUnload=Unload All
+Button/Name/PermanentlyCloaked=Permanently Cloaked
+Button/Name/PermanentlyCloakedObserver=Permanently Cloaked
+Button/Name/PhaseShift=Phase Shift
+Button/Name/PhasingMode=Phasing Mode
+Button/Name/Phoenix=Warp In Phoenix
+Button/Name/PhoenixHallucination=Summon Phoenix Hallucination
+Button/Name/PhotonCannon=Warp In Photon Cannon
+Button/Name/PlanetaryFortress=Upgrade to Planetary Fortress
+Button/Name/PlanetaryFortressLoad=Load 
+Button/Name/PointDefense=Point Defense Laser
+Button/Name/PointDefenseDrone=Build Point Defense Drone
+Button/Name/PrismaticBeam=Prismatic Beam
+Button/Name/Probe=Warp In Probe
+Button/Name/ProbeHallucination=Summon 4 Probe Hallucinations
+Button/Name/ProtossAirArmorLevel1=Upgrade Air Armor Level 1
+Button/Name/ProtossAirArmorLevel2=Upgrade Air Armor Level 2
+Button/Name/ProtossAirArmorLevel3=Upgrade Air Armor Level 3
+Button/Name/ProtossAirWeaponsLevel1=Upgrade Air Weapons Level 1
+Button/Name/ProtossAirWeaponsLevel2=Upgrade Air Weapons Level 2
+Button/Name/ProtossAirWeaponsLevel3=Upgrade Air Weapons Level 3
+Button/Name/ProtossBuild=Warp In Structure
+Button/Name/ProtossBuildAdvanced=Warp In Advanced Structure
+Button/Name/ProtossGroundArmorLevel1=Upgrade Ground Armor Level 1
+Button/Name/ProtossGroundArmorLevel2=Upgrade Ground Armor Level 2
+Button/Name/ProtossGroundArmorLevel3=Upgrade Ground Armor Level 3
+Button/Name/ProtossGroundWeaponsLevel1=Upgrade Ground Weapons Level 1
+Button/Name/ProtossGroundWeaponsLevel2=Upgrade Ground Weapons Level 2
+Button/Name/ProtossGroundWeaponsLevel3=Upgrade Ground Weapons Level 3
+Button/Name/ProtossShieldsLevel1=Upgrade Shields Level 1
+Button/Name/ProtossShieldsLevel2=Upgrade Shields Level 2
+Button/Name/ProtossShieldsLevel3=Upgrade Shields Level 3
+Button/Name/PsiStorm=Psionic Storm
+Button/Name/Pylon=Warp In Pylon
+Button/Name/Queen=Birth Queen
+Button/Name/RadarField=Radar
+Button/Name/Raise=Raise
+Button/Name/Rally=Set Rally Point
+Button/Name/RallyEgg=Set Worker Rally Point
+Button/Name/RallyExtra=Set Rally Point (Extra)
+Button/Name/RapidRegeneration=Rapid Regeneration
+Button/Name/Raven=Build Raven
+Button/Name/Reactor=Build Reactor
+Button/Name/Reaper=Train Reaper
+Button/Name/ReaperSpeed=Research Nitro Packs
+Button/Name/Refinery=Build Refinery
+Button/Name/Repair=Repair
+Button/Name/ResearchBansheeCloak=Research Cloaking Field
+Button/Name/ResearchBattlecruiserEnergyUpgrade=Research Behemoth Reactor
+Button/Name/ResearchBattlecruiserSpecializations=Research Weapon Refit
+Button/Name/ResearchBurrow=Evolve Burrow
+Button/Name/ResearchCharge=Research Charge
+Button/Name/ResearchDurableMaterials=Research Durable Materials
+Button/Name/ResearchExtendedThermalLance=Research Extended Thermal Lance
+Button/Name/ResearchGhostEnergyUpgrade=Research Moebius Reactor
+Button/Name/ResearchGraviticBooster=Research Gravitic Boosters
+Button/Name/ResearchGraviticDrive=Research Gravitic Drive
+Button/Name/ResearchHallucination=Research Hallucination
+Button/Name/ResearchHiSecAutoTracking=Research Hi-Sec Auto Tracking
+Button/Name/ResearchHighCapacityBarrels=Research Infernal Pre-Igniter
+Button/Name/ResearchHighTemplarEnergyUpgrade=Research Khaydarin Amulet
+Button/Name/ResearchIncreasedRange=Research Increased Range
+Button/Name/ResearchInterceptorLaunchSpeedUpgrade=Research Graviton Catapult
+Button/Name/ResearchJotunBoosters=Research Jotun Boosters
+Button/Name/ResearchMedivacEnergyUpgrade=Research Caduceus Reactor
+Button/Name/ResearchNeosteelFrame=Research Neosteel Frame
+Button/Name/ResearchNeuralParasite=Evolve Neural Parasite
+Button/Name/ResearchPersonalCloaking=Research Personal Cloaking
+Button/Name/ResearchPsiStorm=Research Psionic Storm
+Button/Name/ResearchPunisherGrenades=Research Concussive Shells
+Button/Name/ResearchRavenEnergyUpgrade=Research Corvid Reactor
+Button/Name/ResearchSeekerMissile=Research Seeker Missile
+Button/Name/ResearchShieldWall=Research Combat Shield
+Button/Name/ResearchSiegeTech=Research Siege Tech
+Button/Name/ResearchStalkerTeleport=Research Blink
+Button/Name/ResearchStrikeCannons=Research 250mm Strike Cannons
+Button/Name/ResearchVoidRaySpeedUpgrade=Research Flux Vanes
+Button/Name/ResearchWarpGate=Research Warp Gate
+Button/Name/ReturnCargo=Return Cargo
+Button/Name/Roach=Morph to Roach
+Button/Name/RoachWarren=Mutate into Roach Warren
+Button/Name/RoboticsBay=Warp In Robotics Bay
+Button/Name/RoboticsFacility=Warp In Robotics Facility
+Button/Name/SCV=Train SCV
+Button/Name/Salvage=Salvage
+Button/Name/SapStructure=Attack Structure
+Button/Name/Scan=Scanner Sweep
+Button/Name/SelectBuilder=Select Builder
+Button/Name/SensorTower=Build Sensor Tower
+Button/Name/Sentry=Warp In Sentry
+Button/Name/SetBunkerRallyPoint=Set Bunker Rally Point
+Button/Name/SetRallyPoint=Set Rally Point
+Button/Name/SetRallyPoint2=Set Rally Point
+Button/Name/SiegeMode=Siege Mode
+Button/Name/SiegeTank=Build Siege Tank
+Button/Name/Siphon=Siphon Life
+Button/Name/Snipe=Sniper Round
+Button/Name/SpawnChangeling=Spawn Changeling
+Button/Name/SpawningPool=Mutate into Spawning Pool
+Button/Name/SpineCrawler=Mutate into Spine Crawler
+Button/Name/SpineCrawlerRoot=Root
+Button/Name/SpineCrawlerRootCancel=Cancel Root command
+Button/Name/SpineCrawlerUproot=Uproot
+Button/Name/Spire=Mutate into Spire
+Button/Name/SporeCrawler=Mutate into Spore Crawler
+Button/Name/SporeCrawlerRoot=Root
+Button/Name/SporeCrawlerRootCancel=Cancel Root command
+Button/Name/SporeCrawlerUproot=Uproot
+Button/Name/Stalker=Warp In Stalker
+Button/Name/StalkerHallucination=Summon 2 Stalker Hallucinations
+Button/Name/Stargate=Warp In Stargate
+Button/Name/Starport=Build Starport
+Button/Name/Stim=Use Stimpack
+Button/Name/StimMarauder=Use Stimpack
+Button/Name/StimRedirect=Use Stimpack
+Button/Name/Stimpack=Research Stimpack
+Button/Name/Stop=Stop
+Button/Name/StopGenerateCreep=Stop Generate Creep
+Button/Name/StopPlanetaryFortress=Stop
+Button/Name/StopRoachBurrowed=Stop
+Button/Name/StopSpecial=Stop (Special)
+Button/Name/SummonNydusWorm=Summon Nydus Worm
+Button/Name/SupplyDepot=Build Supply Depot
+Button/Name/SupplyDrop=Calldown: Extra Supplies
+Button/Name/SwarmSeeds=Swarm Seeds
+Button/Name/TechLabBarracks=Build Tech Lab
+Button/Name/TechLabFactory=Build Tech Lab
+Button/Name/TechLabStarport=Build Tech Lab
+Button/Name/TemplarArchive=Warp In Templar Archives
+Button/Name/TemporalRift=Temporal Rift
+Button/Name/TerranBuild=Build Structure
+Button/Name/TerranBuildAdvanced=Build Advanced Structure
+Button/Name/TerranInfantryArmorLevel1=Upgrade Infantry Armor Level 1
+Button/Name/TerranInfantryArmorLevel2=Upgrade Infantry Armor Level 2
+Button/Name/TerranInfantryArmorLevel3=Upgrade Infantry Armor Level 3
+Button/Name/TerranInfantryWeaponsLevel1=Upgrade Infantry Weapons Level 1
+Button/Name/TerranInfantryWeaponsLevel2=Upgrade Infantry Weapons Level 2
+Button/Name/TerranInfantryWeaponsLevel3=Upgrade Infantry Weapons Level 3
+Button/Name/TerranShipPlatingLevel1=Upgrade Ship Plating Level 1
+Button/Name/TerranShipPlatingLevel2=Upgrade Ship Plating Level 2
+Button/Name/TerranShipPlatingLevel3=Upgrade Ship Plating Level 3
+Button/Name/TerranShipWeaponsLevel1=Upgrade Ship Weapons Level 1
+Button/Name/TerranShipWeaponsLevel2=Upgrade Ship Weapons Level 2
+Button/Name/TerranShipWeaponsLevel3=Upgrade Ship Weapons Level 3
+Button/Name/TerranVehiclePlatingLevel1=Upgrade Vehicle Plating Level 1
+Button/Name/TerranVehiclePlatingLevel2=Upgrade Vehicle Plating Level 2
+Button/Name/TerranVehiclePlatingLevel3=Upgrade Vehicle Plating Level 3
+Button/Name/TerranVehicleWeaponsLevel1=Upgrade Vehicle Weapons Level 1
+Button/Name/TerranVehicleWeaponsLevel2=Upgrade Vehicle Weapons Level 2
+Button/Name/TerranVehicleWeaponsLevel3=Upgrade Vehicle Weapons Level 3
+Button/Name/Thor=Build Thor
+Button/Name/TimeWarp=Chrono Boost
+Button/Name/Transfusion=Transfusion
+Button/Name/TransportMode=Transport Mode
+Button/Name/Turn=Turn
+Button/Name/TwilightCouncil=Warp In Twilight Council
+Button/Name/Ultralisk=Morph to Ultralisk
+Button/Name/UltraliskCavern=Mutate into Ultralisk Cavern
+Button/Name/Unsiege=Tank Mode
+Button/Name/UpgradeBuildingArmorLevel1=Upgrade Structure Armor
+Button/Name/UpgradeToPlanetaryFortress=Upgrade to Planetary Fortress
+Button/Name/UpgradeToPlanetaryFortressFast=Upgrade to Planetary Fortress
+Button/Name/UpgradeToWarpGate=Transform to Warp Gate
+Button/Name/VikingFighter=Build Viking
+Button/Name/VoidRay=Warp In Void Ray
+Button/Name/VoidRayHallucination=Summon Void Ray Hallucination
+Button/Name/Vortex=Vortex
+Button/Name/WarpPrism=Warp In Warp Prism
+Button/Name/WarpPrismHallucination=Summon Warp Prism Hallucination
+Button/Name/WarpPrismLoad=Load
+Button/Name/WarpPrismUnloadAll=Unload All
+Button/Name/WeaponsFree=Weapons Free
+Button/Name/WormholeTransit=Wormhole Transit
+Button/Name/YamatoGun=Yamato Cannon
+Button/Name/Zealot=Warp In Zealot
+Button/Name/ZealotHallucination=Summon 2 Zealot Hallucinations
+Button/Name/ZergBuild=Basic Mutation
+Button/Name/ZergBuildAdvanced=Advanced Mutation
+Button/Name/Zergling=Morph to Zergling
+Button/Name/hydraliskspeed=Evolve Grooved Spines
+Button/Name/overlordspeed=Evolve Pneumatized Carapace
+Button/Name/zergflyerarmor1=Evolve Flyer Carapace Level 1
+Button/Name/zergflyerarmor2=Evolve Flyer Carapace Level 2
+Button/Name/zergflyerarmor3=Evolve Flyer Carapace Level 3
+Button/Name/zergflyerattack1=Evolve Flyer Attacks Level 1
+Button/Name/zergflyerattack2=Evolve Flyer Attacks Level 2
+Button/Name/zergflyerattack3=Evolve Flyer Attacks Level 3
+Button/Name/zerggroundarmor1=Evolve Ground Carapace Level 1
+Button/Name/zerggroundarmor2=Evolve Ground Carapace Level 2
+Button/Name/zerggroundarmor3=Evolve Ground Carapace Level 3
+Button/Name/zerglingattackspeed=Evolve Adrenal Glands
+Button/Name/zerglingmovementspeed=Evolve Metabolic Boost
+Button/Name/zergmeleeweapons1=Evolve Melee Attacks Level 1
+Button/Name/zergmeleeweapons2=Evolve Melee Attacks Level 2
+Button/Name/zergmeleeweapons3=Evolve Melee Attacks Level 3
+Button/Name/zergmissileweapons1=Evolve Missile Attacks Level 1
+Button/Name/zergmissileweapons2=Evolve Missile Attacks Level 2
+Button/Name/zergmissileweapons3=Evolve Missile Attacks Level 3
+Button/Tooltip/250mmStrikeCannons=Fires at a single unit or structure, stunning the target and dealing <d ref="Effect,250mmStrikeCannonsCreatePersistent,PeriodCount * Effect,250mmStrikeCannonsDamage,Amount"/> damage over <d ref="Effect,250mmStrikeCannonsCreatePersistent,PeriodCount * Effect,250mmStrikeCannonsCreatePersistent,PeriodicPeriodArray[0]"/> seconds.<n/><n/><c val="#ColorAttackInfo">Can target ground units.</c>
+Button/Tooltip/AWrp=Sacrifices 2 Templar to create an Archon.<n/><n/><c val="ffff8a">Can attack ground and air units.</c>
+Button/Tooltip/AberrationACGluescreenDummy=Aberrations are durable units that deal heavy damage.<n/><n/><c val="FFFF8A">Can attack ground units.</c>
+Button/Tooltip/AcquireMove=Orders selected units to move to the target area or follow the target unit. Scan-moving units will not engage enemies.
+Button/Tooltip/Archon=Powerful psionic attacker.<n/><n/><c val="ffff8a">Can attack ground and air units.</c>
+Button/Tooltip/ArchonACGluescreenDummy=Powerful psionic attacker.<n/><n/><c val="ffff8a">Can attack ground and air units.</c>
+Button/Tooltip/ArchonHallucination=This hallucinated copy functions like the original unit, but it cannot use active abilities, cannot deal damage, and dies more easily. Hallucinations last <d time="60"/> before they disappear.
+Button/Tooltip/ArchonWarpTarget=Sacrifices 2 Templar to create an Archon.
+Button/Tooltip/Armory=Contains weapon and armor upgrades for Factory and Starport structures. <n/><n/><c val="ffff8a">Enables:</c><n/>- Thors at the Factory
+Button/Tooltip/AssaultMode=Transforms the Viking to Assault Mode. In this mode Vikings move on the ground and can only attack ground targets.
+Button/Tooltip/Assimilator=Warped in over a Vespene Geyser to allow harvesting of vespene gas.
+Button/Tooltip/Attack=Orders selected units to move to the target point, fighting nearby enemies along the way. Targeting a unit with the Attack command orders that it be attacked until it is destroyed.
+Button/Tooltip/AttackBuilding=Targets and attacks the target unit until it is destroyed or moves out of range.
+Button/Tooltip/AttackRedirect=Targets and attacks the target unit until it is destroyed or moves out of range.
+Button/Tooltip/AttackWarpPrism=Orders selected units to move to the target point, fighting nearby enemies along the way. Targeting a unit with the Attack command orders that it be attacked until it is destroyed.
+Button/Tooltip/AutoTurret=Automated defensive turret. Times out after <d ref="Behavior,AutoTurretTimedLife,Duration"/> seconds.<n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c>
+Button/Tooltip/Baneling=Suicide unit. Does damage over a small area on death. <n/><n/><c val="ffff8a">Can attack ground units.</c>
+Button/Tooltip/BanelingACGluescreenDummy=Suicide unit. Does damage over a small area on death. <n/><n/><c val="ffff8a">Can attack ground units.</c>
+Button/Tooltip/BanelingCocoon=This cocoon contains a Zergling that is morphing into a Baneling.
+Button/Tooltip/BanelingFromZerglingBurrowed=Suicide unit. Does damage over a small area. <n/><n/>Zergling will unburrow before morphing.<n/><n/><c val="ffff8a">Can attack ground units.</c>
+Button/Tooltip/BanelingNest=Contains upgrades for Banelings.<n/><n/><c val="ffff8a">Enables:</c><n/>- Banelings from Zerglings
+Button/Tooltip/Banshee=Tactical-strike aircraft.<n/><n/><c val="#ColorAttackInfo">Can attack ground units.</c>
+Button/Tooltip/BansheeACGluescreenDummy=Tactical-strike aircraft. Can be upgraded to use cloak.<n/><n/><c val="#ColorAttackInfo">Can attack ground units.</c>
+Button/Tooltip/Barracks=Infantry-production facility. <n/><n/><c val="ffff8a">Enables:</c><n/>- Marines<n/>- Bunkers from SCVs<n/>- Orbital Commands from Command Centers
+Button/Tooltip/BarracksFlying=Barracks must land to start unit production.
+Button/Tooltip/Battlecruiser=Powerful warship.<n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c>
+Button/Tooltip/BattlecruiserACGluescreenDummy=Powerful warship. Can use Yamato Cannon and Tactical Jump.<n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c>
+Button/Tooltip/BileLauncherACGluescreenDummy=Defensive structure which bombards target locations with bile, damaging ground and air units in the area.
+Button/Tooltip/Blink=Teleports the Stalker to a nearby target location. Ability can only be used once every <d ref="Abil,Blink,Cost[0].Cooldown.TimeUse"/> seconds.
+Button/Tooltip/BraxisAlphaDestructible1x1=Barrier that can be destroyed to allow access to new areas.
+Button/Tooltip/BraxisAlphaDestructible2x2=Barrier that can be destroyed to allow access to new areas.
+Button/Tooltip/BroodLord=Flying heavy-assault unit. Shoots Broodlings at its target. A Broodling is a small creature that can attack ground units.<n/><n/><c val="#ColorAttackInfo">Can attack ground units.</c>
+Button/Tooltip/BroodLordACGluescreenDummy=Flying heavy-assault unit. Shoots Broodlings at its target. A Broodling is a small creature that can attack ground units.<n/><n/><c val="#ColorAttackInfo">Can attack ground units.</c>
+Button/Tooltip/BroodLordCocoon=This cocoon contains a Corruptor that is morphing into a Brood Lord.
+Button/Tooltip/Broodling=Fast melee creature that will last for a short duration.<n/><n/><c val="ffff8a">Can attack ground units.</c>
+Button/Tooltip/BuildCreepTumor=A burrowed creep generator. Creep feeds nearby Zerg structures. A Creep Tumor can spawn one additional Creep Tumor.<n/><n/><c val="#ColorAttackInfo">Bonus: Zerg move faster on creep.</c>
+Button/Tooltip/BuildCreepTumorPropagate=A burrowed creep generator. Creep feeds nearby Zerg structures. A Creep Tumor can spawn one additional Creep Tumor.<n/><n/><c val="#ColorAttackInfo">Bonus: Zerg move faster on creep.</c>
+Button/Tooltip/BuildTechLabBarracks=Infantry-research structure. A Tech Lab can fit onto any production structure.<n/><n/><c val="ffff8a">Enables:</c><n/>- Marauders<n/>- Reapers<n/>- Ghosts with Ghost Academy
+Button/Tooltip/BuildTechLabFactory=Vehicle-research structure. A Tech Lab can fit onto any production structure.<n/><n/><c val="ffff8a">Enables:</c><n/>- Siege Tanks<n/>- Thors with Armory
+Button/Tooltip/BuildTechLabStarport=Aircraft-research structure. A Tech Lab can fit onto any production structure.<n/><n/><c val="ffff8a">Enables:</c><n/>- Banshees<n/>- Ravens<n/>- Battlecruisers with Fusion Core
+Button/Tooltip/Bunker=Defensive structure. <n/>Infantry fights from inside. <n/><n/><c val="#ColorAttackInfo">Bonus: +1 range to units inside.</c>
+Button/Tooltip/BunkerACGluescreenDummy=Defensive structure. Infantry fight from inside with +1 range bonus.
+Button/Tooltip/BunkerLoad=Loads infantry into Bunker.
+Button/Tooltip/BunkerUnloadAll=Unloads all units.
+Button/Tooltip/BurrowDown=Buries the unit underground. Burrowed units are unable to move or attack, but they cannot be seen without detection.
+Button/Tooltip/BurrowMove=Buries the unit underground. Burrowed units are unable to attack, but they cannot be seen without detection. This unit may move while burrowed.
+Button/Tooltip/BurrowUp=Returns the unit to the surface.
+Button/Tooltip/CalldownMULE=Drops an experimental robotic MULE miner onto the target Mineral Field. MULEs collect minerals more quickly than SCVs.  <n/><n/>MULEs last <d time="90"/> before their systems fail.
+Button/Tooltip/Cancel=Drops the current order without performing it, and allows you to select a different order.
+Button/Tooltip/CancelBuilding=Cancels construction of this structure, destroying the structure and giving a partial refund.
+Button/Tooltip/CancelCocoon=Cancels the build order, killing the larva in the process.
+Button/Tooltip/CancelCocoonMorph=Cancels the morph order.
+Button/Tooltip/CancelMutateMorph=Cancels the mutation order, returning the structure to its original state.
+Button/Tooltip/CancelSlot=Drops a specific selected order from a point in the queue without performing it.
+Button/Tooltip/CancelUpgradeMorph=Cancels the upgrade order, returning the structure to its original state.
+Button/Tooltip/Carrier=Capital ship. Can build and launch Interceptors to make attacks.<n/><n/><c val="ffff8a">Can attack ground and air units.</c>
+Button/Tooltip/CarrierACGluescreenDummy=Capital ship. Builds and launches Interceptors that attack enemy targets.<n/><n/><c val="ffff8a">Can attack ground and air units.</c>
+Button/Tooltip/CarrierAiurACGluescreenDummy=Capital ship. Builds and launches Interceptors that attack enemy targets. Can be upgraded with Repair Drones that heal nearby mechanical units.<n/><n/><c val="ffff8a">Can attack ground and air units.</c>
+Button/Tooltip/Changeling=Changelings cannot attack. When a Changeling first encounters an enemy unit, it will match that unit's color and change into a Zealot, Marine, or Zergling, depending on the enemy race. Dies after <d time="150"/>.
+Button/Tooltip/Charge=Allows Zealots to intercept nearby enemies. Also increases the movement speed of Zealots. Ability can only be used once every <d ref="Abil,Charge,Cost.Cooldown.TimeUse"/> seconds.
+Button/Tooltip/Cheer=Orders selected units to cheer. (If they have the animations to do so)
+Button/Tooltip/CliffWalk=The Colossus can walk up and down cliffs.
+Button/Tooltip/CloakOff=Decloaks the selected unit, making it visible to enemies.
+Button/Tooltip/CloakOnBanshee=Cloaks the unit, preventing enemy units from seeing or attacking it. A cloaked unit will only be revealed by detectors or effects.<n/><n/><c val="f078ff">Drains <d ref="-1 * (Behavior,BansheeCloak,Modification.VitalRegenArray[2] + Unit,Banshee,EnergyRegenRate)" precision="1"/> energy per second.</c>
+Button/Tooltip/CloakOnGhost=Cloaks the unit, preventing enemy units from seeing or attacking it. A cloaked unit will only be revealed by detectors or effects.<n/><n/><c val="f078ff">Drains <d ref="-1 * (Behavior,GhostCloak,Modification.VitalRegenArray[2] + Unit,Ghost,EnergyRegenRate)" precision="1"/> energy per second.</c>
+Button/Tooltip/CloakingField=Cloaking Field passively cloaks friendly nearby units and structures.<n/><n/><c val="ffff8a">Passive ability.</c>
+Button/Tooltip/Colossus=Battle strider with a powerful area attack. Can step up and down cliffs. Can be targeted by anti-air weapons.<n/><n/><c val="ffff8a">Can attack ground units.</c>
+Button/Tooltip/ColossusACGluescreenDummy=Powerful battle strider. Can walk up and down cliffs. Attacks incinerate multiple enemies at once.<n/><n/><c val="ffff8a">Can attack ground units.</c>
+Button/Tooltip/ColossusHallucination=This hallucinated copy functions like the original unit, but it cannot use active abilities, cannot deal damage, and dies more easily. Hallucinations last <d time="60"/> before they disappear.
+Button/Tooltip/ColossusPurifierACGluescreenDummy=Battle strider with a powerful area attack. Can walk up and down cliffs. Attacks set fire to the ground, dealing extra damage to enemies over time.<n/><n/><c val="ffff8a">Can attack ground units.</c>
+Button/Tooltip/CommandCenter=Primary structure. Used to receive gathered resources. Can use the Lift Off ability and can upgrade into an Orbital Command or a Planetary Fortress.<n/><n/><c val="ffff8a">Enables:</c><n/>- SCVs
+Button/Tooltip/CommandCenterFlying=Primary structure. Must land to receive resources, produce units, or use abilities.
+Button/Tooltip/CommandCenterLoad=Loads nearby SCVs into Command Center.
+Button/Tooltip/CommandCenterUnloadAll=Unloads all units.
+Button/Tooltip/CommanderArtanisFleetBeaconUpgradesPack=Unlocks the following upgrades at the Fleet Beacon:<n/><ul indent="2" text="•"><li/>Allow Phoenixes to use Graviton Beam on two targets at once.<li/>Unlock the Tempest's Disintegration ability, which deals 500 damage to target unit or structure over 20 seconds.</ul>
+Button/Tooltip/CommanderArtanisHighArchon=Unlocks the ability for Archons to use the Feedback and Psionic Storm abilities.
+Button/Tooltip/CommanderArtanisImprovedSolarBombardment=Increases the number of shots fired during the Spear of Adun's Solar Bombardment ability from 200 to 400. Activate Solar Bombardment from the top panel.
+Button/Tooltip/CommanderArtanisReaverUpgradesPack=Unlocks the following upgrades at the Robotics Bay:<n/><ul indent="2" text="•"><li/>Increase the maximum number of Scarabs that Reavers can hold from 5 to 10.<li/>Increase the splash radius of Scarab explosions by 25%.
+Button/Tooltip/CommanderArtanisRoboticsBayUpgradesPack=Unlocks the following upgrades at the Robotics Bay:<n/><ul indent="2" text="•"><li/>Increase the maximum number of Scarabs that Reavers can hold from 5 to 10.<li/>Increase the splash radius of Scarab explosions by 25%.</ul>
+Button/Tooltip/CommanderArtanisSpearofAdunGuardianShell=Upon taking fatal damage, friendly units become invulnerable for a short time, preventing death. The same unit cannot be shielded again for 60 seconds.<n/><n/><c val="#ColorAttackInfo">Passive ability.</c>
+Button/Tooltip/CommanderArtanisSpearofAdunMatrixOverload=Grants Pylons the ability to energize friendly units within their power field, temporarily increasing their movement and attack speed.
+Button/Tooltip/CommanderArtanisSpearofAdunShieldOvercharge=Increases the amount of damage absorbed by the Spear of Adun's Shield Overcharge ability from 100 to 200. Activate Shield Overcharge from the top panel.
+Button/Tooltip/CommanderArtanisSpearofAdunSolarBombardment=Unlocks the ability for the Spear of Adun to randomly bombard an area for massive damage over 15 seconds. Activate Solar Bombardment from the top panel.
+Button/Tooltip/CommanderArtanisSpearofAdunWarpHarmonization=Stargates and Robotics Facilities can warp in units at any location with Pylon power.<n/><n/><c val="#ColorAttackInfo">Passive ability.</c>
+Button/Tooltip/CommanderArtanisStartingMaxSupply=Increases starting supply to 200.
+Button/Tooltip/CommanderArtanisSwiftRetribution=Artanis warps units into the battlefield almost instantly.
+Button/Tooltip/CommanderArtanisTemplarArchivesUpgradesPack=Unlocks the following upgrades at the Templar Archives:<n/><ul indent="2" text="•"><li/>Increase the High Templar's starting energy from 50 to 200.<li/>Upgrade the High Templar's Psionic Storm ability to also restore 50 shields to friendly units in the target area.</ul>
+Button/Tooltip/CommanderArtanisTwilightCouncilUpgradesPack=Unlocks the following upgrades at the Twilight Council:<n/><ul indent="2" text="•"><li/>Unlock the Zealot's Whirlwind ability, which damages all nearby enemies while active.<li/>Increase the Dragoon's life from 80 to 120.</ul>
+Button/Tooltip/CommanderArtanisUnlockReaver=Area-damage siege unit. Shoots Scarabs for high burst damage. Warped in at the Robotics Facility.<n/><n/><c val="ffff8a">Can attack ground units.</c>
+Button/Tooltip/CommanderArtanisUnlockTempest=Siege artillery craft. Attacks from long range. Warped in at the Stargate.<n/><n/><c val="ffff8a">Can attack ground and air units.</c>
+Button/Tooltip/CommanderArtanisWarpgateCharges=Increases the number of charges on Warp Gates from 1 to 3.
+Button/Tooltip/CommanderKaraxCyberneticsCoreUpgradesPack=[PH] Unlocks the following upgrades at the Cybernetics Core:<n/><ul indent="2" text="•"><li/>Energizer Reclamation<li/>Energizer & Shield Battery energy regen</ul>
+Button/Tooltip/CommanderKaraxFleetBeaconUpgradesPack=Unlocks the following upgrades at the Fleet Beacon:<n/><ul indent="2" text="•"><li/>Allow Mirages to become temporarily invulnerable after taking damage.<li/>Allow Carriers to automatically repair nearby mechanical units.
+Button/Tooltip/CommanderKaraxForgeUpgradesPack=Unlocks the following upgrades at the Forge:<n/><ul indent="2" text="•"><li/>Increase the range of Photon Cannons, Khaydarin Monoliths, and Shield Batteries by 2.<li/>Increase the attack speed of Photon Cannons and Khaydarin Monoliths by 25%.<li/>Allow Shield Batteries to grant structures a damage absorption barrier.</ul>
+Button/Tooltip/CommanderKaraxInstantStructureWarp=Pylons, Photon Cannons, Khaydarin Monoliths, and Shield Batteries warp in instantly.
+Button/Tooltip/CommanderKaraxMassChronoUpgrade=Chrono Wave now increases the production speeds of all friendly structures to 500% for 20 seconds.
+Button/Tooltip/CommanderKaraxOrbitalAssault=Orbital Strike no longer has a cooldown or a charge count, and now costs 5 energy per shot.
+Button/Tooltip/CommanderKaraxPurifierBeamUpgrade=Increases the Purifier Beam's movement speed by 200% and its duration by 5 seconds.
+Button/Tooltip/CommanderKaraxRoboticsBayUpgradesPack=Unlocks the following upgrades at the Robotics Bay:<n/><ul indent="2" text="•"><li/>Unlock the Immortal's Shadow Cannon ability, which deals 200 damage to an enemy ground or air unit.<li/>Enable the Colossus's attacks to set fire to the ground for additional damage over time.</ul>
+Button/Tooltip/CommanderKaraxSolarForgeUpgradesPack1=Unlocks the following upgrades at the Solar Forge:<n/><ul indent="2" text="•"><li/>Allow Reconstruction Beam to affect an additional target.<li/>Solar Efficiency Level 3.</ul>
+Button/Tooltip/CommanderKaraxSolarForgeUpgradesPack2=Unlocks the following upgrades at the Solar Forge:<n/><ul indent="2" text="•"><li/>Enable Orbital Strike to stun enemies in the target area.<li/>Enable Solar Lance to set fire to the ground for additional damage over time.</ul>
+Button/Tooltip/CommanderKaraxTwilightCouncilUpgradesPack=Unlocks the following upgrades at the Twilight Council:<n/><ul indent="2" text="•"><li/>Allow Energizers to temporarily take control of enemy mechanical units.<li/>Increase energy regeneration for Energizers and Shield Batteries by 200%.</ul>
+Button/Tooltip/CommanderKaraxUnitSpawnBarrier=All friendly units gain a Barrier that absorbs 10 damage. This Barrier is gained only upon the unit's creation and does not replenish.
+Button/Tooltip/CommanderKaraxUnlockKhaydarinMonolith=Extremely powerful defensive structure. Has superior range and damage, but is very expensive and attacks slowly.<n/><n/><c val="ffff8a">Can attack ground and air units.
+Button/Tooltip/CommanderKaraxUnlockPurifierBeam=Fires a beam that deals 750 (1500 vs Armored) damage over 15 seconds. The beam will auto-acquire targets if not manually controlled.
+Button/Tooltip/CommanderKaraxUnlockRepairBeam=Friendly mechanical units are automatically repaired over time. Up to 3 targets can be repaired at once.<n/><n/><c val="ffff8a">Passive ability.</c>
+Button/Tooltip/CommanderKaraxUnlockSOAChronoPassive=Increases the production speeds of all friendly structures by 15%.<n/><n/><c val="#ColorAttackInfo">Passive ability.</c>
+Button/Tooltip/CommanderKaraxUnlockSOAPassiveOrbitalStrike=[PH] The Nexus gains the ability to overcharge Pylons, granting them a long range weapon that attacks nearby enemy ground and air units.<n/><n/><c val="ffff8a">Passive ability.</c>
+Button/Tooltip/CommanderKaraxUnlockShieldBatteryBarrier=[PH] Places a barrier around the target structure that absorbs 100 damage for 10 seconds.
+Button/Tooltip/CommanderKerriganCrushingGripWave=Unlocks Kerrigan's Immobilization Wave ability, which damages and stuns enemies in a large area around her.
+Button/Tooltip/CommanderKerriganGreaterNydusWorm=Upgrades the Nydus Network to the Omega Network, which can summon Omega Worms. Omega Worms do not cost resources, unload units instantly, and can also be used by your ally.<n/><n/><c val="#ColorAttackInfo">Passive ability.</c>
+Button/Tooltip/CommanderKerriganHydraliskandLurkerUpgradesPack=Unlocks the following upgrades at the Hydralisk Den and Lurker Den:<n/><ul indent="2" text="•"><li/>Increase Hydralisks' life from 80 to 100.<li/>Unlock Hydralisk's Frenzy ability, which increases their attack speed by 50% for 15 seconds.<li/>Increase Lurkers' attack range from 9 to 12.</ul>
+Button/Tooltip/CommanderKerriganImprovedLeapingStrike=Increases the damage of Kerrigan's Leaping Strike from 150 to 300 and its cast range from 6 to 12.
+Button/Tooltip/CommanderKerriganKerriganEnergyRegeneration=Increases Kerrigan's energy regeneration by 50%.
+Button/Tooltip/CommanderKerriganKerriganUpgradesPack=Unlocks the following upgrades at the Evolution Chamber:<n/><ul indent="2" text="•"><li/>Upgrade Kerrigan's attacks to deal normal damage to her target and then jump to additional nearby enemies.<li/>Reduce Kerrigan's ability costs and cooldowns by 20%.</ul>
+Button/Tooltip/CommanderKerriganKerrigansFury=Kerrigan's attack speed increases by 15% with each attack, up to a maximum of 60%.<n/><n/><c val="#ColorAttackInfo">Passive ability.</c>
+Button/Tooltip/CommanderKerriganMalignantCreep=Friendly units gain 30% increased attack speed and 200% increased life regeneration while on creep. Creep tumors spread creep faster and farther.<n/><n/><c val="#ColorAttackInfo">Passive ability.</c>
+Button/Tooltip/CommanderKerriganMutatingCarapace=Kerrigan gains temporary life as she deals damage. If killed, she is revived quickly at her Hatchery.
+Button/Tooltip/CommanderKerriganSpireUpgradesPack=Unlocks the following upgrades at the Spire and Greater Spire:<n/><ul indent="2" text="•"><li/>Upgrade the Mutalisk's attacks to deal 100% bonus damage to armored units.<li/>Increase the Brood Lord's movement speed by 75%.</ul>
+Button/Tooltip/CommanderKerriganUltraliskEvolutionTorrasque=Upgrades Kerrigan's Ultralisks to the Torrasque strain.<n/><n/>Heavy assault beast. Has an area-damage cleave attack. When killed, can be revived.<n/><n/><c val="ffff8a">Can attack ground units.</c>
+Button/Tooltip/CommanderKerriganUltraliskUpgradesPack=Unlocks the following upgrades at the Ultralisk Cavern:<n/><ul indent="2" text="•"><li/>Unlock the Ultralisk's Burrow Charge ability. The Ultralisk burrows and charges at an enemy unit.<li/>Upgrade Ultralisks' attacks to self-heal for 40% of damage dealt.</ul>
+Button/Tooltip/CommanderKerriganUnlockLurker=Area-damage ambusher. Must burrow to attack. Morphed from Hydralisks.<n/><n/><c val="ffff8a">Can attack ground units.</c>
+Button/Tooltip/CommanderKerriganZerglingEvolutionRaptor=Upgrades Zerglings to the Raptor strain.<n/><n/>Fast melee unit. Leaps over obstacles and onto targets from range. Deals increased damage.<n/><n/><c val="FFFF8A">Can attack ground units.</c>
+Button/Tooltip/CommanderKerriganZerglingUpgradesPack=Unlocks the following upgrades at the Spawning Pool:<n/><ul indent="2" text="•"><li/>Increase Zerglings' life from 35 to 45.<li/>Zerglings' attacks reduce their target's armor to 0 for 10 seconds.</ul>
+Button/Tooltip/CommanderRaynorAdditionalArmoryUpgrades=Unlocks the following upgrades at the Armory:<n/><ul indent="2" text="•"><li/>Increase the attack range of all vehicles and ships by 1.<li/>Allow all vehicles and ships to increase their movement speed by 100% for 8 seconds.</ul>
+Button/Tooltip/CommanderRaynorAutomatedRefineriesTalent=Refineries do not require workers
+Button/Tooltip/CommanderRaynorAutomatedRefineriesTalentSimple=Refineries do not require workers
+Button/Tooltip/CommanderRaynorBansheeAirStrike=Unlocks the ability to call down Dusk Wings with timed life, dealing damage to the target area upon arrival. Call down Banshee Airstrikes from the top panel.
+Button/Tooltip/CommanderRaynorCellularReactorsTalent=Specialist units have +100 max energy and start with full energy
+Button/Tooltip/CommanderRaynorCellularReactorsTalentSimple=Specialist units have +100 max energy and start with full energy
+Button/Tooltip/CommanderRaynorCommandCenterReactorTalent=SCVs can be built two at a time
+Button/Tooltip/CommanderRaynorCommandCenterReactorTalentSimple=SCVs can be built two at a time
+Button/Tooltip/CommanderRaynorEngineeringBayUpgradePack=Unlocks the following upgrades at the Engineering Bay:<n/><ul indent="2" text="•"><li/>Equip Bunkers with automated turrets that attack ground and air units.<li/>Increase Bunkers' life from 400 to 550.</ul>
+Button/Tooltip/CommanderRaynorFactoryUpgradePack=Unlocks the following upgrades at the Factory Tech Lab:<n/><ul indent="2" text="•"><li/>Increase the blast and trigger radius of the Vulture's Spider Mine by 33%.<li/>Reduce Siege Tanks' transformation time and increase their armor in Siege Mode from 1 to 3.</ul>
+Button/Tooltip/CommanderRaynorFireSuppressionTalent=All structure fires are automatically put out and all structures automatically repair themselves to 50% life
+Button/Tooltip/CommanderRaynorFireSuppressionTalentSimple=All structure fires are automatically put out and all structures automatically repair themselves to 50% life
+Button/Tooltip/CommanderRaynorFirebatandMedicRange=Increases Firebat attack range and Medic heal range from 2 to 4.
+Button/Tooltip/CommanderRaynorFortifiedBunkersTalent=
+Button/Tooltip/CommanderRaynorFortifiedBunkersTalentSimple=
+Button/Tooltip/CommanderRaynorHyperionAbility=Enables the Hyperion to deploy defensive drones that shoot down enemy missiles. Call down the Hyperion from the top panel.
+Button/Tooltip/CommanderRaynorHyperionAdvancedTargetingSystems=Increases the damage dealt by friendly units near the Hyperion by 2. Call down the Hyperion from the top panel.
+Button/Tooltip/CommanderRaynorHyperionDurationTalent=The Hyperion's duration is increased
+Button/Tooltip/CommanderRaynorHyperionDurationTalentSimple=The Hyperion's duration is increased
+Button/Tooltip/CommanderRaynorHyperionYomatoCannonTalent=The Hyperion's Yamato deals splash damaged in a larger area
+Button/Tooltip/CommanderRaynorHyperionYomatoCannonTalentSimple=The Hyperion's Yamato deals splash damaged in a larger area
+Button/Tooltip/CommanderRaynorImprovedInfantryWeapons=Increases the attack speed of Raynor's infantry units by 15%.
+Button/Tooltip/CommanderRaynorImprovedMULECalldown=Increases the number of MULEs called down by the Orbital Command Center from 1 to 2.
+Button/Tooltip/CommanderRaynorInfantrySpecialist=Raynor trains infantry units 20% faster than other Commanders. Barracks builds 50% faster.
+Button/Tooltip/CommanderRaynorInfantryUpgradePack=Unlocks the following upgrades at the Barracks Tech Lab:<n/><ul indent="2" text="•"><li/>Widen Firebats' damage radius by 40%.<li/>Increase Firebats' life from 100 to 200 and armor from 1 to 3.<li/>Allow Medics to heal faster.</ul>
+Button/Tooltip/CommanderRaynorMercMedicsTalent=Unlock Medic Mercanaries from the Merc Compound
+Button/Tooltip/CommanderRaynorMercMedicsTalentSimple=Unlock Medic Mercanaries from the Merc Compound
+Button/Tooltip/CommanderRaynorMercVulturesTalent=Unlock Vulture Mercanaries from the Merc Compound
+Button/Tooltip/CommanderRaynorMercVulturesTalentSimple=Unlock Vulture Mercanaries from the Merc Compound
+Button/Tooltip/CommanderRaynorOrbitalDepots=Allows SCVs to instantly deploy Supply Depots from orbit, eliminating their construction time.
+Button/Tooltip/CommanderRaynorOrbitalDepotsTalent=
+Button/Tooltip/CommanderRaynorOrbitalDepotsTalentSimple=
+Button/Tooltip/CommanderRaynorOrbitalDropPods=Barracks and Factory units are delivered directly to the structure's Rally Point via drop-pod.
+Button/Tooltip/CommanderRaynorRavenAttackSpeedTalent=The Raven's Point Defense Drone also provides an attack damage aura for nearby units
+Button/Tooltip/CommanderRaynorRavenAttackSpeedTalentSimple=The Raven's Point Defense Drone also provides an attack damage aura for nearby units
+Button/Tooltip/CommanderRaynorRefineryMicroFilteringTalent=
+Button/Tooltip/CommanderRaynorRefineryMicroFilteringTalentSimple=
+Button/Tooltip/CommanderRaynorSiegeModeUpgradesTalent=Siege Mode transformation time -50%. Grains 3 armor while sieged.
+Button/Tooltip/CommanderRaynorSiegeModeUpgradesTalentSimple=Siege Mode transformation time -50%. Grains 3 armor while sieged.
+Button/Tooltip/CommanderRaynorStarportUpgradePack=Unlocks the following upgrades at the Starport Tech Lab:<n/><ul indent="2" text="•"><li/>Upgrade the Banshee's attacks to fire multiple missiles in a straight line.<li/>Upgrade the Viking's missile attacks to deal area damage.</ul>
+Button/Tooltip/CommanderRaynorStimUpgradeTalent=Stim pack life cost reduced by 50%
+Button/Tooltip/CommanderRaynorStimUpgradeTalentSimple=Stim pack life cost reduced by 50%
+Button/Tooltip/CommanderRaynorUnlockBattlecruiser=Powerful warship. Can use Yamato Cannon and Tactical Jump. Built at the Starport.<n/><n/><c val="ffff8a">Can attack ground and air units.</c>
+Button/Tooltip/CommanderRaynorUpgradedBansheesTalent=Banshee attacks gain splash damage and reduced cloak cost
+Button/Tooltip/CommanderRaynorUpgradedBansheesTalentSimple=Banshee attacks gain splash damage and reduced cloak cost
+Button/Tooltip/CommanderSwannArmoryUpgradePack=Unlocks the following upgrades at the Armory:<n/><ul indent="2" text="•"><li/>Increase the attack range of all vehicles and ships by 1.<li/>Allow vehicles and ships to automatically heal themselves over time.</ul>
+Button/Tooltip/CommanderSwannCombatDrop=Unlocks the ability to call down 4 A.R.E.S. War Bots with timed life, stunning enemy units in the target area upon arrival. Call down the Combat Drop from the top panel.
+Button/Tooltip/CommanderSwannEngineeringBayUpgradesPack=Unlocks the following upgrades at the Engineering Bay:<n/><ul indent="2" text="•"><li/>Allow structures to automatically extinguish fires and repair themselves to 50% of their maximum life.<li/>Increase attack speed of all Turrets by 25%.</ul>
+Button/Tooltip/CommanderSwannFactoryUpgradesPack=Unlocks the following upgrades at the Factory Tech Lab:<n/><ul indent="2" text="•"><li/>Allow Goliaths to attack ground and air units simultaneously.<li/>Increase the damage of the Cyclone's Lock-On ability by 50%.<li/>Unlock the Thor's 330mm Barrage Cannon ability, which stuns and deals damage to enemies in a target area.</ul>
+Button/Tooltip/CommanderSwannImmortalityProtocol=Unlocks the ability for destroyed Thors and Siege Tanks to rebuild themselves on the battlefield.
+Button/Tooltip/CommanderSwannImprovedCombatDrop=Increases the number of A.R.E.S. War Bots called down by Combat Drop from 4 to 6. Call down the Combat Drop from the top panel.
+Button/Tooltip/CommanderSwannImprovedLaserDrill=The Drakken Laser Drill can now be upgraded a second time, increasing its attack damage from 30 to 50.<n/><n/>Also unlocks the Pulse Cannon ability, which deals 600 damage to enemy units and structures in the target area. Activate the Pulse Cannon ability from the top panel.
+Button/Tooltip/CommanderSwannImprovedSCVs=Allows multiple SCVs to build a structure in tandem, reducing its construction time. Repairing no longer costs resources.
+Button/Tooltip/CommanderSwannImprovedTurrets=Increases the attack range of Devastation Turrets from 6 to 9. Attacks now slow enemy movement speed by 30%.<n/><n/>Increases the life of Missile Turrets from 250 to 325. Attacks now deal area damage.<n/><n/>Reduces the cost of Perdition Turrets by 50%.
+Button/Tooltip/CommanderSwannIncreasedVehicleHealth=Increases the life of Swann's vehicles and starships by 20%.
+Button/Tooltip/CommanderSwannTechReactors=Combines Tech Labs and Reactors into a single add-on which contains upgrades for units while also allowing two units to be built simultaneously.
+Button/Tooltip/CommanderSwannUnlockAdditionalStarportTechLabUpgrades=Unlocks the following upgrades at the Starport Tech Reactor:<n/><ul indent="2" text="•"><li/>Upgrade Wraiths to evade 20% of incoming damage while cloaked.<li/>Unlock the Science Vessel's Defensive Matrix ability, which surrounds a target with a shield that absorbs 200 damage over 20 seconds.</ul>
+Button/Tooltip/CommanderSwannUnlockCyclone=Allows Swann to build Cyclones from the Factory.<n/><n/>Mobile assault vehicle. Can use Lock On to quickly fire while moving.<n/><n/><c val="ffff8a">Can attack ground units.</c>
+Button/Tooltip/CommanderSwannUnlockThor=Heavy assault mech. Built at the Factory.<n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c>
+Button/Tooltip/CommanderSwannVehicleSpecialist=Swann builds vehicles and ships 20% faster than other Commanders. Building factories does not cost vespene gas.
+Button/Tooltip/CommanderSwannVespeneDrone=Unlocks the ability for Command Centers to call down automated harvesters that gather extra vespene from your Refineries or your ally's vespene-gathering structures.
+Button/Tooltip/CommanderTraitArtanisSOAOrbitalStrike=<s val="Coop_TraitTooltip_Subtitle">Orbital Strike</s><n/>Fires several lasers from orbit, each of them dealing area damage.
+Button/Tooltip/CommanderTraitArtanisSOAProjectPowerField=<s val="Coop_TraitTooltip_Subtitle">Project Power Field</s><n/>Projects a power field onto the target location. Using this ability again relocates the power field.
+Button/Tooltip/CommanderTraitArtanisSOAShieldOvercharge=<s val="Coop_TraitTooltip_Subtitle">Shield Overcharge</s><n/>Allows all friendly units and structures to absorb large amounts of damage for a period of time.
+Button/Tooltip/CommanderTraitKaraxSOAChronoWave=<s val="Coop_TraitTooltip_Subtitle">Chrono Wave</s><n/>Temporarily increases the production speeds of all friendly structures to 200%.
+Button/Tooltip/CommanderTraitKaraxSOAOrbitalStrike=<s val="Coop_TraitTooltip_Subtitle">Orbital Strike</s><n/>Fire individual lasers from orbit that deal area damage. This ability has no cooldown.
+Button/Tooltip/CommanderTraitKaraxSOASolarLance=<s val="Coop_TraitTooltip_Subtitle">Solar Lance</s><n/>Strafes the target area with three laser beams for significant damage.
+Button/Tooltip/CommanderTraitKerriganAssimilationAura=<s val="Coop_TraitTooltip_Subtitle">Assimilation Aura</s><n/>Temporarily causes all nearby enemies to drop resources when killed.
+Button/Tooltip/CommanderTraitKerriganLeapingStrike=<s val="Coop_TraitTooltip_Subtitle">Leaping Strike</s><n/>Kerrigan leaps to her target and damages it. Can be used without a target to travel quickly.
+Button/Tooltip/CommanderTraitKerriganPsionicShift=<s val="Coop_TraitTooltip_Subtitle">Psionic Shift</s><n/>Kerrigan dashes through enemies, dealing damage to all enemies in her path.
+Button/Tooltip/CommanderTraitRaynorHyperionHyperjump=<s val="Coop_TraitTooltip_Subtitle">Hyperjump</s><n/>Hyperjumps the Hyperion to the targeted location.
+Button/Tooltip/CommanderTraitRaynorHyperionYamatoCannon=<s val="Coop_TraitTooltip_Subtitle">Yamato Cannon</s><n/>The Hyperion blasts a unit with its plasma cannon, dealing extreme damage to it and nearby enemies.
+Button/Tooltip/CommanderTraitRaynorSummonHyperion=<s val="Coop_TraitTooltip_Subtitle">Hyperion</s><n/>Calls down the Hyperion Battlecruiser to fight for a limited time.
+Button/Tooltip/CommanderTraitSwannConcentratedBeam=<s val="Coop_TraitTooltip_Subtitle">Concentrated Beam</s><n/>The Drakken Laser Drill heavily damages enemy units and structures in a line across the entire map.
+Button/Tooltip/CommanderTraitSwannDrakkenLaserDrill=<s val="Coop_TraitTooltip_Subtitle">Drakken Laser Drill</s><n/>Powerful stationary artillery that deals heavy damage to a single target. Can upgrade to gain new abilities.
+Button/Tooltip/CommanderTraitSwannDrakkenLaserDrillAttack=<s val="Coop_TraitTooltip_Subtitle">Drakken Laser Drill Attack</s><n/>Attack with the Drakken Laser Drill, dealing heavy damage. Has unlimited range.
+Button/Tooltip/CommanderTraitVorazunSOABlackHole=<s val="Coop_TraitTooltip_Subtitle">Black Hole</s><n/>Creates a Black Hole that pulls in and stuns enemy units for a short period of time.
+Button/Tooltip/CommanderTraitVorazunSOASummonDarkPylon=<s val="Coop_TraitTooltip_Subtitle">Deploy Dark Pylon</s><n/>Warps in a Dark Pylon granting supply and power. Dark Pylons cloak nearby friendly units and structures.
+Button/Tooltip/CommanderTraitVorazunSOASummonShadowGuard=<s val="Coop_TraitTooltip_Subtitle">Deploy Shadow Guard</s><n/>Warps in a squad of elite Dark Templar with timed life at the target location.
+Button/Tooltip/CommanderTraitZagaraBanelingBarrage=<s val="Coop_TraitTooltip_Subtitle">Baneling Barrage</s><n/>Launches several Banelings towards the target point, each one exploding for heavy damage.
+Button/Tooltip/CommanderTraitZagaraMassFrenzy=<s val="Coop_TraitTooltip_Subtitle">Mass Frenzy</s><n/>All friendly units on the map temporarily gain increased attack and movement speeds.
+Button/Tooltip/CommanderTraitZagaraSpawnHunterKillers=<s val="Coop_TraitTooltip_Subtitle">Spawn Hunter Killers</s><n/>Spawns several Hunter Killers with timed life at the target location.
+Button/Tooltip/CommanderVorazunCloakedUnitsDamageBoost=Increases the damage dealt by friendly cloaked or burrowed units by 25%.
+Button/Tooltip/CommanderVorazunDarkArchonUpgradesPack=New research available on the Dark Shrine:<n/><ul indent="2" text="•"><li/>Dark Archons start with full energy.<li/>Allows a Dark Archon to take control of a targeted unit permanently.</ul>
+Button/Tooltip/CommanderVorazunDarkPylonRecall=Unlocks the ability for Dark Pylons to Recall friendly units to their location.
+Button/Tooltip/CommanderVorazunDarkTemplarUpgradesPack=New research available on the Dark Shrine:<n/><ul indent="2" text="•"><li/>Enables Dark Templar to teleport to nearby locations.<li/>Grants Dark Templar the ability to disable units, preventing them from attacking or being attacked for 10 seconds.</ul>
+Button/Tooltip/CommanderVorazunFleetBeaconUpgradesPack=New research available on the Fleet Beacon:<n/><ul indent="2" text="•"><li/>Permanently cloaks all Corsairs.<li/>Increases the range of the Void Ray's weapon as it continues to attack.<li/>Enemies affected by the Oracle's Stasis Ward can now be attacked.</ul>
+Button/Tooltip/CommanderVorazunImprovedShieldRegeneration=Increases the shield regeneration rate of friendly cloaked units by 400%.
+Button/Tooltip/CommanderVorazunImprovedSpearofAdunBlackhole=Negates all armor of enemy units affected by the Black Hole ability. This ability is located in the top panel.
+Button/Tooltip/CommanderVorazunImprovedTimeStop=Reduces the cooldown of Time Stop from 5 minutes to 4 minutes. This ability is located in the top panel.
+Button/Tooltip/CommanderVorazunShadowGuardGainDetectionSuppression=Shadow Guard gain an aura that prevents nearby enemy detectors from detecting friendly cloaked units.
+Button/Tooltip/CommanderVorazunShadowGuardIncreasedSpawnCount=Increases the number of Vorazun's Shadow Guard from 2 to 4. This ability is located in the top panel.
+Button/Tooltip/CommanderVorazunShadowStalk=Vorazun's Dark Templar have improved shields and cost less vespene gas.
+Button/Tooltip/CommanderVorazunSpearofAdunEmergencyRecall=Upon taking fatal damage, friendly cloaked or burrowed units are recalled to their owner's primary structure.<n/><n/><c val="ffff8a">Passive ability.</c>
+Button/Tooltip/CommanderVorazunSpearofAdunOrbitalAssimilators=The Spear of Adun harvests vespene gas from orbit without the need for Probes.<n/><n/><c val="ffff8a">Passive ability.</c>
+Button/Tooltip/CommanderVorazunSpearofAdunTimeStop=Unlocks the Time Stop ability which freezes all enemies in place for 20 seconds. This ability is located in the top panel. 
+Button/Tooltip/CommanderVorazunTwilightCouncilUpgradesPack=New research available on the Twilight Council:<n/><ul indent="2" text="•"><li/>Allows Centurions to stun nearby enemies.<li/>Allows the Stalker's Blink to restore 40 shields over 5 seconds after use.</ul>
+Button/Tooltip/CommanderVorazunUnlockDarkArchon=Unlocks the ability to warp in Dark Archons from the Gateway.<n/><n/>Powerful attack caster. Can use the Confuse and Mind Control abilities.<n/><n/><c val="ffff8a">Can attack ground and air units.</c>
+Button/Tooltip/CommanderZagaraBanelingEvolutionSplitterling=Upgrades Banelings into the Splitter strain.<n/><n/>Suicide unit. Deals damage over a small area upon death. Splits into smaller units as it dies.<n/><n/><c val="ffff8a">Can attack ground units.</c>
+Button/Tooltip/CommanderZagaraBanelingNestUpgradesPack=New research available on the Baneling Nest:<n/><ul indent="2" text="•"><li/>Increases the Baneling's base attack damage against the primary target by 100%. Splash damage remains the same.<li/>Baneling blast radius increased by 50%.</ul>
+Button/Tooltip/CommanderZagaraBileLauncherUpgradesPack=New research available on the Spawning Pool:<n/><ul indent="2" text="•"><li/>Increases the range of the Bile Launcher's Bombardment.<li/>Reduces the cooldown of the Bile Launcher's Bombardment.</ul>
+Button/Tooltip/CommanderZagaraEvolutionChamberUpgradesPack=New research available on the Evolution Chamber:<n/><ul indent="2" text="•"><li/>Zagara's attacks deal area damage, splashing to enemy units near her primary target.<li/>Aberrations grant +2 armor to units positioned beneath them.</ul>
+Button/Tooltip/CommanderZagaraImprovedInjectLarva=Increases the number of Larvae produced by the Queen’s Spawn Larvae ability from 4 to 8.
+Button/Tooltip/CommanderZagaraImprovedMassRoachDrop=Increases the number of Roaches spawned by Zagara's Infested Drop ability from 10 to 20.
+Button/Tooltip/CommanderZagaraIncubateBanelings=Aberrations spawn 2 Banelings from their corpses when killed.
+Button/Tooltip/CommanderZagaraIncubateBroodlings=When killed, your units will spawn a Broodling from their corpse.
+Button/Tooltip/CommanderZagaraMassRoachDrop=Zagara can call down Roaches with timed life to any location on the map. Drop-pods deal damage on impact.
+Button/Tooltip/CommanderZagaraMasterSpawner=Reduces the energy cost of Zagara's Baneling Barrage and Spawn Hunter-Killers abilities by 50%.<n/><n/>Increases the number of units spawned by Baneling Barrage and Spawn Hunter-Killers by 50%.
+Button/Tooltip/CommanderZagaraRelentless=Zagara has a 100 supply maximum, but her combat units cost less and morph faster. Drones morph in pairs.
+Button/Tooltip/CommanderZagaraScourgeUpgradesPack=New research available on the Scourge Nest:<n/><ul indent="2" text="•"><li/>Scourge deal 50% of their attack damage in a small area on death.<li/>Reduces the amount of vespene gas required to morph Scourge by 50.</ul>
+Button/Tooltip/CommanderZagaraUnlockBileLauncher=Unlocks the ability to morph drones into Bile Launchers, defensive structures that deal area damage to ground and air targets.
+Button/Tooltip/CommanderZagaraVolatileBanelingNest=The Baneling Nest will periodically spawn free Banelings.
+Button/Tooltip/CommanderZagaraZerglingEvolutionSwarmling=Upgrades Zerglings into the Swarmling strain.<n/><n/>Fast melee unit. Spawns in groups of three. Morphs almost instantly. Can morph into a Baneling.<n/><n/><c val="FFFF8A">Can attack ground units.</c>
+Button/Tooltip/CommanderZagaraZerglingUpgradesPack=New research available on the Spawning Pool:<n/><ul indent="2" text="•"><li/>Zerglings gain +10 maximum life.<li/>Zergling attacks reduce their target's armor to 0 for 10 seconds.</ul>
+Button/Tooltip/ConcussiveGrenade=Units hit by the Marauder are temporarily slowed.<n/><n/><c val="#ColorAttackInfo">Massive units are immune.</c>
+Button/Tooltip/ConstructionRefundTextEnemy=Canceled
+Button/Tooltip/Contaminate=The target structure will be unable to train units or research upgrades for <d ref="Behavior,Contaminated,Duration"/> seconds.
+Button/Tooltip/CorruptionAbility=Covers the target enemy unit in Zerg slime, increasing the damage taken by 20% for <d time="30"/>.
+Button/Tooltip/Corruptor=Anti-air flyer. Can morph into Brood Lord.<n/><n/><c val="ffff8a">Can attack air units.</c>
+Button/Tooltip/CorruptorACGluescreenDummy=Anti-air flyer.<n/><n/><c val="ffff8a">Can attack air units.</c>
+Button/Tooltip/CorsairACGluescreenDummy=Air-superiority fighter. Can use Disruption Web to prevent enemy ground units and structures from attacking.<n/><n/><c val="ffff8a">Can attack air units.</c>
+Button/Tooltip/CreepTumor=A burrowed creep generator. Creep feeds nearby Zerg structures. A Creep Tumor can spawn one additional Creep Tumor.<n/><n/><c val="#ColorAttackInfo">Bonus: Zerg move faster on creep.</c>
+Button/Tooltip/CreepTumorBurrowed=A burrowed creep generator. Creep feeds nearby Zerg structures.<n/><n/><c val="#ColorAttackInfo">Bonus: Zerg move faster on creep.</c>
+Button/Tooltip/Critter=Automaton 2000. The utility bot of choice.
+Button/Tooltip/CritterCarrionBird=Unsightly avian creature that is often found on the battlefield.
+Button/Tooltip/CritterCommentatorBot1=
+Button/Tooltip/CritterCommentatorBot2=
+Button/Tooltip/CritterCommentatorBot3=
+Button/Tooltip/CritterCommentatorBot4=
+Button/Tooltip/CritterCow=The Holstein cow. Transplanted from Earth centuries ago.
+Button/Tooltip/CritterDog=The standard domesticated dog, faithful companion to Terrans since the dawn of history.
+Button/Tooltip/CritterKarakFemale=Females of this species are far less impressive than the males that compete for their attention.
+Button/Tooltip/CritterKarakMale=Males of this species are known for their plumage and bright colors.
+Button/Tooltip/CritterLyote=Local scavenger known for its echoing nocturnal howl.
+Button/Tooltip/CritterRedstoneLavaCritter=Small critter native to Redstone.
+Button/Tooltip/CritterRedstoneLavaCritterBurrowed=Small critter native to Redstone.
+Button/Tooltip/CritterRedstoneLavaCritterInjured=Small critter native to Redstone.
+Button/Tooltip/CritterRedstoneLavaCritterInjuredBurrowed=Small critter native to Redstone.
+Button/Tooltip/CritterScantipede=This ferocious predator lacks the natural weaponry to harm military units.
+Button/Tooltip/CritterSheep=Sheep
+Button/Tooltip/CritterUrsadakCalf=Benign creature that sautees well with butter.
+Button/Tooltip/CritterUrsadakFemale=Females of this species differ markedly from the more aggressive males.
+Button/Tooltip/CritterUrsadakFemaleExotic=Females of this species differ markedly from the more aggressive males.
+Button/Tooltip/CritterUrsadakMale=Males of the species are often hunted for their horns and ferocious tusks.
+Button/Tooltip/CritterUrsadakMaleExotic=Males of this species are often hunted for their horns and ferocious tusks.
+Button/Tooltip/CritterUtilityBot=Automaton 2000. The utility bot of choice.
+Button/Tooltip/CyberneticsCore=Contains weapon and armor upgrades for Protoss air units, upgrades for Sentries, and the Warp Gate upgrade.<n/><n/><c val="ffff8a">Enables:</c><n/>- Stalkers at the Gateway<n/>- Sentries at the Gateway
+Button/Tooltip/CycloneACGluescreenDummy=Mobile assault vehicle. Can use Lock On to quickly fire while moving.<n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c>
+Button/Tooltip/Dance=Orders selected units to dance. (If they have the animations to do so)
+Button/Tooltip/DarkArchonACGluescreenDummy=Powerful attack caster. Can Confuse and Mind Control enemies.<n/><n/><c val="ffff8a">Can attack ground and air units.</c>
+Button/Tooltip/DarkShrine=Dark Templar tech structure.<n/><n/><c val="ffff8a">Enables:</c><n/>- Dark Templar at the Gateway<n/>- Archon Merge from Dark Templar
+Button/Tooltip/DarkTemplar=Deadly warrior-assassin. Cloak renders the unit invisible to enemies without detection. Can transform into an Archon.<n/><n/><c val="ffff8a">Can attack ground units.</c>
+Button/Tooltip/DarkTemplarShakurasACGluescreenDummy=Deadly warrior-assassin. Cloak renders the unit invisible to enemies without detection.<n/><n/><c val="ffff8a">Can attack ground units.</c>
+Button/Tooltip/DestructibleBullhornLights=High-intensity searchlight. Commonly used in Dominion military and penal facilities.
+Button/Tooltip/DestructibleDebris4x4=Barrier that can be destroyed to allow access to new areas.
+Button/Tooltip/DestructibleDebris6x6=Barrier that can be destroyed to allow access to new areas.
+Button/Tooltip/DestructibleDebrisRampDiagonalHugeBLUR=Barrier that can be destroyed to allow access to new areas.
+Button/Tooltip/DestructibleDebrisRampDiagonalHugeULBR=Barrier that can be destroyed to allow access to new areas.
+Button/Tooltip/DestructibleGarage=Local garage.
+Button/Tooltip/DestructibleGarageLarge=Local garage.
+Button/Tooltip/DestructibleRampDiagonalHugeBLUR=Barrier that can be destroyed to allow access to new areas.
+Button/Tooltip/DestructibleRampDiagonalHugeULBR=Barrier that can be destroyed to allow access to new areas.
+Button/Tooltip/DestructibleRampHorizontalHuge=Barrier that can be destroyed to allow access to new areas.
+Button/Tooltip/DestructibleRampVerticalHuge=Barrier that can be destroyed to allow access to new areas.
+Button/Tooltip/DestructibleRock2x4Horizontal=Barrier that can be destroyed to allow access to new areas.
+Button/Tooltip/DestructibleRock2x4Vertical=Barrier that can be destroyed to allow access to new areas.
+Button/Tooltip/DestructibleRock2x6Horizontal=Barrier that can be destroyed to allow access to new areas.
+Button/Tooltip/DestructibleRock2x6Vertical=Barrier that can be destroyed to allow access to new areas.
+Button/Tooltip/DestructibleRock4x4=Barrier that can be destroyed to allow access to new areas.
+Button/Tooltip/DestructibleRock6x6=A barrier that can be destroyed to allow access to new areas.
+Button/Tooltip/DestructibleSearchlight=High-intensity search light. Commonly used in Dominion military and penal facilities.
+Button/Tooltip/DestructibleSpacePlatformBarrier=Barrier that can be destroyed to allow access to new areas.
+Button/Tooltip/DestructibleSpacePlatformSign=Barrier that can be destroyed to allow access to new areas.
+Button/Tooltip/DestructibleStreetlight=
+Button/Tooltip/DestructibleTrafficSignal=
+Button/Tooltip/Detector=This unit can detect cloaked, burrowed, and hallucinated units.
+Button/Tooltip/DevastationTurretACGluescreenDummy=Anti-ground defensive structure. Deals bonus damage to armored units. Attacks slow enemies.<n/><n/><c val="#ColorAttackInfo">Can attack ground units.</c>
+Button/Tooltip/Disguise=Matches the color and race of the first enemy unit the Changeling comes in contact with.
+Button/Tooltip/DragoonACGluescreenDummy=Ranged assault strider. Has enhanced life and attack damage.<n/><n/><c val="ffff8a">Can attack ground and air units.</c>
+Button/Tooltip/Drone=Basic worker unit. Can harvest minerals and vespene gas. Can mutate into structures.<n/><n/><c val="#ColorAttackInfo">Can attack ground units.</c>
+Button/Tooltip/DroneBurrowed=Basic worker unit. Can harvest minerals and vespene gas. Can mutate into structures.<n/><n/><c val="#ColorAttackInfo">Can attack ground units.</c>
+Button/Tooltip/EMP=Creates an electromagnetic pulse that does 100 damage to shields and drains all energy from units in the targeted area. Cloaked units hit by EMP are revealed for a short time.
+Button/Tooltip/Egg=Zerg units morph in the safety of these cocoons.
+Button/Tooltip/EngineeringBay=Contains upgrades for Terran infantry and structures. <n/><n/><c val="ffff8a">Enables:</c><n/>- Missile Turrets from SCVs<n/>- Sensor Towers from SCVs<n/>- Planetary Fortresses from Command Centers
+Button/Tooltip/EvolutionChamber=Contains upgrades for Zerg ground units. <n/><n/><c val="ffff8a">Enables:</c><n/>- Spore Crawlers from Drones
+Button/Tooltip/EvolveAnabolicSynthesis2=Increases the movement speed of <c val="ffff8a">Ultralisks</c>.
+Button/Tooltip/EvolveCentrificalHooks=Increases the movement speed of <c val="ffff8a">Banelings</c>.
+Button/Tooltip/EvolveChitinousPlating=Grants <c val="ffff8a">Ultralisks</c> +2 armor.
+Button/Tooltip/EvolveGlialRegeneration=Increases the movement speed of <c val="ffff8a">Roaches</c>.
+Button/Tooltip/EvolveInfestorEnergyUpgrade=Increases the starting energy of <c val="ffff8a">Infestors</c> by 25.
+Button/Tooltip/EvolveOrganicCarapace=Increases the life-regeneration rate of burrowed <c val="ffff8a">Roaches</c>.
+Button/Tooltip/EvolvePeristalsis=Allows <c val="ffff8a">Infestors</c> to move faster while burrowed.
+Button/Tooltip/EvolveTunnelingClaws=Enables <c val="ffff8a">Roaches</c> to move while burrowed. Increases the life-regeneration rate of burrowed <c val="ffff8a">Roaches</c>.
+Button/Tooltip/EvolveVentralSacks=Allows <c val="ffff8a">Overlords</c> to transport units.
+Button/Tooltip/Explode=The Baneling detonates where it is standing, damaging nearby enemy units and structures.
+Button/Tooltip/Extractor=Mutated over a Vespene Geyser to allow harvesting of vespene gas.
+Button/Tooltip/Factory=Vehicle-production facility. <n/><n/><c val="ffff8a">Enables:</c><n/>- Hellions
+Button/Tooltip/FactoryFlying=Factory must land to start unit production.
+Button/Tooltip/Feedback=Drains all energy from the target. Deals 1 damage per point of energy.
+Button/Tooltip/FighterMode=Transforms the Viking to Fighter Mode. In this mode Vikings fly, but they can only attack air targets.
+Button/Tooltip/FirebatACGluescreenDummy=Specialized anti-infantry attacker.<n/><n/><c val="#ColorAttackInfo">Can attack ground units.</c>
+Button/Tooltip/FleetBeacon=Contains an upgrade for Carriers.<n/><n/><c val="ffff8a">Enables:</c><n/>- Carriers at the Stargate<n/>- Mothership at the Nexus
+Button/Tooltip/ForceField=Barrier that lasts <d time="15"/> and impedes movement of ground units. Massive units will shatter Force Fields on contact.
+Button/Tooltip/Forge=Contains weapon and armor upgrades for Protoss ground units and shield upgrades for all Protoss units and structures.<n/><n/><c val="ffff8a">Enables:</c><n/>- Photon Cannons from Probes
+Button/Tooltip/Frenzied=Immune to snare, stun, and mind control effects.
+Button/Tooltip/Frenzy=Makes a single biological unit do 25% more damage.  Frenzied unit is immune to slow, stuns and mind control for <d time="30"/>.
+Button/Tooltip/FungalGrowth=Immobilizes target units and causes 36 damage over <d time="8"/>. Reveals cloaked and burrowed units.
+Button/Tooltip/FusionCore=Contains Battlecruiser upgrades. <n/><n/><c val="ffff8a">Enables:</c><n/>- Battlecruisers at the Starport
+Button/Tooltip/Gateway=Warps in Protoss ground units.<n/><n/><c val="ffff8a">Enables:</c><n/>- Zealots
+Button/Tooltip/Gather=Orders unit to gather resources from a selected Mineral Field or Vespene Geyser.
+Button/Tooltip/GatherMULE=Orders MULE to gather minerals from a selected Mineral Field.
+Button/Tooltip/GatherProt=Orders Probe to gather resources from a selected Mineral Field or Vespene Geyser.
+Button/Tooltip/GatherTerr=Orders SCV to gather resources from a selected Mineral Field or Vespene Geyser.
+Button/Tooltip/GatherZerg=Orders Drone to gather resources from a selected Mineral Field or Vespene Geyser.
+Button/Tooltip/GenerateCreep=Makes the Overlord start to generate creep. Creep will only be generated when the Overlord isn't moving. Creep feeds nearby Zerg structures.<n/><n/><c val="#ColorAttackInfo">Bonus: Zerg move faster on creep.</c>
+Button/Tooltip/Ghost=Sniper. Can use Snipe, EMP Round, and be upgraded to use Cloak. Can call down Tactical Nukes built at the Ghost Academy.<n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c>
+Button/Tooltip/GhostAcademy=Contains upgrades for Ghosts. Can build Nukes for Ghosts.<n/><n/><c val="ffff8a">Enables:</c><n/>- Ghosts at the Barracks
+Button/Tooltip/GhostHoldFire=Orders selected units to holster their weapons and avoid engaging enemies, unless given a direct command. Units holding fire will flee if attacked.
+Button/Tooltip/GlobeStatue=Statue of Korhal, the Dominion capitol.
+Button/Tooltip/GoliathACGluescreenDummy=Heavy-fire support unit.<n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c>
+Button/Tooltip/GravitonBeam=Makes the target unit float in the air, disabling its abilities. Effect lasts up to <d time="10"/>.<n/><n/><c val="#ColorAttackInfo">Massive units are immune.</c><n/><c val="ffff8a">Channeled ability</c>
+Button/Tooltip/GravitonCatapult=Makes the Carrier launch Interceptors more quickly.
+Button/Tooltip/GreaterSpire=Contains upgrades for Zerg air units.<n/><n/><c val="ffff8a">Enables:</c><n/>- Brood Lords from Corruptors
+Button/Tooltip/GuardianShield=Creates a range 4 aura that reduces incoming ranged damage to friendly units by 2. Lasts <d time="15"/>.
+Button/Tooltip/Hallucination=Creates hallucinations that cannot use active abilities, cannot deal damage, and die more easily. Hallucinations last <d ref="Behavior,HallucinationTimedLife,Duration"/> seconds. Enemy detectors reveal hallucinations.
+Button/Tooltip/Halt=Halts construction of this structure. The partial construction will remain.
+Button/Tooltip/HardenedShield=Reduces incoming damage to a maximum of 10 while the Immortal still has shields.
+Button/Tooltip/Hatchery=Primary structure. Used to spawn all Zerg units and receive gathered resources. Grows creep used to feed nearby Zerg structures. Can mutate into a Lair.<n/><n/><c val="#ColorAttackInfo">Bonus: Zerg move faster on creep.</c>
+Button/Tooltip/Heal=Heals a friendly biological target.<n/><n/><c val="f078ff">Heals <d ref="Effect,MedivacHeal,RechargeVitalRate*Effect,MedivacHeal,DrainVitalCostFactor"/> life per 1 energy.</c>
+Button/Tooltip/HellbatACGluescreenDummy=Close range combat unit. Deals damage in a small frontal cone. Can transform into a fast scout unit.<n/><n/><c val="#ColorAttackInfo">Can attack ground units.</c>
+Button/Tooltip/Hellion=Fast scout. Has a flame attack that damages all enemy units in its line of fire.<n/><n/><c val="#ColorAttackInfo">Can attack ground units.</c>
+Button/Tooltip/HerculesACGluescreenDummy=Massive transport ship. Can use Tactical Jump.
+Button/Tooltip/Herd=This unit will often group with and follow other units
+Button/Tooltip/HighTemplar=Potent psionic master. Can use Feedback and be upgraded to use Psionic Storm. Can transform into an Archon.
+Button/Tooltip/HighTemplarACGluescreenDummy=Potent psionic master. Can use Feedback and Psionic Storm. Can merge into an Archon.<n/><n/><c val="ffff8a">Can attack ground units.</c>
+Button/Tooltip/HighTemplarHallucination=These hallucinated copies function like the original unit, but they cannot use active abilities, cannot deal damage, and die more easily. Hallucinations last <d time="60"/> before they disappear.
+Button/Tooltip/Hive=Further evolved version of the Hatchery that allows additional upgrades and structures to be produced. Also spawns all Zerg units and receives gathered resources.
+Button/Tooltip/HoldFire=Orders selected units to stay where they are and ignore enemies that are within range. Units will neither chase down enemies nor move to engage.
+Button/Tooltip/HunterSeekerMissile=Missile that chases its target. Has enough fuel for <d ref="Behavior,SeekerMissileTimeout,Duration"/> seconds. Deals up to <d ref="Effect,SeekerMissileDamage,Amount"/> area damage.
+Button/Tooltip/Hydralisk=Ranged attacker.<n/><n/><c val="ffff8a">Can attack ground and air units.</c>
+Button/Tooltip/HydraliskACGluescreenDummy=Ranged attacker.<n/><n/><c val="ffff8a">Can attack ground and air units.</c>
+Button/Tooltip/HydraliskDen=Contains upgrades for Hydralisks.<n/><n/><c val="ffff8a">Enables:</c><n/>- Hydralisks from Larvae
+Button/Tooltip/HydraliskLurkerACGluescreenDummy=Ranged attacker. Can morph into a Lurker. <n/><n/><c val="ffff8a">Can attack ground and air units.</c>
+Button/Tooltip/Immortal=Assault strider. Has shields that deflect high-damage attacks.<n/><n/><c val="FFFF8A">Can attack ground units.</c>
+Button/Tooltip/ImmortalACGluescreenDummy=Assault strider. Can use Barrier to absorb damage.<n/><n/><c val="ffff8a">Can attack ground units.</c>
+Button/Tooltip/ImmortalHallucination=This hallucinated copy functions like the original unit, but it cannot use active abilities, cannot deal damage, and dies more easily. Hallucinations last <d time="60"/> before they disappear.
+Button/Tooltip/InfestationPit=Contains upgrades for Infestors.<n/><n/><c val="ffff8a">Enables:</c><n/>- Infestors from Larvae
+Button/Tooltip/InfestedTerrans=Spawn an Infested Terran. Infested Terrans last <d ref="Behavior,InfestedTerranTimedLife,Duration"/> seconds.
+Button/Tooltip/InfestedTerransEgg=Hatches into an Infested Terran after a short period.
+Button/Tooltip/Infestor=Infestation specialist. Can move while burrowed. Can use the Infested Terran, Fungal Growth, and Neural Parasite abilities.
+Button/Tooltip/InfestorTerran=An Infested Terran does moderate damage and lasts for <d ref="Behavior,InfestedTerranTimedLife,Duration"/> seconds.<n/><n/><c val="FFFF8A">Can attack ground and air units.</c>
+Button/Tooltip/Interceptor=Builds Interceptors that automatically attack the Carrier's target. Carriers may not attack without Interceptors.<n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c>
+Button/Tooltip/InterceptorUnit=Combat drones that automatically strafe their Carrier's target. Carriers may not attack without Interceptors.<n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c>
+Button/Tooltip/JetPack=Reapers can jump up and down cliffs.  
+Button/Tooltip/KhaydarinMonolithACGluescreenDummy=Extremely powerful defensive structure. Has superior range and damage, but is very expensive and attacks slowly.<n/><n/><c val="ffff8a">Can attack ground and air units.
+Button/Tooltip/Lair=Evolved version of the Hatchery that allows additional upgrades and structures to be produced. Also spawns all Zerg units and receives gathered resources.<n/><n/><c val="ffff8a">Enables:</c><n/>- Overseers from Overlords
+Button/Tooltip/Land=Lands the structure at a target location, allowing it to once again produce units, research upgrades, and use abilities.
+Button/Tooltip/Larva=Morphs into Zerg units.
+Button/Tooltip/Leech=Drains all of the energy from an enemy unit and gives it to the Infestor.
+Button/Tooltip/Lift=Transforms structure into a slow air unit for redeployment. May not produce units, research upgrades, or use abilities until it has landed.
+Button/Tooltip/Load=Loads units into the Nydus Worm.
+Button/Tooltip/Lower=Lowers the structure, allowing ground units to move across it.
+Button/Tooltip/LurkerACGluescreenDummy=Anti-ground ambusher. Has a spine attack that damages all enemy units in its line of fire.<n/><n/><c val="ffff8a">Can attack ground units.<n/>Must burrow to attack.</c>
+Button/Tooltip/MULE=Prototype harvesting unit. Gathers minerals more quickly than regular SCVs. MULEs last <d time="90"/> before their systems fail.
+Button/Tooltip/Marauder=Heavy assault infantry.<n/><n/><c val="#ColorAttackInfo">Can attack ground units.</c>
+Button/Tooltip/MarauderACGluescreenDummy=Heavy assault infantry.<n/><n/><c val="#ColorAttackInfo">Can attack ground units.</c>
+Button/Tooltip/Marine=General-purpose infantry.<n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c>
+Button/Tooltip/MarineACGluescreenDummy=General-purpose infantry.<n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c>
+Button/Tooltip/MassRecall=Teleports all units owned by the player in the targeted area to the Mothership.
+Button/Tooltip/MedicACGluescreenDummy=Support trooper. Heals nearby biological units.
+Button/Tooltip/Medivac=Air transport. Heals nearby biological units.
+Button/Tooltip/MedivacLoad=Loads units into the Medivac's hold.
+Button/Tooltip/MedivacUnloadAll=Unloads all units.
+Button/Tooltip/MengskStatue=Statue commemorating Emperor Mengsk, Defender of Humanity.
+Button/Tooltip/MengskStatueAlone=Statue of Emperor Mengsk, Liberator of the Oppressed.
+Button/Tooltip/MineralField=Workers can harvest resources from this Mineral Field.
+Button/Tooltip/MissileTurret=Anti-air defensive structure.<n/><n/><c val="#ColorAttackInfo">Can attack air units.</c><n/><c val="FFE303">Detector</c>
+Button/Tooltip/MissileTurretACGluescreenDummy=Anti-air defensive structure.<n/><n/><c val="#ColorAttackInfo">Can attack air units.</c><n/><c val="FFE303">Detector</c>
+Button/Tooltip/MorphBackToGateway=Transforms this Warp Gate back to a Gateway.
+Button/Tooltip/MorphMorphalisk=Target Hatchery, Lair, or Hive spawns 4 Larvae in <d ref="Behavior,QueenSpawnLarvaTimer,Duration"/> seconds. If Hatchery, Lair, or Hive has more than 3 Larvae at one time, regular Larva production will stop until there are fewer than 3 Larvae.
+Button/Tooltip/MorphToOverseer=Advanced aerial observer. Provides the same supply as an Overlord. Can use the Spawn Changeling and Contaminate abilities.<n/><n/><c val="FFE303">Detector</c>
+Button/Tooltip/Mothership=Ultimate Protoss vessel. Can use Vortex and Mass Recall. Cloaks nearby friendly units and structures.  <n/><n/><c val="ffff8a">Can attack ground and air units.</c>
+Button/Tooltip/Move=Orders selected units to move to the target area or follow the target unit. Moving units will not engage enemies.
+Button/Tooltip/MoveHoldPosition=Orders selected units to stay where they are and attack enemies that are within range. Units will neither chase down enemies nor move to engage.
+Button/Tooltip/MovePatrol=Orders selected units to patrol between their current position and the target area. Units will attack enemies and move to engage nearby enemies.
+Button/Tooltip/Mutalisk=Air unit. Bounces its shot to strike multiple targets.<n/><n/><c val="ffff8a">Can attack ground and air units.</c>
+Button/Tooltip/MutaliskACGluescreenDummy=Air unit. Bounces its shot to strike multiple targets.<n/><n/><c val="ffff8a">Can attack ground and air units.</c>
+Button/Tooltip/MutaliskBroodlordACGluescreenDummy=Air unit. Bounces its shot to strike multiple targets. Can morph into a Brood Lord.<n/><n/><c val="ffff8a">Can attack ground and air units.</c>
+Button/Tooltip/NeuralParasite=Target unit is controlled by the Infestor until one of them dies, or the Infestor relinquishes control. The Infestor cannot take any other action while controlling an enemy unit.<n/><n/><c val="ffff8a">Channeled ability.</c>
+Button/Tooltip/Nexus=Primary structure. Can receive gathered resources. Can use the Chrono Boost ability.<n/><n/><c val="ffff8a">Enables:</c><n/>- Probes
+Button/Tooltip/NukeArm=Arms the Silo with a Tactical Nuke.<n/><n/>Nukes take <d time="20"/> to land, but they deal up to 300 (+200 vs. structures) damage in a large radius.<n/><n/>Use a Ghost to designate the target.
+Button/Tooltip/NukeCalldown=Calls down a Nuclear Strike at a target location. Nukes take <d time="20"/> to land, but they deal up to 300 (+200 vs. structures) damage in a large radius.
+Button/Tooltip/NydusCanal=Friendly ground units can use a Nydus Worm to instantly travel to any other Nydus Worm or Nydus Network owned by the player. Grows creep used to feed nearby Zerg structures.<n/><n/><c val="#ColorAttackInfo">Bonus: Zerg move faster on creep.</c>
+Button/Tooltip/NydusCanalLoad=Loads units into the Nydus Network.
+Button/Tooltip/NydusCanalUnloadAll=Unloads all units.
+Button/Tooltip/NydusNetwork=Friendly ground units can use the Nydus Network to instantly travel to any other Nydus Network or Nydus Worm owned by the player.<n/><n/><c val="ffff8a">Enables:</c><n/>- Nydus Worm
+Button/Tooltip/NydusNetworkACGluescreenDummy=Structure which allows friendly ground units to instantly travel to any other Nydus Network or Nydus Worm owned by the player.
+Button/Tooltip/Observer=Flying spy. Cloak renders the unit invisible to enemies without detection.<n/><n/><c val="FFE303">Detector</c>
+Button/Tooltip/ObserverACGluescreenDummy=Flying spy. Cloak renders the unit invisible to enemies without detection.<n/><n/><c val="FFE303">Detector</c>
+Button/Tooltip/ObverseIncubation=Zerglings now hatch 4 per cocoon. Morph to Zergling will cost twice as much and take 50% longer to do.
+Button/Tooltip/OmegaNetworkACGluescreenDummy=Friendly ground units can use the Omega Network to instantly travel to any other Omega Network or Omega Worm owned by the player.
+Button/Tooltip/OracleACGluescreenDummy=Flying Caster. Can use Stasis Ward.<n/><n/><c val="ffff8a">Can attack ground units.</c><n/><c val="FFE303">Detector</c>
+Button/Tooltip/OrbitalCommand=Upgrades Command Center to an Orbital Command, unlocking Scanner Sweep, Calldown: MULE, and Calldown: Extra Supplies. Cannot load SCVs.
+Button/Tooltip/OrbitalCommandACGluescreenDummy=Primary structure. Used to train SCVs and receive gathered resources. Can use the Scanner Sweep and Calldown: MULE abilities.<n/><n/><c val="FFE303">Detector: Scanner Sweep Ability</c>
+Button/Tooltip/OrbitalCommandFlying=Primary structure. Must land to receive resources, produce units, or use abilities.
+Button/Tooltip/OrbitalCommandUnit=Primary structure. Used to train SCVs and receive gathered resources. Can use the Scanner Sweep ability. Can use the abilities Calldown: MULE and Calldown: Extra Supplies.
+Button/Tooltip/Overlord=Provides supply.<n/>Supply allows you to create more units.<n/>Can morph into an Overseer.
+Button/Tooltip/OverlordCocoon=This cocoon contains an Overlord as it is morphing into an Overseer.
+Button/Tooltip/OverlordTransportLoad=Loads units into the Overlord's ventral sacs.
+Button/Tooltip/OverlordTransportUnload=Unloads all units.
+Button/Tooltip/Overseer=Advanced aerial observer. Maintains the unit cap set by the Overlord. Can use the Spawn Changeling and Contaminate abilities.<n/><n/><c val="FFE303">Detector</c>
+Button/Tooltip/OverseerACGluescreenDummy=Advanced aerial observer. Maintains the unit cap set by the Overlord.<n/><n/><c val="FFE303">Detector</c>
+Button/Tooltip/PerditionTurretACGluescreenDummy=Automated defensive structure. Burrows when there are no enemies nearby.<n/><n/><c val="#ColorAttackInfo">Can attack ground units.</c>
+Button/Tooltip/PermanentlyCloaked=The Dark Templar is permanently cloaked.
+Button/Tooltip/PermanentlyCloakedObserver=The Observer is permanently cloaked.
+Button/Tooltip/PhaseShift=Causes the targeted unit to phase out for <d ref="Behavior,Ethereal,Duration"/> seconds. Phased units are immune to all damage and most effects, but they are unable to attack or use abilities.
+Button/Tooltip/PhasingMode=Transforms the Warp Prism to Phasing Mode and generates a power radius similar to that of a Pylon. The Warp Prism cannot move in this mode.
+Button/Tooltip/Phoenix=Air-superiority fighter.<n/><n/><c val="ffff8a">Can attack air units.</c>
+Button/Tooltip/PhoenixAiurACGluescreenDummy=Air superiority starfighter. Can use Graviton Beam.<n/><n/><c val="ffff8a">Can attack air units.</c>
+Button/Tooltip/PhoenixHallucination=This hallucinated copy functions like the original unit, but it cannot use active abilities, cannot deal damage, and dies more easily. Hallucinations last <d time="60"/> before they disappear.
+Button/Tooltip/PhoenixPurifierACGluescreenDummy=Air superiority starfighter. Can use Graviton Beam and Phasing Armor.<n/><n/><c val="ffff8a">Can attack air units.</c>
+Button/Tooltip/PhotonCannon=Primary defensive structure.<n/><n/><c val="ffff8a">Can attack ground and air units.</c><n/><c val="FFE303">Detector</c>
+Button/Tooltip/PhotonCannonACGluescreenDummy=Primary defensive structure.<n/><n/><c val="ffff8a">Can attack ground and air units.</c><n/><c val="FFE303">Detector</c>
+Button/Tooltip/PlanetaryFortress=Defensive stronghold. <n/>Used to receive gathered resources. <n/><n/><c val="ffff8a">Can attack ground units.</c>
+Button/Tooltip/PlanetaryFortressLoad=Loads nearby SCVs into the Planetary Fortress.
+Button/Tooltip/PointDefense=Automated defensive laser that intercepts enemy projectiles.<n/><n/>Effective against Marauders, Vikings, Banshees, Battlecruisers, Thors, Missile Turrets, Reaper D8 Charges, Stalkers, Phoenixes, Photon Cannons, Queens, Mutalisks, Corruptors, Hydralisks, and Spore Crawlers.<n/><n/><c val="f078ff">Each shot consumes 10 energy.</c>
+Button/Tooltip/PointDefenseDrone=Uses a laser to shoot down enemy missiles.  <n/>Cannot target special attacks. <n/>Times out after <d ref="Behavior,PointDefenseDroneTimedLife,Duration"/> seconds.<n/><n/><c val="f078ff">Each shot consumes 10 energy.</c>
+Button/Tooltip/PrismaticBeam=The Void Ray's damage output increases the longer the Void Ray remains on a single target.
+Button/Tooltip/Probe=Basic worker unit. Can gather resources and warp in Protoss structures.<n/><n/><c val="ffff8a">Can attack ground units.</c>
+Button/Tooltip/ProbeHallucination=These hallucinated copies function like the original unit, but they cannot use active abilities, deal damage, warp in structures, or gather resources, and they die more easily. Hallucinations last <d time="60"/> before they disappear.
+Button/Tooltip/ProtossAirArmorLevel1=Upgrades the armor of Protoss air units.
+Button/Tooltip/ProtossAirArmorLevel2=Further upgrades the armor of Protoss air units.
+Button/Tooltip/ProtossAirArmorLevel3=Maximizes the armor of Protoss air units.
+Button/Tooltip/ProtossAirWeaponsLevel1=Upgrades the damage dealt by Protoss air units.
+Button/Tooltip/ProtossAirWeaponsLevel2=Further upgrades the damage dealt by Protoss air units.
+Button/Tooltip/ProtossAirWeaponsLevel3=Maximizes the damage dealt by Protoss air units.
+Button/Tooltip/ProtossBuild=A list of basic structures.
+Button/Tooltip/ProtossBuildAdvanced=A list of advanced structures.
+Button/Tooltip/ProtossGroundArmorLevel1=Upgrades the armor of Protoss ground units.
+Button/Tooltip/ProtossGroundArmorLevel2=Further upgrades the armor of Protoss ground units.
+Button/Tooltip/ProtossGroundArmorLevel3=Maximizes the armor of Protoss ground units.
+Button/Tooltip/ProtossGroundWeaponsLevel1=Upgrades the damage dealt by Protoss ground units.
+Button/Tooltip/ProtossGroundWeaponsLevel2=Further upgrades the damage dealt by Protoss ground units.
+Button/Tooltip/ProtossGroundWeaponsLevel3=Maximizes the damage dealt by Protoss ground units.
+Button/Tooltip/ProtossShieldsLevel1=Upgrades the shields of all Protoss units and structures.
+Button/Tooltip/ProtossShieldsLevel2=Further upgrades the shields of all Protoss units and structures.
+Button/Tooltip/ProtossShieldsLevel3=Maximizes the shields of all Protoss units and structures.
+Button/Tooltip/PsiStorm=Creates a storm of psionic energy that lasts <d time="4"/>, causing up to 80 damage to all units in the target area.
+Button/Tooltip/Pylon=Provides supply.<n/>Supply allows you to warp in more units.<n/>Creates power for nearby structures.
+Button/Tooltip/Queen=Defensive unit. Can use Spawn Larvae, Spawn Creep Tumor, and Transfusion. Moves much faster on creep.<n/><n/><c val="ffff8a">Can attack ground and air units.</c>
+Button/Tooltip/QueenCoopACGluescreenDummy=Defensive unit. Can use Spawn Larvae, Spawn Creep Tumor, and Transfusion. Moves much faster on creep.<n/><n/><c val="ffff8a">Can attack ground and air units.</c>
+Button/Tooltip/RadarField=Able to expose enemy movements within its radar capability. Does not reveal the area.
+Button/Tooltip/Raise=Raises the structure, preventing ground units from moving across it.
+Button/Tooltip/Rally=Sends constructed units to the designated point. Workers rallied to resources will begin gathering automatically.
+Button/Tooltip/RallyEgg=Sends morphed worker units to the designated point. Workers rallied to Mineral Fields or Extractors will begin gathering automatically.
+Button/Tooltip/RallyExtra=Sends constructed units to the designated point. Workers rallied to resources will begin gathering automatically.
+Button/Tooltip/RapidRegeneration=The Roach regenerates life very quickly while burrowed.
+Button/Tooltip/RaptorACGluescreenDummy=Fast melee unit. Leaps over obstacles and onto targets from range. Deals increased damage.<n/><n/><c val="FFFF8A">Can attack ground units.</c>
+Button/Tooltip/Raven=Aerial support unit. Can use Auto-Turret, Point Defense Drone, and be upgraded to use Seeker Missile.<n/><n/><c val="FFE303">Detector</c>
+Button/Tooltip/Reactor=Allows 2 units to be created simultaneously.
+Button/Tooltip/Reaper=Raider. Capable of jumping up and down cliffs. <n/><n/><c val="#ColorAttackInfo">Can attack ground units.</c>
+Button/Tooltip/ReaperSpeed=Increases the movement speed of <c val="ffff8a">Reapers</c>.
+Button/Tooltip/ReaverACGluescreenDummy=Area-damage siege unit. Shoots Scarabs for high burst damage.<n/><n/><c val="ffff8a">Can attack ground units.</c>
+Button/Tooltip/Refinery=Built over a Vespene Geyser to allow harvesting of vespene gas.
+Button/Tooltip/Repair=Restores life to mechanical units and structures at the cost of resources.
+Button/Tooltip/ResearchBansheeCloak=Enables <c val="ffff8a">Banshees</c> to use the Cloak ability. Cloak renders the <c val="ffff8a">Banshee</c> invisible to enemies unless the unit is revealed by detectors or effects.
+Button/Tooltip/ResearchBattlecruiserEnergyUpgrade=Increases the starting energy of <c val="ffff8a">Battlecruisers</c> by <d ref="Upgrade,BattlecruiserBehemothReactor,EffectArray[0].Value"/>.
+Button/Tooltip/ResearchBattlecruiserSpecializations=Enables use of the <c val="ffff8a">Battlecruiser</c> Yamato Cannon.
+Button/Tooltip/ResearchBurrow=Enables all Zerg ground units to use the Burrow ability. Burrow allows a unit to take cover underground, rendering it unable to attack. A burrowed unit is invisible unless revealed by detectors or effects.
+Button/Tooltip/ResearchCharge=Allows <c val="ffff8a">Zealots</c> to intercept nearby enemies. Also increases the movement speed of <c val="ffff8a">Zealots</c>.
+Button/Tooltip/ResearchDurableMaterials=Extends the timed duration of Raven <c val="ffff8a">Auto-Turrets</c>, <c val="ffff8a">Seeker Missiles</c>, and <c val="ffff8a">Point Defense Drones</c>.
+Button/Tooltip/ResearchExtendedThermalLance=Increases the range of the <c val="ffff8a">Colossus</c> weapon.
+Button/Tooltip/ResearchGhostEnergyUpgrade=Increases the starting energy of <c val="ffff8a">Ghosts</c> by <d ref="Upgrade,GhostMoebiusReactor,EffectArray[0].Value"/>.
+Button/Tooltip/ResearchGraviticBooster=Increases the movement speed of <c val="ffff8a">Observers</c>.
+Button/Tooltip/ResearchGraviticDrive=Increases the movement speed of <c val="ffff8a">Warp Prisms</c>.
+Button/Tooltip/ResearchHallucination=Allows <c val="ffff8a">Sentries</c> to use Hallucination.<n/><n/>Hallucination creates copies of the selected unit. These copies function like the original unit, but they cannot use active abilities, cannot deal damage, and die more easily. Hallucinations last <d ref="Behavior,HallucinationTimedLife,Duration"/> seconds before they disappear. Enemy detectors are able to distinguish between hallucinated Protoss units and real Protoss units.
+Button/Tooltip/ResearchHiSecAutoTracking=Adds +1 range to <c val="ffff8a">Auto-Turrets</c>, <c val="ffff8a">Missile Turrets</c>, <c val="ffff8a">Planetary Fortresses</c>, and <c val="ffff8a">Point Defense Drones</c>.
+Button/Tooltip/ResearchHighCapacityBarrels=Improves the <c val="ffff8a">Hellion's Flamethrower</c> to give +10 damage vs. light units.
+Button/Tooltip/ResearchHighTemplarEnergyUpgrade=Increases the starting energy of <c val="ffff8a">High Templar</c> by <d ref="Upgrade,HighTemplarKhaydarinAmulet,EffectArray[0].Value"/>.
+Button/Tooltip/ResearchIncreasedRange=Increases the range of the <c val="ffff8a">Immortal</c> weapon.
+Button/Tooltip/ResearchInterceptorLaunchSpeedUpgrade=Makes the <c val="ffff8a">Carrier</c> launch Interceptors more quickly.
+Button/Tooltip/ResearchJotunBoosters=<c val="ffff8a">Viking</c> Lanzer Torpedoes gain +2 range.
+Button/Tooltip/ResearchMedivacEnergyUpgrade=Increases the starting energy of <c val="ffff8a">Medivacs</c> by <d ref="Upgrade,MedivacCaduceusReactor,EffectArray[0].Value"/>.
+Button/Tooltip/ResearchNeosteelFrame=Increases the cargo space of <c val="ffff8a">Bunkers</c> by 2. Also provides extra cargo space for <c val="ffff8a">Command Centers</c> and <c val="ffff8a">Planetary Fortresses</c>.
+Button/Tooltip/ResearchNeuralParasite=Allows <c val="ffff8a">Infestors</c> to use the Neural Parasite ability.
+Button/Tooltip/ResearchPersonalCloaking=Enables <c val="ffff8a">Ghosts</c> to use the Cloak ability. Cloak renders a unit invisible to enemies unless it's revealed by detectors or effects.
+Button/Tooltip/ResearchPsiStorm=Allows <c val="ffff8a">High Templar</c> to summon a storm of psionic energy, causing heavy damage to every unit in the target area.
+Button/Tooltip/ResearchPunisherGrenades=Upgrades the <c val="ffff8a">Marauder</c> weapons to slow down opponents.
+Button/Tooltip/ResearchRavenEnergyUpgrade=Increases the starting energy of <c val="ffff8a">Ravens</c> by <d ref="Upgrade,RavenCorvidReactor,EffectArray[0].Value"/>.
+Button/Tooltip/ResearchSeekerMissile=Enables <c val="ffff8a">Ravens</c> to use the Seeker Missile armament. This missile chases its target. Missile has enough fuel for <d ref="Behavior,SeekerMissileTimeout,Duration"/> seconds. Deals up to <d ref="Effect,SeekerMissileDamage,Amount"/> damage.
+Button/Tooltip/ResearchShieldWall=<c val="ffff8a">Marines</c> gain +10 life.
+Button/Tooltip/ResearchSiegeTech=Enables <c val="ffff8a">Siege Tanks</c> to deploy into Siege Mode. While in Siege Mode, Siege Tanks have significantly increased range and damage, but they cannot move.
+Button/Tooltip/ResearchStalkerTeleport=Allows <c val="ffff8a">Stalkers</c> to teleport to a nearby target location.
+Button/Tooltip/ResearchStrikeCannons=Allows <c val="ffff8a">Thors</c> to use the 250mm Strike Cannons ability.
+Button/Tooltip/ResearchVoidRaySpeedUpgrade=Increases the speed and acceleration of the <c val="ffff8a">Void Ray</c>.
+Button/Tooltip/ResearchWarpGate=Enables <c val="ffff8a">Gateways</c> to upgrade to Warp Gates.
+Button/Tooltip/ReturnCargo=Returns the carried resources to the nearest drop-off point.
+Button/Tooltip/RichMineralField=Workers can harvest minerals from this Mineral Field at a faster rate than normal.
+Button/Tooltip/Roach=Assault unit. Regenerates life quickly when burrowed.<n/><n/><c val="#ColorAttackInfo">Can attack ground units.</c>
+Button/Tooltip/RoachWarren=Contains upgrades for Roaches.<n/><n/><c val="ffff8a">Enables:</c><n/>- Roaches from Larvae
+Button/Tooltip/RoboticsBay=Contains upgrades for the Observer, Warp Prism, and Colossus.<n/><n/><c val="ffff8a">Enables:</c><n/>- Colossi at the Robotics Facility
+Button/Tooltip/RoboticsFacility=Warps in Protoss robotic units.<n/><n/><c val="ffff8a">Enables:</c><n/>- Observers<n/>- Warp Prisms<n/>- Immortals
+Button/Tooltip/SCV=Basic worker unit. Can gather resources, build Terran structures, and repair.<n/><n/><c val="#ColorAttackInfo">Can attack ground units.</c>
+Button/Tooltip/Salvage=Salvages the structure, removing it and returning 100% of its mineral and gas value. Salvage takes <d time="5"/> to finish. Warning: once Salvage is triggered, it cannot be canceled.
+Button/Tooltip/SalvagedTextEnemy=Salvaged
+Button/Tooltip/SapStructure=The Baneling detonates against a structure for <d ref="Effect,VolatileBurstU2,Amount"/> damage. Right click a target structure to have the Baneling automatically use this ability.<n/><n/><c val="#ColorAttackInfo">Can target enemy structures.</c>
+Button/Tooltip/Scan=Reveals an area of the map, detecting cloaked and burrowed units. Lasts <d time="12"/>.
+Button/Tooltip/ScienceVesselACGluescreenDummy=Aerial support unit. Can use Irradiate and Nano-Repair abilities.<n/><n/><c val="FFE303">Detector</c>
+Button/Tooltip/ScourgeACGluescreenDummy=Flying suicide unit. Scourge hatch in pairs from a single Larva.<n/><n/><c val="ffff8a">Can attack air units.</c>
+Button/Tooltip/SelectBuilder=Selects the unit constructing this structure.
+Button/Tooltip/SensorTower=Reveals the locations of enemy units at long range. The Sensor Tower's detection area is visible to the enemy.
+Button/Tooltip/Sentry=Energy-manipulator unit. Can use Force Field, Guardian Shield, and be upgraded to use Hallucination.<n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c>
+Button/Tooltip/SentryACGluescreenDummy=Robotic support unit. Can use Shield Recharge and Guardian Shield.<n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c>
+Button/Tooltip/SentryPurifierACGluescreenDummy=Robotic support unit. Can use Chrono Beam and Phasing Mode.<n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c>
+Button/Tooltip/SetBunkerRallyPoint=Sends unloaded infantry units to designated point.
+Button/Tooltip/SetRallyPoint=Sends units to the designated point. Workers rallied to resources will begin harvesting automatically.
+Button/Tooltip/SetRallyPoint2=Sends morphed units to the designated point.
+Button/Tooltip/ShakurasDestructible1x1=Barrier that can be destroyed to allow access to new areas.
+Button/Tooltip/ShakurasDestructible1x2=Barrier that can be destroyed to allow access to new areas.
+Button/Tooltip/ShakurasDestructible2x2=Barrier that can be destroyed to allow access to new areas.
+Button/Tooltip/ShieldBatteryACGluescreenDummy=Restores shields to nearby friendly units and structures.
+Button/Tooltip/SiegeMode=Deploys into Siege Mode. In this mode Siege Tanks have very long range and inflict area damage. Siege Tanks in this mode cannot move or attack targets at close range.
+Button/Tooltip/SiegeTank=Heavy tank. Can be upgraded to switch into Siege Mode to provide long-range artillery support.<n/><n/><c val="FFFF8A">Can attack ground units.</c>
+Button/Tooltip/SiegeTankACGluescreenDummy=Heavy tank. Can switch into Siege Mode to provide long-range artillery support.<n/><n/><c val="FFFF8A">Can attack ground units.</c>
+Button/Tooltip/SiegeTankSieged=Heavy tank. Can switch into Tank Mode to provide mobile tank support.<n/><n/><c val="#ColorAttackInfo">Can attack ground units.</c>
+Button/Tooltip/Siphon=Siphons 4 life per second from the target. Half of the life siphoned is converted into energy for the Infestor.<n/><n/><c val="ffff8a">Channeled ability</c>
+Button/Tooltip/Snipe=A careful shot, dealing 45 damage. Ignores armor.<n/><n/><c val="#ColorAttackInfo">Can only target biological units.</c>
+Button/Tooltip/SpawnChangeling=Creates a Changeling. Changelings cannot attack and die after <d time="150"/>. When a Changeling first encounters an enemy unit, it will match that unit's color and change into a Zealot, Marine, or Zergling, depending on the enemy race.
+Button/Tooltip/SpawningPool=Contains upgrades for Zerglings.<n/><n/><c val="ffff8a">Enables:</c><n/>- Queens at the Hatchery, Lair, or Hive<n/>- Zerglings from Larvae<n/>- Spine Crawlers from Drones
+Button/Tooltip/SpineCrawler=Anti-ground defensive structure. <n/><n/><c val="ffff8a">Can attack ground units.</c>
+Button/Tooltip/SpineCrawlerACGluescreenDummy=Anti-ground defensive structure. <n/><n/><c val="ffff8a">Can attack ground units.</c>
+Button/Tooltip/SpineCrawlerRoot=Roots the Spine Crawler. A rooted Spine Crawler has the ability to attack ground units but is unable to move.
+Button/Tooltip/SpineCrawlerUproot=Uproots the Spine Crawler. An uprooted Spine Crawler has the ability to move but cannot attack. Moves much faster on creep.
+Button/Tooltip/SpineCrawlerUprooted=Uprooted anti-ground defensive structure. Can move when uprooted, but cannot attack. Must plant itself in creep to attack.
+Button/Tooltip/Spire=Contains upgrades for Zerg air units. Can mutate into a Greater Spire.<n/><n/><c val="ffff8a">Enables:</c><n/>- Mutalisks from Larvae<n/>- Corruptors from Larvae
+Button/Tooltip/SplitterlingACGluescreenDummy=Suicide unit. Deals damage over a small area upon death. Splits into smaller units as it dies. <n/><n/><c val="ffff8a">Can attack ground units.</c>
+Button/Tooltip/SporeCrawler=Anti-air defensive structure. <n/><n/><c val="ffff8a">Can attack air units.</c><n/><c val="FFE303">Detector</c>
+Button/Tooltip/SporeCrawlerACGluescreenDummy=Anti-air defensive structure. <n/><n/><c val="ffff8a">Can attack air units.</c><n/><c val="FFE303">Detector</c>
+Button/Tooltip/SporeCrawlerRoot=Roots the Spore Crawler. A rooted Spore Crawler has the ability to attack air units and detect cloaked units, but it's unable to move.
+Button/Tooltip/SporeCrawlerUproot=Uproots the Spore Crawler. An uprooted Spore Crawler has the ability to move but cannot attack. Moves much faster on creep.
+Button/Tooltip/SporeCrawlerUprooted=Uprooted anti-air defensive structure. Can move when uprooted, but cannot attack. Must plant itself in creep to attack.
+Button/Tooltip/Stalker=Ranged support strider.<n/><n/><c val="ffff8a">Can attack ground and air units.</c>
+Button/Tooltip/StalkerHallucination=These hallucinated copies function like the original unit, but they cannot use active abilities, cannot deal damage, and die more easily. Hallucinations last <d time="60"/> before they disappear.
+Button/Tooltip/StalkerShakurasACGluescreenDummy=Ranged attack strider. Can use Blink.<n/><n/><c val="ffff8a">Can attack ground and air units.</c>
+Button/Tooltip/Stargate=Warps in Protoss air units.<n/><n/><c val="ffff8a">Enables:</c><n/>- Phoenixes<n/>- Void Rays
+Button/Tooltip/Starport=Air-unit production facility. <n/><n/><c val="ffff8a">Enables:</c><n/>- Vikings<n/>- Medivacs
+Button/Tooltip/StarportFlying=Starport must land to start unit production.
+Button/Tooltip/Stim=Injects the unit with powerful stimulants that greatly increase attack and movement speeds for a few seconds. Injures the unit for 10 of the unit's life.
+Button/Tooltip/StimMarauder=Injects the unit with powerful stimulants that greatly increase attack and movement speeds for a few seconds. Injures the unit for 20 of the unit's life.
+Button/Tooltip/StimRedirect=Orders Marines and Marauders inside of the Bunker to use Stimpacks. They will take damage and have increased attack speed as normal.
+Button/Tooltip/Stimpack=Enables <c val="ffff8a">Marines</c> and <c val="ffff8a">Marauders</c> to use the Stimpack ability. Stimpacks cause damage to a unit, but they increase its attack and movement speeds for a short time.
+Button/Tooltip/Stop=Orders selected units to cancel all orders and stop moving.
+Button/Tooltip/StopGenerateCreep=Stops generating creep.
+Button/Tooltip/StopPlanetaryFortress=Orders selected units to cancel all orders and stop moving.
+Button/Tooltip/StopRoachBurrowed=Orders selected units to cancel all orders and stop moving.
+Button/Tooltip/StopSpecial=Orders selected units to cancel all orders and stop moving.
+Button/Tooltip/SummonNydusWorm=Summons a Nydus Worm at the target location.<n/>Friendly ground units can use a Nydus Worm to instantly travel to any other Nydus Worm or Nydus Network owned by the player. Grows creep used to feed nearby Zerg structures.<n/><n/><c val="#ColorAttackInfo">Bonus: Zerg move faster on creep.</c>
+Button/Tooltip/SupplyDepot=Provides supply.<n/>Supply allows you to create more units.<n/>Supply Depots can be lowered to allow units to walk over them.
+Button/Tooltip/SupplyDepotLowered=Provides supply.<n/>Supply allows you to create more units.<n/>Supply Depots can be lowered to allow units to walk over them.
+Button/Tooltip/SupplyDrop=Drops additional supplies, permanently increasing the supply output of the target Supply Depot by <d ref="Behavior,SupplyDrop,Modification.Food"/>.
+Button/Tooltip/SwarmSeeds=The Brood Lord shoots Broodlings at its target. A Broodling is a small creature that can attack ground units.<n/><n/><c val="#ColorAttackInfo">Can attack ground units.</c>
+Button/Tooltip/SwarmlingACGluescreenDummy=Fast melee unit. Spawns in groups of three. Morphs almost instantly. Can morph into a Baneling.<n/><n/><c val="FFFF8A">Can attack ground units.</c>
+Button/Tooltip/TechLab=Enables additional units and research options. A Tech Lab can fit onto any production structure.
+Button/Tooltip/TechLabBarracks=Infantry-research structure. A Tech Lab can fit onto any production structure.<n/><n/><c val="ffff8a">Enables:</c><n/>- Marauders<n/>- Reapers<n/>- Ghosts with Ghost Academy
+Button/Tooltip/TechLabFactory=Vehicle-research structure. A Tech Lab can fit onto any production structure.<n/><n/><c val="ffff8a">Enables:</c><n/>- Siege Tanks<n/>- Thors with Armory
+Button/Tooltip/TechLabStarport=Aircraft-research structure. A Tech Lab can fit onto any production structure.<n/><n/><c val="ffff8a">Enables:</c><n/>- Banshees<n/>- Ravens<n/>- Battlecruisers with Fusion Core
+Button/Tooltip/TempestACGluescreenDummy=Siege artillery craft. Attacks from long range. Can use Disintegration.<n/><n/><c val="ffff8a">Can attack ground and air units.</c>
+Button/Tooltip/TemplarArchive=Contains an upgrade for High Templar.<n/><n/><c val="ffff8a">Enables:</c><n/>- High Templar at the Gateway<n/>- Archon Merge from High Templar
+Button/Tooltip/TemporalRift=Creates a distortion field at the target location. Ground units caught inside of this field have their movement speed, attack speed, and cooldowns slowed by two-thirds. Lasts <d time="30"/>.
+Button/Tooltip/TerranBuild=A list of basic structures.
+Button/Tooltip/TerranBuildAdvanced=A list of advanced structures.
+Button/Tooltip/TerranInfantryArmorLevel1=Upgrades the armor of infantry units.
+Button/Tooltip/TerranInfantryArmorLevel2=Further upgrades the armor of infantry units.
+Button/Tooltip/TerranInfantryArmorLevel3=Maximizes the armor of infantry units.
+Button/Tooltip/TerranInfantryWeaponsLevel1=Upgrades the damage dealt by infantry units.
+Button/Tooltip/TerranInfantryWeaponsLevel2=Further upgrades the damage dealt by infantry units.
+Button/Tooltip/TerranInfantryWeaponsLevel3=Maximizes the damage dealt by infantry units.
+Button/Tooltip/TerranShipPlatingLevel1=Upgrades the armor of units built at a Starport.
+Button/Tooltip/TerranShipPlatingLevel2=Further upgrades the armor of units built at a Starport.
+Button/Tooltip/TerranShipPlatingLevel3=Maximizes the armor of units built at a Starport.
+Button/Tooltip/TerranShipWeaponsLevel1=Upgrades the damage dealt by units built at a Starport.
+Button/Tooltip/TerranShipWeaponsLevel2=Further upgrades the damage dealt by units built at a Starport.
+Button/Tooltip/TerranShipWeaponsLevel3=Maximizes the damage dealt by units built at a Starport.
+Button/Tooltip/TerranVehiclePlatingLevel1=Upgrades the armor of ground vehicles.
+Button/Tooltip/TerranVehiclePlatingLevel2=Further upgrades the armor of ground vehicles.
+Button/Tooltip/TerranVehiclePlatingLevel3=Maximizes the armor of ground vehicles.
+Button/Tooltip/TerranVehicleWeaponsLevel1=Upgrades the damage dealt by ground vehicles.
+Button/Tooltip/TerranVehicleWeaponsLevel2=Further upgrades the damage dealt by ground vehicles.
+Button/Tooltip/TerranVehicleWeaponsLevel3=Maximizes the damage dealt by ground vehicles.
+Button/Tooltip/Thor=Heavy assault mech.<n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c>
+Button/Tooltip/ThorACGluescreenDummy=Heavy assault mech. Can use 330mm Barrage Cannon.<n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c>
+Button/Tooltip/TimeWarp=Places target structure in a Chrono Boost, causing it to operate 50% faster for <d time="20"/>.
+Button/Tooltip/TorrasqueACGluescreenDummy=Heavy assault beast. Has an area-damage cleave attack. When killed, can be revived.<n/><n/><c val="ffff8a">Can attack ground units.</c>
+Button/Tooltip/TrafficSignal=Local traffic signal.
+Button/Tooltip/Transfusion=Instantly restores 125 life to target biological unit or structure.
+Button/Tooltip/TransportMode=Reverts the Warp Prism back to Transport Mode, allowing it to move.
+Button/Tooltip/Turn=Orders selected units to turn toward the target area or unit.
+Button/Tooltip/TwilightCouncil=Contains upgrades for Zealots and Stalkers.
+Button/Tooltip/Ultralisk=Heavy assault beast. Has an area-damage attack.<n/><n/><c val="ffff8a">Can attack ground units.</c>
+Button/Tooltip/UltraliskACGluescreenDummy=Heavy assault beast. Has an area-damage attack.<n/><n/><c val="ffff8a">Can attack ground units.</c>
+Button/Tooltip/UltraliskCavern=Contains an upgrade for Ultralisks.<n/><n/><c val="ffff8a">Enables:</c><n/>- Ultralisks from Larvae
+Button/Tooltip/UnbuildableBricksDestructible=Prevents placement of buildings. Can be destroyed to allow placement.
+Button/Tooltip/UnbuildablePlatesDestructible=Prevents placement of buildings. Can be destroyed to allow placement.
+Button/Tooltip/UnbuildableRocksDestructible=Prevents placement of buildings. Can be destroyed to allow placement.
+Button/Tooltip/Unsiege=Reverts to Tank Mode. In this mode Siege Tanks can move, but they do less damage.
+Button/Tooltip/UpgradeBuildingArmorLevel1=Upgrades the armor of <c val="ffff8a">structures</c> by 2.
+Button/Tooltip/UpgradeToPlanetaryFortress=Upgrades Command Center to a Planetary Fortress, greatly increasing its armor and arming it with a powerful defensive turret. Cannot lift off.<n/><n/><c val="ffff8a">Can attack ground units.</c>
+Button/Tooltip/UpgradeToPlanetaryFortressFast=Upgrades Command Center to a Planetary Fortress, greatly increasing its armor and arming it with a powerful defensive turret. Can not lift off.<n/><n/><c val="ffff8a">Can attack ground units.</c>
+Button/Tooltip/UpgradeToWarpGate=Upgrades this Gateway to a Warp Gate, allowing it to warp in ground units to any location powered by a Pylon or Warp Prism.
+Button/Tooltip/VespeneGeyser=Workers can harvest vespene gas from this Vespene Geyser.
+Button/Tooltip/VikingACGluescreenDummy=Durable support flyer. Loaded with strong anti-capital air missiles. Can switch into Assault Mode to attack ground units.<n/><n/><c val="#ColorAttackInfo">Can attack air units.</c>
+Button/Tooltip/VikingAssault=Durable support unit. Can switch into Fighter Mode to attack air units.<n/><n/><c val="#ColorAttackInfo">Can attack ground units.</c>
+Button/Tooltip/VikingFighter=Durable support flyer. Loaded with strong anti-capital air missiles. Can switch into Assault Mode to attack ground units.<n/><n/><c val="#ColorAttackInfo">Can attack air units.</c>
+Button/Tooltip/VoidRay=Surgical-strike craft. Damage output increases the longer the Void Ray remains on target.<n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c>
+Button/Tooltip/VoidRayACGluescreenDummy=Surgical strike craft. Deals increased damage with prolonged attacks.<n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c>
+Button/Tooltip/VoidRayHallucination=This hallucinated copy functions like the original unit, but it cannot use active abilities, cannot deal damage, and dies more easily. Hallucinations last <d time="60"/> before they disappear.
+Button/Tooltip/VoidRayShakurasACGluescreenDummy=Surgical strike craft. Attacks charge up for extra range and extra damage versus armored targets.<n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c>
+Button/Tooltip/Vortex=Creates a gravity Vortex that stuns ground and air units in the target area. Units within the Vortex are invulnerable to all damage and effects. Lasts for <d time="20"/>.
+Button/Tooltip/VultureACGluescreenDummy=Fast skirmish unit. Can use the Spider Mine ability.<n/><n/><c val="#ColorAttackInfo">Can attack ground units.</c>
+Button/Tooltip/WarpGate=Enables warp in of Protoss ground units.
+Button/Tooltip/WarpPrism=Flying transport. Can load and unload units. Can also deploy to create a power field.
+Button/Tooltip/WarpPrismHallucination=This hallucinated copy functions like the original unit, but it cannot use active abilities, cannot deal damage, and dies more easily. Hallucinations last <d time="60"/> before they disappear.
+Button/Tooltip/WarpPrismLoad=Loads units into the Warp Prism's matrix.
+Button/Tooltip/WarpPrismPhasing=Immobile power provider. Can load and unload units. Can switch to a mobile Transport Mode.
+Button/Tooltip/WarpPrismUnloadAll=Unloads all units.
+Button/Tooltip/WeaponsFree=Orders selected units to fire at will. They will engage enemy units within range and chase them as normal.
+Button/Tooltip/WolfStatue=Statue commemorating the Wolves of Korhal, a symbol of the Mengsk family.
+Button/Tooltip/WormholeTransit=Creates an artificial Wormhole allowing the Mothership to instantly travel to the target owned structure.
+Button/Tooltip/WraithACGluescreenDummy=Highly mobile flying unit. Excellent at surgical strikes.<n/><n/><c val="ffff8a">Can attack ground and air units.</c>
+Button/Tooltip/XelNagaTower=Provides vision of the area surrounding the Xel'Naga Tower. Can only be activated by ground units.
+Button/Tooltip/YamatoGun=Blasts a target with a devastating plasma cannon, causing 300 damage.
+Button/Tooltip/Zealot=Powerful melee warrior.<n/><n/><c val="ffff8a">Can attack ground units.</c>
+Button/Tooltip/ZealotACGluescreenDummy=Powerful melee warrior. Can use Charge.<n/><n/><c val="ffff8a">Can attack ground units.</c>
+Button/Tooltip/ZealotAiurACGluescreenDummy=Powerful melee warrior. Has Charge and Whirlwind abilities.<n/><n/><c val="ffff8a">Can attack ground units.</c>
+Button/Tooltip/ZealotHallucination=These hallucinated copies function like the original unit, but they cannot use active abilities, cannot deal damage, and die more easily. Hallucinations last <d time="60"/> before they disappear.
+Button/Tooltip/ZealotPurifierACGluescreenDummy=Powerful melee warrior. Can use Charge and Reconstruction.<n/><n/><c val="ffff8a">Can attack ground units.</c>
+Button/Tooltip/ZealotShakurasACGluescreenDummy=Powerful melee warrior. Has Shadow Charge ability that stuns enemies.<n/><n/><c val="ffff8a">Can attack ground units.</c>
+Button/Tooltip/ZergBuild=A list of basic structures.
+Button/Tooltip/ZergBuildAdvanced=A list of advanced structures.
+Button/Tooltip/Zergling=Fast melee creature. Can morph into a Baneling.<n/><n/><c val="FFFF8A">Can attack ground units.</c>
+Button/Tooltip/ZerglingKerriganACGluescreenDummy=Fast melee creature.<n/><n/><c val="FFFF8A">Can attack ground units.</c>
+Button/Tooltip/ZerglingZagaraACGluescreenDummy=Fast melee creature. Can morph into a Baneling.<n/><n/><c val="FFFF8A">Can attack ground units.</c>
+Button/Tooltip/hydraliskspeed=Increase the attack range of <c val="ffff8a">Hydralisks</c> by +1.
+Button/Tooltip/overlordspeed=Increases the movement speed of <c val="ffff8a">Overlords</c> and <c val="ffff8a">Overseers</c>.
+Button/Tooltip/zergflyerarmor1=Upgrades the armor of all Zerg air units.
+Button/Tooltip/zergflyerarmor2=Further upgrades the armor of all Zerg air units.
+Button/Tooltip/zergflyerarmor3=Maximizes the armor of all Zerg air units.
+Button/Tooltip/zergflyerattack1=Upgrades the attacks of all Zerg air units.
+Button/Tooltip/zergflyerattack2=Further upgrades the attacks of all Zerg air units.
+Button/Tooltip/zergflyerattack3=Maximizes the attacks of all Zerg air units.
+Button/Tooltip/zerggroundarmor1=Upgrades the armor of all Zerg ground units.
+Button/Tooltip/zerggroundarmor2=Further upgrades the armor of all Zerg ground units.
+Button/Tooltip/zerggroundarmor3=Maximizes the armor of all Zerg ground units.
+Button/Tooltip/zerglingattackspeed=Increases the attack speed of <c val="ffff8a">Zerglings</c> by 20%.
+Button/Tooltip/zerglingmovementspeed=Increases the movement speed of <c val="ffff8a">Zerglings</c>.
+Button/Tooltip/zergmeleeweapons1=Upgrades all Zerg melee attacks.
+Button/Tooltip/zergmeleeweapons2=Further upgrades all Zerg melee attacks.
+Button/Tooltip/zergmeleeweapons3=Maximizes all Zerg melee attacks.
+Button/Tooltip/zergmissileweapons1=Upgrades the attacks of all Zerg ground ranged units.
+Button/Tooltip/zergmissileweapons2=Further upgrades the attacks of all Zerg ground ranged units.
+Button/Tooltip/zergmissileweapons3=Maximizes the attacks of all Zerg ground ranged units.
+Unit/Category/HybridUnits=Hybrid
+Unit/Category/ProtossStory=Protoss Story
+Unit/Category/ProtossUnits=Protoss
+Unit/Category/TerranStory=Terran Story
+Unit/Category/TerranUnits=Terran
+Unit/Category/ZergStory=Zerg Story
+Unit/Category/ZergUnits=Zerg
+Unit/LifeArmorName/CritterGroundArmor=Critter Carapace
+Unit/LifeArmorName/HardenedMaterial=Hardened Material
+Unit/LifeArmorName/None=None
+Unit/LifeArmorName/ProtossArmor=Protoss Armor
+Unit/LifeArmorName/ProtossBuildingPlating=Protoss Plating
+Unit/LifeArmorName/ProtossPlating=Protoss Plating
+Unit/LifeArmorName/TerranBuildingPlating=Terran Building Plating
+Unit/LifeArmorName/TerranInfantryArmor=Terran Infantry Armor
+Unit/LifeArmorName/TerranShipPlating=Terran Ship Plating
+Unit/LifeArmorName/TerranVehiclePlating=Terran Vehicle Plating
+Unit/LifeArmorName/ZergAirArmor=Zerg Flyer Carapace
+Unit/LifeArmorName/ZergBuildingArmor=Zerg Building Armor
+Unit/LifeArmorName/ZergGroundArmor=Zerg Ground Carapace
+Unit/LifeArmorName/ZergUltraliskArmor=Zerg Chitinous Plating
+Unit/Name/ATALaserBatteryLMWeapon=ATA Laser Battery
+Unit/Name/ATSLaserBatteryLMWeapon=ATS Laser Battery
+Unit/Name/AberrationACGluescreenDummy=Aberration
+Unit/Name/AcidSalivaWeapon=Acid Saliva
+Unit/Name/AcidSpinesWeapon=Acid Spines Weapon
+Unit/Name/Archon=Archon
+Unit/Name/ArchonACGluescreenDummy=Archon
+Unit/Name/Armory=Armory
+Unit/Name/Assimilator=Assimilator
+Unit/Name/AutoTestAttackTargetAir=Target
+Unit/Name/AutoTestAttackTargetGround=Target
+Unit/Name/AutoTestAttacker=Attacker
+Unit/Name/AutoTurret=Auto-Turret
+Unit/Name/AutoTurretReleaseWeapon=Auto Turret Release Weapon
+Unit/Name/BacklashRocketsLMWeapon=Backlash Rockets
+Unit/Name/Baneling=Baneling
+Unit/Name/BanelingACGluescreenDummy=Baneling
+Unit/Name/BanelingCocoon=Baneling Cocoon
+Unit/Name/BanelingNest=Baneling Nest
+Unit/Name/Banshee=Banshee
+Unit/Name/BansheeACGluescreenDummy=Banshee
+Unit/Name/BansheeLMWeapon=Banshee
+Unit/Name/Barracks=Barracks
+Unit/Name/Battlecruiser=Battlecruiser
+Unit/Name/BattlecruiserACGluescreenDummy=Battlecruiser
+Unit/Name/BattlecruiserALMWeapon=Battlecruiser Air
+Unit/Name/BattlecruiserGLMWeapon=Battlecruiser Ground
+Unit/Name/BeaconArmy=Army Beacon
+Unit/Name/BeaconAttack=Attack Beacon
+Unit/Name/BeaconAuto=AutoA.I. Beacon
+Unit/Name/BeaconClaim=Claim Beacon
+Unit/Name/BeaconCustom1=Custom Beacon #1
+Unit/Name/BeaconCustom2=Custom Beacon #2
+Unit/Name/BeaconCustom3=Custom Beacon #3
+Unit/Name/BeaconCustom4=Custom Beacon #4
+Unit/Name/BeaconDefend=Defend Beacon
+Unit/Name/BeaconDetect=Detect Beacon
+Unit/Name/BeaconExpand=Expand Beacon
+Unit/Name/BeaconHarass=Harass Beacon
+Unit/Name/BeaconIdle=Idle Beacon
+Unit/Name/BeaconRally=Rally Beacon
+Unit/Name/BeaconScout=Scout Beacon
+Unit/Name/Beacon_Protoss=Beacon
+Unit/Name/Beacon_ProtossSmall=Beacon
+Unit/Name/Beacon_Terran=Beacon
+Unit/Name/Beacon_TerranSmall=Beacon
+Unit/Name/Beacon_Zerg=Beacon
+Unit/Name/Beacon_ZergSmall=Beacon
+Unit/Name/BelShirDestructible1x1=Rock
+Unit/Name/BelShirDestructible1x2=Rock
+Unit/Name/BelShirDestructible2x2=Rock
+Unit/Name/BileLauncherACGluescreenDummy=Bile Launcher
+Unit/Name/BraxisAlphaDestructible1x1=Debris
+Unit/Name/BraxisAlphaDestructible2x2=Debris
+Unit/Name/BroodLord=Brood Lord
+Unit/Name/BroodLordACGluescreenDummy=Brood Lord
+Unit/Name/BroodLordAWeapon=Brood Lord AWeapon
+Unit/Name/BroodLordBWeapon=Brood Lord BWeapon
+Unit/Name/BroodLordCocoon=Brood Lord Cocoon
+Unit/Name/BroodLordWeapon=Brood Lord Weapon
+Unit/Name/Broodling=Broodling
+Unit/Name/Bunker=Bunker
+Unit/Name/BunkerACGluescreenDummy=Bunker
+Unit/Name/Carrier=Carrier
+Unit/Name/CarrierACGluescreenDummy=Carrier
+Unit/Name/CarrierAiurACGluescreenDummy=Carrier
+Unit/Name/CarrionBird=Urubu
+Unit/Name/Changeling=Changeling
+Unit/Name/Chazbat=Chazbat
+Unit/Name/Colossus=Colossus
+Unit/Name/ColossusACGluescreenDummy=Colossus
+Unit/Name/ColossusPurifierACGluescreenDummy=Colossus
+Unit/Name/CommandCenter=Command Center
+Unit/Name/CommentatorBot1=Artosis Bot 2000
+Unit/Name/CommentatorBot2=Tasteless Bot 2000
+Unit/Name/CommentatorBot3=Artosis Bot 2000
+Unit/Name/CommentatorBot4=Tasteless Bot 2000
+Unit/Name/Cone=Cone
+Unit/Name/ContaminateWeapon=Contaminate Weapon
+Unit/Name/CorruptionWeapon=Corruption
+Unit/Name/Corruptor=Corruptor
+Unit/Name/CorruptorACGluescreenDummy=Corruptor
+Unit/Name/CorruptorWeapon=Corruptor
+Unit/Name/CorsairACGluescreenDummy=Corsair
+Unit/Name/Cow=Cow
+Unit/Name/CreepBlocker1x1=Dynamic Creep Blocker 1x1
+Unit/Name/CreepTumor=Creep Tumor
+Unit/Name/CreepTumorBurrowed=Creep Tumor
+Unit/Name/Critter=Critter
+Unit/Name/CritterStationary=Critter Stationary
+Unit/Name/Cube=Cube
+Unit/Name/CyberneticsCore=Cybernetics Core
+Unit/Name/CycloneACGluescreenDummy=Cyclone
+Unit/Name/Cylinder=Cylinder
+Unit/Name/D8ChargeWeapon=D8 Charge
+Unit/Name/DarkArchonACGluescreenDummy=Dark Archon
+Unit/Name/DarkShrine=Dark Shrine
+Unit/Name/DarkTemplar=Dark Templar
+Unit/Name/DarkTemplarShakurasACGluescreenDummy=Dark Templar
+Unit/Name/Debris2x2NonConjoined=Debris
+Unit/Name/DestructibleBillboardScrollingText=Billboard
+Unit/Name/DestructibleBillboardTall=Billboard
+Unit/Name/DestructibleBullhornLights=Bullhorn Lights
+Unit/Name/DestructibleDebris4x4=Debris
+Unit/Name/DestructibleDebris4x4HighlightTooltip=Attack this to destroy it
+Unit/Name/DestructibleDebris6x6=Debris
+Unit/Name/DestructibleDebris6x6HighlightTooltip=Attack this to destroy it
+Unit/Name/DestructibleDebrisRampDiagonalHugeBLUR=Debris
+Unit/Name/DestructibleDebrisRampDiagonalHugeBLURHighlightTooltip=Attack this to destroy it
+Unit/Name/DestructibleDebrisRampDiagonalHugeULBR=Debris
+Unit/Name/DestructibleDebrisRampDiagonalHugeULBRHighlightTooltip=Attack this to destroy it
+Unit/Name/DestructibleGarage=Garage
+Unit/Name/DestructibleGarageLarge=Garage
+Unit/Name/DestructibleRampDiagonalHugeBLUR=Rocks
+Unit/Name/DestructibleRampDiagonalHugeBLURHighlightTooltip=Attack this to destroy it
+Unit/Name/DestructibleRampDiagonalHugeULBR=Rocks
+Unit/Name/DestructibleRampDiagonalHugeULBRHighlightTooltip=Attack this to destroy it
+Unit/Name/DestructibleRampHorizontalHuge=Rocks
+Unit/Name/DestructibleRampHorizontalHugeHighlightTooltip=Attack this to destroy it
+Unit/Name/DestructibleRampVerticalHuge=Rocks
+Unit/Name/DestructibleRampVerticalHugeHighlightTooltip=Attack this to destroy it
+Unit/Name/DestructibleRock2x4Horizontal=Rocks
+Unit/Name/DestructibleRock2x4HorizontalHighlightTooltip=Attack this to destroy it
+Unit/Name/DestructibleRock2x4Vertical=Rocks
+Unit/Name/DestructibleRock2x4VerticalHighlightTooltip=Attack this to destroy it
+Unit/Name/DestructibleRock2x6Horizontal=Rocks
+Unit/Name/DestructibleRock2x6HorizontalHighlightTooltip=Attack this to destroy it
+Unit/Name/DestructibleRock2x6Vertical=Rocks
+Unit/Name/DestructibleRock2x6VerticalHighlightTooltip=Attack this to destroy it
+Unit/Name/DestructibleRock4x4=Rocks
+Unit/Name/DestructibleRock4x4HighlightTooltip=Attack this to destroy it
+Unit/Name/DestructibleRock6x6=Rocks
+Unit/Name/DestructibleRock6x6HighlightTooltip=Attack this to destroy it
+Unit/Name/DestructibleSearchlight=Searchlight
+Unit/Name/DestructibleSignsConstruction=Billboard
+Unit/Name/DestructibleSignsDirectional=Billboard
+Unit/Name/DestructibleSignsFunny=Billboard
+Unit/Name/DestructibleSignsIcons=Billboard
+Unit/Name/DestructibleSignsWarning=Billboard
+Unit/Name/DestructibleSpacePlatformBarrier=Barrier
+Unit/Name/DestructibleSpacePlatformSign=Sign
+Unit/Name/DestructibleStoreFrontCityProps=Store Front City Props
+Unit/Name/DestructibleStreetlight=Streetlight
+Unit/Name/DestructibleTrafficSignal=Traffic Signal
+Unit/Name/DevastationTurretACGluescreenDummy=Devastation Turret
+Unit/Name/Dodecahedron=Dodecahedron
+Unit/Name/Dog=Dog
+Unit/Name/DragoonACGluescreenDummy=Dragoon
+Unit/Name/Drone=Drone
+Unit/Name/EMP2Weapon=EMP
+Unit/Name/Egg=Zerg Cocoon
+Unit/Name/EnemyPathingBlocker16x16=Enemy Unit Pathing Blocker - 16x16
+Unit/Name/EnemyPathingBlocker1x1=Enemy Unit Pathing Blocker - 1x1
+Unit/Name/EnemyPathingBlocker2x2=Enemy Unit Pathing Blocker - 2x2
+Unit/Name/EnemyPathingBlocker4x4=Enemy Unit Pathing Blocker - 4x4
+Unit/Name/EnemyPathingBlocker8x8=Enemy Unit Pathing Blocker - 8x8
+Unit/Name/EngineeringBay=Engineering Bay
+Unit/Name/EvolutionChamber=Evolution Chamber
+Unit/Name/Extractor=Extractor
+Unit/Name/Factory=Factory
+Unit/Name/FirebatACGluescreenDummy=Firebat
+Unit/Name/FleetBeacon=Fleet Beacon
+Unit/Name/ForceField=Force Field
+Unit/Name/Forge=Forge
+Unit/Name/FrenzyWeapon=Frenzy Weapon
+Unit/Name/FungalGrowthMissile=Fungal Growth
+Unit/Name/FusionCore=Fusion Core
+Unit/Name/Gateway=Gateway
+Unit/Name/Ghost=Ghost
+Unit/Name/GhostAcademy=Ghost Academy
+Unit/Name/GlaiveWurmWeapon=Glave Wurm
+Unit/Name/GlobeStatue=Capitol Statue
+Unit/Name/GlowLizard=Trillick
+Unit/Name/GoliathACGluescreenDummy=Goliath
+Unit/Name/GreaterSpire=Greater Spire
+Unit/Name/Hatchery=Hatchery
+Unit/Name/HellbatACGluescreenDummy=Hellbat
+Unit/Name/Hellion=Hellion
+Unit/Name/HelperEmitterSelectionArrow=Helper Arrow
+Unit/Name/HerculesACGluescreenDummy=Hercules
+Unit/Name/HighTemplar=High Templar
+Unit/Name/HighTemplarACGluescreenDummy=High Templar
+Unit/Name/Hive=Hive
+Unit/Name/HunterSeekerWeapon=Seeker
+Unit/Name/Hydralisk=Hydralisk
+Unit/Name/HydraliskACGluescreenDummy=Hydralisk
+Unit/Name/HydraliskAirWeapon=Hydralisk Air
+Unit/Name/HydraliskDen=Hydralisk Den
+Unit/Name/HydraliskGroundWeapon=Needle Spines
+Unit/Name/HydraliskLurkerACGluescreenDummy=Hydralisk
+Unit/Name/Icosahedron=Icosahedron
+Unit/Name/Iguana=Yanguana
+Unit/Name/Immortal=Immortal
+Unit/Name/ImmortalACGluescreenDummy=Immortal
+Unit/Name/InfestationPit=Infestation Pit
+Unit/Name/InfestedTerransEgg=Infested Swarm Egg
+Unit/Name/InfestedTerransEggPlacement=Infested Terrans Egg Placement
+Unit/Name/InfestedTerransWeapon=Infested Swarm
+Unit/Name/Infestor=Infestor
+Unit/Name/InfestorBurrowed=Infestor
+Unit/Name/InfestorTerran=Infested Terran
+Unit/Name/InfestorTerransEgg=Infestor Terrans Egg
+Unit/Name/InfestorTerransWeapon=Infestor Terrans Weapon
+Unit/Name/Interceptor=Interceptor
+Unit/Name/IonCannonsWeapon=Ion Cannons
+Unit/Name/KarakFemale=Female Karak
+Unit/Name/KarakMale=Male Karak
+Unit/Name/KhaydarinMonolithACGluescreenDummy=Khaydarin Monolith
+Unit/Name/Lair=Lair
+Unit/Name/Larva=Larva
+Unit/Name/LarvaReleaseMissile=Larva Release Missile
+Unit/Name/LongboltMissileWeapon=Longbolt Missile
+Unit/Name/LurkerACGluescreenDummy=Lurker
+Unit/Name/Lyote=Lyote
+Unit/Name/MULE=MULE
+Unit/Name/MarSaraBridgeBLUR=Mar Sara Bridge Diagonal BLUR
+Unit/Name/MarSaraBridgeBRUL=Mar Sara Bridge Diagonal BRUL
+Unit/Name/Marauder=Marauder
+Unit/Name/MarauderACGluescreenDummy=Marauder
+Unit/Name/MarauderLMWeapon=Marauder
+Unit/Name/Marine=Marine
+Unit/Name/MarineACGluescreenDummy=Marine
+Unit/Name/MedicACGluescreenDummy=Medic
+Unit/Name/Medivac=Medivac
+Unit/Name/MengskStatue=Glory of the Dominion
+Unit/Name/MengskStatueAlone=The Gift of Freedom
+Unit/Name/MineralField=Mineral Field
+Unit/Name/MissileTurret=Missile Turret
+Unit/Name/MissileTurretACGluescreenDummy=Missile Turret
+Unit/Name/MissileTurretWeapon=MissileTurret
+Unit/Name/Mothership=Mothership
+Unit/Name/MultiKillObject=Multi Kill Object
+Unit/Name/Mutalisk=Mutalisk
+Unit/Name/MutaliskACGluescreenDummy=Mutalisk
+Unit/Name/MutaliskBroodlordACGluescreenDummy=Mutalisk
+Unit/Name/MutaliskWeapon=Mutalisk
+Unit/Name/NeuralParasiteTentacleMissile=Neural Parasite Tentacle
+Unit/Name/NeuralParasiteWeapon=Neural Parasite
+Unit/Name/Nexus=Nexus
+Unit/Name/Nuke=Nuke
+Unit/Name/NydusCanal=Nydus Worm
+Unit/Name/NydusNetwork=Nydus Network
+Unit/Name/NydusNetworkACGluescreenDummy=Nydus Network
+Unit/Name/Observer=Observer
+Unit/Name/ObserverACGluescreenDummy=Observer
+Unit/Name/Octahedron=Octahedron
+Unit/Name/OmegaNetworkACGluescreenDummy=Omega Network
+Unit/Name/OracleACGluescreenDummy=Oracle
+Unit/Name/OrbitalCommand=Orbital Command
+Unit/Name/OrbitalCommandACGluescreenDummy=Orbital Command
+Unit/Name/OrbitalCommandFlying=Orbital Command
+Unit/Name/Overlord=Overlord
+Unit/Name/OverlordCocoon=Overseer Cocoon
+Unit/Name/Overseer=Overseer
+Unit/Name/OverseerACGluescreenDummy=Overseer
+Unit/Name/ParasiteSporeWeapon=Parasite Spore
+Unit/Name/PathingBlocker1x1=Dynamic Pathing Blocker 1x1
+Unit/Name/PathingBlocker2x2=Dynamic Pathing Blocker 2x2
+Unit/Name/PerditionTurretACGluescreenDummy=Perdition Turret
+Unit/Name/Phoenix=Phoenix
+Unit/Name/PhoenixAirWeapon=Phoenix Air Weapon
+Unit/Name/PhoenixAiurACGluescreenDummy=Phoenix
+Unit/Name/PhoenixPurifierACGluescreenDummy=Mirage
+Unit/Name/PhotonCannon=Photon Cannon
+Unit/Name/PhotonCannonACGluescreenDummy=Photon Cannon
+Unit/Name/PhotonCannonWeapon=Photon Cannon Weapon
+Unit/Name/PlanetaryFortress=Planetary Fortress
+Unit/Name/PointDefenseDrone=Point Defense Drone
+Unit/Name/PointDefenseDroneReleaseWeapon=Point Defense Drone Release
+Unit/Name/Probe=Probe
+Unit/Name/PunisherGrenadesLMWeapon=Punisher Grenades
+Unit/Name/Pylon=Pylon
+Unit/Name/Pyramid=Pyramid
+Unit/Name/Queen=Queen
+Unit/Name/QueenCoopACGluescreenDummy=Queen
+Unit/Name/QueenWeapon=Queen
+Unit/Name/RaptorACGluescreenDummy=Raptor
+Unit/Name/Raven=Raven
+Unit/Name/Reactor=Reactor
+Unit/Name/Reaper=Reaper
+Unit/Name/ReaperPlaceholder=ReaperPlaceholder
+Unit/Name/ReaverACGluescreenDummy=Reaver
+Unit/Name/RedstoneLavaCritter=Redstone Lava Critter
+Unit/Name/RedstoneLavaCritterBurrowed=Redstone Lava Critter
+Unit/Name/RedstoneLavaCritterInjured=Redstone Lava Critter (Injured)
+Unit/Name/RedstoneLavaCritterInjuredBurrowed=Redstone Lava Critter (Injured)
+Unit/Name/Refinery=Refinery
+Unit/Name/RepulserField10=Repulsor Field (10)
+Unit/Name/RepulserField12=Repulsor Field (12)
+Unit/Name/RepulserField6=Repulsor Field (6)
+Unit/Name/RepulserField8=Repulsor Field (8)
+Unit/Name/RichMineralField=Rich Mineral Field
+Unit/Name/RichVespeneGeyser=Rich Vespene Geyser
+Unit/Name/Roach=Roach
+Unit/Name/RoachWarren=Roach Warren
+Unit/Name/RoachWeapon=Roach Weapon
+Unit/Name/RoboticsBay=Robotics Bay
+Unit/Name/RoboticsFacility=Robotics Facility
+Unit/Name/Rocks2x2NonConjoined=Rocks
+Unit/Name/RoundedCube=Rounded Cube
+Unit/Name/SCV=SCV
+Unit/Name/Scantipede=Scantipede
+Unit/Name/ScienceVesselACGluescreenDummy=Science Vessel
+Unit/Name/ScopeTest=Scope Test
+Unit/Name/ScourgeACGluescreenDummy=Scourge
+Unit/Name/SensorTower=Sensor Tower
+Unit/Name/Sentry=Sentry
+Unit/Name/SentryACGluescreenDummy=Sentry
+Unit/Name/SentryPurifierACGluescreenDummy=Energizer
+Unit/Name/ShakurasDestructible1x1=Rock
+Unit/Name/ShakurasDestructible1x2=Rock
+Unit/Name/ShakurasDestructible2x2=Rock
+Unit/Name/Shape=Shape
+Unit/Name/Shape4PointStar=Star
+Unit/Name/Shape5PointStar=Star
+Unit/Name/Shape6PointStar=Star
+Unit/Name/Shape8PointStar=Star
+Unit/Name/ShapeApple=Apple
+Unit/Name/ShapeArrowPointer=Arrow Pointer
+Unit/Name/ShapeBanana=Banana
+Unit/Name/ShapeBaseball=Baseball
+Unit/Name/ShapeBaseballBat=Baseball Bat
+Unit/Name/ShapeBasketball=Basketball
+Unit/Name/ShapeBowl=Bowl
+Unit/Name/ShapeBox=Box
+Unit/Name/ShapeCapsule=Capsule
+Unit/Name/ShapeCarrot=Carrot
+Unit/Name/ShapeCashLarge=Cash
+Unit/Name/ShapeCashMedium=Cash
+Unit/Name/ShapeCashSmall=Cash
+Unit/Name/ShapeCherry=Cherry
+Unit/Name/ShapeCone=Cone
+Unit/Name/ShapeCrescentMoon=Crescent Moon
+Unit/Name/ShapeCube=Cube
+Unit/Name/ShapeCylinder=Cylinder
+Unit/Name/ShapeDecahedron=Decahedron
+Unit/Name/ShapeDiamond=Diamond
+Unit/Name/ShapeDodecahedron=Dodecahedron
+Unit/Name/ShapeDollarSign=Dollar Sign
+Unit/Name/ShapeEgg=Egg
+Unit/Name/ShapeEuroSign=Euro Sign
+Unit/Name/ShapeFootball=Football
+Unit/Name/ShapeFootballColored=Football
+Unit/Name/ShapeGemstone=Gemstone
+Unit/Name/ShapeGolfClub=Golf Club
+Unit/Name/ShapeGolfball=Golfball
+Unit/Name/ShapeGrape=Grape
+Unit/Name/ShapeHand=Hand
+Unit/Name/ShapeHeart=Heart
+Unit/Name/ShapeHockeyPuck=Hockey Puck
+Unit/Name/ShapeHockeyStick=Hockey Stick
+Unit/Name/ShapeHorseshoe=Horseshoe
+Unit/Name/ShapeIcosahedron=Icosohedron
+Unit/Name/ShapeJack=Jack
+Unit/Name/ShapeLemon=Lemon
+Unit/Name/ShapeLemonSmall=Lemon
+Unit/Name/ShapeMoneyBag=Money Bag
+Unit/Name/ShapeO=O
+Unit/Name/ShapeOctahedron=Octohedron
+Unit/Name/ShapeOrange=Orange
+Unit/Name/ShapeOrangeSmall=Orange
+Unit/Name/ShapePeanut=Peanut
+Unit/Name/ShapePear=Pear
+Unit/Name/ShapePineapple=Pineapple
+Unit/Name/ShapePlusSign=Plus Sign
+Unit/Name/ShapePoundSign=Pound Sign
+Unit/Name/ShapePyramid=Pyramid
+Unit/Name/ShapeRainbow=Rainbow
+Unit/Name/ShapeRoundedCube=Rounded Cube
+Unit/Name/ShapeSadFace=Sad Face
+Unit/Name/ShapeShamrock=Shamrock
+Unit/Name/ShapeSmileyFace=Smiley Face
+Unit/Name/ShapeSoccerball=Soccerball
+Unit/Name/ShapeSpade=Spade
+Unit/Name/ShapeSphere=Sphere
+Unit/Name/ShapeStrawberry=Strawberry
+Unit/Name/ShapeTennisball=Tennisball
+Unit/Name/ShapeTetrahedron=Tetrahedron
+Unit/Name/ShapeThickTorus=Thick Torus
+Unit/Name/ShapeThinTorus=Thin Torus
+Unit/Name/ShapeTorus=Torus
+Unit/Name/ShapeTreasureChestClosed=Treasure Chest
+Unit/Name/ShapeTreasureChestOpen=Treasure Chest
+Unit/Name/ShapeTube=Tube
+Unit/Name/ShapeWatermelon=Watermelon
+Unit/Name/ShapeWatermelonSmall=Watermelon
+Unit/Name/ShapeWonSign=Won Sign
+Unit/Name/ShapeX=X
+Unit/Name/ShapeYenSign=Yen Sign
+Unit/Name/Sheep=Sheep
+Unit/Name/ShieldBatteryACGluescreenDummy=Shield Battery
+Unit/Name/ShortBridgeHorizontal=Mar Sara Bridge Horizontal
+Unit/Name/ShortBridgeVertical=Mar Sara Bridge Vertical
+Unit/Name/SiegeTank=Siege Tank
+Unit/Name/SiegeTankACGluescreenDummy=Siege Tank
+Unit/Name/SiegeTankSieged=Siege Tank
+Unit/Name/SiphonTentacleMissile=Siphon Tentacle Missile
+Unit/Name/SpawningPool=Spawning Pool
+Unit/Name/Sphere=Sphere
+Unit/Name/SpineCrawler=Spine Crawler
+Unit/Name/SpineCrawlerACGluescreenDummy=Spine Crawler
+Unit/Name/SpineCrawlerUprooted=Spine Crawler
+Unit/Name/SpineCrawlerWeapon=Spine Crawler
+Unit/Name/Spire=Spire
+Unit/Name/SplitterlingACGluescreenDummy=Splitterling
+Unit/Name/SporeCrawler=Spore Crawler
+Unit/Name/SporeCrawlerACGluescreenDummy=Spore Crawler
+Unit/Name/SporeCrawlerUprooted=Spore Crawler
+Unit/Name/SporeCrawlerWeapon=Spore Crawler Weapon
+Unit/Name/Stalker=Stalker
+Unit/Name/StalkerShakurasACGluescreenDummy=Stalker
+Unit/Name/StalkerWeapon=Stalker
+Unit/Name/Stargate=Stargate
+Unit/Name/Starport=Starport
+Unit/Name/SupplyDepot=Supply Depot
+Unit/Name/SupplyDepotLowered=Supply Depot
+Unit/Name/SwarmlingACGluescreenDummy=Swarmling
+Unit/Name/TechLab=Tech Lab
+Unit/Name/TempestACGluescreenDummy=Tempest
+Unit/Name/TemplarArchive=Templar Archives
+Unit/Name/Tetrahedron=Tetrahedron
+Unit/Name/ThickTorus=Thick Torus
+Unit/Name/ThinTorus=Thin Torus
+Unit/Name/Thor=Thor
+Unit/Name/ThorAAWeapon=Thor AA
+Unit/Name/ThorACGluescreenDummy=Thor
+Unit/Name/ThornLizard=Thorn Lizard
+Unit/Name/TorrasqueACGluescreenDummy=Torrasque
+Unit/Name/Torus=Torus
+Unit/Name/TrafficSignal=Traffic Signal
+Unit/Name/TwilightCouncil=Twilight Council
+Unit/Name/Ultralisk=Ultralisk
+Unit/Name/UltraliskACGluescreenDummy=Ultralisk
+Unit/Name/UltraliskCavern=Ultralisk Cavern
+Unit/Name/UnbuildableBricksDestructible=Unbuildable Bricks
+Unit/Name/UnbuildableBricksDestructibleHighlightTooltip=Attack this to destroy it.
+Unit/Name/UnbuildablePlatesDestructible=Unbuildable Plates
+Unit/Name/UnbuildablePlatesDestructibleHighlightTooltip=Attack this to destroy it.
+Unit/Name/UnbuildableRocksDestructible=Unbuildable Rocks
+Unit/Name/UnbuildableRocksDestructibleHighlightTooltip=Attack this to destroy it.
+Unit/Name/UrsadakCalf=Ursadak Calf
+Unit/Name/UrsadakFemale=Female Ursadak
+Unit/Name/UrsadakMale=Male Ursadak
+Unit/Name/UtilityBot=Automaton 2000
+Unit/Name/VespeneGeyser=Vespene Geyser
+Unit/Name/VikingACGluescreenDummy=Viking
+Unit/Name/VikingAssault=Viking
+Unit/Name/VikingFighter=Viking
+Unit/Name/VikingFighterWeapon=Viking Fighter
+Unit/Name/VoidRay=Void Ray
+Unit/Name/VoidRayACGluescreenDummy=Void Ray
+Unit/Name/VoidRayShakurasACGluescreenDummy=Void Ray
+Unit/Name/VultureACGluescreenDummy=Vulture
+Unit/Name/WarpGate=Warp Gate
+Unit/Name/WarpPrism=Warp Prism
+Unit/Name/WarpPrismPhasing=Warp Prism
+Unit/Name/Weapon=Weapon
+Unit/Name/WolfStatue=The Wolves of Korhal
+Unit/Name/WraithACGluescreenDummy=Wraith
+Unit/Name/XelNagaTower=Xel'Naga Tower
+Unit/Name/XelNagaTowerHighlightTooltip=Provides vision to nearby units
+Unit/Name/YamatoWeapon=Yamato
+Unit/Name/Zealot=Zealot
+Unit/Name/ZealotACGluescreenDummy=Zealot
+Unit/Name/ZealotAiurACGluescreenDummy=Zealot
+Unit/Name/ZealotPurifierACGluescreenDummy=Sentinel
+Unit/Name/ZealotShakurasACGluescreenDummy=Centurion
+Unit/Name/Zergling=Zergling
+Unit/Name/ZerglingKerriganACGluescreenDummy=Zergling
+Unit/Name/ZerglingZagaraACGluescreenDummy=Zergling
+Unit/ShieldArmorName/ProtossPlasmaShields=Protoss Plasma Shields

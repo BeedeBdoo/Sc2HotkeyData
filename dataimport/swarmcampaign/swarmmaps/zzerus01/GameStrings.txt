@@ -1,0 +1,9 @@
+Button/Name/CarryBiomass=Carry Biomass
+Button/Name/HarvestQuillgorCorpse=Harvest Quillgor Corpse
+Button/Tooltip/CarryBiomass=Carry the Quillgor Biomass to the Ancient One.
+Button/Tooltip/HarvestQuillgorCorpse=Harvests a Quillgor Corpse for Biomass.
+Button/Tooltip/SpaceCowMedium=Dominant Alpha Quillgor. Kill these larger Quillgor so your Drones can Harvest Biomass from their corpses.
+Button/Tooltip/SpaceCowSmall=Primal Zerg ruminant omnivore. Roams in small herds. Smaller Quillgor do not have enough Biomass to feed the Ancient One.
+Unit/Name/SpaceCowCorpse=Quillgor Corpse
+Unit/Name/SpaceCowMedium=Quillgor Alpha
+Unit/Name/SpaceCowSmall=Quillgor

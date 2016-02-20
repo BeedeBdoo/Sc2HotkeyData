@@ -1,0 +1,85 @@
+Button/Name/CarrierPassive=Carrier
+Button/Name/ColossusPassive=Colossus
+Button/Name/DarkTemplarPassive=Dark Templar
+Button/Name/HighTemplarPassive=High Templar
+Button/Name/ImmortalBarrierBase=Barrier
+Button/Name/LightningShooter=Lightning Shooter
+Button/Name/LightningShooterDummy=Lightning Shooter Dummy
+Button/Name/MalashChannel=Malash Channel
+Button/Name/PrologueFissureBreach=Prologue Fissure Breach
+Button/Name/PrologueFissureUnbreach=Prologue Fissure Unbreach
+Button/Name/PrologueVoidArmor=Void Armor
+Button/Name/SentryPassive=Sentry
+Button/Name/ShadowBlade=Shadow Strike
+Button/Name/ShadowMissile=Shadow Missile
+Button/Name/StalkerPassive=Stalker
+Button/Name/TempestPassive=Tempest
+Button/Name/VoidCatalystStage2=Void Catalyst Morph to Stage 2
+Button/Name/VoidCatalystStage3=Void Catalyst Morph to Stage 3
+Button/Name/VoidRayPrismaticAlignmentBase=Prismatic Alignment
+Button/Name/VoidRaySwarmDamageBoost=Prismatic Allignment
+Button/Name/VoidSentryShieldRepair=Shield Recharge
+Button/Tooltip/Biodome=Destroy the Pylon Containment unit to reclaim the Pylon inside.
+Button/Tooltip/CarrierPassive=Fleet Beacon allows you to warp in Carriers.
+Button/Tooltip/ColossusPassive=Robotics Bay allows you to warp in Colossi.
+Button/Tooltip/CyberneticsCore=Contains weapon and armor upgrades for Protoss air units.<n/><n/><c val="ffff8a">Enables:</c><n/>- Stalker at the Gateway<n/>- Sentry at the Gateway
+Button/Tooltip/DarkShrine=<c val="ffff8a">Enables:</c><n/>- Dark Templar at the Gateway
+Button/Tooltip/DarkTemplar=Deadly warrior-assassin. Cloak renders the unit invisible to enemies without detection. Can transform into an Archon.<n/><n/><c val="ffff8a">Can attack ground units.</c>
+Button/Tooltip/DarkTemplarPassive=Dark Shrine allows you to warp in Dark Templar.
+Button/Tooltip/FleetBeacon=<c val="ffff8a">Enables:</c><n/>- Tempests at the Stargate<n/>- Carriers at the Stargate
+Button/Tooltip/HighTemplar=Potent psionic master. Can use Feedback and Psionic Storm. Can transform into an Archon.<n/><n/><c val="ffff8a">Can attack ground units.</c>
+Button/Tooltip/HighTemplarPassive=Templar Archives allows you to warp in High Templar.
+Button/Tooltip/Immortal=Assault strider. Can use Barrier to absorb damage.<n/><n/><c val="ffff8a">Can attack ground units.</c>
+Button/Tooltip/ImmortalBarrierBase=Absorbs up to <d ref="Behavior,ImmortalBarrierBase,DamageResponse.ModifyLimit"/> damage. Lasts for <d ref="Behavior,ImmortalBarrierBase,Duration"/> seconds.
+Button/Tooltip/Nexus=Primary structure. Can receive gathered resources. Can use the Chrono Boost ability.<n/><n/><c val="ffff8a">Enables:</c><n/>- Probes
+Button/Tooltip/PrologueVoidArmor=Grants nearby friendly units +<d ref="Behavior,PrologueVoidArmor,Modification.VitalMaxArray[Shields]"/> shields for <d ref="Behavior,PrologueVoidArmor,Duration"/> seconds.
+Button/Tooltip/RoboticsBay=<c val="ffff8a">Enables:</c><n/>- Colossi at the Robotics Facility
+Button/Tooltip/RoboticsFacility=Warps in Protoss robotic units.<n/><n/><c val="ffff8a">Enables:</c><n/>- Immortals
+Button/Tooltip/Sentry=Energy-manipulator unit. Can use Shield Recharge, Guardian Shield, and Force Field.<n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c>
+Button/Tooltip/SentryPassive=Cybernetics Core allows you to warp in Sentries.
+Button/Tooltip/ShadowBlade=Slashes an enemy unit for 500 damage.<n/><n/><c val="ffff8a">Can only target ground units.</c>
+Button/Tooltip/ShadowMissile=[ph] ZAP
+Button/Tooltip/ShadowOfTheVoidArchon=Powerful psionic attacker.<n/><n/><c val="ffff8a">Can attack ground and air units.</c>
+Button/Tooltip/ShadowOfTheVoidHybrid=Monstrous creature made from both Protoss and Zerg DNA. Capable of powerful attacks.<n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c><n/><c val="FFE303">Detector</c>
+Button/Tooltip/ShadowOfTheVoidHybridDominator=Powerful psionic attacker.<n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c><n/><c val="FFE303">Detector</c>
+Button/Tooltip/ShadowOfTheVoidStalker=Ranged support strider.<n/><n/><c val="ffff8a">Can attack ground and air units.</c>
+Button/Tooltip/ShadowOfTheVoidZealot=Powerful melee warrior.<n/><n/><c val="ffff8a">Can attack ground units.</c>
+Button/Tooltip/StalkerPassive=Cybernetics Core allows you to warp in Stalkers.
+Button/Tooltip/Stargate=Warps in Protoss air units.<n/><n/><c val="ffff8a">Enables:</c><n/>- Phoenixes<n/>- Void Rays
+Button/Tooltip/TempestPassive=Fleet Beacon allows you to warp in Tempests.
+Button/Tooltip/TemplarArchive=<c val="ffff8a">Enables:</c><n/>- High Templar at the Gateway
+Button/Tooltip/TwilightCouncil=<c val="ffff8a">Enables:</c><n/>- Dark Shrine from Probes<n/>- Templar Archives from Probes
+Button/Tooltip/VoidRayPrismaticAlignmentBase=The Void Ray's damage output increases the longer the Void Ray remains on a single target up to +4 damage vs armored units.
+Button/Tooltip/VoidRaySwarmDamageBoost=Realigns the Void Ray's Prismatic Beam to gain +<d ref="Behavior,VoidRaySwarmDamageBoost,Modification[0].DamageDealtAttributeScaled[Armored]"/> damage vs. armored units for <d ref="Behavior,VoidRaySwarmDamageBoost,Duration[0]"/> seconds.
+Button/Tooltip/VoidSentryShieldRepair=Recharges the shields of a friendly Protoss unit. <n/><n/><c val="f078ff">Restores <d ref="Effect,VoidSentryShieldRepair,RechargeVitalRate*Effect,VoidSentryShieldRepair,DrainVitalCostFactor"/> shields per 1 energy.</c>
+Button/Tooltip/XelNagaTempleDoorURDLPrologue=Massive door protecting the Temple of Erris.
+Unit/Category/ShadowOfTheVoidHybridUnits=Hybrid
+Unit/LifeArmorName/ShadowOfTheVoidHybridArmor=Hybrid Armor
+Unit/Name/ErrisTempleDoorULDR=Erris Temple Door
+Unit/Name/ErrisTempleDoorULDROpened=Erris Temple Door
+Unit/Name/ErrisTempleDoorURDL=Erris Temple Door
+Unit/Name/ErrisTempleDoorURDLOpened=Erris Temple Door
+Unit/Name/HighTemplarWeapon=High Templar Weapon
+Unit/Name/LightningShooter=Lightning Shooter
+Unit/Name/MoebiusLabArmoredGenerator=Generator
+Unit/Name/NaturalGasEX2=Vespene
+Unit/Name/PowerGridTransformer=Station Reactor
+Unit/Name/PrisonZealot=Zealot
+Unit/Name/PrologueFissureBreach=Prologue Fissure Breach
+Unit/Name/PrologueFissureBreachDead=Prologue Fissure Breach Dead
+Unit/Name/PrologueInvisibleGasHarvester=Prologue Invisible Gas Harvester
+Unit/Name/PrologueMalash=Malash
+Unit/Name/PrologueZeratul=Zeratul
+Unit/Name/PylonContainmentUnit=Pylon Containment Unit
+Unit/Name/ResidualVortex=Residual Vortex
+Unit/Name/ShadowMissileWeapon=Shadow Missile Weapon
+Unit/Name/ShadowOfTheVoidArchon=Shadow of the Void
+Unit/Name/ShadowOfTheVoidHybrid=Shadow of the Void
+Unit/Name/ShadowOfTheVoidHybridDominator=Shadow of the Void
+Unit/Name/ShadowOfTheVoidStalker=Shadow of the Void
+Unit/Name/ShadowOfTheVoidZealot=Shadow of the Void
+Unit/Name/StalkerWeaponShadowOfTheVoid=Stalker
+Unit/Name/VoidCatalyst=Void Catalyst
+Unit/Name/XelNagaPyramidTempleDoor=Xel'Naga Pyramid Temple Door
+Unit/Name/XelNagaTempleDoorURDLPrologue=Xel'Naga Temple Door
+Unit/ShieldArmorName/ShadowOfTheVoidHybridShields=Hybrid Shields
