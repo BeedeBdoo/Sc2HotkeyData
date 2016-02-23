@@ -25,34 +25,46 @@ Button: the squary things you can click on.
 Ability: what triggers when buttons are clicked. Not particularly interesting for the purpose of listing hotkeys
 Hotkey: keyboard keys that trigger Buttons
 
-Left: XML view									Right: Detailed view
-<HotkeyAlias value=""/>	Default: Self			(Basic) UI: CButton HotkeyAlias
-	Overwrites the value of a hotkey to that of its Alias
-	
-<CButton id=""></CButton>						(Basic) UI: CButton Hotkey
-	Name of the button. Referenced in .SC2Hotkeys. Note this is not necesarilly the name showing up ingame.
-	
-<Universal value="1"/>	Default: 0				(Basic) UI: CButton Universal
-	If a button is universal, it's key in .SC2Hotkeys will not mention caster
+										--- Button data ---
+<CButton id="" parent="">...</CButton>												Detailed view name: (Basic) UI: CButton Hotkey
+	Element for containing buttons
+	id: Name of the button. Referenced in .SC2Hotkeys. Reference to ingame name given by GameStrings.txt
+	parent: this button will inherit all data in parent. Parent referenced by its id. Default: "CButton"
+
+<HotkeyAlias value=""/>																Detailed view name: (Basic) UI: CButton HotkeyAlias
+	Overwrites this buttons hotkey to that of the value. Default: own button id
+		
+<Universal value="1"/>																Detailed view name: (Basic) UI: CButton Universal
+	If a button is universal, it's key in .SC2Hotkeys will not mention caster. Default: "0"
 	e.g. 	universal: Stim= , Cancel= , overlordspeed=
 		not universal: Charge/Zealot= , Heal/Medivac=
 
-<HotkeySet value=""/>	Default: None			(Basic) UI: CButton HotkeySet
+<HotkeySet value=""/>		Default: None											Detailed view name: (Basic) UI: CButton HotkeySet
 	Buttons with the same HotkeySet value will not conflict.
-
-<CUnit id=""></CUnit>							(Basic) UI: CUnit Name
+	
+										--- Unit data ---
+<CUnit id="" parent="">...</CUnit>													Detailed view name: (Basic) UI: CUnit Name
 	Name of unit. Important for non-universal buttons, as they are listed 'CButton id/CUnit id=' in .SC2Hotkeys
 
-<HotkeyCategory value="Unit/Category/..."/>		(Basic) UI: CUnits HotkeyCategory
+<HotkeyCategory value="Unit/Category/..."/>											Detailed view name: (Basic) UI: CUnits HotkeyCategory
 	'...' can here be values TerranUnits, TerranStory, ProtossUnits, ... , ZergStory. Otherwise the whole value is likely blank.
 	Determines where the unit shows up in the ingame hotkey interface. If value is not blank, it'll likely show up in the hotkey-editor ingame, which makes the unit's keys relevant
 
-<LaytoutButtons Face="" Type=""/>
+<CardLayouts index="", CardId="", removed="1">...	</CardLayouts>
+	houses the LayoutButtons. These are effectively command cards.
+
+<LayoutButtons Face="" Type=""/>
 	Element for individual buttons on a unit. Face takes on the 'CButton id' value. Type has a number of different values. "Passive" means the button is passive and can thus be ignored
+
+<HotkeyAlias value=""/>		Default: CUnit id										Detailed view name: (Basic) UI: CUnit HotkeyAlias
+	Unit id's in value will cause this unit to share it's ingame hotkey section with that unit
+	e.g.	Burrowed zerg units suse their unburrowed variant as a HotkeyAlias. 
+			Whenever you look at a burrow-able zerg unit in the hotkey editor, 
+			the command card will then be accompanied by that of the burrowed variant.
 
 
 
 The purpose of this project is to file StarCraft 2 Hot-keys and Hot-key conflicts for the purpose of creating a 
 foundation for checking conflicts and missing keys in custom Hot-key layouts meant to support game-modes outside 
 of multiplayer, such as the StarCraft 2 Campaign.
-StarCraft 2 ©2016 BLIZZARD ENTERTAINMENT, INC.
+StarCraft 2 is a game made by Blizzard Entertainment Inc.

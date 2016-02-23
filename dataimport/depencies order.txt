@@ -14,3 +14,6 @@ Swarm Story(Campaign)	Core(mod)		Liberty(mod)	Liberty(Campaign)	Swarm(mod)	Swarm
 Void(mod)				Core(mod)		Liberty(mod)	Swarm(mod)
 Void(Campaign)			Core(mod)		Liberty(mod)	Liberty(Campaign)	Swarm(mod)	Swarm(Campaign)	Void(mod)
 Void Story(Campaign)	Core(mod)		Liberty(mod)	Liberty(Campaign)	Swarm(mod)	Swarm(Campaign)	Void(mod)	Void(Campaign)
+
+
+I'm not completely sure on the order of these depencies - but very sure that core(mod) is loaded, and then built upon by liberty(mod) and then so on..
