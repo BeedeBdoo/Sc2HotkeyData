@@ -113,50 +113,99 @@ def update_dict():
 # much repeating, make function iterate over relevant fields ('Cardlayouts', 'HotkeyAlias', 'HotkeyCategory')
 # try to find field for SubmenuCardId/CardLayouts/HotkeyAlias ingame name
 
-# def unit_hotkey_extract(path):
-#     root = ET.parse(path).getroot()
-#     for unit in root.findall('./CUnit'):
-#         print(unit.get('id'))
-#         if unit.findall('./CardLayouts') is not None:
-#             for card in unit.findall('./CardLayouts'):
-#                 if 'CardId' in card.attrib:
-#                     print('    CardLayouts: ', card.get('CardId'))
-#                 else:
-#                     print('    CardLayouts: ', 'NO ID')
-#                 if card.findall('./LayoutButtons') is not None:
-#                     for button in card.findall('./LayoutButtons'):
-#                         if button.attrib:
-#                             attrib_list = {}
-#                             for att in button.attrib:
-#                                 if (att == 'Type' and (button.get(att) in button_type_elements)) or (att != 'Type' and att in button_attrib):
-#                                     attrib_list[att] = button.get(att)
-#                             print('        ', attrib_list)
-#                         if list(button):
-#                             attrib_list = {}
-#                             for att in button:
-#                                 if (att.tag == 'Type' and (att.get('value') in button_type_elements)) or (att.tag != 'Type' and (att.tag in button_attrib)):
-#                                     attrib_list[att.tag] = att.get('value')
-#                             print('        ', attrib_list)
-#
-#         # for elem in unit_elements
-#         if unit.findall('./HotkeyAlias') is not None:
-#             for alias in unit.findall('./HotkeyAlias'):
-#                 if alias.get('value') is not None:
-#                     print('    HotkeyAlias: ', alias.get('value'))
-#
-#         if unit.findall('./HotkeyCategory') is not None:
-#             for cat in unit.findall('./HotkeyCategory'):
-#                 if cat.get('value') is not None:
-#                     print('    HotkeyCategory: ', cat.get('value'))
-#         # TODO: if HotkeyCategory="" + HotkeyAlias="Unit/Category/ZergUnits:"
-#             #   HotkeyCategory=HotkeyAlias
-#         # if unit.findall('./Mob') is not None:
-#         #     for cat in unit.findall('./HotkeyCategory'):
-#         #         if cat.get('value') is not None:
-#         #             print('    HotkeyCategory: ', cat.get('value'))
+def unit_hotkey_extract(path_unit,path_button):
+    keylist = []
+    unibuttons = []
+    aliasbuttons = {}
+    hotkeylist = {}
 
+    with open('dataimport/liberty/GameHotkeys.txt') as f:
+        hotkeys = f.readlines()
+    for line in hotkeys:
+        if 'Button/Hotkey/' in line and all(not line.split('=')[0].endswith(x) for x in ['_SC1','_NRS','_USD','_USDL']):
+            hotkey = line.split('Button/Hotkey/')[-1].split('\n')[0].split('=')
+            if hotkey[0] not in hotkeylist:
+                hotkeylist[hotkey[0]] = hotkey[1]
 
-# unit_hotkey_extract('dataimport/liberty/UnitData.xml')
+    for buttonpath in ['dataimport/core/ButtonData.xml',path_button]:
+        root = ET.parse(buttonpath).getroot()
+        for button in root.findall('./CButton[@id]'):
+            if 'parent' in button.attrib:
+                if button.get('parent') in unibuttons and button.get('id') not in unibuttons:
+                    unibuttons.append(button.get('id'))
+                if button.get('parent') in aliasbuttons and button.get('id') not in aliasbuttons:
+                    aliasbuttons[button.get('id')] = aliasbuttons[button.get('parent')]
+                else:
+                    aliasbuttons[button.get('id')] = button.get('parent')
+            if button.get('id') not in unibuttons:
+                for unielem in button.findall('./Universal'):
+                    if unielem.get('value') == "1" and button.get('id') not in unibuttons:
+                        unibuttons.append(button.get('id'))
+            for alias in button.findall('.HotkeyAlias'):
+                if alias.get('value') and button.get('id') not in aliasbuttons:
+                    aliasbuttons[button.get('id')] = alias.get('value')
+                elif aliasbuttons[button.get('id')] != alias.get('value'):
+                    print('alias overwrite :'+button.get('id')+':'+alias.get('value')+'!='+aliasbuttons[button.get('id')])
+
+    root = ET.parse(path_unit).getroot()
+    for unit in root.findall('./CUnit'):
+        unitid = unit.get('id')
+        buttonid = ""
+        if unit.findall('SubgroupAlias'):
+            for subgroupalias in unit.findall('SubgroupAlias'):
+                unitid = subgroupalias.get('value')
+        if unit.findall('./CardLayouts') is not None:
+            for card in unit.findall('./CardLayouts'):
+                if card.findall('./LayoutButtons') is not None:
+                    for button in card.findall('./LayoutButtons'):
+                        if button.get('Type') == 'Passive' or any(att.get('value') == 'Passive' for att in button):
+                            break
+                        buttonhotkey = ""
+                        if 'Face' in button.attrib:
+                            buttonid = button.get('Face')
+                        elif list(button):
+                            for att in button.findall('./Face'):
+                                buttonid = att.get('value')
+
+                        if buttonid in aliasbuttons:
+                            buttonid = aliasbuttons[buttonid]
+
+                        if buttonid in hotkeylist:
+                            buttonhotkey = '='+hotkeylist[buttonid]
+
+                        if buttonid in unibuttons:
+                            if buttonid+buttonhotkey not in keylist:
+                                keylist.append(buttonid+buttonhotkey)
+                        elif buttonid+'/'+unitid+buttonhotkey not in keylist:
+                            keylist.append(buttonid+'/'+unitid+buttonhotkey)
+
+                        if buttonhotkey == "":
+                            print(button.get('Type'))
+                            print(any(att.get('value') == 'Passive' for att in button))
+                            print(buttonid)
+    return keylist
+
+# "for elem in unit_elements"
+# if unit.findall('./HotkeyAlias') is not None:
+#     for alias in unit.findall('./HotkeyAlias'):
+#         if alias.get('value') is not None:
+#             print('    HotkeyAlias: ', alias.get('value'))
+
+# if unit.findall('./HotkeyCategory') is not None:
+#     for cat in unit.findall('./HotkeyCategory'):
+#         if cat.get('value') is not None:
+#             print('    HotkeyCategory: ', cat.get('value'))
+# TODO: if HotkeyCategory="" + HotkeyAlias="Unit/Category/ZergUnits:"
+    #   HotkeyCategory=HotkeyAlias
+
+with open('defaults.txt') as file:
+    data = file.readlines()
+    with open('keylist_test.txt','w') as f:
+        for line in unit_hotkey_extract('dataimport/liberty/UnitData.xml', 'dataimport/liberty/ButtonData.xml'):
+            f.write(line+'\n')
+            if all(line not in dataline for dataline in data):
+                print(line)
+
 
 
 # TODO: figure out how data should be saved, so the two functions below can be made for that purpose
