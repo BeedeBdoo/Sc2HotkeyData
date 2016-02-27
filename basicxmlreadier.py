@@ -118,6 +118,7 @@ def unit_hotkey_extract(path_unit,path_button):
     unibuttons = []
     aliasbuttons = {}
     hotkeylist = {}
+    conflictsset = {}
 
     with open('dataimport/liberty/GameHotkeys.txt') as f:
         hotkeys = f.readlines()
@@ -154,9 +155,14 @@ def unit_hotkey_extract(path_unit,path_button):
         if unit.findall('SubgroupAlias'):
             for subgroupalias in unit.findall('SubgroupAlias'):
                 unitid = subgroupalias.get('value')
-        if unit.findall('./CardLayouts') is not None:
+        if unit.findall('./CardLayouts'):
             for card in unit.findall('./CardLayouts'):
-                if card.findall('./LayoutButtons') is not None:
+                if card.findall('./LayoutButtons'):
+                    if card.get('CardId'):
+                        cardid += ' - '+card.get('CardId')
+                    else:
+                        cardid = ""
+                    conflictsset[unitid+cardid] = []
                     for button in card.findall('./LayoutButtons'):
                         if button.get('Type') == 'Passive' or any(att.get('value') == 'Passive' for att in button):
                             break
@@ -174,16 +180,21 @@ def unit_hotkey_extract(path_unit,path_button):
                             buttonhotkey = '='+hotkeylist[buttonid]
 
                         if buttonid in unibuttons:
+                            if buttonid not in conflictsset[unitid+cardid]:
+                                conflictsset[unitid+cardid].append(buttonid)
                             if buttonid+buttonhotkey not in keylist:
                                 keylist.append(buttonid+buttonhotkey)
-                        elif buttonid+'/'+unitid+buttonhotkey not in keylist:
-                            keylist.append(buttonid+'/'+unitid+buttonhotkey)
+                        else:
+                            if buttonid+'/'+unitid not in conflictsset[unitid+cardid]:
+                                conflictsset[unitid+cardid].append(buttonid+'/'+unitid)
+                            if buttonid+'/'+unitid+buttonhotkey not in keylist:
+                                keylist.append(buttonid+'/'+unitid+buttonhotkey)
 
                         if buttonhotkey == "":
                             print(button.get('Type'))
                             print(any(att.get('value') == 'Passive' for att in button))
                             print(buttonid)
-    return keylist
+    return keylist,conflictsset
 
 # "for elem in unit_elements"
 # if unit.findall('./HotkeyAlias') is not None:
@@ -200,11 +211,15 @@ def unit_hotkey_extract(path_unit,path_button):
 
 with open('defaults.txt') as file:
     data = file.readlines()
+    keylist,conflictsset = unit_hotkey_extract('dataimport/liberty/UnitData.xml', 'dataimport/liberty/ButtonData.xml')
     with open('keylist_test.txt','w') as f:
-        for line in unit_hotkey_extract('dataimport/liberty/UnitData.xml', 'dataimport/liberty/ButtonData.xml'):
+        for line in sorted(keylist):
             f.write(line+'\n')
             if all(line not in dataline for dataline in data):
                 print(line)
+    with open('conflict_test.txt','w') as f:
+        for conflicts in sorted(conflictsset):
+            f.write(conflicts+': '+', '.join(conflictsset[conflicts])+'\n')
 
 
 
