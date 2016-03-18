@@ -1,7 +1,7 @@
 import xml.etree.ElementTree as ET
 import os
 
-button_type_elements = ['Passive', 'Undefined']  # These Type elements indicates absence of hotkey
+button_type_elements = ['Undefined']  # These Type elements indicates absence of hotkey
 
 unit_elements = {'CUnit': ['parent','default','id',
                            {'CardLayouts': ['CardId', 'index', 'removed',
@@ -40,22 +40,6 @@ def find_all(name, path):  # for looking through directory for filename
     return result
 
 
-def spot_for(elem_path):  # quick function for finding source of different elements
-    for path in find_all('UnitData.xml', 'dataimport'):
-        root = ET.parse(path).getroot()
-        for unit in root.findall("./CUnit"):
-            for elem in unit.findall(elem_path):
-                print(path, unit.get('id'), elem.tag, elem.attrib)
-
-    for path in find_all('ButtonData.xml', 'dataimport'):
-        root = ET.parse(path).getroot()
-        for button in root.findall("./CButton"):
-            for elem in button.findall(elem_path):
-                print(path, button.get('id'), elem.tag, elem.attrib)
-
-# spot_for(".//ShowInGlossary")
-
-
 def att_iter(elem, elem_dict):
     if elem.attrib:
         for att in elem.attrib:
@@ -91,7 +75,7 @@ def elem_write(elem, scope, file):
 
 def update_dict():
     unit = [{}, {}]
-    for path in find_all('UnitData.xml','dataimport'):
+    for path in find_all('UnitData.xml', 'dataimport'):
         root = ET.parse(path).getroot()
         child_iter(root, unit)
 
@@ -99,19 +83,32 @@ def update_dict():
         elem_write(unit, 0, f)
 
     button = [{}, {}]
-    for path in find_all('ButtonData.xml','dataimport'):
+    for path in find_all('ButtonData.xml', 'dataimport'):
         root = ET.parse(path).getroot()
         child_iter(root, button)
 
     with open('button_dict.txt','w') as f:
-        elem_write(button,0,f)
+        elem_write(button, 0, f)
 
 
 # TODO: blacklist+whitelist : is this unit in the players hand yes/no/maybe?
-# use .get(key,default=None) to shorten code
-# test iterfind(), findtext(), .text
+#   if HotkeyCategory="" + HotkeyAlias="Unit/Category/ZergUnits:"
+#       HotkeyCategory=HotkeyAlias
 # much repeating, make function iterate over relevant fields ('Cardlayouts', 'HotkeyAlias', 'HotkeyCategory')
 # try to find field for SubmenuCardId/CardLayouts/HotkeyAlias ingame name
+
+def get_game_hotkeys(path):
+    # for looking through GameHotkeys.txt.
+    # Returns a dictionary with hotkey name as index, value as key
+    hotkey_dict = {}
+    with open(path) as file:
+        game_hotkeys = file.readlines()
+    for line in game_hotkeys:
+        if 'Button/Hotkey/' in line and all(not line.split('=')[0].endswith(x) for x in ['_SC1','_NRS','_USD','_USDL']):
+            hotkey = line.split('Button/Hotkey/')[-1].split('\n')[0].split('=')
+            hotkey_dict[hotkey[0]] = hotkey[-1]
+    return hotkey_dict
+
 
 def unit_hotkey_extract(path_unit,path_button):
     keylist = []
@@ -194,7 +191,7 @@ def unit_hotkey_extract(path_unit,path_button):
                             print(button.get('Type'))
                             print(any(att.get('value') == 'Passive' for att in button))
                             print(buttonid)
-    return keylist,conflictsset
+    return keylist, conflictsset
 
 # "for elem in unit_elements"
 # if unit.findall('./HotkeyAlias') is not None:
@@ -206,39 +203,83 @@ def unit_hotkey_extract(path_unit,path_button):
 #     for cat in unit.findall('./HotkeyCategory'):
 #         if cat.get('value') is not None:
 #             print('    HotkeyCategory: ', cat.get('value'))
-# TODO: if HotkeyCategory="" + HotkeyAlias="Unit/Category/ZergUnits:"
-    #   HotkeyCategory=HotkeyAlias
-
-with open('defaults.txt') as file:
-    data = file.readlines()
-    keylist,conflictsset = unit_hotkey_extract('dataimport/liberty/UnitData.xml', 'dataimport/liberty/ButtonData.xml')
-    with open('keylist_test.txt','w') as f:
-        for line in sorted(keylist):
-            f.write(line+'\n')
-            if all(line not in dataline for dataline in data):
-                print(line)
-    with open('conflict_test.txt','w') as f:
-        for conflicts in sorted(conflictsset):
-            f.write(conflicts+': '+', '.join(conflictsset[conflicts])+'\n')
 
 
+def key_extractor():
+    with open('defaults.txt') as file:
+        data = file.readlines()
+        keylist,conflictsset = unit_hotkey_extract('dataimport/liberty/UnitData.xml', 'dataimport/liberty/ButtonData.xml')
+        with open('keylist_test.txt','w') as f:
+            for line in sorted(keylist):
+                f.write(line+'\n')
+                if all(line not in dataline for dataline in data):
+                    print(line)
+        with open('conflict_test.txt','w') as f:
+            for conflicts in sorted(conflictsset):
+                f.write(conflicts+': '+', '.join(conflictsset[conflicts])+'\n')
 
-# TODO: figure out how data should be saved, so the two functions below can be made for that purpose
-def att_iter_restrict(elem, elem_dict, dict_path):
-    if elem.attrib:
-        for att in elem.attrib:
-            if att not in elem_dict:
-                elem_dict[att] = [elem.get(att)]
-            elif elem.get(att) not in elem_dict[att]:
-                elem_dict[att].append(elem.get(att))
 
 
-def child_iter_restrict(elem, elem_dict, sought_elements):
-    att_iter_restrict(elem, elem_dict[0])
-    if list(elem):
-        for child in elem:
-            if child.tag not in elem_dict[1] and child.tag in sought_elements:
-                elem_dict[1][child.tag] = [{}, {}]
-                print(elem.tag, '>>', child.tag)
+##########UNUSED FUNCTIONS##############
 
-            child_iter_restrict(child,elem_dict[1][child.tag])
+def spot_for():  # quick function for finding source of different elements
+    for path in find_all('UnitData.xml', 'dataimport'):
+        root = ET.parse(path).getroot()
+        for unit in root.findall("./CUnit[@default]"):
+            print(path,unit.get('id'))
+            if unit.get('default') != "1":
+                print('\tITEM FOUND')
+
+    for path in find_all('ButtonData.xml', 'dataimport'):
+        root = ET.parse(path).getroot()
+        for button in root.findall("./CButton"):
+            if button.findall('./HotkeyAlias') and not button.findall('./Hotkey'):
+                print(path, button.get('id'))
+# spot_for()
+
+def get_button_data(path):
+    child_names = ['./Universal', './Hotkey', './HotkeyAlias', './HotkeySet']
+    attribute_names = ['id', 'parent']
+    child_dicts = [{} for name in child_names]
+    att_dicts = [{} for name in attribute_names]
+    root = ET.parse(path).getroot()
+
+    for button in root.findall('./CButton'):
+        for num,att in enumerate(attribute_names):
+            if att in button.attrib:
+                att_dicts[num][button.get('id')] = button.get(att)
+        for num,child_name in enumerate(child_names):
+            for child_elem in button.findall(child_name):
+                child_dicts[num][button.get('id')] = child_elem.get('value')
+    return att_dicts,child_dicts
+
+# attd, childd = get_button_data('dataimport/core/ButtonData.xml')
+# print(attd)
+# for dictt in childd:
+#     print(dictt)
+
+
+def xml_button_copy(path):
+    tree = ET.parse(path)
+    root = tree.getroot()
+    for root_child in root.findall('./'):
+        if root_child.tag != 'CButton':
+            root.remove(root_child)
+            break
+        for child in root_child.findall('./'):
+            if child.tag not in ['Universal', 'Hotkey', 'HotkeyAlias', 'HotkeySet']:
+                root_child.remove(child)
+    tree.write('output.xml')
+
+def xml_unit_copy(path):
+    tree = ET.parse(path)
+    root = tree.getroot()
+    for root_child in root.findall('./'):
+        if root_child.tag != 'CUnit':
+            root.remove(root_child)
+            break
+        for child in root_child.findall('./'):
+            if child.tag not in ['Cardlayouts']:
+                root_child.remove(child)
+    tree.write('output.xml')
+

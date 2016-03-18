@@ -1,4 +1,4 @@
-#old CONFLICT_CHECKS made for safe-keeping, should death find it's embrace on the generated version
+#old CONFLICT_CHECKS made for safe-keeping, should death find its embrace on the generated version
 
 CONFLICT_CHECKS = [['Cancel', 'Stop', 'Rally', 'Probe/Nexus', 'TimeWarp/Nexus', 'Mothership/Nexus'],
                    ['Cancel', 'Stop', 'Attack', 'Rally', 'Probe/Nexus', 'TimeWarp/Nexus', 'MothershipCore/Nexus'],  # Nexus HotS
