@@ -1,3 +1,4 @@
+: Cancel
 Archon: Move, Stop, MoveHoldPosition, Attack, MovePatrol, Rally
 Armory: TerranVehicleWeaponsLevel1/Armory, Cancel, Halt, TerranVehiclePlatingLevel1/Armory, TerranShipWeaponsLevel1/Armory, TerranShipPlatingLevel1/Armory, SelectBuilder
 Assimilator: Cancel
@@ -31,7 +32,7 @@ DarkShrine: Cancel
 DarkTemplar: Move, Stop, MoveHoldPosition, Attack, MovePatrol, Rally, AWrp
 Drone: Move, Stop, MoveHoldPosition, Attack, MovePatrol, ReturnCargo, ZergBuild/Drone, ZergBuildAdvanced/Drone, BurrowDown, GatherProt
 Drone - ZBl1: Hatchery/Drone, Extractor/Drone, SpawningPool/Drone, EvolutionChamber/Drone, BanelingNest/Drone, Cancel, RoachWarren/Drone, SpineCrawler/Drone, SporeCrawler/Drone
-Drone - ZBl1 - ZBl2: Spire/Drone, UltraliskCavern/Drone, Cancel, NydusNetwork/Drone, InfestationPit/Drone, HydraliskDen/Drone
+Drone - ZBl2: Spire/Drone, UltraliskCavern/Drone, Cancel, NydusNetwork/Drone, InfestationPit/Drone, HydraliskDen/Drone
 DroneBurrowed: Attack, BurrowUp
 Egg: Rally, Cancel, Attack
 EngineeringBay: TerranInfantryWeaponsLevel1/EngineeringBay, Cancel, Halt, ResearchNeosteelFrame/EngineeringBay, UpgradeBuildingArmorLevel1/EngineeringBay, ResearchHiSecAutoTracking/EngineeringBay, TerranInfantryArmorLevel1/EngineeringBay, SelectBuilder
@@ -87,7 +88,7 @@ PlanetaryFortress: CommandCenterLoad, CommandCenterUnloadAll, StopPlanetaryFortr
 PointDefenseDrone: 
 Probe: Move, Stop, MoveHoldPosition, Attack, MovePatrol, GatherProt, ReturnCargo, ProtossBuild/Probe, ProtossBuildAdvanced/Probe
 Probe - PBl1: Nexus/Probe, Assimilator/Probe, Pylon/Probe, Gateway/Probe, Forge/Probe, CyberneticsCore/Probe, Cancel, PhotonCannon/Probe
-Probe - PBl1 - PBl2: Stargate/Probe, TemplarArchive/Probe, RoboticsFacility/Probe, FleetBeacon/Probe, Cancel, DarkShrine/Probe, TwilightCouncil/Probe, RoboticsBay/Probe
+Probe - PBl2: Stargate/Probe, TemplarArchive/Probe, RoboticsFacility/Probe, FleetBeacon/Probe, Cancel, DarkShrine/Probe, TwilightCouncil/Probe, RoboticsBay/Probe
 Pylon: Cancel
 Queen: Move, Stop, MoveHoldPosition, MovePatrol, Attack, MorphMorphalisk/Queen, BuildCreepTumor/Queen, Transfusion/Queen, BurrowDown
 QueenBurrowed: Attack, BurrowUp
@@ -106,7 +107,7 @@ RoboticsBay: ResearchExtendedThermalLance/RoboticsBay, Cancel, ResearchGraviticB
 RoboticsFacility: Cancel, Colossus/RoboticsFacility, Observer/RoboticsFacility, Rally, WarpPrism/RoboticsFacility, Immortal/RoboticsFacility
 SCV: Move, Stop, MoveHoldPosition, Attack, MovePatrol, Repair, GatherProt, ReturnCargo, TerranBuild/SCV, TerranBuildAdvanced/SCV, Halt
 SCV - TBl1: CommandCenter/SCV, Refinery/SCV, SupplyDepot/SCV, Barracks/SCV, EngineeringBay/SCV, Bunker/SCV, MissileTurret/SCV, SensorTower/SCV, Cancel
-SCV - TBl1 - TBl2: GhostAcademy/SCV, Factory/SCV, Armory/SCV, Starport/SCV, FusionCore/SCV, Cancel
+SCV - TBl2: GhostAcademy/SCV, Factory/SCV, Armory/SCV, Starport/SCV, FusionCore/SCV, Cancel
 ScopeTest: Move, Stop, MoveHoldPosition, Attack, MovePatrol
 SensorTower: 
 Sentry: Move, Stop, MoveHoldPosition, MovePatrol, Attack, Rally, ForceField/Sentry, GuardianShield/Sentry, Hallucination/Sentry

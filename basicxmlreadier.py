@@ -20,7 +20,6 @@ unit_elements = {'CUnit': ['parent','default','id',
                            'Description': 'value',
                            'Mob': 'value',
                            'SubgroupAlias': 'value',
-                           'SelectAlias': 'value',
                            'Race': 'value'}]}
 
 button_elements = {'CButton': ['parent','default','id',
@@ -40,158 +39,148 @@ def find_all(name, path):  # for looking through directory for filename
     return result
 
 
-def att_iter(elem, elem_dict):
-    if elem.attrib:
-        for att in elem.attrib:
-            if att not in elem_dict:
-                elem_dict[att] = [elem.get(att)]
-            elif elem.get(att) not in elem_dict[att]:
-                elem_dict[att].append(elem.get(att))
-
-
-def child_iter(elem, elem_dict):
-    att_iter(elem, elem_dict[0])
-    if list(elem):
-        for child in elem:
-            if child.tag not in elem_dict[1]:
-                elem_dict[1][child.tag] = [{}, {}]
-                print(elem.tag, '>>', child.tag)
-
-            child_iter(child,elem_dict[1][child.tag])
-
-
-def elem_write(elem, scope, file):
-    if type(elem) is list:
-        if all(isinstance(child, (list, dict)) for child in elem):
-            for num in range(len(elem)):
-                elem_write(elem[num], scope, file)
-        else:
-            file.write(' : ["'+'", "'.join(elem)+'"]')
-    elif type(elem) is dict:
-        for child in elem:
-            file.write('\n'+'    '*scope + child)
-            elem_write(elem[child], scope + 1, file)
-
-
-def update_dict():
-    unit = [{}, {}]
-    for path in find_all('UnitData.xml', 'dataimport'):
-        root = ET.parse(path).getroot()
-        child_iter(root, unit)
-
-    with open('unit_dict.txt','w') as f:
-        elem_write(unit, 0, f)
-
-    button = [{}, {}]
-    for path in find_all('ButtonData.xml', 'dataimport'):
-        root = ET.parse(path).getroot()
-        child_iter(root, button)
-
-    with open('button_dict.txt','w') as f:
-        elem_write(button, 0, f)
-
-
 # TODO: blacklist+whitelist : is this unit in the players hand yes/no/maybe?
 #   if HotkeyCategory="" + HotkeyAlias="Unit/Category/ZergUnits:"
 #       HotkeyCategory=HotkeyAlias
-# much repeating, make function iterate over relevant fields ('Cardlayouts', 'HotkeyAlias', 'HotkeyCategory')
 # try to find field for SubmenuCardId/CardLayouts/HotkeyAlias ingame name
 
-def get_game_hotkeys(path):
+def get_GameHotkeys(filepath, gamehotkey_dict):
     # for looking through GameHotkeys.txt.
     # Returns a dictionary with hotkey name as index, value as key
-    hotkey_dict = {}
-    with open(path) as file:
+    with open(filepath) as file:
         game_hotkeys = file.readlines()
     for line in game_hotkeys:
         if 'Button/Hotkey/' in line and all(not line.split('=')[0].endswith(x) for x in ['_SC1','_NRS','_USD','_USDL']):
             hotkey = line.split('Button/Hotkey/')[-1].split('\n')[0].split('=')
-            hotkey_dict[hotkey[0]] = hotkey[-1]
-    return hotkey_dict
+            if hotkey[0] in gamehotkey_dict and gamehotkey_dict[hotkey[0]] != hotkey[-1]:
+                print('default overwritten '+filepath+' '+hotkey[0]+' from '+gamehotkey_dict[hotkey[0]]+' to '+hotkey[-1])
+            gamehotkey_dict[hotkey[0]] = hotkey[-1]
+    return gamehotkey_dict
 
 
-def unit_hotkey_extract(path_unit,path_button):
+def get_ButtonData(filepath, uni_dict, hotkey_dict, hotkeyalias_dict, hotkeyset_dict):
+    root = ET.parse(filepath).getroot()
+    for button in root.findall('./CButton[@id]'):
+        if 'parent' in button.attrib:
+            if button.get('parent') in uni_dict:
+                uni_dict[button.get('id')] = uni_dict[button.get('parent')]
+            if button.get('parent') in hotkey_dict:
+                hotkey_dict[button.get('id')] = hotkey_dict[button.get('parent')]
+            else:
+                hotkey_dict[button.get('id')] = button.get('parent')
+            if button.get('parent') in hotkeyalias_dict:
+                hotkeyalias_dict[button.get('id')] = hotkeyalias_dict[button.get('parent')]
+            else:
+                hotkeyalias_dict[button.get('id')] = button.get('parent')
+            if button.get('parent') in hotkeyset_dict:
+                hotkeyset_dict[button.get('id')] = hotkeyset_dict[button.get('parent')]
+
+        for child in button.findall('./Universal'):
+            uni_dict[button.get('id')] = bool(child.get('value'))
+        for child in button.findall('./Hotkey'):
+            hotkey_dict[button.get('id')] = child.get('value').split('/')[-1]
+        for child in button.findall('./HotkeyAlias'):
+            hotkeyalias_dict[button.get('id')] = child.get('value')
+        for child in button.findall('./HotkeySet'):
+            hotkeyset_dict[button.get('id')] = child.get('value')
+    return uni_dict, hotkey_dict, hotkeyalias_dict, hotkeyset_dict
+
+
+def get_UnitData(filepath, gamehotkey_dict, uni_dict, hotkeyalias_dict, subgroupalias_dict, subgrouppriority_dict):
     keylist = []
-    unibuttons = []
-    aliasbuttons = {}
-    hotkeylist = {}
     conflictsset = {}
 
-    with open('dataimport/liberty/GameHotkeys.txt') as f:
-        hotkeys = f.readlines()
-    for line in hotkeys:
-        if 'Button/Hotkey/' in line and all(not line.split('=')[0].endswith(x) for x in ['_SC1','_NRS','_USD','_USDL']):
-            hotkey = line.split('Button/Hotkey/')[-1].split('\n')[0].split('=')
-            if hotkey[0] not in hotkeylist:
-                hotkeylist[hotkey[0]] = hotkey[1]
-
-    for buttonpath in ['dataimport/core/ButtonData.xml',path_button]:
-        root = ET.parse(buttonpath).getroot()
-        for button in root.findall('./CButton[@id]'):
-            if 'parent' in button.attrib:
-                if button.get('parent') in unibuttons and button.get('id') not in unibuttons:
-                    unibuttons.append(button.get('id'))
-                if button.get('parent') in aliasbuttons and button.get('id') not in aliasbuttons:
-                    aliasbuttons[button.get('id')] = aliasbuttons[button.get('parent')]
-                else:
-                    aliasbuttons[button.get('id')] = button.get('parent')
-            if button.get('id') not in unibuttons:
-                for unielem in button.findall('./Universal'):
-                    if unielem.get('value') == "1" and button.get('id') not in unibuttons:
-                        unibuttons.append(button.get('id'))
-            for alias in button.findall('.HotkeyAlias'):
-                if alias.get('value') and button.get('id') not in aliasbuttons:
-                    aliasbuttons[button.get('id')] = alias.get('value')
-                elif aliasbuttons[button.get('id')] != alias.get('value'):
-                    print('alias overwrite :'+button.get('id')+':'+alias.get('value')+'!='+aliasbuttons[button.get('id')])
-
-    root = ET.parse(path_unit).getroot()
+    root = ET.parse(filepath).getroot()
     for unit in root.findall('./CUnit'):
-        unitid = unit.get('id')
         buttonid = ""
-        if unit.findall('SubgroupAlias'):
-            for subgroupalias in unit.findall('SubgroupAlias'):
-                unitid = subgroupalias.get('value')
-        if unit.findall('./CardLayouts'):
-            for card in unit.findall('./CardLayouts'):
-                if card.findall('./LayoutButtons'):
-                    if card.get('CardId'):
-                        cardid += ' - '+card.get('CardId')
-                    else:
-                        cardid = ""
-                    conflictsset[unitid+cardid] = []
-                    for button in card.findall('./LayoutButtons'):
-                        if button.get('Type') == 'Passive' or any(att.get('value') == 'Passive' for att in button):
-                            break
-                        buttonhotkey = ""
-                        if 'Face' in button.attrib:
-                            buttonid = button.get('Face')
-                        elif list(button):
-                            for att in button.findall('./Face'):
-                                buttonid = att.get('value')
+        unitid = ""
+        if 'parent' in unit.attrib:
+            if unit.get('parent') in subgroupalias_dict:
+                subgroupalias_dict[unit.get('id')] = subgroupalias_dict[unit.get('parent')]
+            if unit.get('parent') in subgroupalias_dict:
+                subgrouppriority_dict[unit.get('id')] = subgrouppriority_dict[unit.get('parent')]
+        else:
+            if unit.get('id') not in subgroupalias_dict:
+                subgroupalias_dict[unit.get('id')] = '##id##'
+            if unit.get('id') not in subgrouppriority_dict:
+                subgrouppriority_dict[unit.get('id')] = "0"
 
-                        if buttonid in aliasbuttons:
-                            buttonid = aliasbuttons[buttonid]
+        for child in unit.findall('./SubgroupAlias'):
+            subgroupalias_dict[unit.get('id')] = child.get('value')
+        for child in unit.findall('./SubgroupPriority'):
+            subgrouppriority_dict[unit.get('id')] = child.get('value')
+        # print(unit.get('id'),bool(unit.get('id') in subgroupalias_dict),subgroupalias_dict[unit.get('id')])
 
-                        if buttonid in hotkeylist:
-                            buttonhotkey = '='+hotkeylist[buttonid]
+        if subgroupalias_dict[unit.get('id')] == '##id##':
+            unitid = unit.get('id')
+        elif subgroupalias_dict[unit.get('id')] in subgrouppriority_dict:
+            unitid = subgroupalias_dict[unit.get('id')]
+        # what if neither?
 
-                        if buttonid in unibuttons:
-                            if buttonid not in conflictsset[unitid+cardid]:
-                                conflictsset[unitid+cardid].append(buttonid)
-                            if buttonid+buttonhotkey not in keylist:
-                                keylist.append(buttonid+buttonhotkey)
-                        else:
-                            if buttonid+'/'+unitid not in conflictsset[unitid+cardid]:
-                                conflictsset[unitid+cardid].append(buttonid+'/'+unitid)
-                            if buttonid+'/'+unitid+buttonhotkey not in keylist:
-                                keylist.append(buttonid+'/'+unitid+buttonhotkey)
+        # if subgrouppriority_dict[unit.get('id')] == subgrouppriority_dict[unitid]:
+            # priority and subgroup alias are the same
+            # in this case command cards overlap. E.g. Siege Mode and Tank Mode on the same command card when both units are selected
 
-                        if buttonhotkey == "":
-                            print(button.get('Type'))
-                            print(any(att.get('value') == 'Passive' for att in button))
-                            print(buttonid)
-    return keylist, conflictsset
+        # TODO warp prism phasing mode joining.
+        # TODO make documentation for relevant fields
+        # TODO get files. then order then according to dependency (read DocumentInfo)
+
+
+        for card in unit.findall('./CardLayouts'):
+            if card.get('CardId'):
+                cardid = ' - '+card.get('CardId')
+            else:
+                cardid = ""
+            conflictsset[unitid+cardid] = []
+            for button in card.findall('./LayoutButtons'):
+                if button.get('Type') == 'Passive' or any(att.get('value') == 'Passive' for att in button):
+                    break
+                buttonhotkey = ""
+                if 'Face' in button.attrib:
+                    buttonid = button.get('Face')
+                elif list(button):
+                    for att in button.findall('./Face'):
+                        buttonid = att.get('value')
+
+                if buttonid in hotkeyalias_dict:
+                    buttonid = hotkeyalias_dict[buttonid]
+
+                if buttonid in gamehotkey_dict:
+                    buttonhotkey = '='+gamehotkey_dict[buttonid]
+
+                if buttonid in uni_dict and uni_dict[buttonid]:
+                    if buttonid not in conflictsset[unitid+cardid]:
+                        conflictsset[unitid+cardid].append(buttonid)
+                    if buttonid+buttonhotkey not in keylist:
+                        keylist.append(buttonid+buttonhotkey)
+                else:
+                    if buttonid+'/'+unitid not in conflictsset[unitid+cardid]:
+                        conflictsset[unitid+cardid].append(buttonid+'/'+unitid)
+                    if buttonid+'/'+unitid+buttonhotkey not in keylist:
+                        keylist.append(buttonid+'/'+unitid+buttonhotkey)
+
+                if buttonhotkey == "":
+                    print(button.get('Type'))
+                    print(any(att.get('value') == 'Passive' for att in button))
+                    print(buttonid)
+    return keylist, conflictsset, subgroupalias_dict, subgrouppriority_dict
+
+
+def unit_hotkey_extract(path_unit, path_button):
+    gamehotkey_dict = get_GameHotkeys('dataimport/core/GameHotkeys.txt', {})
+    gamehotkey_dict = get_GameHotkeys('dataimport/liberty/GameHotkeys.txt', gamehotkey_dict)
+
+    uni_dict, hotkey_dict, hotkeyalias_dict, hotkeyset_dict = get_ButtonData('dataimport/core/ButtonData.xml', {}, {}, {}, {})
+    uni_dict, hotkey_dict, hotkeyalias_dict, hotkeyset_dict = get_ButtonData('dataimport/liberty/ButtonData.xml', uni_dict, hotkey_dict, hotkeyalias_dict, hotkeyset_dict)
+
+    for hotkey in hotkey_dict:
+        if hotkey_dict[hotkey] in gamehotkey_dict:
+            gamehotkey_dict[hotkey] = gamehotkey_dict[hotkey_dict[hotkey]]
+        else:
+            print('error: '+str(hotkey_dict[hotkey])+', Hotkey for '+str(hotkey)+' expected but not found in GameHotkeys.')
+
+    keylist, conflictsset, subgroupalias_dict, subgrouppriority_dict = get_UnitData('dataimport/core/UnitData.xml', gamehotkey_dict, uni_dict, hotkeyalias_dict, {}, {})
+    return get_UnitData('dataimport/liberty/UnitData.xml', gamehotkey_dict, uni_dict, hotkeyalias_dict, subgroupalias_dict, subgrouppriority_dict)
 
 # "for elem in unit_elements"
 # if unit.findall('./HotkeyAlias') is not None:
@@ -206,80 +195,22 @@ def unit_hotkey_extract(path_unit,path_button):
 
 
 def key_extractor():
-    with open('defaults.txt') as file:
+    with open('defaults (from TheCoreConverter).txt') as file:
         data = file.readlines()
-        keylist,conflictsset = unit_hotkey_extract('dataimport/liberty/UnitData.xml', 'dataimport/liberty/ButtonData.xml')
-        with open('keylist_test.txt','w') as f:
+        keylist, conflictsset, subgroupalias_dict, subgrouppriority_dict = unit_hotkey_extract('dataimport/liberty/UnitData.xml', 'dataimport/liberty/ButtonData.xml')
+        with open('generated defaults list.txt','w') as f:
             for line in sorted(keylist):
                 f.write(line+'\n')
                 if all(line not in dataline for dataline in data):
                     print(line)
-        with open('conflict_test.txt','w') as f:
+        with open('generated conflicts checks.txt','w') as f:
             for conflicts in sorted(conflictsset):
                 f.write(conflicts+': '+', '.join(conflictsset[conflicts])+'\n')
 
 
+key_extractor()
 
-##########UNUSED FUNCTIONS##############
-
-def spot_for():  # quick function for finding source of different elements
-    for path in find_all('UnitData.xml', 'dataimport'):
-        root = ET.parse(path).getroot()
-        for unit in root.findall("./CUnit[@default]"):
-            print(path,unit.get('id'))
-            if unit.get('default') != "1":
-                print('\tITEM FOUND')
-
-    for path in find_all('ButtonData.xml', 'dataimport'):
-        root = ET.parse(path).getroot()
-        for button in root.findall("./CButton"):
-            if button.findall('./HotkeyAlias') and not button.findall('./Hotkey'):
-                print(path, button.get('id'))
-# spot_for()
-
-def get_button_data(path):
-    child_names = ['./Universal', './Hotkey', './HotkeyAlias', './HotkeySet']
-    attribute_names = ['id', 'parent']
-    child_dicts = [{} for name in child_names]
-    att_dicts = [{} for name in attribute_names]
-    root = ET.parse(path).getroot()
-
-    for button in root.findall('./CButton'):
-        for num,att in enumerate(attribute_names):
-            if att in button.attrib:
-                att_dicts[num][button.get('id')] = button.get(att)
-        for num,child_name in enumerate(child_names):
-            for child_elem in button.findall(child_name):
-                child_dicts[num][button.get('id')] = child_elem.get('value')
-    return att_dicts,child_dicts
-
-# attd, childd = get_button_data('dataimport/core/ButtonData.xml')
-# print(attd)
-# for dictt in childd:
-#     print(dictt)
-
-
-def xml_button_copy(path):
-    tree = ET.parse(path)
-    root = tree.getroot()
-    for root_child in root.findall('./'):
-        if root_child.tag != 'CButton':
-            root.remove(root_child)
-            break
-        for child in root_child.findall('./'):
-            if child.tag not in ['Universal', 'Hotkey', 'HotkeyAlias', 'HotkeySet']:
-                root_child.remove(child)
-    tree.write('output.xml')
-
-def xml_unit_copy(path):
-    tree = ET.parse(path)
-    root = tree.getroot()
-    for root_child in root.findall('./'):
-        if root_child.tag != 'CUnit':
-            root.remove(root_child)
-            break
-        for child in root_child.findall('./'):
-            if child.tag not in ['Cardlayouts']:
-                root_child.remove(child)
-    tree.write('output.xml')
-
+# quick check on inconsistent defaults
+gamehotkey_dict = {}
+for filepath in find_all('GameHotkeys.txt','dataimport'):
+    get_GameHotkeys(filepath, gamehotkey_dict)
