@@ -22,20 +22,20 @@ verify_hotkeydata.py	: Prints out inconsistentcies in what the same ability is b
 
 # automatic version
 A work in progress
-###### Some loosely used terminology:
+##### Some loosely used terminology:
 **Button:** The squary things you can click on.  
 **Ability:** What triggers when buttons are clicked.  
 **Hotkey:** Keyboard/mouse keys that trigger buttons/globals. '[Hotkeys]' in .SC2Hotkeys will be refered to as globals  
 **Global:** Stuff found under 'Global' in the Hotkeys edititing menu ingame.  
 **Command Card:** The 5x3 grid of buttons found in the bottom-right part of the screen while playing.  
 
-###### primary data sources
+##### primary data sources
 **UnitData.xml:** command cards from units. Buttons in command cards use 'Face' value to refer to ButtonData.xml.  
 **ButtonData.xml:** Buttons and their properties. Uses 'Hotkey' value to refer to GameHotkeys.txt.  
 **GameHotkeys.txt:** Default hotkey value used by buttons.
 
 
-###### ButtonData.xml
+##### ButtonData.xml
 -   CButton attribute 'id' is the one featured as ability in .SC2Hotkeys
 -   attribute 'parent', all children inherit from parent
 -	look for following children
@@ -44,11 +44,11 @@ A work in progress
 	-	Hotkey, attribute 'value'. Inherited default of this button. e.g. OracleAttack has "Button/Hotkey/Attack", same default hotkey as Attack. 
 	-	HotkeyAlias, attribute 'value'. Inherited hotkey of this button. e.g. CancelCocoon has "Button/Hotkey/Attack". CancelCocoon will then ALWAYS have the same hotkey as Cancel
 
-###### GameHotkeys.txt
+##### GameHotkeys.txt
 -	Look for 'Button/Hotkey/...=' (hotkeys for buttons) and 'UI/Hotkey/...=' (hotkeys for globals) lines without any suffixes (_SC1, _NRS, _USD, _USDL)  
 	-	e.g. 'Button/Hotkey/250mmStrikeCannons=C', then 250mmStrikeCannons/Thor=C is the .SC2Hotkeys entry.
 
-###### UnitData.xml
+##### UnitData.xml
 -	CUnit attribue 'id' is one featured as caster in .SC2Hotkeys 
 -	attribute 'parent', all children inherit from parent  
 -	Children SubgroupAlias and SubgroupPriority are responsible for 'selection merging'. e.g. Sieged and Unsieged Siege Tanks
@@ -64,7 +64,7 @@ example of how a unit in UnitData.xml looks with default values set. '##id##' re
         <CardLayouts index="" removed="0" CardId="">
             <LayoutButtons index="" Face="" Type="Undefined" Requirements="" Row="0" Column="0" removed="0"/>
 
-###### some relevant ButtonData.xml children
+##### some relevant ButtonData.xml children
 CButton id="" parent=""
 -	Element for containing buttons 
 -	id: Name of the button. Referenced in .SC2Hotkeys. Reference to ingame name given by GameStrings.txt  
@@ -80,7 +80,7 @@ Universal value=""
 HotkeySet value=""
 -	Buttons with the same HotkeySet value will not conflict.
 	
-###### some relevant UnitData.xml children  
+##### some relevant UnitData.xml children  
 CUnit id="" parent=""  
 -	element for containing unit data. id is name of unit mentioned in .SC2Hotkeys. inherits all data from parent.
 
