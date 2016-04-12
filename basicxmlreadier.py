@@ -1,6 +1,14 @@
 import xml.etree.ElementTree as ET
 import os
 
+# TODO read DocumentInfo files for dependencies
+# TODO CardLayouts removed="1", skip these?
+# TODO CardLayouts index="", what is it?
+# TODO CardLayouts RowText="", what is it?
+# TODO LayoutButtons Type="Undefined", skip these?
+# TODO LayoutButtons Row="" Column="" stacking
+# TODO LayoutButtons Requirement="", mutually exclusive requirements
+
 button_type_elements = ['Undefined']  # These Type elements indicates absence of hotkey
 
 unit_elements = {'CUnit': ['parent','default','id',
@@ -110,7 +118,6 @@ def get_UnitData(filepath, gamehotkey_dict, uni_dict, hotkeyalias_dict, subgroup
             subgroupalias_dict[unit.get('id')] = child.get('value')
         for child in unit.findall('./SubgroupPriority'):
             subgrouppriority_dict[unit.get('id')] = child.get('value')
-        # print(unit.get('id'),bool(unit.get('id') in subgroupalias_dict),subgroupalias_dict[unit.get('id')])
 
         if subgroupalias_dict[unit.get('id')] == '##id##':
             unitid = unit.get('id')
@@ -118,45 +125,44 @@ def get_UnitData(filepath, gamehotkey_dict, uni_dict, hotkeyalias_dict, subgroup
             unitid = subgroupalias_dict[unit.get('id')]
         # what if neither?
 
-        # if subgrouppriority_dict[unit.get('id')] == subgrouppriority_dict[unitid]:
-            # priority and subgroup alias are the same
-            # in this case command cards overlap. E.g. Siege Mode and Tank Mode on the same command card when both units are selected
-
-        # TODO warp prism phasing mode joining.
-        # TODO make documentation for relevant fields
-        # TODO get files. then order then according to dependency (read DocumentInfo)
-
         for card in unit.findall('./CardLayouts'):
-            if card.get('CardId'):
-                cardid = ' - '+card.get('CardId')
+            if unit.get('id') in subgrouppriority_dict and unitid in subgrouppriority_dict and \
+                    subgrouppriority_dict[unit.get('id')] != subgrouppriority_dict[unitid]:
+                cardid = unit.get('id')
             else:
-                cardid = ""
-            conflictsset[unitid+cardid] = []
+                cardid = unitid
+            if card.get('CardId'):
+                cardid += ' - '+card.get('CardId')
+
+            if cardid not in conflictsset:
+                conflictsset[cardid] = []
             for button in card.findall('./LayoutButtons'):
-                buttonhotkey = ""
+                buttonhotkey = "="
                 if 'Face' in button.attrib:
                     buttonid = button.get('Face')
                 elif list(button):
                     for att in button.findall('./Face'):
                         buttonid = att.get('value')
+                elif button.get('removed') == "1" or button.find('./removed').get('value') == "1":
+                    continue
                 else:
-                    print("Error. Missing face on "+unit.get('id')+" in "+filepath)
+                    print("Error: Missing face on "+unit.get('id')+" in "+filepath)
                     break
 
                 if buttonid in hotkeyalias_dict:
                     buttonid = hotkeyalias_dict[buttonid]
 
                 if buttonid in gamehotkey_dict:
-                    buttonhotkey = '='+gamehotkey_dict[buttonid]
+                    buttonhotkey += gamehotkey_dict[buttonid]
 
                 if buttonid in uni_dict and uni_dict[buttonid]:
-                    if buttonid not in conflictsset[unitid+cardid]:
-                        conflictsset[unitid+cardid].append(buttonid)
+                    if buttonid not in conflictsset[cardid]:
+                        conflictsset[cardid].append(buttonid)
                     if buttonid+buttonhotkey not in keylist:
                         keylist.append(buttonid+buttonhotkey)
                 else:
-                    if buttonid+'/'+unitid not in conflictsset[unitid+cardid]:
-                        conflictsset[unitid+cardid].append(buttonid+'/'+unitid)
+                    if buttonid+'/'+unitid not in conflictsset[cardid]:
+                        conflictsset[cardid].append(buttonid+'/'+unitid)
                     if buttonid+'/'+unitid+buttonhotkey not in keylist:
                         keylist.append(buttonid+'/'+unitid+buttonhotkey)
     return keylist, conflictsset, subgroupalias_dict, subgrouppriority_dict
@@ -198,7 +204,7 @@ def key_extractor():
             for line in sorted(keylist):
                 f.write(line+'\n')
                 if all(line not in dataline for dataline in data):
-                    print(line)
+                    print('line missing in TheCoreConverter '+line)
         with open('generated conflicts checks.txt','w') as f:
             for conflicts in sorted(conflictsset):
                 f.write(conflicts+': '+', '.join(conflictsset[conflicts])+'\n')
@@ -207,11 +213,11 @@ def key_extractor():
 key_extractor()
 
 # quick check on inconsistent defaults
-gamehotkey_dict = {}
-for filepath in find_all('GameHotkeys.txt','dataimport'):
-    get_GameHotkeys(filepath, gamehotkey_dict)
-
-for filepath in find_all('UnitData.xml','dataimport'):
-    root = ET.parse(filepath).getroot()
-    for unit in root.findall('./CUnit[@default]'):
-        print(filepath,unit.get('id'))
+# gamehotkey_dict = {}
+# for filepath in find_all('GameHotkeys.txt','dataimport'):
+#     get_GameHotkeys(filepath, gamehotkey_dict)
+#
+# for filepath in find_all('UnitData.xml','dataimport'):
+#     root = ET.parse(filepath).getroot()
+#     for unit in root.findall('./CUnit[@default]'):
+#         print(filepath,unit.get('id'))

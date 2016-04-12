@@ -15,13 +15,13 @@ Barracks: Marine/Barracks, Marauder/Barracks, Reaper/Barracks, Ghost/Barracks, R
 BarracksFlying: Land, Reactor/BarracksFlying, TechLabBarracks/BarracksFlying, Stop, Move, MoveHoldPosition, MovePatrol
 BarracksTechLab: Cancel, ResearchShieldWall/BarracksTechLab, Stimpack/BarracksTechLab, ResearchPunisherGrenades/BarracksTechLab, ReaperSpeed/BarracksTechLab
 Battlecruiser: Move, Stop, MoveHoldPosition, MovePatrol, Attack, YamatoGun
-BroodLord: Move, Stop, MoveHoldPosition, Attack, MovePatrol
+BroodLord: Move, Stop, MoveHoldPosition, Attack, MovePatrol, SwarmSeeds/BroodLord
 BroodLordCocoon: Move, Stop, MoveHoldPosition, MovePatrol, Attack, Cancel
 Broodling: Move, Stop, MoveHoldPosition, Attack, MovePatrol
 Bunker: Attack, Stop, Stim, SetBunkerRallyPoint/Bunker, BunkerLoad, BunkerUnloadAll, Salvage/Bunker, Halt, Cancel, SelectBuilder
-Carrier: Move, Stop, MoveHoldPosition, Attack, MovePatrol, Interceptor/Carrier, Cancel
-Changeling: Attack, MovePatrol
-Colossus: Move, Stop, MoveHoldPosition, Attack, MovePatrol
+Carrier: Move, Stop, MoveHoldPosition, Attack, MovePatrol, Interceptor/Carrier, Cancel, GravitonCatapult/Carrier
+Changeling: Move, Stop, MoveHoldPosition, MovePatrol, Attack, Disguise/Changeling
+Colossus: Move, Stop, MoveHoldPosition, Attack, MovePatrol, CliffWalk/Colossus
 CommandCenter: SCV, OrbitalCommand/CommandCenter, UpgradeToPlanetaryFortress/CommandCenter, Rally, CommandCenterLoad, CommandCenterUnloadAll, Lift, Halt, Cancel, SelectBuilder
 CommandCenterFlying: Land, Stop, Move, CommandCenterLoad, CommandCenterUnloadAll, MoveHoldPosition, MovePatrol
 Corruptor: Move, Stop, MoveHoldPosition, Attack, MovePatrol, BroodLord/Corruptor, CorruptionAbility/Corruptor, Cancel
@@ -29,7 +29,7 @@ CreepTumorBurrowed: Cancel, BuildCreepTumorPropagate/CreepTumorBurrowed
 Critter: Move, Stop, MoveHoldPosition, MovePatrol, Attack
 CyberneticsCore: ProtossAirWeaponsLevel1/CyberneticsCore, ProtossAirArmorLevel1/CyberneticsCore, Cancel, ResearchWarpGate/CyberneticsCore, ResearchHallucination/CyberneticsCore
 DarkShrine: Cancel
-DarkTemplar: Move, Stop, MoveHoldPosition, Attack, MovePatrol, Rally, AWrp
+DarkTemplar: Move, Stop, MoveHoldPosition, Attack, MovePatrol, Rally, AWrp, PermanentlyCloaked/DarkTemplar
 Drone: Move, Stop, MoveHoldPosition, Attack, MovePatrol, ReturnCargo, ZergBuild/Drone, ZergBuildAdvanced/Drone, BurrowDown, GatherProt
 Drone - ZBl1: Hatchery/Drone, Extractor/Drone, SpawningPool/Drone, EvolutionChamber/Drone, BanelingNest/Drone, Cancel, RoachWarren/Drone, SpineCrawler/Drone, SporeCrawler/Drone
 Drone - ZBl2: Spire/Drone, UltraliskCavern/Drone, Cancel, NydusNetwork/Drone, InfestationPit/Drone, HydraliskDen/Drone
@@ -55,7 +55,7 @@ Hive: Larva, Cancel, RallyEgg, Rally, Queen, overlordspeed, ResearchBurrow, Evol
 Hydralisk: Move, Stop, MoveHoldPosition, Attack, MovePatrol, BurrowDown
 HydraliskBurrowed: Attack, BurrowUp
 HydraliskDen: Cancel, hydraliskspeed/HydraliskDen
-Immortal: Move, Stop, MoveHoldPosition, Attack, MovePatrol
+Immortal: Move, Stop, MoveHoldPosition, Attack, MovePatrol, HardenedShield/Immortal
 InfestationPit: Cancel, EvolvePeristalsis/InfestationPit, EvolveInfestorEnergyUpgrade/InfestationPit
 InfestedTerransEgg: Move, Stop, MoveHoldPosition, MovePatrol, Attack
 Infestor: Move, Stop, MoveHoldPosition, MovePatrol, FungalGrowth/Infestor, InfestedTerrans/Infestor, NeuralParasite/Infestor, Attack, BurrowDown, Cancel
@@ -66,42 +66,42 @@ Interceptor: Move, Stop, MoveHoldPosition, Attack, MovePatrol
 Lair: Larva, Cancel, Hive/Lair, RallyEgg, Rally, Queen, overlordspeed, ResearchBurrow, EvolveVentralSacks
 Larva: Drone/Larva, Zergling/Larva, Overlord/Larva, Roach/Larva, Mutalisk/Larva, Infestor/Larva, Ultralisk/Larva, Corruptor/Larva, Cancel, Hydralisk/Larva
 MULE: Move, Stop, MoveHoldPosition, Attack, MovePatrol, GatherProt, Repair, ReturnCargo
-Marauder: Move, Stop, MoveHoldPosition, MovePatrol, Attack
+Marauder: Move, Stop, MoveHoldPosition, MovePatrol, Attack, ConcussiveGrenade/Marauder, Stim
 Marine: Move, Stop, MoveHoldPosition, Attack, MovePatrol, Stim
 Medivac: Move, Stop, MoveHoldPosition, MovePatrol, BunkerLoad, Attack, Heal/Medivac, BunkerUnloadAll
-MissileTurret: Halt, Cancel, Stop, Attack
-Mothership: Move, Stop, MoveHoldPosition, MovePatrol, Attack
+MissileTurret: Halt, Cancel, Stop, Attack, Detector/MissileTurret, SelectBuilder
+Mothership: Move, Stop, MoveHoldPosition, MovePatrol, Attack, CloakingField/Mothership, MassRecall/Mothership, Vortex/Mothership
 Mutalisk: Move, Stop, MoveHoldPosition, Attack, MovePatrol
 Nexus: Cancel, Probe/Nexus, Rally, Mothership/Nexus, TimeWarp/Nexus
 NydusCanal: Stop, Rally, BunkerLoad, BunkerUnloadAll
 NydusNetwork: Cancel, BunkerLoad, BunkerUnloadAll, Rally, SummonNydusWorm/NydusNetwork, Stop
-Observer: Move, Stop, MoveHoldPosition, MovePatrol, Attack
+Observer: Move, Stop, MoveHoldPosition, MovePatrol, Attack, PermanentlyCloakedObserver/Observer, Detector/Observer
 OrbitalCommand: SCV, Lift, Cancel, Scan/OrbitalCommand, Rally, CalldownMULE/OrbitalCommand, SupplyDrop/OrbitalCommand
 OrbitalCommandFlying: Land, Stop, Move, CommandCenterLoad, BunkerUnloadAll, MoveHoldPosition, MovePatrol
 Overlord: Move, Stop, MoveHoldPosition, Attack, MovePatrol, MorphToOverseer/Overlord, Cancel, GenerateCreep/Overlord, BunkerLoad, BunkerUnloadAll, StopGenerateCreep
 OverlordCocoon: Move, Stop, MoveHoldPosition, Attack, MovePatrol, Cancel
 OverlordGenerateCreepKeybind: StopGenerateCreep
-Overseer: Move, Stop, MoveHoldPosition, Attack, MovePatrol, SpawnChangeling/Overseer
+Overseer: Move, Stop, MoveHoldPosition, Attack, MovePatrol, SpawnChangeling/Overseer, Detector/Overseer
 Phoenix: Move, Stop, MoveHoldPosition, Attack, MovePatrol, Cancel, GravitonBeam/Phoenix
-PhotonCannon: Cancel, Stop, Attack
+PhotonCannon: Cancel, Stop, Attack, Detector/PhotonCannon
 PlanetaryFortress: CommandCenterLoad, CommandCenterUnloadAll, StopPlanetaryFortress/PlanetaryFortress, Attack, Cancel, SCV, Rally
-PointDefenseDrone: 
+PointDefenseDrone: PointDefense/PointDefenseDrone
 Probe: Move, Stop, MoveHoldPosition, Attack, MovePatrol, GatherProt, ReturnCargo, ProtossBuild/Probe, ProtossBuildAdvanced/Probe
 Probe - PBl1: Nexus/Probe, Assimilator/Probe, Pylon/Probe, Gateway/Probe, Forge/Probe, CyberneticsCore/Probe, Cancel, PhotonCannon/Probe
 Probe - PBl2: Stargate/Probe, TemplarArchive/Probe, RoboticsFacility/Probe, FleetBeacon/Probe, Cancel, DarkShrine/Probe, TwilightCouncil/Probe, RoboticsBay/Probe
 Pylon: Cancel
 Queen: Move, Stop, MoveHoldPosition, MovePatrol, Attack, MorphMorphalisk/Queen, BuildCreepTumor/Queen, Transfusion/Queen, BurrowDown
 QueenBurrowed: Attack, BurrowUp
-Raven: Move, Stop, MoveHoldPosition, MovePatrol, AutoTurret/Raven, Attack
+Raven: Move, Stop, MoveHoldPosition, MovePatrol, AutoTurret/Raven, Attack, Detector/Raven, HunterSeekerMissile/Raven, PointDefenseDrone/Raven
 Reactor: Cancel
-Reaper: Move, Stop, MoveHoldPosition, Attack, MovePatrol
+Reaper: Move, Stop, MoveHoldPosition, Attack, MovePatrol, JetPack/Reaper
 RedstoneLavaCritter: Move, Stop, MoveHoldPosition, MovePatrol, BurrowDown
 RedstoneLavaCritterBurrowed: Move, Stop, MoveHoldPosition, MovePatrol, BurrowUp
 RedstoneLavaCritterInjured: Move, Stop, MoveHoldPosition, MovePatrol, BurrowDown
 RedstoneLavaCritterInjuredBurrowed: Move, Stop, MoveHoldPosition, MovePatrol, BurrowUp
 Refinery: Halt, Cancel, SelectBuilder
-Roach: Move, Stop, MoveHoldPosition, Attack, MovePatrol
-RoachBurrowed: Attack, BurrowUp
+Roach: Move, Stop, MoveHoldPosition, Attack, MovePatrol, RapidRegeneration/Roach, BurrowDown
+RoachBurrowed: Attack, BurrowUp, RapidRegeneration/RoachBurrowed, Move, Stop, MoveHoldPosition, MovePatrol
 RoachWarren: Cancel, EvolveGlialRegeneration/RoachWarren, EvolveTunnelingClaws/RoachWarren
 RoboticsBay: ResearchExtendedThermalLance/RoboticsBay, Cancel, ResearchGraviticBooster/RoboticsBay, ResearchGraviticDrive/RoboticsBay
 RoboticsFacility: Cancel, Colossus/RoboticsFacility, Observer/RoboticsFacility, Rally, WarpPrism/RoboticsFacility, Immortal/RoboticsFacility
@@ -109,15 +109,15 @@ SCV: Move, Stop, MoveHoldPosition, Attack, MovePatrol, Repair, GatherProt, Retur
 SCV - TBl1: CommandCenter/SCV, Refinery/SCV, SupplyDepot/SCV, Barracks/SCV, EngineeringBay/SCV, Bunker/SCV, MissileTurret/SCV, SensorTower/SCV, Cancel
 SCV - TBl2: GhostAcademy/SCV, Factory/SCV, Armory/SCV, Starport/SCV, FusionCore/SCV, Cancel
 ScopeTest: Move, Stop, MoveHoldPosition, Attack, MovePatrol
-SensorTower: 
+SensorTower: RadarField/SensorTower, Halt, Cancel, SelectBuilder
 Sentry: Move, Stop, MoveHoldPosition, MovePatrol, Attack, Rally, ForceField/Sentry, GuardianShield/Sentry, Hallucination/Sentry
 Sentry - HTH1: ProbeHallucination/Sentry, ZealotHallucination/Sentry, StalkerHallucination/Sentry, ImmortalHallucination/Sentry, HighTemplarHallucination/Sentry, ArchonHallucination/Sentry, VoidRayHallucination/Sentry, PhoenixHallucination/Sentry, WarpPrismHallucination/Sentry, ColossusHallucination/Sentry, Cancel
-SiegeTank: Move, Stop, MoveHoldPosition, Attack, MovePatrol, Unsiege
+SiegeTank: Move, Stop, MoveHoldPosition, Attack, MovePatrol, SiegeMode, Unsiege
 SpawningPool: Cancel, zerglingmovementspeed/SpawningPool, zerglingattackspeed/SpawningPool
 SpineCrawler: Cancel, Stop, Attack, SpineCrawlerUproot/SpineCrawler
 SpineCrawlerUprooted: Attack, Move, MoveHoldPosition, MovePatrol, Stop, SpineCrawlerRoot/SpineCrawlerUprooted, Cancel
 Spire: Cancel, GreaterSpire/Spire, zergflyerattack1, zergflyerarmor1
-SporeCrawler: Cancel, Stop, Attack, SporeCrawlerUproot/SporeCrawler
+SporeCrawler: Cancel, Stop, Attack, SporeCrawlerUproot/SporeCrawler, Detector/SporeCrawler
 SporeCrawlerUprooted: Attack, Move, MoveHoldPosition, MovePatrol, Stop, SporeCrawlerRoot/SporeCrawlerUprooted, Cancel
 Stalker: Move, Stop, MoveHoldPosition, Attack, MovePatrol, Rally, Blink/Stalker
 Stargate: Cancel, Phoenix/Stargate, Carrier/Stargate, Rally, VoidRay/Stargate
@@ -133,10 +133,11 @@ TwilightCouncil: Cancel, ResearchStalkerTeleport/TwilightCouncil, ResearchCharge
 Ultralisk: Move, Stop, MoveHoldPosition, Attack, MovePatrol, BurrowDown
 UltraliskBurrowed: Attack, BurrowUp
 UltraliskCavern: Cancel, EvolveAnabolicSynthesis2/UltraliskCavern, EvolveChitinousPlating/UltraliskCavern
-VikingAssault: Move, MovePatrol, MoveHoldPosition, Stop, Attack, AssaultMode
-VoidRay: Move, Stop, MoveHoldPosition, Attack, MovePatrol
+VikingAssault: Move, MovePatrol, MoveHoldPosition, Stop, Attack, FighterMode, AssaultMode
+VoidRay: Move, Stop, MoveHoldPosition, Attack, MovePatrol, PrismaticBeam/VoidRay
 WarpGate: Zealot, Stalker, HighTemplar, DarkTemplar, Rally, MorphBackToGateway/WarpGate, Sentry
-WarpPrism: Move, Stop, MoveHoldPosition, MovePatrol, Attack, BunkerLoad, BunkerUnloadAll, TransportMode/WarpPrism
+WarpPrism: Move, Stop, MoveHoldPosition, MovePatrol, Attack, BunkerLoad, BunkerUnloadAll, PhasingMode/WarpPrism
+WarpPrismPhasing: Move, Stop, MoveHoldPosition, MovePatrol, Attack, BunkerLoad, BunkerUnloadAll, TransportMode/WarpPrism
 Zealot: Move, Stop, MoveHoldPosition, Attack, MovePatrol, Rally, Charge/Zealot
 Zergling: Move, Stop, MoveHoldPosition, Attack, MovePatrol, Baneling/Zergling, BurrowDown
 ZerglingBurrowed: Attack, BurrowUp
