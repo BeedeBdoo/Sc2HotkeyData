@@ -94,6 +94,7 @@ def get_UnitData(filepath, gamehotkey_dict, uni_dict, hotkeyalias_dict, subgroup
     for unit in root.findall('./CUnit'):
         buttonid = ""
         unitid = ""
+        # default removes inheriting from older versions?
         if 'parent' in unit.attrib:
             if unit.get('parent') in subgroupalias_dict:
                 subgroupalias_dict[unit.get('id')] = subgroupalias_dict[unit.get('parent')]
@@ -125,7 +126,6 @@ def get_UnitData(filepath, gamehotkey_dict, uni_dict, hotkeyalias_dict, subgroup
         # TODO make documentation for relevant fields
         # TODO get files. then order then according to dependency (read DocumentInfo)
 
-
         for card in unit.findall('./CardLayouts'):
             if card.get('CardId'):
                 cardid = ' - '+card.get('CardId')
@@ -133,14 +133,15 @@ def get_UnitData(filepath, gamehotkey_dict, uni_dict, hotkeyalias_dict, subgroup
                 cardid = ""
             conflictsset[unitid+cardid] = []
             for button in card.findall('./LayoutButtons'):
-                if button.get('Type') == 'Passive' or any(att.get('value') == 'Passive' for att in button):
-                    break
                 buttonhotkey = ""
                 if 'Face' in button.attrib:
                     buttonid = button.get('Face')
                 elif list(button):
                     for att in button.findall('./Face'):
                         buttonid = att.get('value')
+                else:
+                    print("Error. Missing face on "+unit.get('id')+" in "+filepath)
+                    break
 
                 if buttonid in hotkeyalias_dict:
                     buttonid = hotkeyalias_dict[buttonid]
@@ -158,11 +159,6 @@ def get_UnitData(filepath, gamehotkey_dict, uni_dict, hotkeyalias_dict, subgroup
                         conflictsset[unitid+cardid].append(buttonid+'/'+unitid)
                     if buttonid+'/'+unitid+buttonhotkey not in keylist:
                         keylist.append(buttonid+'/'+unitid+buttonhotkey)
-
-                if buttonhotkey == "":
-                    print(button.get('Type'))
-                    print(any(att.get('value') == 'Passive' for att in button))
-                    print(buttonid)
     return keylist, conflictsset, subgroupalias_dict, subgrouppriority_dict
 
 
@@ -214,3 +210,8 @@ key_extractor()
 gamehotkey_dict = {}
 for filepath in find_all('GameHotkeys.txt','dataimport'):
     get_GameHotkeys(filepath, gamehotkey_dict)
+
+for filepath in find_all('UnitData.xml','dataimport'):
+    root = ET.parse(filepath).getroot()
+    for unit in root.findall('./CUnit[@default]'):
+        print(filepath,unit.get('id'))
