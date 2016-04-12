@@ -22,6 +22,7 @@ verify_hotkeydata.py	: Prints out inconsistentcies in what the same ability is b
 
 # automatic version
 A work in progress
+
 ##### Some loosely used terminology:
 **Button:** The squary things you can click on.  
 **Ability:** What triggers when buttons are clicked.  
@@ -29,12 +30,13 @@ A work in progress
 **Global:** Stuff found under 'Global' in the Hotkeys edititing menu ingame.  
 **Command Card:** The 5x3 grid of buttons found in the bottom-right part of the screen while playing.  
 
+<br />
 ##### primary data sources
 **UnitData.xml:** command cards from units. Buttons in command cards use 'Face' value to refer to ButtonData.xml.  
 **ButtonData.xml:** Buttons and their properties. Uses 'Hotkey' value to refer to GameHotkeys.txt.  
 **GameHotkeys.txt:** Default hotkey value used by buttons.
 
-
+<br />
 ##### ButtonData.xml
 -   CButton attribute 'id' is the one featured as ability in .SC2Hotkeys
 -   attribute 'parent', all children inherit from parent
@@ -44,9 +46,11 @@ A work in progress
 	-	Hotkey, attribute 'value'. Inherited default of this button. e.g. OracleAttack has "Button/Hotkey/Attack", same default hotkey as Attack. 
 	-	HotkeyAlias, attribute 'value'. Inherited hotkey of this button. e.g. CancelCocoon has "Button/Hotkey/Attack". CancelCocoon will then ALWAYS have the same hotkey as Cancel
 
+
 ##### GameHotkeys.txt
 -	Look for 'Button/Hotkey/...=' (hotkeys for buttons) and 'UI/Hotkey/...=' (hotkeys for globals) lines without any suffixes (_SC1, _NRS, _USD, _USDL)  
 	-	e.g. 'Button/Hotkey/250mmStrikeCannons=C', then 250mmStrikeCannons/Thor=C is the .SC2Hotkeys entry.
+
 
 ##### UnitData.xml
 -	CUnit attribue 'id' is one featured as caster in .SC2Hotkeys 
@@ -63,7 +67,8 @@ example of how a unit in UnitData.xml looks with default values set. '##id##' re
         <SubgroupPriority value="0"/>
         <CardLayouts index="" removed="0" CardId="">
             <LayoutButtons index="" Face="" Type="Undefined" Requirements="" Row="0" Column="0" removed="0"/>
-
+  
+<br />
 ##### some relevant ButtonData.xml children
 CButton id="" parent=""
 -	Element for containing buttons 
@@ -79,7 +84,8 @@ Universal value=""
 
 HotkeySet value=""
 -	Buttons with the same HotkeySet value will not conflict.
-	
+
+<br />	
 ##### some relevant UnitData.xml children  
 CUnit id="" parent=""  
 -	element for containing unit data. id is name of unit mentioned in .SC2Hotkeys. inherits all data from parent.
