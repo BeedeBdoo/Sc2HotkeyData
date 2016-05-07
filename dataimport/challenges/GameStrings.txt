@@ -1,2 +1,0 @@
-Button/Tooltip/CorruptionAbility=Covers the target enemy unit in Zerg slime, increasing the damage taken by 20% for 30 seconds. 
-Button/Tooltip/NeuralParasite=Target unit is controlled by the Infestor until one of them dies, or the Infestor relinquishes control. The Infestor cannot take any other action while controlling an enemy unit.<n/><n/><c val="ffff8a">Channeled ability.</c> 

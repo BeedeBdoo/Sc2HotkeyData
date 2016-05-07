@@ -135,7 +135,7 @@ def append_element(elem, tree):
                 print('error: duplicate id', child.get('id'), 'parent')
             parent_elem = child
     if not elemisforeign and elem.get('parent') != elem.get('id'):
-        print('error: forerign element', elem.get('id'), 'has an overwriting parent')
+        print('error: foreign element', elem.get('id'), 'has an overwriting parent')
 
     if parent_elem is None:
         root.append(elem)
@@ -163,6 +163,8 @@ def tree_merger(ordered_path_list):
     tree = ET.ElementTree(ET.Element('Catalog', {}))
     print('tree merger: initiated')
     for path in ordered_path_list:
+        if not os.path.isfile(path):
+            continue
         print('tree merger: append initiated', path)
         tree = append_tree(tree, ET.parse(path))
         print('tree merger: append completed', path)

@@ -33,9 +33,9 @@ dependencies = [
 
 unit_path_lists = []; button_path_lists = []; hotkey_path_lists = []
 for journey in dependencies:
-    unit_path_lists.append(['dataimport/'+path+'/UnitData.xml' for path in journey])
-    button_path_lists.append(['dataimport/'+path+'/ButtonData.xml' for path in journey])
-    hotkey_path_lists.append(['dataimport/'+path+'/GameHotkeys.txt' for path in journey])
+    unit_path_lists.append(['data/'+path+'/UnitData.xml' for path in journey])
+    button_path_lists.append(['data/'+path+'/ButtonData.xml' for path in journey])
+    hotkey_path_lists.append(['data/'+path+'/GameHotkeys.txt' for path in journey])
 
 
 def find_all(name, path):  # for looking through directory for filename
@@ -49,6 +49,8 @@ def find_all(name, path):  # for looking through directory for filename
 def get_GameHotkeys(filepath, gamehotkey_dict):
     # looks through GameHotkeys.txt file
     # returns a dictionary with hotkey name as index, value as key
+    if not os.path.isfile(filepath):
+        return gamehotkey_dict
     with open(filepath) as file:
         game_hotkeys = file.readlines()
     for line in game_hotkeys:
@@ -218,12 +220,7 @@ def write_to_file(keylist, conflictsset):
             j += 1
 
 
-# quick check on inconsistent defaults
-# gamehotkey_dict = {}
-# for filepath in find_all('GameHotkeys.txt', 'dataimport'):
-#     get_GameHotkeys(filepath, gamehotkey_dict)
-
-def execute(index):
+def generate_checks(index):
     gamehotkey_dict = {}
     for path in hotkey_path_lists[index]:
         gamehotkey_dict = get_GameHotkeys(path, gamehotkey_dict)
@@ -241,5 +238,6 @@ def execute(index):
         get_UnitData(unit_tree, gamehotkey_dict, uni_dict, hotkeyalias_dict)
 
     write_to_file(keylist, conflictsset)
+    print('conflicts checks generation complete.')
 
-execute(3)
+generate_checks(-1)

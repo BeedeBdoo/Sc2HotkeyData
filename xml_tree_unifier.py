@@ -47,7 +47,7 @@ def elem_write(elem, scope, file):  # writes out nested dictionary created by ch
 
 def update_union():
     unit = [{}, {}]
-    for path in find_all('UnitData.xml', 'dataimport'):
+    for path in find_all('UnitData.xml', 'data'):
         root = ET.parse(path).getroot()
         child_iter(root, unit)
 
@@ -55,7 +55,7 @@ def update_union():
         elem_write(unit, 0, f)
 
     button = [{}, {}]
-    for path in find_all('ButtonData.xml', 'dataimport'):
+    for path in find_all('ButtonData.xml', 'data'):
         root = ET.parse(path).getroot()
         child_iter(root, button)
 
