@@ -65,7 +65,7 @@ example of how a unit in UnitData.xml looks with default values set. '##id##' re
     <CUnit id="CUnit" parent="CUnit">
         <SubgroupAlias value="##id##"/>
         <SubgroupPriority value="0"/>
-        <CardLayouts index="" removed="0" CardId="">
+        <CardLayouts index="" removed="" CardId="">
             <LayoutButtons index="" Face="" Type="Undefined" Requirements="" Row="0" Column="0" removed="0"/>
   
 <br />

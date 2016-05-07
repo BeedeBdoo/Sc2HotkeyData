@@ -51,7 +51,7 @@ def update_union():
         root = ET.parse(path).getroot()
         child_iter(root, unit)
 
-    with open('Union UnitData.txt','w') as f:
+    with open('Unified UnitData.txt','w') as f:
         elem_write(unit, 0, f)
 
     button = [{}, {}]
@@ -59,7 +59,7 @@ def update_union():
         root = ET.parse(path).getroot()
         child_iter(root, button)
 
-    with open('Union ButtonData.txt','w') as f:
+    with open('Unified ButtonData.txt','w') as f:
         elem_write(button, 0, f)
 
 

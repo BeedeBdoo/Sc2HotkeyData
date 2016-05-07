@@ -1,0 +1,1752 @@
+<Catalog><CButton default="1" id="None" parent="None">
+        <Hotkey value="Button/Hotkey/##id##" />
+        <HotkeyAlias value="##id##" />
+        </CButton>
+    <CButton id="Taunt" parent="None"><Hotkey value="Button/Hotkey/Taunt" /><HotkeyAlias value="Taunt" /></CButton>
+    <CButton id="BeaconMove" parent="None">
+        <Universal value="1" />
+    <Hotkey value="Button/Hotkey/BeaconMove" /><HotkeyAlias value="BeaconMove" /></CButton>
+    <CButton id="MovePatrol" parent="None">
+        <Universal value="1" />
+    <Hotkey value="Button/Hotkey/MovePatrol" /><HotkeyAlias value="MovePatrol" /></CButton>
+    <CButton id="MoveHoldPosition" parent="None">
+        <Universal value="1" />
+    <Hotkey value="Button/Hotkey/MoveHoldPosition" /><HotkeyAlias value="MoveHoldPosition" /></CButton>
+    <CButton id="AcquireMove" parent="None">
+        <HotkeyAlias value="Attack" />
+    <Hotkey value="Button/Hotkey/AcquireMove" /></CButton>
+    <CButton id="Turn" parent="None">
+        <Universal value="1" />
+    <Hotkey value="Button/Hotkey/Turn" /><HotkeyAlias value="Turn" /></CButton>
+    <CButton id="Stop" parent="None">
+        <Universal value="1" />
+    <Hotkey value="Button/Hotkey/Stop" /><HotkeyAlias value="Stop" /></CButton>
+    <CButton id="StopSpecial" parent="None">
+        <Universal value="1" />
+    <Hotkey value="Button/Hotkey/StopSpecial" /><HotkeyAlias value="StopSpecial" /></CButton>
+    <CButton id="Cheer" parent="None">
+        <Universal value="1" />
+    <Hotkey value="Button/Hotkey/Cheer" /><HotkeyAlias value="Cheer" /></CButton>
+    <CButton id="Dance" parent="None">
+        <Universal value="1" />
+    <Hotkey value="Button/Hotkey/Dance" /><HotkeyAlias value="Dance" /></CButton>
+    <CButton id="HoldFire" parent="None">
+        <Universal value="1" />
+    <Hotkey value="Button/Hotkey/HoldFire" /><HotkeyAlias value="HoldFire" /></CButton>
+    <CButton id="HoldFireSpecial" parent="None">
+        <Universal value="1" />
+    <Hotkey value="Button/Hotkey/HoldFireSpecial" /><HotkeyAlias value="HoldFireSpecial" /></CButton>
+    <CButton id="Cancel" parent="None">
+        <Universal value="1" />
+    <Hotkey value="Button/Hotkey/Cancel" /><HotkeyAlias value="Cancel" /></CButton>
+    <CButton id="CancelBuilding" parent="None">
+        <HotkeyAlias value="Cancel" />
+    <Hotkey value="Button/Hotkey/CancelBuilding" /></CButton>
+    <CButton id="Halt" parent="None">
+        <Universal value="1" />
+    <Hotkey value="Button/Hotkey/Halt" /><HotkeyAlias value="Halt" /></CButton>
+<CButton id="ArchonWarpTarget" parent="None">
+        <HotkeyAlias value="AWrp" />
+        <Universal value="1" />
+    <Hotkey value="Button/Hotkey/ArchonWarpTarget" /></CButton>
+    <CButton id="AttackBuilding" parent="None">
+        <HotkeyAlias value="Attack" />
+        <Hotkey value="Button/Hotkey/AttackBuilding" /></CButton>
+    <CButton id="AttackBuildingPFort" parent="AttackBuilding">
+        <HotkeyAlias value="Attack" /><Hotkey value="Button/Hotkey/AttackBuilding" /></CButton>
+    <CButton id="CancelCocoon" parent="None">
+        <Universal value="1" />
+        <Hotkey value="Button/Hotkey/Cancel" />
+        <HotkeyAlias value="Cancel" />
+    </CButton>
+    <CButton id="CancelCocoonMorph" parent="None">
+        <Universal value="1" />
+        <Hotkey value="Button/Hotkey/Cancel" />
+        <HotkeyAlias value="Cancel" />
+    </CButton>
+    <CButton id="CancelMutateMorph" parent="None">
+        <Universal value="1" />
+        <Hotkey value="Button/Hotkey/Cancel" />
+        <HotkeyAlias value="Cancel" />
+    </CButton>
+    <CButton id="CancelUpgradeMorph" parent="None">
+        <Universal value="1" />
+        <Hotkey value="Button/Hotkey/Cancel" />
+        <HotkeyAlias value="Cancel" />
+    </CButton>
+    <CButton id="CommandCenterUnloadAll" parent="None">
+        <Universal value="1" />
+    <Hotkey value="Button/Hotkey/CommandCenterUnloadAll" /><HotkeyAlias value="CommandCenterUnloadAll" /></CButton>
+    <CButton id="BurrowMove" parent="None">
+        <Hotkey value="Button/Hotkey/BurrowDown" />
+        <HotkeyAlias value="BurrowDown" />
+        <Universal value="1" />
+    </CButton>
+    <CButton id="CancelSlot" parent="None">
+        <Hotkey value="Button/Hotkey/Cancel" />
+        <HotkeyAlias value="Cancel" />
+    </CButton>
+    <CButton id="CommanderArtanisHighArchon" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderArtanisHighArchon" /><HotkeyAlias value="CommanderArtanisHighArchon" /></CButton>
+    <CButton id="CommanderArtanisStartingMaxSupply" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderArtanisStartingMaxSupply" /><HotkeyAlias value="CommanderArtanisStartingMaxSupply" /></CButton>
+    <CButton id="CommanderArtanisImprovedSolarBombardment" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderArtanisImprovedSolarBombardment" /><HotkeyAlias value="CommanderArtanisImprovedSolarBombardment" /></CButton>
+    <CButton id="CommanderRaynorUnlockBattlecruiser" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderRaynorUnlockBattlecruiser" /><HotkeyAlias value="CommanderRaynorUnlockBattlecruiser" /></CButton>
+    <CButton id="CommanderSwannUnlockThor" parent="None">
+        <HotkeyAlias value="CommanderSwannUnlockCyclone" />
+    <Hotkey value="Button/Hotkey/CommanderSwannUnlockThor" /></CButton>
+    <CButton id="CommanderVorazunImprovedTimeStop" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderVorazunImprovedTimeStop" /><HotkeyAlias value="CommanderVorazunImprovedTimeStop" /></CButton>
+    <CButton id="CommanderVorazunFleetBeaconUpgradesPack" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderVorazunFleetBeaconUpgradesPack" /><HotkeyAlias value="CommanderVorazunFleetBeaconUpgradesPack" /></CButton>
+    <CButton id="CommanderVorazunShadowGuardIncreasedSpawnCount" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderVorazunShadowGuardIncreasedSpawnCount" /><HotkeyAlias value="CommanderVorazunShadowGuardIncreasedSpawnCount" /></CButton>
+    <CButton id="CommanderVorazunSpearofAdunEmergencyRecall" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderVorazunSpearofAdunEmergencyRecall" /><HotkeyAlias value="CommanderVorazunSpearofAdunEmergencyRecall" /></CButton>
+    <CButton id="CommanderVorazunCloakedUnitsDamageBoost" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderVorazunCloakedUnitsDamageBoost" /><HotkeyAlias value="CommanderVorazunCloakedUnitsDamageBoost" /></CButton>
+    <CButton id="CommanderVorazunSpearofAdunTimeStop" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderVorazunSpearofAdunTimeStop" /><HotkeyAlias value="CommanderVorazunSpearofAdunTimeStop" /></CButton>
+    <CButton id="CommanderVorazunImprovedShieldRegeneration" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderVorazunImprovedShieldRegeneration" /><HotkeyAlias value="CommanderVorazunImprovedShieldRegeneration" /></CButton>
+    <CButton id="CommanderVorazunImprovedSpearofAdunBlackhole" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderVorazunImprovedSpearofAdunBlackhole" /><HotkeyAlias value="CommanderVorazunImprovedSpearofAdunBlackhole" /></CButton>
+    <CButton id="CommanderVorazunDarkArchonUpgradesPack" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderVorazunDarkArchonUpgradesPack" /><HotkeyAlias value="CommanderVorazunDarkArchonUpgradesPack" /></CButton>
+    <CButton id="CommanderVorazunDarkPylonRecall" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderVorazunDarkPylonRecall" /><HotkeyAlias value="CommanderVorazunDarkPylonRecall" /></CButton>
+    <CButton id="CommanderVorazunTwilightCouncilUpgradesPack" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderVorazunTwilightCouncilUpgradesPack" /><HotkeyAlias value="CommanderVorazunTwilightCouncilUpgradesPack" /></CButton>
+    <CButton id="CommanderVorazunShadowStalk" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderVorazunShadowStalk" /><HotkeyAlias value="CommanderVorazunShadowStalk" /></CButton>
+    <CButton id="CommanderArtanisUnlockTempest" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderArtanisUnlockTempest" /><HotkeyAlias value="CommanderArtanisUnlockTempest" /></CButton>
+    <CButton id="CommanderArtanisSpearofAdunSolarBombardment" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderArtanisSpearofAdunSolarBombardment" /><HotkeyAlias value="CommanderArtanisSpearofAdunSolarBombardment" /></CButton>
+    <CButton id="CommanderArtanisSpearofAdunGuardianShell" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderArtanisSpearofAdunGuardianShell" /><HotkeyAlias value="CommanderArtanisSpearofAdunGuardianShell" /></CButton>
+    <CButton id="CommanderArtanisSpearofAdunMatrixOverload" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderArtanisSpearofAdunMatrixOverload" /><HotkeyAlias value="CommanderArtanisSpearofAdunMatrixOverload" /></CButton>
+    <CButton id="CommanderArtanisFleetBeaconUpgradesPack" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderArtanisFleetBeaconUpgradesPack" /><HotkeyAlias value="CommanderArtanisFleetBeaconUpgradesPack" /></CButton>
+    <CButton id="CommanderArtanisSpearofAdunWarpHarmonization" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderArtanisSpearofAdunWarpHarmonization" /><HotkeyAlias value="CommanderArtanisSpearofAdunWarpHarmonization" /></CButton>
+    <CButton id="CommanderArtanisRoboticsBayUpgradesPack" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderArtanisRoboticsBayUpgradesPack" /><HotkeyAlias value="CommanderArtanisRoboticsBayUpgradesPack" /></CButton>
+    <CButton id="CommanderArtanisUnlockReaver" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderArtanisUnlockReaver" /><HotkeyAlias value="CommanderArtanisUnlockReaver" /></CButton>
+    <CButton id="CommanderArtanisTemplarArchivesUpgradesPack" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderArtanisTemplarArchivesUpgradesPack" /><HotkeyAlias value="CommanderArtanisTemplarArchivesUpgradesPack" /></CButton>
+    <CButton id="CommanderArtanisSpearofAdunShieldOvercharge" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderArtanisSpearofAdunShieldOvercharge" /><HotkeyAlias value="CommanderArtanisSpearofAdunShieldOvercharge" /></CButton>
+    <CButton id="CommanderArtanisWarpgateCharges" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderArtanisWarpgateCharges" /><HotkeyAlias value="CommanderArtanisWarpgateCharges" /></CButton>
+    <CButton id="CommanderArtanisTwilightCouncilUpgradesPack" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderArtanisTwilightCouncilUpgradesPack" /><HotkeyAlias value="CommanderArtanisTwilightCouncilUpgradesPack" /></CButton>
+    <CButton id="CommanderKerriganCrushingGripWave" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderKerriganCrushingGripWave" /><HotkeyAlias value="CommanderKerriganCrushingGripWave" /></CButton>
+    <CButton id="CommanderKerriganKerriganUpgradesPack" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderKerriganKerriganUpgradesPack" /><HotkeyAlias value="CommanderKerriganKerriganUpgradesPack" /></CButton>
+    <CButton id="CommanderKerriganKerrigansFury" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderKerriganKerrigansFury" /><HotkeyAlias value="CommanderKerriganKerrigansFury" /></CButton>
+    <CButton id="CommanderVorazunSpearofAdunOrbitalAssimilators" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderVorazunSpearofAdunOrbitalAssimilators" /><HotkeyAlias value="CommanderVorazunSpearofAdunOrbitalAssimilators" /></CButton>
+    <CButton id="CommanderVorazunShadowGuardGainDetectionSuppression" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderVorazunShadowGuardGainDetectionSuppression" /><HotkeyAlias value="CommanderVorazunShadowGuardGainDetectionSuppression" /></CButton>
+    <CButton id="CommanderVorazunUnlockDarkArchon" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderVorazunUnlockDarkArchon" /><HotkeyAlias value="CommanderVorazunUnlockDarkArchon" /></CButton>
+    <CButton id="CommanderVorazunDarkTemplarUpgradesPack" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderVorazunDarkTemplarUpgradesPack" /><HotkeyAlias value="CommanderVorazunDarkTemplarUpgradesPack" /></CButton>
+    <CButton id="CommanderZagaraBanelingEvolutionSplitterling" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderZagaraBanelingEvolutionSplitterling" /><HotkeyAlias value="CommanderZagaraBanelingEvolutionSplitterling" /></CButton>
+    <CButton id="CommanderZagaraIncubateBanelings" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderZagaraIncubateBanelings" /><HotkeyAlias value="CommanderZagaraIncubateBanelings" /></CButton>
+    <CButton id="CommanderZagaraMasterSpawner" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderZagaraMasterSpawner" /><HotkeyAlias value="CommanderZagaraMasterSpawner" /></CButton>
+    <CButton id="CommanderArtanisSwiftRetribution" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderArtanisSwiftRetribution" /><HotkeyAlias value="CommanderArtanisSwiftRetribution" /></CButton>
+    <CButton id="CommanderZagaraZerglingEvolutionSwarmling" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderZagaraZerglingEvolutionSwarmling" /><HotkeyAlias value="CommanderZagaraZerglingEvolutionSwarmling" /></CButton>
+    <CButton id="CommanderZagaraImprovedMassRoachDrop" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderZagaraImprovedMassRoachDrop" /><HotkeyAlias value="CommanderZagaraImprovedMassRoachDrop" /></CButton>
+    <CButton id="CommanderZagaraImprovedInjectLarva" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderZagaraImprovedInjectLarva" /><HotkeyAlias value="CommanderZagaraImprovedInjectLarva" /></CButton>
+    <CButton id="CommanderZagaraEvolutionChamberUpgradesPack" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderZagaraEvolutionChamberUpgradesPack" /><HotkeyAlias value="CommanderZagaraEvolutionChamberUpgradesPack" /></CButton>
+    <CButton id="CommanderZagaraBanelingNestUpgradesPack" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderZagaraBanelingNestUpgradesPack" /><HotkeyAlias value="CommanderZagaraBanelingNestUpgradesPack" /></CButton>
+    <CButton id="CommanderZagaraScourgeUpgradesPack" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderZagaraScourgeUpgradesPack" /><HotkeyAlias value="CommanderZagaraScourgeUpgradesPack" /></CButton>
+    <CButton id="CommanderZagaraRelentless" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderZagaraRelentless" /><HotkeyAlias value="CommanderZagaraRelentless" /></CButton>
+    <CButton id="CommanderKerriganSpireUpgradesPack" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderKerriganSpireUpgradesPack" /><HotkeyAlias value="CommanderKerriganSpireUpgradesPack" /></CButton>
+    <CButton id="CommanderKerriganMalignantCreep" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderKerriganMalignantCreep" /><HotkeyAlias value="CommanderKerriganMalignantCreep" /></CButton>
+    <CButton id="CommanderKerriganImprovedLeapingStrike" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderKerriganImprovedLeapingStrike" /><HotkeyAlias value="CommanderKerriganImprovedLeapingStrike" /></CButton>
+    <CButton id="CommanderKerriganHydraliskandLurkerUpgradesPack" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderKerriganHydraliskandLurkerUpgradesPack" /><HotkeyAlias value="CommanderKerriganHydraliskandLurkerUpgradesPack" /></CButton>
+    <CButton id="CommanderKerriganGreaterNydusWorm" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderKerriganGreaterNydusWorm" /><HotkeyAlias value="CommanderKerriganGreaterNydusWorm" /></CButton>
+    <CButton id="CommanderKerriganUltraliskEvolutionTorrasque" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderKerriganUltraliskEvolutionTorrasque" /><HotkeyAlias value="CommanderKerriganUltraliskEvolutionTorrasque" /></CButton>
+    <CButton id="CommanderKerriganKerriganEnergyRegeneration" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderKerriganKerriganEnergyRegeneration" /><HotkeyAlias value="CommanderKerriganKerriganEnergyRegeneration" /></CButton>
+    <CButton id="CommanderKerriganZerglingEvolutionRaptor" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderKerriganZerglingEvolutionRaptor" /><HotkeyAlias value="CommanderKerriganZerglingEvolutionRaptor" /></CButton>
+    <CButton id="CommanderKerriganUltraliskUpgradesPack" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderKerriganUltraliskUpgradesPack" /><HotkeyAlias value="CommanderKerriganUltraliskUpgradesPack" /></CButton>
+    <CButton id="CommanderKerriganZerglingUpgradesPack" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderKerriganZerglingUpgradesPack" /><HotkeyAlias value="CommanderKerriganZerglingUpgradesPack" /></CButton>
+    <CButton id="CommanderKerriganUnlockLurker" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderKerriganUnlockLurker" /><HotkeyAlias value="CommanderKerriganUnlockLurker" /></CButton>
+    <CButton id="CommanderRaynorInfantrySpecialist" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderRaynorInfantrySpecialist" /><HotkeyAlias value="CommanderRaynorInfantrySpecialist" /></CButton>
+    <CButton id="CommanderRaynorHyperionAdvancedTargetingSystems" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderRaynorHyperionAdvancedTargetingSystems" /><HotkeyAlias value="CommanderRaynorHyperionAdvancedTargetingSystems" /></CButton>
+    <CButton id="CommanderSwannArmoryUpgradePack" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderSwannArmoryUpgradePack" /><HotkeyAlias value="CommanderSwannArmoryUpgradePack" /></CButton>
+    <CButton id="CommanderSwannImmortalityProtocol" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderSwannImmortalityProtocol" /><HotkeyAlias value="CommanderSwannImmortalityProtocol" /></CButton>
+    <CButton id="CommanderSwannFactoryUpgradesPack" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderSwannFactoryUpgradesPack" /><HotkeyAlias value="CommanderSwannFactoryUpgradesPack" /></CButton>
+    <CButton id="CommanderSwannImprovedCombatDrop" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderSwannImprovedCombatDrop" /><HotkeyAlias value="CommanderSwannImprovedCombatDrop" /></CButton>
+    <CButton id="CommanderSwannUnlockAdditionalStarportTechLabUpgrades" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderSwannUnlockAdditionalStarportTechLabUpgrades" /><HotkeyAlias value="CommanderSwannUnlockAdditionalStarportTechLabUpgrades" /></CButton>
+    <CButton id="CommanderSwannImprovedSCVs" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderSwannImprovedSCVs" /><HotkeyAlias value="CommanderSwannImprovedSCVs" /></CButton>
+    <CButton id="CommanderSwannTechReactors" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderSwannTechReactors" /><HotkeyAlias value="CommanderSwannTechReactors" /></CButton>
+    <CButton id="CommanderSwannEngineeringBayUpgradesPack" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderSwannEngineeringBayUpgradesPack" /><HotkeyAlias value="CommanderSwannEngineeringBayUpgradesPack" /></CButton>
+    <CButton id="CommanderSwannIncreasedVehicleHealth" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderSwannIncreasedVehicleHealth" /><HotkeyAlias value="CommanderSwannIncreasedVehicleHealth" /></CButton>
+    <CButton id="CommanderKerriganMutatingCarapace" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderKerriganMutatingCarapace" /><HotkeyAlias value="CommanderKerriganMutatingCarapace" /></CButton>
+    <CButton id="CommanderSwannVespeneDrone" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderSwannVespeneDrone" /><HotkeyAlias value="CommanderSwannVespeneDrone" /></CButton>
+    <CButton id="CommanderSwannImprovedTurrets" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderSwannImprovedTurrets" /><HotkeyAlias value="CommanderSwannImprovedTurrets" /></CButton>
+    <CButton id="CommanderSwannImprovedLaserDrill" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderSwannImprovedLaserDrill" /><HotkeyAlias value="CommanderSwannImprovedLaserDrill" /></CButton>
+    <CButton id="CommanderSwannVehicleSpecialist" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderSwannVehicleSpecialist" /><HotkeyAlias value="CommanderSwannVehicleSpecialist" /></CButton>
+    <CButton id="CommanderRaynorOrbitalDepots" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderRaynorOrbitalDepots" /><HotkeyAlias value="CommanderRaynorOrbitalDepots" /></CButton>
+    <CButton id="CommanderRaynorBansheeAirStrike" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderRaynorBansheeAirStrike" /><HotkeyAlias value="CommanderRaynorBansheeAirStrike" /></CButton>
+    <CButton id="CommanderRaynorImprovedMULECalldown" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderRaynorImprovedMULECalldown" /><HotkeyAlias value="CommanderRaynorImprovedMULECalldown" /></CButton>
+    <CButton id="CommanderRaynorAdditionalArmoryUpgrades" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderRaynorAdditionalArmoryUpgrades" /><HotkeyAlias value="CommanderRaynorAdditionalArmoryUpgrades" /></CButton>
+    <CButton id="CommanderRaynorStarportUpgradePack" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderRaynorStarportUpgradePack" /><HotkeyAlias value="CommanderRaynorStarportUpgradePack" /></CButton>
+    <CButton id="CommanderRaynorOrbitalDropPods" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderRaynorOrbitalDropPods" /><HotkeyAlias value="CommanderRaynorOrbitalDropPods" /></CButton>
+    <CButton id="CommanderRaynorFirebatandMedicRange" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderRaynorFirebatandMedicRange" /><HotkeyAlias value="CommanderRaynorFirebatandMedicRange" /></CButton>
+    <CButton id="CommanderRaynorEngineeringBayUpgradePack" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderRaynorEngineeringBayUpgradePack" /><HotkeyAlias value="CommanderRaynorEngineeringBayUpgradePack" /></CButton>
+    <CButton id="CommanderRaynorInfantryUpgradePack" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderRaynorInfantryUpgradePack" /><HotkeyAlias value="CommanderRaynorInfantryUpgradePack" /></CButton>
+    <CButton id="CommanderRaynorHyperionAbility" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderRaynorHyperionAbility" /><HotkeyAlias value="CommanderRaynorHyperionAbility" /></CButton>
+    <CButton id="CommanderRaynorFactoryUpgradePack" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderRaynorFactoryUpgradePack" /><HotkeyAlias value="CommanderRaynorFactoryUpgradePack" /></CButton>
+    <CButton id="CommanderRaynorImprovedInfantryWeapons" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderRaynorImprovedInfantryWeapons" /><HotkeyAlias value="CommanderRaynorImprovedInfantryWeapons" /></CButton>
+    <CButton id="CommanderSwannCombatDrop" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderSwannCombatDrop" /><HotkeyAlias value="CommanderSwannCombatDrop" /></CButton>
+    <CButton id="CommanderSwannUnlockCyclone" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderSwannUnlockCyclone" /><HotkeyAlias value="CommanderSwannUnlockCyclone" /></CButton>
+    <CButton id="CommanderZagaraMassRoachDrop" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderZagaraMassRoachDrop" /><HotkeyAlias value="CommanderZagaraMassRoachDrop" /></CButton>
+    <CButton id="CommanderZagaraUnlockBileLauncher" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderZagaraUnlockBileLauncher" /><HotkeyAlias value="CommanderZagaraUnlockBileLauncher" /></CButton>
+    <CButton id="CommanderZagaraIncubateBroodlings" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderZagaraIncubateBroodlings" /><HotkeyAlias value="CommanderZagaraIncubateBroodlings" /></CButton>
+    <CButton id="CommanderZagaraBileLauncherUpgradesPack" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderZagaraBileLauncherUpgradesPack" /><HotkeyAlias value="CommanderZagaraBileLauncherUpgradesPack" /></CButton>
+    <CButton id="CommanderZagaraZerglingUpgradesPack" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderZagaraZerglingUpgradesPack" /><HotkeyAlias value="CommanderZagaraZerglingUpgradesPack" /></CButton>
+    <CButton id="CommanderZagaraVolatileBanelingNest" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderZagaraVolatileBanelingNest" /><HotkeyAlias value="CommanderZagaraVolatileBanelingNest" /></CButton>
+    <CButton id="EvolveAnabolicSynthesis2" parent="None">
+        <Hotkey value="Button/Hotkey/EvolveAnabolicSynthesis2" /><HotkeyAlias value="EvolveAnabolicSynthesis2" /></CButton>
+    <CButton id="EvolveChitinousPlating" parent="None">
+        <Hotkey value="Button/Hotkey/EvolveChitinousPlating" /><HotkeyAlias value="EvolveChitinousPlating" /></CButton>
+    <CButton id="CorruptionAbility" parent="None">
+        <Hotkey value="Button/Hotkey/CorruptionAbility" /><HotkeyAlias value="CorruptionAbility" /></CButton>
+    <CButton id="EvolveTunnelingClaws" parent="None">
+        <Hotkey value="Button/Hotkey/EvolveTunnelingClaws" /><HotkeyAlias value="EvolveTunnelingClaws" /></CButton>
+    <CButton id="Feedback" parent="None">
+        <Hotkey value="Button/Hotkey/Feedback" /><HotkeyAlias value="Feedback" /></CButton>
+    <CButton id="Frenzied" parent="None">
+        <Hotkey value="Button/Hotkey/Frenzied" /><HotkeyAlias value="Frenzied" /></CButton>
+    <CButton id="GhostHoldFire" parent="None">
+        <HotkeySet value="HoldFire" />
+        <Hotkey value="Button/Hotkey/GhostHoldFire" /><HotkeyAlias value="GhostHoldFire" /></CButton>
+    <CButton id="GuardianShield" parent="None">
+        <Hotkey value="Button/Hotkey/GuardianShield" /><HotkeyAlias value="GuardianShield" /></CButton>
+    <CButton id="Leech" parent="None">
+        <Hotkey value="Button/Hotkey/Leech" /><HotkeyAlias value="Leech" /></CButton>
+    <CButton id="Move" parent="Move">
+        <Universal value="1" /><Hotkey value="Button/Hotkey/Move" /><HotkeyAlias value="Move" /></CButton>
+    <CButton id="ObverseIncubation" parent="None">
+        <Hotkey value="Button/Hotkey/ObverseIncubation" /><HotkeyAlias value="ObverseIncubation" /></CButton>
+    <CButton id="GravitonCatapult" parent="None">
+        <Hotkey value="Button/Hotkey/GravitonCatapult" /><HotkeyAlias value="GravitonCatapult" /></CButton>
+    <CButton id="ResearchPunisherGrenades" parent="None">
+        <Hotkey value="Button/Hotkey/ResearchPunisherGrenades" /><HotkeyAlias value="ResearchPunisherGrenades" /></CButton>
+    <CButton id="PointDefenseDrone" parent="None">
+        <Hotkey value="Button/Hotkey/PointDefenseDrone" /><HotkeyAlias value="PointDefenseDrone" /></CButton>
+    <CButton id="BanelingFromZerglingBurrowed" parent="None">
+        <Hotkey value="Button/Hotkey/BanelingFromZerglingBurrowed" /><HotkeyAlias value="BanelingFromZerglingBurrowed" /></CButton>
+    <CButton id="FungalGrowth" parent="None">
+        <Hotkey value="Button/Hotkey/FungalGrowth" /><HotkeyAlias value="FungalGrowth" /></CButton>
+    <CButton id="PointDefense" parent="None">
+        <Hotkey value="Button/Hotkey/PointDefense" /><HotkeyAlias value="PointDefense" /></CButton>
+    <CButton id="EvolveInfestorEnergyUpgrade" parent="None">
+        <Hotkey value="Button/Hotkey/EvolveInfestorEnergyUpgrade" /><HotkeyAlias value="EvolveInfestorEnergyUpgrade" /></CButton>
+    <CButton id="EvolvePeristalsis" parent="None">
+        <Hotkey value="Button/Hotkey/EvolvePeristalsis" /><HotkeyAlias value="EvolvePeristalsis" /></CButton>
+    <CButton id="Explode" parent="None">
+        <Hotkey value="Button/Hotkey/Explode" /><HotkeyAlias value="Explode" /></CButton>
+    <CButton id="GatherMULE" parent="None">
+        <HotkeyAlias value="GatherProt" />
+        <Universal value="1" />
+        <Hotkey value="Button/Hotkey/GatherMULE" /></CButton>
+    <CButton id="Load" parent="None">
+        <HotkeyAlias value="BunkerLoad" />
+        <Universal value="1" />
+    <Hotkey value="Button/Hotkey/Load" /></CButton>
+    <CButton id="ReaperSpeed" parent="None">
+        <Hotkey value="Button/Hotkey/ReaperSpeed" /><HotkeyAlias value="ReaperSpeed" /></CButton>
+    <CButton id="SetRallyPoint2" parent="None">
+        <HotkeyAlias value="Rally" />
+    <Hotkey value="Button/Hotkey/SetRallyPoint2" /></CButton>
+    <CButton id="ResearchBattlecruiserEnergyUpgrade" parent="None">
+        <Hotkey value="Button/Hotkey/ResearchBattlecruiserEnergyUpgrade" /><HotkeyAlias value="ResearchBattlecruiserEnergyUpgrade" /></CButton>
+    <CButton id="ResearchBattlecruiserSpecializations" parent="None">
+        <Hotkey value="Button/Hotkey/ResearchBattlecruiserSpecializations" /><HotkeyAlias value="ResearchBattlecruiserSpecializations" /></CButton>
+    <CButton id="ResearchGhostEnergyUpgrade" parent="None">
+        <Hotkey value="Button/Hotkey/ResearchGhostEnergyUpgrade" /><HotkeyAlias value="ResearchGhostEnergyUpgrade" /></CButton>
+    <CButton id="ResearchHighTemplarEnergyUpgrade" parent="None">
+        <Hotkey value="Button/Hotkey/ResearchHighTemplarEnergyUpgrade" /><HotkeyAlias value="ResearchHighTemplarEnergyUpgrade" /></CButton>
+    <CButton id="ResearchInterceptorLaunchSpeedUpgrade" parent="None">
+        <Hotkey value="Button/Hotkey/ResearchInterceptorLaunchSpeedUpgrade" /><HotkeyAlias value="ResearchInterceptorLaunchSpeedUpgrade" /></CButton>
+    <CButton id="ResearchMedivacEnergyUpgrade" parent="None">
+        <Hotkey value="Button/Hotkey/ResearchMedivacEnergyUpgrade" /><HotkeyAlias value="ResearchMedivacEnergyUpgrade" /></CButton>
+    <CButton id="ResearchRavenEnergyUpgrade" parent="None">
+        <Hotkey value="Button/Hotkey/ResearchRavenEnergyUpgrade" /><HotkeyAlias value="ResearchRavenEnergyUpgrade" /></CButton>
+    <CButton id="ResearchVoidRaySpeedUpgrade" parent="None">
+        <Hotkey value="Button/Hotkey/ResearchVoidRaySpeedUpgrade" /><HotkeyAlias value="ResearchVoidRaySpeedUpgrade" /></CButton>
+    <CButton id="SetRallyPoint" parent="None">
+        <HotkeyAlias value="Rally" />
+    <Hotkey value="Button/Hotkey/SetRallyPoint" /></CButton>
+    <CButton id="ResearchDurableMaterials" parent="None">
+        <Hotkey value="Button/Hotkey/ResearchDurableMaterials" /><HotkeyAlias value="ResearchDurableMaterials" /></CButton>
+    <CButton id="ResearchJotunBoosters" parent="None">
+        <Hotkey value="Button/Hotkey/ResearchJotunBoosters" /><HotkeyAlias value="ResearchJotunBoosters" /></CButton>
+    <CButton id="ResearchSeekerMissile" parent="None">
+        <Hotkey value="Button/Hotkey/ResearchSeekerMissile" /><HotkeyAlias value="ResearchSeekerMissile" /></CButton>
+    <CButton id="SapStructure" parent="None">
+        <Hotkey value="Button/Hotkey/SapStructure" /><HotkeyAlias value="SapStructure" /></CButton>
+    <CButton id="CloakOnBanshee" parent="None">
+        <HotkeySet value="Cloak" />
+        <Universal value="1" />
+    <Hotkey value="Button/Hotkey/CloakOnBanshee" /><HotkeyAlias value="CloakOnBanshee" /></CButton>
+    <CButton id="CloakOnGhost" parent="None">
+        <HotkeySet value="Cloak" />
+        <HotkeyAlias value="CloakOnBanshee" />
+    <Hotkey value="Button/Hotkey/CloakOnGhost" /></CButton>
+    <CButton id="CloakingField" parent="None">
+        <Hotkey value="Button/Hotkey/CloakingField" /><HotkeyAlias value="CloakingField" /></CButton>
+    <CButton id="Charge" parent="None">
+        <Hotkey value="Button/Hotkey/Charge" /><HotkeyAlias value="Charge" /></CButton>
+    <CButton id="CliffWalk" parent="None">
+        <Hotkey value="Button/Hotkey/CliffWalk" /><HotkeyAlias value="CliffWalk" /></CButton>
+    <CButton id="Siphon" parent="None">
+        <Hotkey value="Button/Hotkey/Siphon" /><HotkeyAlias value="Siphon" /></CButton>
+    <CButton id="SpawnChangeling" parent="None">
+        <Hotkey value="Button/Hotkey/SpawnChangeling" /><HotkeyAlias value="SpawnChangeling" /></CButton>
+    <CButton id="ConcussiveGrenade" parent="None">
+        <Hotkey value="Button/Hotkey/ConcussiveGrenade" /><HotkeyAlias value="ConcussiveGrenade" /></CButton>
+    <CButton id="Detector" parent="None">
+        <Hotkey value="Button/Hotkey/Detector" /><HotkeyAlias value="Detector" /></CButton>
+    <CButton id="HardenedShield" parent="None">
+        <Hotkey value="Button/Hotkey/HardenedShield" /><HotkeyAlias value="HardenedShield" /></CButton>
+    <CButton id="HunterSeekerMissile" parent="None">
+        <Hotkey value="Button/Hotkey/HunterSeekerMissile" /><HotkeyAlias value="HunterSeekerMissile" /></CButton>
+    <CButton id="CalldownMULE" parent="None">
+        <Hotkey value="Button/Hotkey/CalldownMULE" /><HotkeyAlias value="CalldownMULE" /></CButton>
+    <CButton id="InfestedTerrans" parent="None">
+        <Hotkey value="Button/Hotkey/InfestedTerrans" /><HotkeyAlias value="InfestedTerrans" /></CButton>
+    <CButton id="JetPack" parent="None">
+        <Hotkey value="Button/Hotkey/JetPack" /><HotkeyAlias value="JetPack" /></CButton>
+    <CButton id="ResearchNeosteelFrame" parent="None">
+        <Hotkey value="Button/Hotkey/ResearchNeosteelFrame" /><HotkeyAlias value="ResearchNeosteelFrame" /></CButton>
+    <CButton id="PermanentlyCloaked" parent="None">
+        <Hotkey value="Button/Hotkey/PermanentlyCloaked" /><HotkeyAlias value="PermanentlyCloaked" /></CButton>
+    <CButton id="PermanentlyCloakedObserver" parent="None">
+        <Hotkey value="Button/Hotkey/PermanentlyCloakedObserver" /><HotkeyAlias value="PermanentlyCloakedObserver" /></CButton>
+    <CButton id="PrismaticBeam" parent="None">
+        <Hotkey value="Button/Hotkey/PrismaticBeam" /><HotkeyAlias value="PrismaticBeam" /></CButton>
+    <CButton id="RapidRegeneration" parent="None">
+        <Hotkey value="Button/Hotkey/RapidRegeneration" /><HotkeyAlias value="RapidRegeneration" /></CButton>
+    <CButton id="ResearchHiSecAutoTracking" parent="None">
+        <Hotkey value="Button/Hotkey/ResearchHiSecAutoTracking" /><HotkeyAlias value="ResearchHiSecAutoTracking" /></CButton>
+    <CButton id="Disguise" parent="None">
+        <Hotkey value="Button/Hotkey/Disguise" /><HotkeyAlias value="Disguise" /></CButton>
+    <CButton id="PhaseShift" parent="None">
+        <Hotkey value="Button/Hotkey/PhaseShift" /><HotkeyAlias value="PhaseShift" /></CButton>
+    <CButton id="EvolveCentrificalHooks" parent="None">
+        <Hotkey value="Button/Hotkey/EvolveCentrificalHooks" /><HotkeyAlias value="EvolveCentrificalHooks" /></CButton>
+    <CButton id="InfestationPit" parent="None">
+        <Hotkey value="Button/Hotkey/InfestationPit" /><HotkeyAlias value="InfestationPit" /></CButton>
+    <CButton id="NeuralParasite" parent="None">
+        <Hotkey value="Button/Hotkey/NeuralParasite" /><HotkeyAlias value="NeuralParasite" /></CButton>
+    <CButton id="StimMarauder" parent="None">
+        <HotkeyAlias value="Stim" />
+        <Universal value="1" />
+    <Hotkey value="Button/Hotkey/StimMarauder" /></CButton>
+    <CButton id="SupplyDrop" parent="None">
+        <Hotkey value="Button/Hotkey/SupplyDrop" /><HotkeyAlias value="SupplyDrop" /></CButton>
+    <CButton id="SummonNydusWorm" parent="None">
+        <Hotkey value="Button/Hotkey/SummonNydusWorm" /><HotkeyAlias value="SummonNydusWorm" /></CButton>
+    <CButton id="MorphMorphalisk" parent="None">
+        <Hotkey value="Button/Hotkey/MorphMorphalisk" /><HotkeyAlias value="MorphMorphalisk" /></CButton>
+    <CButton id="NydusNetwork" parent="None">
+        <Hotkey value="Button/Hotkey/NydusNetwork" /><HotkeyAlias value="NydusNetwork" /></CButton>
+    <CButton id="ResearchExtendedThermalLance" parent="None">
+        <Hotkey value="Button/Hotkey/ResearchExtendedThermalLance" /><HotkeyAlias value="ResearchExtendedThermalLance" /></CButton>
+    <CButton id="ResearchHighCapacityBarrels" parent="None">
+        <Hotkey value="Button/Hotkey/ResearchHighCapacityBarrels" /><HotkeyAlias value="ResearchHighCapacityBarrels" /></CButton>
+    <CButton id="StopRedirect" parent="Stop"><Universal value="1" /><Hotkey value="Button/Hotkey/Stop" /><HotkeyAlias value="Stop" /></CButton>
+    <CButton id="Attack" parent="None">
+        <Universal value="1" />
+        <Hotkey value="Button/Hotkey/Attack" /><HotkeyAlias value="Attack" /></CButton>
+    <CButton id="AttackTowards" parent="None">
+        <Universal value="1" />
+        <Hotkey value="Button/Hotkey/AttackTowards" /><HotkeyAlias value="AttackTowards" /></CButton>
+    <CButton id="AttackBarrage" parent="None">
+        <Universal value="1" />
+        <Hotkey value="Button/Hotkey/AttackBarrage" /><HotkeyAlias value="AttackBarrage" /></CButton>
+    <CButton id="AttackRedirect" parent="AttackBuilding">
+        <HotkeyAlias value="Attack" /><Hotkey value="Button/Hotkey/AttackBuilding" /></CButton>
+    <CButton id="AttackWorker" parent="Attack">
+        <Universal value="1" /><Hotkey value="Button/Hotkey/Attack" /><HotkeyAlias value="Attack" /></CButton>
+    <CButton id="AttackWarpPrism" parent="None">
+        <HotkeyAlias value="Attack" />
+    <Hotkey value="Button/Hotkey/AttackWarpPrism" /></CButton>
+    <CButton id="AttackGhost" parent="Attack">
+        <Universal value="1" /><Hotkey value="Button/Hotkey/Attack" /><HotkeyAlias value="Attack" /></CButton>
+    <CButton id="SwarmSeeds" parent="None">
+        <Hotkey value="Button/Hotkey/SwarmSeeds" /><HotkeyAlias value="SwarmSeeds" /></CButton>
+    <CButton id="BuildTechLabFactory" parent="None">
+        <Hotkey value="Button/Hotkey/BuildTechLabFactory" /><HotkeyAlias value="BuildTechLabFactory" /></CButton>
+    <CButton id="BuildTechLabBarracks" parent="None">
+        <Hotkey value="Button/Hotkey/BuildTechLabBarracks" /><HotkeyAlias value="BuildTechLabBarracks" /></CButton>
+    <CButton id="BuildTechLabStarport" parent="None">
+        <Hotkey value="Button/Hotkey/BuildTechLabStarport" /><HotkeyAlias value="BuildTechLabStarport" /></CButton>
+    <CButton id="250mmStrikeCannons" parent="None">
+        <Hotkey value="Button/Hotkey/250mmStrikeCannons" /><HotkeyAlias value="250mmStrikeCannons" /></CButton>
+    <CButton id="TimeWarp" parent="None">
+        <Hotkey value="Button/Hotkey/TimeWarp" /><HotkeyAlias value="TimeWarp" /></CButton>
+    <CButton id="UpgradeBuildingArmorLevel1" parent="None">
+        <Hotkey value="Button/Hotkey/UpgradeBuildingArmorLevel1" /><HotkeyAlias value="UpgradeBuildingArmorLevel1" /></CButton>
+    <CButton id="Thor" parent="None">
+        <Hotkey value="Button/Hotkey/Thor" /><HotkeyAlias value="Thor" /></CButton>
+    <CButton id="Gather" parent="None">
+        <HotkeyAlias value="GatherProt" />
+        <Universal value="1" />
+        <Hotkey value="Button/Hotkey/Gather" /></CButton>
+    <CButton id="GatherProt" parent="None">
+        <Universal value="1" />
+        <Hotkey value="Button/Hotkey/GatherProt" /><HotkeyAlias value="GatherProt" /></CButton>
+    <CButton id="GatherTerr" parent="None">
+        <HotkeyAlias value="GatherProt" />
+        <Universal value="1" />
+        <Hotkey value="Button/Hotkey/GatherTerr" /></CButton>
+    <CButton id="GatherZerg" parent="None">
+        <HotkeyAlias value="GatherProt" />
+        <Universal value="1" />
+        <Hotkey value="Button/Hotkey/GatherZerg" /></CButton>
+    <CButton id="ReturnCargo" parent="None">
+        <Universal value="1" />
+    <Hotkey value="Button/Hotkey/ReturnCargo" /><HotkeyAlias value="ReturnCargo" /></CButton>
+    <CButton id="Repair" parent="None">
+        <Universal value="1" />
+    <Hotkey value="Button/Hotkey/Repair" /><HotkeyAlias value="Repair" /></CButton>
+    <CButton id="CloakOff" parent="None">
+        <HotkeySet value="Cloak" />
+        <Universal value="1" />
+    <Hotkey value="Button/Hotkey/CloakOff" /><HotkeyAlias value="CloakOff" /></CButton>
+    <CButton id="TerranBuild" parent="None">
+        <Hotkey value="Button/Hotkey/TerranBuild" /><HotkeyAlias value="TerranBuild" /></CButton>
+    <CButton id="TerranBuildAdvanced" parent="None">
+        <Hotkey value="Button/Hotkey/TerranBuildAdvanced" /><HotkeyAlias value="TerranBuildAdvanced" /></CButton>
+    <CButton id="Rally" parent="None">
+        <Universal value="1" />
+    <Hotkey value="Button/Hotkey/Rally" /><HotkeyAlias value="Rally" /></CButton>
+    <CButton id="RallyEgg" parent="None">
+        <Universal value="1" />
+    <Hotkey value="Button/Hotkey/RallyEgg" /><HotkeyAlias value="RallyEgg" /></CButton>
+    <CButton id="Lift" parent="None">
+        <Universal value="1" />
+    <Hotkey value="Button/Hotkey/Lift" /><HotkeyAlias value="Lift" /></CButton>
+    <CButton id="Land" parent="None">
+        <Universal value="1" />
+    <Hotkey value="Button/Hotkey/Land" /><HotkeyAlias value="Land" /></CButton>
+    <CButton id="Lower" parent="None">
+        <Hotkey value="Button/Hotkey/Lower" /><HotkeyAlias value="Lower" /></CButton>
+    <CButton id="Raise" parent="None">
+        <Hotkey value="Button/Hotkey/Raise" /><HotkeyAlias value="Raise" /></CButton>
+    <CButton id="CommandCenterLoad" parent="None">
+        <Universal value="1" />
+    <Hotkey value="Button/Hotkey/CommandCenterLoad" /><HotkeyAlias value="CommandCenterLoad" /></CButton>
+    <CButton id="BunkerLoad" parent="None">
+        <Universal value="1" />
+    <Hotkey value="Button/Hotkey/BunkerLoad" /><HotkeyAlias value="BunkerLoad" /></CButton>
+    <CButton id="BunkerUnloadAll" parent="None">
+        <Universal value="1" />
+    <Hotkey value="Button/Hotkey/BunkerUnloadAll" /><HotkeyAlias value="BunkerUnloadAll" /></CButton>
+    <CButton id="Scan" parent="None">
+        <Hotkey value="Button/Hotkey/Scan" /><HotkeyAlias value="Scan" /></CButton>
+    <CButton id="MedivacLoad" parent="None">
+        <HotkeyAlias value="BunkerLoad" />
+        <Universal value="1" />
+    <Hotkey value="Button/Hotkey/MedivacLoad" /></CButton>
+    <CButton id="MedivacUnloadAll" parent="None">
+        <HotkeyAlias value="BunkerUnloadAll" />
+        <Universal value="1" />
+    <Hotkey value="Button/Hotkey/MedivacUnloadAll" /></CButton>
+    <CButton id="Stim" parent="None">
+        <Universal value="1" />
+    <Hotkey value="Button/Hotkey/Stim" /><HotkeyAlias value="Stim" /></CButton>
+    <CButton id="StimRedirect" parent="None">
+        <HotkeyAlias value="Stim" />
+        <Universal value="1" />
+    <Hotkey value="Button/Hotkey/StimRedirect" /></CButton>
+    <CButton id="Snipe" parent="None">
+        <Hotkey value="Button/Hotkey/Snipe" /><HotkeyAlias value="Snipe" /></CButton>
+    <CButton id="NukeCalldown" parent="None">
+        <Hotkey value="Button/Hotkey/NukeCalldown" /><HotkeyAlias value="NukeCalldown" /></CButton>
+    <CButton id="Heal" parent="None">
+        <Hotkey value="Button/Hotkey/Heal" /><HotkeyAlias value="Heal" /></CButton>
+    <CButton id="SiegeTank" parent="None">
+        <Hotkey value="Button/Hotkey/SiegeTank" /><HotkeyAlias value="SiegeTank" /></CButton>
+    <CButton id="Unsiege" parent="None">
+        <HotkeySet value="TankModes" />
+        <Universal value="1" />
+    <Hotkey value="Button/Hotkey/Unsiege" /><HotkeyAlias value="Unsiege" /></CButton>
+    <CButton id="Vortex" parent="None">
+        <Hotkey value="Button/Hotkey/Vortex" /><HotkeyAlias value="Vortex" /></CButton>
+    <CButton id="WormholeTransit" parent="None">
+        <Hotkey value="Button/Hotkey/WormholeTransit" /><HotkeyAlias value="WormholeTransit" /></CButton>
+    <CButton id="YamatoGun" parent="None">
+        <Universal value="1" />
+    <Hotkey value="Button/Hotkey/YamatoGun" /><HotkeyAlias value="YamatoGun" /></CButton>
+    <CButton id="CommandCenter" parent="None">
+        <Hotkey value="Button/Hotkey/CommandCenter" /><HotkeyAlias value="CommandCenter" /></CButton>
+    <CButton id="SupplyDepot" parent="None">
+        <Hotkey value="Button/Hotkey/SupplyDepot" /><HotkeyAlias value="SupplyDepot" /></CButton>
+    <CButton id="Refinery" parent="None">
+        <Hotkey value="Button/Hotkey/Refinery" /><HotkeyAlias value="Refinery" /></CButton>
+    <CButton id="Barracks" parent="None">
+        <Hotkey value="Button/Hotkey/Barracks" /><HotkeyAlias value="Barracks" /></CButton>
+    <CButton id="EngineeringBay" parent="None">
+        <Hotkey value="Button/Hotkey/EngineeringBay" /><HotkeyAlias value="EngineeringBay" /></CButton>
+    <CButton id="MissileTurret" parent="None">
+        <Hotkey value="Button/Hotkey/MissileTurret" /><HotkeyAlias value="MissileTurret" /></CButton>
+    <CButton id="AutoTurret" parent="None">
+        <Hotkey value="Button/Hotkey/AutoTurret" /><HotkeyAlias value="AutoTurret" /></CButton>
+    <CButton id="Bunker" parent="None">
+        <Hotkey value="Button/Hotkey/Bunker" /><HotkeyAlias value="Bunker" /></CButton>
+    <CButton id="Factory" parent="None">
+        <Hotkey value="Button/Hotkey/Factory" /><HotkeyAlias value="Factory" /></CButton>
+    <CButton id="Starport" parent="None">
+        <Hotkey value="Button/Hotkey/Starport" /><HotkeyAlias value="Starport" /></CButton>
+    <CButton id="Armory" parent="None">
+        <Hotkey value="Button/Hotkey/Armory" /><HotkeyAlias value="Armory" /></CButton>
+    <CButton id="PlanetaryFortress" parent="None">
+        <Hotkey value="Button/Hotkey/PlanetaryFortress" /><HotkeyAlias value="PlanetaryFortress" /></CButton>
+    <CButton id="UpgradeToPlanetaryFortress" parent="None">
+        <Hotkey value="Button/Hotkey/UpgradeToPlanetaryFortress" /><HotkeyAlias value="UpgradeToPlanetaryFortress" /></CButton>
+    <CButton id="Reactor" parent="None">
+        <Hotkey value="Button/Hotkey/Reactor" /><HotkeyAlias value="Reactor" /></CButton>
+    <CButton id="TechLabBarracks" parent="None">
+        <Hotkey value="Button/Hotkey/TechLabBarracks" /><HotkeyAlias value="TechLabBarracks" /></CButton>
+    <CButton id="TechLabFactory" parent="None">
+        <Hotkey value="Button/Hotkey/TechLabFactory" /><HotkeyAlias value="TechLabFactory" /></CButton>
+    <CButton id="TechLabStarport" parent="None">
+        <Hotkey value="Button/Hotkey/TechLabStarport" /><HotkeyAlias value="TechLabStarport" /></CButton>
+    <CButton id="SCV" parent="None">
+        <Universal value="1" />
+    <Hotkey value="Button/Hotkey/SCV" /><HotkeyAlias value="SCV" /></CButton>
+    <CButton id="Marine" parent="None">
+        <Hotkey value="Button/Hotkey/Marine" /><HotkeyAlias value="Marine" /></CButton>
+    <CButton id="Reaper" parent="None">
+        <Hotkey value="Button/Hotkey/Reaper" /><HotkeyAlias value="Reaper" /></CButton>
+    <CButton id="Ghost" parent="None">
+        <Hotkey value="Button/Hotkey/Ghost" /><HotkeyAlias value="Ghost" /></CButton>
+    <CButton id="SiegeMode" parent="None">
+        <HotkeySet value="TankModes" />
+        <Universal value="1" />
+    <Hotkey value="Button/Hotkey/SiegeMode" /><HotkeyAlias value="SiegeMode" /></CButton>
+    <CButton id="Colossus" parent="None">
+        <Hotkey value="Button/Hotkey/Colossus" /><HotkeyAlias value="Colossus" /></CButton>
+    <CButton id="Banshee" parent="None">
+        <Hotkey value="Button/Hotkey/Banshee" /><HotkeyAlias value="Banshee" /></CButton>
+    <CButton id="Medivac" parent="None">
+        <Hotkey value="Button/Hotkey/Medivac" /><HotkeyAlias value="Medivac" /></CButton>
+    <CButton id="Battlecruiser" parent="None">
+        <Hotkey value="Button/Hotkey/Battlecruiser" /><HotkeyAlias value="Battlecruiser" /></CButton>
+    <CButton id="Raven" parent="None">
+        <Hotkey value="Button/Hotkey/Raven" /><HotkeyAlias value="Raven" /></CButton>
+    <CButton id="NukeArm" parent="None">
+        <Hotkey value="Button/Hotkey/NukeArm" /><HotkeyAlias value="NukeArm" /></CButton>
+    <CButton id="TerranInfantryWeaponsLevel1" parent="None">
+        <Hotkey value="Button/Hotkey/TerranInfantryWeaponsLevel1" /><HotkeyAlias value="TerranInfantryWeaponsLevel1" /></CButton>
+    <CButton id="TerranInfantryWeaponsLevel2" parent="None">
+        <HotkeyAlias value="TerranInfantryWeaponsLevel1" />
+    <Hotkey value="Button/Hotkey/TerranInfantryWeaponsLevel2" /></CButton>
+    <CButton id="TerranInfantryWeaponsLevel3" parent="None">
+        <HotkeyAlias value="TerranInfantryWeaponsLevel1" />
+    <Hotkey value="Button/Hotkey/TerranInfantryWeaponsLevel3" /></CButton>
+    <CButton id="TerranInfantryArmorLevel1" parent="None">
+        <Hotkey value="Button/Hotkey/TerranInfantryArmorLevel1" /><HotkeyAlias value="TerranInfantryArmorLevel1" /></CButton>
+    <CButton id="TerranInfantryArmorLevel2" parent="None">
+        <HotkeyAlias value="TerranInfantryArmorLevel1" />
+    <Hotkey value="Button/Hotkey/TerranInfantryArmorLevel2" /></CButton>
+    <CButton id="TerranInfantryArmorLevel3" parent="None">
+        <HotkeyAlias value="TerranInfantryArmorLevel1" />
+    <Hotkey value="Button/Hotkey/TerranInfantryArmorLevel3" /></CButton>
+    <CButton id="Stimpack" parent="None">
+        <Hotkey value="Button/Hotkey/Stimpack" /><HotkeyAlias value="Stimpack" /></CButton>
+    <CButton id="ResearchStalkerTeleport" parent="None">
+        <Hotkey value="Button/Hotkey/ResearchStalkerTeleport" /><HotkeyAlias value="ResearchStalkerTeleport" /></CButton>
+    <CButton id="ResearchPersonalCloaking" parent="None">
+        <Hotkey value="Button/Hotkey/ResearchPersonalCloaking" /><HotkeyAlias value="ResearchPersonalCloaking" /></CButton>
+    <CButton id="ResearchSiegeTech" parent="None">
+        <Hotkey value="Button/Hotkey/ResearchSiegeTech" /><HotkeyAlias value="ResearchSiegeTech" /></CButton>
+    <CButton id="ResearchBansheeCloak" parent="None">
+        <Hotkey value="Button/Hotkey/ResearchBansheeCloak" /><HotkeyAlias value="ResearchBansheeCloak" /></CButton>
+    <CButton id="TerranVehicleWeaponsLevel1" parent="None">
+        <Hotkey value="Button/Hotkey/TerranVehicleWeaponsLevel1" /><HotkeyAlias value="TerranVehicleWeaponsLevel1" /></CButton>
+    <CButton id="TerranVehicleWeaponsLevel2" parent="None">
+        <HotkeyAlias value="TerranVehicleWeaponsLevel1" />
+    <Hotkey value="Button/Hotkey/TerranVehicleWeaponsLevel2" /></CButton>
+    <CButton id="TerranVehicleWeaponsLevel3" parent="None">
+        <HotkeyAlias value="TerranVehicleWeaponsLevel1" />
+    <Hotkey value="Button/Hotkey/TerranVehicleWeaponsLevel3" /></CButton>
+    <CButton id="TerranShipWeaponsLevel1" parent="None">
+        <Hotkey value="Button/Hotkey/TerranShipWeaponsLevel1" /><HotkeyAlias value="TerranShipWeaponsLevel1" /></CButton>
+    <CButton id="TerranShipWeaponsLevel2" parent="None">
+        <HotkeyAlias value="TerranShipWeaponsLevel1" />
+    <Hotkey value="Button/Hotkey/TerranShipWeaponsLevel2" /></CButton>
+    <CButton id="TerranShipWeaponsLevel3" parent="None">
+        <HotkeyAlias value="TerranShipWeaponsLevel1" />
+    <Hotkey value="Button/Hotkey/TerranShipWeaponsLevel3" /></CButton>
+    <CButton id="TerranVehiclePlatingLevel1" parent="None">
+        <Hotkey value="Button/Hotkey/TerranVehiclePlatingLevel1" /><HotkeyAlias value="TerranVehiclePlatingLevel1" /></CButton>
+    <CButton id="TerranVehiclePlatingLevel2" parent="None">
+        <HotkeyAlias value="TerranVehiclePlatingLevel1" />
+    <Hotkey value="Button/Hotkey/TerranVehiclePlatingLevel2" /></CButton>
+    <CButton id="TerranVehiclePlatingLevel3" parent="None">
+        <HotkeyAlias value="TerranVehiclePlatingLevel1" />
+    <Hotkey value="Button/Hotkey/TerranVehiclePlatingLevel3" /></CButton>
+    <CButton id="TerranShipPlatingLevel1" parent="None">
+        <Hotkey value="Button/Hotkey/TerranShipPlatingLevel1" /><HotkeyAlias value="TerranShipPlatingLevel1" /></CButton>
+    <CButton id="TerranShipPlatingLevel2" parent="None">
+        <HotkeyAlias value="TerranShipPlatingLevel1" />
+    <Hotkey value="Button/Hotkey/TerranShipPlatingLevel2" /></CButton>
+    <CButton id="TerranShipPlatingLevel3" parent="None">
+        <HotkeyAlias value="TerranShipPlatingLevel1" />
+    <Hotkey value="Button/Hotkey/TerranShipPlatingLevel3" /></CButton>
+    <CButton id="ProtossBuild" parent="None">
+        <Hotkey value="Button/Hotkey/ProtossBuild" /><HotkeyAlias value="ProtossBuild" /></CButton>
+    <CButton id="ProtossBuildAdvanced" parent="None">
+        <Hotkey value="Button/Hotkey/ProtossBuildAdvanced" /><HotkeyAlias value="ProtossBuildAdvanced" /></CButton>
+    <CButton id="PsiStorm" parent="None">
+        <Hotkey value="Button/Hotkey/PsiStorm" /><HotkeyAlias value="PsiStorm" /></CButton>
+    <CButton id="Hallucination" parent="None">
+        <Hotkey value="Button/Hotkey/Hallucination" /><HotkeyAlias value="Hallucination" /></CButton>
+    <CButton id="ProbeHallucination" parent="None">
+        <Hotkey value="Button/Hotkey/ProbeHallucination" /><HotkeyAlias value="ProbeHallucination" /></CButton>
+    <CButton id="ZealotHallucination" parent="None">
+        <Hotkey value="Button/Hotkey/ZealotHallucination" /><HotkeyAlias value="ZealotHallucination" /></CButton>
+    <CButton id="StalkerHallucination" parent="None">
+        <Hotkey value="Button/Hotkey/StalkerHallucination" /><HotkeyAlias value="StalkerHallucination" /></CButton>
+    <CButton id="ImmortalHallucination" parent="None">
+        <Hotkey value="Button/Hotkey/ImmortalHallucination" /><HotkeyAlias value="ImmortalHallucination" /></CButton>
+    <CButton id="HighTemplarHallucination" parent="None">
+        <Hotkey value="Button/Hotkey/HighTemplarHallucination" /><HotkeyAlias value="HighTemplarHallucination" /></CButton>
+    <CButton id="ArchonHallucination" parent="None">
+        <Hotkey value="Button/Hotkey/ArchonHallucination" /><HotkeyAlias value="ArchonHallucination" /></CButton>
+    <CButton id="VoidRayHallucination" parent="None">
+        <Hotkey value="Button/Hotkey/VoidRayHallucination" /><HotkeyAlias value="VoidRayHallucination" /></CButton>
+    <CButton id="PhoenixHallucination" parent="None">
+        <Hotkey value="Button/Hotkey/PhoenixHallucination" /><HotkeyAlias value="PhoenixHallucination" /></CButton>
+    <CButton id="WarpPrismHallucination" parent="None">
+        <Hotkey value="Button/Hotkey/WarpPrismHallucination" /><HotkeyAlias value="WarpPrismHallucination" /></CButton>
+    <CButton id="ColossusHallucination" parent="None">
+        <Hotkey value="Button/Hotkey/ColossusHallucination" /><HotkeyAlias value="ColossusHallucination" /></CButton>
+    <CButton id="AWrp" parent="None">
+        <Universal value="1" />
+    <Hotkey value="Button/Hotkey/AWrp" /><HotkeyAlias value="AWrp" /></CButton>
+    <CButton id="Interceptor" parent="None">
+        <Hotkey value="Button/Hotkey/Interceptor" /><HotkeyAlias value="Interceptor" /></CButton>
+    <CButton id="Phoenix" parent="None">
+        <Hotkey value="Button/Hotkey/Phoenix" /><HotkeyAlias value="Phoenix" /></CButton>
+    <CButton id="WarpPrism" parent="None">
+        <Hotkey value="Button/Hotkey/WarpPrism" /><HotkeyAlias value="WarpPrism" /></CButton>
+    <CButton id="VoidRay" parent="None">
+        <Hotkey value="Button/Hotkey/VoidRay" /><HotkeyAlias value="VoidRay" /></CButton>
+    <CButton id="Stalker" parent="None">
+        <Universal value="1" />
+    <Hotkey value="Button/Hotkey/Stalker" /><HotkeyAlias value="Stalker" /></CButton>
+    <CButton id="Nexus" parent="None">
+        <Hotkey value="Button/Hotkey/Nexus" /><HotkeyAlias value="Nexus" /></CButton>
+    <CButton id="Mothership" parent="None">
+        <Hotkey value="Button/Hotkey/Mothership" /><HotkeyAlias value="Mothership" /></CButton>
+    <CButton id="Pylon" parent="None">
+        <Hotkey value="Button/Hotkey/Pylon" /><HotkeyAlias value="Pylon" /></CButton>
+    <CButton id="Assimilator" parent="None">
+        <Hotkey value="Button/Hotkey/Assimilator" /><HotkeyAlias value="Assimilator" /></CButton>
+    <CButton id="Gateway" parent="None">
+        <Hotkey value="Button/Hotkey/Gateway" /><HotkeyAlias value="Gateway" /></CButton>
+    <CButton id="Forge" parent="None">
+        <Hotkey value="Button/Hotkey/Forge" /><HotkeyAlias value="Forge" /></CButton>
+    <CButton id="TwilightCouncil" parent="None">
+        <Hotkey value="Button/Hotkey/TwilightCouncil" /><HotkeyAlias value="TwilightCouncil" /></CButton>
+    <CButton id="Stargate" parent="None">
+        <Hotkey value="Button/Hotkey/Stargate" /><HotkeyAlias value="Stargate" /></CButton>
+    <CButton id="RoboticsFacility" parent="None">
+        <Hotkey value="Button/Hotkey/RoboticsFacility" /><HotkeyAlias value="RoboticsFacility" /></CButton>
+    <CButton id="FleetBeacon" parent="None">
+        <Hotkey value="Button/Hotkey/FleetBeacon" /><HotkeyAlias value="FleetBeacon" /></CButton>
+    <CButton id="TemplarArchive" parent="None">
+        <Hotkey value="Button/Hotkey/TemplarArchive" /><HotkeyAlias value="TemplarArchive" /></CButton>
+    <CButton id="DarkShrine" parent="None">
+        <Hotkey value="Button/Hotkey/DarkShrine" /><HotkeyAlias value="DarkShrine" /></CButton>
+    <CButton id="Probe" parent="None">
+        <Hotkey value="Button/Hotkey/Probe" /><HotkeyAlias value="Probe" /></CButton>
+    <CButton id="Zealot" parent="None">
+        <Universal value="1" />
+    <Hotkey value="Button/Hotkey/Zealot" /><HotkeyAlias value="Zealot" /></CButton>
+    <CButton id="HighTemplar" parent="None">
+        <Universal value="1" />
+    <Hotkey value="Button/Hotkey/HighTemplar" /><HotkeyAlias value="HighTemplar" /></CButton>
+    <CButton id="DarkTemplar" parent="None">
+        <Universal value="1" />
+    <Hotkey value="Button/Hotkey/DarkTemplar" /><HotkeyAlias value="DarkTemplar" /></CButton>
+    <CButton id="Observer" parent="None">
+        <Hotkey value="Button/Hotkey/Observer" /><HotkeyAlias value="Observer" /></CButton>
+    <CButton id="Carrier" parent="None">
+        <Hotkey value="Button/Hotkey/Carrier" /><HotkeyAlias value="Carrier" /></CButton>
+    <CButton id="Archon" parent="None">
+        <Hotkey value="Button/Hotkey/Archon" /><HotkeyAlias value="Archon" /></CButton>
+    <CButton id="ProtossGroundWeaponsLevel1" parent="None">
+        <Hotkey value="Button/Hotkey/ProtossGroundWeaponsLevel1" /><HotkeyAlias value="ProtossGroundWeaponsLevel1" /></CButton>
+    <CButton id="ProtossGroundWeaponsLevel2" parent="None">
+        <HotkeyAlias value="ProtossGroundWeaponsLevel1" />
+    <Hotkey value="Button/Hotkey/ProtossGroundWeaponsLevel2" /></CButton>
+    <CButton id="ProtossGroundWeaponsLevel3" parent="None">
+        <HotkeyAlias value="ProtossGroundWeaponsLevel1" />
+    <Hotkey value="Button/Hotkey/ProtossGroundWeaponsLevel3" /></CButton>
+    <CButton id="ProtossGroundArmorLevel1" parent="None">
+        <Hotkey value="Button/Hotkey/ProtossGroundArmorLevel1" /><HotkeyAlias value="ProtossGroundArmorLevel1" /></CButton>
+    <CButton id="ProtossGroundArmorLevel2" parent="None">
+        <HotkeyAlias value="ProtossGroundArmorLevel1" />
+    <Hotkey value="Button/Hotkey/ProtossGroundArmorLevel2" /></CButton>
+    <CButton id="ProtossGroundArmorLevel3" parent="None">
+        <HotkeyAlias value="ProtossGroundArmorLevel1" />
+    <Hotkey value="Button/Hotkey/ProtossGroundArmorLevel3" /></CButton>
+    <CButton id="ProtossShieldsLevel1" parent="None">
+        <Hotkey value="Button/Hotkey/ProtossShieldsLevel1" /><HotkeyAlias value="ProtossShieldsLevel1" /></CButton>
+    <CButton id="ProtossShieldsLevel2" parent="None">
+        <HotkeyAlias value="ProtossShieldsLevel1" />
+    <Hotkey value="Button/Hotkey/ProtossShieldsLevel2" /></CButton>
+    <CButton id="ProtossShieldsLevel3" parent="None">
+        <HotkeyAlias value="ProtossShieldsLevel1" />
+    <Hotkey value="Button/Hotkey/ProtossShieldsLevel3" /></CButton>
+    <CButton id="ProtossAirArmorLevel1" parent="None">
+        <Hotkey value="Button/Hotkey/ProtossAirArmorLevel1" /><HotkeyAlias value="ProtossAirArmorLevel1" /></CButton>
+    <CButton id="ProtossAirArmorLevel2" parent="None">
+        <HotkeyAlias value="ProtossAirArmorLevel1" />
+    <Hotkey value="Button/Hotkey/ProtossAirArmorLevel2" /></CButton>
+    <CButton id="ProtossAirArmorLevel3" parent="None">
+        <HotkeyAlias value="ProtossAirArmorLevel1" />
+    <Hotkey value="Button/Hotkey/ProtossAirArmorLevel3" /></CButton>
+    <CButton id="ProtossAirWeaponsLevel1" parent="None">
+        <Hotkey value="Button/Hotkey/ProtossAirWeaponsLevel1" /><HotkeyAlias value="ProtossAirWeaponsLevel1" /></CButton>
+    <CButton id="ProtossAirWeaponsLevel2" parent="None">
+        <HotkeyAlias value="ProtossAirWeaponsLevel1" />
+    <Hotkey value="Button/Hotkey/ProtossAirWeaponsLevel2" /></CButton>
+    <CButton id="ProtossAirWeaponsLevel3" parent="None">
+        <HotkeyAlias value="ProtossAirWeaponsLevel1" />
+    <Hotkey value="Button/Hotkey/ProtossAirWeaponsLevel3" /></CButton>
+    <CButton id="ResearchGraviticBooster" parent="None">
+        <Hotkey value="Button/Hotkey/ResearchGraviticBooster" /><HotkeyAlias value="ResearchGraviticBooster" /></CButton>
+    <CButton id="ResearchPsiStorm" parent="None">
+        <Hotkey value="Button/Hotkey/ResearchPsiStorm" /><HotkeyAlias value="ResearchPsiStorm" /></CButton>
+    <CButton id="ResearchHallucination" parent="None">
+        <Hotkey value="Button/Hotkey/ResearchHallucination" /><HotkeyAlias value="ResearchHallucination" /></CButton>
+    <CButton id="AssaultMode" parent="None">
+        <HotkeySet value="VikingModes" />
+        <Universal value="1" />
+    <Hotkey value="Button/Hotkey/AssaultMode" /><HotkeyAlias value="AssaultMode" /></CButton>
+    <CButton id="FighterMode" parent="None">
+        <HotkeySet value="VikingModes" />
+        <Universal value="1" />
+    <Hotkey value="Button/Hotkey/FighterMode" /><HotkeyAlias value="FighterMode" /></CButton>
+    <CButton id="ResearchCharge" parent="None">
+        <Hotkey value="Button/Hotkey/ResearchCharge" /><HotkeyAlias value="ResearchCharge" /></CButton>
+    <CButton id="ResearchGraviticDrive" parent="None">
+        <Hotkey value="Button/Hotkey/ResearchGraviticDrive" /><HotkeyAlias value="ResearchGraviticDrive" /></CButton>
+    <CButton id="ZergBuild" parent="None">
+        <Hotkey value="Button/Hotkey/ZergBuild" /><HotkeyAlias value="ZergBuild" /></CButton>
+    <CButton id="ZergBuildAdvanced" parent="None">
+        <Hotkey value="Button/Hotkey/ZergBuildAdvanced" /><HotkeyAlias value="ZergBuildAdvanced" /></CButton>
+    <CButton id="Hatchery" parent="None">
+        <Hotkey value="Button/Hotkey/Hatchery" /><HotkeyAlias value="Hatchery" /></CButton>
+    <CButton id="Extractor" parent="None">
+        <Hotkey value="Button/Hotkey/Extractor" /><HotkeyAlias value="Extractor" /></CButton>
+    <CButton id="EvolutionChamber" parent="None">
+        <Hotkey value="Button/Hotkey/EvolutionChamber" /><HotkeyAlias value="EvolutionChamber" /></CButton>
+    <CButton id="SpawningPool" parent="None">
+        <Hotkey value="Button/Hotkey/SpawningPool" /><HotkeyAlias value="SpawningPool" /></CButton>
+    <CButton id="HydraliskDen" parent="None">
+        <Hotkey value="Button/Hotkey/HydraliskDen" /><HotkeyAlias value="HydraliskDen" /></CButton>
+    <CButton id="Spire" parent="None">
+        <Hotkey value="Button/Hotkey/Spire" /><HotkeyAlias value="Spire" /></CButton>
+    <CButton id="BanelingNest" parent="None">
+        <Hotkey value="Button/Hotkey/BanelingNest" /><HotkeyAlias value="BanelingNest" /></CButton>
+    <CButton id="NydusCanal" parent="None">
+        <Hotkey value="Button/Hotkey/NydusCanal" /><HotkeyAlias value="NydusCanal" /></CButton>
+    <CButton id="UltraliskCavern" parent="None">
+        <Hotkey value="Button/Hotkey/UltraliskCavern" /><HotkeyAlias value="UltraliskCavern" /></CButton>
+    <CButton id="SpineCrawler" parent="None">
+        <Hotkey value="Button/Hotkey/SpineCrawler" /><HotkeyAlias value="SpineCrawler" /></CButton>
+    <CButton id="SporeCrawler" parent="None">
+        <Hotkey value="Button/Hotkey/SporeCrawler" /><HotkeyAlias value="SporeCrawler" /></CButton>
+    <CButton id="Lair" parent="None">
+        <Hotkey value="Button/Hotkey/Lair" /><HotkeyAlias value="Lair" /></CButton>
+    <CButton id="Hive" parent="None">
+        <Hotkey value="Button/Hotkey/Hive" /><HotkeyAlias value="Hive" /></CButton>
+    <CButton id="GreaterSpire" parent="None">
+        <Hotkey value="Button/Hotkey/GreaterSpire" /><HotkeyAlias value="GreaterSpire" /></CButton>
+    <CButton id="Drone" parent="None">
+        <Hotkey value="Button/Hotkey/Drone" /><HotkeyAlias value="Drone" /></CButton>
+    <CButton id="Zergling" parent="None">
+        <Hotkey value="Button/Hotkey/Zergling" /><HotkeyAlias value="Zergling" /></CButton>
+    <CButton id="Hydralisk" parent="None">
+        <Hotkey value="Button/Hotkey/Hydralisk" /><HotkeyAlias value="Hydralisk" /></CButton>
+    <CButton id="Overlord" parent="None">
+        <Hotkey value="Button/Hotkey/Overlord" /><HotkeyAlias value="Overlord" /></CButton>
+    <CButton id="Larva" parent="None">
+        <Universal value="1" />
+    <Hotkey value="Button/Hotkey/Larva" /><HotkeyAlias value="Larva" /></CButton>
+    <CButton id="Ultralisk" parent="None">
+        <Hotkey value="Button/Hotkey/Ultralisk" /><HotkeyAlias value="Ultralisk" /></CButton>
+    <CButton id="Baneling" parent="None">
+        <Hotkey value="Button/Hotkey/Baneling" /><HotkeyAlias value="Baneling" /></CButton>
+    <CButton id="Roach" parent="None">
+        <Hotkey value="Button/Hotkey/Roach" /><HotkeyAlias value="Roach" /></CButton>
+    <CButton id="Mutalisk" parent="None">
+        <Hotkey value="Button/Hotkey/Mutalisk" /><HotkeyAlias value="Mutalisk" /></CButton>
+    <CButton id="Queen" parent="None">
+        <Universal value="1" />
+    <Hotkey value="Button/Hotkey/Queen" /><HotkeyAlias value="Queen" /></CButton>
+    <CButton id="BroodLord" parent="None">
+        <Hotkey value="Button/Hotkey/BroodLord" /><HotkeyAlias value="BroodLord" /></CButton>
+    <CButton id="zergmeleeweapons1" parent="None">
+        <Hotkey value="Button/Hotkey/zergmeleeweapons1" /><HotkeyAlias value="zergmeleeweapons1" /></CButton>
+    <CButton id="zergmeleeweapons2" parent="None">
+        <HotkeyAlias value="zergmeleeweapons1" />
+    <Hotkey value="Button/Hotkey/zergmeleeweapons2" /></CButton>
+    <CButton id="zergmeleeweapons3" parent="None">
+        <HotkeyAlias value="zergmeleeweapons1" />
+    <Hotkey value="Button/Hotkey/zergmeleeweapons3" /></CButton>
+    <CButton id="zerggroundarmor1" parent="None">
+        <Hotkey value="Button/Hotkey/zerggroundarmor1" /><HotkeyAlias value="zerggroundarmor1" /></CButton>
+    <CButton id="zerggroundarmor2" parent="None">
+        <HotkeyAlias value="zerggroundarmor1" />
+    <Hotkey value="Button/Hotkey/zerggroundarmor2" /></CButton>
+    <CButton id="zerggroundarmor3" parent="None">
+        <HotkeyAlias value="zerggroundarmor1" />
+    <Hotkey value="Button/Hotkey/zerggroundarmor3" /></CButton>
+    <CButton id="zerglingattackspeed" parent="None">
+        <Hotkey value="Button/Hotkey/zerglingattackspeed" /><HotkeyAlias value="zerglingattackspeed" /></CButton>
+    <CButton id="zerglingmovementspeed" parent="None">
+        <Hotkey value="Button/Hotkey/zerglingmovementspeed" /><HotkeyAlias value="zerglingmovementspeed" /></CButton>
+    <CButton id="zergmissileweapons1" parent="None">
+        <Hotkey value="Button/Hotkey/zergmissileweapons1" /><HotkeyAlias value="zergmissileweapons1" /></CButton>
+    <CButton id="zergmissileweapons2" parent="None">
+        <HotkeyAlias value="zergmissileweapons1" />
+    <Hotkey value="Button/Hotkey/zergmissileweapons2" /></CButton>
+    <CButton id="zergmissileweapons3" parent="None">
+        <HotkeyAlias value="zergmissileweapons1" />
+    <Hotkey value="Button/Hotkey/zergmissileweapons3" /></CButton>
+    <CButton id="overlordspeed" parent="None">
+        <Universal value="1" />
+    <Hotkey value="Button/Hotkey/overlordspeed" /><HotkeyAlias value="overlordspeed" /></CButton>
+    <CButton id="EvolveVentralSacks" parent="None">
+        <Universal value="1" />
+    <Hotkey value="Button/Hotkey/EvolveVentralSacks" /><HotkeyAlias value="EvolveVentralSacks" /></CButton>
+    <CButton id="OverlordTransportLoad" parent="None">
+        <HotkeyAlias value="BunkerLoad" />
+        <Universal value="1" />
+    <Hotkey value="Button/Hotkey/OverlordTransportLoad" /></CButton>
+    <CButton id="OverlordTransportUnload" parent="None">
+        <HotkeyAlias value="BunkerUnloadAll" />
+        <Universal value="1" />
+    <Hotkey value="Button/Hotkey/OverlordTransportUnload" /></CButton>
+    <CButton id="hydraliskspeed" parent="None">
+        <Hotkey value="Button/Hotkey/hydraliskspeed" /><HotkeyAlias value="hydraliskspeed" /></CButton>
+    <CButton id="zergflyerattack1" parent="None">
+        <Universal value="1" />
+    <Hotkey value="Button/Hotkey/zergflyerattack1" /><HotkeyAlias value="zergflyerattack1" /></CButton>
+    <CButton id="zergflyerattack2" parent="None">
+        <HotkeyAlias value="zergflyerattack1" />
+        <Universal value="1" />
+    <Hotkey value="Button/Hotkey/zergflyerattack2" /></CButton>
+    <CButton id="zergflyerattack3" parent="None">
+        <HotkeyAlias value="zergflyerattack1" />
+        <Universal value="1" />
+    <Hotkey value="Button/Hotkey/zergflyerattack3" /></CButton>
+    <CButton id="zergflyerarmor1" parent="None">
+        <Universal value="1" />
+    <Hotkey value="Button/Hotkey/zergflyerarmor1" /><HotkeyAlias value="zergflyerarmor1" /></CButton>
+    <CButton id="zergflyerarmor2" parent="None">
+        <HotkeyAlias value="zergflyerarmor1" />
+        <Universal value="1" />
+    <Hotkey value="Button/Hotkey/zergflyerarmor2" /></CButton>
+    <CButton id="zergflyerarmor3" parent="None">
+        <HotkeyAlias value="zergflyerarmor1" />
+        <Universal value="1" />
+    <Hotkey value="Button/Hotkey/zergflyerarmor3" /></CButton>
+    <CButton id="ResearchBurrow" parent="None">
+        <Universal value="1" />
+    <Hotkey value="Button/Hotkey/ResearchBurrow" /><HotkeyAlias value="ResearchBurrow" /></CButton>
+    <CButton id="BurrowDown" parent="None">
+        <Universal value="1" />
+    <Hotkey value="Button/Hotkey/BurrowDown" /><HotkeyAlias value="BurrowDown" /></CButton>
+    <CButton id="BurrowUp" parent="None">
+        <Universal value="1" />
+    <Hotkey value="Button/Hotkey/BurrowUp" /><HotkeyAlias value="BurrowUp" /></CButton>
+    <CButton id="SensorTower" parent="None">
+        <Hotkey value="Button/Hotkey/SensorTower" /><HotkeyAlias value="SensorTower" /></CButton>
+    <CButton id="RadarField" parent="None">
+        <Hotkey value="Button/Hotkey/RadarField" /><HotkeyAlias value="RadarField" /></CButton>
+    <CButton id="GhostAcademy" parent="None">
+        <Hotkey value="Button/Hotkey/GhostAcademy" /><HotkeyAlias value="GhostAcademy" /></CButton>
+    <CButton id="TemporalRift" parent="None">
+        <Hotkey value="Button/Hotkey/TemporalRift" /><HotkeyAlias value="TemporalRift" /></CButton>
+    <CButton id="PhasingMode" parent="None">
+        <HotkeySet value="WarpPrismModes" />
+    <Hotkey value="Button/Hotkey/PhasingMode" /><HotkeyAlias value="PhasingMode" /></CButton>
+    <CButton id="TransportMode" parent="None">
+        <HotkeySet value="WarpPrismModes" />
+    <Hotkey value="Button/Hotkey/TransportMode" /><HotkeyAlias value="TransportMode" /></CButton>
+    <CButton id="Blink" parent="None">
+        <Hotkey value="Button/Hotkey/Blink" /><HotkeyAlias value="Blink" /></CButton>
+    <CButton id="Infestor" parent="None">
+        <Hotkey value="Button/Hotkey/Infestor" /><HotkeyAlias value="Infestor" /></CButton>
+    <CButton id="MorphToOverseer" parent="None">
+        <Hotkey value="Button/Hotkey/MorphToOverseer" /><HotkeyAlias value="MorphToOverseer" /></CButton>
+    <CButton id="EvolveGlialRegeneration" parent="None">
+        <Hotkey value="Button/Hotkey/EvolveGlialRegeneration" /><HotkeyAlias value="EvolveGlialRegeneration" /></CButton>
+    <CButton id="D8Charge" parent="None">
+        <Hotkey value="Button/Hotkey/D8Charge" /><HotkeyAlias value="D8Charge" /></CButton>
+    <CButton id="OrbitalCommand" parent="None">
+        <Hotkey value="Button/Hotkey/OrbitalCommand" /><HotkeyAlias value="OrbitalCommand" /></CButton>
+    <CButton id="UpgradeToWarpGate" parent="None">
+        <Hotkey value="Button/Hotkey/UpgradeToWarpGate" /><HotkeyAlias value="UpgradeToWarpGate" /></CButton>
+    <CButton id="PlanetaryFortressLoad" parent="None">
+        <HotkeyAlias value="CommandCenterLoad" />
+        <Universal value="1" />
+    <Hotkey value="Button/Hotkey/PlanetaryFortressLoad" /></CButton>
+    <CButton id="StopPlanetaryFortress" parent="None">
+        <Hotkey value="Button/Hotkey/StopPlanetaryFortress" /><HotkeyAlias value="StopPlanetaryFortress" /></CButton>
+    <CButton id="WarpPrismLoad" parent="None">
+        <HotkeyAlias value="BunkerLoad" />
+        <Universal value="1" />
+    <Hotkey value="Button/Hotkey/WarpPrismLoad" /></CButton>
+    <CButton id="Immortal" parent="None">
+        <Hotkey value="Button/Hotkey/Immortal" /><HotkeyAlias value="Immortal" /></CButton>
+    <CButton id="CyberneticsCore" parent="None">
+        <Hotkey value="Button/Hotkey/CyberneticsCore" /><HotkeyAlias value="CyberneticsCore" /></CButton>
+    <CButton id="ForceField" parent="None">
+        <Hotkey value="Button/Hotkey/ForceField" /><HotkeyAlias value="ForceField" /></CButton>
+    <CButton id="GravitonBeam" parent="None">
+        <Hotkey value="Button/Hotkey/GravitonBeam" /><HotkeyAlias value="GravitonBeam" /></CButton>
+    <CButton id="FusionCore" parent="None">
+        <Hotkey value="Button/Hotkey/FusionCore" /><HotkeyAlias value="FusionCore" /></CButton>
+    <CButton id="EMP" parent="None">
+        <Hotkey value="Button/Hotkey/EMP" /><HotkeyAlias value="EMP" /></CButton>
+    <CButton id="ResearchShieldWall" parent="None">
+        <Hotkey value="Button/Hotkey/ResearchShieldWall" /><HotkeyAlias value="ResearchShieldWall" /></CButton>
+    <CButton id="Marauder" parent="None">
+        <Hotkey value="Button/Hotkey/Marauder" /><HotkeyAlias value="Marauder" /></CButton>
+    <CButton id="PhotonCannon" parent="None">
+        <Hotkey value="Button/Hotkey/PhotonCannon" /><HotkeyAlias value="PhotonCannon" /></CButton>
+    <CButton id="VikingFighter" parent="None">
+        <Hotkey value="Button/Hotkey/VikingFighter" /><HotkeyAlias value="VikingFighter" /></CButton>
+    <CButton id="RoboticsBay" parent="None">
+        <Hotkey value="Button/Hotkey/RoboticsBay" /><HotkeyAlias value="RoboticsBay" /></CButton>
+    <CButton id="Salvage" parent="None">
+        <Hotkey value="Button/Hotkey/Salvage" /><HotkeyAlias value="Salvage" /></CButton>
+    <CButton id="SetBunkerRallyPoint" parent="None">
+        <Hotkey value="Button/Hotkey/SetBunkerRallyPoint" /><HotkeyAlias value="SetBunkerRallyPoint" /></CButton>
+    <CButton id="WarpPrismUnloadAll" parent="None">
+        <HotkeyAlias value="BunkerUnloadAll" />
+        <Universal value="1" />
+    <Hotkey value="Button/Hotkey/WarpPrismUnloadAll" /></CButton>
+    <CButton id="ResearchWarpGate" parent="None">
+        <Hotkey value="Button/Hotkey/ResearchWarpGate" /><HotkeyAlias value="ResearchWarpGate" /></CButton>
+    <CButton id="MorphBackToGateway" parent="None">
+        <Hotkey value="Button/Hotkey/MorphBackToGateway" /><HotkeyAlias value="MorphBackToGateway" /></CButton>
+    <CButton id="RoachWarren" parent="None">
+        <Hotkey value="Button/Hotkey/RoachWarren" /><HotkeyAlias value="RoachWarren" /></CButton>
+    <CButton id="BuildCreepTumor" parent="None">
+        <Hotkey value="Button/Hotkey/BuildCreepTumor" /><HotkeyAlias value="BuildCreepTumor" /></CButton>
+    <CButton id="CreepTumor" parent="None">
+        <Hotkey value="Button/Hotkey/CreepTumor" /><HotkeyAlias value="CreepTumor" /></CButton>
+    <CButton id="BuildCreepTumorPropagate" parent="None">
+        <Hotkey value="Button/Hotkey/BuildCreepTumorPropagate" /><HotkeyAlias value="BuildCreepTumorPropagate" /></CButton>
+    <CButton id="Corruptor" parent="None">
+        <Hotkey value="Button/Hotkey/Corruptor" /><HotkeyAlias value="Corruptor" /></CButton>
+    <CButton id="Sentry" parent="None">
+        <Universal value="1" />
+    <Hotkey value="Button/Hotkey/Sentry" /><HotkeyAlias value="Sentry" /></CButton>
+    <CButton id="Transfusion" parent="None">
+        <Hotkey value="Button/Hotkey/Transfusion" /><HotkeyAlias value="Transfusion" /></CButton>
+    <CButton id="Hellion" parent="None">
+        <Hotkey value="Button/Hotkey/Hellion" /><HotkeyAlias value="Hellion" /></CButton>
+    <CButton id="GenerateCreep" parent="None">
+        <HotkeySet value="GenerateCreep" />
+    <Hotkey value="Button/Hotkey/GenerateCreep" /><HotkeyAlias value="GenerateCreep" /></CButton>
+    <CButton id="StopGenerateCreep" parent="None">
+        <HotkeySet value="GenerateCreep" />
+        <Universal value="1" />
+    <Hotkey value="Button/Hotkey/StopGenerateCreep" /><HotkeyAlias value="StopGenerateCreep" /></CButton>
+    <CButton id="NydusCanalLoad" parent="None">
+        <HotkeyAlias value="BunkerLoad" />
+        <Universal value="1" />
+    <Hotkey value="Button/Hotkey/NydusCanalLoad" /></CButton>
+    <CButton id="NydusCanalUnloadAll" parent="None">
+        <HotkeyAlias value="BunkerUnloadAll" />
+        <Universal value="1" />
+    <Hotkey value="Button/Hotkey/NydusCanalUnloadAll" /></CButton>
+    <CButton id="SpineCrawlerUproot" parent="None">
+        <Hotkey value="Button/Hotkey/SpineCrawlerUproot" /><HotkeyAlias value="SpineCrawlerUproot" /></CButton>
+    <CButton id="SporeCrawlerUproot" parent="None">
+        <Hotkey value="Button/Hotkey/SporeCrawlerUproot" /><HotkeyAlias value="SporeCrawlerUproot" /></CButton>
+    <CButton id="SpineCrawlerRoot" parent="None">
+        <Hotkey value="Button/Hotkey/SpineCrawlerRoot" /><HotkeyAlias value="SpineCrawlerRoot" /></CButton>
+    <CButton id="SpineCrawlerRootCancel" parent="None">
+        <Hotkey value="Button/Hotkey/SpineCrawlerRootCancel" /><HotkeyAlias value="SpineCrawlerRootCancel" /></CButton>
+    <CButton id="SporeCrawlerRoot" parent="None">
+        <Hotkey value="Button/Hotkey/SporeCrawlerRoot" /><HotkeyAlias value="SporeCrawlerRoot" /></CButton>
+    <CButton id="SporeCrawlerRootCancel" parent="None">
+        <Hotkey value="Button/Hotkey/SporeCrawlerRootCancel" /><HotkeyAlias value="SporeCrawlerRootCancel" /></CButton>
+    <CButton id="SelectBuilder" parent="None">
+        <Universal value="1" />
+    <Hotkey value="Button/Hotkey/SelectBuilder" /><HotkeyAlias value="SelectBuilder" /></CButton>
+    <CButton id="StopRoachBurrowed" parent="None">
+        <HotkeyAlias value="Stop" />
+    <Hotkey value="Button/Hotkey/StopRoachBurrowed" /></CButton>
+    <CButton id="Herd" parent="None">
+        <Hotkey value="Button/Hotkey/Herd" /><HotkeyAlias value="Herd" /></CButton>
+    <CButton id="Frenzy" parent="None">
+        <Hotkey value="Button/Hotkey/Frenzy" /><HotkeyAlias value="Frenzy" /></CButton>
+    <CButton id="ResearchIncreasedRange" parent="None">
+        <Hotkey value="Button/Hotkey/ResearchIncreasedRange" /><HotkeyAlias value="ResearchIncreasedRange" /></CButton>
+    <CButton id="ResearchStrikeCannons" parent="None">
+        <Hotkey value="Button/Hotkey/ResearchStrikeCannons" /><HotkeyAlias value="ResearchStrikeCannons" /></CButton>
+    <CButton id="ResearchNeuralParasite" parent="None">
+        <Hotkey value="Button/Hotkey/ResearchNeuralParasite" /><HotkeyAlias value="ResearchNeuralParasite" /></CButton>
+    <CButton id="Contaminate" parent="None">
+        <Hotkey value="Button/Hotkey/Contaminate" /><HotkeyAlias value="Contaminate" /></CButton>
+    <CButton id="CommanderRaynorFortifiedBunkersTalentSimple" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderRaynorFortifiedBunkersTalentSimple" /><HotkeyAlias value="CommanderRaynorFortifiedBunkersTalentSimple" /></CButton>
+    <CButton id="CommanderRaynorFortifiedBunkersTalent" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderRaynorFortifiedBunkersTalent" /><HotkeyAlias value="CommanderRaynorFortifiedBunkersTalent" /></CButton>
+    <CButton id="CommanderRaynorFireSuppressionTalentSimple" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderRaynorFireSuppressionTalentSimple" /><HotkeyAlias value="CommanderRaynorFireSuppressionTalentSimple" /></CButton>
+    <CButton id="CommanderRaynorFireSuppressionTalent" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderRaynorFireSuppressionTalent" /><HotkeyAlias value="CommanderRaynorFireSuppressionTalent" /></CButton>
+    <CButton id="CommanderRaynorMercMedicsTalentSimple" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderRaynorMercMedicsTalentSimple" /><HotkeyAlias value="CommanderRaynorMercMedicsTalentSimple" /></CButton>
+    <CButton id="CommanderRaynorMercMedicsTalent" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderRaynorMercMedicsTalent" /><HotkeyAlias value="CommanderRaynorMercMedicsTalent" /></CButton>
+    <CButton id="CommanderRaynorMercVulturesTalentSimple" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderRaynorMercVulturesTalentSimple" /><HotkeyAlias value="CommanderRaynorMercVulturesTalentSimple" /></CButton>
+    <CButton id="CommanderRaynorMercVulturesTalent" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderRaynorMercVulturesTalent" /><HotkeyAlias value="CommanderRaynorMercVulturesTalent" /></CButton>
+    <CButton id="CommanderRaynorCommandCenterReactorTalentSimple" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderRaynorCommandCenterReactorTalentSimple" /><HotkeyAlias value="CommanderRaynorCommandCenterReactorTalentSimple" /></CButton>
+    <CButton id="CommanderRaynorCommandCenterReactorTalent" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderRaynorCommandCenterReactorTalent" /><HotkeyAlias value="CommanderRaynorCommandCenterReactorTalent" /></CButton>
+    <CButton id="CommanderRaynorAutomatedRefineriesTalentSimple" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderRaynorAutomatedRefineriesTalentSimple" /><HotkeyAlias value="CommanderRaynorAutomatedRefineriesTalentSimple" /></CButton>
+    <CButton id="CommanderRaynorAutomatedRefineriesTalent" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderRaynorAutomatedRefineriesTalent" /><HotkeyAlias value="CommanderRaynorAutomatedRefineriesTalent" /></CButton>
+    <CButton id="CommanderRaynorStimUpgradeTalentSimple" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderRaynorStimUpgradeTalentSimple" /><HotkeyAlias value="CommanderRaynorStimUpgradeTalentSimple" /></CButton>
+    <CButton id="CommanderRaynorStimUpgradeTalent" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderRaynorStimUpgradeTalent" /><HotkeyAlias value="CommanderRaynorStimUpgradeTalent" /></CButton>
+    <CButton id="CommanderRaynorCellularReactorsTalentSimple" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderRaynorCellularReactorsTalentSimple" /><HotkeyAlias value="CommanderRaynorCellularReactorsTalentSimple" /></CButton>
+    <CButton id="CommanderRaynorCellularReactorsTalent" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderRaynorCellularReactorsTalent" /><HotkeyAlias value="CommanderRaynorCellularReactorsTalent" /></CButton>
+    <CButton id="CommanderRaynorOrbitalDepotsTalentSimple" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderRaynorOrbitalDepotsTalentSimple" /><HotkeyAlias value="CommanderRaynorOrbitalDepotsTalentSimple" /></CButton>
+    <CButton id="CommanderRaynorOrbitalDepotsTalent" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderRaynorOrbitalDepotsTalent" /><HotkeyAlias value="CommanderRaynorOrbitalDepotsTalent" /></CButton>
+    <CButton id="CommanderRaynorRefineryMicroFilteringTalentSimple" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderRaynorRefineryMicroFilteringTalentSimple" /><HotkeyAlias value="CommanderRaynorRefineryMicroFilteringTalentSimple" /></CButton>
+    <CButton id="CommanderRaynorRefineryMicroFilteringTalent" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderRaynorRefineryMicroFilteringTalent" /><HotkeyAlias value="CommanderRaynorRefineryMicroFilteringTalent" /></CButton>
+    <CButton id="CommanderRaynorUpgradedBansheesTalentSimple" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderRaynorUpgradedBansheesTalentSimple" /><HotkeyAlias value="CommanderRaynorUpgradedBansheesTalentSimple" /></CButton>
+    <CButton id="CommanderRaynorUpgradedBansheesTalent" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderRaynorUpgradedBansheesTalent" /><HotkeyAlias value="CommanderRaynorUpgradedBansheesTalent" /></CButton>
+    <CButton id="CommanderRaynorSiegeModeUpgradesTalentSimple" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderRaynorSiegeModeUpgradesTalentSimple" /><HotkeyAlias value="CommanderRaynorSiegeModeUpgradesTalentSimple" /></CButton>
+    <CButton id="CommanderRaynorSiegeModeUpgradesTalent" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderRaynorSiegeModeUpgradesTalent" /><HotkeyAlias value="CommanderRaynorSiegeModeUpgradesTalent" /></CButton>
+    <CButton id="CommanderRaynorRavenAttackSpeedTalentSimple" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderRaynorRavenAttackSpeedTalentSimple" /><HotkeyAlias value="CommanderRaynorRavenAttackSpeedTalentSimple" /></CButton>
+    <CButton id="CommanderRaynorRavenAttackSpeedTalent" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderRaynorRavenAttackSpeedTalent" /><HotkeyAlias value="CommanderRaynorRavenAttackSpeedTalent" /></CButton>
+    <CButton id="CommanderRaynorHyperionYomatoCannonTalentSimple" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderRaynorHyperionYomatoCannonTalentSimple" /><HotkeyAlias value="CommanderRaynorHyperionYomatoCannonTalentSimple" /></CButton>
+    <CButton id="CommanderRaynorHyperionYomatoCannonTalent" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderRaynorHyperionYomatoCannonTalent" /><HotkeyAlias value="CommanderRaynorHyperionYomatoCannonTalent" /></CButton>
+    <CButton id="CommanderRaynorHyperionDurationTalentSimple" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderRaynorHyperionDurationTalentSimple" /><HotkeyAlias value="CommanderRaynorHyperionDurationTalentSimple" /></CButton>
+    <CButton id="CommanderRaynorHyperionDurationTalent" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderRaynorHyperionDurationTalent" /><HotkeyAlias value="CommanderRaynorHyperionDurationTalent" /></CButton>
+    <CButton id="CommanderZagaraVoidCoopBanelingBarrage" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderZagaraVoidCoopBanelingBarrage" /><HotkeyAlias value="CommanderZagaraVoidCoopBanelingBarrage" /></CButton>
+    <CButton id="CommanderZagaraVoidCoopSpawnHunterKillers" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderZagaraVoidCoopSpawnHunterKillers" /><HotkeyAlias value="CommanderZagaraVoidCoopSpawnHunterKillers" /></CButton>
+    <CButton id="CommanderZagaraVoidCoopInfestedPods" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderZagaraVoidCoopInfestedPods" /><HotkeyAlias value="CommanderZagaraVoidCoopInfestedPods" /></CButton>
+    <CButton id="CommanderZagaraVoidCoopNydusWorm" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderZagaraVoidCoopNydusWorm" /><HotkeyAlias value="CommanderZagaraVoidCoopNydusWorm" /></CButton>
+    <CButton id="CommanderTraitRaynorSummonHyperion" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderTraitRaynorSummonHyperion" /><HotkeyAlias value="CommanderTraitRaynorSummonHyperion" /></CButton>
+    <CButton id="CommanderTraitRaynorHyperionHyperjump" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderTraitRaynorHyperionHyperjump" /><HotkeyAlias value="CommanderTraitRaynorHyperionHyperjump" /></CButton>
+    <CButton id="CommanderTraitRaynorHyperionYamatoCannon" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderTraitRaynorHyperionYamatoCannon" /><HotkeyAlias value="CommanderTraitRaynorHyperionYamatoCannon" /></CButton>
+    <CButton id="CommanderTraitSwannDrakkenLaserDrill" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderTraitSwannDrakkenLaserDrill" /><HotkeyAlias value="CommanderTraitSwannDrakkenLaserDrill" /></CButton>
+    <CButton id="CommanderTraitSwannDrakkenLaserDrillAttack" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderTraitSwannDrakkenLaserDrillAttack" /><HotkeyAlias value="CommanderTraitSwannDrakkenLaserDrillAttack" /></CButton>
+    <CButton id="CommanderTraitSwannConcentratedBeam" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderTraitSwannConcentratedBeam" /><HotkeyAlias value="CommanderTraitSwannConcentratedBeam" /></CButton>
+    <CButton id="CommanderTraitKerriganLeapingStrike" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderTraitKerriganLeapingStrike" /><HotkeyAlias value="CommanderTraitKerriganLeapingStrike" /></CButton>
+    <CButton id="CommanderTraitKerriganPsionicShift" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderTraitKerriganPsionicShift" /><HotkeyAlias value="CommanderTraitKerriganPsionicShift" /></CButton>
+    <CButton id="CommanderTraitKerriganAssimilationAura" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderTraitKerriganAssimilationAura" /><HotkeyAlias value="CommanderTraitKerriganAssimilationAura" /></CButton>
+    <CButton id="CommanderTraitZagaraBanelingBarrage" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderTraitZagaraBanelingBarrage" /><HotkeyAlias value="CommanderTraitZagaraBanelingBarrage" /></CButton>
+    <CButton id="CommanderTraitZagaraSpawnHunterKillers" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderTraitZagaraSpawnHunterKillers" /><HotkeyAlias value="CommanderTraitZagaraSpawnHunterKillers" /></CButton>
+    <CButton id="CommanderTraitZagaraMassFrenzy" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderTraitZagaraMassFrenzy" /><HotkeyAlias value="CommanderTraitZagaraMassFrenzy" /></CButton>
+    <CButton id="CommanderTraitArtanisSOAProjectPowerField" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderTraitArtanisSOAProjectPowerField" /><HotkeyAlias value="CommanderTraitArtanisSOAProjectPowerField" /></CButton>
+    <CButton id="CommanderTraitArtanisSOAOrbitalStrike" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderTraitArtanisSOAOrbitalStrike" /><HotkeyAlias value="CommanderTraitArtanisSOAOrbitalStrike" /></CButton>
+    <CButton id="CommanderTraitArtanisSOAShieldOvercharge" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderTraitArtanisSOAShieldOvercharge" /><HotkeyAlias value="CommanderTraitArtanisSOAShieldOvercharge" /></CButton>
+    <CButton id="CommanderTraitVorazunSOASummonDarkPylon" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderTraitVorazunSOASummonDarkPylon" /><HotkeyAlias value="CommanderTraitVorazunSOASummonDarkPylon" /></CButton>
+    <CButton id="CommanderTraitVorazunSOABlackHole" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderTraitVorazunSOABlackHole" /><HotkeyAlias value="CommanderTraitVorazunSOABlackHole" /></CButton>
+    <CButton id="CommanderTraitVorazunSOASummonShadowGuard" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderTraitVorazunSOASummonShadowGuard" /><HotkeyAlias value="CommanderTraitVorazunSOASummonShadowGuard" /></CButton>
+    <CButton id="CommanderTraitKaraxSOAOrbitalStrike" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderTraitKaraxSOAOrbitalStrike" /><HotkeyAlias value="CommanderTraitKaraxSOAOrbitalStrike" /></CButton>
+    <CButton id="CommanderTraitKaraxSOASolarLance" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderTraitKaraxSOASolarLance" /><HotkeyAlias value="CommanderTraitKaraxSOASolarLance" /></CButton>
+    <CButton id="CommanderTraitKaraxSOAChronoWave" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderTraitKaraxSOAChronoWave" /><HotkeyAlias value="CommanderTraitKaraxSOAChronoWave" /></CButton>
+    <CButton id="CommanderKaraxOrbitalAssault" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderKaraxOrbitalAssault" /><HotkeyAlias value="CommanderKaraxOrbitalAssault" /></CButton>
+    <CButton id="CommanderKaraxUnlockKhaydarinMonolith" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderKaraxUnlockKhaydarinMonolith" /><HotkeyAlias value="CommanderKaraxUnlockKhaydarinMonolith" /></CButton>
+    <CButton id="CommanderKaraxUnlockSOAChronoPassive" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderKaraxUnlockSOAChronoPassive" /><HotkeyAlias value="CommanderKaraxUnlockSOAChronoPassive" /></CButton>
+    <CButton id="CommanderKaraxUnlockSOAPassiveOrbitalStrike" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderKaraxUnlockSOAPassiveOrbitalStrike" /><HotkeyAlias value="CommanderKaraxUnlockSOAPassiveOrbitalStrike" /></CButton>
+    <CButton id="CommanderKaraxUnitSpawnBarrier" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderKaraxUnitSpawnBarrier" /><HotkeyAlias value="CommanderKaraxUnitSpawnBarrier" /></CButton>
+    <CButton id="CommanderKaraxUnlockShieldBatteryBarrier" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderKaraxUnlockShieldBatteryBarrier" /><HotkeyAlias value="CommanderKaraxUnlockShieldBatteryBarrier" /></CButton>
+    <CButton id="CommanderKaraxUnlockRepairBeam" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderKaraxUnlockRepairBeam" /><HotkeyAlias value="CommanderKaraxUnlockRepairBeam" /></CButton>
+    <CButton id="CommanderKaraxUnlockPurifierBeam" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderKaraxUnlockPurifierBeam" /><HotkeyAlias value="CommanderKaraxUnlockPurifierBeam" /></CButton>
+    <CButton id="CommanderKaraxTwilightCouncilUpgradesPack" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderKaraxTwilightCouncilUpgradesPack" /><HotkeyAlias value="CommanderKaraxTwilightCouncilUpgradesPack" /></CButton>
+    <CButton id="CommanderKaraxCyberneticsCoreUpgradesPack" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderKaraxCyberneticsCoreUpgradesPack" /><HotkeyAlias value="CommanderKaraxCyberneticsCoreUpgradesPack" /></CButton>
+    <CButton id="CommanderKaraxForgeUpgradesPack" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderKaraxForgeUpgradesPack" /><HotkeyAlias value="CommanderKaraxForgeUpgradesPack" /></CButton>
+    <CButton id="CommanderKaraxRoboticsBayUpgradesPack" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderKaraxRoboticsBayUpgradesPack" /><HotkeyAlias value="CommanderKaraxRoboticsBayUpgradesPack" /></CButton>
+    <CButton id="CommanderKaraxFleetBeaconUpgradesPack" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderKaraxFleetBeaconUpgradesPack" /><HotkeyAlias value="CommanderKaraxFleetBeaconUpgradesPack" /></CButton>
+    <CButton id="CommanderKaraxSolarForgeUpgradesPack1" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderKaraxSolarForgeUpgradesPack1" /><HotkeyAlias value="CommanderKaraxSolarForgeUpgradesPack1" /></CButton>
+    <CButton id="CommanderKaraxSolarForgeUpgradesPack2" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderKaraxSolarForgeUpgradesPack2" /><HotkeyAlias value="CommanderKaraxSolarForgeUpgradesPack2" /></CButton>
+    <CButton id="CommanderKaraxMassChronoUpgrade" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderKaraxMassChronoUpgrade" /><HotkeyAlias value="CommanderKaraxMassChronoUpgrade" /></CButton>
+    <CButton id="CommanderKaraxPurifierBeamUpgrade" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderKaraxPurifierBeamUpgrade" /><HotkeyAlias value="CommanderKaraxPurifierBeamUpgrade" /></CButton>
+    <CButton id="CommanderKaraxInstantStructureWarp" parent="None">
+        <Hotkey value="Button/Hotkey/CommanderKaraxInstantStructureWarp" /><HotkeyAlias value="CommanderKaraxInstantStructureWarp" /></CButton>
+<CButton id="CancelMothershipMorph" parent="None">
+        <Universal value="1" />
+    <Hotkey value="Button/Hotkey/CancelMothershipMorph" /><HotkeyAlias value="CancelMothershipMorph" /></CButton>
+    <CButton id="MineLayerArm" parent="None">
+        <Hotkey value="Button/Hotkey/MineLayerArm" /><HotkeyAlias value="MineLayerArm" /></CButton>
+    <CButton id="MineLayerAttack" parent="None">
+        <Hotkey value="Button/Hotkey/MineLayerAttack" /><HotkeyAlias value="MineLayerAttack" /></CButton>
+    <CButton id="MineLayerBurrow" parent="None">
+        <Hotkey value="Button/Hotkey/MineLayerBurrow" /><HotkeyAlias value="MineLayerBurrow" /></CButton>
+    <CButton id="MineLayerUnburrow" parent="None">
+        <Hotkey value="Button/Hotkey/MineLayerUnburrow" /><HotkeyAlias value="MineLayerUnburrow" /></CButton>
+    <CButton id="MorphToMothership" parent="None">
+        <Hotkey value="Button/Hotkey/MorphToMothership" /><HotkeyAlias value="MorphToMothership" /></CButton>
+    <CButton id="MothershipStasis" parent="None">
+        <Hotkey value="Button/Hotkey/MothershipStasis" /><HotkeyAlias value="MothershipStasis" /></CButton>
+    <CButton id="MothershipCore" parent="None">
+        <Hotkey value="Button/Hotkey/MothershipCore" /><HotkeyAlias value="MothershipCore" /></CButton>
+    <CButton id="InvulnerabilityShield" parent="None">
+        <Hotkey value="Button/Hotkey/InvulnerabilityShield" /><HotkeyAlias value="InvulnerabilityShield" /></CButton>
+    <CButton id="MothershipCoreTeleport" parent="None">
+        <Hotkey value="Button/Hotkey/MothershipCoreTeleport" /><HotkeyAlias value="MothershipCoreTeleport" /></CButton>
+    <CButton id="MothershipCoreWeapon" parent="None">
+        <Hotkey value="Button/Hotkey/MothershipCoreWeapon" /><HotkeyAlias value="MothershipCoreWeapon" /></CButton>
+    <CButton id="OracleNormalMode" parent="None">
+        <Hotkey value="Button/Hotkey/OracleNormalMode" /><HotkeyAlias value="OracleNormalMode" /></CButton>
+    <CButton id="OracleRevelationMode" parent="None">
+        <Hotkey value="Button/Hotkey/OracleRevelationMode" /><HotkeyAlias value="OracleRevelationMode" /></CButton>
+    <CButton id="ResearchCombatDrugs" parent="None">
+        <Hotkey value="Button/Hotkey/ResearchCombatDrugs" /><HotkeyAlias value="ResearchCombatDrugs" /></CButton>
+    <CButton id="SpectreMP" parent="None">
+        <Hotkey value="Button/Hotkey/SpectreMP" /><HotkeyAlias value="SpectreMP" /></CButton>
+    <CButton id="HotSPreserverLineSplash" parent="None">
+        <Hotkey value="Button/Hotkey/HotSPreserverLineSplash" /><HotkeyAlias value="HotSPreserverLineSplash" /></CButton>
+    <CButton id="Digester" parent="None">
+        <Hotkey value="Button/Hotkey/Digester" /><HotkeyAlias value="Digester" /></CButton>
+    <CButton id="DigesterCreepSpray" parent="None">
+        <Hotkey value="Button/Hotkey/DigesterCreepSpray" /><HotkeyAlias value="DigesterCreepSpray" /></CButton>
+    <CButton id="LoadDigester" parent="None">
+        <Universal value="1" />
+    <Hotkey value="Button/Hotkey/LoadDigester" /><HotkeyAlias value="LoadDigester" /></CButton>
+    <CButton id="NexusPhaseShift" parent="None">
+        <Hotkey value="Button/Hotkey/NexusPhaseShift" /><HotkeyAlias value="NexusPhaseShift" /></CButton>
+    <CButton id="SnipeDoT" parent="None">
+        <Hotkey value="Button/Hotkey/SnipeDoT" /><HotkeyAlias value="SnipeDoT" /></CButton>
+    <CButton id="QueenLand" parent="None">
+        <Hotkey value="Button/Hotkey/QueenLand" /><HotkeyAlias value="QueenLand" /></CButton>
+    <CButton id="QueenFly" parent="None">
+        <Hotkey value="Button/Hotkey/QueenFly" /><HotkeyAlias value="QueenFly" /></CButton>
+    <CButton id="NexusInvulnerability" parent="None">
+        <Hotkey value="Button/Hotkey/NexusInvulnerability" /><HotkeyAlias value="NexusInvulnerability" /></CButton>
+    <CButton id="MPOdin" parent="None">
+        <Hotkey value="Button/Hotkey/MPOdin" /><HotkeyAlias value="MPOdin" /></CButton>
+    <CButton id="OracleCloakField" parent="None">
+        <Hotkey value="Button/Hotkey/OracleCloakField" /><HotkeyAlias value="OracleCloakField" /></CButton>
+    <CButton id="OracleEnergyUpgrade" parent="None">
+        <Hotkey value="Button/Hotkey/OracleEnergyUpgrade" /><HotkeyAlias value="OracleEnergyUpgrade" /></CButton>
+    <CButton id="RestoreShields" parent="None">
+        <Hotkey value="Button/Hotkey/RestoreShields" /><HotkeyAlias value="RestoreShields" /></CButton>
+    <CButton id="CycloneMissiles" parent="None">
+        <Hotkey value="Button/Hotkey/CycloneMissiles" /><HotkeyAlias value="CycloneMissiles" /></CButton>
+    <CButton id="SummonNydusCanalAttacker" parent="None">
+        <HotkeyAlias value="" />
+    <Hotkey value="Button/Hotkey/SummonNydusCanalAttacker" /></CButton>
+    <CButton id="SummonNydusCanalCreeper" parent="None">
+        <HotkeyAlias value="" />
+    <Hotkey value="Button/Hotkey/SummonNydusCanalCreeper" /></CButton>
+    <CButton id="TornadoMissile" parent="None">
+        <Hotkey value="Button/Hotkey/TornadoMissile" /><HotkeyAlias value="TornadoMissile" /></CButton>
+    <CButton id="MassRecall" parent="MassRecall">
+        <Hotkey value="Button/Hotkey/MassRecall" /><HotkeyAlias value="MassRecall" /></CButton>
+    <CButton id="SingleRecall" parent="None">
+        <Hotkey value="Button/Hotkey/SingleRecall" /><HotkeyAlias value="SingleRecall" /></CButton>
+    <CButton id="MuscularAugments" parent="None">
+        <Hotkey value="Button/Hotkey/MuscularAugments" /><HotkeyAlias value="MuscularAugments" /></CButton>
+    <CButton id="Scryer" parent="None">
+        <Hotkey value="Button/Hotkey/Scryer" /><HotkeyAlias value="Scryer" /></CButton>
+    <CButton id="OracleRevelation" parent="None">
+        <Hotkey value="Button/Hotkey/OracleRevelation" /><HotkeyAlias value="OracleRevelation" /></CButton>
+    <CButton id="SetRallyPointSwarmHost" parent="None">
+        <Hotkey value="Button/Hotkey/SetRallyPointSwarmHost" /><HotkeyAlias value="SetRallyPointSwarmHost" /></CButton>
+    <CButton id="SpectreShield" parent="None">
+        <Hotkey value="Button/Hotkey/SpectreShield" /><HotkeyAlias value="SpectreShield" /></CButton>
+    <CButton id="Tempest" parent="None">
+        <Hotkey value="Button/Hotkey/Tempest" /><HotkeyAlias value="Tempest" /></CButton>
+    <CButton id="Clone" parent="None">
+        <Hotkey value="Button/Hotkey/Clone" /><HotkeyAlias value="Clone" /></CButton>
+    <CButton id="ViperConsume" parent="None">
+        <Hotkey value="Button/Hotkey/ViperConsume" /><HotkeyAlias value="ViperConsume" /></CButton>
+    <CButton id="WarpShipRecall" parent="None">
+        <Hotkey value="Button/Hotkey/WarpShipRecall" /><HotkeyAlias value="WarpShipRecall" /></CButton>
+    <CButton id="BuildingShield" parent="None">
+        <Hotkey value="Button/Hotkey/BuildingShield" /><HotkeyAlias value="BuildingShield" /></CButton>
+    <CButton id="MorphToHellionTank" parent="None">
+        <HotkeySet value="HellionModes" />
+    <Hotkey value="Button/Hotkey/MorphToHellionTank" /><HotkeyAlias value="MorphToHellionTank" /></CButton>
+    <CButton id="HellionTank" parent="None">
+        <Hotkey value="Button/Hotkey/HellionTank" /><HotkeyAlias value="HellionTank" /></CButton>
+    <CButton id="BanelingBurrowMove" parent="None">
+        <Hotkey value="Button/Hotkey/BanelingBurrowMove" /><HotkeyAlias value="BanelingBurrowMove" /></CButton>
+    <CButton id="SwarmHostBurrowDown" parent="None">
+        <Universal value="1" />
+        <Hotkey value="Button/Hotkey/SwarmHostBurrowDown" /><HotkeyAlias value="SwarmHostBurrowDown" /></CButton>
+    <CButton id="SwarmHostBurrowUp" parent="None">
+        <Universal value="1" />
+        <Hotkey value="Button/Hotkey/SwarmHostBurrowUp" /><HotkeyAlias value="SwarmHostBurrowUp" /></CButton>
+    <CButton id="LocustMP" parent="None">
+        <Hotkey value="Button/Hotkey/LocustMP" /><HotkeyAlias value="LocustMP" /></CButton>
+    <CButton id="MorphtoLocustMP" parent="None">
+        <Hotkey value="Button/Hotkey/MorphtoLocustMP" /><HotkeyAlias value="MorphtoLocustMP" /></CButton>
+    <CButton id="MorphToHellion" parent="None">
+        <HotkeySet value="HellionModes" />
+    <Hotkey value="Button/Hotkey/MorphToHellion" /><HotkeyAlias value="MorphToHellion" /></CButton>
+    <CButton id="ResourceBlocker" parent="None">
+        <Hotkey value="Button/Hotkey/ResourceBlocker" /><HotkeyAlias value="ResourceBlocker" /></CButton>
+    <CButton id="ResourceStun" parent="None">
+        <Hotkey value="Button/Hotkey/ResourceStun" /><HotkeyAlias value="ResourceStun" /></CButton>
+    <CButton id="SwarmHost" parent="None">
+        <Hotkey value="Button/Hotkey/SwarmHost" /><HotkeyAlias value="SwarmHost" /></CButton>
+    <CButton id="BuildingStasis" parent="None">
+        <Hotkey value="Button/Hotkey/BuildingStasis" /><HotkeyAlias value="BuildingStasis" /></CButton>
+    <CButton id="FlyerShield" parent="None">
+        <Hotkey value="Button/Hotkey/FlyerShield" /><HotkeyAlias value="FlyerShield" /></CButton>
+    <CButton id="PhoenixRangeUpgrade" parent="None">
+        <Hotkey value="Button/Hotkey/PhoenixRangeUpgrade" /><HotkeyAlias value="PhoenixRangeUpgrade" /></CButton>
+    <CButton id="Oracle" parent="None">
+        <Hotkey value="Button/Hotkey/Oracle" /><HotkeyAlias value="Oracle" /></CButton>
+    <CButton id="OracleHallucination" parent="None">
+        <Hotkey value="Button/Hotkey/OracleHallucination" /><HotkeyAlias value="OracleHallucination" /></CButton>
+    <CButton id="MaximumThrust" parent="None">
+        <Hotkey value="Button/Hotkey/MaximumThrust" /><HotkeyAlias value="MaximumThrust" /></CButton>
+    <CButton id="CombatDrugs" parent="None">
+        <Hotkey value="Button/Hotkey/CombatDrugs" /><HotkeyAlias value="CombatDrugs" /></CButton>
+    <CButton id="MissileTankRegen" parent="None">
+        <Hotkey value="Button/Hotkey/MissileTankRegen" /><HotkeyAlias value="MissileTankRegen" /></CButton>
+    <CButton id="SwarmHostMP" parent="None">
+        <Hotkey value="Button/Hotkey/SwarmHostMP" /><HotkeyAlias value="SwarmHostMP" /></CButton>
+    <CButton id="WarHound" parent="None">
+        <Hotkey value="Button/Hotkey/WarHound" /><HotkeyAlias value="WarHound" /></CButton>
+    <CButton id="Bombardment" parent="None">
+        <Hotkey value="Button/Hotkey/Bombardment" /><HotkeyAlias value="Bombardment" /></CButton>
+    <CButton id="MorphToSwarmHostBurrowedMP" parent="None">
+        <Hotkey value="Button/Hotkey/MorphToSwarmHostBurrowedMP" /><HotkeyAlias value="MorphToSwarmHostBurrowedMP" /></CButton>
+    <CButton id="MorphToSwarmHostMP" parent="None">
+        <Hotkey value="Button/Hotkey/MorphToSwarmHostMP" /><HotkeyAlias value="MorphToSwarmHostMP" /></CButton>
+    <CButton id="BlindingCloud" parent="None">
+        <Hotkey value="Button/Hotkey/BlindingCloud" /><HotkeyAlias value="BlindingCloud" /></CButton>
+    <CButton id="BurrowChargeMP" parent="None">
+        <Hotkey value="Button/Hotkey/BurrowChargeMP" /><HotkeyAlias value="BurrowChargeMP" /></CButton>
+    <CButton id="Viper" parent="None">
+        <Hotkey value="Button/Hotkey/Viper" /><HotkeyAlias value="Viper" /></CButton>
+    <CButton id="EyeStalk" parent="None">
+        <Hotkey value="Button/Hotkey/EyeStalk" /><HotkeyAlias value="EyeStalk" /></CButton>
+    <CButton id="FaceEmbrace" parent="None">
+        <Hotkey value="Button/Hotkey/FaceEmbrace" /><HotkeyAlias value="FaceEmbrace" /></CButton>
+    <CButton id="CliffJumper" parent="None">
+        <Hotkey value="Button/Hotkey/CliffJumper" /><HotkeyAlias value="CliffJumper" /></CButton>
+    <CButton id="DisableBuildingAttack" parent="None">
+        <Hotkey value="Button/Hotkey/DisableBuildingAttack" /><HotkeyAlias value="DisableBuildingAttack" /></CButton>
+    <CButton id="EnableBuildingAttack" parent="None">
+        <Hotkey value="Button/Hotkey/EnableBuildingAttack" /><HotkeyAlias value="EnableBuildingAttack" /></CButton>
+    <CButton id="PickupScrapSmall" parent="None">
+        <Hotkey value="Button/Hotkey/PickupScrapSmall" /><HotkeyAlias value="PickupScrapSmall" /></CButton>
+    <CButton id="PickupScrapMedium" parent="None">
+        <Hotkey value="Button/Hotkey/PickupScrapMedium" /><HotkeyAlias value="PickupScrapMedium" /></CButton>
+    <CButton id="PickupScrapLarge" parent="None">
+        <Hotkey value="Button/Hotkey/PickupScrapLarge" /><HotkeyAlias value="PickupScrapLarge" /></CButton>
+    <CButton id="PickupPalletGas" parent="None">
+        <Hotkey value="Button/Hotkey/PickupPalletGas" /><HotkeyAlias value="PickupPalletGas" /></CButton>
+    <CButton id="PickupPalletMinerals" parent="None">
+        <Hotkey value="Button/Hotkey/PickupPalletMinerals" /><HotkeyAlias value="PickupPalletMinerals" /></CButton>
+    <CButton id="MassiveKnockover" parent="None">
+        <Hotkey value="Button/Hotkey/MassiveKnockover" /><HotkeyAlias value="MassiveKnockover" /></CButton>
+    <CButton id="MissileLauncherStrike" parent="None">
+        <Hotkey value="Button/Hotkey/MissileLauncherStrike" /><HotkeyAlias value="MissileLauncherStrike" /></CButton>
+    <CButton id="MissileLauncher" parent="None">
+        <Hotkey value="Button/Hotkey/MissileLauncher" /><HotkeyAlias value="MissileLauncher" /></CButton>
+    <CButton id="MissileLauncherRecharge" parent="None">
+        <Hotkey value="Button/Hotkey/MissileLauncherRecharge" /><HotkeyAlias value="MissileLauncherRecharge" /></CButton>
+    <CButton id="MissileLauncherTower" parent="None">
+        <Hotkey value="Button/Hotkey/MissileLauncherTower" /><HotkeyAlias value="MissileLauncherTower" /></CButton>
+    <CButton id="OdinMatrix" parent="None">
+        <Hotkey value="Button/Hotkey/OdinMatrix" /><HotkeyAlias value="OdinMatrix" /></CButton>
+    <CButton id="MissileTank" parent="None">
+        <Hotkey value="Button/Hotkey/MissileTank" /><HotkeyAlias value="MissileTank" /></CButton>
+    <CButton id="APC" parent="None">
+        <Hotkey value="Button/Hotkey/APC" /><HotkeyAlias value="APC" /></CButton>
+    <CButton id="DodgeDrone" parent="None">
+        <Universal value="1" />
+    <Hotkey value="Button/Hotkey/DodgeDrone" /><HotkeyAlias value="DodgeDrone" /></CButton>
+    <CButton id="DodgeDronePassive" parent="None">
+        <Universal value="1" />
+    <Hotkey value="Button/Hotkey/DodgeDronePassive" /><HotkeyAlias value="DodgeDronePassive" /></CButton>
+    <CButton id="MissileTankAttack" parent="None">
+        <Hotkey value="Button/Hotkey/MissileTankAttack" /><HotkeyAlias value="MissileTankAttack" /></CButton>
+    <CButton id="WidowMineBioSplash" parent="None">
+        <Hotkey value="Button/Hotkey/WidowMineBioSplash" /><HotkeyAlias value="WidowMineBioSplash" /></CButton>
+    <CButton id="XelNagaHealingShrine" parent="None">
+        <Hotkey value="Button/Hotkey/XelNagaHealingShrine" /><HotkeyAlias value="XelNagaHealingShrine" /></CButton>
+    <CButton id="STBomber" parent="None">
+        <Hotkey value="Button/Hotkey/STBomber" /><HotkeyAlias value="STBomber" /></CButton>
+    <CButton id="APCLoad" parent="None">
+        <Universal value="1" />
+    <Hotkey value="Button/Hotkey/APCLoad" /><HotkeyAlias value="APCLoad" /></CButton>
+    <CButton id="APCUnloadAll" parent="None">
+        <Universal value="1" />
+    <Hotkey value="Button/Hotkey/APCUnloadAll" /><HotkeyAlias value="APCUnloadAll" /></CButton>
+    <CButton id="WidowMineBurrow" parent="None">
+        <HotkeySet value="WidowMineModes" />
+    <Hotkey value="Button/Hotkey/WidowMineBurrow" /><HotkeyAlias value="WidowMineBurrow" /></CButton>
+    <CButton id="WidowMineUnburrow" parent="None">
+        <HotkeySet value="WidowMineModes" />
+    <Hotkey value="Button/Hotkey/WidowMineUnburrow" /><HotkeyAlias value="WidowMineUnburrow" /></CButton>
+    <CButton id="WidowMineAttack" parent="None">
+        <HotkeyAlias value="" />
+    <Hotkey value="Button/Hotkey/WidowMineAttack" /></CButton>
+    <CButton id="WidowMine" parent="None">
+        <Hotkey value="Button/Hotkey/WidowMine" /><HotkeyAlias value="WidowMine" /></CButton>
+    <CButton id="ObeliskMP" parent="None">
+        <Hotkey value="Button/Hotkey/ObeliskMP" /><HotkeyAlias value="ObeliskMP" /></CButton>
+    <CButton id="ObeliskRecharge" parent="None">
+        <Hotkey value="Button/Hotkey/ObeliskRecharge" /><HotkeyAlias value="ObeliskRecharge" /></CButton>
+    <CButton id="ResearchLocustLifetimeIncrease" parent="None">
+        <Hotkey value="Button/Hotkey/ResearchLocustLifetimeIncrease" /><HotkeyAlias value="ResearchLocustLifetimeIncrease" /></CButton>
+    <CButton id="MothershipCoreEnergize" parent="None">
+        <Hotkey value="Button/Hotkey/MothershipCoreEnergize" /><HotkeyAlias value="MothershipCoreEnergize" /></CButton>
+    <CButton id="TempestRangeUpgrade" parent="None">
+        <Hotkey value="Button/Hotkey/TempestRangeUpgrade" /><HotkeyAlias value="TempestRangeUpgrade" /></CButton>
+    <CButton id="LurkerMPFromHydraliskBurrowed" parent="None">
+        <Hotkey value="Button/Hotkey/LurkerMPFromHydraliskBurrowed" /><HotkeyAlias value="LurkerMPFromHydraliskBurrowed" /></CButton>
+    <CButton id="BurrowLurkerMP" parent="None">
+        <Universal value="1" />
+    <Hotkey value="Button/Hotkey/BurrowLurkerMP" /><HotkeyAlias value="BurrowLurkerMP" /></CButton>
+    <CButton id="LurkerDenMP" parent="None">
+        <Hotkey value="Button/Hotkey/LurkerDenMP" /><HotkeyAlias value="LurkerDenMP" /></CButton>
+    <CButton id="UltraliskWeaponCooldown" parent="None">
+        <Hotkey value="Button/Hotkey/UltraliskWeaponCooldown" /><HotkeyAlias value="UltraliskWeaponCooldown" /></CButton>
+    <CButton id="AnionPulseCrystals" parent="None">
+        <Hotkey value="Button/Hotkey/AnionPulseCrystals" /><HotkeyAlias value="AnionPulseCrystals" /></CButton>
+    <CButton id="BattlecruiserWeaponsIgnoreArmor" parent="None">
+        <Hotkey value="Button/Hotkey/BattlecruiserWeaponsIgnoreArmor" /><HotkeyAlias value="BattlecruiserWeaponsIgnoreArmor" /></CButton>
+    <CButton id="EvolveBurrowCharge" parent="None">
+        <Hotkey value="Button/Hotkey/EvolveBurrowCharge" /><HotkeyAlias value="EvolveBurrowCharge" /></CButton>
+    <CButton id="BridgeExtend" parent="None">
+        <Hotkey value="Button/Hotkey/BridgeExtend" /><HotkeyAlias value="BridgeExtend" /></CButton>
+    <CButton id="BridgeRetract" parent="None">
+        <Hotkey value="Button/Hotkey/BridgeRetract" /><HotkeyAlias value="BridgeRetract" /></CButton>
+    <CButton id="MothershipCoreAttack" parent="Attack">
+        <Universal value="1" /><Hotkey value="Button/Hotkey/Attack" /><HotkeyAlias value="Attack" /></CButton>
+    <CButton id="CritterFlee" parent="None">
+        <Universal value="1" />
+    <Hotkey value="Button/Hotkey/CritterFlee" /><HotkeyAlias value="CritterFlee" /></CButton>
+    <CButton id="CombatAwareness" parent="None">
+        <Hotkey value="Button/Hotkey/CombatAwareness" /><HotkeyAlias value="CombatAwareness" /></CButton>
+    <CButton id="ExitPurifyMode" parent="None">
+        <Hotkey value="Button/Hotkey/ExitPurifyMode" /><HotkeyAlias value="ExitPurifyMode" /></CButton>
+    <CButton id="MothershipCoreMassRecall" parent="None">
+        <Hotkey value="Button/Hotkey/MothershipCoreMassRecall" /><HotkeyAlias value="MothershipCoreMassRecall" /></CButton>
+    <CButton id="PhaseShield" parent="None">
+        <Hotkey value="Button/Hotkey/PhaseShield" /><HotkeyAlias value="PhaseShield" /></CButton>
+    <CButton id="ResearchTransformationServos" parent="None">
+        <Hotkey value="Button/Hotkey/ResearchTransformationServos" /><HotkeyAlias value="ResearchTransformationServos" /></CButton>
+    <CButton id="VoidSiphon" parent="None">
+        <Hotkey value="Button/Hotkey/VoidSiphon" /><HotkeyAlias value="VoidSiphon" /></CButton>
+    <CButton id="RallyOverlord" parent="None">
+        <Universal value="1" />
+    <Hotkey value="Button/Hotkey/RallyOverlord" /><HotkeyAlias value="RallyOverlord" /></CButton>
+    <CButton id="XelNaga_Caverns_DoorDefaultClose" parent="None">
+        <Hotkey value="Button/Hotkey/XelNaga_Caverns_DoorDefaultClose" /><HotkeyAlias value="XelNaga_Caverns_DoorDefaultClose" /></CButton>
+    <CButton id="XelNaga_Caverns_DoorDefaultOpen" parent="None">
+        <Hotkey value="Button/Hotkey/XelNaga_Caverns_DoorDefaultOpen" /><HotkeyAlias value="XelNaga_Caverns_DoorDefaultOpen" /></CButton>
+    <CButton id="LurkerBurrowUp" parent="None">
+        <Universal value="1" />
+    <Hotkey value="Button/Hotkey/LurkerBurrowUp" /><HotkeyAlias value="LurkerBurrowUp" /></CButton>
+<CButton id="Arbiter" parent="None">
+        <Hotkey value="Button/Hotkey/Arbiter" /><HotkeyAlias value="Arbiter" /></CButton>
+    <CButton id="ArbiterMPStasisField" parent="None">
+        <Hotkey value="Button/Hotkey/ArbiterMPStasisField" /><HotkeyAlias value="ArbiterMPStasisField" /></CButton>
+    <CButton id="ArmorpiercingMode" parent="None">
+        <HotkeySet value="ThorModes" />
+        <Universal value="1" />
+    <Hotkey value="Button/Hotkey/ArmorpiercingMode" /><HotkeyAlias value="ArmorpiercingMode" /></CButton>
+    <CButton id="OracleAttack" parent="None">
+        <Hotkey value="Button/Hotkey/Attack" />
+        <Universal value="1" />
+    <HotkeyAlias value="OracleAttack" /></CButton>
+    <CButton id="EvolveFlyingLocusts" parent="None">
+        <Hotkey value="Button/Hotkey/EvolveFlyingLocusts" /><HotkeyAlias value="EvolveFlyingLocusts" /></CButton>
+    <CButton id="FlyingLocusts" parent="None">
+        <Hotkey value="Button/Hotkey/FlyingLocusts" /><HotkeyAlias value="FlyingLocusts" /></CButton>
+    <CButton id="ImmortalOverload" parent="None">
+        <Hotkey value="Button/Hotkey/ImmortalOverload" /><HotkeyAlias value="ImmortalOverload" /></CButton>
+    <CButton id="LocustMPFlyingSwoop" parent="None">
+        <Hotkey value="Button/Hotkey/LocustMPFlyingSwoop" /><HotkeyAlias value="LocustMPFlyingSwoop" /></CButton>
+    <CButton id="LurkerMP" parent="LurkerMP"><Hotkey value="Button/Hotkey/LurkerMP" /><HotkeyAlias value="LurkerMP" /></CButton>
+    <CButton id="PermanentlyCloakedStasis" parent="None">
+        <HotkeyAlias value="PermanentlyCloakedObserver" />
+    <Hotkey value="Button/Hotkey/PermanentlyCloakedStasis" /></CButton>
+    <CButton id="Ravager" parent="None">
+        <Hotkey value="Button/Hotkey/Ravager" /><HotkeyAlias value="Ravager" /></CButton>
+    <CButton id="OracleCloakingFieldTargeted" parent="None">
+        <Hotkey value="Button/Hotkey/OracleCloakingFieldTargeted" /><HotkeyAlias value="OracleCloakingFieldTargeted" /></CButton>
+    <CButton id="OraclePhaseShift" parent="None">
+        <Hotkey value="Button/Hotkey/OraclePhaseShift" /><HotkeyAlias value="OraclePhaseShift" /></CButton>
+    <CButton id="ReleaseInterceptors" parent="None">
+        <Hotkey value="Button/Hotkey/ReleaseInterceptors" /><HotkeyAlias value="ReleaseInterceptors" /></CButton>
+    <CButton id="RavagerCorrosiveBile" parent="None">
+        <Hotkey value="Button/Hotkey/RavagerCorrosiveBile" /><HotkeyAlias value="RavagerCorrosiveBile" /></CButton>
+    <CButton id="CorruptionBomb" parent="None">
+        <Hotkey value="Button/Hotkey/CorruptionBomb" /><HotkeyAlias value="CorruptionBomb" /></CButton>
+    <CButton id="Corsair" parent="None">
+        <Hotkey value="Button/Hotkey/Corsair" /><HotkeyAlias value="Corsair" /></CButton>
+    <CButton id="CorsairMPDisruptionWeb" parent="None">
+        <Hotkey value="Button/Hotkey/CorsairMPDisruptionWeb" /><HotkeyAlias value="CorsairMPDisruptionWeb" /></CButton>
+    <CButton id="ArbiterMPRecall" parent="None">
+        <Hotkey value="Button/Hotkey/ArbiterMPRecall" /><HotkeyAlias value="ArbiterMPRecall" /></CButton>
+    <CButton id="Impale" parent="None">
+        <Hotkey value="Button/Hotkey/Impale" /><HotkeyAlias value="Impale" /></CButton>
+    <CButton id="LockOn" parent="None">
+        <Hotkey value="Button/Hotkey/LockOn" /><HotkeyAlias value="LockOn" /></CButton>
+    <CButton id="LockOnAir" parent="None">
+        <Hotkey value="Button/Hotkey/LockOnAir" /><HotkeyAlias value="LockOnAir" /></CButton>
+    <CButton id="LockOnCancel" parent="None">
+        <HotkeyAlias value="Cancel" />
+        <Universal value="1" />
+    <Hotkey value="Button/Hotkey/LockOnCancel" /></CButton>
+    <CButton id="CycloneLockOnAir" parent="None">
+        <Hotkey value="Button/Hotkey/CycloneLockOnAir" /><HotkeyAlias value="CycloneLockOnAir" /></CButton>
+    <CButton id="CycloneResearchLockOnAir" parent="None">
+        <Hotkey value="Button/Hotkey/CycloneResearchLockOnAir" /><HotkeyAlias value="CycloneResearchLockOnAir" /></CButton>
+    <CButton id="PurificationNova" parent="None">
+        <Hotkey value="Button/Hotkey/PurificationNova" /><HotkeyAlias value="PurificationNova" /></CButton>
+    <CButton id="PurificationNovaTargeted" parent="None">
+        <Hotkey value="Button/Hotkey/PurificationNovaTargeted" /><HotkeyAlias value="PurificationNovaTargeted" /></CButton>
+    <CButton id="QueenMPEnsnare" parent="None">
+        <Hotkey value="Button/Hotkey/QueenMPEnsnare" /><HotkeyAlias value="QueenMPEnsnare" /></CButton>
+    <CButton id="QueenMPInfestCommandCenter" parent="None">
+        <Hotkey value="Button/Hotkey/QueenMPInfestCommandCenter" /><HotkeyAlias value="QueenMPInfestCommandCenter" /></CButton>
+    <CButton id="QueenMPSpawnBroodlings" parent="None">
+        <Hotkey value="Button/Hotkey/QueenMPSpawnBroodlings" /><HotkeyAlias value="QueenMPSpawnBroodlings" /></CButton>
+    <CButton id="ResearchImmortalRevive" parent="None">
+        <Hotkey value="Button/Hotkey/ResearchImmortalRevive" /><HotkeyAlias value="ResearchImmortalRevive" /></CButton>
+    <CButton id="RoachSupply" parent="None">
+        <Hotkey value="Button/Hotkey/RoachSupply" /><HotkeyAlias value="RoachSupply" /></CButton>
+    <CButton id="Scout" parent="None">
+        <Hotkey value="Button/Hotkey/Scout" /><HotkeyAlias value="Scout" /></CButton>
+    <CButton id="EvolveOrganicCarapace" parent="EvolveOrganicCarapace">
+        <HotkeyAlias value="" />
+    <Hotkey value="Button/Hotkey/EvolveOrganicCarapace" /></CButton>
+    <CButton id="ExplosiveMode" parent="None">
+        <HotkeySet value="ThorModes" />
+        <Universal value="1" />
+    <Hotkey value="Button/Hotkey/ExplosiveMode" /><HotkeyAlias value="ExplosiveMode" /></CButton>
+    <CButton id="Hyperjump" parent="None">
+        <Hotkey value="Button/Hotkey/Hyperjump" /><HotkeyAlias value="Hyperjump" /></CButton>
+    <CButton id="LightofAiur" parent="None">
+        <Hotkey value="Button/Hotkey/LightofAiur" /><HotkeyAlias value="LightofAiur" /></CButton>
+    <CButton id="MedivacSpeedBoost" parent="MedivacSpeedBoost">
+        <Hotkey value="Button/Hotkey/MedivacSpeedBoost" /><HotkeyAlias value="MedivacSpeedBoost" /></CButton>
+    <CButton id="MothershipMassRecall" parent="None">
+        <Hotkey value="Button/Hotkey/MothershipMassRecall" /><HotkeyAlias value="MothershipMassRecall" /></CButton>
+    <CButton id="MutaliskRegeneration" parent="None">
+        <Hotkey value="Button/Hotkey/MutaliskRegeneration" /><HotkeyAlias value="MutaliskRegeneration" /></CButton>
+    <CButton id="OracleWeaponOff" parent="None">
+        <Hotkey value="Button/Hotkey/OracleWeaponOff" /><HotkeyAlias value="OracleWeaponOff" /></CButton>
+    <CButton id="OracleWeaponOn" parent="None">
+        <Hotkey value="Button/Hotkey/OracleWeaponOn" /><HotkeyAlias value="OracleWeaponOn" /></CButton>
+    <CButton id="Overcharge" parent="None">
+        <Hotkey value="Button/Hotkey/Overcharge" /><HotkeyAlias value="Overcharge" /></CButton>
+    <CButton id="PulsarCannon" parent="None">
+        <Hotkey value="Button/Hotkey/PulsarCannon" /><HotkeyAlias value="PulsarCannon" /></CButton>
+    <CButton id="ResearchDrillClaws" parent="None">
+        <Hotkey value="Button/Hotkey/ResearchDrillClaws" /><HotkeyAlias value="ResearchDrillClaws" /></CButton>
+    <CButton id="RipField" parent="None">
+        <Hotkey value="Button/Hotkey/RipField" /><HotkeyAlias value="RipField" /></CButton>
+    <CButton id="BuildCyclone" parent="None">
+        <Hotkey value="Button/Hotkey/BuildCyclone" /><HotkeyAlias value="BuildCyclone" /></CButton>
+    <CButton id="TemporalField" parent="None">
+        <Hotkey value="Button/Hotkey/TemporalField" /><HotkeyAlias value="TemporalField" /></CButton>
+    <CButton id="VoidRaySwarmDamageBoost" parent="None">
+        <Hotkey value="Button/Hotkey/VoidRaySwarmDamageBoost" /><HotkeyAlias value="VoidRaySwarmDamageBoost" /></CButton>
+    <CButton id="VoidSwarmHostSpawnLocust" parent="None">
+        <Hotkey value="Button/Hotkey/VoidSwarmHostSpawnLocust" /><HotkeyAlias value="VoidSwarmHostSpawnLocust" /></CButton>
+    <CButton id="VortexKO" parent="None">
+        <Hotkey value="Button/Hotkey/VortexKO" /><HotkeyAlias value="VortexKO" /></CButton>
+    <CButton id="WarpinDisruptor" parent="None">
+        <Hotkey value="Button/Hotkey/WarpinDisruptor" /><HotkeyAlias value="WarpinDisruptor" /></CButton>
+    <CButton id="WeaponsFree" parent="WeaponsFree"><HotkeySet value="HoldFire" /><Hotkey value="Button/Hotkey/WeaponsFree" /><HotkeyAlias value="WeaponsFree" /></CButton>
+    <CButton id="TerranVehicleAndShipWeaponsLevel1" parent="None">
+        <Hotkey value="Button/Hotkey/TerranVehicleAndShipWeaponsLevel1" /><HotkeyAlias value="TerranVehicleAndShipWeaponsLevel1" /></CButton>
+    <CButton id="TerranVehicleAndShipWeaponsLevel2" parent="None">
+        <Hotkey value="Button/Hotkey/TerranVehicleAndShipWeaponsLevel1" />
+        <HotkeyAlias value="TerranVehicleAndShipWeaponsLevel1" />
+    </CButton>
+    <CButton id="TerranVehicleAndShipWeaponsLevel3" parent="None">
+        <Hotkey value="Button/Hotkey/TerranVehicleAndShipWeaponsLevel1" />
+        <HotkeyAlias value="TerranVehicleAndShipWeaponsLevel1" />
+    </CButton>
+    <CButton id="TerranVehicleAndShipPlatingLevel1" parent="None">
+        <Hotkey value="Button/Hotkey/TerranVehicleAndShipPlatingLevel1" /><HotkeyAlias value="TerranVehicleAndShipPlatingLevel1" /></CButton>
+    <CButton id="TerranVehicleAndShipPlatingLevel2" parent="None">
+        <Hotkey value="Button/Hotkey/TerranVehicleAndShipPlatingLevel1" />
+        <HotkeyAlias value="TerranVehicleAndShipPlatingLevel1" />
+    </CButton>
+    <CButton id="TerranVehicleAndShipPlatingLevel3" parent="None">
+        <Hotkey value="Button/Hotkey/TerranVehicleAndShipPlatingLevel1" />
+        <HotkeyAlias value="TerranVehicleAndShipPlatingLevel1" />
+    </CButton>
+    <CButton id="CorrosiveParasite" parent="None">
+        <Hotkey value="Button/Hotkey/CorrosiveParasite" /><HotkeyAlias value="CorrosiveParasite" /></CButton>
+    <CButton id="Ensnare" parent="None">
+        <Hotkey value="Button/Hotkey/Ensnare" /><HotkeyAlias value="Ensnare" /></CButton>
+    <CButton id="LaunchDefenders" parent="None">
+        <Hotkey value="Button/Hotkey/LaunchDefenders" /><HotkeyAlias value="LaunchDefenders" /></CButton>
+    <CButton id="VoidMPImmortalRevive" parent="None">
+        <Hotkey value="Button/Hotkey/VoidMPImmortalRevive" /><HotkeyAlias value="VoidMPImmortalRevive" /></CButton>
+    <CButton id="MorphtoOverlordTransport" parent="None">
+        <Hotkey value="Button/Hotkey/MorphtoOverlordTransport" /><HotkeyAlias value="MorphtoOverlordTransport" /></CButton>
+    <CButton id="MorphToGuardianMP" parent="None">
+        <Hotkey value="Button/Hotkey/MorphToGuardianMP" /><HotkeyAlias value="MorphToGuardianMP" /></CButton>
+    <CButton id="MorphToDevourerMP" parent="None">
+        <Hotkey value="Button/Hotkey/MorphToDevourerMP" /><HotkeyAlias value="MorphToDevourerMP" /></CButton>
+    <CButton id="DefilerMPConsume" parent="None">
+        <Hotkey value="Button/Hotkey/DefilerMPConsume" /><HotkeyAlias value="DefilerMPConsume" /></CButton>
+    <CButton id="DefilerMPDarkSwarm" parent="None">
+        <Hotkey value="Button/Hotkey/DefilerMPDarkSwarm" /><HotkeyAlias value="DefilerMPDarkSwarm" /></CButton>
+    <CButton id="DefilerMPPlague" parent="None">
+        <Hotkey value="Button/Hotkey/DefilerMPPlague" /><HotkeyAlias value="DefilerMPPlague" /></CButton>
+    <CButton id="LightningBomb" parent="None">
+        <Hotkey value="Button/Hotkey/LightningBomb" /><HotkeyAlias value="LightningBomb" /></CButton>
+    <CButton id="Grapple" parent="None">
+        <Hotkey value="Button/Hotkey/Grapple" /><HotkeyAlias value="Grapple" /></CButton>
+    <CButton id="HERC" parent="None">
+        <Hotkey value="Button/Hotkey/HERC" /><HotkeyAlias value="HERC" /></CButton>
+    <CButton id="TrainHERC" parent="None">
+        <Hotkey value="Button/Hotkey/TrainHERC" /><HotkeyAlias value="TrainHERC" /></CButton>
+    <CButton id="CausticSpray" parent="None">
+        <Hotkey value="Button/Hotkey/CausticSpray" /><HotkeyAlias value="CausticSpray" /></CButton>
+    <CButton id="OracleBuildStasisTrap" parent="None">
+        <Hotkey value="Button/Hotkey/OracleBuildStasisTrap" /><HotkeyAlias value="OracleBuildStasisTrap" /></CButton>
+    <CButton id="ActivateStasisWard" parent="None">
+        <Hotkey value="Button/Hotkey/ActivateStasisWard" /><HotkeyAlias value="ActivateStasisWard" /></CButton>
+    <CButton id="AggressiveMutation" parent="None">
+        <Hotkey value="Button/Hotkey/AggressiveMutation" /><HotkeyAlias value="AggressiveMutation" /></CButton>
+    <CButton id="SelfRepair" parent="None">
+        <Hotkey value="Button/Hotkey/SelfRepair" /><HotkeyAlias value="SelfRepair" /></CButton>
+    <CButton id="LurkerCancelHoldFire" parent="None">
+        <Hotkey value="Button/Hotkey/LurkerCancelHoldFire" /><HotkeyAlias value="LurkerCancelHoldFire" /></CButton>
+    <CButton id="LurkerHoldFire" parent="None">
+        <Hotkey value="Button/Hotkey/LurkerHoldFire" /><HotkeyAlias value="LurkerHoldFire" /></CButton>
+    <CButton id="BansheeSpeed" parent="None">
+        <Hotkey value="Button/Hotkey/BansheeSpeed" /><HotkeyAlias value="BansheeSpeed" /></CButton>
+    <CButton id="MutateintoLurkerDen" parent="None">
+        <Hotkey value="Button/Hotkey/MutateintoLurkerDen" /><HotkeyAlias value="MutateintoLurkerDen" /></CButton>
+    <CButton id="ResearchLockOnRangeUpgrade" parent="None">
+        <Hotkey value="Button/Hotkey/ResearchLockOnRangeUpgrade" /><HotkeyAlias value="ResearchLockOnRangeUpgrade" /></CButton>
+    <CButton id="ResearchLurkerRange" parent="None">
+        <Hotkey value="Button/Hotkey/ResearchLurkerRange" /><HotkeyAlias value="ResearchLurkerRange" /></CButton>
+    <CButton id="DisruptorHallucination" parent="None">
+        <Hotkey value="Button/Hotkey/DisruptorHallucination" /><HotkeyAlias value="DisruptorHallucination" /></CButton>
+    <CButton id="AdeptHallucination" parent="None">
+        <Hotkey value="Button/Hotkey/AdeptHallucination" /><HotkeyAlias value="AdeptHallucination" /></CButton>
+    <CButton id="ParasiticBomb" parent="None">
+        <Hotkey value="Button/Hotkey/ParasiticBomb" /><HotkeyAlias value="ParasiticBomb" /></CButton>
+    <CButton id="ResearchBarrier" parent="None">
+        <Hotkey value="Button/Hotkey/ResearchBarrier" /><HotkeyAlias value="ResearchBarrier" /></CButton>
+    <CButton id="AdeptPhaseShift" parent="None">
+        <Hotkey value="Button/Hotkey/AdeptPhaseShift" /><HotkeyAlias value="AdeptPhaseShift" /></CButton>
+    <CButton id="ResearchAdeptKillBounce" parent="None">
+        <Hotkey value="Button/Hotkey/ResearchAdeptKillBounce" /><HotkeyAlias value="ResearchAdeptKillBounce" /></CButton>
+    <CButton id="AdeptKillBounce" parent="None">
+        <Hotkey value="Button/Hotkey/AdeptKillBounce" /><HotkeyAlias value="AdeptKillBounce" /></CButton>
+    <CButton id="WarpInAdept" parent="None">
+        <Hotkey value="Button/Hotkey/WarpInAdept" /><HotkeyAlias value="WarpInAdept" /></CButton>
+    <CButton id="BurrowedMove" parent="None">
+        <Hotkey value="Button/Hotkey/BurrowedMove" /><HotkeyAlias value="BurrowedMove" /></CButton>
+    <CButton id="Liberator" parent="None">
+        <Hotkey value="Button/Hotkey/Liberator" /><HotkeyAlias value="Liberator" /></CButton>
+    <CButton id="LiberatorAGMode" parent="None">
+        <Hotkey value="Button/Hotkey/LiberatorAGMode" /><HotkeyAlias value="LiberatorAGMode" /></CButton>
+    <CButton id="LiberatorAAMode" parent="None">
+        <Hotkey value="Button/Hotkey/LiberatorAAMode" /><HotkeyAlias value="LiberatorAAMode" /></CButton>
+    <CButton id="ResearchLiberatorAGMode" parent="None">
+        <Hotkey value="Button/Hotkey/ResearchLiberatorAGMode" /><HotkeyAlias value="ResearchLiberatorAGMode" /></CButton>
+    <CButton id="TimeStop" parent="None">
+        <Hotkey value="Button/Hotkey/TimeStop" /><HotkeyAlias value="TimeStop" /></CButton>
+    <CButton id="KD8Charge" parent="None">
+        <Hotkey value="Button/Hotkey/KD8Charge" /><HotkeyAlias value="KD8Charge" /></CButton>
+    <CButton id="PenetratingShot" parent="None">
+        <Hotkey value="Button/Hotkey/PenetratingShot" /><HotkeyAlias value="PenetratingShot" /></CButton>
+    <CButton id="CloakingDrone" parent="None">
+        <Hotkey value="Button/Hotkey/CloakingDrone" /><HotkeyAlias value="CloakingDrone" /></CButton>
+    <CButton id="ResearchAdeptShieldUpgrade" parent="None">
+        <Hotkey value="Button/Hotkey/ResearchAdeptShieldUpgrade" /><HotkeyAlias value="ResearchAdeptShieldUpgrade" /></CButton>
+    <CButton id="AdeptShieldUpgrade" parent="None">
+        <Hotkey value="Button/Hotkey/AdeptShieldUpgrade" /><HotkeyAlias value="AdeptShieldUpgrade" /></CButton>
+    <CButton id="AdeptPiercingUpgrade" parent="None">
+        <Hotkey value="Button/Hotkey/AdeptPiercingUpgrade" /><HotkeyAlias value="AdeptPiercingUpgrade" /></CButton>
+    <CButton id="AdeptResearchPiercingUpgrade" parent="None">
+        <Hotkey value="Button/Hotkey/AdeptResearchPiercingUpgrade" /><HotkeyAlias value="AdeptResearchPiercingUpgrade" /></CButton>
+    <CButton id="CycloneResearchLockOnDamageUpgrade" parent="None">
+        <Hotkey value="Button/Hotkey/CycloneResearchLockOnDamageUpgrade" /><HotkeyAlias value="CycloneResearchLockOnDamageUpgrade" /></CButton>
+    <CButton id="CycloneLockOnDamageUpgrade" parent="None">
+        <Hotkey value="Button/Hotkey/CycloneLockOnDamageUpgrade" /><HotkeyAlias value="CycloneLockOnDamageUpgrade" /></CButton>
+    <CButton id="ResearchHighCapacityFuelTanks" parent="None">
+        <Hotkey value="Button/Hotkey/ResearchHighCapacityFuelTanks" /><HotkeyAlias value="ResearchHighCapacityFuelTanks" /></CButton>
+    <CButton id="HighCapacityFuelTanks" parent="None">
+        <Hotkey value="Button/Hotkey/HighCapacityFuelTanks" /><HotkeyAlias value="HighCapacityFuelTanks" /></CButton>
+    <CButton id="ResearchExplosiveShrapnelShells" parent="None">
+        <Hotkey value="Button/Hotkey/ResearchExplosiveShrapnelShells" /><HotkeyAlias value="ResearchExplosiveShrapnelShells" /></CButton>
+    <CButton id="ExplosiveShrapnelShells" parent="None">
+        <Hotkey value="Button/Hotkey/ExplosiveShrapnelShells" /><HotkeyAlias value="ExplosiveShrapnelShells" /></CButton>
+    <CButton id="SlaynElementalGrab" parent="None">
+        <Hotkey value="Button/Hotkey/SlaynElementalGrab" /><HotkeyAlias value="SlaynElementalGrab" /></CButton>
+    <CButton id="ImprovedEnergy" parent="None">
+        <Hotkey value="Button/Hotkey/ImprovedEnergy" /><HotkeyAlias value="ImprovedEnergy" /></CButton>
+<CButton id="ResearchBallisticRange" parent="None">
+        <Hotkey value="Button/Hotkey/ResearchBallisticRange" /><HotkeyAlias value="ResearchBallisticRange" /></CButton>
+    <CButton id="ResearchRapidDeployment" parent="None">
+        <Hotkey value="Button/Hotkey/ResearchRapidDeployment" /><HotkeyAlias value="ResearchRapidDeployment" /></CButton>
+    <CButton id="RapidDeployment" parent="None">
+        <Hotkey value="Button/Hotkey/RapidDeployment" /><HotkeyAlias value="RapidDeployment" /></CButton>
+    <CButton id="ChannelSnipe" parent="None">
+        <Hotkey value="Button/Hotkey/ChannelSnipe" /><HotkeyAlias value="ChannelSnipe" /></CButton>
+    <CButton id="ResearchRavagerRange" parent="None">
+        <Hotkey value="Button/Hotkey/ResearchRavagerRange" /><HotkeyAlias value="ResearchRavagerRange" /></CButton>
+    <CButton id="RavagerRange" parent="None">
+        <Hotkey value="Button/Hotkey/RavagerRange" /><HotkeyAlias value="RavagerRange" /></CButton>
+    <CButton id="LiberatorAGRangeUpgrade" parent="None">
+        <Hotkey value="Button/Hotkey/LiberatorAGRangeUpgrade" /><HotkeyAlias value="LiberatorAGRangeUpgrade" /></CButton>
+</Catalog>
