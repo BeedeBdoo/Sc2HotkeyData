@@ -26,7 +26,7 @@ def strip_elem(elem):
     elem.set('parent', str(elem.get('parent')))
     # keep only important children
     for child in elem.getchildren():
-        if elem.tag == 'CUnit' and child.tag not in ['CardLayouts', 'SubgroupAlias', 'SubgroupPriority'] \
+        if elem.tag == 'CUnit' and child.tag not in ['CardLayouts', 'SubgroupAlias', 'SubgroupPriority', 'Mob', 'Race', 'HotkeyCategory'] \
                 or elem.tag == 'CButton' and child.tag not in ['Universal', 'Hotkey', 'HotkeyAlias', 'HotkeySet']:
             elem.remove(child)
         elif child.tag == 'CardLayouts':

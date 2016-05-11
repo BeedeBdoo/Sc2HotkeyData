@@ -6,7 +6,6 @@ import copy
 import xml_tree_merger
 
 # TODO CardLayouts RowText="", what is it? - Low Priority
-# TODO LayoutButtons Row="" Column="" stacking
 # TODO LayoutButtons Requirement="", mutually exclusive requirements
 
 # following CUnit children might be interesting for determining if unit is accesible by players
@@ -15,6 +14,51 @@ import xml_tree_merger
 # Untested: relation between HotkeyCategory and HotkeyAlias:
 # if HotkeyCategory == "" and HotkeyAlias="Unit/Category/ZergUnits":
 #     HotkeyCategory = HotkeyAlias
+
+# mutually exclusive requirements
+mer = [['HotSHaveSwarmlingSpawningPool', 'HotSHaveRaptorSpawningPool'],
+       ['HotSHaveSplitterling', 'HaveHotSHunter'],
+       ['HaveRoachCorpser', 'HaveRoachVile'],
+       ['HaveHotSImpaler', 'HaveHotSLurker'],
+       ['HotSHaveSwarmHostSplitA', 'HotSHaveSwarmHostSplitB'],
+       ['HaveHotSMutaliskBroodLord','HaveHotSMutaliskViper'],
+       ['HaveHotSNoxious', 'HaveHotSTorrasque'],
+       ['HaveHotSZerglingFrenzy', 'HaveHotSZerglingHealth', 'HaveHotSMetabolicBoost'],
+       ['HaveHotSBanelingHeal', 'HaveHotSBanelingCorrosiveBile', 'HaveHotSRupture'],
+       ['HaveHotSRoachDamage', 'HaveHotSRoachShield', 'HaveHotSTunnelingClaws'],
+       ['HaveHotSHydraliskHealth', 'HaveHotSGroovedSpines'],
+       ['HaveHotSBurrowSwarmHost', 'HaveHotSRapidIncubation', 'HaveHotSPressurizedGlands'],
+       ['HaveHotSViciousGlaive', 'HaveHotSExplosiveGlaive', 'HaveHotSRapidRegeneration'],
+       ['HaveHotSMonarchBlades', 'HaveHotSBurrowCharge', 'HaveHotSTissueAssimilation'],
+       ['HaveK5ZerglingRespawn', 'HaveK5ImprovedOverlords', 'HaveK5AutoExtractor'],
+       ['HaveK5TwoDrones', 'HaveK5GasBonuses', 'HaveK5CreepBonuses'],
+       ['HaveK5InfestBroodlings', 'HaveK5Fury', 'HaveK5Cooldowns']]
+
+coop_commanders = ['Artanis', 'Vorazun', 'Karax', 'Raynor', 'Swann', 'Kerrigan', 'Zagara']
+cake_sorted = {commander: [] for commander in coop_commanders}
+new_cake = []
+for req in cake:
+    p = False
+    for commander in coop_commanders:
+        if commander in req:
+            cake_sorted[commander].append(req)
+            p = True
+            break
+    if not p:
+        new_cake.append(req)
+# for commander in sorted(cake_sorted):
+#     print(sorted(cake_sorted[commander]))
+# print(new_cake)
+
+# coop Requirements
+artanis_requirements = ['HaveHealingPsionicStorm', 'HaveHighTemplarEnergyUpgrade', 'HaveReaverIncreasedScarabCount', 'ArtanisLevel02', 'ArtanisLevel04', 'ArtanisLevel05', 'ArtanisLevel06', 'ArtanisLevel07', 'ArtanisLevel08', 'ArtanisLevel09', 'ArtanisLevel10', 'ArtanisLevel11', 'ArtanisLevel12']
+karax_requirements = ['HaveKaraxEnergyRegenUpgrade', 'HaveKaraxExtendedThermalLance', 'HaveKaraxPhoenixRangeUpgrade', 'HaveKaraxSOAChronoPassive', 'HaveKaraxTurretAttackSpeed', 'HaveKaraxTurretRange', 'KaraxLevel02', 'KaraxLevel04', 'KaraxLevel05', 'KaraxLevel06', 'KaraxLevel07', 'KaraxLevel08', 'KaraxLevel09', 'KaraxLevel10', 'KaraxLevel12', 'KaraxLevel14']
+kerrigan_requirements = ['HaveCoopMutalisk', 'HaveKerriganVoidCoopEnergyRegen', 'KerriganLevel02', 'KerriganLevel04', 'KerriganLevel05', 'KerriganLevel06', 'KerriganLevel09', 'KerriganLevel10', 'KerriganLevel11', 'KerriganLevel13', 'KerriganLevel15']
+raynor_requirements = ['HaveImprovedSiegeMode', 'HaveOrbitalDropPods', 'HaveRaynorCommanderHyperionAdvancedTargetingSystems', 'RaynorLevel02', 'RaynorLevel04', 'RaynorLevel05', 'RaynorLevel06', 'RaynorLevel07', 'RaynorLevel09', 'RaynorLevel11', 'RaynorLevel13', 'RaynorLevel15']
+swann_requirements = ['HaveHellbatHellArmor', 'HaveScienceVesselFreeRepair', 'HaveSwannCommander', 'HaveSwannCommanderImmortalityProtocol', 'HaveSwannCommanderKelMorianWorkerCloak', 'HaveSwannKelMorianGrenadeTurretUpgrade', 'HaveSwannTurretIncreasedAttackSpeed', 'SwannLevel02', 'SwannLevel04', 'SwannLevel05', 'SwannLevel07', 'SwannLevel09', 'SwannLevel11', 'SwannLevel13']
+vorazun_requirements = ['HaveBlinkShieldRestore', 'HaveCorsairPermanentCloak', 'HaveVorazunCommander', 'VorazunLevel02', 'VorazunLevel04', 'VorazunLevel05', 'VorazunLevel06', 'VorazunLevel09', 'VorazunLevel10', 'VorazunLevel11', 'VorazunLevel12', 'VorazunLevel13']
+zagara_requirements = ['HaveHotSBanelingCorrosiveBile', 'HaveQueenDoubleInjectLarva', 'HaveScourgeSplashDamage', 'HaveZagaraVoidCoopAberrationBanelingIncubation', 'HaveZagaraVoidCoopAttackUpgrade', 'HaveZagaraVoidCoopBanelingSpawner', 'ZagaraHaveCentrificalHooks', 'ZagaraLevel02', 'ZagaraLevel03', 'ZagaraLevel04', 'ZagaraLevel05', 'ZagaraLevel06', 'ZagaraLevel07', 'ZagaraLevel08', 'ZagaraLevel09', 'ZagaraLevel11', 'ZagaraLevel13']
+unsorted_requirements = ['HaveHotSZerglingHealth', 'HaveSolarEfficiencyLevel3', 'HaveVoidStalkerBlinkShieldRestore', 'HaveHotSViciousGlaive', 'HaveShieldWall', 'HaveAberrationArmorAura', 'HavePhotonCannon', 'HaveGroovedSpines', 'HaveSingularityCharge', 'HaveHotSRoachDamage', 'HaveAdeptShadeDebuff', 'NotUnderConstruction', 'HaveK5TwoDrones', 'HaveVoidRayPrismaticRange', 'HaveSOARepairBeamExtraTarget', 'HaveCarrier', 'HaveRapidBombardment', 'GhostPermanentCloak', 'HaveBroodlordSpeed', 'HaveHotSMutaliskViper', 'HotSHaveSporeCrawler', 'HaveCycloneLockOnAirUpgrade', 'HaveSOAHeroicShield', 'HaveTerranDefenseRangeBonus', 'HaveAdeptPiercingAttack', 'HaveSuperiorWarpGates', 'HaveNeosteelFrame', 'UseNeoSteelFrame', 'HaveVoidColossusFireBeam', 'HaveMiragePhaseArmor', 'HaveCarrierRepairDrones', 'HaveCycloneLockOnDamageUpgrade', 'HaveRoachCorpser', 'HaveAdvancedConstruction', 'HaveK5ChainLightning', 'HaveMPAdrenalGlands', 'HaveFireBeam', 'HaveStalker', 'HaveColossus', 'HaveSOAOrbitalStrikeUpgrade', 'HALORocketsResearched', 'HaveDragoonHealth', 'HaveHotSMonarchBlades', 'HaveSolarEfficiencyLevel2', 'HaveMPMetabolicBoost', 'HaveHotSTissueAssimilation', 'HaveHotSMutaliskBroodLord', 'HaveHealingPsionicStormHighArchon', 'HaveWraithImprovedBurstLaser', 'HaveArtilleryDucts', 'HaveK5Cooldowns', 'HaveHotSChitinousPlating', 'HaveMaelstromRounds', 'HaveInfernalPreigniter', 'HaveResearchDoubleGravitonBeamPassive', 'HaveHotSImpaler', 'HaveSOARecallonDeath', 'HaveGraviticBoosters', 'HaveMutaliskSunderingGlave', 'HotSHaveInfestor', 'HailstormMissilePods', 'HaveKhaydarinMonolith', 'HaveSOAWarpTech', 'HaveK5Fury', 'HaveBileLaunchers', 'HaveHotSRapidRegeneration', 'HaveDarkArchonFullStartingEnergy', 'HavePneumatizedCarapace', 'HaveHighTemplarEnergyUpgradeHighArchon', 'HotSHaveSpineCrawler', 'HaveReaverIncreasedScarabSplashRadius', 'HaveVoidColossusTaldarim', 'HaveSOAMatrixOverload', 'HaveOracleStasisWardUpgrade', 'HaveSolarEfficiencyLevel1', 'HaveVoidStalkerBlinkCharges', 'HaveHotSHydraliskHealth', 'ShrikeTurretResearched', 'HaveScourgeGasCostReduction', 'HotSHaveAberration', 'HaveMonitor', 'HotSHaveDefiler', 'UseShapedBlastReq', 'HaveResearchCripplingPsionicStorm', 'HaveCycloneLockOnRangeUpgrade2', 'HaveVoidStalkerDragoon', 'HaveBarrier', 'HaveSentry', 'HaveFortifiedBunkerCarapace', 'HaveRoachVile', 'HaveSOASolarLanceUpgrade', 'HaveSOARepairBeam', 'HaveHotSExplosiveGlaive', 'HaveSeismicSpines', 'HaveVoidSentryPurifier', 'HaveSOAAutoAssimilator', 'HaveScienceVesselFreeRepairSecondary', 'HaveHotSRupture', 'HaveZerglingArmorShred', 'HaveAdept', 'HaveHotSBanelingHeal', 'HaveHotSRoachShield', 'HaveOrganicCarapace', 'HaveHotSPressurizedGlands', 'HaveLiberatorImprovedAARange']
 
 # dependencies read from dependencies window in Sc2GalaxyEditor
 dependencies = [
@@ -91,7 +135,7 @@ def get_ButtonData(tree):
     return uni_dict, hotkey_dict, hotkeyalias_dict, hotkeyset_dict
 
 
-def get_UnitData(tree, gamehotkey_dict, uni_dict, hotkeyalias_dict):
+def get_UnitData(tree, gamehotkey_dict, uni_dict, hotkeyalias_dict, cardid_suffix):
     root = tree.getroot()
 
     keylist = []
@@ -144,20 +188,21 @@ def get_UnitData(tree, gamehotkey_dict, uni_dict, hotkeyalias_dict):
                     del card_conflicts[num]
 
             for num, card_conflict in enumerate(card_conflicts_id):
-                cardid = unit.get('id')
+                cardid = cardid_suffix+unit.get('id')
                 if len(unit.findall('./CardLayouts')) > 1:
                     cardid += ' (card index '+str(card.get('index'))+')'
                 if len(card_conflicts_id) > 1:
-                    cardid += ' (variant '+str(num)+')'
+                    cardid += ' (temp variant '+str(num)
 
                 if cardid in conflictsset:
                     print('error: duplicate cardid', cardid)
                     continue
                 conflictsset[cardid] = []
                 for buttonid in card_conflict:
-                    buttonhotkey = ''
-                    if buttonid in gamehotkey_dict:
+                    if buttonid in gamehotkey_dict and gamehotkey_dict[buttonid]:
                         buttonhotkey = gamehotkey_dict[buttonid]
+                    else:
+                        continue
 
                     if not (buttonid in uni_dict and uni_dict[buttonid]):
                         buttonid += '/'+unitid
@@ -170,6 +215,9 @@ def get_UnitData(tree, gamehotkey_dict, uni_dict, hotkeyalias_dict):
     # clean up conflictsset
     temp_keys = conflictsset.copy()
     for key1 in conflictsset:
+        if key1 in temp_keys and len(temp_keys[key1]) <= 1:
+            temp_keys.pop(key1, None)
+            continue
         for key2 in conflictsset:
             if (key2 in temp_keys and
                         key1 != key2 and
@@ -178,14 +226,15 @@ def get_UnitData(tree, gamehotkey_dict, uni_dict, hotkeyalias_dict):
                 temp_keys.pop(key2, None)
     conflictsset = temp_keys
 
-
     # conflictsset_invert = {}
-    # for conflict_key in sorted(conflictsset):
-    #     if ','.join(sorted(conflictsset[conflict_key])) not in conflictsset_invert and len(conflictsset[conflict_key]) > 1:
-    #         conflictsset_invert[','.join(sorted(conflictsset[conflict_key]))] = conflict_key
-    # conflictsset = {value: key for key, value in conflictsset_invert.items()}
-    return keylist, conflictsset
-
+    # for key in sorted(conflictsset):
+    #     value = ','.join(sorted(conflictsset[key]))
+    #     if value not in conflictsset_invert and len(conflictsset[key]) > 1:
+    #         for conflict in conflictsset:
+    #             any(button not in conflict  for button in  sorted(conflictsset[key]))
+    #         conflictsset_invert[','.join(sorted(conflictsset[key]))] = key
+    # conflictsset = {value: sorted(key.split(',')) for key, value in conflictsset_invert.items()}
+    return sorted(keylist), conflictsset
 
 def write_to_file(keylist, conflictsset):
     with open('defaults (from TheCoreConverter).txt') as file:
@@ -194,8 +243,8 @@ def write_to_file(keylist, conflictsset):
     with open('generated defaults list.txt','w') as f:
         for line in sorted(keylist):
             f.write(line+'\n')
-            if all(line not in dataline for dataline in data):
-                print('line missing in TheCoreConverter '+line)
+            # if all(line not in dataline for dataline in data):
+            #     print('line missing in TheCoreConverter '+line)
     # write conflict checks
     # with open('generated conflicts checks.txt', 'w') as f:
     #     for conflicts in sorted(conflictsset):
@@ -216,11 +265,12 @@ def write_to_file(keylist, conflictsset):
                 suffix = '}'
             else:
                 suffix = ',\n'
-            f.write(prefix + "\'" + conflict_key + "\' : " + str(conflictsset[conflict_key]) + suffix)
+            f.write(prefix + "\'" + conflict_key + "\': " + str(conflictsset[conflict_key]) + suffix)
             j += 1
 
 
 def generate_checks(index):
+    path_destination_name = dependencies[index][-1]
     gamehotkey_dict = {}
     for path in hotkey_path_lists[index]:
         gamehotkey_dict = get_GameHotkeys(path, gamehotkey_dict)
@@ -235,9 +285,22 @@ def generate_checks(index):
         get_ButtonData(button_tree)
 
     keylist, conflictsset = \
-        get_UnitData(unit_tree, gamehotkey_dict, uni_dict, hotkeyalias_dict)
+        get_UnitData(unit_tree, gamehotkey_dict, uni_dict, hotkeyalias_dict, path_destination_name+'/')
 
     write_to_file(keylist, conflictsset)
     print('conflicts checks generation complete.')
 
 generate_checks(-1)
+
+def howsneut():
+    requirements = {}
+    for path in find_all('UnitData.xml', 'data'):
+        requirements[path] = set()
+        tree = ET.parse(path)
+        root = tree.getroot()
+        for button in root.findall('.//LayoutButtons[@Requirements]'):
+            requirements[path].add(button.get('Requirements'))
+    for path in requirements:
+        print(path, requirements[path])
+
+# howsneut()
