@@ -4,6 +4,7 @@ import xml.etree.ElementTree as ET
 import os
 import copy
 import xml_tree_merger
+from math import floor
 
 # TODO CardLayouts RowText="", what is it? - Low Priority
 # TODO LayoutButtons Requirement="", mutually exclusive requirements
@@ -206,7 +207,7 @@ def get_UnitData(tree, gamehotkey_dict, uni_dict, hotkeyalias_dict, cardid_suffi
                 if len(unit.findall('./CardLayouts')) > 1:
                     cardid += ' (card index '+str(card.get('index'))+')'
                 if len(card_conflicts_id) > 1:
-                    cardid += ' (temp variant '+str(num)
+                    cardid += ' temp variant'+str(num)
 
                 if cardid in conflictsset:
                     print('error: duplicate cardid', cardid)
@@ -308,6 +309,20 @@ def generate_checks(indices):
                     # print (key2+'\t<=\n'+key1+'\n')
                     temp_keys.pop(key2, None)
     conflictsset = temp_keys
+
+    key_variants = []
+    for key in sorted(conflictsset):
+        if len(key_variants) == 0 or (' temp variant' in key and key[:key.index(' temp variant')] in key_variants[0]):
+            key_variants.append(key)
+        else:
+            i = 0
+            for variant in key_variants:
+                if 'temp variant' in variant:
+                    temp = conflictsset[variant]
+                    del conflictsset[variant]
+                    conflictsset[variant[:variant.index('temp variant')]+(len(str(len(variant)))-len(str(i)))*'0'+str(i)] = temp
+                    i += 1
+            key_variants = []
 
     write_to_file(keylist, conflictsset)
     print('conflicts checks generation complete.')
