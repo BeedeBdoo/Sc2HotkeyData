@@ -15,34 +15,312 @@
         <AlertIcon value="Assets\Textures\btn-ability-terran-bombardmentstrike-color.dds"/>
         <TintRacially value="0"/>
     </CButton>
+    <CButton id="AbathurCreepMend">
+        <Icon value="Assets\Textures\btn-ability-zerg-transfusion-color.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CButton>
+    <CButton id="AbathurMend">
+        <Icon value="Assets\Textures\btn-ability-zerg-transfusion-color.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+        <TooltipAppender Validator="HaveMasteryAbathurMendHeal" Text="Button/Tooltip/MasteryAbathurMendHealAppend"/>
+    </CButton>
+    <CButton id="BiomassPassiveEmpty">
+        <Icon value="Assets\Textures\btn-upgrade-zerg-abathur-biomass.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-zerg-abathur-biomass.dds"/>
+        <ChargeText value="Button/ChargeText/BiomassPassive"/>
+        <TooltipAppender Validator="HaveMasteryAbathurBiomassRefund" Text="Button/Tooltip/MasteryAbathurBiomassRefundAppend"/>
+    </CButton>
+    <CButton id="CloakingField">
+        <TooltipAppender Validator="HaveMasteryVorazunDarkPylonCloakRadius" Text="Button/Tooltip/MasteryVorazunDarkPylonCloakRadiusAppend"/>
+    </CButton>
+    <CButton id="CommanderArtanisSpearofAdunGuardianShell">
+        <TooltipAppender Validator="HaveMasteryArtanisGuardianShellHeal" Text="Button/Tooltip/MasteryArtanisGuardianShellHealAppend"/>
+    </CButton>
+    <CButton id="CommanderArtanisSpearofAdunWarpHarmonization">
+        <TooltipAppender Validator="HaveMasteryArtanisWarpChargeRegen" Text="Button/Tooltip/MasteryArtanisWarpChargeRegenerationAppend"/>
+    </CButton>
+    <CButton id="CommanderSwannImmortalityProtocol">
+        <TooltipAppender Validator="HaveMasterySwannImmortalityProtocolCostandCooldown" Text="Button/Tooltip/MasterySwannImmortalityProtocolBaseAppend"/>
+    </CButton>
+    <CButton id="BioMechanicalTransfusionPassive">
+        <Icon value="Assets\Textures\btn-upgrade-zerg-abathur-biomechanicaltransfusion.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-zerg-abathur-biomechanicaltransfusion.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+        <HotkeyAlias value="Transfusion"/>
+    </CButton>
+    <CButton id="GlialReconstitutionPassive">
+        <Icon value="Assets\Textures\btn-upgrade-zerg-glialreconstitution.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-zerg-glialreconstitution.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CButton>
+    <CButton id="SOAHeroicShield">
+        <TooltipAppender Validator="HaveMasteryArtanisGuardianShellHeal" Text="Button/Tooltip/MasteryArtanisGuardianShellHealAppend"/>
+    </CButton>
+    <CButton id="SwarmHostDeepBurrow">
+        <AlertIcon value="Assets\Textures\btn-ability-zerg-deeptunnel.dds"/>
+    </CButton>
+    <CButton id="ViperImprovedCastRangePassive">
+        <Icon value="Assets\Textures\btn-upgrade-zerg-abathur-castrange.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+        <HotkeyAlias value="EvolveViperImprovedCastRange"/>
+    </CButton>
+    <CButton id="ViperAbductImprovedStunPassive">
+        <Icon value="Assets\Textures\btn-upgrade-zerg-abathur-abduct.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+        <HotkeyAlias value="EvolveViperAbductImprovedStun"/>
+    </CButton>
+    <CButton id="GuardianPassive">
+        <Icon value="Assets\Textures\btn-unit-zerg-primalguardian.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-zerg-primalguardian.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+        <HotkeyAlias value="RavagerPassive"/>
+    </CButton>
+    <CButton id="EvolveBioMechanicalTransfusion">
+        <Icon value="Assets\Textures\btn-upgrade-zerg-abathur-biomechanicaltransfusion.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-zerg-transfusion-color.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+        <HotkeyAlias value="Transfusion"/>
+    </CButton>
+    <CButton id="EvolveViperAbductImprovedStun">
+        <Icon value="Assets\Textures\btn-upgrade-zerg-abathur-abduct.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-zerg-abathur-abduct.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CButton>
+    <CButton id="EvolveHatcheryDoubleQueue">
+        <Icon value="Assets\Textures\btn-upgrade-zerg-abathur-incubationchamber.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-zerg-abathur-incubationchamber.dds"/>
+    </CButton>
+    <CButton id="EvolveViperImprovedCastRange">
+        <Icon value="Assets\Textures\btn-upgrade-zerg-abathur-castrange.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-zerg-abathur-castrange.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CButton>
+    <CButton id="Explode">
+        <TooltipAppender Validator="HaveMasteryZagaraBanelingDamageandIsNotBanelingSpawnCombine" Text="Button/Tooltip/MasteryZagaraBanelingDamageAppend"/>
+    </CButton>
+    <CButton id="Larva">
+        <TooltipAppender Validator="HaveMasteryKerriganArmyGasCost" Text="Button/Tooltip/MasteryKerriganArmyGasCostAppend"/>
+        <TooltipAppender Validator="HaveMasteryKerriganLarvaRate" Text="Button/Tooltip/MasteryKerriganLarvaRateAppend"/>
+        <TooltipAppender Validator="HaveMasteryZagaraLarvaRate" Text="Button/Tooltip/MasteryZagaraLarvaRateAppend"/>
+    </CButton>
+    <CButton id="LocustLaunch">
+        <TintRacially value="0"/>
+    </CButton>
+    <CButton id="MedicHeal">
+        <TooltipAppender Validator="HaveMasteryRaynorMedicAdditionalTargetHeal" Text="Button/Tooltip/MasteryRaynorMedicAdditionalTargetHealAppend"/>
+        <TooltipAppender Validator="HaveMasteryRaynorImprovedSafeguard" Text="Button/Tooltip/MasteryRaynorMedicImprovedSafeguardAppend"/>
+    </CButton>
+    <CButton id="PickupMinerals25">
+        <Icon value="Assets\Textures\btn-ability-terran-salvage.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-terran-salvage.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <TintRacially value="1"/>
+    </CButton>
+    <CButton id="PickupMinerals50">
+        <Icon value="Assets\Textures\btn-ability-terran-salvage.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-terran-salvage.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <TintRacially value="1"/>
+    </CButton>
+    <CButton id="PickupGas50">
+        <Icon value="Assets\Textures\btn-ability-terran-salvage.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-terran-salvage.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <TintRacially value="1"/>
+    </CButton>
+    <CButton id="CorrosiveBileDamageIncrease">
+        <Icon value="Assets\Textures\potentbile_coop.dds"/>
+        <AlertIcon value="Assets\Textures\potentbile_coop.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CButton>
+    <CButton id="CorrosiveBileRadiusIncrease">
+        <Icon value="Assets\Textures\btn-ability-zerg-abathur-corrosivebilelarge.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-zerg-abathur-corrosivebilelarge.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CButton>
+    <CButton id="EvolveCorrosiveBileDamageIncrease">
+        <Icon value="Assets\Textures\potentbile_coop.dds"/>
+        <AlertIcon value="Assets\Textures\potentbile_coop.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CButton>
+    <CButton id="EvolveAbathurGenerateCreep">
+        <Icon value="Assets\Textures\btn-ability-zerg-creepspread.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-zerg-creepspread.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CButton>
+    <CButton id="GenerateCreepHealing">
+        <Icon value="Assets\Textures\btn-ability-terran-heal-color.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-terran-heal-color.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CButton>
+    <CButton id="AbathurDeepTunnel">
+        <Icon value="Assets\Textures\btn-ability-zerg-deeptunnel.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CButton>
+    <CButton id="CorrosiveAcidDevourer">
+        <Icon value="Assets\Textures\btn-ability-zerg-acidspores.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-zerg-acidspores.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CButton>
+    <CButton id="AbathurUltimateEvolution">
+        <Icon value="Assets\Textures\btn-ability-kerrigan-droppods.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CButton>
     <CButton id="BrokenSolarForge">
         <Icon value="Assets\Textures\btn-building-protoss-solarforge.dds"/>
         <AlertIcon value="Assets\Textures\btn-building-protoss-solarforge.dds"/>
         <EditorCategories value="Race:Terran"/>
     </CButton>
-    <CButton id="EvolveSymbioteExtraSpawn">
-        <Icon value="Assets\Textures\btn-ability-zerg-corruption-color.dds"/>
-        <AlertIcon value="Assets\Textures\btn-ability-zerg-corruption-color.dds"/>
+    <CButton id="AbathurCollectBiomass">
+        <Icon value="Assets\Textures\BTN-Upgrade-Zerg-CorrosiveAcid.dds"/>
+        <AlertIcon value="Assets\Textures\BTN-Upgrade-Zerg-CorrosiveAcid.dds"/>
         <EditorCategories value="Race:Zerg"/>
+    </CButton>
+    <CButton id="CreateSymbiotes">
+        <Icon value="Assets\Textures\btn-unit-zerg-overseer.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-zerg-overseer.dds"/>
+    </CButton>
+    <CButton id="EvolveBrutalisk">
+        <Icon value="Assets\Textures\btn-unit-zerg-brutalisk.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-zerg-brutalisk.dds"/>
+    </CButton>
+    <CButton id="EvolveToBrutalisk">
+        <Icon value="Assets\Textures\btn-ability-zerg-spawnbrutaliskex3.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-zerg-spawnbrutaliskex3.dds"/>
+    </CButton>
+    <CButton id="BiomassPassive">
+        <Icon value="Assets\Textures\btn-upgrade-zerg-abathur-biomass.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-zerg-abathur-biomass.dds"/>
+        <ChargeText value="Button/ChargeText/BiomassPassive"/>
+        <TooltipAppender Validator="HaveMasteryAbathurBiomassRefund" Text="Button/Tooltip/MasteryAbathurBiomassRefundAppend"/>
+    </CButton>
+    <CButton id="BiomassPassiveEnergy">
+        <Icon value="Assets\Textures\btn-upgrade-zerg-abathur-biomass.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-zerg-abathur-biomass.dds"/>
+        <ChargeText value="Button/ChargeText/BiomassPassive"/>
+        <TooltipAppender Validator="HaveMasteryAbathurBiomassRefund" Text="Button/Tooltip/MasteryAbathurBiomassRefundAppend"/>
+    </CButton>
+    <CButton id="EvolveToLeviathan">
+        <Icon value="Assets\Textures\btn-unit-zerg-leviathan.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-zerg-leviathan.dds"/>
     </CButton>
     <CButton id="EvolveAdrenalineBoost">
         <Icon value="Assets\Textures\btn-ability-zerg-creepmove.dds"/>
         <AlertIcon value="Assets\Textures\btn-ability-zerg-creepmove.dds"/>
         <EditorCategories value="Race:Zerg"/>
     </CButton>
-    <CButton id="PHEvolveSymbioteDetection">
-        <Icon value="Assets\Textures\btn-status-detector.dds"/>
-        <AlertIcon value="Assets\Textures\btn-status-detector.dds"/>
+    <CButton id="MutatorWorkerSleep">
+        <Icon value="Assets\Textures\btn-ability-protoss-mindblast.dds"/>
+        <Placeholder value="1"/>
+    </CButton>
+    <CButton id="EvolveCorrosiveBileRadiusIncrease">
+        <Icon value="Assets\Textures\btn-ability-zerg-abathur-corrosivebilelarge.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-zerg-abathur-corrosivebilelarge.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CButton>
+    <CButton id="OrbitalCommandCalldownSupplyDepot">
+        <Icon value="Assets\Textures\btn-building-terran-supplydepot.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-terran-supplydepot.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="ProtossBuild">
+        <TooltipAppender Validator="HaveMasteryKaraxBuildingHealth" Text="Button/Tooltip/MasteryKaraxBuildingHealthAppend"/>
+    </CButton>
+    <CButton id="ProtossBuildAdvanced">
+        <TooltipAppender Validator="HaveMasteryKaraxBuildingHealth" Text="Button/Tooltip/MasteryKaraxBuildingHealthAppend"/>
+    </CButton>
+    <CButton id="RavagerAbathurCorrosiveBile">
+        <Icon value="Assets\Textures\btn-ability-zerg-corrosivebile.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-zerg-corrosivebile.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CButton>
+    <CButton id="EvolveAbathurDeepTunnel">
+        <Icon value="Assets\Textures\btn-ability-zerg-deeptunnel.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-zerg-deeptunnel.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CButton>
+    <CButton id="DevourerPassive">
+        <Icon value="Assets\Textures\btn-unit-zerg-devourerex3.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-zerg-devourerex3.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+        <HotkeyAlias value="RavagerPassive"/>
+    </CButton>
+    <CButton id="ResearchAbathurRoachRangeScalingUpgrade">
+        <Icon value="Assets\Textures\btn-upgrade-zerg-pressurizedglands.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-zerg-pressurizedglands.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CButton>
+    <CButton id="ResearchAbathurLocustAirAttack">
+        <Icon value="Assets\Textures\btn-upgrade-zerg-pressurizedglands.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-zerg-pressurizedglands.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CButton>
+    <CButton id="ResearchAbathurImprovedToxicNest">
+        <Icon value="Assets\Textures\btn-upgrade-zerg-visciousdischarge.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-zerg-visciousdischarge.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CButton>
+    <CButton id="ResearchAbathurMutaliskHealthScalingUpgrade">
+        <Icon value="Assets\Textures\btn-upgrade-zerg-pressurizedglands.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-zerg-pressurizedglands.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CButton>
+    <CButton id="SOARepairBeam">
+        <TooltipAppender Validator="HaveMasteryKaraxRepairBeamHeal" Text="Button/Tooltip/MasteryKaraxReconstructionBeamAppend"/>
+    </CButton>
+    <CButton id="SOASuperShield">
+        <TooltipAppender Validator="HaveMasteryArtanisShieldOverchargeDurationandStrength" Text="Button/Tooltip/MasteryArtanisShieldOverChargeDurationandStrenthAppend"/>
+    </CButton>
+    <CButton id="SOATimeFreeze">
+        <TooltipAppender Validator="HaveMasteryVorazunTimeStopHaste" Text="Button/Tooltip/MasteryVorazunTimeStopHasteAppend"/>
+    </CButton>
+    <CButton id="Stim">
+        <TooltipAppender Validator="HaveMasteryRaynorStimDuration" Text="Button/Tooltip/MasteryRaynorStimDurationAppend"/>
+    </CButton>
+    <CButton id="StimMarauder">
+        <TooltipAppender Validator="HaveMasteryRaynorStimDuration" Text="Button/Tooltip/MasteryRaynorStimDurationAppend"/>
+    </CButton>
+    <CButton id="StimRedirect">
+        <TooltipAppender Validator="HaveMasteryRaynorStimDuration" Text="Button/Tooltip/MasteryRaynorStimDurationAppend"/>
+    </CButton>
+    <CButton id="TerranBuild">
+        <TooltipAppender Validator="HaveMasterySwannBuildingHealth" Text="Button/Tooltip/MasterySwannBuildingHealthAppended"/>
+    </CButton>
+    <CButton id="TerranBuildAdvanced">
+        <TooltipAppender Validator="HaveMasterySwannBuildingHealth" Text="Button/Tooltip/MasterySwannBuildingHealthAppended"/>
+    </CButton>
+    <CButton id="TimeWarp">
+        <TooltipAppender Validator="HaveMasteryArtanisChronoBoostSpeed" Text="Button/Tooltip/MasteryArtanisChronoBoostAppend"/>
+        <TooltipAppender Validator="HaveMasteryVorazunChronoBoostSpeed" Text="Button/Tooltip/MasteryVorazunChronoBoostAppend"/>
+        <TooltipAppender Validator="HaveMasteryKaraxChronoBoostSpeed" Text="Button/Tooltip/MasteryKaraxChronoBoostAppend"/>
+    </CButton>
+    <CButton id="TissueAssimilationBrutalisk">
+        <Icon value="Assets\Textures\btn-upgrade-zerg-tissueassimilation.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-zerg-tissueassimilation.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CButton>
+    <CButton id="ToxicNestExplode">
+        <Icon value="Assets\Textures\btn-ability-zerg-explode-color.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-zerg-explode-color.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CButton>
+    <CButton id="HydraliskEvolved">
+        <Icon value="Assets\Textures\btn-unit-zerg-hydralisk-impaler.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-zerg-hydralisk-impaler.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CButton>
+    <CButton id="MorphtoDevourer">
+        <AlertIcon value="Assets\Textures\BTN-Unit-Zerg-DevourerEx3.dds"/>
+        <Icon value="Assets\Textures\BTN-Unit-Zerg-DevourerEx3.dds"/>
+    </CButton>
+    <CButton id="ResearchAbathurNetworkedCarapace">
+        <Icon value="Assets\Textures\btn-upgrade-zerg-organiccarapace.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-zerg-organiccarapace.dds"/>
         <EditorCategories value="Race:Zerg"/>
     </CButton>
     <CButton id="EvolveSymbioteStabUpgrade">
         <Icon value="Assets\Textures\btn-upgrade-zerg-seismicspines.dds"/>
         <AlertIcon value="Assets\Textures\btn-upgrade-zerg-seismicspines.dds"/>
-        <EditorCategories value="Race:Zerg"/>
-    </CButton>
-    <CButton id="EvolveSymbioteShieldUpgrade">
-        <Icon value="Assets\Textures\btn-upgrade-zerg-organiccarapace.dds"/>
-        <AlertIcon value="Assets\Textures\btn-upgrade-zerg-organiccarapace.dds"/>
         <EditorCategories value="Race:Zerg"/>
     </CButton>
     <CButton id="EvolveSymbioteAOEUpgrade">
@@ -55,25 +333,25 @@
         <AlertIcon value="Assets\Textures\btn-upgrade-kerrigan-seismicspines.dds"/>
         <EditorCategories value="Race:Zerg"/>
     </CButton>
-    <CButton id="ResearchSpikeBurstRankOne">
-        <Icon value="Assets\Textures\btn-ability-zerg-explode-color.dds"/>
-        <AlertIcon value="Assets\Textures\btn-ability-zerg-explode-color.dds"/>
+    <CButton id="ResearchReaperSpiderMines">
+        <Icon value="Assets\Textures\btn-unit-terran-spidermine.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-terran-spidermine.dds"/>
+        <EditorCategories value="Race:Terran"/>
     </CButton>
-    <CButton id="ResearchSpikeBurstRankTwo">
-        <Icon value="Assets\Textures\btn-ability-zerg-explode-color.dds"/>
-        <AlertIcon value="Assets\Textures\btn-ability-zerg-explode-color.dds"/>
-    </CButton>
-    <CButton id="ResearchCarapaceRankOne">
-        <Icon value="Assets\Textures\btn-upgrade-zerg-adaptivecarapace.dds"/>
-        <AlertIcon value="Assets\Textures\btn-upgrade-zerg-adaptivecarapace.dds"/>
-    </CButton>
-    <CButton id="ResearchCarapaceRankTwo">
-        <Icon value="Assets\Textures\btn-upgrade-zerg-adaptivecarapace.dds"/>
-        <AlertIcon value="Assets\Textures\btn-upgrade-zerg-adaptivecarapace.dds"/>
+    <CButton id="ResearchSiegeTankJumpJets">
+        <Icon value="Assets\Textures\BTN-Ability-Terran-JetPack-color.dds"/>
+        <AlertIcon value="Assets\Textures\BTN-Ability-Terran-JetPack-color.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <HotkeyAlias value="SiegeTankJumpJet"/>
     </CButton>
     <CButton id="SpawnLocustNest">
-        <Icon value="Assets\Textures\btn-unit-zerg-swarmhost.dds"/>
-        <AlertIcon value="Assets\Textures\btn-unit-zerg-swarmhost.dds"/>
+        <Icon value="Assets\Textures\btn-unit-zerg-locust.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-zerg-locust.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CButton>
+    <CButton id="AbathurEnemyDeathCreateLocusts">
+        <Icon value="Assets\Textures\btn-unit-zerg-locust.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-zerg-locust.dds"/>
         <EditorCategories value="Race:Zerg"/>
     </CButton>
     <CButton id="ResearchLocustNest">
@@ -82,9 +360,11 @@
         <EditorCategories value="Race:Zerg"/>
     </CButton>
     <CButton id="SpawnToxicNest">
-        <Icon value="Assets\Textures\btn-building-zerg-banelingnest.dds"/>
-        <AlertIcon value="Assets\Textures\btn-building-zerg-banelingnest.dds"/>
+        <Icon value="Assets\Textures\btn-ability-zerg-spawntoxicnest.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-zerg-spawntoxicnest.dds"/>
         <EditorCategories value="Race:Zerg"/>
+        <TooltipAppender Validator="HaveMasteryAbathurToxicNestRespawn" Text="Button/Tooltip/MasteryAbathurToxicNestRespawnAppend"/>
+        <TooltipAppender Validator="HaveMasteryAbathurToxicNestMaxCharge" Text="Button/Tooltip/MasteryAbathurToxicNestChargeAppend"/>
     </CButton>
     <CButton id="CreepTumorEnsnare">
         <Icon value="Assets\Textures\btn-ability-zerg-fungalgrowth-color.dds"/>
@@ -97,6 +377,11 @@
     </CButton>
     <CButton id="SpawnBrutalisk">
         <Icon value="Assets\Textures\btn-unit-zerg-brutalisk.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-zerg-brutalisk.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CButton>
+    <CButton id="SpawnLavaWorm">
+        <Icon value="Assets\Textures\btn-unit-zerg-yagdra.dds"/>
         <AlertIcon value="Assets\Textures\btn-unit-zerg-brutalisk.dds"/>
         <EditorCategories value="Race:Zerg"/>
     </CButton>
@@ -269,6 +554,7 @@
     </CButton>
     <CButton id="OrbitalDropPodsPassive">
         <Icon value="Assets\Textures\Talent-Raynor-Level08-OrbitalDropPods.dds"/>
+        <TooltipAppender Validator="HaveMasteryRaynorDropPodHaste" Text="Button/Tooltip/MasteryRaynorDropPodHasteAppend"/>
     </CButton>
     <CButton id="PassiveBileLauncher">
         <Icon value="Assets\Textures\btn-building-zerg-sporecannon.dds"/>
@@ -388,27 +674,15 @@
         <Icon value="Assets\Textures\btn-upgrade-karax-solarefficiencylevel3.dds"/>
         <AlertIcon value="Assets\Textures\btn-upgrade-karax-solarefficiencylevel3.dds"/>
     </CButton>
-    <CButton id="BlinkNova">
-        <Icon value="Assets\Textures\BTN-Ability-Protoss-BlinkCharges.dds"/>
-        <AlertIcon value="Assets\Textures\BTN-Ability-Protoss-BlinkCharges.dds"/>
-    </CButton>
-    <CButton id="ResearchToxicNest">
+    <CButton id="ResearchAbathurHiddenToxicNest">
         <Icon value="Assets\Textures\btn-building-zerg-banelingnest.dds"/>
         <AlertIcon value="Assets\Textures\btn-building-zerg-banelingnest.dds"/>
         <EditorCategories value="Race:Zerg"/>
-        <HotkeyAlias value="SpawnToxicNest"/>
     </CButton>
     <CButton id="SymbioteCarapace">
         <Icon value="Assets\Textures\btn-upgrade-zerg-adaptivecarapace.dds"/>
         <AlertIcon value="Assets\Textures\btn-upgrade-zerg-adaptivecarapace.dds"/>
-    </CButton>
-    <CButton id="ResearchStabRankOne">
-        <Icon value="Assets\Textures\btn-upgrade-zerg-hotsgroovedspines.dds"/>
-        <AlertIcon value="Assets\Textures\btn-upgrade-zerg-hotsgroovedspines.dds"/>
-    </CButton>
-    <CButton id="ResearchStabRankTwo">
-        <Icon value="Assets\Textures\btn-upgrade-zerg-hotsgroovedspines.dds"/>
-        <AlertIcon value="Assets\Textures\btn-upgrade-zerg-hotsgroovedspines.dds"/>
+        <TooltipAppender Validator="HaveMasteryAbathurSymbioteCarapace" Text="Button/Tooltip/MasteryAbathurSymbioteCarapaceAppend"/>
     </CButton>
     <CButton id="SymbioteStab">
         <Icon value="Assets\Textures\btn-upgrade-zerg-hotsgroovedspines.dds"/>
@@ -417,6 +691,16 @@
     <CButton id="SymbioteSpikeBurst">
         <Icon value="Assets\Textures\btn-ability-zerg-explode-color.dds"/>
         <AlertIcon value="Assets\Textures\btn-ability-zerg-explode-color.dds"/>
+    </CButton>
+    <CButton id="MasertyAbathurToxicNestRespawn">
+        <Icon value="Assets\Textures\btn-upgrade-zerg-visciousdischarge.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-zerg-visciousdischarge.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CButton>
+    <CButton id="ToxicNestattackgivesMarkforCollectiondebuff">
+        <Icon value="Assets\Textures\btn-upgrade-zerg-corrosiveacid.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-zerg-corrosiveacid.dds"/>
+        <EditorCategories value="Race:Zerg"/>
     </CButton>
     <CButton id="TransferSymbiote">
         <Icon value="Assets\Textures\btn-ability-zerg-abduct.dds"/>
@@ -469,6 +753,12 @@
         <Hotkey value="Button/Hotkey/ResearchTempestDisintegration"/>
         <HotkeyAlias value="ResearchTempestDisintegration"/>
     </CButton>
+    <CButton id="BioMechanicalTransfusion">
+        <Icon value="Assets\Textures\btn-ability-zerg-transfusion-color.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-zerg-transfusion-color.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+        <HotkeyAlias value="Transfusion"/>
+    </CButton>
     <CButton id="VoidSentryBlackHole">
         <Icon value="Assets\Textures\btn-ability-protoss-blackhole-color.dds"/>
     </CButton>
@@ -476,6 +766,9 @@
         <Icon value="Assets\Textures\btn-ability-protoss-energizerphasingmode.dds"/>
         <AlertIcon value="Assets\Textures\btn-ability-protoss-energizerphasingmode.dds"/>
         <EditorCategories value="Race:Protoss"/>
+    </CButton>
+    <CButton id="ZagaraVoidCoopBanelingBarrage">
+        <TooltipAppender Validator="HaveMasteryZagaraBanelingDamage" Text="Button/Tooltip/MasteryBanelingAttackDamageAppend"/>
     </CButton>
     <CButton id="ZagaraVoidCoopCreepMaster">
         <Tooltip value="Button/Tooltip/BuildCreepTumor"/>
@@ -509,10 +802,12 @@
         <TooltipFlags index="ShowCooldown" value="0"/>
         <Icon value="Assets\Textures\btn-upgrade-swann-laserdrillattack.dds"/>
         <AlertIcon value="Assets\Textures\btn-upgrade-swann-laserdrillattack.dds"/>
+        <TooltipAppender Validator="HaveMasterySwannLaserDrillBuildTime" Text="Button/Tooltip/MasterySwannLaserDrillBuildTimeAppend"/>
     </CButton>
     <CButton id="DrakkenLaserDrillBFGIO">
         <Icon value="Assets\Textures\BTN-Ability-ConcentratedBeam.dds"/>
         <AlertIcon value="Assets\Textures\BTN-Ability-ConcentratedBeam.dds"/>
+        <TooltipAppender Validator="HaveMasterySwannConcentratedBeam" Text="Button/Tooltip/MasterySwannConcentratedBeamDamageandAreaAppend"/>
     </CButton>
     <CButton id="DrakkenLaserDrillPulseCannonIO">
         <Icon value="Assets\Textures\BTN-Upgrade-Swann-PulseCannon.dds"/>
@@ -675,6 +970,7 @@
     <CButton id="SOAPylonPower">
         <Icon value="Assets\Textures\btn-upgrade-artanis-pylonpower.dds"/>
         <AlertIcon value="Assets\Textures\btn-upgrade-artanis-pylonpower.dds"/>
+        <TooltipAppender Validator="HaveMasteryArtanisWarpinHaste" Text="Button/Tooltip/MasteryArtanisSOAPowerFieldWarpInHasteAppend"/>
     </CButton>
     <CButton id="SeismicSpines">
         <Icon value="Assets\Textures\btn-upgrade-kerrigan-seismicspines.dds"/>
@@ -689,17 +985,21 @@
     <CButton id="SummonHyperionVoid">
         <Icon value="Assets\Textures\talent-raynor-level15-hyperiondamageaura.dds"/>
         <AlertIcon value="Assets\Textures\talent-raynor-level15-hyperiondamageaura.dds"/>
+        <TooltipAppender Validator="HaveMasteryRaynorHyperionCooldown" Text="Button/Tooltip/MasteryRaynorHyperionCooldownAppend"/>
     </CButton>
     <CButton id="SuperiorWarpGates">
         <AlertIcon value="Assets\Textures\talent-artanis-level03-warpgatecharges.dds"/>
+        <TooltipAppender Validator="HaveMasteryArtanisWarpChargeRegen" Text="Button/Tooltip/MasteryArtanisWarpChargeRegenerationAppend"/>
     </CButton>
     <CButton id="SuperiorWarpStargates">
         <Icon value="Assets\Textures\talent-artanis-level03-warpgatecharges.dds"/>
         <AlertIcon value="Assets\Textures\talent-artanis-level03-warpgatecharges.dds"/>
+        <TooltipAppender Validator="HaveMasteryArtanisWarpChargeRegen" Text="Button/Tooltip/MasteryArtanisWarpChargeRegenerationAppend"/>
     </CButton>
     <CButton id="SuperiorWarpRoboticsFacilities">
         <Icon value="Assets\Textures\talent-artanis-level03-warpgatecharges.dds"/>
         <AlertIcon value="Assets\Textures\talent-artanis-level03-warpgatecharges.dds"/>
+        <TooltipAppender Validator="HaveMasteryArtanisWarpChargeRegen" Text="Button/Tooltip/MasteryArtanisWarpChargeRegenerationAppend"/>
     </CButton>
     <CButton id="VoidZealotShadowCharge">
         <Icon value="Assets\Textures\btn-ability-protoss-shadowcharge.dds"/>
@@ -712,12 +1012,23 @@
     <CButton id="ZagaraVoidCoopNydusWorm">
         <EditorCategories value="Race:Zerg"/>
     </CButton>
+    <CButton id="ZagaraVoidCoopRelentlessSwarmer">
+        <TooltipAppender Validator="HaveMasteryZagaraHealthandEnergyRegen" Text="Button/Tooltip/MasteryZagaraHealthandEnergyRegenAppend"/>
+        <TooltipAppender Validator="HaveMasteryZagaraAutoAttackDamage" Text="Button/Tooltip/MasteryZagaraAutoAttackDamageAppend"/>
+        <TooltipAppender Validator="HaveMasteryZagaraCocoonTimer" Text="Button/Tooltip/MasteryZagaraCocoonTimerAppend"/>
+    </CButton>
     <CButton id="ZealotPurifierResearchReconstruction">
         <Icon value="Assets\Textures\BTN-Ability-Protoss-Reconstruction.dds"/>
         <EditorCategories value="Race:Protoss"/>
         <Hotkey value="Button/Hotkey/ResearchDragoonChassis"/>
         <HotkeyAlias value="ResearchDragoonChassis"/>
         <AlertIcon value="Assets\Textures\BTN-Ability-Protoss-Reconstruction.dds"/>
+    </CButton>
+    <CButton id="ZergBuild">
+        <TooltipAppender Validator="HaveMasteryAbathurBuildingMorphandResearchTime" Text="Button/Tooltip/MasteryAbathurBuildingMorphandResearchTimeAppend"/>
+    </CButton>
+    <CButton id="ZergBuildAdvanced">
+        <TooltipAppender Validator="HaveMasteryAbathurBuildingMorphandResearchTime" Text="Button/Tooltip/MasteryAbathurBuildingMorphandResearchTimeAppend"/>
     </CButton>
     <CButton id="ZerglingArmorShred">
         <Icon value="Assets\Textures\btn-upgrade-zergling-armorshredding.dds"/>
@@ -858,6 +1169,7 @@
         <Icon value="Assets\Textures\btn-upgrade-vorazun-summonshadowguard.dds"/>
         <AlertIcon value="Assets\Textures\btn-upgrade-vorazun-summonshadowguard.dds"/>
         <EditorCategories value="Race:Protoss"/>
+        <TooltipAppender Validator="HaveMasteryVorazunShadowGuardDuration" Text="Button/Tooltip/MasteryVorazunShadowGuardDurationAppend"/>
     </CButton>
     <CButton id="EvolveKerriganHeroicFortitude">
         <Icon value="Assets\Textures\btn-ability-kerrigan-heroicfortitude.dds"/>
@@ -1153,6 +1465,7 @@
     <CButton id="DrakkenLaserDrillBFG">
         <Icon value="Assets\Textures\btn-ability-protoss-prismaticbeam-color.dds"/>
         <AlertIcon value="Assets\Textures\btn-ability-protoss-prismaticbeam-color.dds"/>
+        <TooltipAppender Validator="HaveMasterySwannConcentratedBeam" Text="Button/Tooltip/MasterySwannConcentratedBeamDamageandAreaAppend"/>
     </CButton>
     <CButton id="ResearchDrakkenLaserDrillNuke">
         <Icon value="Assets\Textures\btn-tips-laserdrillcontrol.dds"/>
@@ -1213,6 +1526,7 @@
         <Icon value="Assets\Textures\btn-upgrade-vorazun-summondarkpylon.dds"/>
         <AlertIcon value="Assets\Textures\btn-upgrade-vorazun-summondarkpylon.dds"/>
         <EditorCategories value="Race:Protoss"/>
+        <TooltipAppender Validator="HaveMasteryVorazunDarkPylonCloakRadius" Text="Button/Tooltip/MasteryVorazunDarkPylonCloakRadiusAppend"/>
     </CButton>
     <CButton id="SOASuperChronoMapWide">
         <Icon value="Assets\Textures\btn-upgrade-karax-chronowave.dds"/>
@@ -1222,6 +1536,7 @@
     <CButton id="SpecialDelivery">
         <Icon value="Assets\Textures\Talent-Swann-Level02-CombatDrop.dds"/>
         <AlertIcon value="Assets\Textures\Talent-Swann-Level02-CombatDrop.dds"/>
+        <TooltipAppender Validator="HaveMasterySwannCombatDrop" Text="Button/Tooltip/MasterySwannCombatDropDurationandLifeAppend"/>
     </CButton>
     <CButton id="DrakkenLaserDrillPowerUp">
         <Icon value="Assets\Textures\btn-ability-protoss-prismaticbeam-color.dds"/>
@@ -1236,6 +1551,9 @@
         <Icon value="Assets\Textures\btn-upgrade-zerg-tissueassimilation.dds"/>
         <AlertIcon value="Assets\Textures\btn-upgrade-zerg-tissueassimilation.dds"/>
         <EditorCategories value="Race:Zerg"/>
+        <TooltipAppender Validator="HaveMasteryKerriganEnergyRegen" Text="Button/Tooltip/MasteryKerriganEnergyRegenAppend"/>
+        <TooltipAppender Validator="HaveMasteryKerriganAutoAttackDamage" Text="Button/Tooltip/MasteryKerriganAutoAttackDamageAppend"/>
+        <TooltipAppender Validator="HaveMasteryKerriganCocoonTimer" Text="Button/Tooltip/MasteryKerriganCocoonTimerAppend"/>
     </CButton>
     <CButton id="KerriganMaelstrom">
         <Icon value="Assets\Textures\btn-ability-kerrigan-apocalypse.dds"/>
@@ -1262,6 +1580,7 @@
         <Icon value="Assets\Textures\btn-upgrade-kerrigan-assimilationaura.dds"/>
         <AlertIcon value="Assets\Textures\btn-upgrade-kerrigan-assimilationaura.dds"/>
         <EditorCategories value="Race:Zerg"/>
+        <TooltipAppender Validator="HaveMasteryKerriganAssimilationAuraDuration" Text="Button/Tooltip/MasteryKerriganAssimilationAuraDurationAppend"/>
     </CButton>
     <CButton id="ScourgeNest">
         <Icon value="Assets\Textures\btn-doodad-scourgenests.dds"/>
@@ -1272,6 +1591,7 @@
         <Icon value="Assets\Textures\talent-zagara-level02-massroachdrop.dds"/>
         <AlertIcon value="Assets\Textures\talent-zagara-level02-massroachdrop.dds"/>
         <EditorCategories value="Race:Zerg"/>
+        <TooltipAppender Validator="HaveMasteryZagaraRoachDropDamageandHealth" Text="Button/Tooltip/MasteryZagaraInfestedDropDamageandHealthAppend"/>
     </CButton>
     <CButton id="SolarForge">
         <Icon value="Assets\Textures\btn-building-protoss-solarforge.dds"/>
@@ -1284,11 +1604,13 @@
         <Icon value="Assets\Textures\btn-upgrade-karax-chronowave.dds"/>
         <AlertIcon value="Assets\Textures\btn-upgrade-karax-chronowave.dds"/>
         <EditorCategories value="Race:Protoss"/>
+        <TooltipAppender Validator="HaveMasteryKaraxSOARegenDuringSuperChrono" Text="Button/Tooltip/MasteryKaraxRegenerateDuringMassChronoAppend"/>
     </CButton>
     <CButton id="SOAChronoPassive">
         <Icon value="Assets\Textures\btn-upgrade-karax-chronofield.dds"/>
         <AlertIcon value="Assets\Textures\btn-upgrade-karax-chronofield.dds"/>
         <EditorCategories value="Race:Protoss"/>
+        <TooltipAppender Validator="HaveMasteryKaraxUnitCost" Text="Button/Tooltip/MasteryKaraxUnitCostAppend"/>
     </CButton>
     <CButton id="CreepColony">
         <Icon value="Assets\Textures\btn-ability-zerg-creepspread.dds"/>
@@ -1413,6 +1735,7 @@
     <CButton id="DrakkenLaserDrillAttack">
         <Icon value="Assets\Textures\btn-upgrade-swann-laserdrillattack.dds"/>
         <AlertIcon value="Assets\Textures\btn-upgrade-swann-laserdrillattack.dds"/>
+        <TooltipAppender Validator="HaveMasterySwannLaserDrillBuildTime" Text="Button/Tooltip/MasterySwannLaserDrillBuildTimeAppend"/>
         <TooltipFlags index="ShowCooldown" value="0"/>
     </CButton>
     <CButton id="EvolveMonarchBlades">
@@ -1490,12 +1813,19 @@
         <AlertIcon value="Assets\Textures\btn-unit-zerg-scourge.dds"/>
         <EditorCategories value="Race:Zerg"/>
     </CButton>
+    <CButton id="RavagerPassive">
+        <Icon value="Assets\Textures\btn-unit-zerg-ravager.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-zerg-ravager.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CButton>
     <CButton id="SwannCommanderRebuild">
         <Icon value="Assets\Textures\btn-techupgrade-terran-immortalityprotocol.dds"/>
         <AlertIcon value="Assets\Textures\btn-techupgrade-terran-immortalityprotocol.dds"/>
         <EditorCategories value="Race:Terran"/>
         <TintRacially value="1"/>
         <Universal value="1"/>
+        <TooltipAppender Validator="HaveSwannCommanderImmortalityProtocolandThorWreckage" Text="Button/Tooltip/MasterySwannImmortalityProtocolThorAppend"/>
+        <TooltipAppender Validator="HaveSwannCommanderImmortalityProtocolandSiegeTank" Text="Button/Tooltip/MasterySwannImmortalityProtocolSiegeTankAppend"/>
     </CButton>
     <CButton id="SiegeTankSplashRadius">
         <Icon value="Assets\Textures\btn-techupgrade-terran-ripwavemissiles.dds"/>
@@ -1928,8 +2258,8 @@
         <EditorCategories value="Race:Zerg"/>
     </CButton>
     <CButton id="Defiler">
-        <Icon value="Assets\Textures\btn-unit-zerg-infestedgaurdian.dds"/>
-        <AlertIcon value="Assets\Textures\btn-unit-zerg-infestedgaurdian.dds"/>
+        <Icon value="Assets\Textures\BTN-Unit-Zerg-DefilerEx3.dds"/>
+        <AlertIcon value="Assets\Textures\BTN-Unit-Zerg-DefilerEx3.dds"/>
         <EditorCategories value="Race:Zerg"/>
     </CButton>
     <CButton id="InfestedStukovCoopRegenAura">
@@ -1970,6 +2300,7 @@
         <Icon value="Assets\Textures\talent-raynor-level02-bansheeairstrike.dds"/>
         <AlertIcon value="Assets\Textures\talent-raynor-level02-bansheeairstrike.dds"/>
         <EditorCategories value="Race:Terran"/>
+        <TooltipAppender Validator="HaveMasteryRaynorBansheeCooldown" Text="Button/Tooltip/MasteryRaynorBansheeCooldownAppend"/>
     </CButton>
     <CButton id="KelMorianGrenadeTurretConcussiveGrenades">
         <Icon value="Assets\Textures\btn-ability-terran-punishergrenade-color.dds"/>
@@ -1980,6 +2311,7 @@
         <Icon value="Assets\Textures\Talent-Swann-Level05-VespeneDrone.dds"/>
         <AlertIcon value="Assets\Textures\Talent-Swann-Level05-VespeneDrone.dds"/>
         <EditorCategories value="Race:Terran"/>
+        <TooltipAppender Validator="HaveMasterySwannVespeneDroneCost" Text="Button/Tooltip/MasterySwannVespeneDroneCostAppended"/>
     </CButton>
     <CButton id="DroneOperator">
         <Icon value="Assets\Textures\btn-unit-terran-herc.dds"/>
@@ -2018,6 +2350,11 @@
         <Icon value="Assets\Textures\btn-building-terran-barracks.dds"/>
         <AlertIcon value="Assets\Textures\btn-building-terran-barracks.dds"/>
         <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AbathurSpawningPool">
+        <Icon value="Assets\Textures\btn-building-zerg-spawningpool.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-zerg-spawningpool.dds"/>
+        <EditorCategories value="Race:Zerg"/>
     </CButton>
     <!-- Progression Lock Icons Start -->
     <CButton id="BuildUnitLocked">
@@ -2434,11 +2771,6 @@
         <Tooltip value="Button/Tooltip/BuildUnitLockedLevel05"/>
         <EditorCategories value="Race:Zerg"/>
     </CButton>
-    <CButton id="BuildDefilerLocked" parent="BuildUnitLocked">
-        <Name value="Button/Name/BuildDefilerLocked"/>
-        <Tooltip value="Button/Tooltip/BuildUnitLockedLevel08"/>
-        <EditorCategories value="Race:Zerg"/>
-    </CButton>
     <CButton id="EvolveHardenedCarapaceLocked" parent="ResearchLocked">
         <Name value="Button/Name/EvolveHardenedCarapaceLocked"/>
         <Tooltip value="Button/Tooltip/ResearchLockedLevel04"/>
@@ -2471,11 +2803,6 @@
     </CButton>
     <CButton id="EvolveK5CooldownsLocked" parent="ResearchLocked">
         <Name value="Button/Name/EvolveK5CooldownsLocked"/>
-        <Tooltip value="Button/Tooltip/ResearchLockedLevel09"/>
-        <EditorCategories value="Race:Zerg"/>
-    </CButton>
-    <CButton id="EvolveImprovedPlagueLocked" parent="ResearchLocked">
-        <Name value="Button/Name/EvolveImprovedPlagueLocked"/>
         <Tooltip value="Button/Tooltip/ResearchLockedLevel09"/>
         <EditorCategories value="Race:Zerg"/>
     </CButton>
@@ -2629,6 +2956,72 @@
         <Name value="Button/Name/EvolveBileLauncherBombardmentCooldownLocked"/>
         <Tooltip value="Button/Tooltip/ResearchLockedLevel13"/>
         <EditorCategories value="Race:Zerg"/>
+    </CButton>
+    <!-- Abathur -->
+    <CButton id="EvolveAdaptivePlatingLocked" parent="ResearchLocked">
+        <Tooltip value="Button/Tooltip/ResearchLockedLevel04"/>
+        <EditorCategories value="Race:Zerg"/>
+        <Name value="Button/Name/EvolveAdaptivePlatingLocked"/>
+    </CButton>
+    <CButton id="EvolveCorrosiveBileDamageIncreaseLocked" parent="ResearchLocked">
+        <Tooltip value="Button/Tooltip/ResearchLockedLevel04"/>
+        <EditorCategories value="Race:Zerg"/>
+        <Name value="Button/Name/EvolveCorrosiveBileDamageIncreaseLocked"/>
+    </CButton>
+    <CButton id="EvolveToBrutaliskLocked" parent="AbilLocked">
+        <Tooltip value="Button/Tooltip/AbilLockedLevel02"/>
+        <EditorCategories value="Race:Zerg"/>
+        <Name value="Button/Name/EvolveToBrutaliskLocked"/>
+    </CButton>
+    <CButton id="EvolveToLeviathanLocked" parent="AbilLocked">
+        <Tooltip value="Button/Tooltip/AbilLockedLevel02"/>
+        <EditorCategories value="Race:Zerg"/>
+        <Name value="Button/Name/EvolveToLeviathanLocked"/>
+    </CButton>
+    <CButton id="EvolveBioMechanicalTransfusionLocked" parent="ResearchLocked">
+        <Tooltip value="Button/Tooltip/ResearchLockedLevel06"/>
+        <EditorCategories value="Race:Zerg"/>
+        <Name value="Button/Name/EvolveBioMechanicalTransfusionLocked"/>
+    </CButton>
+    <CButton id="EvolveHatcheryDoubleQueueLocked" parent="ResearchLocked">
+        <Tooltip value="Button/Tooltip/ResearchLockedLevel06"/>
+        <EditorCategories value="Race:Zerg"/>
+        <Name value="Button/Name/EvolveHatcheryDoubleQueueLocked"/>
+    </CButton>
+    <CButton id="BuildViperLocked" parent="BuildUnitLocked">
+        <Name value="Button/Name/BuildViperLocked"/>
+        <Tooltip value="Button/Tooltip/BuildUnitLockedLevel08"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CButton>
+    <CButton id="EvolveDeepTunnelLocked" parent="ResearchLocked">
+        <Tooltip value="Button/Tooltip/ResearchLockedLevel09"/>
+        <EditorCategories value="Race:Zerg"/>
+        <Name value="Button/Name/EvolveDeepTunnelLocked"/>
+    </CButton>
+    <CButton id="DeepTunnelLocked" parent="AbilLocked">
+        <Name value="Button/Name/DeepTunnelLocked"/>
+        <Tooltip value="Button/Tooltip/AbilLockedLevel09"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CButton>
+    <CButton id="EvolveViperImprovedCastRangeLocked" parent="ResearchLocked">
+        <Name value="Button/Name/EvolveViperImprovedCastRangeLocked"/>
+        <Tooltip value="Button/Tooltip/ResearchLockedLevel08"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CButton>
+    <CButton id="EvolveViperAbductImprovedStunLocked" parent="ResearchLocked">
+        <Name value="Button/Name/EvolveViperAbductImprovedStunLocked"/>
+        <Tooltip value="Button/Tooltip/ResearchLockedLevel09"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CButton>
+    <CButton id="EvolveDevourerAoEDamageLocked" parent="ResearchLocked">
+        <Tooltip value="Button/Tooltip/ResearchLockedLevel11"/>
+        <EditorCategories value="Race:Zerg"/>
+        <Name value="Button/Name/EvolveDevourerAoEDamageLocked"/>
+    </CButton>
+    <CButton id="EvolveGuardianAttackRangeIncreaseLocked" parent="ResearchLocked">
+        <Tooltip value="Button/Tooltip/ResearchLockedLevel11"/>
+        <EditorCategories value="Race:Zerg"/>
+        <Name value="Button/Name/EvolveGuardianAttackRangeIncreaseLocked"/>
     </CButton>
     <!-- Raynor -->
     <CButton id="BansheeAirstrikeLocked" parent="AbilLocked">
@@ -2903,6 +3296,7 @@
     <CButton id="SOAVorazunBlackHole">
         <Icon value="Assets\Textures\btn-ability-protoss-blackhole-color.dds"/>
         <EditorCategories value="Race:Protoss"/>
+        <TooltipAppender Validator="HaveMasteryVorazunBlackHoleDuration" Text="Button/Tooltip/MasteryVorazunBlackHoleDurationAppend"/>
     </CButton>
     <CButton id="VoidRift"/>
     <CButton id="VoidShardACShockwave">
@@ -3061,8 +3455,65 @@
         <EditorCategories value="Race:Terran"/>
         <HotkeyAlias value="Move"/>
     </CButton>
+    <CButton id="BrutaliskDeepTunnel">
+        <Icon value="Assets\Textures\btn-ability-zerg-deeptunnel.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CButton>
+    <CButton id="SiegeTankJumpJet">
+        <Icon value="Assets\Textures\btn-upgrade-terran-jumpjets.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-terran-jumpjets.dds"/>
+    </CButton>
+    <CButton id="GuardianAttackRangeIncrease">
+        <Icon value="Assets\Textures\btn-upgrade-zerg-abathur-prolongeddispersion.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-zerg-abathur-prolongeddispersion.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CButton>
+    <CButton id="DevourerAoEDamage">
+        <Icon value="Assets\Textures\btn-upgrade-zerg-abathur-devourer-corrosivespray.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-zerg-abathur-devourer-corrosivespray.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CButton>
+    <CButton id="EvolveGuardianAttackRangeIncrease">
+        <Icon value="Assets\Textures\btn-upgrade-zerg-abathur-prolongeddispersion.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-zerg-abathur-prolongeddispersion.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CButton>
+    <CButton id="EvolveDevourerAoEDamage">
+        <Icon value="Assets\Textures\btn-upgrade-zerg-abathur-devourer-corrosivespray.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-zerg-abathur-devourer-corrosivespray.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CButton>
+    <CButton id="AbathurGenerateCreep">
+        <Icon value="Assets\Textures\btn-ability-zerg-creepspread.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-zerg-generatecreep-color.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CButton>
     <CButton id="SlaynElementalGrabAOE">
         <Icon value="Assets\Textures\btn-ability-zerg-corrosivebile.dds"/>
         <EditorCategories value="Race:Neutral"/>
+    </CButton>
+    <CButton id="RedstoneSalamanderFireball">
+        <Icon value="Assets\Textures\btn-ability-terran-bombardmentstrike-color.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CButton>
+    <CButton id="RedstoneSalamanderFirebreath">
+        <Icon value="Assets\Textures\btn-tips-walloffire.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CButton>
+    <CButton id="RedstoneSalamanderTunnel">
+        <Icon value="Assets\Textures\btn-ability-zerg-deeptunnel.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CButton>
+    <CButton id="AbathurBrutaliskLeviathanSymbiote">
+        <Icon value="Assets\Textures\btn-upgrade-zerg-abathur-symbiote.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-zerg-symbiote.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+        <TooltipAppender Validator="HaveMasteryAbathurSymbioteCarapace" Text="Button/Tooltip/MasteryAbathurSymbioteCarapaceAppend"/>
+    </CButton>
+    <CButton id="AbathurBrutaliskLeviathanSymbioteLocked" parent="AbilLocked">
+        <Tooltip value="Button/Tooltip/AbilLockedLevel10"/>
+        <EditorCategories value="Race:Zerg"/>
+        <Name value="Button/Name/AbathurBrutaliskLeviathanSymbioteLocked"/>
+        <AlertName value="Button/Name/AbathurBrutaliskLeviathanSymbioteLocked"/>
     </CButton>
 </Catalog>

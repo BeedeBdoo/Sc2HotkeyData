@@ -3,8 +3,9 @@
 import xml.etree.ElementTree as ET
 import os
 import copy
-import xml_tree_merger
+from xml_tree_merger import tree_merger
 from math import floor
+from math import log10
 
 # TODO CardLayouts RowText="", what is it? - Low Priority
 # TODO LayoutButtons Requirement="", mutually exclusive requirements
@@ -36,7 +37,7 @@ hots_requirements = [['HotSHaveSwarmlingSpawningPool', 'HotSHaveRaptorSpawningPo
                      ['HaveK5TwoDrones', 'HaveK5GasBonuses', 'HaveK5CreepBonuses'],
                      ['HaveK5InfestBroodlings', 'HaveK5Fury', 'HaveK5Cooldowns']]
 
-coop_requirements = {'Abathur': ['HaveHotSPressurizedGlands', 'HaveOrganicCarapace', 'HaveHotSRoachShield', 'HaveRoachVile', 'HotSHaveInfestor', 'HaveHotSMutaliskViper', 'HaveHotSRoachDamage'],
+coop_requirements = {'Abathur': ['HotSHaveViper', 'HaveToxicNestDamageGivesMarkforCollectionDebuff', 'HaveViperAbductImprovedStun', 'HaveViperImprovedCastRange', 'HotSHaveDevourer', 'HotSHaveSwarmHost', 'HaveHotSRapidIncubation', 'HaveHotSLocustSpeed', 'HaveGuardian', 'HaveGuardianAttackRangeIncrease', 'HaveHotSBurrowSwarmHost', 'AbathurLevel02', 'AbathurLevel03', 'AbathurLevel04', 'AbathurLevel06', 'AbathurLevel08', 'AbathurLevel09', 'AbathurLevel10', 'AbathurLevel11', 'AbathurLevel12', 'BiomassBuffEmptyVisible', 'BiomassBuffVisible', 'HaveBioMechanicalTransfusionPassive', 'HaveBrutaliskLeviathanSymbiote', 'HaveCorrosiveBileDamageIncrease', 'HaveCorrosiveBileRadiusIncrease', 'HaveDevourerAoEDamage', 'HaveHotSPressurizedGlands', 'HaveOrganicCarapace', 'HaveHotSRoachShield', 'HaveRoachVile', 'HotSHaveInfestor', 'HaveHotSMutaliskViper', 'HaveHotSRoachDamage'],
                      'Artanis': ['HaveBarrier', 'HaveVoidStalkerDragoon', 'HaveReaverIncreasedScarabSplashRadius', 'HaveHighTemplarEnergyUpgradeHighArchon''HaveSOAWarpTech', 'HaveResearchDoubleGravitonBeamPassive', 'HaveHealingPsionicStormHighArchon', 'HaveDragoonHealth', 'HaveSuperiorWarpGates', 'HaveSOAHeroicShield', 'HaveSingularityCharge', 'HaveHealingPsionicStorm', 'HaveHighTemplarEnergyUpgrade', 'HaveReaverIncreasedScarabCount', 'ArtanisLevel02', 'ArtanisLevel04', 'ArtanisLevel05', 'ArtanisLevel06', 'ArtanisLevel07', 'ArtanisLevel08', 'ArtanisLevel09', 'ArtanisLevel10', 'ArtanisLevel11', 'ArtanisLevel12'],
                      'Karax': ['HaveVoidSentryPurifier', 'HaveSOASolarLanceUpgrade', 'HaveSOARepairBeam', 'HaveSentry', 'HaveSolarEfficiencyLevel1', 'HaveKhaydarinMonolith', 'HaveSolarEfficiencyLevel2', 'HaveSOAOrbitalStrikeUpgrade', 'HaveColossus', 'HaveFireBeam', 'HaveVoidColossusFireBeam', 'HaveMiragePhaseArmor', 'HaveCarrierRepairDrones', 'HaveCarrier', 'HaveSOARepairBeamExtraTarget', 'HaveSolarEfficiencyLevel3', 'HaveKaraxEnergyRegenUpgrade', 'HaveKaraxExtendedThermalLance', 'HaveKaraxPhoenixRangeUpgrade', 'HaveKaraxSOAChronoPassive', 'HaveKaraxTurretAttackSpeed', 'HaveKaraxTurretRange', 'KaraxLevel02', 'KaraxLevel04', 'KaraxLevel05', 'KaraxLevel06', 'KaraxLevel07', 'KaraxLevel08', 'KaraxLevel09', 'KaraxLevel10', 'KaraxLevel12', 'KaraxLevel14'],
                      'Kerrigan': ['HaveHotSExplosiveGlaive', 'HaveSeismicSpines', 'HaveHotSHydraliskHealth', 'HaveHotSRapidRegeneration', 'HaveK5Fury', 'HaveMutaliskSunderingGlave', 'HaveHotSChitinousPlating', 'HaveK5Cooldowns', 'HaveHotSMutaliskBroodLord', 'HaveHotSTissueAssimilation', 'HaveK5ChainLightning', 'HaveBroodlordSpeed', 'HaveGroovedSpines', 'HaveHotSViciousGlaive', 'HaveCoopMutalisk', 'HaveKerriganVoidCoopEnergyRegen', 'KerriganLevel02', 'KerriganLevel04', 'KerriganLevel05', 'KerriganLevel06', 'KerriganLevel09', 'KerriganLevel10', 'KerriganLevel11', 'KerriganLevel13', 'KerriganLevel15'],
@@ -44,7 +45,8 @@ coop_requirements = {'Abathur': ['HaveHotSPressurizedGlands', 'HaveOrganicCarapa
                      'Swann': ['HaveScienceVesselFreeRepairSecondary', 'HailstormMissilePods', 'HaveMaelstromRounds', 'HaveInfernalPreigniter', 'HaveWraithImprovedBurstLaser', 'HaveCycloneLockOnDamageUpgrade', 'HaveTerranDefenseRangeBonus', 'HaveHellbatHellArmor', 'HaveScienceVesselFreeRepair', 'HaveSwannCommander', 'HaveSwannCommanderImmortalityProtocol', 'HaveSwannCommanderKelMorianWorkerCloak', 'HaveSwannKelMorianGrenadeTurretUpgrade', 'HaveSwannTurretIncreasedAttackSpeed', 'SwannLevel02', 'SwannLevel04', 'SwannLevel05', 'SwannLevel07', 'SwannLevel09', 'SwannLevel11', 'SwannLevel13'],
                      'Vorazun': ['HaveSOAAutoAssimilator', 'HaveOracleStasisWardUpgrade', 'HaveDarkArchonFullStartingEnergy', 'HaveSOARecallonDeath', 'HaveStalker', 'HaveVoidRayPrismaticRange', 'HaveVoidStalkerBlinkShieldRestore', 'HaveBlinkShieldRestore', 'HaveCorsairPermanentCloak', 'HaveVorazunCommander', 'VorazunLevel02', 'VorazunLevel04', 'VorazunLevel05', 'VorazunLevel06', 'VorazunLevel09', 'VorazunLevel10', 'VorazunLevel11', 'VorazunLevel12', 'VorazunLevel13'],
                      'Zagara': ['HaveHotSBanelingHeal', 'HaveHotSRupture', 'HotSHaveAberration', 'HaveScourgeGasCostReduction', 'HaveBileLaunchers', 'HaveArtilleryDucts', 'HaveRapidBombardment', 'HaveK5TwoDrones', 'HaveAberrationArmorAura', 'HaveHotSBanelingCorrosiveBile', 'HaveQueenDoubleInjectLarva', 'HaveScourgeSplashDamage', 'HaveZagaraVoidCoopAberrationBanelingIncubation', 'HaveZagaraVoidCoopAttackUpgrade', 'HaveZagaraVoidCoopBanelingSpawner', 'ZagaraHaveCentrificalHooks', 'ZagaraLevel02', 'ZagaraLevel03', 'ZagaraLevel04', 'ZagaraLevel05', 'ZagaraLevel06', 'ZagaraLevel07', 'ZagaraLevel08', 'ZagaraLevel09', 'ZagaraLevel11', 'ZagaraLevel13']}
-                     # 'Unsorted': ['HavePhotonCannon', 'HaveAdeptShadeDebuff', 'NotUnderConstruction', 'GhostPermanentCloak', 'HotSHaveSporeCrawler', 'HaveHotSZerglingHealth', 'HaveHotSZerglingHealth', 'HaveCycloneLockOnAirUpgrade', 'HaveAdeptPiercingAttack', 'HaveRoachCorpser', 'HaveAdvancedConstruction', 'HaveMPAdrenalGlands', 'HaveMPMetabolicBoost', 'HaveHotSMonarchBlades', 'HaveHotSImpaler', 'HaveGraviticBoosters', 'HavePneumatizedCarapace', 'HotSHaveSpineCrawler', 'HaveVoidColossusTaldarim', 'HaveSOAMatrixOverload', 'HaveVoidStalkerBlinkCharges', 'HaveMonitor', 'HotSHaveDefiler', 'UseShapedBlastReq', 'HaveResearchCripplingPsionicStorm', 'HaveCycloneLockOnRangeUpgrade2', 'HaveZerglingArmorShred', 'HaveAdept', 'HaveLiberatorImprovedAARange']}
+unsorted_coop_requirements = ['HotSHaveSwarmHostSplitA', 'HotSHaveSwarmHostSplitB', 'HaveLair', 'HavePhoenixRangeUpgrade', 'HaveGenerateCreep', 'HaveGlialReconstitution', 'HaveHotSGroovedSpines', 'HaveHotSMutaliskBroodLordAndHaveGreaterSpire', 'HavePhotonCannon', 'HaveAdeptShadeDebuff', 'NotUnderConstruction', 'GhostPermanentCloak', 'HotSHaveSporeCrawler', 'HaveHotSZerglingHealth', 'HaveHotSZerglingHealth', 'HaveCycloneLockOnAirUpgrade', 'HaveAdeptPiercingAttack', 'HaveRoachCorpser', 'HaveAdvancedConstruction', 'HaveMPAdrenalGlands', 'HaveMPMetabolicBoost', 'HaveHotSMonarchBlades', 'HaveHotSImpaler', 'HaveGraviticBoosters', 'HavePneumatizedCarapace', 'HotSHaveSpineCrawler', 'HaveVoidColossusTaldarim', 'HaveSOAMatrixOverload', 'HaveVoidStalkerBlinkCharges', 'HaveMonitor', 'HotSHaveDefiler', 'UseShapedBlastReq', 'HaveResearchCripplingPsionicStorm', 'HaveCycloneLockOnRangeUpgrade2', 'HaveZerglingArmorShred', 'HaveAdept', 'HaveLiberatorImprovedAARange']
+
 requirements = {'swarmstory': hots_requirements,
                 'alliedcommanders': coop_requirements}
 
@@ -56,12 +58,26 @@ dependencies = [
     ['core', 'liberty', 'swarm', 'void', 'voidmulti'],
     ['core', 'liberty', 'libertycampaign', 'libertystory'],
     ['core', 'liberty', 'libertycampaign', 'swarm', 'swarmcampaign', 'swarmstory'],
-    ['core', 'liberty', 'libertycampaign', 'swarm', 'swarmcampaign', 'void', 'voidcampaign', 'voidstory'],
     ['core', 'liberty', 'libertycampaign', 'swarm', 'swarmcampaign', 'voidprologue'],
+    ['core', 'liberty', 'libertycampaign', 'swarm', 'swarmcampaign', 'void', 'voidcampaign', 'voidstory'],
     ['core', 'liberty', 'libertycampaign', 'swarm', 'swarmcampaign', 'void', 'voidcampaign', 'alliedcommanders'],
     ['core', 'liberty', 'libertycampaign', 'swarm', 'swarmcampaign', 'void', 'voidcampaign', 'novastoryassets'],
     ['core', 'liberty', 'libertycampaign', 'swarm', 'swarmcampaign', 'void', 'voidcampaign', 'campaigncommon'],
     ['core', 'liberty', 'libertycampaign', 'swarm', 'swarmcampaign', 'void', 'voidcampaign', 'campaigncommon', 'novastoryassets', 'novacampaign']]
+
+# tree for loading depencies to avoid loading the same dependencies too many times
+depenload = ['core', 'liberty', ['challenges',
+                                 'libertymulti',
+                                 ['swarm', ['swarmmulti',
+                                           ['void', 'voidmulti']]],
+                                 'libertycampaign', ['libertystory',
+                                                     ['swarm', 'swarmcampaign', ['swarmstory',
+                                                                                 'voidprologue',
+                                                                                 ['void', 'voidcampaign', ['voidstory',
+                                                                                                           'alliedcommanders',
+                                                                                                           'novastoryassets'
+                                                                                                           'campaigncommon',
+                                                                                                           ['novastoryassets', 'campaigncommon', 'novacampaign']]]]]]]]
 
 unit_path_lists = []; button_path_lists = []; hotkey_path_lists = []
 for journey in dependencies:
@@ -146,10 +162,10 @@ def get_UnitData(tree, gamehotkey_dict, uni_dict, hotkeyalias_dict, cardid_suffi
             rowcolumn = {}
             for button in card.findall('./LayoutButtons'):
                 if button.get('Face') is None:
-                    print("error: no 'Face' attribute found on button-index", button.get('index'),'on',unit.get('id'))
+                    # print("error: no 'Face' attribute found on button-index", button.get('index'),'on',unit.get('id'))
                     continue
                 elif button.get('Face') not in hotkeyalias_dict:
-                    print('error: button "'+button.get('Face')+'" on "'+unit.get('id')+'" no HotkeyAlias data found')
+                    # print('error: button "'+button.get('Face')+'" on "'+unit.get('id')+'" no HotkeyAlias data found')
                     continue
                 if button.get('Row')+button.get('Column') in rowcolumn:
                     rowcolumn[button.get('Row')+button.get('Column')].append(button)
@@ -239,8 +255,8 @@ def get_UnitData(tree, gamehotkey_dict, uni_dict, hotkeyalias_dict, cardid_suffi
     return sorted(keylist), conflictsset
 
 def write_to_file(keylist, conflictsset):
-    with open('defaults (from TheCoreConverter).txt') as file:
-        data = file.readlines()
+    # with open('defaults (from TheCoreConverter).txt') as file:
+    #     data = file.readlines()
     # write defaults list
     with open('generated defaults list.txt','w') as f:
         for line in sorted(keylist):
@@ -271,17 +287,17 @@ def write_to_file(keylist, conflictsset):
             j += 1
 
 
-def generate_checks(indices):
+def generate_checks():
     gamehotkey_dict = {}
     keylist = []
     conflictsset = {}
-    for index in indices:
+    for path in hotkey_path_lists[-1]:
+        gamehotkey_dict = get_GameHotkeys(path, gamehotkey_dict)
+    for index in range(len(dependencies)):
         path_destination_name = dependencies[index][-1]
-        for path in hotkey_path_lists[index]:
-            gamehotkey_dict = get_GameHotkeys(path, gamehotkey_dict)
 
-        button_tree = xml_tree_merger.tree_merger(button_path_lists[index])
-        unit_tree = xml_tree_merger.tree_merger(unit_path_lists[index])
+        button_tree = tree_merger(button_path_lists[index])
+        unit_tree = tree_merger(unit_path_lists[index])
 
         # button_tree.write('Merged ButtonData.xml')
         # unit_tree.write('Merged UnitData.xml')
@@ -292,7 +308,8 @@ def generate_checks(indices):
         temp_keylist, temp_conflictsset = \
             get_UnitData(unit_tree, gamehotkey_dict, uni_dict, hotkeyalias_dict, path_destination_name+'/')
 
-        keylist + temp_keylist
+        keylist = keylist + temp_keylist
+        # TODO: keylist needs to deal with same-key different defaults across different game modes
         conflictsset = {**conflictsset, **temp_conflictsset}
 
     # clean up conflictsset
@@ -310,26 +327,43 @@ def generate_checks(indices):
                     temp_keys.pop(key2, None)
     conflictsset = temp_keys
 
-    key_variants = []
+    key_variant = ""
+    temp_keys = []
+    i = 0
     for key in sorted(conflictsset):
-        if len(key_variants) == 0 or (' temp variant' in key and key[:key.index(' temp variant')] in key_variants[0]):
-            key_variants.append(key)
+        if ' temp variant' in key:
+            tmpkey = key[:key.index(' temp variant')]
+            if len(key_variant) == 0:
+                key_variant = tmpkey
+                i = 1
+                temp_keys.append(key)
+            elif tmpkey == key_variant:
+                i += 1
+                temp_keys.append(key)
+            else:
+                for num in range(i):
+                    temp = conflictsset[temp_keys[num]]
+                    del conflictsset[temp_keys[num]]
+                    conflictsset[key_variant+' '+len(str(len(str(i))-len(str(num))))*'0'+str(num)] = temp
+                temp_keys = [key]
+                i = 1
+                key_variant = tmpkey
         else:
+            for num in range(i):
+                temp = conflictsset[temp_keys[num]]
+                del conflictsset[temp_keys[num]]
+                conflictsset[key_variant+' '+len(str(len(str(i))-len(str(num))))*'0'+str(num)] = temp
+            temp_keys = []
             i = 0
-            for variant in key_variants:
-                if 'temp variant' in variant:
-                    temp = conflictsset[variant]
-                    del conflictsset[variant]
-                    conflictsset[variant[:variant.index('temp variant')]+(len(str(len(variant)))-len(str(i)))*'0'+str(i)] = temp
-                    i += 1
-            key_variants = []
+            key_variant = ""
 
     write_to_file(keylist, conflictsset)
     print('conflicts checks generation complete.')
 
-generate_checks(range(len(dependencies)))
+generate_checks()
 
-def howsneut():
+
+def list_all_req():
     requirements = {}
     for path in find_all('UnitData.xml', 'data'):
         requirements[path] = set()
@@ -340,4 +374,13 @@ def howsneut():
     for path in requirements:
         print(path, requirements[path])
 
-# howsneut()
+def update_coop_req():
+    new_requirements = set()
+    path = 'data/alliedcommanders/UnitData.xml'
+    tree = ET.parse(path)
+    root = tree.getroot()
+    for button in root.findall('.//LayoutButtons[@Requirements]'):
+        if all(all(button.get('Requirements') not in req for req in coop_requirements[commander]) for commander in coop_requirements) \
+                and all(button.get('Requirements') not in req for req in unsorted_coop_requirements):
+            new_requirements.add(button.get('Requirements'))
+    print(sorted(new_requirements))

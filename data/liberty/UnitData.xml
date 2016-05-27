@@ -40,6 +40,7 @@
         <PlaneArray index="Ground" value="1"/>
         <Collide index="Ground" value="1"/>
         <Collide index="ForceField" value="1"/>
+        <Collide index="Locust" value="1"/>
         <Attributes index="Biological" value="1"/>
         <LifeStart value="10"/>
         <LifeMax value="10"/>
@@ -86,6 +87,7 @@
         <PlaneArray index="Ground" value="1"/>
         <Collide index="Ground" value="1"/>
         <Collide index="ForceField" value="1"/>
+        <Collide index="Locust" value="1"/>
         <Attributes index="Biological" value="1"/>
         <LifeStart value="10"/>
         <LifeMax value="10"/>
@@ -11264,6 +11266,33 @@
         <EditorFlags index="NoPlacement" value="1"/>
     </CUnit>
     <CUnit id="ShieldBatteryACGluescreenDummy">
+        <EditorFlags index="NoPlacement" value="1"/>
+    </CUnit>
+    <CUnit id="SwarmQueenACGluescreenDummy">
+        <EditorFlags index="NoPlacement" value="1"/>
+    </CUnit>
+    <CUnit id="RoachACGluescreenDummy">
+        <EditorFlags index="NoPlacement" value="1"/>
+    </CUnit>
+    <CUnit id="RoachVileACGluescreenDummy">
+        <EditorFlags index="NoPlacement" value="1"/>
+    </CUnit>
+    <CUnit id="RavagerACGluescreenDummy">
+        <EditorFlags index="NoPlacement" value="1"/>
+    </CUnit>
+    <CUnit id="BrutaliskACGluescreenDummy">
+        <EditorFlags index="NoPlacement" value="1"/>
+    </CUnit>
+    <CUnit id="DevourerACGluescreenDummy">
+        <EditorFlags index="NoPlacement" value="1"/>
+    </CUnit>
+    <CUnit id="GuardianACGluescreenDummy">
+        <EditorFlags index="NoPlacement" value="1"/>
+    </CUnit>
+    <CUnit id="ViperACGluescreenDummy">
+        <EditorFlags index="NoPlacement" value="1"/>
+    </CUnit>
+    <CUnit id="LeviathanACGluescreenDummy">
         <EditorFlags index="NoPlacement" value="1"/>
     </CUnit>
     <!-- Dummy Units for the AC Gluescreen End -->

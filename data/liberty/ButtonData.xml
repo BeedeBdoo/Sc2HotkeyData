@@ -363,6 +363,51 @@
     <CButton id="CommanderZagaraVolatileBanelingNest">
         <Icon value="Assets\Textures\Talent-Zagara-Level07-VolatileBanelingNest.dds"/>
     </CButton>
+    <CButton id="CommanderAbathurBaseTrait">
+        <Icon value="Assets\Textures\ui_commandertraiticon_abathur.dds"/>
+    </CButton>
+    <CButton id="CommanderAbathurBiomassRefund">
+        <Icon value="Assets\Textures\biomassrecovery_coop.dds"/>
+    </CButton>
+    <CButton id="CommanderAbathurToxicBonusBiomass">
+        <Icon value="Assets\Textures\btn-zerg-unit-virulentnests.dds"/>
+    </CButton>
+    <CButton id="CommanderAbathurUnlockRoachWarrenUpgrades">
+        <Icon value="Assets\Textures\btn-unit-zerg-roachwarrenimpalerravagerupgrades.dds"/>
+    </CButton>
+    <CButton id="CommanderAbathurBrutaliskLeviathanSymbiote">
+        <Icon value="Assets\Textures\btn-unit-zerg-brutaliskgainssymbiote.dds"/>
+    </CButton>
+    <CButton id="CommanderAbathurUnitEvolutionMorphTimesReduced">
+        <Icon value="Assets\Textures\btn-upgrade-zerg-abathur-mutagenicpotential.dds"/>
+    </CButton>
+    <CButton id="CommanderAbathurImprovedMend">
+        <Icon value="Assets\Textures\btn-upgrade-zerg-abathur-improvedmend.dds"/>
+    </CButton>
+    <CButton id="CommanderAbathurRoachEvolutionVile">
+        <Icon value="Assets\Textures\btn-unit-zerg-roachevolutionvile .dds"/>
+    </CButton>
+    <CButton id="CommanderAbathurUnlockBrutaliskLeviathan">
+        <Icon value="Assets\Textures\btn-unit-zerg-brutaliskunlocked.dds"/>
+    </CButton>
+    <CButton id="CommanderAbathurUnlockInfestationPitUpgrades">
+        <Icon value="Assets\Textures\btn-unit-zerg-infestationpitunlock.dds"/>
+    </CButton>
+    <CButton id="CommanderAbathurUnlockViper">
+        <Icon value="Assets\Textures\btn-zerg-unit-unlockviper.dds"/>
+    </CButton>
+    <CButton id="CommanderAbathurUnlockGreaterSpireUpgrades">
+        <Icon value="Assets\Textures\btn-unit-zerg-spireupgrades.dds"/>
+    </CButton>
+    <CButton id="CommanderAbathurSpawnLocustsOnKill">
+        <Icon value="Assets\Textures\btn-upgrade-zerg-abathur-locustinjection.dds"/>
+    </CButton>
+    <CButton id="CommanderAbathurUnlockEvolutionChamberUpgrades">
+        <Icon value="Assets\Textures\btn-upgrade-zerg-abathur-evolutionchamberupgradecache.dds"/>
+    </CButton>
+    <CButton id="CommanderAbathurBiomassLifesteal">
+        <Icon value="Assets\Textures\bioticleech_coop.dds"/>
+    </CButton>
     <CButton id="EvolveAnabolicSynthesis2">
         <Icon value="Assets\Textures\btn-upgrade-zerg-anabolicsynthesis.dds"/>
         <EditorCategories value="Race:Zerg"/>
@@ -2369,6 +2414,15 @@
     <CButton id="CommanderTraitZagaraMassFrenzy">
         <Icon value="Assets\Textures\btn-upgrade-zerg-frenzy.dds"/>
     </CButton>
+    <CButton id="CommanderTraitAbathurBiomass">
+        <Icon value="Assets\Textures\btn-upgrade-zerg-abathur-biomass.dds"/>
+    </CButton>
+    <CButton id="CommanderTraitAbathurToxicNest">
+        <Icon value="Assets\Textures\btn-unit-zerg-toxicnest.dds"/>
+    </CButton>
+    <CButton id="CommanderTraitAbathurMend">
+        <Icon value="Assets\Textures\btn-ability-zerg-transfusion-color.dds"/>
+    </CButton>
     <CButton id="CommanderTraitArtanisSOAProjectPowerField">
         <Icon value="Assets\Textures\btn-upgrade-artanis-pylonpower.dds"/>
     </CButton>
@@ -2411,9 +2465,6 @@
     <CButton id="CommanderKaraxUnitSpawnBarrier">
         <Icon value="Assets\Textures\BTN-Upgrade-Karax-UnityBarrier.dds"/>
     </CButton>
-    <CButton id="CommanderKaraxUnlockShieldBatteryBarrier">
-        <Icon value="Assets\Textures\btn-ability-protoss-barrier-upgraded.dds"/>
-    </CButton>
     <CButton id="CommanderKaraxUnlockRepairBeam">
         <Icon value="Assets\Textures\btn-ability-spearofadun-reconstructionbeam.dds"/>
     </CButton>
@@ -2422,9 +2473,6 @@
     </CButton>
     <CButton id="CommanderKaraxTwilightCouncilUpgradesPack">
         <Icon value="Assets\Textures\btn-upgrade-karax-twilightcouncilupgradecache.dds"/>
-    </CButton>
-    <CButton id="CommanderKaraxCyberneticsCoreUpgradesPack">
-        <Icon value="Assets\Textures\btn-building-protoss-cyberneticscore.dds"/>
     </CButton>
     <CButton id="CommanderKaraxForgeUpgradesPack">
         <Icon value="Assets\Textures\btn-upgrade-karax-forgeupgradecache.dds"/>
@@ -2450,4 +2498,67 @@
     <CButton id="CommanderKaraxInstantStructureWarp">
         <Icon value="Assets\Textures\btn-upgrade-karax-pylonwarpininstantly.dds"/>
     </CButton>
+    <CButton id="MasteryAbathurBiomassRefund"/>
+    <CButton id="MasteryAbathurMendHeal"/>
+    <CButton id="MasteryAbathurSymbioteCarapace"/>
+    <CButton id="MasteryAbathurTechFastBuild"/>
+    <CButton id="MasteryAbathurToxicNestCharge"/>
+    <CButton id="MasteryAbathurToxicNestRespawn"/>
+    <CButton id="MasteryArtanisChronoBoost"/>
+    <CButton id="MasteryArtanisGuardianShell"/>
+    <CButton id="MasteryArtanisGuardianShellHeal"/>
+    <CButton id="MasteryArtanisShieldOvercharge"/>
+    <CButton id="MasteryArtanisShieldRegen"/>
+    <CButton id="MasteryArtanisSoAPowerFieldHaste"/>
+    <CButton id="MasteryArtanisSolarBombardment"/>
+    <CButton id="MasteryArtanisStartingAndMaxSoAEnergy"/>
+    <CButton id="MasteryArtanisStartingResources"/>
+    <CButton id="MasteryArtanisWarpChargeCooldown"/>
+    <CButton id="MasteryKaraxBuildingVital"/>
+    <CButton id="MasteryKaraxChronoBoostSpeed"/>
+    <CButton id="MasteryKaraxMaxEnergy"/>
+    <CButton id="MasteryKaraxRepairBeamHeal"/>
+    <CButton id="MasteryKaraxSoAChronoRegen"/>
+    <CButton id="MasteryKaraxStartingAndMaxSoAEnergy"/>
+    <CButton id="MasteryKaraxUnitCost"/>
+    <CButton id="MasteryKaraxUnityBarrier"/>
+    <CButton id="MasteryKerriganArmyGasCost"/>
+    <CButton id="MasteryKerriganAssimilationAuraDuration"/>
+    <CButton id="MasteryKerriganAutoAttackDamage"/>
+    <CButton id="MasteryKerriganCocoonTimer"/>
+    <CButton id="MasteryKerriganEnergyRegen"/>
+    <CButton id="MasteryKerriganLarvaRate"/>
+    <CButton id="MasteryKerriganResearchSpeed"/>
+    <CButton id="MasteryRaynorBuildingHealth"/>
+    <CButton id="MasteryRaynorDropPodHaste"/>
+    <CButton id="MasteryRaynorDuskWingCooldown"/>
+    <CButton id="MasteryRaynorHyperionCooldown"/>
+    <CButton id="MasteryRaynorImprovedSafeguard"/>
+    <CButton id="MasteryRaynorMechAttackSpeed"/>
+    <CButton id="MasteryRaynorMedicSecondaryHeal"/>
+    <CButton id="MasteryRaynorResearchSpeed"/>
+    <CButton id="MasteryRaynorStimDuration"/>
+    <CButton id="MasterySwannBuildingHealth"/>
+    <CButton id="MasterySwannCombatDrop"/>
+    <CButton id="MasterySwannConcentratedBeam"/>
+    <CButton id="MasterySwannImmortalityProtocol"/>
+    <CButton id="MasterySwannLaserDrillBuildTime"/>
+    <CButton id="MasterySwannResearchSpeed"/>
+    <CButton id="MasterySwannStartingResources"/>
+    <CButton id="MasterySwannStartingSupplies"/>
+    <CButton id="MasterySwannVespeneDroneCost"/>
+    <CButton id="MasteryVorazunBlackHoleDuration"/>
+    <CButton id="MasteryVorazunChronoBoostSpeed"/>
+    <CButton id="MasteryVorazunDarkPylonRadius"/>
+    <CButton id="MasteryVorazunShadowGuardDuration"/>
+    <CButton id="MasteryVorazunStartingAndMaxSoAEnergy"/>
+    <CButton id="MasteryVorazunTimeStopHaste"/>
+    <CButton id="MasteryVorazunTimeStopHasteModifyPlayer"/>
+    <CButton id="MasteryZagaraAutoAttackDamage"/>
+    <CButton id="MasteryZagaraBanelingsDamage"/>
+    <CButton id="MasteryZagaraCocoonTimer"/>
+    <CButton id="MasteryZagaraHealthAndEnergyRegen"/>
+    <CButton id="MasteryZagaraLarvaRate"/>
+    <CButton id="MasteryZagaraResearchSpeed"/>
+    <CButton id="MasteryZagaraRoachDropDamageAndHealth"/>
 </Catalog>

@@ -327,8 +327,8 @@
         <EditorCategories value="Race:Zerg"/>
     </CButton>
     <CButton id="DefilerMPPlague">
-        <Icon value="Assets\Textures\btn-ability-zerg-plague.dds"/>
-        <AlertIcon value="Assets\Textures\btn-ability-zerg-plague.dds"/>
+        <Icon value="Assets\Textures\btn-ability-zerg-defilerplague.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-zerg-defilerplague.dds"/>
         <EditorCategories value="Race:Zerg"/>
     </CButton>
     <CButton id="LightningBomb">
@@ -352,8 +352,8 @@
         <EditorCategories value="Race:Terran"/>
     </CButton>
     <CButton id="CausticSpray">
-        <Icon value="Assets\Textures\btn-ability-zerg-corruption-color.dds"/>
-        <AlertIcon value="Assets\Textures\btn-ability-zerg-corruption-color.dds"/>
+        <Icon value="Assets\Textures\btn-ability-zerg-causticspray.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-zerg-causticspray.dds"/>
         <EditorCategories value="Race:Zerg"/>
     </CButton>
     <CButton id="OracleBuildStasisTrap">

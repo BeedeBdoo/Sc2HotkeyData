@@ -122,7 +122,6 @@
         <CostResource index="Minerals" value="150"/>
         <RepairTime value="33.3332"/>
         <AttackTargetPriority value="20"/>
-        <BehaviorArray Link="Detector8"/>
         <!--AbilArray Link="FlameTurretUnburrow"/-->
         <WeaponArray Turret="FlameTurretUnderground"/>
         <CardLayouts>
@@ -136,13 +135,13 @@
         <ScoreMake value="50"/>
         <ScoreKill value="150"/>
         <SubgroupPriority value="12"/>
-        <MinimapRadius value="0.75"/>
         <EditorCategories value="ObjectType:Structure,ObjectFamily:Campaign"/>
         <SelectAlias value="FlameTurret"/>
         <KillDisplay value="Always"/>
         <RankDisplay value="Always"/>
         <LeaderAlias value=""/>
         <HotkeyAlias value=""/>
+        <MinimapRadius value="0"/>
     </CUnit>
     <CUnit default="1" id="DOMLabDoorWide">
         <DeathRevealRadius value="3"/>
@@ -304,10 +303,21 @@
     <CUnit id="DefilerMP">
         <LifeStart value="120"/>
         <LifeMax value="120"/>
+        <GlossaryCategory value="Unit/Category/ZergUnits"/>
+        <HotkeyCategory value="Unit/Category/ZergStory"/>
+        <GlossaryPriority value="150"/>
+        <GlossaryStrongArray value="Marine"/>
+        <GlossaryStrongArray value="Stalker"/>
+        <GlossaryStrongArray value="Hydralisk"/>
+        <GlossaryWeakArray value="Ghost"/>
+        <GlossaryWeakArray value="Zergling"/>
+        <GlossaryWeakArray value="HighTemplar"/>
+        <GlossaryWeakArray value="Zealot"/>
     </CUnit>
     <CUnit id="DefilerMPBurrowed">
         <LifeStart value="120"/>
         <LifeMax value="120"/>
+        <HotkeyAlias value="DefilerMP"/>
     </CUnit>
     <CUnit id="Ghost">
         <AbilArray Link="DOMSnipe"/>
@@ -388,12 +398,18 @@
     <CUnit id="InfestedCocoon">
         <FlagArray index="Destructible" value="1"/>
     </CUnit>
+    <CUnit id="InfestedCivilianBurrowed">
+        <CostResource index="Minerals" value="25"/>
+    </CUnit>
     <CUnit id="InfestedFactory">
         <CardLayouts index="0">
             <LayoutButtons Face="TrainInfestedSiegeTank" Type="AbilCmd" AbilCmd="InfestedMonsterTrain,Train5" Row="0" Column="3"/>
         </CardLayouts>
     </CUnit>
     <CUnit id="InfestedTerranCampaign">
+        <CostResource index="Minerals" value="50"/>
+    </CUnit>
+    <CUnit id="InfestedTerranCampaignBurrowed">
         <CostResource index="Minerals" value="50"/>
     </CUnit>
     <CUnit id="Nova">
@@ -877,7 +893,7 @@
     <CUnit id="Marine">
         <AbilArray Link="SuperStimpackMarine"/>
         <CardLayouts index="0">
-            <LayoutButtons index="5" Face="SuperStimpackMarine" Type="AbilCmd" AbilCmd="SuperStimpackMarine,Execute" Row="2" Column="0"/>
+            <LayoutButtons index="5" Face="SuperStimpackMarine" AbilCmd="SuperStimpackMarine,Execute"/>
             <LayoutButtons Face="Stim" Type="AbilCmd" AbilCmd="Stimpack,Execute" Row="2" Column="0"/>
             <LayoutButtons Face="LaserTargetingSystemMarine" Type="Passive" Requirements="HaveLaserTargetingSystemMarine" Row="2" Column="1"/>
         </CardLayouts>
@@ -1391,6 +1407,7 @@
         <CardLayouts index="0">
             <LayoutButtons Face="CommanderSwannImmortalityProtocol" Type="Passive" Requirements="UseMechanicalRebirth" Row="2" Column="2"/>
         </CardLayouts>
+        <Description value="Button/Tooltip/Thor"/>
     </CUnit>
     <CUnit id="NovaTerrazineTank">
         <DeathRevealRadius value="3"/>
@@ -1592,7 +1609,7 @@
         <ScoreMake value="50"/>
         <ScoreKill value="150"/>
         <SubgroupPriority value="12"/>
-        <MinimapRadius value="0.75"/>
+        <MinimapRadius value="0"/>
         <EditorCategories value="ObjectType:Structure,ObjectFamily:Campaign"/>
         <SelectAlias value="GunTurret"/>
     </CUnit>
@@ -2439,7 +2456,6 @@
         <AbilArray Link="GiantEMP"/>
         <AbilArray Link="SkyTankLaserBeamFast"/>
         <AbilArray Link="SkyTankLaserBeamSlow"/>
-        <BehaviorArray Link="SkyTankKnockback"/>
         <CardLayouts>
             <LayoutButtons Face="Move" Type="AbilCmd" AbilCmd="move,Move" Row="0" Column="0"/>
             <LayoutButtons Face="Stop" Type="AbilCmd" AbilCmd="stop,Stop" Row="0" Column="1"/>
@@ -3007,6 +3023,7 @@
         <FlagArray index="UseLineOfSight" value="1"/>
         <FlagArray index="Invulnerable" value="1"/>
         <FlagArray index="NoScore" value="1"/>
+        <FlagArray index="NoPortraitTalk" value="1"/>
         <PlaneArray index="Ground" value="1"/>
         <Collide index="Structure" value="1"/>
         <Attributes index="Biological" value="1"/>

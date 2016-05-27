@@ -576,6 +576,7 @@
         <SubgroupPriority value="18"/>
         <EditorCategories value="ObjectType:Unit,ObjectFamily:Melee"/>
         <TacticalAI value="SiegeTank"/>
+        <AIKiteRange value="10"/>
         <AIEvalFactor value="1.5"/>
         <GlossaryCategory value="Unit/Category/TerranUnits"/>
         <GlossaryPriority value="136"/>
@@ -1950,8 +1951,8 @@
         <FlagArray index="AlwaysThreatens" value="1"/>
         <FlagArray index="AILifetime" value="1"/>
         <FlagArray index="AISplash" value="1"/>
-        <FlagArray index="AIFleeDamageDisabled" value="1"/>
         <FlagArray index="AICantAddToWave" value="1"/>
+        <FlagArray index="AIFleeDamageDisabled" value="1"/>
         <PlaneArray index="Ground" value="1"/>
         <Collide index="DisruptorPhased" value="1"/>
         <Attributes index="Light" value="1"/>
@@ -2709,6 +2710,11 @@
         <KillDisplay value="Always"/>
     </CUnit>
     <CUnit id="DefilerMPDarkSwarmWeapon" parent="MISSILE_INVULNERABLE">
+        <Race value="Zerg"/>
+        <Mover value="MissileDefault"/>
+        <EditorCategories value="ObjectType:Projectile,ObjectFamily:Melee"/>
+    </CUnit>
+    <CUnit id="DefilerMPPlagueWeapon" parent="MISSILE_INVULNERABLE">
         <Race value="Zerg"/>
         <Mover value="MissileDefault"/>
         <EditorCategories value="ObjectType:Projectile,ObjectFamily:Melee"/>

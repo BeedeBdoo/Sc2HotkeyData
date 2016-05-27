@@ -161,13 +161,13 @@ def append_tree(tree, newtree):
 
 def tree_merger(ordered_path_list):
     tree = ET.ElementTree(ET.Element('Catalog', {}))
-    print('tree merger: initiated')
+    # print('tree merger: initiated')
     for path in ordered_path_list:
         if not os.path.isfile(path):
             continue
-        print('tree merger: append initiated', path)
+        # print('tree merger: append initiated', path)
         tree = append_tree(tree, ET.parse(path))
-        print('tree merger: append completed', path)
+        # print('tree merger: append completed', path)
     tree_remove_empty(tree)
-    print('tree merger: compteted')
+    # print('tree merger: compteted')
     return tree

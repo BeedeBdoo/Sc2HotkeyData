@@ -35,6 +35,57 @@
         <DamageDealtXP value="0"/>
         <DamageTakenXP value="0"/>
     </CUnit>
+    <CUnit id="HotSLeviathan">
+        <EnergyStart value="0"/>
+        <EnergyMax value="0"/>
+        <EnergyRegenRate value="0"/>
+        <DamageDealtXP value="0"/>
+        <DamageTakenXP value="0"/>
+        <KillXP value="0"/>
+        <AbilArray Link="SymbioteCarapace"/>
+        <AbilArray Link="AbathurSymbioteHangerLeviathan"/>
+        <BehaviorArray Link="AllUnitBehaviorController"/>
+        <BehaviorArray Link="CarapaceDamageResponse"/>
+        <BehaviorArray Link="AllUnitBehaviorController"/>
+        <CardLayouts index="0">
+            <LayoutButtons index="5" Face="SymbioteCarapace" Type="AbilCmd" AbilCmd="SymbioteCarapace,Execute" Row="0" Column="4"/>
+            <LayoutButtons index="6">
+                <Face value="AbathurBrutaliskLeviathanSymbiote"/>
+                <Type value="Passive"/>
+                <AbilCmd value=""/>
+                <Requirements value="HaveBrutaliskLeviathanSymbiote"/>
+                <Row value="2"/>
+                <Column value="0"/>
+            </LayoutButtons>
+            <LayoutButtons Face="AbathurBrutaliskLeviathanSymbioteLocked" Type="Passive" Requirements="AbathurLevel10" Row="2" Column="0"/>
+        </CardLayouts>
+        <ScoreMake value="0"/>
+        <ScoreKill value="0"/>
+        <SubgroupPriority value="9"/>
+        <KillDisplay value="Default"/>
+        <Speed value="3"/>
+        <MinimapRadius value="1.5"/>
+        <ShieldArmorName value="Behavior/Name/SymbioteCarapace"/>
+    </CUnit>
+    <CUnit id="MutatorMineralCrystal" parent="ITEM">
+        <Facing value="19.995"/>
+        <FlagArray index="Turnable" value="1"/>
+        <FlagArray index="Untooltipable" value="0"/>
+        <FogVisibility value="Snapshot"/>
+        <Collide index="Structure" value="1"/>
+        <AbilArray Link="MutatorPickupMinerals50"/>
+        <MinimapRadius value="0.375"/>
+        <EditorCategories value="ObjectType:Item,ObjectFamily:Campaign"/>
+    </CUnit>
+    <CUnit id="MutatorNaturalGas50" parent="ITEM">
+        <FlagArray index="Untooltipable" value="0"/>
+        <FogVisibility value="Snapshot"/>
+        <Collide index="Structure" value="1"/>
+        <Height value="0.25"/>
+        <AbilArray Link="MutatorPickupGas50"/>
+        <MinimapRadius value="0.375"/>
+        <EditorCategories value="ObjectType:Item,ObjectFamily:Campaign"/>
+    </CUnit>
     <CUnit id="AbandonedBuilding">
         <ScoreMake value="0"/>
         <ScoreKill value="0"/>
@@ -55,6 +106,7 @@
         <KillXP value="0"/>
         <DamageDealtXP value="0"/>
         <DamageTakenXP value="0"/>
+        <BehaviorArray Link="NoBiomassDrop"/>
     </CUnit>
     <CUnit id="AdunGenerator"/>
     <CUnit id="AiurProtector"/>
@@ -93,15 +145,365 @@
     <CUnit id="AmonTentacleB"/>
     <CUnit id="AmonTentacleC"/>
     <CUnit id="AmonTentacleD"/>
+    <CUnit id="CoopCasterAbathur">
+        <DeathRevealRadius value="3"/>
+        <Race value="Terr"/>
+        <Mob value="Campaign"/>
+        <FlagArray index="Turnable" value="0"/>
+        <FlagArray index="PenaltyRevealed" value="1"/>
+        <FlagArray index="UseLineOfSight" value="1"/>
+        <FlagArray index="TownAlert" value="1"/>
+        <FlagArray index="Invulnerable" value="1"/>
+        <FlagArray index="NoPortraitTalk" value="1"/>
+        <FlagArray index="ArmorDisabledWhileConstructing" value="1"/>
+        <FogVisibility value="Snapshot"/>
+        <PlaneArray index="Ground" value="1"/>
+        <Collide index="Burrow" value="1"/>
+        <Collide index="Ground" value="1"/>
+        <Collide index="Structure" value="1"/>
+        <Collide index="RoachBurrow" value="1"/>
+        <Collide index="ForceField" value="1"/>
+        <Attributes index="Armored" value="1"/>
+        <Attributes index="Structure" value="1"/>
+        <LifeStart value="450"/>
+        <LifeMax value="450"/>
+        <LifeArmor value="1"/>
+        <Sight value="0.5"/>
+        <CostResource index="Minerals" value="150"/>
+        <AttackTargetPriority value="11"/>
+        <AbilArray Link="stop"/>
+        <AbilArray Link="BuildInProgress"/>
+        <AbilArray Link="SpawnToxicNest"/>
+        <AbilArray Link="AbathurMend"/>
+        <!--AbilArray Link="AbathurMarkforCollection"/>
+        <AbilArray Link="SpawnLavaWorm"/-->
+        <CardLayouts>
+            <LayoutButtons Face="SpawnToxicNest" Type="AbilCmd" AbilCmd="SpawnToxicNest,Build1" Row="0" Column="0"/>
+            <LayoutButtons Face="AbathurMend" Type="AbilCmd" AbilCmd="AbathurMend,Execute" Row="0" Column="1"/>
+        </CardLayouts>
+        <!--LayoutButtons Face="AbathurCollectBiomass" Type="AbilCmd" AbilCmd="AbathurMarkforCollection,Execute" Row="0" Column="0"/>
+            <LayoutButtons Face="SpawnLavaWorm" Type="AbilCmd" AbilCmd="SpawnLavaWorm,Execute" Row="0" Column="3"/>
+            <LayoutButtons Face="SpawnLavaWormLocked" Type="Passive" Requirements="AbathurLevel02" Row="0" Column="3"/-->
+        <Radius value="1.75"/>
+        <SeparationRadius value="1.75"/>
+        <Footprint value="Footprint3x3Contour"/>
+        <PlacementFootprint value="Footprint3x3"/>
+        <SubgroupPriority value="2"/>
+        <MinimapRadius value="1.75"/>
+        <EditorCategories value="ObjectType:Structure,ObjectFamily:Campaign"/>
+        <HotkeyAlias value="CoopCasterSwann"/>
+        <ReviveInfoBase>
+            <Charge Link="CoopCasterSwann/Revive"/>
+            <Cooldown Link="CoopCasterSwann/Revive"/>
+        </ReviveInfoBase>
+    </CUnit>
+    <!--                                                                                         -->
+    <!-- Devourer ........................................................................... -->
+    <!--                                                                                         -->
+    <CUnit id="DevourerMP">
+        <DamageDealtXP value="0"/>
+        <DamageTakenXP value="0"/>
+        <KillXP value="0"/>
+    </CUnit>
+    <!--                                                                                         -->
+    <!-- Guardian .............................................................................. -->
+    <!--                                                                                         -->
+    <CUnit id="GuardianMP">
+        <Speed value="2.5"/>
+        <Sight value="13"/>
+        <GlossaryCategory value="Unit/Category/ZergUnits"/>
+        <GlossaryStrongArray value="Zealot"/>
+        <GlossaryStrongArray value="PhotonCannon"/>
+        <GlossaryWeakArray value="Phoenix"/>
+        <GlossaryWeakArray value="VoidRay"/>
+        <CardLayouts index="0">
+            <LayoutButtons Face="EvolveToLeviathan" Type="AbilCmd" AbilCmd="EvolveToLeviathanGuardianMP,Train1" Row="2" Column="2"/>
+            <LayoutButtons Face="EvolveToLeviathanLocked" Type="Passive" Requirements="AbathurLevel02" Row="2" Column="2"/>
+            <LayoutButtons Face="BiomassPassive" Type="Passive" Requirements="BiomassBuffVisible" Row="2" Column="3"/>
+            <LayoutButtons Face="BiomassPassiveEmpty" Type="Passive" Requirements="BiomassBuffEmptyVisible" Row="2" Column="3"/>
+            <LayoutButtons Face="GuardianAttackRangeIncrease" Type="Passive" Requirements="HaveGuardianAttackRangeIncrease" Row="1" Column="0"/>
+        </CardLayouts>
+        <BehaviorArray Link="AllUnitBehaviorController"/>
+        <AbilArray Link="EvolveToLeviathanGuardianMP"/>
+        <AbilArray Link="que1"/>
+        <SubgroupPriority value="12"/>
+    </CUnit>
+    <CUnit id="AbathurBiomassCritter" parent="Critter">
+        <BehaviorArray Link="AbathurCritterWanderLeash"/>
+        <MinimapRadius value="0.5"/>
+        <Fidget>
+            <ChanceArray index="Move" value="0"/>
+        </Fidget>
+        <Race value="Zerg"/>
+        <Attributes index="Armored" value="1"/>
+        <LifeStart value="200"/>
+        <LifeMax value="200"/>
+        <LifeArmor value="1"/>
+        <LifeRegenRate value="0.2734"/>
+        <LifeArmorName value="Unit/LifeArmorName/ZergGroundArmor"/>
+        <ShieldArmorName value="Unit/ShieldArmorName/ZergWildMutation"/>
+        <AbilArray Link="attack"/>
+        <WeaponArray Link="Ravasaur"/>
+        <Radius value="0.5"/>
+        <InnerRadius value="0.5"/>
+        <StationaryTurningRate value="720"/>
+        <TurningRate value="720"/>
+        <SubgroupPriority value="0"/>
+        <FlagArray index="Destructible" value="1"/>
+        <FogVisibility value="Dimmed"/>
+    </CUnit>
+    <CUnit id="BiomassPickup" parent="ITEM">
+        <FlagArray index="Turnable" value="1"/>
+        <FlagArray index="Untooltipable" value="0"/>
+        <FlagArray index="Unselectable" value="1"/>
+        <FlagArray index="Uncloakable" value="1"/>
+        <FlagArray index="Destructible" value="1"/>
+        <FogVisibility value="Snapshot"/>
+        <Sight value="0"/>
+        <AbilArray Link="BiomassPickup"/>
+        <EditorCategories value="ObjectType:Item,ObjectFamily:Campaign"/>
+        <BehaviorArray Link="BiomassCreated"/>
+        <!--BehaviorArray Link="BiomassTimedLifeWarningDelay"/>
+        <BehaviorArray Link="BiomassTimedLife"/-->
+    </CUnit>
+    <CUnit id="BiomassPickupWeapon" parent="MISSILE_INVULNERABLE">
+        <Race value="Zerg"/>
+        <Mover value="MissileDefault"/>
+        <EditorCategories value="ObjectType:Projectile,ObjectFamily:Melee"/>
+    </CUnit>
+    <CUnit id="MutatorTornado">
+        <FlagArray index="Turnable" value="0"/>
+        <FlagArray index="Unselectable" value="1"/>
+        <FlagArray index="Untargetable" value="1"/>
+        <FlagArray index="Invulnerable" value="1"/>
+        <Speed value="0.6992"/>
+        <Acceleration value="100"/>
+        <Height value="1.5"/>
+        <AbilArray Link="move"/>
+        <BehaviorArray Link="MutatorTornadoAOE"/>
+        <CardLayouts>
+            <LayoutButtons Face="Move" Type="AbilCmd" AbilCmd="move,Move" Row="0" Column="0"/>
+        </CardLayouts>
+        <Radius value="0"/>
+        <EditorCategories value="ObjectType:Unit,ObjectFamily:Campaign"/>
+        <MinimapRadius value="2"/>
+    </CUnit>
+    <CUnit id="MutatorStormCloud">
+        <FlagArray index="Turnable" value="0"/>
+        <FlagArray index="Unselectable" value="1"/>
+        <FlagArray index="Untargetable" value="1"/>
+        <FlagArray index="Invulnerable" value="1"/>
+        <PlaneArray index="Air" value="1"/>
+        <Mover value="Fly"/>
+        <Speed value="0.6992"/>
+        <Acceleration value="100"/>
+        <Sight value="8"/>
+        <AbilArray Link="stop"/>
+        <AbilArray Link="move"/>
+        <BehaviorArray Link="Unturnable"/>
+        <BehaviorArray Link="MutatorStormCloudBlizzard"/>
+        <CardLayouts>
+            <LayoutButtons Face="Move" Type="AbilCmd" AbilCmd="move,Move" Row="0" Column="0"/>
+            <LayoutButtons Face="Stop" Type="AbilCmd" AbilCmd="stop,Stop" Row="0" Column="1"/>
+            <LayoutButtons Face="MoveHoldPosition" Type="AbilCmd" AbilCmd="move,HoldPos" Row="0" Column="2"/>
+            <LayoutButtons Face="MovePatrol" Type="AbilCmd" AbilCmd="move,Patrol" Row="0" Column="3"/>
+        </CardLayouts>
+        <Radius value="0"/>
+        <SeparationRadius value="5"/>
+        <MinimapRadius value="1"/>
+        <FogVisibility value="Visible"/>
+    </CUnit>
+    <CUnit id="MutatorPurifierBeam">
+        <FlagArray index="Turnable" value="0"/>
+        <FlagArray index="Untargetable" value="1"/>
+        <FlagArray index="Invulnerable" value="1"/>
+        <Speed value="0.6015"/>
+        <Acceleration value="100"/>
+        <AbilArray Link="move"/>
+        <BehaviorArray Link="MutatorPurifierBeamAOE"/>
+        <CardLayouts>
+            <LayoutButtons Face="Move" Type="AbilCmd" AbilCmd="move,Move" Row="0" Column="0"/>
+        </CardLayouts>
+        <Radius value="1"/>
+        <EditorCategories value="ObjectType:Unit,ObjectFamily:Campaign"/>
+        <HotkeyAlias value="MutatorTornado"/>
+        <AIEvaluateAlias value="MutatorTornado"/>
+        <ReviveInfoBase>
+            <Charge Link="MutatorTornado/Revive"/>
+            <Cooldown Link="MutatorTornado/Revive"/>
+        </ReviveInfoBase>
+        <Mover value="Fly"/>
+        <FogVisibility value="Dimmed"/>
+    </CUnit>
+    <CUnit id="NovaBoombotBurrowed">
+        <Name value="Unit/Name/NovaBoombot"/>
+        <Description value="Button/Tooltip/NovaBoombot"/>
+        <DeathRevealRadius value="7"/>
+        <DeathRevealDuration value="3"/>
+        <Race value="Terr"/>
+        <Mob value="Campaign"/>
+        <FlagArray index="Turnable" value="0"/>
+        <FlagArray index="Undetectable" value="1"/>
+        <FlagArray index="UseLineOfSight" value="1"/>
+        <FlagArray index="Invulnerable" value="1"/>
+        <FlagArray index="Cloaked" value="1"/>
+        <FlagArray index="Buried" value="1"/>
+        <FlagArray index="AlwaysThreatens" value="1"/>
+        <FlagArray index="AIThreatGround" value="1"/>
+        <FlagArray index="AIThreatAir" value="1"/>
+        <FlagArray index="AISplash" value="1"/>
+        <FlagArray index="ArmorDisabledWhileConstructing" value="1"/>
+        <FlagArray index="ArmySelect" value="1"/>
+        <PlaneArray index="Ground" value="1"/>
+        <Collide index="Burrow" value="1"/>
+        <Attributes index="Light" value="1"/>
+        <Attributes index="Mechanical" value="1"/>
+        <LifeStart value="90"/>
+        <LifeMax value="90"/>
+        <LifeArmorName value="Unit/LifeArmorName/TerranVehiclePlating"/>
+        <Acceleration value="1000"/>
+        <StationaryTurningRate value="2292.8906"/>
+        <Sight value="7"/>
+        <CostCategory value="Army"/>
+        <CostResource index="Minerals" value="75"/>
+        <CostResource index="Vespene" value="25"/>
+        <RepairTime value="20"/>
+        <AttackTargetPriority value="20"/>
+        <CardLayouts>
+            <LayoutButtons Face="NovaBoombotBurrow" Type="Passive" AbilCmd="WidowMineAttack,Execute" Row="2" Column="0"/>
+        </CardLayouts>
+        <SubgroupPriority value="4"/>
+        <MinimapRadius value="0.375"/>
+        <EditorCategories value="ObjectType:Unit,ObjectFamily:Campaign"/>
+        <TacticalAIThink value="AIThinkNovaBoombotBurrowed"/>
+        <LeaderAlias value="NovaBoombot"/>
+        <HotkeyAlias value="NovaBoombot"/>
+        <SelectAlias value="NovaBoombot"/>
+        <SubgroupAlias value="NovaBoombot"/>
+        <TechAliasArray value="Alias_NovaBoombot"/>
+        <GlossaryStrongArray value="Marauder"/>
+        <GlossaryStrongArray value="Roach"/>
+        <GlossaryStrongArray value="Immortal"/>
+        <KillDisplay value="Always"/>
+        <RankDisplay value="Always"/>
+        <BehaviorArray Link="NovaBoombotBurrowedBoomDelay"/>
+    </CUnit>
     <CUnit id="RavagerCocoon">
         <AbilArray index="1" Link="que1"/>
         <CardLayouts index="0">
             <LayoutButtons index="0" Face="CancelCocoonMorph" Type="AbilCmd" AbilCmd="que1,CancelLast" Row="2" Column="4"/>
         </CardLayouts>
     </CUnit>
+    <!--CUnit id="OracleRevelation">-->
+    <!--        <DeathRevealRadius value="3"/>-->
+    <!--        <ReviveType value="Oracle"/>-->
+    <!--        <Race value="Prot"/>-->
+    <!--        <Mob value="Multiplayer"/>-->
+    <!--        <FlagArray index="PreventDestroy" value="1"/>-->
+    <!--        <FlagArray index="UseLineOfSight" value="1"/>-->
+    <!--        <FlagArray index="AIFleeDamageDisabled" value="1"/>-->
+    <!--        <PlaneArray index="Air" value="1"/>-->
+    <!--        <Collide index="Flying" value="1"/>-->
+    <!--        <Attributes index="Light" value="1"/>-->
+    <!--        <Attributes index="Mechanical" value="1"/>-->
+    <!--        <LifeStart value="80"/>-->
+    <!--        <LifeMax value="80"/>-->
+    <!--        <LifeArmorName value="Unit/LifeArmorName/ProtossPlating"/>-->
+    <!--        <EnergyStart value="50"/>-->
+    <!--        <EnergyMax value="200"/>-->
+    <!--        <ShieldsStart value="200"/>-->
+    <!--        <ShieldsMax value="200"/>-->
+    <!--        <ShieldRegenDelay value="10"/>-->
+    <!--        <ShieldRegenRate value="2"/>-->
+    <!--        <ShieldArmorName value="Unit/ShieldArmorName/ProtossPlasmaShields"/>-->
+    <!--        <Mover value="Fly"/>-->
+    <!--        <Acceleration value="2"/>-->
+    <!--        <StationaryTurningRate value="999.8437"/>-->
+    <!--        <TurningRate value="999.8437"/>-->
+    <!--        <Sight value="10"/>-->
+    <!--        <Height value="3.75"/>-->
+    <!--        <VisionHeight value="4"/>-->
+    <!--        <Food value="-3"/>-->
+    <!--        <CostCategory value="Army"/>-->
+    <!--        <FlagArray index="ArmySelect" value="1"/>-->
+    <!--        <CostResource index="Minerals" value="150"/>-->
+    <!--        <CostResource index="Vespene" value="200"/>-->
+    <!--        <RepairTime value="60"/>-->
+    <!--        <AttackTargetPriority value="20"/>-->
+    <!--        <AbilArray Link="stop"/>-->
+    <!--        <AbilArray Link="move"/>-->
+    <!--        <AbilArray Link="Warpable"/>-->
+    <!--        <AbilArray Link="OracleNormalMode"/>-->
+    <!--        <CardLayouts>-->
+    <!--            <LayoutButtons Face="Move" Type="AbilCmd" AbilCmd="move,Move" Row="0" Column="0"/>-->
+    <!--            <LayoutButtons Face="Stop" Type="AbilCmd" AbilCmd="stop,Stop" Row="0" Column="1"/>-->
+    <!--            <LayoutButtons Face="MoveHoldPosition" Type="AbilCmd" AbilCmd="move,HoldPos" Row="0" Column="2"/>-->
+    <!--            <LayoutButtons Face="MovePatrol" Type="AbilCmd" AbilCmd="move,Patrol" Row="0" Column="3"/>-->
+    <!--            <LayoutButtons Face="OracleNormalMode" Type="AbilCmd" AbilCmd="OracleNormalMode,Execute" Row="2" Column="1"/>-->
+    <!--            <LayoutButtons Face="Attack" Type="AbilCmd" AbilCmd="attack,Execute" Row="0" Column="4"/>-->
+    <!--            <LayoutButtons Face="AcquireMove" Type="AbilCmd" AbilCmd="move,AcquireMove" Row="0" Column="4"/>-->
+    <!--        </CardLayouts>-->
+    <!--        <Radius value="1"/>-->
+    <!--        <SeparationRadius value="0.75"/>-->
+    <!--        <ScoreMake value="350"/>-->
+    <!--        <ScoreKill value="700"/>-->
+    <!--        <ScoreResult value="BuildOrder"/>-->
+    <!--        <SubgroupPriority value="17"/>-->
+    <!--        <MinimapRadius value="1"/>-->
+    <!--        <EditorCategories value="ObjectType:Unit,ObjectFamily:Melee"/>-->
+    <!--        <TacticalAI value="Oracle"/>-->
+    <!--        <TacticalAIThink value="AIThinkOracle"/>-->
+    <!--        <LeaderAlias value="Oracle"/>-->
+    <!--        <HotkeyAlias value="Oracle"/>-->
+    <!--        <SelectAlias value="Oracle"/>-->
+    <!--        <SubgroupAlias value="Oracle"/>-->
+    <!--        <GlossaryCategory value="Unit/Category/ProtossUnits"/>-->
+    <!--        <GlossaryPriority value="168"/>-->
+    <!--        <HotkeyCategory value="Unit/Category/ProtossUnits"/>-->
+    <!--        <AIEvaluateAlias value="Oracle"/>-->
+    <!--        <TauntDuration index="Dance" value="5"/>-->
+    <!--        <ReviveInfoBase>-->
+    <!--            <Charge Link="Oracle/Revive"/>-->
+    <!--            <Cooldown Link="Oracle/Revive"/>-->
+    <!--        </ReviveInfoBase>-->
+    <!--        <BehaviorArray Link="Revelation"/>-->
+    <!--    </CUnit-->
+    <CUnit id="ResourceBlocker">
+        <BehaviorArray Link="Benign"/>
+        <BehaviorArray Link="NoBiomassDrop"/>
+        <LifeStart value="50"/>
+        <LifeMax value="50"/>
+        <Race value="Neut"/>
+        <!--FlagArray index="ForceCollisionCheck" value="1"/-->
+    </CUnit>
+    <CUnit id="Roach">
+        <DamageDealtXP value="0"/>
+        <DamageTakenXP value="0"/>
+        <KillXP value="0"/>
+        <AbilArray Link="que1"/>
+        <AbilArray Link="MorphRoachToRavager"/>
+        <AbilArray Link="EvolveToBrutaliskRoach"/>
+        <!--BehaviorArray Link="Supply2"/-->
+        <BehaviorArray Link="AllUnitBehaviorController"/>
+        <CardLayouts index="0">
+            <LayoutButtons index="5" Row="1"/>
+            <LayoutButtons index="7" Face="ZerglingBurrowMove" Requirements="HaveOrganicCarapace" Row="1" Column="2"/>
+            <LayoutButtons index="8" Face="HotSRoachShield" Requirements="HaveHotSRoachShield" Row="1" Column="3"/>
+            <LayoutButtons index="9" Face="HotSRoachDamage" Requirements="HaveHotSRoachDamage" Row="1" Column="3"/>
+            <LayoutButtons Face="GlialReconstitutionPassive" Type="Passive" Requirements="HaveGlialReconstitution" Row="1" Column="1"/>
+            <LayoutButtons Face="Ravager" Type="AbilCmd" AbilCmd="MorphRoachToRavager,Train1" Row="2" Column="0"/>
+            <LayoutButtons Face="EvolveToBrutalisk" Type="AbilCmd" AbilCmd="EvolveToBrutaliskRoach,Train1" Row="2" Column="2"/>
+            <LayoutButtons Face="EvolveToBrutaliskLocked" Type="Passive" Requirements="AbathurLevel02" Row="2" Column="2"/>
+            <LayoutButtons Face="BiomassPassive" Type="Passive" Requirements="BiomassBuffVisible" Row="2" Column="3"/>
+            <LayoutButtons Face="BiomassPassiveEmpty" Type="Passive" Requirements="BiomassBuffEmptyVisible" Row="2" Column="3"/>
+        </CardLayouts>
+        <ScoreMake value="0"/>
+        <ScoreKill value="0"/>
+        <TacticalAIThink value="AIThinkRoach"/>
+    </CUnit>
     <CUnit id="SymbioteStabWeapon" parent="MISSILE_INVULNERABLE">
         <Race value="Zerg"/>
-        <Mover value="StalkerWeapon"/>
+        <Mover value="SymbioteStab"/>
         <EditorCategories value="ObjectType:Projectile,ObjectFamily:Melee"/>
     </CUnit>
     <CUnit id="Anteplott">
@@ -354,6 +756,7 @@
         <KillXP value="0"/>
         <DamageDealtXP value="0"/>
         <DamageTakenXP value="0"/>
+        <FlagArray index="NoDeathEvent" value="1"/>
     </CUnit>
     <CUnit id="Bulldozer">
         <ScoreMake value="0"/>
@@ -375,8 +778,10 @@
         <DamageTakenXP value="0"/>
         <BehaviorArray Link="TimeStopImmune"/>
         <BehaviorArray Link="Unrepairable"/>
+        <BehaviorArray Link="NoBiomassDrop"/>
         <ScoreMake value="0"/>
         <ScoreKill value="0"/>
+        <Food value="-8"/>
     </CUnit>
     <CUnit id="CargoTruckUnitBarrels">
         <ScoreMake value="0"/>
@@ -656,11 +1061,6 @@
         <ScoreMake value="0"/>
         <ScoreKill value="0"/>
         <AbilArray Link="CreepTumorBuild"/>
-        <AbilArray Link="CreepTumorBuildGlobalRange"/>
-        <CardLayouts index="0">
-            <LayoutButtons Face="SpawnToxicNest" Type="AbilCmd" AbilCmd="CreepTumorBuildGlobalRange,Build1" Row="2" Column="2"/>
-            <LayoutButtons Face="SpawnLocustNest" Type="AbilCmd" AbilCmd="CreepTumorBuildGlobalRange,Build2" Row="2" Column="1"/>
-        </CardLayouts>
     </CUnit>
     <CUnit id="CruiserBike">
         <ScoreMake value="0"/>
@@ -721,8 +1121,19 @@
         <ScoreKill value="0"/>
     </CUnit>
     <CUnit id="Devourer">
-        <CostResource index="Minerals" value="200"/>
-        <CostResource index="Vespene" value="200"/>
+        <AbilArray Link="CorrosiveAcid"/>
+        <AbilArray Link="EvolveToLeviathanDevourer"/>
+        <AbilArray Link="que1"/>
+        <CardLayouts index="0">
+            <LayoutButtons Face="DevourerAoEDamage" Type="Passive" Requirements="HaveDevourerAoEDamage" Row="1" Column="0"/>
+            <LayoutButtons Face="CorrosiveAcidDevourer" Type="AbilCmd" AbilCmd="CorrosiveAcid,Execute" Row="2" Column="0"/>
+            <LayoutButtons Face="EvolveToLeviathan" Type="AbilCmd" AbilCmd="EvolveToLeviathanDevourer,Train1" Row="2" Column="2"/>
+            <LayoutButtons Face="EvolveToLeviathanLocked" Type="Passive" Requirements="AbathurLevel02" Row="2" Column="2"/>
+            <LayoutButtons Face="BiomassPassive" Type="Passive" Requirements="BiomassBuffVisible" Row="2" Column="3"/>
+            <LayoutButtons Face="BiomassPassiveEmpty" Type="Passive" Requirements="BiomassBuffEmptyVisible" Row="2" Column="3"/>
+        </CardLayouts>
+        <BehaviorArray Link="AllUnitBehaviorController"/>
+        <SubgroupPriority value="17"/>
     </CUnit>
     <CUnit id="DevourerCocoonMP">
         <ScoreKill value="0"/>
@@ -735,14 +1146,6 @@
             <LayoutButtons index="5" Face="CancelCocoonMorph" Type="AbilCmd" AbilCmd="que1,CancelLast" Row="2" Column="4"/>
         </CardLayouts>
     </CUnit>
-    <!--                                                                                         -->
-    <!-- Devourer ........................................................................... -->
-    <!--                                                                                         -->
-    <CUnit id="DevourerMP">
-        <KillXP value="0"/>
-        <DamageDealtXP value="0"/>
-        <DamageTakenXP value="0"/>
-    </CUnit>
     <!-- ImmortalTaldarim -->
     <CUnit id="DisruptionWard">
         <BehaviorArray index="0" Link="AllUnitBehaviorController"/>
@@ -754,6 +1157,10 @@
         <KillXP value="0"/>
         <DamageDealtXP value="0"/>
         <DamageTakenXP value="0"/>
+        <Attributes index="Light" value="0"/>
+        <Attributes index="Armored" value="1"/>
+        <ShieldsStart value="100"/>
+        <ShieldsMax value="100"/>
     </CUnit>
     <CUnit id="DisruptorPhased">
         <ScoreMake value="0"/>
@@ -761,6 +1168,11 @@
         <KillXP value="0"/>
         <DamageDealtXP value="0"/>
         <DamageTakenXP value="0"/>
+        <Attributes index="Light" value="0"/>
+        <Attributes index="Armored" value="1"/>
+        <ShieldsStart value="100"/>
+        <ShieldsMax value="100"/>
+        <BehaviorArray Link="NoBiomassDrop"/>
     </CUnit>
     <CUnit id="Dog">
         <DamageDealtXP value="0"/>
@@ -783,15 +1195,24 @@
         <!--BehaviorArray Link="Supply1"/-->
         <BehaviorArray Link="AllUnitBehaviorController"/>
         <AbilArray Link="MapObjectInteract"/>
+        <AbilArray Link="MutatorRemoveWorkerSleep"/>
         <CardLayouts index="0">
             <LayoutButtons index="6" AbilCmd="255,255"/>
             <LayoutButtons index="7" AbilCmd="255,255"/>
             <LayoutButtons Face="MapObjectInteract" Type="AbilCmd" AbilCmd="MapObjectInteract,Execute" Row="0" Column="0"/>
+            <LayoutButtons Face="MutatorWorkerSleep" Type="AbilCmd" AbilCmd="MutatorRemoveWorkerSleep,Execute" Row="2" Column="3"/>
         </CardLayouts>
         <CardLayouts index="1" CardId="ZBl1">
-            <LayoutButtons index="4" Face="BanelingNest" Type="AbilCmd" AbilCmd="ZergBuild,Build11" Row="1" Column="2"/>
-            <LayoutButtons index="6" Face="RoachWarren" Type="AbilCmd" AbilCmd="ZergBuild,Build14" Row="1" Column="0"/>
+            <LayoutButtons index="4" Column="2"/>
             <!--LayoutButtons Face="CreepColony" Type="AbilCmd" AbilCmd="ZergBuild,Build26" Row="2" Column="0"/-->
+            <LayoutButtons>
+                <Face value="AbathurSpawningPool"/>
+                <Type value="Passive"/>
+                <Behavior value="ButtonDisablerDummy"/>
+                <Requirements value="HaveAbathurCommander"/>
+                <Row value="1"/>
+                <Column value="0"/>
+            </LayoutButtons>
             <LayoutButtons Face="ZagaraBileLauncher" Type="AbilCmd" AbilCmd="ZergBuild,Build27" Row="2" Column="2"/>
             <LayoutButtons Face="BuildBileLauncherLocked" Type="Passive" Requirements="ZagaraLevel05" Row="2" Column="2"/>
         </CardLayouts>
@@ -926,6 +1347,10 @@
         <RepairTime value="23"/>
         <Attributes index="Structure" value="1"/>
         <HotkeyCategory value=""/>
+        <Collide index="Ground" value="1"/>
+        <Collide index="RoachBurrow" value="1"/>
+        <Collide index="ForceField" value="1"/>
+        <Collide index="Locust" value="1"/>
     </CUnit>
     <CUnit id="FlatbedTruck">
         <ScoreMake value="0"/>
@@ -940,8 +1365,10 @@
         <ScoreKill value="0"/>
         <BehaviorArray Link="TimeStopImmune"/>
         <BehaviorArray Link="Unrepairable"/>
+        <BehaviorArray Link="NoBiomassDrop"/>
         <DamageDealtXP value="0"/>
         <DamageTakenXP value="0"/>
+        <Food value="-8"/>
     </CUnit>
     <CUnit id="FusionReactor">
         <ScoreMake value="0"/>
@@ -1029,13 +1456,6 @@
         <DamageDealtXP value="0"/>
         <DamageTakenXP value="0"/>
         <BehaviorArray Link="AbilityTargetExclusionBehavior"/>
-    </CUnit>
-    <CUnit id="HotSLeviathan">
-        <ScoreMake value="0"/>
-        <ScoreKill value="0"/>
-        <KillXP value="0"/>
-        <DamageDealtXP value="0"/>
-        <DamageTakenXP value="0"/>
     </CUnit>
     <CUnit id="HotSRaptorPlaceholder">
         <KillXP value="0"/>
@@ -1578,6 +1998,7 @@
         <KillXP value="0"/>
         <DamageDealtXP value="0"/>
         <DamageTakenXP value="0"/>
+        <CargoSize value="0"/>
     </CUnit>
     <CUnit id="LocustMPFlying">
         <KillXP value="0"/>
@@ -1783,8 +2204,6 @@
     </CUnit>
     <CUnit id="Nuke">
         <ScoreMake value="0"/>
-        <CostResource index="Minerals" value="0"/>
-        <CostResource index="Vespene" value="0"/>
     </CUnit>
     <CUnit id="NukeSiloNova">
         <ScoreMake value="0"/>
@@ -1857,6 +2276,7 @@
     <CUnit id="Overlord">
         <BehaviorArray Link="AllUnitBehaviorController"/>
         <BehaviorArray Link="SupplyLT1"/>
+        <BehaviorArray Link="GenerateCreepHealingBehavior"/>
         <ScoreMake value="0"/>
         <ScoreKill value="0"/>
         <CardLayouts index="0">
@@ -1884,6 +2304,7 @@
     <CUnit id="PerditionTurretUnderground">
         <AbilArray Link="attack"/>
         <AbilArray Link="SalvageShared"/>
+        <Collide index="Structure" value="0"/>
         <CardLayouts index="0">
             <LayoutButtons Face="Salvage" Type="AbilCmd" AbilCmd="SalvageShared,On" Row="2" Column="0"/>
             <LayoutButtons Face="HaveHiSecAutoTracking" Type="Passive" Requirements="HaveTerranDefenseRangeBonus" Row="2" Column="1"/>
@@ -2067,6 +2488,8 @@
         <KillXP value="0"/>
         <DamageDealtXP value="0"/>
         <DamageTakenXP value="0"/>
+        <BehaviorArray Link="NoBiomassDrop"/>
+        <Attributes index="MapBoss" value="1"/>
     </CUnit>
     <CUnit id="ProtossFrigateDocked">
         <ScoreMake value="0"/>
@@ -2181,16 +2604,6 @@
         <ScoreKill value="0"/>
         <CostResource index="Vespene" value="0"/>
         <CostResource index="Terrazine" value="50"/>
-        <AbilArray Link="RavagerCorrosiveBile"/>
-        <CardLayouts index="0">
-            <LayoutButtons Face="RavagerCorrosiveBile" Type="AbilCmd" AbilCmd="RavagerCorrosiveBile,Execute" Row="2" Column="0"/>
-            <LayoutButtons Face="TunnelingClaws" Type="Passive" Requirements="HaveOrganicCarapace" Row="1" Column="1"/>
-            <LayoutButtons Face="HotSRoachDamage" Type="Passive" Requirements="HaveHotSRoachDamage" Row="1" Column="2"/>
-            <LayoutButtons Face="HotSRoachShield" Type="Passive" Requirements="HaveHotSRoachShield" Row="1" Column="3"/>
-            <LayoutButtons Face="RapidRegeneration" Type="Passive" Row="1" Column="0"/>
-        </CardLayouts>
-        <BehaviorArray Link="RoachShield"/>
-        <BehaviorArray Link="RoachRegenDummy"/>
         <BehaviorArray Link="AllUnitBehaviorController"/>
         <SubgroupPriority value="19"/>
         <TacticalAIThink value="AIThinkRavager"/>
@@ -2200,13 +2613,117 @@
         <ScoreKill value="0"/>
         <CostResource index="Vespene" value="0"/>
         <CostResource index="Terrazine" value="50"/>
-        <AbilArray Link="burrowedStop"/>
-        <AbilArray Link="move"/>
-        <BehaviorArray Link="RoachShield"/>
-        <BehaviorArray Link="RoachRegenDummy"/>
         <BehaviorArray Link="AllUnitBehaviorController"/>
-        <CardLayouts index="0">
+        <SubgroupPriority value="19"/>
+    </CUnit>
+    <CUnit id="RavagerAbathur">
+        <DeathRevealRadius value="3"/>
+        <Race value="Zerg"/>
+        <Mob value="Multiplayer"/>
+        <FlagArray index="PreventDestroy" value="1"/>
+        <FlagArray index="UseLineOfSight" value="1"/>
+        <FlagArray index="ArmySelect" value="1"/>
+        <PlaneArray index="Ground" value="1"/>
+        <Collide index="Ground" value="1"/>
+        <Collide index="ForceField" value="1"/>
+        <Attributes index="Biological" value="1"/>
+        <LifeStart value="120"/>
+        <LifeMax value="120"/>
+        <LifeArmor value="1"/>
+        <LifeRegenRate value="0.2734"/>
+        <LifeArmorName value="Unit/LifeArmorName/ZergGroundArmor"/>
+        <Speed value="2.75"/>
+        <SpeedMultiplierCreep value="1.3"/>
+        <Acceleration value="1000"/>
+        <LateralAcceleration value="46.0625"/>
+        <StationaryTurningRate value="999.8437"/>
+        <TurningRate value="999.8437"/>
+        <Sight value="9"/>
+        <Food value="-3"/>
+        <CostCategory value="Army"/>
+        <CostResource index="Minerals" value="125"/>
+        <CostResource index="Vespene" value="75"/>
+        <AttackTargetPriority value="20"/>
+        <AbilArray Link="stop"/>
+        <AbilArray Link="attack"/>
+        <AbilArray Link="move"/>
+        <AbilArray Link="que1"/>
+        <AbilArray Link="BurrowRavagerAbathurDown"/>
+        <AbilArray Link="RavagerAbathurCorrosiveBile"/>
+        <AbilArray Link="EvolveToBrutaliskRavager"/>
+        <BehaviorArray Link="AllUnitBehaviorController"/>
+        <WeaponArray Link="RavagerWeapon"/>
+        <CardLayouts>
+            <LayoutButtons Face="Move" Type="AbilCmd" AbilCmd="move,Move" Row="0" Column="0"/>
+            <LayoutButtons Face="Stop" Type="AbilCmd" AbilCmd="stop,Stop" Row="0" Column="1"/>
+            <LayoutButtons Face="MoveHoldPosition" Type="AbilCmd" AbilCmd="move,HoldPos" Row="0" Column="2"/>
+            <LayoutButtons Face="Attack" Type="AbilCmd" AbilCmd="attack,Execute" Row="0" Column="4"/>
+            <LayoutButtons Face="MovePatrol" Type="AbilCmd" AbilCmd="move,Patrol" Row="0" Column="3"/>
+            <LayoutButtons Face="BurrowDown" Type="AbilCmd" AbilCmd="BurrowRavagerAbathurDown,Execute" Row="2" Column="4"/>
+            <LayoutButtons Face="RavagerAbathurCorrosiveBile" Type="AbilCmd" AbilCmd="RavagerAbathurCorrosiveBile,Execute" Row="2" Column="0"/>
+            <LayoutButtons Face="CorrosiveBileRadiusIncrease" Type="Passive" Requirements="HaveCorrosiveBileRadiusIncrease" Row="1" Column="0"/>
+            <LayoutButtons Face="CorrosiveBileDamageIncrease" Type="Passive" Requirements="HaveCorrosiveBileDamageIncrease" Row="1" Column="1"/>
+            <LayoutButtons Face="EvolveToBrutalisk" Type="AbilCmd" AbilCmd="EvolveToBrutaliskRavager,Train1" Row="2" Column="2"/>
+            <LayoutButtons Face="EvolveToBrutaliskLocked" Type="Passive" Requirements="AbathurLevel02" Row="2" Column="2"/>
+            <LayoutButtons Face="BiomassPassive" Type="Passive" Requirements="BiomassBuffVisible" Row="2" Column="3"/>
+            <LayoutButtons Face="BiomassPassiveEmpty" Type="Passive" Requirements="BiomassBuffEmptyVisible" Row="2" Column="3"/>
+        </CardLayouts>
+        <Radius value="0.75"/>
+        <InnerRadius value="0.5"/>
+        <CargoSize value="4"/>
+        <ScoreResult value="BuildOrder"/>
+        <SubgroupPriority value="19"/>
+        <MinimapRadius value="0.75"/>
+        <EditorCategories value="ObjectType:Unit,ObjectFamily:Melee"/>
+        <TacticalAIThink value="AIThinkRavager"/>
+        <GlossaryCategory value="Unit/Category/ZergUnits"/>
+        <GlossaryPriority value="66"/>
+        <GlossaryStrongArray value="SiegeTankSieged"/>
+        <GlossaryStrongArray value="LurkerMP"/>
+        <GlossaryStrongArray value="Sentry"/>
+        <GlossaryWeakArray value="Marauder"/>
+        <GlossaryWeakArray value="Ultralisk"/>
+        <GlossaryWeakArray value="Immortal"/>
+        <HotkeyCategory value="Unit/Category/ZergUnits"/>
+        <KillDisplay value="Always"/>
+        <RankDisplay value="Always"/>
+        <Description value="Button/Tooltip/Ravager"/>
+    </CUnit>
+    <CUnit id="RavagerAbathurBurrowed">
+        <DeathRevealRadius value="3"/>
+        <Race value="Zerg"/>
+        <Mob value="Multiplayer"/>
+        <FlagArray index="PreventDestroy" value="1"/>
+        <FlagArray index="UseLineOfSight" value="1"/>
+        <FlagArray index="Cloaked" value="1"/>
+        <FlagArray index="Buried" value="1"/>
+        <FlagArray index="ArmySelect" value="1"/>
+        <PlaneArray index="Ground" value="1"/>
+        <Collide index="RoachBurrow" value="1"/>
+        <Attributes index="Biological" value="1"/>
+        <LifeStart value="120"/>
+        <LifeMax value="120"/>
+        <LifeArmor value="1"/>
+        <LifeRegenRate value="0.2734"/>
+        <LifeArmorName value="Unit/LifeArmorName/ZergGroundArmor"/>
+        <Mover value="Burrowed"/>
+        <SpeedMultiplierCreep value="1.3"/>
+        <Acceleration value="1000"/>
+        <LateralAcceleration value="46.0625"/>
+        <StationaryTurningRate value="999.8437"/>
+        <Sight value="5"/>
+        <Food value="-3"/>
+        <CostCategory value="Army"/>
+        <CostResource index="Minerals" value="125"/>
+        <CostResource index="Vespene" value="75"/>
+        <AttackTargetPriority value="20"/>
+        <AbilArray Link="BurrowRavagerAbathurUp"/>
+        <AbilArray Link="que1"/>
+        <BehaviorArray Link="AllUnitBehaviorController"/>
+        <CardLayouts>
+            <LayoutButtons Face="Attack" Type="AbilCmd" AbilCmd="attack,Execute" Row="0" Column="4"/>
             <LayoutButtons Face="AcquireMove" Type="AbilCmd" AbilCmd="move,AcquireMove" Row="0" Column="4"/>
+            <LayoutButtons Face="BurrowUp" Type="AbilCmd" AbilCmd="BurrowRavagerAbathurUp,Execute" Row="2" Column="4"/>
             <LayoutButtons Face="Move" Type="AbilCmd" AbilCmd="move,Move" Row="0" Column="0"/>
             <LayoutButtons>
                 <Face value="StopRoachBurrowed"/>
@@ -2218,12 +2735,55 @@
             </LayoutButtons>
             <LayoutButtons Face="MoveHoldPosition" Type="AbilCmd" AbilCmd="move,HoldPos" Row="0" Column="2"/>
             <LayoutButtons Face="MovePatrol" Type="AbilCmd" AbilCmd="move,Patrol" Row="0" Column="3"/>
-            <LayoutButtons Face="TunnelingClaws" Type="Passive" Requirements="HaveOrganicCarapace" Row="1" Column="1"/>
-            <LayoutButtons Face="HotSRoachDamage" Type="Passive" Requirements="HaveHotSRoachDamage" Row="1" Column="2"/>
-            <LayoutButtons Face="HotSRoachShield" Type="Passive" Requirements="HaveHotSRoachShield" Row="1" Column="3"/>
-            <LayoutButtons Face="RapidRegeneration" Type="Passive" Row="1" Column="0"/>
+            <LayoutButtons Face="CorrosiveBileRadiusIncrease" Type="Passive" Requirements="HaveCorrosiveBileRadiusIncrease" Row="1" Column="0"/>
+            <LayoutButtons Face="CorrosiveBileDamageIncrease" Type="Passive" Requirements="HaveCorrosiveBileDamageIncrease" Row="1" Column="1"/>
+            <LayoutButtons Face="EvolveToBrutalisk" Type="AbilCmd" AbilCmd="EvolveToBrutaliskRavager,Train1" Row="2" Column="2"/>
+            <LayoutButtons Face="EvolveToBrutaliskLocked" Type="Passive" Requirements="AbathurLevel02" Row="2" Column="2"/>
+            <LayoutButtons Face="BiomassPassive" Type="Passive" Requirements="BiomassBuffVisible" Row="2" Column="3"/>
+            <LayoutButtons Face="BiomassPassiveEmpty" Type="Passive" Requirements="BiomassBuffEmptyVisible" Row="2" Column="3"/>
         </CardLayouts>
+        <Radius value="0.75"/>
+        <InnerRadius value="0.5"/>
         <SubgroupPriority value="19"/>
+        <MinimapRadius value="0.75"/>
+        <EditorCategories value="ObjectType:Unit,ObjectFamily:Melee"/>
+        <LeaderAlias value="Ravager"/>
+        <HotkeyAlias value="Ravager"/>
+        <KillDisplay value="Always"/>
+        <RankDisplay value="Always"/>
+        <Description value="Button/Tooltip/Ravager"/>
+    </CUnit>
+    <CUnit id="RavagerAbathurCocoon">
+        <DeathRevealRadius value="3"/>
+        <Race value="Zerg"/>
+        <Mob value="Multiplayer"/>
+        <FlagArray index="PreventDestroy" value="1"/>
+        <FlagArray index="UseLineOfSight" value="1"/>
+        <FlagArray index="NoScore" value="1"/>
+        <FlagArray index="ArmySelect" value="1"/>
+        <PlaneArray index="Ground" value="1"/>
+        <Collide index="Ground" value="1"/>
+        <Collide index="ForceField" value="1"/>
+        <Attributes index="Biological" value="1"/>
+        <LifeStart value="100"/>
+        <LifeMax value="100"/>
+        <LifeArmor value="5"/>
+        <LifeRegenRate value="0.2734"/>
+        <Sight value="5"/>
+        <Food value="-2"/>
+        <CostCategory value="Army"/>
+        <AttackTargetPriority value="10"/>
+        <AbilArray Link="Rally"/>
+        <AbilArray Link="que1"/>
+        <CardLayouts>
+            <LayoutButtons Face="CancelCocoonMorph" Type="AbilCmd" AbilCmd="que1,CancelLast" Row="2" Column="4"/>
+            <LayoutButtons Face="Rally" Type="AbilCmd" AbilCmd="Rally,Rally1" Row="2" Column="4"/>
+            <LayoutButtons Face="Attack" Type="AbilCmd" AbilCmd="attack,Execute" Row="0" Column="4"/>
+        </CardLayouts>
+        <Radius value="0.75"/>
+        <InnerRadius value="0.5"/>
+        <SubgroupPriority value="1"/>
+        <EditorCategories value="ObjectType:Unit,ObjectFamily:Melee"/>
     </CUnit>
     <CUnit id="Raynor">
         <ScoreMake value="0"/>
@@ -2445,8 +3005,9 @@
         <Speed value="4"/>
         <Acceleration value="3.5"/>
         <CardLayouts index="0">
-            <LayoutButtons index="5" Face="ExplosiveGlaive" Type="Passive" Requirements="HaveMutaliskSunderingGlave" Row="2" Column="3"/>
-            <LayoutButtons index="6" Face="ViciousGlaive" Type="Passive" Requirements="HaveHotSViciousGlaive" Row="2" Column="2"/>
+            <LayoutButtons index="5" Face="ExplosiveGlaive" Type="Passive" Requirements="HaveMutaliskSunderingGlave" Row="1" Column="2"/>
+            <LayoutButtons index="6" Face="ViciousGlaive" Type="Passive" Requirements="HaveHotSViciousGlaive" Row="1" Column="1"/>
+            <LayoutButtons index="7" Face="MutaliskRapidRegeneration" Type="Passive" Requirements="HaveHotSRapidRegeneration" Row="1" Column="0"/>
         </CardLayouts>
         <ScoreMake value="0"/>
         <ScoreKill value="0"/>
@@ -2469,6 +3030,7 @@
     <CUnit id="SOAPylonPowerUnit">
         <BehaviorArray Link="MatrixOverload"/>
         <BehaviorArray Link="AbilityTargetExclusionBehavior"/>
+        <BehaviorArray Link="MasteryArtanisSoAPowerFieldHaste"/>
         <MinimapRadius value="0.5"/>
         <Sight value="0"/>
     </CUnit>
@@ -2712,9 +3274,11 @@
     </CUnit>
     <CUnit id="SpiderMine">
         <RepairTime value="12"/>
+        <BehaviorArray Link="Unrepairable"/>
     </CUnit>
     <CUnit id="SpiderMineBurrowed">
         <RepairTime value="12"/>
+        <BehaviorArray Link="Unrepairable"/>
     </CUnit>
     <CUnit id="SpineCrawler">
         <ScoreMake value="0"/>
@@ -2740,7 +3304,7 @@
         <ScoreKill value="0"/>
         <AbilArray index="4" removed="1"/>
         <CardLayouts index="0">
-            <LayoutButtons index="4" Face="Stop" Type="AbilCmd" AbilCmd="stop,Stop" Row="0" Column="1"/>
+            <LayoutButtons index="4" Face="Stop" AbilCmd="stop,Stop" Row="0" Column="1"/>
             <LayoutButtons index="5" removed="1"/>
             <LayoutButtons index="6" removed="1"/>
         </CardLayouts>
@@ -2758,7 +3322,7 @@
         <ScoreMake value="0"/>
         <ScoreKill value="0"/>
         <CardLayouts index="0">
-            <LayoutButtons index="4" Face="ZagaraVoidCoopNydusWorm" Type="AbilCmd" AbilCmd="BuildNydusCanal,Build1" Row="1" Column="0"/>
+            <LayoutButtons index="4" Face="ZagaraVoidCoopNydusWorm"/>
         </CardLayouts>
         <Radius value="1.375"/>
         <SeparationRadius value="1.375"/>
@@ -2864,6 +3428,198 @@
         <KillXP value="0"/>
         <DamageDealtXP value="0"/>
         <DamageTakenXP value="0"/>
+    </CUnit>
+    <CUnit id="ImpalerAbathur">
+        <DeathRevealRadius value="3"/>
+        <Race value="Zerg"/>
+        <FlagArray index="PreventDestroy" value="1"/>
+        <FlagArray index="UseLineOfSight" value="1"/>
+        <FlagArray index="AIThreatGround" value="1"/>
+        <FlagArray index="AISplash" value="1"/>
+        <FlagArray index="AIPressForwardDisabled" value="1"/>
+        <FlagArray index="AIPreferBurrow" value="1"/>
+        <FlagArray index="ArmySelect" value="1"/>
+        <PlaneArray index="Ground" value="1"/>
+        <Collide index="Ground" value="1"/>
+        <Collide index="ForceField" value="1"/>
+        <Attributes index="Armored" value="1"/>
+        <Attributes index="Biological" value="1"/>
+        <LifeStart value="200"/>
+        <LifeMax value="200"/>
+        <LifeArmor value="1"/>
+        <LifeRegenRate value="0.2734"/>
+        <LifeArmorName value="Unit/LifeArmorName/ZergGroundArmor"/>
+        <ShieldArmorName value="Unit/ShieldArmorName/ZergWildMutation"/>
+        <Speed value="2.9492"/>
+        <SpeedMultiplierCreep value="1.3"/>
+        <Acceleration value="1000"/>
+        <LateralAcceleration value="46.0625"/>
+        <StationaryTurningRate value="999.8437"/>
+        <TurningRate value="999.8437"/>
+        <Sight value="9"/>
+        <Food value="-3"/>
+        <CostCategory value="Army"/>
+        <CostResource index="Minerals" value="200"/>
+        <CostResource index="Vespene" value="100"/>
+        <AttackTargetPriority value="20"/>
+        <AbilArray Link="stop"/>
+        <AbilArray Link="move"/>
+        <AbilArray Link="attack"/>
+        <AbilArray Link="BurrowImpalerAbathurDown"/>
+        <AbilArray Link="AbathurDeepTunnel"/>
+        <BehaviorArray Link="ImpalerWeaponDisabled"/>
+        <BehaviorArray Link="AllUnitBehaviorController"/>
+        <WeaponArray Link="ImpalerAbathur" Turret="FreeRotate"/>
+        <!--EquipmentArray Weapon="Impaler"/-->
+        <CardLayouts>
+            <LayoutButtons Face="Move" Type="AbilCmd" AbilCmd="move,Move" Row="0" Column="0"/>
+            <LayoutButtons Face="Stop" Type="AbilCmd" AbilCmd="stop,Stop" Row="0" Column="1"/>
+            <LayoutButtons Face="MoveHoldPosition" Type="AbilCmd" AbilCmd="move,HoldPos" Row="0" Column="2"/>
+            <LayoutButtons Face="AcquireMove" Type="AbilCmd" AbilCmd="move,AcquireMove" Row="0" Column="4"/>
+            <LayoutButtons Face="MovePatrol" Type="AbilCmd" AbilCmd="move,Patrol" Row="0" Column="3"/>
+            <LayoutButtons Face="ImpalerBurrowDown" Type="AbilCmd" AbilCmd="BurrowImpalerAbathurDown,Execute" Row="2" Column="4"/>
+            <LayoutButtons Face="AbathurDeepTunnel" Type="AbilCmd" AbilCmd="AbathurDeepTunnel,255" Row="2" Column="0"/>
+            <LayoutButtons Face="AbathurGenerateCreep" Type="Passive" Requirements="HaveGenerateCreep" Row="2" Column="3"/>
+        </CardLayouts>
+        <InnerRadius value="0.625"/>
+        <CargoSize value="2"/>
+        <ScoreResult value="BuildOrder"/>
+        <SubgroupPriority value="18"/>
+        <EditorCategories value="ObjectType:Unit,ObjectFamily:Melee"/>
+        <GlossaryCategory value="Unit/Category/ZergUnits"/>
+        <GlossaryPriority value="170"/>
+        <GlossaryStrongArray value="SiegeTank"/>
+        <GlossaryStrongArray value="SiegeTankSieged"/>
+        <GlossaryStrongArray value="Stalker"/>
+        <GlossaryWeakArray value="Banshee"/>
+        <GlossaryWeakArray value="VoidRay"/>
+        <HotkeyCategory value="Unit/Category/ZergStory"/>
+        <KillDisplay value="Always"/>
+        <RankDisplay value="Always"/>
+        <Fidget>
+            <ChanceArray index="Anim" value="33"/>
+            <ChanceArray index="Idle" value="33"/>
+            <ChanceArray index="Turn" value="33"/>
+        </Fidget>
+    </CUnit>
+    <CUnit id="ImpalerAbathurBurrowed">
+        <DeathRevealRadius value="3"/>
+        <Race value="Zerg"/>
+        <Mob value="Multiplayer"/>
+        <FlagArray index="PreventDestroy" value="1"/>
+        <FlagArray index="UseLineOfSight" value="1"/>
+        <FlagArray index="Cloaked" value="1"/>
+        <FlagArray index="Buried" value="1"/>
+        <FlagArray index="AIThreatGround" value="1"/>
+        <FlagArray index="AISplash" value="1"/>
+        <FlagArray index="AIPressForwardDisabled" value="1"/>
+        <FlagArray index="AIPreferBurrow" value="1"/>
+        <FlagArray index="ArmySelect" value="1"/>
+        <PlaneArray index="Ground" value="1"/>
+        <Collide index="Burrow" value="1"/>
+        <Attributes index="Armored" value="1"/>
+        <Attributes index="Biological" value="1"/>
+        <LifeStart value="200"/>
+        <LifeMax value="200"/>
+        <LifeArmor value="1"/>
+        <LifeRegenRate value="0.2734"/>
+        <LifeArmorName value="Unit/LifeArmorName/ZergGroundArmor"/>
+        <ShieldArmorName value="Unit/ShieldArmorName/ZergWildMutation"/>
+        <Mover value="Burrowed"/>
+        <!--Speed value="0.75"/>
+        <SpeedMultiplierCreep value="1.3"/-->
+        <Acceleration value="1000"/>
+        <LateralAcceleration value="46.0625"/>
+        <StationaryTurningRate value="999.8437"/>
+        <TurningRate value="999.8437"/>
+        <Sight value="9"/>
+        <Food value="-3"/>
+        <CostCategory value="Army"/>
+        <CostResource index="Minerals" value="200"/>
+        <CostResource index="Vespene" value="100"/>
+        <AttackTargetPriority value="20"/>
+        <AbilArray Link="attack"/>
+        <AbilArray Link="stop"/>
+        <AbilArray Link="move"/>
+        <AbilArray Link="BurrowImpalerAbathurUp"/>
+        <AbilArray Link="AbathurDeepTunnel"/>
+        <BehaviorArray Link="AllUnitBehaviorController"/>
+        <BehaviorArray Link="VorazunCloakDamageBoostPermanent"/>
+        <BehaviorArray Link="ImpalerGenerateCreep"/>
+        <WeaponArray Link="ImpalerAbathur" Turret="FreeRotate"/>
+        <CardLayouts>
+            <LayoutButtons Face="Attack" Type="AbilCmd" AbilCmd="attack,Execute" Row="0" Column="4"/>
+            <LayoutButtons Face="AcquireMove" Type="AbilCmd" AbilCmd="move,AcquireMove" Row="0" Column="4"/>
+            <LayoutButtons Face="AttackBuilding" Type="AbilCmd" AbilCmd="attack,Execute" Row="0" Column="4"/>
+            <LayoutButtons Face="Move" Type="AbilCmd" AbilCmd="move,Move" Row="0" Column="0"/>
+            <LayoutButtons Face="MoveHoldPosition" Type="AbilCmd" AbilCmd="move,HoldPos" Row="0" Column="2"/>
+            <LayoutButtons Face="MovePatrol" Type="AbilCmd" AbilCmd="move,Patrol" Row="0" Column="3"/>
+            <LayoutButtons Face="Stop" Type="AbilCmd" AbilCmd="stop,Stop" Row="0" Column="1"/>
+            <LayoutButtons Face="ImpalerBurrowUp" Type="AbilCmd" AbilCmd="BurrowImpalerAbathurUp,Execute" Row="2" Column="4"/>
+            <LayoutButtons Face="AbathurDeepTunnel" Type="AbilCmd" AbilCmd="AbathurDeepTunnel,255" Row="2" Column="0"/>
+            <LayoutButtons Face="AbathurGenerateCreep" Type="Passive" Requirements="HaveGenerateCreep" Row="2" Column="3"/>
+        </CardLayouts>
+        <SeparationRadius value="0"/>
+        <InnerRadius value="0.625"/>
+        <SubgroupPriority value="18"/>
+        <EditorCategories value="ObjectType:Unit,ObjectFamily:Melee"/>
+        <LeaderAlias value="ImpalerAbathur"/>
+        <HotkeyAlias value="ImpalerAbathur"/>
+        <TechAliasArray value="Alias_ImpalerAbathur"/>
+        <GlossaryAlias value="ImpalerAbathur"/>
+        <KillDisplay value="Always"/>
+        <RankDisplay value="Always"/>
+    </CUnit>
+    <CUnit id="ImpalerAbathurEgg">
+        <DeathRevealRadius value="3"/>
+        <Facing value="45"/>
+        <Race value="Zerg"/>
+        <Mob value="Multiplayer"/>
+        <FlagArray index="PreventDestroy" value="1"/>
+        <FlagArray index="UseLineOfSight" value="1"/>
+        <FlagArray index="NoScore" value="1"/>
+        <FlagArray index="ArmySelect" value="1"/>
+        <PlaneArray index="Ground" value="1"/>
+        <Collide index="Ground" value="1"/>
+        <Collide index="ForceField" value="1"/>
+        <Attributes index="Biological" value="1"/>
+        <LifeStart value="125"/>
+        <LifeMax value="125"/>
+        <LifeArmor value="2"/>
+        <LifeRegenRate value="0.2734"/>
+        <LifeArmorName value="Unit/LifeArmorName/ZergGroundArmor"/>
+        <ShieldArmorName value="Unit/ShieldArmorName/ZergWildMutation"/>
+        <Speed value="3.375"/>
+        <StationaryTurningRate value="719.4726"/>
+        <TurningRate value="719.4726"/>
+        <Sight value="5"/>
+        <Food value="-2"/>
+        <CostCategory value="Army"/>
+        <AttackTargetPriority value="10"/>
+        <AbilArray Link="que1"/>
+        <AbilArray Link="Rally"/>
+        <CardLayouts>
+            <LayoutButtons Face="CancelCocoonMorph" Type="AbilCmd" AbilCmd="que1,CancelLast" Row="2" Column="4"/>
+            <LayoutButtons Face="Rally" Type="AbilCmd" AbilCmd="Rally,Rally1" Row="1" Column="4"/>
+        </CardLayouts>
+        <SubgroupPriority value="1"/>
+        <EditorCategories value="ObjectType:Unit,ObjectFamily:Melee"/>
+    </CUnit>
+    <CUnit id="ImpalerAbathurPlacement">
+        <EditorFlags index="NoPlacement" value="1"/>
+        <FlagArray index="Uncommandable" value="1"/>
+        <FlagArray index="Unselectable" value="1"/>
+        <FlagArray index="Untargetable" value="1"/>
+        <FlagArray index="Invulnerable" value="1"/>
+        <FlagArray index="NoScore" value="1"/>
+        <Collide index="Ground" value="1"/>
+        <Collide index="Colossus" value="1"/>
+        <Collide index="ForceField" value="1"/>
+        <!--Do not change the radius, inner or separation to anything but 1-->
+        <Radius value="1"/>
+        <SeparationRadius value="1"/>
+        <InnerRadius value="1"/>
+        <BehaviorArray Link="ImpalerPlacementRemove"/>
     </CUnit>
     <CUnit id="InfestedAbomination">
         <!--BehaviorArray Link="Supply3"/-->
@@ -3140,6 +3896,7 @@
         <KillXP value="0"/>
         <DamageDealtXP value="0"/>
         <DamageTakenXP value="0"/>
+        <Attributes index="Heroic" value="1"/>
     </CUnit>
     <CUnit id="PrimalZergling">
         <BehaviorArray Link="SupplyLT1"/>
@@ -3162,6 +3919,12 @@
             <LayoutButtons index="7" Face="Cancel" AbilCmd="KerriganEnhance,Off" Column="4"/>
             <LayoutButtons index="8" Face="BuildCreepTumor" AbilCmd="QueenBuild,Build3" Column="0"/>
             <LayoutButtons index="9" Face="QueenBurstHeal" AbilCmd="QueenBurstHeal,Execute" Column="1"/>
+            <LayoutButtons Face="BiomassPassiveEnergy" Type="Passive" Requirements="BiomassBuffVisible" Row="2" Column="3"/>
+            <LayoutButtons Face="BiomassPassiveEmpty" Type="Passive" Requirements="BiomassBuffEmptyVisible" Row="2" Column="3"/>
+            <LayoutButtons Face="BioMechanicalTransfusion" Type="AbilCmd" AbilCmd="BioMechanicalTransfusion,Execute" Row="2" Column="1"/>
+            <LayoutButtons Face="EvolveToBrutalisk" Type="AbilCmd" AbilCmd="EvolveToBrutaliskQueen,Train1" Row="2" Column="2"/>
+            <LayoutButtons Face="EvolveToBrutaliskLocked" Type="Passive" Requirements="AbathurLevel02" Row="2" Column="2"/>
+            <LayoutButtons Face="BioMechanicalTransfusionPassive" Type="Passive" Requirements="HaveBioMechanicalTransfusionPassive" Row="1" Column="1"/>
         </CardLayouts>
         <ScoreMake value="0"/>
         <ScoreKill value="0"/>
@@ -3169,8 +3932,11 @@
         <DamageDealtXP value="0"/>
         <DamageTakenXP value="0"/>
         <HotkeyCategory value=""/>
-        <WeaponArray index="2" Link="SwarmQueenTalonsCoop"/>
         <SubgroupPriority value="16"/>
+        <AbilArray Link="que1"/>
+        <AbilArray Link="EvolveToBrutaliskQueen"/>
+        <AbilArray Link="BioMechanicalTransfusion"/>
+        <HotkeyAlias value="QueenCoop"/>
     </CUnit>
     <CUnit id="QueenBurrowed">
         <!--BehaviorArray Link="Supply2"/-->
@@ -3179,8 +3945,16 @@
         <KillXP value="0"/>
         <DamageDealtXP value="0"/>
         <DamageTakenXP value="0"/>
-        <HotkeyAlias value=""/>
+        <HotkeyAlias value="QueenCoop"/>
         <SubgroupPriority value="16"/>
+        <AbilArray Link="que1"/>
+        <AbilArray Link="EvolveToBrutaliskQueen"/>
+        <CardLayouts index="0">
+            <LayoutButtons Face="EvolveToBrutalisk" Type="AbilCmd" AbilCmd="EvolveToBrutaliskQueen,Train1" Row="2" Column="2"/>
+            <LayoutButtons Face="EvolveToBrutaliskLocked" Type="Passive" Requirements="AbathurLevel02" Row="2" Column="2"/>
+            <LayoutButtons Face="BiomassPassiveEnergy" Type="Passive" Requirements="BiomassBuffVisible" Row="2" Column="3"/>
+            <LayoutButtons Face="BiomassPassiveEmpty" Type="Passive" Requirements="BiomassBuffEmptyVisible" Row="2" Column="3"/>
+        </CardLayouts>
     </CUnit>
     <CUnit id="Infestor">
         <!--BehaviorArray Link="Supply2"/-->
@@ -3261,7 +4035,7 @@
         <MinimapRadius value="0"/>
         <EditorCategories value="ObjectType:Hero,ObjectFamily:Campaign"/>
         <Mass value="0.6"/>
-        <RankDisplay value="Never"/>
+        <RankDisplay value="Always"/>
         <HotkeyCategory value="Unit/Category/TerranStory"/>
     </CUnit>
     <CUnit id="HyperionVoidCoopYamatoCannonAttackWeapon" parent="MISSILE">
@@ -3394,12 +4168,17 @@
     <!--                                                                                         -->
     <CUnit id="DefilerMP">
         <AbilArray Link="InfestorConsumption"/>
+        <AbilArray Link="EvolveToBrutaliskDefiler"/>
+        <AbilArray Link="que1"/>
         <!--BehaviorArray Link="Supply2"/-->
         <BehaviorArray Link="AllUnitBehaviorController"/>
         <ScoreMake value="0"/>
         <ScoreKill value="0"/>
         <KillXP value="0"/>
         <TacticalAIThink value="AIThinkDefiler"/>
+        <CardLayouts index="0">
+            <LayoutButtons Face="EvolveToBrutalisk" Type="AbilCmd" AbilCmd="EvolveToBrutaliskDefiler,Train1" Row="2" Column="3"/>
+        </CardLayouts>
     </CUnit>
     <CUnit id="DefilerMPBurrowed">
         <!--BehaviorArray Link="Supply2"/-->
@@ -3718,6 +4497,7 @@
         <ScoreKill value="0"/>
         <CardLayouts index="0">
             <LayoutButtons index="8" Face="BuildTechReactor" Type="AbilCmd" AbilCmd="StarportAddOns,Build4" Row="2" Column="0"/>
+            <LayoutButtons Face="OrbitalDropPodsPassive" Type="Passive" Requirements="HaveOrbitalDropPods" Row="1" Column="0"/>
         </CardLayouts>
         <BehaviorArray Link="SOAMapWideChronoPassiveTarget"/>
         <!--BehaviorArray Link="FireSuppressionSystem"/-->
@@ -3833,8 +4613,10 @@
         <ScoreKill value="0"/>
         <BehaviorArray Link="TimeStopImmune"/>
         <BehaviorArray Link="Unrepairable"/>
+        <BehaviorArray Link="NoBiomassDrop"/>
         <DamageDealtXP value="0"/>
         <DamageTakenXP value="0"/>
+        <Food value="-8"/>
     </CUnit>
     <CUnit id="TarsonisEngineFast">
         <FlagArray index="Unstoppable" value="1"/>
@@ -3842,8 +4624,10 @@
         <DamageTakenXP value="0"/>
         <BehaviorArray Link="TimeStopImmune"/>
         <BehaviorArray Link="Unrepairable"/>
+        <BehaviorArray Link="NoBiomassDrop"/>
         <ScoreMake value="0"/>
         <ScoreKill value="0"/>
+        <Food value="-8"/>
     </CUnit>
     <CUnit id="Tassadar">
         <KillXP value="0"/>
@@ -4020,13 +4804,13 @@
         </ReviveInfoBase>
     </CUnit>
     <CUnit id="ThorWreckage">
+        <DamageDealtXP value="0"/>
+        <DamageTakenXP value="0"/>
+        <KillXP value="0"/>
         <BehaviorArray Link="Unrepairable"/>
         <!--BehaviorArray Link="Supply6"/-->
         <ScoreMake value="0"/>
         <ScoreKill value="0"/>
-        <KillXP value="0"/>
-        <DamageDealtXP value="0"/>
-        <DamageTakenXP value="0"/>
     </CUnit>
     <CUnit id="ThornLizard">
         <DamageDealtXP value="0"/>
@@ -4237,6 +5021,7 @@
         <KillXP value="0"/>
         <DamageDealtXP value="0"/>
         <DamageTakenXP value="0"/>
+        <BehaviorArray Link="BanelingExplodeSimple"/>
     </CUnit>
     <CUnit id="BanelingBurrowed">
         <!--BehaviorArray Link="Supply1"/-->
@@ -4329,6 +5114,7 @@
         <PlacementFootprint value="Footprint3x3AddOn2x2CreepNormal"/>
         <CardLayouts index="0">
             <LayoutButtons Face="ResearchIncineratorGauntlets" Type="AbilCmd" AbilCmd="BarracksTechLabResearch,Research4" Row="1" Column="0"/>
+            <LayoutButtons Face="ResearchReaperSpiderMines" Type="AbilCmd" AbilCmd="BarracksTechLabResearch,Research8" Row="1" Column="0"/>
             <LayoutButtons Face="ResearchIncineratorGauntletsLocked" Type="Passive" Requirements="RaynorLevel04" Row="1" Column="0"/>
             <LayoutButtons Face="ResearchJuggernautPlating" Type="AbilCmd" AbilCmd="BarracksTechLabResearch,Research7" Row="1" Column="1"/>
             <LayoutButtons Face="ResearchJuggernautPlatingLocked" Type="Passive" Requirements="RaynorLevel04" Row="1" Column="1"/>
@@ -4359,6 +5145,7 @@
         <!--LayoutButtons Face="ResearchG4Clusterbomb" Type="AbilCmd" AbilCmd="BarracksTechLabResearch,Research5" Row="1" Column="2"/-->
     </CUnit>
     <CUnit id="Brutalisk">
+        <TechAliasArray value="Alias_Brutalisk"/>
         <CostResource index="Minerals" value="500"/>
         <CostResource index="Vespene" value="300"/>
         <Collide index="Ground" value="0"/>
@@ -4366,11 +5153,39 @@
         <ScoreMake value="0"/>
         <ScoreKill value="0"/>
         <BehaviorArray Link="Frenzy"/>
+        <BehaviorArray Link="CarapaceDamageResponse"/>
+        <BehaviorArray Link="AllUnitBehaviorController"/>
         <CardLayouts index="0">
-            <LayoutButtons Face="Frenzied" Type="Passive" Behavior="Frenzy" Row="2" Column="3"/>
+            <LayoutButtons Face="BrutaliskDeepTunnel" Type="AbilCmd" AbilCmd="BrutaliskDeepTunnel,Execute" Row="2" Column="3"/>
+            <!--LayoutButtons Face="SymbioteStab" Type="AbilCmd" AbilCmd="SymbioteStab,Execute" Row="2" Column="0"/>
+            <LayoutButtons Face="SymbioteSpikeBurst" Type="AbilCmd" AbilCmd="SymbioteSpikeBurst,Execute" Row="2" Column="1"/-->
+            <LayoutButtons Face="Frenzied" Type="Passive" Behavior="Frenzy" Row="1" Column="4"/>
+            <LayoutButtons Face="SymbioteCarapace" Type="AbilCmd" AbilCmd="SymbioteCarapace,Execute" Row="1" Column="4"/>
+            <LayoutButtons Face="BurrowDown" Type="AbilCmd" AbilCmd="BurrowBrutaliskDown,Execute" Row="2" Column="4"/>
+            <LayoutButtons>
+                <Face value="CommanderAbathurBrutaliskSymbiote"/>
+                <Type value="Passive"/>
+                <AbilCmd value="AbathurSymbioteHangerBrutalisk,Ammo1"/>
+                <Requirements value="HaveBrutaliskgainsSymbioteUpgrade"/>
+                <Row value="2"/>
+                <Column value="1"/>
+            </LayoutButtons>
+            <LayoutButtons Face="AbathurBrutaliskLeviathanSymbiote" Type="Passive" Requirements="HaveBrutaliskLeviathanSymbiote" Row="2" Column="0"/>
+            <LayoutButtons Face="AbathurBrutaliskLeviathanSymbioteLocked" Type="Passive" Requirements="AbathurLevel10" Row="2" Column="0"/>
         </CardLayouts>
         <DamageDealtXP value="0"/>
         <DamageTakenXP value="0"/>
+        <AbilArray Link="BrutaliskDeepTunnel"/>
+        <AbilArray Link="SymbioteCarapace"/>
+        <AbilArray Link="BurrowBrutaliskDown"/>
+        <AbilArray Link="AbathurSymbioteHangerBrutalisk"/>
+        <Speed value="3"/>
+        <SubgroupPriority value="18"/>
+        <MinimapRadius value="1.5"/>
+        <WeaponArray index="0" Link="Brutalize"/>
+        <WeaponArray index="1" Link="FerociousSpew"/>
+        <CargoSize value="0"/>
+        <ShieldArmorName value="Behavior/Name/SymbioteCarapace"/>
     </CUnit>
     <CUnit id="Bunker">
         <Footprint value="Footprint3x3CreepNormalContour"/>
@@ -4654,6 +5469,7 @@
         <DamageDealtXP value="0"/>
         <DamageTakenXP value="0"/>
         <EnergyStart value="200"/>
+        <SubgroupPriority value="11"/>
     </CUnit>
     <CUnit id="Factory">
         <CardLayouts index="0">
@@ -4965,21 +5781,49 @@
     </CUnit>
     <CUnit id="GhostAcademy">
         <BehaviorArray Link="SOAMapWideChronoPassiveTarget"/>
+        <CardLayouts index="0">
+            <LayoutButtons index="0" Face="Cancel" AbilCmd="que5,CancelLast" Row="2" Column="4"/>
+            <LayoutButtons index="1" Face="CancelBuilding" AbilCmd="BuildInProgress,Cancel"/>
+            <LayoutButtons index="2" Face="Halt" AbilCmd="BuildInProgress,Halt" Column="3"/>
+            <LayoutButtons index="3" Face="NukeArm" AbilCmd="ArmSiloWithNuke,Ammo1" Column="0"/>
+            <LayoutButtons index="4" Face="SelectBuilder" Type="SelectBuilder" AbilCmd="" Row="1" Column="3"/>
+            <LayoutButtons Face="NukeArm" Type="AbilCmd" AbilCmd="HeroArmNuke,Ammo1" Row="2" Column="0"/>
+        </CardLayouts>
         <Footprint value="Footprint3x3CreepNormalContour"/>
         <PlacementFootprint value="Footprint3x3CreepNormal"/>
         <ScoreMake value="0"/>
         <ScoreKill value="0"/>
+        <AbilArray index="3" Link="HeroArmNuke"/>
+        <AbilArray Link="ArmSiloWithNuke"/>
     </CUnit>
     <CUnit id="GreaterSpire">
         <CardLayouts index="0">
-            <LayoutButtons index="10" Face="MutaliskPassive" Type="Passive" Requirements="HaveCoopMutalisk" Row="1" Column="0"/>
+            <LayoutButtons index="8" Face="MutaliskBroodlordPassiveGreater" Type="Passive" Requirements="HaveHotSMutaliskBroodLord" Row="2" Column="1"/>
+            <LayoutButtons index="9" Face="MutaliskViperPassiveGreater" Type="Passive" Requirements="HaveHotSMutaliskViper" Row="2" Column="1"/>
+            <LayoutButtons index="10" Face="MutaliskPassive" Type="Passive" Requirements="HaveCoopMutalisk" Row="2" Column="1"/>
+            <LayoutButtons index="11" Face="BroodLordPassive" Type="Passive" Requirements="HaveHotSMutaliskBroodLordAndHaveGreaterSpire" Row="2" Column="2"/>
+            <LayoutButtons index="12" Face="GuardianPassive" Type="Passive" Requirements="HaveGuardian" Row="2" Column="2"/>
+            <LayoutButtons Face="ViperPassive" Type="Passive" Requirements="HaveHotSMutaliskViper" Row="2" Column="2"/>
+            <LayoutButtons Face="EvolveGuardianAttackRangeIncrease" Type="AbilCmd" AbilCmd="SpireResearch,Research11" Row="1" Column="0"/>
+            <!--LayoutButtons Face="EvolveViciousGlaiveLocked" Type="Passive" Requirements="KerriganLevel11" Row="0" Column="3"/-->
+            <LayoutButtons Face="EvolveBroodLordSpeed" Type="AbilCmd" AbilCmd="SpireResearch,Research8" Row="1" Column="0"/>
+            <LayoutButtons>
+                <Face value="EvolveGuardianAttackRangeIncreaseLocked"/>
+                <Type value="Passive"/>
+                <AbilCmd value="SpireResearch,255"/>
+                <Requirements value="AbathurLevel12"/>
+                <Row value="1"/>
+                <Column value="0"/>
+            </LayoutButtons>
+            <LayoutButtons Face="EvolveBroodlordSpeedLocked" Type="Passive" Requirements="KerriganLevel11" Row="1" Column="0"/>
+            <LayoutButtons Face="EvolveDevourerAoEDamage" Type="AbilCmd" AbilCmd="SpireResearch,Research12" Row="1" Column="1"/>
+            <LayoutButtons Face="EvolveDevourerAoEDamageLocked" Type="Passive" Requirements="AbathurLevel11" Row="1" Column="1"/>
             <LayoutButtons Face="EvolveMutaliskRapidRegeneration" Type="AbilCmd" AbilCmd="SpireResearch,Research10" Row="0" Column="2"/>
             <LayoutButtons Face="EvolveViciousGlaive" Type="AbilCmd" AbilCmd="SpireResearch,Research7" Row="0" Column="3"/>
-            <!--LayoutButtons Face="EvolveViciousGlaiveLocked" Type="Passive" Requirements="KerriganLevel11" Row="0" Column="3"/-->
             <LayoutButtons Face="EvolveSunderingGlave" Type="AbilCmd" AbilCmd="SpireResearch,Research9" Row="0" Column="4"/>
             <LayoutButtons Face="EvolveSunderingGlaveLocked" Type="Passive" Requirements="KerriganLevel11" Row="0" Column="4"/>
-            <LayoutButtons Face="EvolveBroodLordSpeed" Type="AbilCmd" AbilCmd="SpireResearch,Research8" Row="1" Column="4"/>
-            <LayoutButtons Face="EvolveBroodlordSpeedLocked" Type="Passive" Requirements="KerriganLevel11" Row="1" Column="4"/>
+            <LayoutButtons Face="EvolveSunderingGlaveLocked" Type="Passive" Requirements="AbathurLevel11" Row="0" Column="4"/>
+            <LayoutButtons Face="DevourerPassive" Type="Passive" Requirements="HotSHaveDevourer" Row="2" Column="3"/>
         </CardLayouts>
         <ScoreMake value="0"/>
         <ScoreKill value="0"/>
@@ -5020,6 +5864,7 @@
         <AbilArray index="11" Link="UpgradeToLairInstantFree"/>
         <BehaviorArray Link="HatcheryLarvaDeath"/>
         <BehaviorArray Link="SOAMapWideChronoPassiveTarget"/>
+        <BehaviorArray Link="HatcheryDoubleQueue"/>
         <Food value="6"/>
         <ScoreMake value="0"/>
         <ScoreKill value="0"/>
@@ -5091,7 +5936,7 @@
     <CUnit id="Hive">
         <CardLayouts index="0">
             <LayoutButtons index="5" Face="QueenCoop" AbilCmd="TrainQueen,Train4"/>
-            <LayoutButtons index="9" Face="RespawnZergling" Type="AbilCmd" AbilCmd="ZerglingRespawn,Execute" Row="0" Column="3"/>
+            <LayoutButtons index="9" Column="3"/>
             <!--LayoutButtons>
                 <Face value="AutoInjectLarva"/>
                 <Type value="Passive"/>
@@ -5109,6 +5954,7 @@
         <AbilArray index="10" removed="1"/>
         <BehaviorArray Link="HatcheryLarvaDeath"/>
         <BehaviorArray Link="SOAMapWideChronoPassiveTarget"/>
+        <BehaviorArray Link="HatcheryDoubleQueue"/>
         <Food value="6"/>
         <ScoreMake value="0"/>
         <ScoreKill value="0"/>
@@ -5460,8 +6306,7 @@
             <LayoutButtons index="6" Face="Impaler" Type="AbilCmd" AbilCmd="MorphRoachToImpaler,Train1" Row="2" Column="1"/>
             <LayoutButtons index="7" Face="AncillaryCarapaceHydralisk" Type="Passive" Requirements="HaveHotSHydraliskHealth" Row="1" Column="1"/>
             <LayoutButtons index="8" Face="MuscularAugmentsCoop" Type="Passive" Requirements="HaveGroovedSpines" Row="1" Column="0"/>
-            <LayoutButtons index="9" Face="Lurker" Type="AbilCmd" AbilCmd="MorphHydraliskToLurker,Train1" Row="2" Column="2"/>
-            <LayoutButtons Face="HydraliskFrenzy" Type="AbilCmd" AbilCmd="HydraliskFrenzy,Execute" Row="2" Column="0"/>
+            <LayoutButtons index="9" Face="HydraliskFrenzy" Type="AbilCmd" AbilCmd="HydraliskFrenzy,Execute" Row="2" Column="0"/>
         </CardLayouts>
         <ScoreMake value="0"/>
         <ScoreKill value="0"/>
@@ -5546,15 +6391,28 @@
     </CUnit>
     <CUnit id="InfestationPit">
         <CardLayouts index="0">
-            <LayoutButtons index="3" Face="RapidIncubation" Type="AbilCmd" AbilCmd="InfestationPitResearch,Research7" Row="0" Column="1"/>
-            <LayoutButtons index="4" Face="InfestorPassive" Type="Passive" Requirements="HotSHaveInfestor" Row="1" Column="0"/>
-            <LayoutButtons Face="ImprovedConsumption" Type="AbilCmd" AbilCmd="InfestationPitResearch,Research9" Row="0" Column="0"/>
-            <LayoutButtons Face="EvolveImprovedConsumptionLocked" Type="Passive" Requirements="KerriganLevel09" Row="0" Column="0"/>
-            <LayoutButtons Face="ResearchNeuralParasite" Type="AbilCmd" AbilCmd="InfestationPitResearch,Research4" Row="0" Column="1"/>
-            <LayoutButtons Face="ImprovedPlague" Type="AbilCmd" AbilCmd="InfestationPitResearch,Research10" Row="0" Column="1"/>
-            <LayoutButtons Face="EvolveImprovedPlagueLocked" Type="Passive" Requirements="KerriganLevel09" Row="0" Column="1"/>
-            <LayoutButtons Face="DefilerPassive" Type="Passive" Requirements="HotSHaveDefiler" Row="1" Column="0"/>
-            <LayoutButtons Face="HotSPressurizedGlands" Type="AbilCmd" AbilCmd="InfestationPitResearch,Research8" Row="0" Column="2"/>
+            <LayoutButtons index="2" Column="2"/>
+            <LayoutButtons index="3" Face="InfestorPassive" Type="Passive" AbilCmd="" Requirements="HotSHaveInfestor" Row="1"/>
+            <LayoutButtons index="4" Face="SwarmHostCarrionPassive" Type="Passive" Requirements="HotSHaveSwarmHostSplitA" Row="1" Column="0"/>
+            <LayoutButtons index="5" Face="SwarmHostCreeperPassive" Type="Passive" Requirements="HotSHaveSwarmHostSplitB" Row="1" Column="0"/>
+            <LayoutButtons index="6" Face="SwarmHostPassive" Type="Passive" Requirements="HotSHaveSwarmHost" Row="1" Column="0"/>
+            <LayoutButtons index="7">
+                <Face value="EvolveViperImprovedCastRange"/>
+                <Type value="AbilCmd"/>
+                <AbilCmd value="InfestationPitResearch,Research9"/>
+                <Requirements value=""/>
+                <Row value="0"/>
+                <Column value="1"/>
+            </LayoutButtons>
+            <LayoutButtons Face="SwarmHostDeepBurrow" Type="AbilCmd" AbilCmd="InfestationPitResearch,Research12" Row="0" Column="2"/>
+            <LayoutButtons Face="EvolveDeepTunnelLocked" Type="Passive" Requirements="AbathurLevel09" Row="0" Column="2"/>
+            <LayoutButtons Face="DefilerPassive" Type="Passive" Requirements="HotSHaveDefiler" Row="1" Column="1"/>
+            <LayoutButtons Face="ViperPassive" Type="Passive" Requirements="HotSHaveViper" Row="1" Column="1"/>
+            <LayoutButtons Face="HotSPressurizedGlands" Type="AbilCmd" AbilCmd="InfestationPitResearch,Research8" Row="0" Column="0"/>
+            <LayoutButtons Face="EvolveViperImprovedCastRangeLocked" Type="Passive" Requirements="AbathurLevel08" Row="0" Column="1"/>
+            <LayoutButtons Face="ResearchNeuralParasite" Type="AbilCmd" AbilCmd="InfestationPitResearch,Research4" Row="0" Column="3"/>
+            <LayoutButtons Face="EvolveViperAbductImprovedStun" Type="AbilCmd" AbilCmd="InfestationPitResearch,Research10" Row="0" Column="3"/>
+            <LayoutButtons Face="EvolveViperAbductImprovedStunLocked" Type="Passive" Requirements="AbathurLevel09" Row="0" Column="3"/>
         </CardLayouts>
         <ScoreMake value="0"/>
         <ScoreKill value="0"/>
@@ -5947,6 +6805,7 @@
         </CardLayouts>
         <BehaviorArray Link="HatcheryLarvaDeath"/>
         <BehaviorArray Link="SOAMapWideChronoPassiveTarget"/>
+        <BehaviorArray Link="HatcheryDoubleQueue"/>
         <Food value="6"/>
         <ScoreMake value="0"/>
         <ScoreKill value="0"/>
@@ -5954,8 +6813,8 @@
     </CUnit>
     <CUnit id="Larva">
         <CardLayouts index="0">
-            <LayoutButtons index="10" Face="SwarmHostMP" Type="AbilCmd" AbilCmd="LarvaTrain,Train15" Row="1" Column="4"/>
-            <LayoutButtons index="11" Face="MorphToSwarmHostSplitA" Type="AbilCmd" AbilCmd="LarvaTrainSwarm,Train26" Row="1" Column="4"/>
+            <LayoutButtons index="10" Face="SwarmHostMP" Type="AbilCmd" AbilCmd="LarvaTrain,Train15" Row="1" Column="1"/>
+            <LayoutButtons index="11" Face="MorphToSwarmHostSplitA" Type="AbilCmd" AbilCmd="LarvaTrainSwarm,Train26" Row="1" Column="1"/>
             <!--LayoutButtons index="10">
                 <Face value="BuildDefilerLocked"/>
                 <Type value="Passive"/>
@@ -5965,7 +6824,7 @@
                 <Column value="2"/>
             </LayoutButtons-->
             <LayoutButtons index="12" Face="MorphToMutaliskViper" Type="AbilCmd" AbilCmd="LarvaTrainSwarm,Train25" Row="2" Column="0"/>
-            <LayoutButtons index="14" Face="MorphToSwarmHostSplitB" Type="AbilCmd" AbilCmd="LarvaTrainSwarm,Train27" Row="1" Column="4"/>
+            <LayoutButtons index="14" Face="MorphToSwarmHostSplitB" Type="AbilCmd" AbilCmd="LarvaTrainSwarm,Train27" Row="1" Column="1"/>
             <LayoutButtons index="15" Face="Hydralisk" Type="AbilCmd" AbilCmd="LarvaTrain,Train4" Row="1" Column="1"/>
             <LayoutButtons index="16" Face="MorphToHydraliskImpaler" Type="AbilCmd" AbilCmd="LarvaTrainSwarm,Train21" Row="1" Column="1"/>
             <LayoutButtons index="17" Face="MorphToHydraliskLurker" Type="AbilCmd" AbilCmd="LarvaTrainSwarm,Train22" Row="1" Column="1"/>
@@ -5978,7 +6837,8 @@
             <LayoutButtons Face="Scourge" Type="AbilCmd" AbilCmd="LarvaTrainSwarm,Train30" Row="1" Column="0"/>
             <LayoutButtons Face="Defiler" Type="AbilCmd" AbilCmd="LarvaTrainSwarm,Train3" Row="1" Column="2"/>
             <LayoutButtons Face="Corruptor" Type="AbilCmd" AbilCmd="LarvaTrain,Train12" Row="1" Column="1"/>
-            <LayoutButtons Face="Brutalisk" Type="AbilCmd" AbilCmd="LarvaTrainSwarm,Train29" Row="2" Column="3"/>
+            <LayoutButtons Face="Viper" Type="AbilCmd" AbilCmd="LarvaTrain,Train13" Row="2" Column="1"/>
+            <LayoutButtons Face="BuildViperLocked" Type="Passive" Requirements="AbathurLevel08" Row="2" Column="1"/>
         </CardLayouts>
         <KillXP value="0"/>
         <DamageDealtXP value="0"/>
@@ -6012,6 +6872,7 @@
     <CUnit id="MULE">
         <BehaviorArray Link="AllUnitBehaviorController"/>
         <BehaviorArray Link="KelMorianWorkerCloak"/>
+        <BehaviorArray Link="SupplyLT1"/>
         <KillXP value="0"/>
         <DamageDealtXP value="0"/>
         <DamageTakenXP value="0"/>
@@ -6163,6 +7024,7 @@
         <Collide index="Structure" value="1"/>
         <Collide index="RoachBurrow" value="1"/>
         <Collide index="ForceField" value="1"/>
+        <Collide index="Locust" value="1"/>
         <Attributes index="Armored" value="1"/>
         <Attributes index="Mechanical" value="1"/>
         <Attributes index="Structure" value="1"/>
@@ -6218,12 +7080,15 @@
     </CUnit>
     <CUnit id="Mutalisk">
         <CardLayouts index="0">
-            <LayoutButtons index="5" Face="ExplosiveGlaive" Type="Passive" Requirements="HaveHotSExplosiveGlaive" Row="2" Column="3"/>
-            <LayoutButtons index="6" Face="ViciousGlaive" Type="Passive" Requirements="HaveHotSViciousGlaive" Row="2" Column="2"/>
-            <LayoutButtons index="7" Face="MutaliskRapidRegeneration" Type="Passive" Requirements="HaveHotSRapidRegeneration" Row="2" Column="1"/>
-            <LayoutButtons index="8" Face="MutaliskRegeneration" Type="Passive" Row="2" Column="1"/>
-            <LayoutButtons Face="MorphtoDevourer" Type="AbilCmd" AbilCmd="MutaliskMorphToDevourer,Train1" Row="1" Column="0"/>
+            <LayoutButtons index="5" Face="ExplosiveGlaive" Type="Passive" Requirements="HaveHotSExplosiveGlaive" Row="1" Column="2"/>
+            <LayoutButtons index="6" Face="ViciousGlaive" Type="Passive" Requirements="HaveHotSViciousGlaive" Row="1" Column="1"/>
+            <LayoutButtons index="7" Face="MutaliskRapidRegeneration" Type="Passive" Requirements="HaveHotSRapidRegeneration" Row="1" Column="0"/>
+            <LayoutButtons index="8" Face="MorphtoDevourer" Type="AbilCmd" AbilCmd="MutaliskMorphToDevourer,Train1" Row="2" Column="1"/>
             <LayoutButtons Face="MorphToGuardian" Type="AbilCmd" AbilCmd="MutaliskMorphToGuardian,Train1" Row="2" Column="0"/>
+            <LayoutButtons Face="EvolveToLeviathan" Type="AbilCmd" AbilCmd="EvolveToLeviathanMutalisk,Train1" Row="2" Column="2"/>
+            <LayoutButtons Face="EvolveToLeviathanLocked" Type="Passive" Requirements="AbathurLevel02" Row="2" Column="2"/>
+            <LayoutButtons Face="BiomassPassive" Type="Passive" Requirements="BiomassBuffVisible" Row="2" Column="3"/>
+            <LayoutButtons Face="BiomassPassiveEmpty" Type="Passive" Requirements="BiomassBuffEmptyVisible" Row="2" Column="3"/>
         </CardLayouts>
         <!--BehaviorArray Link="Supply2"/-->
         <BehaviorArray Link="AllUnitBehaviorController"/>
@@ -6235,6 +7100,7 @@
         <AbilArray Link="MutaliskMorphToGuardian"/>
         <AbilArray Link="MutaliskMorphToDevourer"/>
         <AbilArray Link="que1"/>
+        <AbilArray Link="EvolveToLeviathanMutalisk"/>
     </CUnit>
     <CUnit id="Nexus">
         <KillDisplay value="Never"/>
@@ -6253,6 +7119,7 @@
         <CardLayouts>
             <LayoutButtons Face="GroundMissileVolley" Type="AbilCmd" AbilCmd="VoidThrasherGroundMissileVolley,Execute" Row="2" Column="3"/>
         </CardLayouts>
+        <BehaviorArray Link="PreventKnockback"/>
     </CUnit>
     <CUnit id="Observer">
         <!--BehaviorArray Link="Supply1"/-->
@@ -6293,12 +7160,15 @@
         <Food value="15"/>
         <!--LayoutButtons Face="TrainKelMorianWorkers" Type="AbilCmd" AbilCmd="CommandCenterTrain,Train2" Row="0" Column="1"/-->
         <CardLayouts index="0">
+            <LayoutButtons index="7" Face="OrbitalCommandCalldownSupplyDepot" AbilCmd="OrbitalCommandSupplyDepotDrop,Build1"/>
             <LayoutButtons Face="Rally" Type="AbilCmd" AbilCmd="RallyCommand,Rally2" Row="1" Column="4"/>
+            <LayoutButtons Face="SupplyDrop" Type="AbilCmd" AbilCmd="SupplyDrop,Execute" Row="2" Column="1"/>
         </CardLayouts>
         <ScoreMake value="0"/>
         <ScoreKill value="0"/>
         <KillXP value="0"/>
         <BehaviorArray Link="SOAMapWideChronoPassiveTarget"/>
+        <AbilArray Link="OrbitalCommandSupplyDepotDrop"/>
     </CUnit>
     <CUnit id="OrbitalCommandFlying">
         <Food value="15"/>
@@ -6451,7 +7321,9 @@
     </CUnit>
     <CUnit id="Probe">
         <AbilArray Link="MapObjectInteract"/>
+        <AbilArray Link="MutatorRemoveWorkerSleep"/>
         <CardLayouts index="0">
+            <LayoutButtons Face="MutatorWorkerSleep" Type="AbilCmd" AbilCmd="MutatorRemoveWorkerSleep,Execute" Row="2" Column="3"/>
             <LayoutButtons Face="MapObjectInteract" Type="AbilCmd" AbilCmd="MapObjectInteract,Execute" Row="0" Column="0"/>
         </CardLayouts>
         <CardLayouts index="1" CardId="PBl1">
@@ -6607,6 +7479,7 @@
         <Collide index="Structure" value="1"/>
         <Collide index="RoachBurrow" value="1"/>
         <Collide index="ForceField" value="1"/>
+        <Collide index="Locust" value="1"/>
         <Attributes index="Armored" value="1"/>
         <Attributes index="Mechanical" value="1"/>
         <Attributes index="Structure" value="1"/>
@@ -6683,6 +7556,7 @@
             <LayoutButtons Face="CloakingField" Type="Passive" Row="1" Column="0"/>
             <LayoutButtons Face="MatrixOverload" Type="Passive" Requirements="HaveSOAMatrixOverload" Row="1" Column="1"/>
         </CardLayouts>
+        <Collide index="Locust" value="0"/>
     </CUnit>
     <CUnit id="Raven">
         <AbilArray Link="InstantSeekerMissile"/>
@@ -6705,9 +7579,11 @@
         <LifeRegenDelay value="0"/>
         <LifeRegenRate value="0"/>
         <Speed value="2.9531"/>
+        <AbilArray Link="ReaperSpiderMines"/>
         <CardLayouts index="0">
             <LayoutButtons index="5" AbilCmd="255,255" Column="1"/>
-            <LayoutButtons index="6" Face="D8Charge" Type="AbilCmd" AbilCmd="D8Charge,Execute" Row="2" Column="0"/>
+            <LayoutButtons index="6" Face="SpiderMine" Type="AbilCmd" AbilCmd="ReaperSpiderMines,Execute" Row="2" Column="0"/>
+            <!--LayoutButtons index="6" Face="D8Charge" Type="AbilCmd" AbilCmd="D8Charge,Execute" Row="2" Column="0"/-->
             <LayoutButtons index="7">
                 <Face value="U238Rounds"/>
                 <Type value="Passive"/>
@@ -6733,29 +7609,6 @@
         <DamageTakenXP value="0"/>
         <!--BehaviorArray Link="WarpInAttackSpeedBehavior"/-->
     </CUnit>
-    <CUnit id="Roach">
-        <!--BehaviorArray Link="Supply2"/-->
-        <BehaviorArray Link="AllUnitBehaviorController"/>
-        <TacticalAIThink value="AIThinkRoach"/>
-        <CardLayouts index="0">
-            <LayoutButtons index="5" Row="1"/>
-            <LayoutButtons index="7" Requirements="HaveOrganicCarapace" Row="1"/>
-            <LayoutButtons index="8" Row="1" Column="2"/>
-            <LayoutButtons index="9" Row="1" Column="3"/>
-            <LayoutButtons Face="MorphToCorpserAbathur" Type="AbilCmd" AbilCmd="MorphRoachToCorpser,Train1" Row="2" Column="0"/>
-            <LayoutButtons Face="MorphToVileAbathur" Type="AbilCmd" AbilCmd="MorphRoachToVile,Train1" Row="2" Column="1"/>
-            <LayoutButtons Face="Ravager" Type="AbilCmd" AbilCmd="MorphRoachToRavager,Train1" Row="2" Column="2"/>
-        </CardLayouts>
-        <ScoreMake value="0"/>
-        <ScoreKill value="0"/>
-        <KillXP value="0"/>
-        <DamageDealtXP value="0"/>
-        <DamageTakenXP value="0"/>
-        <AbilArray Link="MorphRoachToCorpser"/>
-        <AbilArray Link="MorphRoachToVile"/>
-        <AbilArray Link="MorphRoachToRavager"/>
-        <AbilArray Link="que1"/>
-    </CUnit>
     <CUnit id="RoachBurrowed">
         <!--BehaviorArray Link="Supply2"/-->
         <BehaviorArray Link="AllUnitBehaviorController"/>
@@ -6768,10 +7621,26 @@
         <DamageTakenXP value="0"/>
         <CardLayouts index="0">
             <LayoutButtons index="2" Row="1"/>
-            <LayoutButtons index="8" Face="TunnelingClaws" Type="Passive" Requirements="HaveOrganicCarapace" Row="1" Column="1"/>
-            <LayoutButtons index="9" Face="HotSRoachDamage" Type="Passive" Requirements="HaveHotSRoachDamage" Row="1" Column="2"/>
-            <LayoutButtons index="10" Face="HotSRoachShield" Type="Passive" Requirements="HaveHotSRoachShield" Row="1" Column="3"/>
+            <LayoutButtons index="4">
+                <Face value="StopRoachBurrowed"/>
+                <Type value="AbilCmd"/>
+                <AbilCmd value="stop,Stop"/>
+                <Requirements value=""/>
+                <Row value="0"/>
+                <Column value="1"/>
+            </LayoutButtons>
+            <LayoutButtons index="8" Face="ZerglingBurrowMove" Type="Passive" Requirements="HaveOrganicCarapace" Row="1" Column="2"/>
+            <LayoutButtons index="9" Face="HotSRoachShield" Type="Passive" Requirements="HaveHotSRoachShield" Row="1" Column="3"/>
+            <LayoutButtons index="10" Face="HotSRoachDamage" Type="Passive" Requirements="HaveHotSRoachDamage" Row="1" Column="3"/>
+            <LayoutButtons Face="GlialReconstitutionPassive" Type="Passive" Requirements="HaveGlialReconstitution" Row="1" Column="1"/>
+            <LayoutButtons Face="EvolveToBrutalisk" Type="AbilCmd" AbilCmd="EvolveToBrutaliskRoach,Train1" Row="2" Column="2"/>
+            <LayoutButtons Face="EvolveToBrutaliskLocked" Type="Passive" Requirements="AbathurLevel02" Row="2" Column="2"/>
+            <LayoutButtons Face="BiomassPassive" Type="Passive" Requirements="BiomassBuffVisible" Row="2" Column="3"/>
+            <LayoutButtons Face="BiomassPassiveEmpty" Type="Passive" Requirements="BiomassBuffEmptyVisible" Row="2" Column="3"/>
         </CardLayouts>
+        <AbilArray index="1" Link="stop"/>
+        <AbilArray Link="EvolveToBrutaliskRoach"/>
+        <AbilArray Link="que1"/>
     </CUnit>
     <CUnit id="RoachCorpser">
         <!--BehaviorArray Link="Supply2"/-->
@@ -6782,19 +7651,19 @@
         <KillXP value="0"/>
         <DamageDealtXP value="0"/>
         <DamageTakenXP value="0"/>
-        <CostResource index="Minerals" value="100"/>
-        <CostResource index="Vespene" value="0"/>
-        <CostResource index="Terrazine" value="25"/>
         <CardLayouts index="0">
             <LayoutButtons index="6" Face="RapidRegeneration" Type="Passive" Row="1" Column="0"/>
             <LayoutButtons index="7" Face="TunnelingClaws" Type="Passive" Requirements="HaveOrganicCarapace" Row="1" Column="1"/>
             <LayoutButtons index="8" Face="HotSRoachDamage" Type="Passive" Requirements="HaveHotSRoachDamage" Row="1" Column="2"/>
             <LayoutButtons index="9" Face="HotSRoachShield" Type="Passive" Requirements="HaveHotSRoachShield" Row="1" Column="3"/>
             <LayoutButtons index="10" Face="CorpserPassive" Type="Passive" Row="1" Column="4"/>
+            <LayoutButtons Face="Ravager" Type="AbilCmd" AbilCmd="MorphRoachToRavager,Train1" Row="2" Column="0"/>
         </CardLayouts>
         <LifeStart value="145"/>
         <LifeMax value="145"/>
         <SubgroupPriority value="16"/>
+        <AbilArray Link="que1"/>
+        <AbilArray Link="MorphRoachToRavager"/>
     </CUnit>
     <CUnit id="RoachCorpserBurrowed">
         <!--BehaviorArray Link="Supply2"/-->
@@ -6805,10 +7674,15 @@
         <KillXP value="0"/>
         <DamageDealtXP value="0"/>
         <DamageTakenXP value="0"/>
-        <CostResource index="Minerals" value="100"/>
-        <CostResource index="Vespene" value="0"/>
-        <CostResource index="Terrazine" value="25"/>
         <CardLayouts index="0">
+            <LayoutButtons index="3">
+                <Face value="StopRoachBurrowed"/>
+                <Type value="AbilCmd"/>
+                <AbilCmd value="stop,Stop"/>
+                <Requirements value=""/>
+                <Row value="0"/>
+                <Column value="1"/>
+            </LayoutButtons>
             <LayoutButtons index="6" Face="RapidRegeneration" Type="Passive" Row="1" Column="0"/>
             <LayoutButtons index="7" Face="TunnelingClaws" Type="Passive" Requirements="HaveOrganicCarapace" Row="1" Column="1"/>
             <LayoutButtons index="8" Face="HotSRoachDamage" Type="Passive" Requirements="HaveHotSRoachDamage" Row="1" Column="2"/>
@@ -6818,6 +7692,7 @@
         <LifeStart value="145"/>
         <LifeMax value="145"/>
         <SubgroupPriority value="16"/>
+        <AbilArray index="2" Link="stop"/>
     </CUnit>
     <CUnit id="RoachVile">
         <!--BehaviorArray Link="Supply2"/-->
@@ -6828,19 +7703,25 @@
         <KillXP value="0"/>
         <DamageDealtXP value="0"/>
         <DamageTakenXP value="0"/>
-        <CostResource index="Minerals" value="100"/>
-        <CostResource index="Vespene" value="0"/>
-        <CostResource index="Terrazine" value="25"/>
         <CardLayouts index="0">
             <LayoutButtons index="6" Face="RapidRegeneration" Type="Passive" Row="1" Column="0"/>
-            <LayoutButtons index="7" Face="TunnelingClaws" Type="Passive" Requirements="HaveOrganicCarapace" Row="1" Column="1"/>
-            <LayoutButtons index="8" Face="HotSRoachDamage" Type="Passive" Requirements="HaveHotSRoachDamage" Row="1" Column="2"/>
-            <LayoutButtons index="9" Face="HotSRoachShield" Type="Passive" Requirements="HaveHotSRoachShield" Row="1" Column="3"/>
+            <LayoutButtons index="7" Face="ZerglingBurrowMove" Type="Passive" Requirements="HaveOrganicCarapace" Row="1" Column="2"/>
+            <LayoutButtons index="8" Face="HotSRoachShield" Type="Passive" Requirements="HaveHotSRoachShield" Row="1" Column="3"/>
+            <LayoutButtons index="9" Face="HotSRoachDamage" Type="Passive" Requirements="HaveHotSRoachDamage" Row="1" Column="3"/>
             <LayoutButtons index="10" Face="VilePassive" Type="Passive" Row="1" Column="4"/>
+            <LayoutButtons Face="GlialReconstitutionPassive" Type="Passive" Requirements="HaveGlialReconstitution" Row="1" Column="1"/>
+            <LayoutButtons Face="Ravager" Type="AbilCmd" AbilCmd="MorphRoachToRavager,Train1" Row="2" Column="0"/>
+            <LayoutButtons Face="EvolveToBrutalisk" Type="AbilCmd" AbilCmd="EvolveToBrutaliskRoachVile,Train1" Row="2" Column="2"/>
+            <LayoutButtons Face="EvolveToBrutaliskLocked" Type="Passive" Requirements="AbathurLevel02" Row="2" Column="2"/>
+            <LayoutButtons Face="BiomassPassive" Type="Passive" Requirements="BiomassBuffVisible" Row="2" Column="3"/>
+            <LayoutButtons Face="BiomassPassiveEmpty" Type="Passive" Requirements="BiomassBuffEmptyVisible" Row="2" Column="3"/>
         </CardLayouts>
         <LifeStart value="145"/>
         <LifeMax value="145"/>
         <SubgroupPriority value="16"/>
+        <AbilArray Link="que1"/>
+        <AbilArray Link="MorphRoachToRavager"/>
+        <AbilArray Link="EvolveToBrutaliskRoachVile"/>
     </CUnit>
     <CUnit id="RoachVileBurrowed">
         <!--BehaviorArray Link="Supply2"/-->
@@ -6851,31 +7732,49 @@
         <KillXP value="0"/>
         <DamageDealtXP value="0"/>
         <DamageTakenXP value="0"/>
-        <CostResource index="Minerals" value="100"/>
-        <CostResource index="Vespene" value="0"/>
-        <CostResource index="Terrazine" value="25"/>
         <CardLayouts index="0">
+            <LayoutButtons index="3">
+                <Face value="StopRoachBurrowed"/>
+                <Type value="AbilCmd"/>
+                <AbilCmd value="stop,Stop"/>
+                <Requirements value=""/>
+                <Row value="0"/>
+                <Column value="1"/>
+            </LayoutButtons>
             <LayoutButtons index="6" Face="RapidRegeneration" Type="Passive" Row="1" Column="0"/>
-            <LayoutButtons index="7" Face="TunnelingClaws" Type="Passive" Requirements="HaveOrganicCarapace" Row="1" Column="1"/>
-            <LayoutButtons index="8" Face="HotSRoachDamage" Type="Passive" Requirements="HaveHotSRoachDamage" Row="1" Column="2"/>
-            <LayoutButtons index="9" Face="HotSRoachShield" Type="Passive" Requirements="HaveHotSRoachShield" Row="1" Column="3"/>
+            <LayoutButtons index="7" Face="ZerglingBurrowMove" Type="Passive" Requirements="HaveOrganicCarapace" Row="1" Column="2"/>
+            <LayoutButtons index="8" Face="HotSRoachShield" Type="Passive" Requirements="HaveHotSRoachShield" Row="1" Column="3"/>
+            <LayoutButtons index="9" Face="HotSRoachDamage" Type="Passive" Requirements="HaveHotSRoachDamage" Row="1" Column="3"/>
             <LayoutButtons index="10" Face="VilePassive" Type="Passive" Row="1" Column="4"/>
+            <LayoutButtons Face="GlialReconstitutionPassive" Type="Passive" Requirements="HaveGlialReconstitution" Row="1" Column="1"/>
+            <LayoutButtons Face="BiomassPassive" Type="Passive" Requirements="BiomassBuffVisible" Row="2" Column="3"/>
+            <LayoutButtons Face="BiomassPassiveEmpty" Type="Passive" Requirements="BiomassBuffEmptyVisible" Row="2" Column="3"/>
+            <LayoutButtons Face="EvolveToBrutalisk" Type="AbilCmd" AbilCmd="EvolveToBrutaliskRoachVile,Train1" Row="2" Column="2"/>
+            <LayoutButtons Face="EvolveToBrutaliskLocked" Type="Passive" Requirements="AbathurLevel02" Row="2" Column="2"/>
         </CardLayouts>
         <LifeStart value="145"/>
         <LifeMax value="145"/>
         <SubgroupPriority value="16"/>
+        <AbilArray index="2" Link="stop"/>
+        <AbilArray Link="que1"/>
+        <AbilArray Link="EvolveToBrutaliskRoachVile"/>
     </CUnit>
     <CUnit id="RoachWarren">
         <CardLayouts index="0">
+            <LayoutButtons index="5" Face="RoachVilePassive" Requirements="HaveRoachVile" Row="2"/>
+            <LayoutButtons index="6" Face="RoachCorpserPassive" Requirements="HaveRoachCorpser" Row="2"/>
+            <LayoutButtons index="7" Row="2"/>
             <LayoutButtons Face="Cancel" Type="AbilCmd" AbilCmd="UpgradeToGreaterRoachWarren,Cancel" Row="2" Column="4"/>
-            <LayoutButtons Face="EvolveHydriodicBile" Type="AbilCmd" AbilCmd="RoachWarrenResearch,Research5" Row="0" Column="2"/>
-            <LayoutButtons Face="EvolveAdaptivePlating" Type="AbilCmd" AbilCmd="RoachWarrenResearch,Research6" Row="0" Column="3"/>
-            <LayoutButtons Face="GreaterRoachWarren" Type="AbilCmd" AbilCmd="UpgradeToGreaterRoachWarren,Execute" Row="2" Column="0"/>
+            <LayoutButtons Face="EvolveAdaptivePlating" Type="AbilCmd" AbilCmd="RoachWarrenResearch,Research6" Row="0" Column="2"/>
+            <LayoutButtons Face="EvolveAdaptivePlatingLocked" Type="Passive" Requirements="AbathurLevel04" Row="0" Column="2"/>
+            <LayoutButtons Face="EvolveCorrosiveBileRadiusIncrease" Type="AbilCmd" AbilCmd="RoachWarrenResearch,Research7" Row="1" Column="0"/>
+            <LayoutButtons Face="EvolveCorrosiveBileDamageIncrease" Type="AbilCmd" AbilCmd="RoachWarrenResearch,Research8" Row="1" Column="1"/>
+            <LayoutButtons Face="EvolveCorrosiveBileDamageIncreaseLocked" Type="Passive" Requirements="AbathurLevel04" Row="1" Column="1"/>
+            <LayoutButtons Face="RavagerPassive" Type="Passive" Requirements="HaveLair" Row="2" Column="1"/>
         </CardLayouts>
         <ScoreMake value="0"/>
         <ScoreKill value="0"/>
         <BehaviorArray Link="SOAMapWideChronoPassiveTarget"/>
-        <AbilArray Link="UpgradeToGreaterRoachWarren"/>
         <TechAliasArray value="Alias_RoachWarren"/>
     </CUnit>
     <CUnit id="GreaterRoachWarren">
@@ -6942,7 +7841,6 @@
         <EditorCategories value="ObjectType:Structure,ObjectFamily:Melee"/>
         <TechAliasArray value="Alias_RoachWarren"/>
         <GlossaryPriority value="33"/>
-        <HotkeyCategory value="Unit/Category/ZergUnits"/>
         <TechTreeUnlockedUnitArray value="Roach"/>
         <TechTreeUnlockedUnitArray value="Ravager"/>
     </CUnit>
@@ -7031,9 +7929,11 @@
     </CUnit>
     <CUnit id="SCV">
         <AbilArray Link="MapObjectInteract"/>
+        <AbilArray Link="MutatorRemoveWorkerSleep"/>
         <CardLayouts index="0">
             <LayoutButtons Face="CommanderSwannImprovedSCVs" Type="Passive" Requirements="HaveAdvancedConstruction" Row="1" Column="4"/>
             <LayoutButtons Face="MapObjectInteract" Type="AbilCmd" AbilCmd="MapObjectInteract,Execute" Row="0" Column="0"/>
+            <LayoutButtons Face="MutatorWorkerSleep" Type="AbilCmd" AbilCmd="MutatorRemoveWorkerSleep,Execute" Row="2" Column="3"/>
         </CardLayouts>
         <CardLayouts index="1" CardId="TBl1">
             <LayoutButtons index="7" Face="BuildKelMorianRocketTurret" AbilCmd="TerranBuild,Build27"/>
@@ -7429,6 +8329,7 @@
         <DamageDealtXP value="0"/>
         <DamageTakenXP value="0"/>
         <TacticalAIThink value="AIThinkScienceVessel"/>
+        <SubgroupPriority value="40"/>
     </CUnit>
     <CUnit id="Scourge">
         <CostResource index="Minerals" value="12"/>
@@ -7871,6 +8772,78 @@
         <MinimapRadius value="1.75"/>
         <EditorCategories value="ObjectType:Structure,ObjectFamily:Campaign"/>
     </CUnit>
+    <CUnit id="CoopCasterZagara">
+        <DeathRevealRadius value="3"/>
+        <Race value="Terr"/>
+        <Mob value="Campaign"/>
+        <FlagArray index="Turnable" value="0"/>
+        <FlagArray index="PenaltyRevealed" value="1"/>
+        <FlagArray index="UseLineOfSight" value="1"/>
+        <FlagArray index="TownAlert" value="1"/>
+        <FlagArray index="Invulnerable" value="1"/>
+        <FlagArray index="NoPortraitTalk" value="1"/>
+        <FlagArray index="ArmorDisabledWhileConstructing" value="1"/>
+        <FogVisibility value="Snapshot"/>
+        <PlaneArray index="Ground" value="1"/>
+        <Collide index="Burrow" value="1"/>
+        <Collide index="Ground" value="1"/>
+        <Collide index="Structure" value="1"/>
+        <Collide index="RoachBurrow" value="1"/>
+        <Collide index="ForceField" value="1"/>
+        <Attributes index="Armored" value="1"/>
+        <Attributes index="Structure" value="1"/>
+        <LifeStart value="450"/>
+        <LifeMax value="450"/>
+        <LifeArmor value="1"/>
+        <Sight value="0.5"/>
+        <CostResource index="Minerals" value="150"/>
+        <AttackTargetPriority value="11"/>
+        <AbilArray Link="stop"/>
+        <AbilArray Link="BuildInProgress"/>
+        <Radius value="1.75"/>
+        <SeparationRadius value="1.75"/>
+        <Footprint value="Footprint3x3Contour"/>
+        <PlacementFootprint value="Footprint3x3"/>
+        <SubgroupPriority value="2"/>
+        <MinimapRadius value="1.75"/>
+        <EditorCategories value="ObjectType:Structure,ObjectFamily:Campaign"/>
+    </CUnit>
+    <CUnit id="CoopCasterKerrigan">
+        <DeathRevealRadius value="3"/>
+        <Race value="Terr"/>
+        <Mob value="Campaign"/>
+        <FlagArray index="Turnable" value="0"/>
+        <FlagArray index="PenaltyRevealed" value="1"/>
+        <FlagArray index="UseLineOfSight" value="1"/>
+        <FlagArray index="TownAlert" value="1"/>
+        <FlagArray index="Invulnerable" value="1"/>
+        <FlagArray index="NoPortraitTalk" value="1"/>
+        <FlagArray index="ArmorDisabledWhileConstructing" value="1"/>
+        <FogVisibility value="Snapshot"/>
+        <PlaneArray index="Ground" value="1"/>
+        <Collide index="Burrow" value="1"/>
+        <Collide index="Ground" value="1"/>
+        <Collide index="Structure" value="1"/>
+        <Collide index="RoachBurrow" value="1"/>
+        <Collide index="ForceField" value="1"/>
+        <Attributes index="Armored" value="1"/>
+        <Attributes index="Structure" value="1"/>
+        <LifeStart value="450"/>
+        <LifeMax value="450"/>
+        <LifeArmor value="1"/>
+        <Sight value="0.5"/>
+        <CostResource index="Minerals" value="150"/>
+        <AttackTargetPriority value="11"/>
+        <AbilArray Link="stop"/>
+        <AbilArray Link="BuildInProgress"/>
+        <Radius value="1.75"/>
+        <SeparationRadius value="1.75"/>
+        <Footprint value="Footprint3x3Contour"/>
+        <PlacementFootprint value="Footprint3x3"/>
+        <SubgroupPriority value="2"/>
+        <MinimapRadius value="1.75"/>
+        <EditorCategories value="ObjectType:Structure,ObjectFamily:Campaign"/>
+    </CUnit>
     <CUnit id="SpartanCompany">
         <!--BehaviorArray Link="RaynorMercVeterancyApplyDummy"/-->
         <!--BehaviorArray Link="Supply2"/-->
@@ -7957,24 +8930,32 @@
                 <Row value="2"/>
                 <Column value="4"/>
             </LayoutButtons>
-            <LayoutButtons index="11" Face="MutaliskBroodlordPassive" Type="Passive" Requirements="HaveHotSMutaliskBroodLord" Row="1" Column="0"/>
-            <LayoutButtons index="12" Face="MutaliskViperPassive" Type="Passive" Requirements="HaveHotSMutaliskViper" Row="1" Column="0"/>
+            <LayoutButtons index="11" Face="MutaliskBroodlordPassive" Type="Passive" Requirements="HaveHotSMutaliskBroodLord" Row="2" Column="1"/>
+            <LayoutButtons index="12" Face="MutaliskViperPassive" Type="Passive" Requirements="HaveHotSMutaliskViper" Row="2" Column="1"/>
             <LayoutButtons index="13">
                 <Face value="MutaliskPassive"/>
                 <Type value="Passive"/>
                 <AbilCmd value=""/>
                 <Requirements value="HaveCoopMutalisk"/>
-                <Row value="1"/>
-                <Column value="0"/>
+                <Row value="2"/>
+                <Column value="1"/>
             </LayoutButtons>
             <LayoutButtons index="14" Face="GreaterSpireBroodlord" Type="AbilCmd" AbilCmd="UpgradeToGreaterSpireBroodlord,Execute" Row="2" Column="0"/>
             <LayoutButtons index="16" Face="EvolveViciousGlaive" Type="AbilCmd" AbilCmd="SpireResearch,Research7" Row="0" Column="3"/>
+            <LayoutButtons Face="BroodLordPassive" Type="Passive" Requirements="HaveHotSMutaliskBroodLordAndHaveGreaterSpire" Row="2" Column="2"/>
             <!--LayoutButtons Face="EvolveViciousGlaiveLocked" Type="Passive" Requirements="KerriganLevel11" Row="0" Column="3"/-->
+            <LayoutButtons Face="GuardianPassive" Type="Passive" Requirements="HaveGuardian" Row="2" Column="2"/>
+            <LayoutButtons Face="EvolveGuardianAttackRangeIncrease" Type="AbilCmd" AbilCmd="SpireResearch,Research11" Row="1" Column="0"/>
+            <LayoutButtons Face="EvolveBroodLordSpeed" Type="AbilCmd" AbilCmd="SpireResearch,Research8" Row="1" Column="0"/>
+            <LayoutButtons Face="EvolveGuardianAttackRangeIncreaseLocked" Type="Passive" Requirements="AbathurLevel12" Row="1" Column="0"/>
+            <LayoutButtons Face="EvolveBroodlordSpeedLocked" Type="Passive" Requirements="KerriganLevel11" Row="1" Column="0"/>
             <LayoutButtons Face="EvolveSunderingGlave" Type="AbilCmd" AbilCmd="SpireResearch,Research9" Row="0" Column="4"/>
             <LayoutButtons Face="EvolveSunderingGlaveLocked" Type="Passive" Requirements="KerriganLevel11" Row="0" Column="4"/>
-            <LayoutButtons Face="EvolveBroodLordSpeed" Type="AbilCmd" AbilCmd="SpireResearch,Research8" Row="1" Column="4"/>
-            <LayoutButtons Face="EvolveBroodlordSpeedLocked" Type="Passive" Requirements="KerriganLevel11" Row="1" Column="4"/>
+            <LayoutButtons Face="EvolveSunderingGlaveLocked" Type="Passive" Requirements="AbathurLevel11" Row="0" Column="4"/>
             <LayoutButtons Face="EvolveMutaliskRapidRegeneration" Type="AbilCmd" AbilCmd="SpireResearch,Research10" Row="0" Column="2"/>
+            <LayoutButtons Face="EvolveDevourerAoEDamage" Type="AbilCmd" AbilCmd="SpireResearch,Research12" Row="1" Column="1"/>
+            <LayoutButtons Face="EvolveDevourerAoEDamageLocked" Type="Passive" Requirements="AbathurLevel12" Row="1" Column="1"/>
+            <LayoutButtons Face="DevourerPassive" Type="Passive" Requirements="HotSHaveDevourer" Row="2" Column="3"/>
         </CardLayouts>
         <ScoreMake value="0"/>
         <ScoreKill value="0"/>
@@ -8028,6 +9009,7 @@
             <LayoutButtons index="8" removed="1"/>
             <LayoutButtons index="9" removed="1"/>
             <LayoutButtons index="10" removed="1"/>
+            <LayoutButtons index="11" removed="1"/>
         </CardLayouts>
         <Attributes index="Mechanical" value="1"/>
         <ScoreMake value="0"/>
@@ -8108,6 +9090,7 @@
             </LayoutButtons>
             <LayoutButtons Face="VikingFighter" Type="AbilCmd" AbilCmd="StarportTrain,Train5" Row="0" Column="0"/>
             <LayoutButtons Face="Raven" Type="AbilCmd" AbilCmd="StarportTrain,Train3" Row="0" Column="2"/>
+            <LayoutButtons Face="OrbitalDropPodsPassive" Type="Passive" Requirements="HaveOrbitalDropPods" Row="1" Column="0"/>
         </CardLayouts>
         <CardLayouts index="1" CardId="CAMP">
             <LayoutButtons index="1" Face="BuildScienceVessel" AbilCmd="StarportTrain,Train9" Column="2"/>
@@ -8226,17 +9209,47 @@
     <CUnit id="SwarmHost">
         <!--BehaviorArray Link="Supply3"/-->
         <WeaponArray Link="SwarmHostFakeWeapon"/>
-        <BehaviorArray Link="AllUnitBehaviorController"/>
+        <BehaviorArray index="0" Link="SwarmHostPressurizedGlands"/>
+        <BehaviorArray index="1" Link="AllUnitBehaviorController"/>
         <CardLayouts index="0">
-            <LayoutButtons index="9" Face="HotSPressurizedGlands" Type="Passive" Requirements="HaveHotSPressurizedGlands" Row="2" Column="2"/>
+            <LayoutButtons index="6" Face="BurrowSwarmHost" Type="Passive" Requirements="HaveHotSBurrowSwarmHost" Row="1" Column="1"/>
+            <LayoutButtons index="7" Face="RapidIncubation" Type="Passive" Requirements="HaveHotSRapidIncubation" Row="1" Column="1"/>
+            <LayoutButtons index="8" Face="LocustSpeed" Type="Passive" Requirements="HaveHotSLocustSpeed" Row="1" Column="1"/>
+            <LayoutButtons index="9" Face="HotSPressurizedGlands" Type="Passive" Requirements="HaveHotSPressurizedGlands" Row="1" Column="0"/>
+            <LayoutButtons index="10" Face="SwarmHostRootBurrow" Type="AbilCmd" AbilCmd="MorphToSwarmHostBurrowed,Execute" Row="2" Column="4"/>
+            <LayoutButtons index="11" Face="AbathurDeepTunnel" Type="AbilCmd" AbilCmd="AbathurDeepTunnel,Execute" Row="2" Column="1"/>
+            <LayoutButtons Face="DeepTunnelLocked" Type="Passive" Requirements="AbathurLevel09" Row="2" Column="1"/>
+            <LayoutButtons Face="BiomassPassive" Type="Passive" Requirements="BiomassBuffVisible" Row="2" Column="3"/>
+            <LayoutButtons Face="BiomassPassiveEmpty" Type="Passive" Requirements="BiomassBuffEmptyVisible" Row="2" Column="3"/>
+            <LayoutButtons Face="EvolveToBrutalisk" Type="AbilCmd" AbilCmd="EvolveToBrutaliskSwarmHost,Train1" Row="2" Column="2"/>
+            <LayoutButtons Face="EvolveToBrutaliskLocked" Type="Passive" Requirements="AbathurLevel02" Row="2" Column="2"/>
+            <LayoutButtons Face="LocustLaunch" Type="AbilCmd" AbilCmd="LocustLaunch,Execute" Row="2" Column="0"/>
         </CardLayouts>
+        <AbilArray Link="AbathurDeepTunnel"/>
+        <AbilArray Link="LocustLaunch"/>
+        <AbilArray Link="EvolveToBrutaliskSwarmHost"/>
+        <AbilArray Link="que1"/>
+        <Description value="Button/Tooltip/SwarmHostAbathur"/>
     </CUnit>
     <CUnit id="SwarmHostBurrowed">
         <!--BehaviorArray Link="Supply3"/-->
         <BehaviorArray Link="AllUnitBehaviorController"/>
+        <BehaviorArray Link="SwarmHostCreep"/>
         <CardLayouts index="0">
-            <LayoutButtons index="4" Face="HotSPressurizedGlands" Type="Passive" Requirements="HaveHotSPressurizedGlands" Row="2" Column="2"/>
+            <LayoutButtons index="1" Face="BurrowSwarmHost" Type="Passive" Requirements="HaveHotSBurrowSwarmHost" Row="1" Column="1"/>
+            <LayoutButtons index="2" Face="RapidIncubation" Type="Passive" Requirements="HaveHotSRapidIncubation" Row="1" Column="1"/>
+            <LayoutButtons index="3" Face="LocustSpeed" Type="Passive" Requirements="HaveHotSLocustSpeed" Row="1" Column="1"/>
+            <LayoutButtons index="4" Face="HotSPressurizedGlands" Type="Passive" Requirements="HaveHotSPressurizedGlands" Row="1" Column="0"/>
+            <LayoutButtons Face="EvolveToBrutalisk" Type="AbilCmd" AbilCmd="EvolveToBrutaliskSwarmHost,Train1" Row="2" Column="2"/>
+            <LayoutButtons Face="EvolveToBrutaliskLocked" Type="Passive" Requirements="AbathurLevel02" Row="2" Column="2"/>
+            <LayoutButtons Face="BiomassPassive" Type="Passive" Requirements="BiomassBuffVisible" Row="2" Column="3"/>
+            <LayoutButtons Face="BiomassPassiveEmpty" Type="Passive" Requirements="BiomassBuffEmptyVisible" Row="2" Column="3"/>
+            <LayoutButtons Face="AbathurDeepTunnel" Type="AbilCmd" AbilCmd="AbathurDeepTunnel,Execute" Row="2" Column="1"/>
+            <LayoutButtons Face="DeepTunnelLocked" Type="Passive" Requirements="AbathurLevel09" Row="2" Column="1"/>
         </CardLayouts>
+        <AbilArray Link="AbathurDeepTunnel"/>
+        <AbilArray Link="EvolveToBrutaliskSwarmHost"/>
+        <Description value="Button/Tooltip/SwarmHostAbathur"/>
     </CUnit>
     <CUnit id="SwarmHostBurrowedMP">
         <!--BehaviorArray Link="Supply3"/-->
@@ -8638,7 +9651,7 @@
         <ScoreKill value="0"/>
         <AbilArray Link="VehicleAfterburners"/>
         <CardLayouts index="0">
-            <LayoutButtons index="7" Face="RipwaveMissiles" Type="Passive" Requirements="HALORocketsResearched" Row="2" Column="4"/>
+            <LayoutButtons index="7" Column="4"/>
             <LayoutButtons Face="IgniteAfterburners" Type="AbilCmd" AbilCmd="VehicleAfterburners,Execute" Row="2" Column="2"/>
             <LayoutButtons Face="AfterburnersLocked" Type="Passive" Requirements="RaynorLevel11" Row="2" Column="2"/>
         </CardLayouts>
@@ -8671,10 +9684,20 @@
         <KillXP value="0"/>
         <DamageDealtXP value="0"/>
         <DamageTakenXP value="0"/>
-        <AbilArray Link="ParasiticBomb"/>
+        <AbilArray index="3" Link="ParasiticBomb"/>
+        <AbilArray Link="EvolveToLeviathanViper"/>
+        <AbilArray Link="que1"/>
         <CardLayouts index="0">
             <LayoutButtons Face="ParasiticBomb" Type="AbilCmd" AbilCmd="ParasiticBomb,Execute" Row="2" Column="3"/>
+            <LayoutButtons Face="ViperImprovedCastRangePassive" Type="Passive" Requirements="HaveViperImprovedCastRange" Row="1" Column="0"/>
+            <LayoutButtons Face="ViperAbductImprovedStunPassive" Type="Passive" Requirements="HaveViperAbductImprovedStun" Row="1" Column="1"/>
+            <LayoutButtons Face="EvolveToLeviathan" Type="AbilCmd" AbilCmd="EvolveToLeviathanViper,Train1" Row="2" Column="4"/>
+            <LayoutButtons Face="EvolveToLeviathanLocked" Type="Passive" Requirements="AbathurLevel02" Row="2" Column="4"/>
+            <LayoutButtons Face="BiomassPassive" Type="Passive" Requirements="BiomassBuffVisible" Row="1" Column="4"/>
+            <LayoutButtons Face="BiomassPassiveEmpty" Type="Passive" Requirements="BiomassBuffEmptyVisible" Row="1" Column="4"/>
         </CardLayouts>
+        <CostResource index="Minerals" value="100"/>
+        <TacticalAIThink value="AIThinkViperAC"/>
     </CUnit>
     <CUnit id="ViperCocoon">
         <KillXP value="0"/>
@@ -8757,6 +9780,43 @@
     <CUnit id="VoidRift">
         <Attributes index="Heroic" value="1"/>
     </CUnit>
+    <CUnit id="MutatorVoidRift">
+        <DeathRevealRadius value="3"/>
+        <ReviveType value="VoidRift"/>
+        <FlagArray index="UseLineOfSight" value="1"/>
+        <FlagArray index="NoPortraitTalk" value="1"/>
+        <FogVisibility value="Dimmed"/>
+        <PlaneArray index="Ground" value="1"/>
+        <Collide index="Structure" value="1"/>
+        <Attributes index="Armored" value="1"/>
+        <Attributes index="Structure" value="1"/>
+        <Attributes index="Heroic" value="1"/>
+        <LifeStart value="500"/>
+        <LifeMax value="500"/>
+        <LifeArmor value="1"/>
+        <LifeArmorName value="Unit/LifeArmorName/HybridArmor"/>
+        <StationaryTurningRate value="719.4726"/>
+        <TurningRate value="719.4726"/>
+        <Sight value="9"/>
+        <AttackTargetPriority value="11"/>
+        <Radius value="1"/>
+        <SeparationRadius value="1"/>
+        <Footprint value="FootprintVoidRift"/>
+        <PlacementFootprint value="FootprintVoidRift"/>
+        <SubgroupPriority value="2"/>
+        <MinimapRadius value="1.75"/>
+        <EditorCategories value="ObjectType:Structure,ObjectFamily:Campaign"/>
+        <TacticalAI value="VoidRift"/>
+        <LeaderAlias value="VoidRift"/>
+        <HotkeyAlias value="VoidRift"/>
+        <SelectAlias value="VoidRift"/>
+        <SubgroupAlias value="VoidRift"/>
+        <AIEvaluateAlias value="VoidRift"/>
+        <ReviveInfoBase>
+            <Charge Link="VoidRift/Revive"/>
+            <Cooldown Link="VoidRift/Revive"/>
+        </ReviveInfoBase>
+    </CUnit>
     <CUnit id="VoidSeeker">
         <KillXP value="0"/>
         <DamageDealtXP value="0"/>
@@ -8776,16 +9836,20 @@
         <DamageDealtXP value="0"/>
         <DamageTakenXP value="0"/>
         <BehaviorArray Link="HybridUnitDummy"/>
+        <BehaviorArray Link="PreventKnockback"/>
+        <BehaviorArray Link="NoBiomassDrop"/>
     </CUnit>
     <CUnit id="VoidThrasherRumble">
         <DamageDealtXP value="0"/>
         <DamageTakenXP value="0"/>
         <BehaviorArray Link="HybridUnitDummy"/>
+        <BehaviorArray Link="PreventKnockback"/>
     </CUnit>
     <CUnit id="VoidThrasherWalker">
         <DamageDealtXP value="0"/>
         <DamageTakenXP value="0"/>
         <BehaviorArray Link="HybridUnitDummy"/>
+        <BehaviorArray Link="PreventKnockback"/>
     </CUnit>
     <CUnit id="VorazunChampion">
         <KillXP value="0"/>
@@ -8967,6 +10031,7 @@
     </CUnit>
     <CUnit id="WarfieldFortress">
         <Facing value="135"/>
+        <Attributes index="MapBoss" value="1"/>
     </CUnit>
     <CUnit id="WarpGate">
         <Footprint value="Footprint3x3CreepNormalContour"/>
@@ -9126,10 +10191,10 @@
         <BehaviorArray Link="SOAMapWideChronoPassiveTarget"/>
         <WeaponArray Link="LaserDrillTripodLaserBeamCoop" Turret="LaserDrillTripod"/>
         <CardLayouts>
-            <LayoutButtons Face="AttackBuilding" Type="AbilCmd" AbilCmd="attack,Execute" Row="0" Column="0"/>
-            <LayoutButtons Face="DrakkenLaserDrillBFG" Type="AbilCmd" AbilCmd="DrakkenLaserDrillBFG,Execute" Row="0" Column="0"/>
-            <LayoutButtons Face="DrakkenLaserDrillNuke" Type="AbilCmd" AbilCmd="DrakkenLaserDrillNuke,Execute" Row="0" Column="0"/>
-            <LayoutButtons Face="BrokenDrakkenLaserDrill" Type="AbilCmd" AbilCmd="BrokenDrakkenLaserDrill,Execute" Row="0" Column="0"/>
+            <LayoutButtons Face="AttackBuilding" Type="AbilCmd" AbilCmd="attack,Execute" Row="0" Column="4"/>
+            <LayoutButtons Face="DrakkenLaserDrillBFG" Type="AbilCmd" AbilCmd="DrakkenLaserDrillBFG,Execute" Row="0" Column="4"/>
+            <LayoutButtons Face="DrakkenLaserDrillNuke" Type="AbilCmd" AbilCmd="DrakkenLaserDrillNuke,Execute" Row="0" Column="4"/>
+            <LayoutButtons Face="BrokenDrakkenLaserDrill" Type="AbilCmd" AbilCmd="BrokenDrakkenLaserDrill,Execute" Row="0" Column="4"/>
             <LayoutButtons Face="CancelBuilding" Type="AbilCmd" AbilCmd="BuildInProgress,Cancel" Row="2" Column="4"/>
             <LayoutButtons Face="Cancel" Type="AbilCmd" AbilCmd="DrakkenLaserDrillAttack,Cancel" Row="2" Column="4"/>
             <LayoutButtons Face="ResearchDrakkenLaserDrillBFG" Type="AbilCmd" AbilCmd="DrakkenLaserDrillResearch,Research1" Row="2" Column="0"/>
@@ -9259,10 +10324,7 @@
         <BehaviorArray Link="CreepTumorVisible"/>
         <CardLayouts index="0">
             <LayoutButtons Face="ZagaraVoidCoopCreepMaster" Type="AbilCmd" AbilCmd="CreepTumorBuild,Build2" Row="2" Column="0"/>
-            <LayoutButtons Face="SpawnLocustNest" Type="AbilCmd" AbilCmd="CreepTumorBuildGlobalRange,Build2" Row="2" Column="1"/>
-            <LayoutButtons Face="SpawnToxicNest" Type="AbilCmd" AbilCmd="CreepTumorBuildGlobalRange,Build1" Row="2" Column="2"/>
         </CardLayouts>
-        <AbilArray Link="CreepTumorBuildGlobalRange"/>
     </CUnit>
     <CUnit id="Firebat">
         <AbilArray Link="StimpackMarauder"/>
@@ -9422,6 +10484,8 @@
     <CUnit id="Yagdra">
         <DamageDealtXP value="0"/>
         <DamageTakenXP value="0"/>
+        <StationaryTurningRate value="119.8828"/>
+        <TurningRate value="119.8828"/>
     </CUnit>
     <CUnit id="YagdraEggBig">
         <KillXP value="0"/>
@@ -9468,6 +10532,8 @@
         <LifeStart value="1"/>
         <LifeMax value="100"/>
         <LifeRegenRate value="0.332"/>
+        <Collide index="Larva" value="0"/>
+        <Collide index="Structure" value="0"/>
         <AbilArray Link="ZagaraVoidCoopBanelingBarrage"/>
         <AbilArray Link="ZagaraVoidCoopSpawnHunterKillers"/>
         <AbilArray Link="ZagaraVoidCoopMassFrenzy"/>
@@ -9487,6 +10553,7 @@
         <KillXP value="0"/>
         <DamageDealtXP value="0"/>
         <DamageTakenXP value="0"/>
+        <SelectAlias value="ZagaraVoidCoop"/>
     </CUnit>
     <CUnit id="ZagaraVoidCoop">
         <DeathTime value="-1"/>
@@ -9857,10 +10924,12 @@
     <CUnit id="SiegeTank">
         <AbilArray Link="SiegeTankWreckage"/>
         <AbilArray Link="VehicleAfterburners"/>
+        <AbilArray Link="SiegeTankJumpJet"/>
         <!--BehaviorArray Link="Supply3"/-->
         <BehaviorArray Link="AllUnitBehaviorController"/>
         <CardLayouts index="0">
             <LayoutButtons index="6" Face="ShapedBlast" Type="Passive" Requirements="UseShapedBlastReq" Row="2" Column="3"/>
+            <LayoutButtons Face="SiegeTankJumpJet" Type="AbilCmd" AbilCmd="SiegeTankJumpJet,Execute" Row="2" Column="2"/>
             <LayoutButtons Face="IgniteAfterburners" Type="AbilCmd" AbilCmd="VehicleAfterburners,Execute" Row="2" Column="2"/>
             <LayoutButtons Face="AfterburnersLocked" Type="Passive" Requirements="RaynorLevel11" Row="2" Column="2"/>
             <LayoutButtons Face="ImprovedSiegeMode" Type="Passive" Requirements="HaveImprovedSiegeMode" Row="2" Column="3"/>
@@ -9876,6 +10945,7 @@
     </CUnit>
     <CUnit id="SiegeTankSieged">
         <AbilArray Link="SiegeTankWreckage"/>
+        <AbilArray Link="SiegeTankSiegedJumpJet"/>
         <!--BehaviorArray Link="Supply3"/-->
         <BehaviorArray Link="AllUnitBehaviorController"/>
         <CargoSize value="4"/>
@@ -9891,6 +10961,7 @@
             </LayoutButtons>
             <LayoutButtons Face="ImprovedSiegeMode" Type="Passive" Requirements="HaveImprovedSiegeMode" Row="2" Column="3"/>
             <LayoutButtons Face="MaelstromRounds" Type="Passive" Requirements="HaveMaelstromRounds" Row="2" Column="3"/>
+            <LayoutButtons Face="SiegeTankJumpJet" Type="AbilCmd" AbilCmd="SiegeTankSiegedJumpJet,Execute" Row="2" Column="2"/>
             <LayoutButtons Face="CommanderSwannImmortalityProtocol" Type="Passive" Requirements="HaveSwannCommanderImmortalityProtocol" Row="1" Column="0"/>
         </CardLayouts>
         <RepairTime value="43"/>
@@ -9920,7 +10991,6 @@
         <AbilArray Link="GoliathWreckage"/>
         <!--BehaviorArray Link="Supply2"/-->
         <BehaviorArray Link="AllUnitBehaviorController"/>
-        <Collide index="ForceField" value="1"/>
         <ScoreMake value="0"/>
         <ScoreKill value="0"/>
         <CardLayouts index="0">
@@ -10171,6 +11241,7 @@
         <AbilArray index="3" removed="1"/>
         <AbilArray index="4" removed="1"/>
         <AbilArray index="5" removed="1"/>
+        <AbilArray index="6" removed="1"/>
         <BehaviorArray index="0" Link="Unrepairable"/>
         <CardLayouts index="0">
             <LayoutButtons index="7" Face="SwannCommanderRebuild" Type="AbilCmd" AbilCmd="SiegeTankReborn,Execute" Row="2" Column="2"/>
@@ -10185,6 +11256,7 @@
             <LayoutButtons index="9" Face="CommanderSwannImmortalityProtocol" Type="Passive" Requirements="HaveSwannCommanderImmortalityProtocol" Row="1" Column="0"/>
             <LayoutButtons index="10" removed="1"/>
             <LayoutButtons index="11" removed="1"/>
+            <LayoutButtons index="12" removed="1"/>
         </CardLayouts>
         <!--LayoutButtons index="2" removed="1"/>
             <LayoutButtons index="3" removed="1"/>
@@ -10198,15 +11270,9 @@
         <GlossaryStrongArray index="0" removed="1"/>
         <GlossaryStrongArray index="1" removed="1"/>
         <GlossaryStrongArray index="2" removed="1"/>
-        <GlossaryStrongArray index="3" removed="1"/>
-        <GlossaryStrongArray index="4" removed="1"/>
-        <GlossaryStrongArray index="5" removed="1"/>
         <GlossaryWeakArray index="0" removed="1"/>
         <GlossaryWeakArray index="1" removed="1"/>
         <GlossaryWeakArray index="2" removed="1"/>
-        <GlossaryWeakArray index="3" removed="1"/>
-        <GlossaryWeakArray index="4" removed="1"/>
-        <GlossaryWeakArray index="5" removed="1"/>
         <AttackTargetPriority value="5"/>
         <WeaponArray index="0" removed="1"/>
         <RepairTime value="0"/>
@@ -10365,6 +11431,7 @@
         <Collide index="Structure" value="1"/>
         <Collide index="RoachBurrow" value="1"/>
         <Collide index="ForceField" value="1"/>
+        <Collide index="Locust" value="1"/>
         <Attributes index="Armored" value="1"/>
         <Attributes index="Biological" value="1"/>
         <Attributes index="Structure" value="1"/>
@@ -10448,30 +11515,23 @@
         <CostResource index="Vespene" value="200"/>
         <AttackTargetPriority value="11"/>
         <AbilArray Link="BuildInProgress"/>
-        <AbilArray Link="que1"/>
+        <AbilArray Link="que5"/>
         <AbilArray Link="EvolutionPitResearch"/>
         <AbilArray Link="EvolutionPitScalingCostResearch"/>
-        <AbilArray Link="EvolutionPitTrain"/>
         <AbilArray Link="DamagedEvolutionPit"/>
+        <AbilArray Link="SpawnToxicNest"/>
         <BehaviorArray Link="EvolutionPitPreventDestroy"/>
         <BehaviorArray Link="SOAMapWideChronoPassiveTarget"/>
         <CardLayouts>
             <LayoutButtons Face="Cancel" Type="AbilCmd" AbilCmd="que5,CancelLast" Row="2" Column="4"/>
             <LayoutButtons Face="CancelBuilding" Type="AbilCmd" AbilCmd="BuildInProgress,Cancel" Row="2" Column="4"/>
             <LayoutButtons Face="Cancel" Type="AbilCmd" AbilCmd="que5Passive,CancelLast" Row="2" Column="4"/>
-            <LayoutButtons Face="EvolveSymbioteExtraSpawn" Type="AbilCmd" AbilCmd="EvolutionPitResearch,Research1" Row="0" Column="0"/>
-            <LayoutButtons Face="ResearchStabRankOne" Type="AbilCmd" AbilCmd="EvolutionPitScalingCostResearch,Research6" Row="1" Column="0"/>
-            <LayoutButtons Face="ResearchStabRankTwo" Type="AbilCmd" AbilCmd="EvolutionPitScalingCostResearch,Research7" Row="1" Column="0"/>
-            <LayoutButtons Face="EvolveSymbioteStabUpgrade" Type="AbilCmd" AbilCmd="EvolutionPitScalingCostResearch,Research1" Row="1" Column="0"/>
-            <LayoutButtons Face="ResearchSpikeBurstRankOne" Type="AbilCmd" AbilCmd="EvolutionPitScalingCostResearch,Research10" Row="1" Column="1"/>
-            <LayoutButtons Face="ResearchSpikeBurstRankTwo" Type="AbilCmd" AbilCmd="EvolutionPitScalingCostResearch,Research11" Row="1" Column="1"/>
-            <LayoutButtons Face="EvolveSymbioteAOEUpgrade" Type="AbilCmd" AbilCmd="EvolutionPitScalingCostResearch,Research2" Row="1" Column="1"/>
-            <LayoutButtons Face="ResearchCarapaceRankOne" Type="AbilCmd" AbilCmd="EvolutionPitScalingCostResearch,Research8" Row="1" Column="2"/>
-            <LayoutButtons Face="ResearchCarapaceRankTwo" Type="AbilCmd" AbilCmd="EvolutionPitScalingCostResearch,Research9" Row="1" Column="2"/>
-            <LayoutButtons Face="EvolveSymbioteShieldUpgrade" Type="AbilCmd" AbilCmd="EvolutionPitScalingCostResearch,Research3" Row="1" Column="2"/>
-            <LayoutButtons Face="PHEvolveSymbioteDetection" Type="AbilCmd" AbilCmd="EvolutionPitScalingCostResearch,Research5" Row="1" Column="3"/>
-            <LayoutButtons Face="EvolveAdrenalineBoost" Type="AbilCmd" AbilCmd="EvolutionPitScalingCostResearch,Research4" Row="1" Column="4"/>
-            <LayoutButtons Face="SpawnBrutalisk" Type="AbilCmd" AbilCmd="EvolutionPitTrain,Train1" Row="0" Column="4"/>
+            <LayoutButtons Face="ResearchAbathurImprovedToxicNest" Type="AbilCmd" AbilCmd="EvolutionPitResearch,Research4" Row="0" Column="0"/>
+            <LayoutButtons Face="ResearchAbathurHiddenToxicNest" Type="AbilCmd" AbilCmd="EvolutionPitResearch,Research1" Row="0" Column="1"/>
+            <LayoutButtons Face="ResearchAbathurLocustAirAttack" Type="AbilCmd" AbilCmd="EvolutionPitResearch,Research2" Row="0" Column="2"/>
+            <LayoutButtons Face="ToxicNestattackgivesMarkforCollectiondebuff" Type="Passive" Requirements="HaveToxicNestDamageGivesMarkforCollectionDebuff" Row="1" Column="0"/>
+            <LayoutButtons Face="ToxicNestdamagegivesMarkforCollectiondebuff" Type="Passive" Requirements="AbathurLevel03" Row="1" Column="0"/>
+            <LayoutButtons Face="ResearchAbathurNetworkedCarapace" Type="AbilCmd" AbilCmd="EvolutionPitResearch,Research3" Row="0" Column="3"/>
         </CardLayouts>
         <CardLayouts CardId="0002">
             <LayoutButtons Face="DamagedEvolutionPit" Type="AbilCmd" AbilCmd="DamagedEvolutionPit,Execute" Row="0" Column="0"/>
@@ -10627,6 +11687,7 @@
         <Collide index="Structure" value="1"/>
         <Collide index="RoachBurrow" value="1"/>
         <Collide index="ForceField" value="1"/>
+        <Collide index="Locust" value="1"/>
         <Attributes index="Armored" value="1"/>
         <Attributes index="Mechanical" value="1"/>
         <Attributes index="Structure" value="1"/>
@@ -13057,9 +14118,9 @@
         <CardLayouts index="0">
             <LayoutButtons index="11" Face="AberrationPassive" Type="Passive" Requirements="HotSHaveAberration" Row="2" Column="1"/>
             <LayoutButtons>
-                <Face value="ResearchSpikeBurstRankOne"/>
+                <Face value="EvolveKerriganHeroicFortitude"/>
                 <Type value="AbilCmd"/>
-                <AbilCmd value="EvolutionPitScalingCostResearch,Research10"/>
+                <AbilCmd value="evolutionchamberresearch,Research20"/>
                 <Behavior value=""/>
                 <Requirements value=""/>
                 <SubmenuAbilState value=""/>
@@ -13067,13 +14128,9 @@
                 <SubmenuFullSubCmdValidation value="0"/>
                 <SubmenuIsSticky value="0"/>
                 <ShowInGlossary value="1"/>
-                <Row value="2"/>
-                <Column value="1"/>
+                <Row value="1"/>
+                <Column value="0"/>
             </LayoutButtons>
-            <LayoutButtons Face="ResearchSpikeBurstRankTwo" Type="AbilCmd" AbilCmd="EvolutionPitScalingCostResearch,Research11" Row="2" Column="1"/>
-            <LayoutButtons Face="EvolveSymbioteAOEUpgrade" Type="AbilCmd" AbilCmd="EvolutionPitScalingCostResearch,Research2" Row="2" Column="1"/>
-            <LayoutButtons Face="EvolveKerriganHeroicFortitude" Type="AbilCmd" AbilCmd="evolutionchamberresearch,Research20" Row="1" Column="0"/>
-            <LayoutButtons Face="ResearchLocustNest" Type="AbilCmd" AbilCmd="evolutionchamberresearch,Research24" Row="1" Column="1"/>
             <LayoutButtons Face="EvolveK5ChainLightning" Type="AbilCmd" AbilCmd="evolutionchamberresearch,Research21" Row="1" Column="1"/>
             <LayoutButtons Face="EvolveMedusaBlades" Type="AbilCmd" AbilCmd="evolutionchamberresearch,Research23" Row="1" Column="1"/>
             <LayoutButtons Face="EvolveK5ChainLightningLocked" Type="Passive" Requirements="KerriganLevel09" Row="1" Column="1"/>
@@ -13082,13 +14139,10 @@
             <LayoutButtons Face="EvolveAberrationArmorAura" Type="AbilCmd" AbilCmd="evolutionchamberresearch,Research10" Row="1" Column="2"/>
             <LayoutButtons Face="EvolveK5CooldownsLocked" Type="Passive" Requirements="KerriganLevel09" Row="1" Column="2"/>
             <LayoutButtons Face="EvolveAberrationArmorAuraLocked" Type="Passive" Requirements="ZagaraLevel09" Row="1" Column="2"/>
-            <LayoutButtons Face="ResearchStabRankOne" Type="AbilCmd" AbilCmd="EvolutionPitScalingCostResearch,Research6" Row="2" Column="0"/>
-            <LayoutButtons Face="ResearchStabRankTwo" Type="AbilCmd" AbilCmd="EvolutionPitScalingCostResearch,Research7" Row="2" Column="0"/>
-            <LayoutButtons Face="EvolveSymbioteStabUpgrade" Type="AbilCmd" AbilCmd="EvolutionPitScalingCostResearch,Research1" Row="2" Column="0"/>
-            <LayoutButtons Face="ResearchCarapaceRankOne" Type="AbilCmd" AbilCmd="EvolutionPitScalingCostResearch,Research8" Row="2" Column="2"/>
-            <LayoutButtons Face="ResearchCarapaceRankTwo" Type="AbilCmd" AbilCmd="EvolutionPitScalingCostResearch,Research9" Row="2" Column="2"/>
-            <LayoutButtons Face="EvolveSymbioteShieldUpgrade" Type="AbilCmd" AbilCmd="EvolutionPitScalingCostResearch,Research3" Row="2" Column="2"/>
-            <LayoutButtons Face="EvolveAdrenalineBoost" Type="AbilCmd" AbilCmd="EvolutionPitScalingCostResearch,Research4" Row="2" Column="3"/>
+            <LayoutButtons Face="EvolveHatcheryDoubleQueue" Type="AbilCmd" AbilCmd="evolutionchamberresearch,Research11" Row="0" Column="4"/>
+            <LayoutButtons Face="EvolveHatcheryDoubleQueueLocked" Type="Passive" Requirements="AbathurLevel06" Row="0" Column="4"/>
+            <LayoutButtons Face="EvolveBioMechanicalTransfusion" Type="AbilCmd" AbilCmd="evolutionchamberresearch,Research12" Row="0" Column="3"/>
+            <LayoutButtons Face="EvolveBioMechanicalTransfusionLocked" Type="Passive" Requirements="AbathurLevel06" Row="0" Column="3"/>
         </CardLayouts>
         <ScoreMake value="0"/>
         <ScoreKill value="0"/>
@@ -13296,6 +14350,9 @@
         <Collide index="Burrow" value="1"/>
         <Collide index="Ground" value="1"/>
         <Collide index="Structure" value="1"/>
+        <Collide index="RoachBurrow" value="1"/>
+        <Collide index="ForceField" value="1"/>
+        <Collide index="Locust" value="1"/>
         <Attributes index="Armored" value="1"/>
         <Attributes index="Biological" value="1"/>
         <Attributes index="Structure" value="1"/>
@@ -13739,6 +14796,7 @@
     <CUnit id="TempleShakuras02">
         <BehaviorArray Link="User1AttributeFlagBehavior"/>
         <PlaneArray index="Air" value="1"/>
+        <Attributes index="MapBoss" value="1"/>
     </CUnit>
     <CUnit id="ACPirateCapitalShip">
         <DeathRevealRadius value="3"/>
@@ -13927,6 +14985,7 @@
         <AbilArray Link="VoidShardACShockwave"/>
         <BehaviorArray Link="VoidShardACDamageField"/>
         <BehaviorArray Link="VoidShardACRepulserField"/>
+        <BehaviorArray Link="NoBiomassDrop"/>
         <WeaponArray Link="VoidShardAC" Turret="FreeRotate"/>
         <CardLayouts>
             <LayoutButtons Face="Stop" Type="AbilCmd" AbilCmd="stop,Stop" Row="0" Column="1"/>
@@ -13989,29 +15048,60 @@
         <Radius value="2"/>
         <BehaviorArray Link="AbilityTargetExclusionBehavior"/>
     </CUnit>
-    <CUnit id="AbathurSymbiote">
+    <!--CUnit id="AbathurSymbiote">-->
+    <!--        <Race value="Zerg"/>-->
+    <!--        <Height value="3"/>-->
+    <!--        <AbilArray Link="SymbioteJump"/>-->
+    <!--        <AbilArray Link="SymbioteStab"/>-->
+    <!--        <AbilArray Link="SymbioteCarapace"/>-->
+    <!--        <AbilArray Link="SymbioteMoveSuggest"/>-->
+    <!--        <BehaviorArray Link="SymbSpawn"/>-->
+    <!--        <BehaviorArray Link="AbilityTargetExclusionBehavior"/>-->
+    <!--        <BehaviorArray Link="SymbioteAdrenalineBoostAura"/>-->
+    <!--        <BehaviorArray Link="SymbioteDetection"/>-->
+    <!--        <CardLayouts>-->
+    <!--            <LayoutButtons Face="SymbioteMoveSuggest" Type="AbilCmd" AbilCmd="SymbioteMoveSuggest,Execute" Row="0" Column="0"/>-->
+    <!--            <LayoutButtons Face="SymbioteStab" Type="AbilCmd" AbilCmd="SymbioteStab,Execute" Row="2" Column="0"/>-->
+    <!--            <LayoutButtons Face="SymbioteCarapace" Type="AbilCmd" AbilCmd="SymbioteCarapace,Execute" Row="2" Column="2"/>-->
+    <!--            <LayoutButtons Face="TransferSymbiote" Type="AbilCmd" AbilCmd="SymbioteJump,Execute" Row="2" Column="3"/>-->
+    <!--        </CardLayouts>-->
+    <!--        <Radius value="3"/>-->
+    <!--        <EditorCategories value="ObjectFamily:Campaign,ObjectType:Hero"/>-->
+    <!--        <FlagArray index="Invulnerable" value="1"/>-->
+    <!--        <KillDisplay value="Always"/>-->
+    <!--    </CUnit-->
+    <CUnit id="AbathurSymbioteBrutalisk">
         <Race value="Zerg"/>
-        <Height value="3"/>
-        <AbilArray Link="SymbioteJump"/>
-        <AbilArray Link="SymbioteStab"/>
-        <AbilArray Link="SymbioteSpikeBurst"/>
-        <AbilArray Link="SymbioteCarapace"/>
-        <AbilArray Link="SymbioteMoveSuggest"/>
-        <BehaviorArray Link="SymbSpawn"/>
-        <BehaviorArray Link="AbilityTargetExclusionBehavior"/>
-        <BehaviorArray Link="SymbioteAdrenalineBoostAura"/>
-        <BehaviorArray Link="SymbioteDetection"/>
-        <CardLayouts>
-            <LayoutButtons Face="SymbioteMoveSuggest" Type="AbilCmd" AbilCmd="SymbioteMoveSuggest,Execute" Row="0" Column="0"/>
-            <LayoutButtons Face="SymbioteStab" Type="AbilCmd" AbilCmd="SymbioteStab,Execute" Row="2" Column="0"/>
-            <LayoutButtons Face="SymbioteSpikeBurst" Type="AbilCmd" AbilCmd="SymbioteSpikeBurst,Execute" Row="2" Column="1"/>
-            <LayoutButtons Face="SymbioteCarapace" Type="AbilCmd" AbilCmd="SymbioteCarapace,Execute" Row="2" Column="2"/>
-            <LayoutButtons Face="TransferSymbiote" Type="AbilCmd" AbilCmd="SymbioteJump,Execute" Row="2" Column="3"/>
-        </CardLayouts>
-        <Radius value="3"/>
-        <EditorCategories value="ObjectFamily:Campaign,ObjectType:Hero"/>
+        <Mob value="Campaign"/>
+        <FlagArray index="Unselectable" value="1"/>
+        <FlagArray index="Untargetable" value="1"/>
         <FlagArray index="Invulnerable" value="1"/>
-        <KillDisplay value="Always"/>
+        <FlagArray index="AISupport" value="1"/>
+        <FlagArray index="Unstoppable" value="1"/>
+        <PlaneArray index="Air" value="1"/>
+        <Attributes index="Light" value="1"/>
+        <Attributes index="Mechanical" value="1"/>
+        <Mover value="Fly"/>
+        <Speed value="5"/>
+        <Acceleration value="5"/>
+        <Height value="5"/>
+        <CostCategory value="Army"/>
+        <AbilArray Link="stop"/>
+        <AbilArray Link="move"/>
+        <AbilArray Link="attack"/>
+        <AbilArray Link="SymbioteStab"/>
+        <BehaviorArray Link="AbilityTargetExclusionBehavior"/>
+        <WeaponArray Turret="Symbiote"/>
+        <CardLayouts>
+            <LayoutButtons Face="SymbioteStab" Type="AbilCmd" AbilCmd="SymbioteStab,Execute" Row="2" Column="0"/>
+        </CardLayouts>
+        <EditorCategories value="ObjectType:Unit,ObjectFamily:Campaign"/>
+        <PushPriority value="0"/>
+        <SeparationRadius value="0"/>
+        <MinimapRadius value="0"/>
+    </CUnit>
+    <CUnit id="AbathurSymbioteLeviathan" parent="AbathurSymbioteBrutalisk">
+        <Height value="7"/>
     </CUnit>
     <CUnit id="AbathurLocustEggAMissileWeapon" parent="MISSILE_INVULNERABLE">
         <Race value="Zerg"/>
@@ -14030,6 +15120,7 @@
         <FlagArray index="AILifetime" value="1"/>
         <FlagArray index="AcquireRally" value="1"/>
         <FlagArray index="IgnoreAttackAlert" value="1"/>
+        <FlagArray index="ArmySelect" value="1"/>
         <PlaneArray index="Ground" value="1"/>
         <Collide index="Ground" value="1"/>
         <Collide index="ForceField" value="1"/>
@@ -14067,9 +15158,10 @@
         <EditorCategories value="ObjectType:Unit,ObjectFamily:Melee"/>
         <GlossaryCategory value="Unit/Category/ZergUnits"/>
         <GlossaryPriority value="148"/>
+        <HotkeyCategory value="Unit/Category/ZergUnits"/>
         <KillDisplay value="Never"/>
         <RankDisplay value="Never"/>
-        <HotkeyCategory value="Unit/Category/ZergUnits"/>
+        <BehaviorArray Link="SupplyLT1"/>
     </CUnit>
     <CUnit id="LocustNest">
         <EditorFlags index="NoPlacement" value="1"/>
@@ -14085,9 +15177,6 @@
         <StationaryTurningRate value="719.4726"/>
         <TurningRate value="719.4726"/>
         <AttackTargetPriority value="11"/>
-        <Radius value="1"/>
-        <SeparationRadius value="1"/>
-        <PlacementFootprint value="CreepTumor"/>
         <ScoreResult value="BuildOrder"/>
         <SubgroupPriority value="2"/>
         <MinimapRadius value="0.75"/>
@@ -14095,6 +15184,7 @@
         <FlagArray index="Turnable" value="0"/>
         <FlagArray index="UseLineOfSight" value="1"/>
         <FlagArray index="TownAlert" value="1"/>
+        <FlagArray index="Invulnerable" value="1"/>
         <FlagArray index="NoPortraitTalk" value="1"/>
         <FlagArray index="AILifetime" value="1"/>
         <FlagArray index="ArmorDisabledWhileConstructing" value="1"/>
@@ -14104,17 +15194,13 @@
         <Attributes index="Structure" value="1"/>
         <PlaneArray index="Ground" value="1"/>
         <Collide index="Structure" value="1"/>
-        <Collide index="CreepTumor" value="1"/>
         <Sight value="11"/>
         <AbilArray Link="BuildInProgress"/>
         <AbilArray Link="BurrowLocustNestDown"/>
-        <BehaviorArray Link="makeCreep4x4"/>
         <CardLayouts>
             <LayoutButtons Face="CancelBuilding" Type="AbilCmd" AbilCmd="BuildInProgress,Cancel" Row="2" Column="4"/>
-            <LayoutButtons Face="CreepTumorPassive" Type="Passive" Row="1" Column="0"/>
         </CardLayouts>
         <InnerRadius value="0.5"/>
-        <Footprint value="CreepTumor"/>
     </CUnit>
     <CUnit id="LocustNestBurrowed">
         <DeathRevealRadius value="3"/>
@@ -14124,6 +15210,7 @@
         <FlagArray index="PreventDestroy" value="1"/>
         <FlagArray index="UseLineOfSight" value="1"/>
         <FlagArray index="TownAlert" value="1"/>
+        <FlagArray index="Invulnerable" value="1"/>
         <FlagArray index="Buried" value="1"/>
         <FlagArray index="NoPortraitTalk" value="1"/>
         <FlagArray index="AILifetime" value="1"/>
@@ -14135,7 +15222,6 @@
         <Collide index="Structure" value="1"/>
         <Collide index="RoachBurrow" value="1"/>
         <Collide index="ForceField" value="1"/>
-        <Collide index="CreepTumor" value="1"/>
         <Attributes index="Armored" value="1"/>
         <Attributes index="Biological" value="1"/>
         <Attributes index="Structure" value="1"/>
@@ -14149,25 +15235,19 @@
         <AttackTargetPriority value="19"/>
         <AbilArray Link="AbathurSpawnLocusts"/>
         <AbilArray Link="Rally"/>
-        <BehaviorArray Link="makeCreep4x4Enhanced"/>
-        <BehaviorArray Link="LocustNestSingleAllowed"/>
+        <BehaviorArray Link="LocustNestTimedLife"/>
         <CardLayouts>
-            <LayoutButtons Face="CreepTumorPassive" Type="Passive" Row="1" Column="0"/>
             <LayoutButtons Face="Cancel" Type="AbilCmd" AbilCmd="CreepTumorBuild,Halt" Row="2" Column="4"/>
             <LayoutButtons Face="SwarmHost" Type="AbilCmd" AbilCmd="AbathurSpawnLocusts,Execute" Row="2" Column="0"/>
             <LayoutButtons Face="SetRallyPointSwarmHost" Type="AbilCmd" AbilCmd="Rally,Rally1" Row="1" Column="4"/>
         </CardLayouts>
-        <Radius value="1"/>
-        <SeparationRadius value="1"/>
         <InnerRadius value="0.5"/>
-        <Footprint value="CreepTumorBurrowed"/>
         <SubgroupPriority value="2"/>
         <MinimapRadius value="0.75"/>
         <EditorCategories value="ObjectType:Structure,ObjectFamily:Melee"/>
         <AIEvalFactor value="0"/>
         <TechAliasArray value="Alias_LocustNest"/>
         <GlossaryPriority value="257"/>
-        <HotkeyCategory value="Unit/Category/ZergUnits"/>
     </CUnit>
     <CUnit id="ToxicNest">
         <DeathRevealRadius value="3"/>
@@ -14175,10 +15255,10 @@
         <Mob value="Multiplayer"/>
         <FlagArray index="Turnable" value="0"/>
         <FlagArray index="UseLineOfSight" value="1"/>
-        <FlagArray index="TownAlert" value="1"/>
         <FlagArray index="NoPortraitTalk" value="1"/>
         <FlagArray index="AILifetime" value="1"/>
         <FlagArray index="ArmorDisabledWhileConstructing" value="1"/>
+        <FlagArray index="IgnoreAttackAlert" value="1"/>
         <FogVisibility value="Snapshot"/>
         <EditorFlags index="NoPlacement" value="1"/>
         <PlaneArray index="Ground" value="1"/>
@@ -14193,27 +15273,25 @@
         <LifeArmorName value="Unit/LifeArmorName/ZergBuildingArmor"/>
         <StationaryTurningRate value="719.4726"/>
         <TurningRate value="719.4726"/>
-        <Sight value="11"/>
+        <Sight value="4"/>
         <AttackTargetPriority value="11"/>
         <AbilArray Link="BuildInProgress"/>
         <AbilArray Link="BurrowToxicNestDown"/>
-        <BehaviorArray Link="makeCreep4x4"/>
         <CardLayouts>
             <LayoutButtons Face="CancelBuilding" Type="AbilCmd" AbilCmd="BuildInProgress,Cancel" Row="2" Column="4"/>
-            <LayoutButtons Face="CreepTumorPassive" Type="Passive" Row="1" Column="0"/>
-            <LayoutButtons Face="Explode" Type="AbilCmd" Row="2" Column="0"/>
         </CardLayouts>
         <Radius value="1"/>
         <SeparationRadius value="1"/>
         <InnerRadius value="0.5"/>
-        <Footprint value="CreepTumor"/>
-        <PlacementFootprint value="CreepTumor"/>
+        <Footprint value="CreepTumorNoCreep"/>
+        <PlacementFootprint value="CreepTumorNoCreep"/>
         <ScoreResult value="BuildOrder"/>
         <SubgroupPriority value="2"/>
         <MinimapRadius value="0.75"/>
         <EditorCategories value="ObjectType:Structure,ObjectFamily:Melee"/>
         <AIEvalFactor value="0"/>
         <TechAliasArray value="Alias_ToxicNest"/>
+        <EffectArray index="Death" value="MasteryAbathurToxicNestRespawn"/>
     </CUnit>
     <CUnit id="ToxicNestBurrowed">
         <DeathRevealRadius value="3"/>
@@ -14222,12 +15300,12 @@
         <FlagArray index="Turnable" value="0"/>
         <FlagArray index="PreventDestroy" value="1"/>
         <FlagArray index="UseLineOfSight" value="1"/>
-        <FlagArray index="TownAlert" value="1"/>
         <FlagArray index="Cloaked" value="1"/>
         <FlagArray index="Buried" value="1"/>
         <FlagArray index="NoPortraitTalk" value="1"/>
         <FlagArray index="AILifetime" value="1"/>
         <FlagArray index="ArmorDisabledWhileConstructing" value="1"/>
+        <FlagArray index="IgnoreAttackAlert" value="1"/>
         <FogVisibility value="Snapshot"/>
         <PlaneArray index="Ground" value="1"/>
         <Collide index="Burrow" value="1"/>
@@ -14248,11 +15326,12 @@
         <Sight value="11"/>
         <AttackTargetPriority value="19"/>
         <AbilArray Link="ToxicNestExplode"/>
-        <BehaviorArray Link="makeCreep4x4Enhanced"/>
+        <BehaviorArray Link="makeCreep4x4"/>
+        <BehaviorArray Link="AbathurHiddenToxicNest"/>
         <CardLayouts>
-            <LayoutButtons Face="CreepTumorPassive" Type="Passive" Row="1" Column="0"/>
             <LayoutButtons Face="Cancel" Type="AbilCmd" AbilCmd="CreepTumorBuild,Halt" Row="2" Column="4"/>
-            <LayoutButtons Face="Explode" Type="AbilCmd" AbilCmd="ToxicNestExplode,Execute" Row="2" Column="0"/>
+            <LayoutButtons Face="CreepTumorPassive" Type="Passive" Row="1" Column="0"/>
+            <LayoutButtons Face="ToxicNestExplode" Type="AbilCmd" AbilCmd="ToxicNestExplode,Execute" Row="2" Column="0"/>
         </CardLayouts>
         <Radius value="1"/>
         <SeparationRadius value="1"/>
@@ -14265,10 +15344,302 @@
         <TechAliasArray value="Alias_ToxicNest"/>
         <GlossaryPriority value="257"/>
         <HotkeyCategory value="Unit/Category/ZergUnits"/>
+        <EffectArray index="Death" value="MasteryAbathurToxicNestRespawn"/>
+    </CUnit>
+    <CUnit id="AbathurLavaWorm">
+        <DeathRevealRadius value="3"/>
+        <Race value="Zerg"/>
+        <FlagArray index="PreventDestroy" value="1"/>
+        <FlagArray index="UseLineOfSight" value="1"/>
+        <FlagArray index="AISplash" value="1"/>
+        <FlagArray index="Unstoppable" value="1"/>
+        <FlagArray index="ArmySelect" value="1"/>
+        <PlaneArray index="Ground" value="1"/>
+        <Attributes index="Armored" value="1"/>
+        <Attributes index="Biological" value="1"/>
+        <Attributes index="Massive" value="1"/>
+        <Attributes index="Heroic" value="1"/>
+        <LifeStart value="3000"/>
+        <LifeMax value="3000"/>
+        <LifeArmor value="3"/>
+        <LifeRegenRate value="0.2734"/>
+        <LifeArmorName value="Unit/LifeArmorName/ZergGroundArmor"/>
+        <ShieldArmorName value="Unit/ShieldArmorName/ZergWildMutation"/>
+        <Acceleration value="1000"/>
+        <StationaryTurningRate value="239.9414"/>
+        <TurningRate value="239.9414"/>
+        <Sight value="14"/>
+        <Height value="0.02"/>
+        <CostCategory value="Army"/>
+        <AttackTargetPriority value="20"/>
+        <AbilArray Link="stop"/>
+        <AbilArray Link="attack"/>
+        <AbilArray Link="move"/>
+        <AbilArray Link="YagdraFireball"/>
+        <AbilArray Link="YagdraTunnel"/>
+        <AbilArray Link="YagdraFirebreath"/>
+        <WeaponArray Link="YagdraFirebreath"/>
+        <CardLayouts>
+            <LayoutButtons Face="Move" Type="AbilCmd" AbilCmd="move,Move" Row="0" Column="0"/>
+            <LayoutButtons Face="Stop" Type="AbilCmd" AbilCmd="stop,Stop" Row="0" Column="1"/>
+            <LayoutButtons Face="MoveHoldPosition" Type="AbilCmd" AbilCmd="move,HoldPos" Row="0" Column="2"/>
+            <LayoutButtons Face="Attack" Type="AbilCmd" AbilCmd="attack,Execute" Row="0" Column="4"/>
+            <LayoutButtons Face="MovePatrol" Type="AbilCmd" AbilCmd="move,Patrol" Row="0" Column="3"/>
+            <LayoutButtons Face="YagdraFireball" Type="AbilCmd" AbilCmd="YagdraFireball,Execute" Row="2" Column="1"/>
+            <LayoutButtons Face="YagdraFirebreath" Type="AbilCmd" AbilCmd="YagdraFirebreath,Execute" Row="2" Column="0"/>
+            <LayoutButtons Face="YagdraTunnel" Type="AbilCmd" AbilCmd="YagdraTunnel,Execute" Row="2" Column="3"/>
+        </CardLayouts>
+        <Radius value="2.5"/>
+        <SeparationRadius value="2.5"/>
+        <InnerRadius value="2.5"/>
+        <CargoSize value="8"/>
+        <MinimapRadius value="1"/>
+        <EditorCategories value="ObjectType:Hero,ObjectFamily:Campaign"/>
+        <Fidget>
+            <ChanceArray index="Idle" value="0"/>
+        </Fidget>
+    </CUnit>
+    <CUnit id="MutatorLaserDrill">
+        <DeathRevealRadius value="3"/>
+        <Facing value="315"/>
+        <FlagArray index="Turnable" value="0"/>
+        <FlagArray index="PreventDestroy" value="1"/>
+        <FlagArray index="PenaltyRevealed" value="1"/>
+        <FlagArray index="UseLineOfSight" value="1"/>
+        <FlagArray index="NoPortraitTalk" value="1"/>
+        <FogVisibility value="Snapshot"/>
+        <PlaneArray index="Ground" value="1"/>
+        <Collide index="Burrow" value="1"/>
+        <Collide index="Ground" value="1"/>
+        <Collide index="Structure" value="1"/>
+        <Collide index="RoachBurrow" value="1"/>
+        <Collide index="ForceField" value="1"/>
+        <Attributes index="Armored" value="1"/>
+        <Attributes index="Mechanical" value="1"/>
+        <Attributes index="Structure" value="1"/>
+        <Attributes index="Heroic" value="1"/>
+        <LifeStart value="1000"/>
+        <LifeMax value="1000"/>
+        <LifeArmor value="2"/>
+        <LifeArmorName value="Unit/LifeArmorName/ProtossBuildingPlating"/>
+        <ShieldsStart value="2000"/>
+        <ShieldsMax value="2000"/>
+        <ShieldRegenDelay value="10"/>
+        <ShieldRegenRate value="2"/>
+        <ShieldArmorName value="Unit/ShieldArmorName/ProtossPlasmaShields"/>
+        <Sight value="9"/>
+        <AttackTargetPriority value="11"/>
+        <AbilArray Link="stop"/>
+        <AbilArray Link="attack"/>
+        <WeaponArray Link="MutatorLaserDrillBeam" Turret="MutatorLaserDrill"/>
+        <CardLayouts>
+            <LayoutButtons Face="Stop" Type="AbilCmd" AbilCmd="stop,Stop" Row="0" Column="1"/>
+            <LayoutButtons Face="Attack" Type="AbilCmd" AbilCmd="attack,Execute" Row="0" Column="4"/>
+        </CardLayouts>
+        <Radius value="2"/>
+        <SeparationRadius value="2"/>
+        <Footprint value="MutatorLaserDrill"/>
+        <PlacementFootprint value="MutatorLaserDrill"/>
+        <SubgroupPriority value="2"/>
+        <MinimapRadius value="2"/>
+        <EditorCategories value="ObjectType:Structure,ObjectFamily:Campaign"/>
+        <GlossaryPriority value="10"/>
+    </CUnit>
+    <CUnit id="BrutaliskPlacement">
+        <EditorFlags index="NoPlacement" value="1"/>
+        <FlagArray index="Uncommandable" value="1"/>
+        <FlagArray index="Unselectable" value="1"/>
+        <FlagArray index="Untargetable" value="1"/>
+        <FlagArray index="Invulnerable" value="1"/>
+        <FlagArray index="NoScore" value="1"/>
+        <Collide index="Ground" value="1"/>
+        <Collide index="Colossus" value="1"/>
+        <Collide index="ForceField" value="1"/>
+        <!--Do not change the radius, inner or separation to anything but 1-->
+        <Radius value="1"/>
+        <SeparationRadius value="1"/>
+        <InnerRadius value="1"/>
+        <BehaviorArray Link="BrutaliskPlacementRemove"/>
+    </CUnit>
+    <CUnit id="CorrosiveAcidMissile" parent="MISSILE_INVULNERABLE">
+        <ReviveType value=""/>
+        <Race value="Zerg"/>
+        <TacticalAI value=""/>
+        <SelectAlias value=""/>
+        <AIEvaluateAlias value=""/>
+    </CUnit>
+    <CUnit id="HydraliskEvolved">
+        <Subtitle value="UnitSubtitle/HydraliskEvolved"/>
+        <DeathRevealRadius value="3"/>
+        <Race value="Zerg"/>
+        <Mob value="Multiplayer"/>
+        <FlagArray index="PreventDestroy" value="1"/>
+        <FlagArray index="UseLineOfSight" value="1"/>
+        <FlagArray index="ArmySelect" value="1"/>
+        <PlaneArray index="Ground" value="1"/>
+        <Collide index="Ground" value="1"/>
+        <Collide index="ForceField" value="1"/>
+        <Attributes index="Light" value="1"/>
+        <Attributes index="Biological" value="1"/>
+        <LifeStart value="80"/>
+        <LifeMax value="80"/>
+        <LifeRegenRate value="0.2734"/>
+        <LifeArmorName value="Unit/LifeArmorName/ZergGroundArmor"/>
+        <ShieldArmorName value="Unit/ShieldArmorName/ZergWildMutation"/>
+        <Speed value="2.25"/>
+        <SpeedMultiplierCreep value="1.3"/>
+        <Acceleration value="1000"/>
+        <LateralAcceleration value="46"/>
+        <StationaryTurningRate value="999.8437"/>
+        <TurningRate value="999.8437"/>
+        <Sight value="9"/>
+        <Food value="-2"/>
+        <CostCategory value="Army"/>
+        <CostResource index="Minerals" value="100"/>
+        <CostResource index="Vespene" value="50"/>
+        <CostResource index="Terrazine" value="75"/>
+        <AttackTargetPriority value="20"/>
+        <AbilArray Link="stop"/>
+        <AbilArray Link="attack"/>
+        <AbilArray Link="move"/>
+        <AbilArray Link="que1"/>
+        <AbilArray Link="BurrowHydraliskEvolvedDown"/>
+        <AbilArray Link="HydraliskFrenzy"/>
+        <BehaviorArray Link="AllUnitBehaviorController"/>
+        <WeaponArray Link="HydraliskMelee"/>
+        <WeaponArray Link="EvolvedNeedleSpines"/>
+        <CardLayouts>
+            <LayoutButtons Face="Move" Type="AbilCmd" AbilCmd="move,Move" Row="0" Column="0"/>
+            <LayoutButtons Face="Stop" Type="AbilCmd" AbilCmd="stop,Stop" Row="0" Column="1"/>
+            <LayoutButtons Face="MoveHoldPosition" Type="AbilCmd" AbilCmd="move,HoldPos" Row="0" Column="2"/>
+            <LayoutButtons Face="Attack" Type="AbilCmd" AbilCmd="attack,Execute" Row="0" Column="4"/>
+            <LayoutButtons Face="MovePatrol" Type="AbilCmd" AbilCmd="move,Patrol" Row="0" Column="3"/>
+            <LayoutButtons Face="BurrowDown" Type="AbilCmd" AbilCmd="BurrowHydraliskEvolvedDown,Execute" Row="2" Column="4"/>
+            <LayoutButtons Face="HydraliskFrenzy" Type="AbilCmd" AbilCmd="HydraliskFrenzy,Execute" Row="2" Column="0"/>
+            <LayoutButtons Face="AncillaryCarapaceHydralisk" Type="Passive" Requirements="HaveHotSHydraliskHealth" Row="1" Column="0"/>
+            <LayoutButtons Face="GroovedSpines" Type="Passive" Requirements="HaveHotSGroovedSpines" Row="1" Column="1"/>
+        </CardLayouts>
+        <Radius value="0.625"/>
+        <InnerRadius value="0.375"/>
+        <CargoSize value="2"/>
+        <ScoreResult value="BuildOrder"/>
+        <SubgroupPriority value="16"/>
+        <EditorCategories value="ObjectType:Unit,ObjectFamily:Melee"/>
+        <AIEvalFactor value="2"/>
+        <GlossaryCategory value="Unit/Category/ZergUnits"/>
+        <GlossaryPriority value="71"/>
+        <GlossaryStrongArray value="Battlecruiser"/>
+        <GlossaryStrongArray value="VoidRay"/>
+        <GlossaryStrongArray value="Mutalisk"/>
+        <GlossaryWeakArray value="Marine"/>
+        <GlossaryWeakArray value="Zealot"/>
+        <GlossaryWeakArray value="Zergling"/>
+        <HotkeyCategory value="Unit/Category/ZergStory"/>
+        <KillDisplay value="Always"/>
+        <RankDisplay value="Always"/>
+        <TauntDuration index="Cheer" value="5"/>
+        <TauntDuration index="Dance" value="5"/>
+    </CUnit>
+    <CUnit id="HydraliskEvolvedBurrowed">
+        <Name value="Unit/Name/Hydralisk"/>
+        <Subtitle value="UnitSubtitle/HydraliskEvolved"/>
+        <Description value="Button/Tooltip/Hydralisk"/>
+        <DeathRevealRadius value="3"/>
+        <Race value="Zerg"/>
+        <Mob value="Multiplayer"/>
+        <FlagArray index="PreventDestroy" value="1"/>
+        <FlagArray index="UseLineOfSight" value="1"/>
+        <FlagArray index="Cloaked" value="1"/>
+        <FlagArray index="Buried" value="1"/>
+        <FlagArray index="AIThreatGround" value="1"/>
+        <FlagArray index="AIThreatAir" value="1"/>
+        <FlagArray index="ArmySelect" value="1"/>
+        <PlaneArray index="Ground" value="1"/>
+        <Collide index="Burrow" value="1"/>
+        <!--LayoutButtons Face="HydraliskFrenzy" Type="AbilCmd" AbilCmd="HydraliskFrenzy,Execute" Row="2" Column="1"/-->
+        <Attributes index="Light" value="1"/>
+        <Attributes index="Biological" value="1"/>
+        <LifeStart value="80"/>
+        <LifeMax value="80"/>
+        <LifeRegenRate value="0.2734"/>
+        <LifeArmorName value="Unit/LifeArmorName/ZergGroundArmor"/>
+        <ShieldArmorName value="Unit/ShieldArmorName/ZergWildMutation"/>
+        <Mover value="Burrowed"/>
+        <Sight value="5"/>
+        <Food value="-2"/>
+        <CostCategory value="Army"/>
+        <CostResource index="Minerals" value="100"/>
+        <CostResource index="Vespene" value="50"/>
+        <CostResource index="Terrazine" value="75"/>
+        <AttackTargetPriority value="20"/>
+        <AbilArray Link="BurrowHydraliskEvolvedUp"/>
+        <AbilArray Link="HydraliskFrenzy"/>
+        <BehaviorArray Link="AllUnitBehaviorController"/>
+        <CardLayouts>
+            <LayoutButtons Face="Attack" Type="AbilCmd" AbilCmd="attack,Execute" Row="0" Column="4"/>
+            <LayoutButtons Face="BurrowUp" Type="AbilCmd" AbilCmd="BurrowHydraliskEvolvedUp,Execute" Row="2" Column="4"/>
+            <LayoutButtons Face="AncillaryCarapaceHydralisk" Type="Passive" Requirements="HaveHotSHydraliskHealth" Row="1" Column="0"/>
+            <LayoutButtons Face="GroovedSpines" Type="Passive" Requirements="HaveHotSGroovedSpines" Row="1" Column="1"/>
+        </CardLayouts>
+        <Radius value="0.625"/>
+        <SeparationRadius value="0"/>
+        <InnerRadius value="0.375"/>
+        <SubgroupPriority value="17"/>
+        <EditorCategories value="ObjectType:Unit,ObjectFamily:Melee"/>
+        <LeaderAlias value="Hydralisk"/>
+        <HotkeyAlias value="HydraliskImpaler"/>
+        <KillDisplay value="Always"/>
+        <RankDisplay value="Always"/>
+        <AIEvaluateAlias value="Hydralisk"/>
+    </CUnit>
+    <CUnit id="SiegeTankJumpJetPlaceholder">
+        <LifeStart value="10000"/>
+        <LifeMax value="10000"/>
+        <Radius value="0.4375"/>
+        <InnerRadius value="0.4375"/>
+        <SeparationRadius value="0.4375"/>
+        <MinimapRadius value="0"/>
+        <EditorCategories value="ObjectType:Other,ObjectFamily:Campaign"/>
+        <FlagArray index="Unselectable" value="1"/>
+        <FlagArray index="Untargetable" value="1"/>
+        <FlagArray index="Undetectable" value="1"/>
+        <FlagArray index="Unradarable" value="1"/>
+        <FlagArray index="Invulnerable" value="1"/>
+        <FlagArray index="NoScore" value="1"/>
+        <LeaderAlias value=""/>
+        <HotkeyAlias value=""/>
+        <Collide index="Ground" value="1"/>
+        <Collide index="ForceField" value="1"/>
+    </CUnit>
+    <CUnit id="SiegeTankSiegedJumpJetPlaceholder">
+        <LifeStart value="10000"/>
+        <LifeMax value="10000"/>
+        <Radius value="0.4375"/>
+        <Facing value="45"/>
+        <InnerRadius value="0.4375"/>
+        <SeparationRadius value="0.4375"/>
+        <MinimapRadius value="0"/>
+        <EditorCategories value="ObjectType:Other,ObjectFamily:Campaign"/>
+        <FlagArray index="Turnable" value="0"/>
+        <FlagArray index="Unselectable" value="1"/>
+        <FlagArray index="Untargetable" value="1"/>
+        <FlagArray index="Undetectable" value="1"/>
+        <FlagArray index="Unradarable" value="1"/>
+        <FlagArray index="Invulnerable" value="1"/>
+        <FlagArray index="NoScore" value="1"/>
+        <LeaderAlias value=""/>
+        <HotkeyAlias value=""/>
+        <Collide index="Ground" value="1"/>
+        <Collide index="ForceField" value="1"/>
+    </CUnit>
+    <CUnit id="RavagerCorrosiveBileAoeMissile" parent="MISSILE_INVULNERABLE">
+        <Race value="Zerg"/>
+        <Mover value="RavagerCorrosiveBileAoe"/>
+        <EditorCategories value="ObjectType:Projectile,ObjectFamily:Melee"/>
     </CUnit>
     <CUnit id="FuelCellPickupUnit">
         <BehaviorArray Link="MapObjectInteractable"/>
-        <EditorFlags index="NeutralDefault" value="1"/>
+        <!--EditorFlags index="NeutralDefault" value="1"/-->
         <Race value="Terr"/>
         <FlagArray index="Invulnerable" value="1"/>
         <PlaneArray index="Ground" value="1"/>
@@ -14376,6 +15747,7 @@
         <Height value="1"/>
         <SubgroupPriority value="49"/>
         <EditorCategories value="ObjectType:Unit,ObjectFamily:Campaign"/>
+        <Radius value="0.125"/>
     </CUnit>
     <CUnit id="SlaynElementalGrabAOEGroundUnit175">
         <DeathTime value="3"/>
@@ -14643,5 +16015,395 @@
         <Height value="4"/>
         <SubgroupPriority value="49"/>
         <EditorCategories value="ObjectType:Unit,ObjectFamily:Campaign"/>
+    </CUnit>
+    <CUnit id="MutatorStoneZealot">
+        <DeathRevealRadius value="3"/>
+        <FlagArray index="PreventDestroy" value="1"/>
+        <FlagArray index="UseLineOfSight" value="1"/>
+        <FlagArray index="ArmySelect" value="1"/>
+        <PlaneArray index="Ground" value="1"/>
+        <Collide index="Ground" value="1"/>
+        <Attributes index="Armored" value="1"/>
+        <Attributes index="Massive" value="1"/>
+        <LifeStart value="500"/>
+        <LifeMax value="500"/>
+        <LifeArmor value="2"/>
+        <LifeArmorName value="Unit/LifeArmorName/ProtossArmor"/>
+        <Speed value="1.5"/>
+        <Acceleration value="1000"/>
+        <LateralAcceleration value="46.0625"/>
+        <StationaryTurningRate value="999.8437"/>
+        <TurningRate value="999.8437"/>
+        <Sight value="9"/>
+        <Food value="-8"/>
+        <CostResource index="Minerals" value="100"/>
+        <AttackTargetPriority value="20"/>
+        <AbilArray Link="stop"/>
+        <AbilArray Link="attack"/>
+        <AbilArray Link="move"/>
+        <AbilArray Link="Warpable"/>
+        <AbilArray Link="ProgressRally"/>
+        <BehaviorArray Link="Detector10"/>
+        <BehaviorArray Link="AllUnitBehaviorController"/>
+        <WeaponArray Link="MutatorStoneZealot"/>
+        <WeaponArray Link="MutatorStoneZealotEyeBlast"/>
+        <CardLayouts>
+            <LayoutButtons Face="Move" Type="AbilCmd" AbilCmd="move,Move" Row="0" Column="0"/>
+            <LayoutButtons Face="Stop" Type="AbilCmd" AbilCmd="stop,Stop" Row="0" Column="1"/>
+            <LayoutButtons Face="MoveHoldPosition" Type="AbilCmd" AbilCmd="move,HoldPos" Row="0" Column="2"/>
+            <LayoutButtons Face="Attack" Type="AbilCmd" AbilCmd="attack,Execute" Row="0" Column="4"/>
+            <LayoutButtons Face="MovePatrol" Type="AbilCmd" AbilCmd="move,Patrol" Row="0" Column="3"/>
+            <LayoutButtons Face="Rally" Type="AbilCmd" AbilCmd="ProgressRally,Rally1" Row="2" Column="4"/>
+        </CardLayouts>
+        <Radius value="1"/>
+        <InnerRadius value="0.75"/>
+        <CargoSize value="2"/>
+        <ScoreResult value="BuildOrder"/>
+        <SubgroupPriority value="5"/>
+        <MinimapRadius value="0.375"/>
+        <EditorCategories value="ObjectType:Unit,ObjectFamily:Campaign"/>
+        <Fidget>
+            <ChanceArray index="Anim" value="20"/>
+            <ChanceArray index="Idle" value="70"/>
+            <ChanceArray index="Turn" value="10"/>
+        </Fidget>
+    </CUnit>
+    <CUnit id="MutatorCloakedMine">
+        <DeathRevealRadius value="3"/>
+        <Race value="Terr"/>
+        <FlagArray index="PreventDestroy" value="1"/>
+        <FlagArray index="UseLineOfSight" value="1"/>
+        <FlagArray index="TurnBeforeMove" value="1"/>
+        <FlagArray index="AIThreatGround" value="1"/>
+        <FlagArray index="AIThreatAir" value="1"/>
+        <FlagArray index="ArmySelect" value="1"/>
+        <PlaneArray index="Air" value="1"/>
+        <Collide index="Flying" value="1"/>
+        <Attributes index="Armored" value="1"/>
+        <Attributes index="Mechanical" value="1"/>
+        <LifeStart value="100"/>
+        <LifeMax value="100"/>
+        <LifeArmorName value="Unit/LifeArmorName/TerranShipPlating"/>
+        <Mover value="Fly"/>
+        <Acceleration value="3"/>
+        <StationaryTurningRate value="999.8437"/>
+        <TurningRate value="999.8437"/>
+        <Sight value="10"/>
+        <Height value="2"/>
+        <VisionHeight value="4"/>
+        <CostCategory value="Army"/>
+        <CostResource index="Minerals" value="20"/>
+        <RepairTime value="41.6667"/>
+        <AttackTargetPriority value="20"/>
+        <DamageDealtXP value="1"/>
+        <DamageTakenXP value="1"/>
+        <AbilArray Link="stop"/>
+        <AbilArray Link="move"/>
+        <AbilArray Link="MutatorCloakedMineAttack"/>
+        <CardLayouts>
+            <LayoutButtons Face="Move" Type="AbilCmd" AbilCmd="move,Move" Row="0" Column="0"/>
+            <LayoutButtons Face="MovePatrol" Type="AbilCmd" AbilCmd="move,Patrol" Row="0" Column="3"/>
+            <LayoutButtons Face="MoveHoldPosition" Type="AbilCmd" AbilCmd="move,HoldPos" Row="0" Column="2"/>
+            <LayoutButtons Face="Stop" Type="AbilCmd" AbilCmd="stop,Stop" Row="0" Column="1"/>
+            <LayoutButtons Face="Attack" Type="AbilCmd" AbilCmd="MutatorCloakedMineAttack,Execute" Row="2" Column="0"/>
+        </CardLayouts>
+        <Radius value="0.25"/>
+        <SeparationRadius value="0.25"/>
+        <ScoreMake value="200"/>
+        <ScoreKill value="400"/>
+        <ScoreResult value="BuildOrder"/>
+        <SubgroupPriority value="12"/>
+        <MinimapRadius value="0.75"/>
+        <EditorCategories value="ObjectType:Unit,ObjectFamily:Melee"/>
+        <EquipmentArray Weapon="MutatorCloakedMineExplodeDummy"/>
+        <GlossaryCategory value="Unit/Category/TerranUnits"/>
+        <GlossaryPriority value="150"/>
+        <GlossaryStrongArray value="SJHyperion"/>
+        <GlossaryWeakArray value="SJFighter1"/>
+        <FogVisibility value="Dimmed"/>
+    </CUnit>
+    <CUnit id="MutatorCloakedMineWeapon" parent="MISSILE">
+        <Race value="Terr"/>
+        <BehaviorArray Link="MutatorCloakedMineWeaponSearch"/>
+        <EditorCategories value="ObjectType:Projectile,ObjectFamily:Melee"/>
+    </CUnit>
+    <CUnit id="MutatorForceField">
+        <DeathRevealRadius value="0"/>
+        <DeathRevealDuration value="0"/>
+        <Race value="Prot"/>
+        <FlagArray index="Turnable" value="0"/>
+        <FlagArray index="Uncommandable" value="1"/>
+        <FlagArray index="Unselectable" value="1"/>
+        <FlagArray index="Untargetable" value="1"/>
+        <FlagArray index="Uncloakable" value="1"/>
+        <FlagArray index="Unradarable" value="1"/>
+        <FlagArray index="KillCredit" value="0"/>
+        <FlagArray index="Invulnerable" value="1"/>
+        <FlagArray index="Destructible" value="1"/>
+        <FlagArray index="NoScore" value="1"/>
+        <FlagArray index="ForceCollisionCheck" value="1"/>
+        <PlaneArray index="Ground" value="1"/>
+        <Collide index="Burrow" value="1"/>
+        <Collide index="ForceField" value="1"/>
+        <LifeStart value="15"/>
+        <LifeMax value="15"/>
+        <AttackTargetPriority value="20"/>
+        <AbilArray Link="Shatter"/>
+        <BehaviorArray Link="MutatorForceFieldFate"/>
+        <CardLayouts>
+            <LayoutButtons Face="Shatter" Type="AbilCmd" AbilCmd="Shatter,Execute" Row="0" Column="0"/>
+        </CardLayouts>
+        <Radius value="1.5"/>
+        <SeparationRadius value="0"/>
+        <InnerRadius value="0.5"/>
+        <PlacementFootprint value="MutatorFootprint3x3ForceField"/>
+        <SubgroupPriority value="31"/>
+        <MinimapRadius value="0"/>
+        <EditorCategories value="ObjectType:Structure,ObjectFamily:Melee"/>
+    </CUnit>
+    <CUnit id="MutatorGravitonBombMissile" parent="MISSILE_INVULNERABLE">
+        <Race value="Prot"/>
+        <Mover value="MutatorOrbitalStrikeMover"/>
+        <EditorCategories value="ObjectFamily:Campaign,ObjectType:Projectile"/>
+    </CUnit>
+    <CUnit id="RedstoneSalamander">
+        <DeathRevealRadius value="3"/>
+        <Race value="Zerg"/>
+        <FlagArray index="PreventDestroy" value="1"/>
+        <FlagArray index="UseLineOfSight" value="1"/>
+        <FlagArray index="AISplash" value="1"/>
+        <FlagArray index="Unstoppable" value="1"/>
+        <FlagArray index="ArmySelect" value="1"/>
+        <PlaneArray index="Ground" value="1"/>
+        <Attributes index="Armored" value="1"/>
+        <Attributes index="Biological" value="1"/>
+        <Attributes index="Massive" value="1"/>
+        <Attributes index="Heroic" value="1"/>
+        <LifeStart value="1500"/>
+        <LifeMax value="1500"/>
+        <LifeArmor value="1"/>
+        <LifeRegenRate value="0.2734"/>
+        <LifeArmorName value="Unit/LifeArmorName/ZergGroundArmor"/>
+        <ShieldArmorName value="Unit/ShieldArmorName/ZergWildMutation"/>
+        <Acceleration value="1000"/>
+        <StationaryTurningRate value="59.9414"/>
+        <TurningRate value="59.9414"/>
+        <Sight value="14"/>
+        <Height value="0.02"/>
+        <CostCategory value="Army"/>
+        <AttackTargetPriority value="20"/>
+        <DamageDealtXP value="1"/>
+        <DamageTakenXP value="1"/>
+        <AbilArray Link="stop"/>
+        <AbilArray Link="attack"/>
+        <AbilArray Link="move"/>
+        <AbilArray Link="RedstoneSalamanderFireball"/>
+        <AbilArray Link="RedstoneSalamanderFireballHard"/>
+        <AbilArray Link="RedstoneSalamanderTunnel"/>
+        <AbilArray Link="RedstoneSalamanderFirebreath"/>
+        <AbilArray Link="BurrowRedstoneSalamanderDown"/>
+        <WeaponArray Link="RedstoneSalamanderFirebreath"/>
+        <CardLayouts>
+            <LayoutButtons Face="Move" Type="AbilCmd" AbilCmd="move,Move" Row="0" Column="0"/>
+            <LayoutButtons Face="Stop" Type="AbilCmd" AbilCmd="stop,Stop" Row="0" Column="1"/>
+            <LayoutButtons Face="MoveHoldPosition" Type="AbilCmd" AbilCmd="move,HoldPos" Row="0" Column="2"/>
+            <LayoutButtons Face="Attack" Type="AbilCmd" AbilCmd="attack,Execute" Row="0" Column="4"/>
+            <LayoutButtons Face="MovePatrol" Type="AbilCmd" AbilCmd="move,Patrol" Row="0" Column="3"/>
+            <LayoutButtons Face="RedstoneSalamanderFireball" Type="AbilCmd" AbilCmd="RedstoneSalamanderFireball,Execute" Row="2" Column="1"/>
+            <LayoutButtons Face="RedstoneSalamanderFireball" Type="AbilCmd" AbilCmd="RedstoneSalamanderFireballHard,Execute" Row="1" Column="1"/>
+            <LayoutButtons Face="RedstoneSalamanderTunnel" Type="AbilCmd" AbilCmd="RedstoneSalamanderTunnel,Execute" Row="2" Column="0"/>
+            <LayoutButtons Face="RedstoneSalamanderFirebreath" Type="AbilCmd" AbilCmd="RedstoneSalamanderFirebreath,Execute" Row="2" Column="2"/>
+            <LayoutButtons Face="BurrowDown" Type="AbilCmd" AbilCmd="BurrowRedstoneSalamanderDown,Execute" Row="2" Column="4"/>
+        </CardLayouts>
+        <Radius value="2.5"/>
+        <SeparationRadius value="2.5"/>
+        <InnerRadius value="2.5"/>
+        <CargoSize value="8"/>
+        <MinimapRadius value="1"/>
+        <EditorCategories value="ObjectType:Hero,ObjectFamily:Campaign"/>
+        <Fidget>
+            <ChanceArray index="Idle" value="0"/>
+        </Fidget>
+    </CUnit>
+    <CUnit id="RedstoneSalamanderBurrowed">
+        <DeathRevealRadius value="3"/>
+        <Race value="Zerg"/>
+        <FlagArray index="PreventDestroy" value="1"/>
+        <FlagArray index="UseLineOfSight" value="1"/>
+        <FlagArray index="AISplash" value="1"/>
+        <FlagArray index="Unstoppable" value="1"/>
+        <FlagArray index="ArmySelect" value="1"/>
+        <PlaneArray index="Ground" value="1"/>
+        <Attributes index="Armored" value="1"/>
+        <Attributes index="Biological" value="1"/>
+        <Attributes index="Massive" value="1"/>
+        <Attributes index="Heroic" value="1"/>
+        <LifeStart value="1500"/>
+        <LifeMax value="1500"/>
+        <LifeArmor value="1"/>
+        <LifeRegenRate value="0.2734"/>
+        <LifeArmorName value="Unit/LifeArmorName/ZergGroundArmor"/>
+        <ShieldArmorName value="Unit/ShieldArmorName/ZergWildMutation"/>
+        <Acceleration value="1000"/>
+        <StationaryTurningRate value="59.9414"/>
+        <TurningRate value="59.9414"/>
+        <Sight value="14"/>
+        <Height value="0.02"/>
+        <CostCategory value="Army"/>
+        <AttackTargetPriority value="20"/>
+        <DamageDealtXP value="1"/>
+        <DamageTakenXP value="1"/>
+        <AbilArray Link="stop"/>
+        <AbilArray Link="attack"/>
+        <AbilArray Link="move"/>
+        <AbilArray Link="BurrowRedstoneSalamanderUp"/>
+        <!--AbilArray Link="RedstoneSalamanderFireball"/>
+        <AbilArray Link="RedstoneSalamanderFireballHard"/>
+        <AbilArray Link="RedstoneSalamanderTunnel"/>
+        <AbilArray Link="RedstoneSalamanderFirebreath"/>
+        <WeaponArray Link="RedstoneSalamanderFirebreath"/-->
+        <CardLayouts>
+            <LayoutButtons Face="Attack" Type="AbilCmd" AbilCmd="attack,Execute" Row="0" Column="4"/>
+            <!--LayoutButtons Face="RedstoneSalamanderFireball" Type="AbilCmd" AbilCmd="RedstoneSalamanderFireball,Execute" Row="2" Column="1"/>
+            <LayoutButtons Face="RedstoneSalamanderFireball" Type="AbilCmd" AbilCmd="RedstoneSalamanderFireballHard,Execute" Row="1" Column="1"/>
+            <LayoutButtons Face="RedstoneSalamanderTunnel" Type="AbilCmd" AbilCmd="RedstoneSalamanderTunnel,Execute" Row="2" Column="0"/>
+            <LayoutButtons Face="RedstoneSalamanderFirebreath" Type="AbilCmd" AbilCmd="RedstoneSalamanderFirebreath,Execute" Row="2" Column="2"/-->
+            <LayoutButtons Face="BurrowUp" Type="AbilCmd" AbilCmd="BurrowRedstoneSalamanderUp,Execute" Row="2" Column="4"/>
+        </CardLayouts>
+        <Radius value="2.5"/>
+        <SeparationRadius value="2.5"/>
+        <InnerRadius value="2.5"/>
+        <CargoSize value="8"/>
+        <MinimapRadius value="1"/>
+        <EditorCategories value="ObjectType:Hero,ObjectFamily:Campaign"/>
+        <Fidget>
+            <ChanceArray index="Idle" value="0"/>
+        </Fidget>
+    </CUnit>
+    <CUnit id="RedstoneSalamanderFireballWeapon" parent="MISSILE">
+        <Race value="Zerg"/>
+        <Mover value="YamatoWeapon"/>
+        <EditorCategories value="ObjectType:Projectile,ObjectFamily:Campaign"/>
+    </CUnit>
+    <CUnit id="BrutaliskCocoon">
+        <DeathRevealRadius value="3"/>
+        <Race value="Zerg"/>
+        <Mob value="Multiplayer"/>
+        <FlagArray index="Uncommandable" value="1"/>
+        <FlagArray index="PreventDestroy" value="1"/>
+        <FlagArray index="UseLineOfSight" value="1"/>
+        <FlagArray index="Invulnerable" value="1"/>
+        <FlagArray index="NoScore" value="1"/>
+        <FlagArray index="ArmySelect" value="1"/>
+        <PlaneArray index="Ground" value="1"/>
+        <Collide index="Ground" value="1"/>
+        <Collide index="ForceField" value="1"/>
+        <Attributes index="Biological" value="1"/>
+        <LifeStart value="100"/>
+        <LifeMax value="100"/>
+        <LifeArmor value="5"/>
+        <LifeRegenRate value="0.2734"/>
+        <Sight value="5"/>
+        <Food value="-2"/>
+        <CostCategory value="Army"/>
+        <AttackTargetPriority value="10"/>
+        <AbilArray Link="Rally"/>
+        <AbilArray Link="que1"/>
+        <CardLayouts>
+            <!--LayoutButtons Face="CancelCocoonMorph" Type="AbilCmd" AbilCmd="que1,CancelLast" Row="2" Column="4"/>
+            <LayoutButtons Face="Rally" Type="AbilCmd" AbilCmd="Rally,Rally1" Row="2" Column="4"/-->
+            <LayoutButtons Face="Attack" Type="AbilCmd" AbilCmd="attack,Execute" Row="0" Column="4"/>
+        </CardLayouts>
+        <Radius value="0.75"/>
+        <InnerRadius value="0.5"/>
+        <SubgroupPriority value="1"/>
+        <EditorCategories value="ObjectType:Unit,ObjectFamily:Melee"/>
+    </CUnit>
+    <CUnit id="BrutaliskCocoonRoach" parent="BrutaliskCocoon"/>
+    <CUnit id="BrutaliskCocoonRoachVile" parent="BrutaliskCocoon"/>
+    <CUnit id="BrutaliskCocoonQueen" parent="BrutaliskCocoon"/>
+    <CUnit id="BrutaliskCocoonSwarmhost" parent="BrutaliskCocoon"/>
+    <CUnit id="BrutaliskCocoonRavager" parent="BrutaliskCocoon"/>
+    <CUnit id="BrutaliskCocoonDefiler" parent="BrutaliskCocoon"/>
+    <CUnit id="LeviathanCocoon">
+        <DeathRevealRadius value="3"/>
+        <Race value="Zerg"/>
+        <Mob value="Multiplayer"/>
+        <FlagArray index="PreventDestroy" value="1"/>
+        <FlagArray index="UseLineOfSight" value="1"/>
+        <FlagArray index="Invulnerable" value="1"/>
+        <FlagArray index="NoScore" value="1"/>
+        <FlagArray index="ArmySelect" value="1"/>
+        <PlaneArray index="Air" value="1"/>
+        <Collide index="ForceField" value="1"/>
+        <Attributes index="Biological" value="1"/>
+        <LifeStart value="100"/>
+        <LifeMax value="100"/>
+        <LifeArmor value="5"/>
+        <LifeRegenRate value="0.2734"/>
+        <Sight value="5"/>
+        <Height value="3.5"/>
+        <Food value="-2"/>
+        <CostCategory value="Army"/>
+        <AttackTargetPriority value="10"/>
+        <AbilArray Link="Rally"/>
+        <AbilArray Link="que1"/>
+        <CardLayouts>
+            <!--LayoutButtons Face="CancelCocoonMorph" Type="AbilCmd" AbilCmd="que1,CancelLast" Row="2" Column="4"/>
+            <LayoutButtons Face="Rally" Type="AbilCmd" AbilCmd="Rally,Rally1" Row="2" Column="4"/-->
+            <LayoutButtons Face="Attack" Type="AbilCmd" AbilCmd="attack,Execute" Row="0" Column="4"/>
+        </CardLayouts>
+        <Radius value="0.75"/>
+        <InnerRadius value="0.5"/>
+        <SubgroupPriority value="1"/>
+        <EditorCategories value="ObjectType:Unit,ObjectFamily:Melee"/>
+    </CUnit>
+    <CUnit id="BrutaliskBurrowed">
+        <TechAliasArray value="Alias_Brutalisk"/>
+        <Description value="Button/Tooltip/Brutalisk"/>
+        <DeathRevealRadius value="3"/>
+        <Race value="Zerg"/>
+        <Mob value="Campaign"/>
+        <FlagArray index="PreventDestroy" value="1"/>
+        <FlagArray index="UseLineOfSight" value="1"/>
+        <FlagArray index="Cloaked" value="1"/>
+        <FlagArray index="Buried" value="1"/>
+        <FlagArray index="ArmySelect" value="1"/>
+        <PlaneArray index="Ground" value="1"/>
+        <PushPriority value="11"/>
+        <Collide index="Burrow" value="1"/>
+        <Attributes index="Armored" value="1"/>
+        <Attributes index="Biological" value="1"/>
+        <Attributes index="Massive" value="1"/>
+        <Attributes index="Heroic" value="1"/>
+        <LifeStart value="1500"/>
+        <LifeMax value="1500"/>
+        <LifeArmor value="2"/>
+        <LifeRegenRate value="0.2734"/>
+        <LifeArmorName value="Unit/LifeArmorName/ZergBrutaliskArmor"/>
+        <LateralAcceleration value="46.0625"/>
+        <Sight value="5"/>
+        <CostCategory value="Army"/>
+        <AttackTargetPriority value="20"/>
+        <BehaviorArray Link="Frenzy"/>
+        <Radius value="1.25"/>
+        <InnerRadius value="0.75"/>
+        <ScoreResult value="BuildOrder"/>
+        <SubgroupPriority value="18"/>
+        <MinimapRadius value="2.625"/>
+        <EditorCategories value="ObjectType:Unit,ObjectFamily:Campaign"/>
+        <GlossaryCategory value="Unit/Category/ZergUnits"/>
+        <AbilArray Link="BurrowBrutaliskUp"/>
+        <AbilArray Link="AbathurSymbioteHangerBrutalisk"/>
+        <CardLayouts>
+            <LayoutButtons Face="BurrowUp" Type="AbilCmd" AbilCmd="BurrowBrutaliskUp,Execute" Row="2" Column="4"/>
+            <LayoutButtons Face="Frenzied" Type="Passive" Behavior="Frenzy" Row="1" Column="4"/>
+            <LayoutButtons Face="Attack" Type="AbilCmd" AbilCmd="attack,Execute" Row="0" Column="4"/>
+        </CardLayouts>
+        <Food value="8"/>
+        <CostResource index="Minerals" value="500"/>
+        <CostResource index="Vespene" value="300"/>
+        <SelectAlias value="Brutalisk"/>
+        <ShieldArmorName value="Behavior/Name/SymbioteCarapace"/>
     </CUnit>
 </Catalog>
