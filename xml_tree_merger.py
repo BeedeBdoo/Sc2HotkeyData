@@ -134,8 +134,8 @@ def append_element(elem, tree):
             if parent_elem is not None:
                 print('error: duplicate id', child.get('id'), 'parent')
             parent_elem = child
-    if not elemisforeign and elem.get('parent') != elem.get('id'):
-        print('error: foreign element', elem.get('id'), 'has an overwriting parent')
+    # if not elemisforeign and elem.get('parent') != elem.get('id'):
+    #     print('error: foreign element', elem.get('id'), 'has an overwriting parent')
 
     if parent_elem is None:
         root.append(elem)
