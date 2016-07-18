@@ -1,0 +1,150 @@
+Terran
+	Units
+		Reaper
+			BasicUnitCommands
+			SpiderMine/Reaper=E
+			Stim=T
+			Cancel=Escape
+		
+		Hellion
+			BasicUnitCommands
+			MorphToHellion/Hellion=E
+			MorphToHellionTank/Hellion=D
+			Stim=T
+			
+		Siege Tank
+			BasicUnitCommands
+			SiegeMode=E
+			SiegeMode=D
+			DeploySpiderMines/SiegeTank=R
+			
+	Structures
+		Barracks
+			General
+				Marine/Barracks=A
+				Reaper/Barracks=R
+				Ghost/Barracks=G
+				Marauder/Barracks=D
+				Medic/Barracks=E
+				Firebat/Barracks=F
+				Spectre/Barracks=S
+				SelectBuilder=Q
+				Rally=Y
+				TechLabBarracks/Barracks=X
+				Reactor/Barracks=C
+				Lift=L
+				Cancel=Escape
+
+			Flying
+				PacifistUnitCommands
+				TechLabBarracks/BarracksFlying=X
+				Reactor/BarracksFlying=C
+				Land=L
+
+			General (AI)
+				Marine/Barracks=A
+				Marauder/Barracks=D
+				Reaper/Barracks=R
+				Firebat/Barracks=F
+				Medic/Barracks=E
+				HireKelmorianMiners/Barracks=P
+				HireHammerSecurities/Barracks=H
+				HireDevilDogs/Barracks=L
+				MercReaper/Barracks=J
+				MercMedic/Barracks=B
+				Separatist/Barracks=S
+				Cancel=Escape
+				
+		Bunker
+			Stop=S
+			Attack=A
+			SpiderMine/Bunker=E
+			SelectBuilder=Q
+			SetBunkerRallyPoint/Bunker=Y
+			Stim=T
+			BunkerLoad=L
+			BunkerUnloadAll=D
+			Salvage/Bunker=V
+			Cancel=Escape
+			
+		Ghost Academy (Nova)
+			NovaNukeArm/GhostAcademy=None,Auto-Cast
+			Cancel=Escape
+			
+		Factory
+			General
+				Vulture/Factory=V
+				SiegeTank/Factory=S
+				BuildCyclone/Factory=N
+				Thor/Factory=T
+				CampaignVehicles/Factory=A
+				Goliath/Factory=G
+				SelectBuilder=Q
+				Rally=Y
+				TechLabFactory/Factory=X
+				Reactor/Factory=C
+				Lift=L
+				Cancel=Escape
+
+			Flying
+				PacifistUnitCommands
+				BuildTechLabFactory/FactoryFlying=X
+				Reactor/FactoryFlying=C
+				Land=L
+
+			General2
+				Predator/Factory=P
+				MicroBot/Factory=M
+				Cancel=Escape
+
+			General3
+				Hellion/Factory=E
+				Goliath/Factory=G
+				SiegeTank/Factory=S
+				WidowMine/Factory=D
+				Thor/Factory=T
+				MercHellion/Factory=N
+				HireSpartanCompany/Factory=C
+				HireSiegeBreakers/Factory=K
+				Cancel=Escape
+				
+		Starport
+			General
+				Liberator/Starport=N
+				Banshee/Starport=E
+				Medivac/Starport=D
+				Battlecruiser/Starport=B
+				Wraith/Starport=T
+				Viking/Starport=V
+				Raven/Starport=R
+				SelectBuilder=Q
+				Rally=Y
+				TechLabStarport/Starport=X
+				Reactor/Starport=C
+				Lift=L
+				Cancel=Escape
+				
+			General (2)
+				BuildHercules/Starport=H
+				Raven/Startport=R
+				Cancel=Escape
+				
+Terran Story
+	Units
+		Nova
+			BasicUnitCommands
+			GhostHoldFire/NovaHero=F
+			WeaponsFree/NovaHero=G
+			NovaWeaponCanisterRifleSnipe/NovaHero=Q
+			NovaGadgetPulseGrenades/NovaHero=W
+			HeroNukeCalldown/NovaHero=N
+		
+		Nova (Vulture)
+			Move=M
+			Stop=S
+			PatrolMove=P
+			Attack=A
+			NovaWeaponCanisterRifleSnipe/NovaVulture=Q
+			NovaGadgetPulseGrenades/NovaVulture=W
+			
+		

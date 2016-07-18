@@ -5,8 +5,8 @@ This again means that certain conflits between game modes aren't detected.
 
 This project attempts to provide the data necessary to detect such conflicts. Currently used in https://github.com/JaKaTaK/TheCoreConverter
 
-# manual version
-Updated for Sc2 patch 3.1.1.39948
+# Manual Version
+Updated for Sc2 patch 3.4.0.44401
 
 Contains (mostly) every elevant command card with the 'abilityname=key' format used in .SC2Hotkeys files, structured like in the ingame hotkey editor, for a specific campaign/multiplayer/gamemode in Sc2.  
 'key' in 'abilityname=key' is the default value used by that key.
@@ -20,7 +20,7 @@ create_command_list.py	: Creates a list of every key found in all HotkeyData fil
 create_conflict_check.py: Creates a list of lists with every unique command card with those who are sub-variations (same but with less keys) of other removed  
 verify_hotkeydata.py	: Prints out inconsistentcies in what the same ability is bound to in different HotkeyData files
 
-# automatic version
+# Automatic Version
 A work in progress
 
 ##### Some loosely used terminology:

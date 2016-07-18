@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Catalog>
+    <CButton id="Armory"/>
+    <CButton id="Barracks"/>
+    <CButton id="CerberusMines">
+        <TintRacially value="0"/>
+        <AlertIcon value="Assets\Textures\btn-l2d-techupgrade-terran-cerberusmine.dds"/>
+        <Icon value="Assets\Textures\btn-l2d-techupgrade-terran-cerberusmine.dds"/>
+    </CButton>
+    <CButton id="D8Charge">
+        <Icon value="Assets\Textures\btn-l2d-techupgrade-terran-d-8charges.dds"/>
+        <TintRacially value="0"/>
+        <AlertIcon value="Assets\Textures\btn-l2d-techupgrade-terran-d-8charges.dds"/>
+    </CButton>
+    <CButton id="G4Charge">
+        <TintRacially value="0"/>
+        <Icon value="Assets\Textures\btn-l2d-techupgrade-terran-d-8charges.dds"/>
+        <AlertIcon value="Assets\Textures\btn-l2d-techupgrade-terran-d-8charges.dds"/>
+    </CButton>
+    <CButton id="InfernalPreIgniter">
+        <Icon value="Assets\Textures\btn-upgrade-terran-infernalpreigniter.dds"/>
+        <TintRacially value="0"/>
+    </CButton>
+    <CButton id="MercMedicHeal">
+        <Icon value="Assets\Textures\btn-ability-terran-heal-color.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-terran-heal-color.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="MorphToTechReactor">
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="ResearchG4Charge">
+        <Icon value="Assets\Textures\btn-l2d-techupgrade-terran-d-8charges.dds"/>
+        <AlertIcon value="Assets\Textures\btn-l2d-techupgrade-terran-d-8charges.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="ResearchRegenerativeBioSteel">
+        <Icon value="Assets\Textures\btn-research-zerg-regenerativebio-steel.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <AlertIcon value="Assets\Textures\btn-research-zerg-regenerativebio-steel.dds"/>
+    </CButton>
+    <CButton id="ResearchMultiLockTargetingSystem">
+        <Icon value="Assets\Textures\btn-l2d-techupgrade-terran-multilocktargetingsystem.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <AlertIcon value="Assets\Textures\btn-l2d-techupgrade-terran-multilocktargetingsystem.dds"/>
+    </CButton>
+    <CButton id="ResearchIncineratorNozzles">
+        <Icon value="Assets\Textures\btn-l2d-techupgrade-terran-bearclawnozzles.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <AlertIcon value="Assets\Textures\btn-l2d-techupgrade-terran-bearclawnozzles.dds"/>
+    </CButton>
+    <CButton id="ResearchJackhammerConcussionGrenade">
+        <Icon value="Assets\Textures\btn-ability-terran-punishergrenade-color.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <AlertIcon value="Assets\Textures\btn-ability-terran-punishergrenade-color.dds"/>
+    </CButton>
+    <CButton id="ResearchCerberusMines">
+        <Icon value="Assets\Textures\btn-l2d-techupgrade-terran-cerberusmine.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <AlertIcon value="Assets\Textures\btn-l2d-techupgrade-terran-cerberusmine.dds"/>
+    </CButton>
+    <CButton id="Factory"/>
+    <CButton id="Headbutt">
+        <Icon value="Assets\Textures\btn-ability-zerg-frenzied.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CButton>
+    <CButton id="IncineratorNozzles">
+        <TintRacially value="0"/>
+        <AlertIcon value="Assets\Textures\btn-l2d-techupgrade-terran-bearclawnozzles.dds"/>
+        <Icon value="Assets\Textures\btn-l2d-techupgrade-terran-bearclawnozzles.dds"/>
+    </CButton>
+    <CButton id="JackhammerConcussionGrenade">
+        <Icon value="Assets\Textures\btn-ability-terran-punishergrenade-color.dds"/>
+        <TintRacially value="0"/>
+        <AlertIcon value="Assets\Textures\btn-ability-terran-punishergrenade-color.dds"/>
+    </CButton>
+    <CButton id="LeapAttack">
+        <Icon value="Assets\Textures\btn-ability-zerg-swarmseeds.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CButton>
+    <CButton id="MultiLockTargetingSystem">
+        <TintRacially value="0"/>
+        <AlertIcon value="Assets\Textures\btn-l2d-techupgrade-terran-multilocktargetingsystem.dds"/>
+        <Icon value="Assets\Textures\btn-l2d-techupgrade-terran-multilocktargetingsystem.dds"/>
+    </CButton>
+    <CButton id="RegenerativeBioSteel">
+        <Icon value="Assets\Textures\btn-research-zerg-regenerativebio-steel.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <AlertIcon value="Assets\Textures\btn-research-zerg-regenerativebio-steel.dds"/>
+    </CButton>
+    <CButton id="ResearchFireSuppression">
+        <Icon value="Assets\Textures\btn-techupgrade-terran-firesuppressionsystem_mod.dds"/>
+        <AlertIcon value="Assets\Textures\btn-techupgrade-terran-firesuppressionsystem_mod.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="ResearchTechReactor">
+        <Icon value="Assets\Textures\btn-building-terran-techreactor.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-terran-techreactor.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="ResearchBunkerUpgrade">
+        <Icon value="Assets\Textures\btn-techupgrade-terran-neosteelbunker_mod.dds"/>
+        <AlertIcon value="Assets\Textures\btn-techupgrade-terran-neosteelbunker_mod.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="ResearchPerditionTurret">
+        <Icon value="Assets\Textures\btn-unit-terran-perditionturret.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-terran-perditionturret.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="ResearchHellion">
+        <Icon value="Assets\Textures\btn-unit-terran-hellion.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-terran-hellionmercenary.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="ResearchSiegeTank">
+        <Icon value="Assets\Textures\btn-unit-terran-siegetank.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-terran-siegetankmercenary-tank.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="ResearchMedic">
+        <Icon value="Assets\Textures\btn-unit-terran-medic.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-terran-medicmercenary.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="ResearchReaper">
+        <Icon value="Assets\Textures\btn-unit-terran-reaper.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-terran-reapermercenary.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="ResearchFirebat">
+        <Icon value="Assets\Textures\btn-unit-terran-firebat.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-terran-firebatmercenary.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="ResearchGoliath">
+        <Icon value="Assets\Textures\btn-unit-terran-goliath.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-terran-goliathmercenary.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="ShapedBlast">
+        <TintRacially value="0"/>
+        <AlertIcon value="Assets\Textures\btn-l2d-techupgrade-terran-shapedblast.dds"/>
+        <Icon value="Assets\Textures\btn-l2d-techupgrade-terran-shapedblast.dds"/>
+    </CButton>
+    <CButton id="ResearchShapedBlast">
+        <Icon value="Assets\Textures\btn-l2d-techupgrade-terran-shapedblast.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <AlertIcon value="Assets\Textures\btn-l2d-techupgrade-terran-shapedblast.dds"/>
+    </CButton>
+    <CButton id="Spew">
+        <Icon value="Assets\Textures\btn-ability-zerg-generatecreep.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CButton>
+    <CButton id="StabilizerMedPacks">
+        <TintRacially value="0"/>
+        <AlertIcon value="Assets\Textures\btn-l2d-techupgrade-terran-stabilizermedpacks.dds"/>
+        <Icon value="Assets\Textures\btn-l2d-techupgrade-terran-stabilizermedpacks.dds"/>
+    </CButton>
+    <CButton id="ResearchStabilizerMedPacks">
+        <Icon value="Assets\Textures\btn-l2d-techupgrade-terran-stabilizermedpacks.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <AlertIcon value="Assets\Textures\btn-l2d-techupgrade-terran-stabilizermedpacks.dds"/>
+    </CButton>
+    <CButton id="Suicide">
+        <Icon value="Assets\Textures\btn-ability-zerg-explode.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CButton>
+    <CButton id="TentacleAttack">
+        <Icon value="Assets\Textures\btn-ability-zerg-leech.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CButton>
+    <CButton id="StimFirebat">
+        <Icon value="Assets\Textures\btn-ability-terran-stimpack-color.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-terran-stimpack-color.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+</Catalog>

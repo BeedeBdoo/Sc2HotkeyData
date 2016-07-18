@@ -1,0 +1,857 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Catalog>
+    <!--    <CUnit id="Barracks">
+        <CardLayouts index="0">
+            <LayoutButtons index="2" Face="Medic" AbilCmd="BarracksTrain,Train5"/>
+            <LayoutButtons index="3" Face="SelectBuilder" Type="SelectBuilder" AbilCmd="BarracksTrain,Train4" Row="1"/>
+            <LayoutButtons index="4" Face="Lift" AbilCmd="BarracksLiftOff,Execute" Row="2" Column="3"/>
+            <LayoutButtons index="5" Face="Halt" AbilCmd="BuildInProgress,Halt"/>
+            <LayoutButtons index="6" Face="Reactor" AbilCmd="BarracksAddOns,Build2" Column="1"/>
+            <LayoutButtons index="7" Face="TechLabBarracks" AbilCmd="BarracksAddOns,Build1" Column="0"/>
+            <LayoutButtons index="8" Face="TechReactor" AbilCmd="BarracksAddOns,Build4"/>
+            <LayoutButtons index="10" Face="Cancel" AbilCmd="que5,CancelLast"/>
+            <LayoutButtons index="12" Face="TechReactorAI" Type="AbilCmd" AbilCmd="BarracksAddOns,Build3" Row="2" Column="2"/>
+            <LayoutButtons index="13" Face="Reaper" AbilCmd="BarracksTrain,Train2" Row="0" Column="4"/>
+            <LayoutButtons index="14" Face="Firebat" AbilCmd="BarracksTrain,Train6" Row="0" Column="3"/>
+            <LayoutButtons index="15" Face="Cancel" Type="AbilCmd" AbilCmd="BarracksAddOns,Halt" Row="2" Column="4"/>
+            <LayoutButtons index="16" Face="CancelBuilding" Type="AbilCmd" AbilCmd="BuildInProgress,Cancel" Row="2" Column="4"/>
+        </CardLayouts>
+    </CUnit> -->
+    <CUnit id="BarracksTechLab">
+        <CardLayouts index="0">
+            <LayoutButtons index="2" Face="Stimpack" Type="AbilCmd" AbilCmd="BarracksTechLabResearch,Research1" Row="0" Column="0"/>
+            <LayoutButtons index="3" Face="ResearchJackhammerConcussionGrenade" Type="AbilCmd" AbilCmd="BarracksTechLabResearch,Research5" Row="0" Column="1"/>
+            <LayoutButtons index="4" Face="ResearchStabilizerMedPacks" Type="AbilCmd" AbilCmd="BarracksTechLabResearch,Research6" Row="0" Column="2"/>
+            <LayoutButtons index="5" Face="ResearchIncineratorNozzles" Type="AbilCmd" AbilCmd="BarracksTechLabResearch,Research4" Row="0" Column="3"/>
+            <LayoutButtons Face="ResearchG4Charge" Type="AbilCmd" AbilCmd="BarracksTechLabResearch,Research7" Row="0" Column="4"/>
+        </CardLayouts>
+    </CUnit>
+    <CUnit id="BarracksTechReactor">
+        <CardLayouts index="0">
+            <LayoutButtons index="2" Face="Stimpack" Type="AbilCmd" AbilCmd="BarracksTechLabResearch,Research1" Row="0" Column="0"/>
+            <LayoutButtons index="3" Face="ResearchJackhammerConcussionGrenade" Type="AbilCmd" AbilCmd="BarracksTechLabResearch,Research5" Row="0" Column="1"/>
+            <LayoutButtons index="4" Face="ResearchStabilizerMedPacks" Type="AbilCmd" AbilCmd="BarracksTechLabResearch,Research6" Row="0" Column="2"/>
+            <LayoutButtons Face="ResearchIncineratorNozzles" Type="AbilCmd" AbilCmd="BarracksTechLabResearch,Research4" Row="0" Column="3"/>
+            <LayoutButtons Face="ResearchG4Charge" Type="AbilCmd" AbilCmd="BarracksTechLabResearch,Research7" Row="0" Column="4"/>
+        </CardLayouts>
+        <SubgroupAlias value="BarracksTechLab"/>
+    </CUnit>
+    <CUnit id="BraxisAlphaDestructible1x1">
+        <Attributes index="Mechanical" value="1"/>
+        <LifeStart value="250"/>
+        <LifeMax value="250"/>
+        <CostResource index="Minerals" value="75"/>
+        <RepairTime value="30"/>
+        <BehaviorArray index="0" removed="1"/>
+    </CUnit>
+    <CUnit id="BraxisAlphaDestructible2x2">
+        <Attributes index="Mechanical" value="1"/>
+        <LifeStart value="250"/>
+        <LifeMax value="250"/>
+        <CostResource index="Minerals" value="75"/>
+        <RepairTime value="30"/>
+        <BehaviorArray index="0" removed="1"/>
+    </CUnit>
+    <CUnit id="Choker">
+        <DeathRevealRadius value="3"/>
+        <Race value="Zerg"/>
+        <FlagArray index="PreventDestroy" value="1"/>
+        <FlagArray index="UseLineOfSight" value="1"/>
+        <FlagArray index="AlwaysThreatens" value="1"/>
+        <FlagArray index="AIThreatGround" value="1"/>
+        <FlagArray index="AIThreatAir" value="1"/>
+        <FlagArray index="AISplash" value="1"/>
+        <FlagArray index="AIHighPrioTarget" value="1"/>
+        <FlagArray index="AICaster" value="1"/>
+        <FlagArray index="AIPressForwardDisabled" value="1"/>
+        <PlaneArray index="Ground" value="1"/>
+        <Collide index="Ground" value="1"/>
+        <Collide index="ForceField" value="1"/>
+        <Attributes index="Armored" value="1"/>
+        <Attributes index="Biological" value="1"/>
+        <LifeStart value="350"/>
+        <LifeMax value="350"/>
+        <LifeRegenRate value="0.2734"/>
+        <LifeArmorName value="Unit/LifeArmorName/ZergGroundArmor"/>
+        <Speed value="2.5"/>
+        <SpeedMultiplierCreep value="1.3"/>
+        <Acceleration value="1000"/>
+        <LateralAcceleration value="46"/>
+        <Sight value="10"/>
+        <CostCategory value="Army"/>
+        <CostResource index="Minerals" value="100"/>
+        <CostResource index="Vespene" value="150"/>
+        <AttackTargetPriority value="20"/>
+        <DamageDealtXP value="1"/>
+        <DamageTakenXP value="1"/>
+        <KillXP value="40"/>
+        <AbilArray Link="stop"/>
+        <AbilArray Link="move"/>
+        <AbilArray Link="TentacleAttack"/>
+        <AbilArray Link="attack"/>
+        <CardLayouts>
+            <LayoutButtons Face="Move" Type="AbilCmd" AbilCmd="move,Move" Row="0" Column="0"/>
+            <LayoutButtons Face="Stop" Type="AbilCmd" AbilCmd="stop,Stop" Row="0" Column="1"/>
+            <LayoutButtons Face="MoveHoldPosition" Type="AbilCmd" AbilCmd="move,HoldPos" Row="0" Column="2"/>
+            <LayoutButtons Face="MovePatrol" Type="AbilCmd" AbilCmd="move,Patrol" Row="0" Column="3"/>
+            <LayoutButtons Face="Attack" Type="AbilCmd" AbilCmd="attack,Execute" Row="0" Column="4"/>
+            <LayoutButtons Face="AcquireMove" Type="AbilCmd" AbilCmd="move,AcquireMove" Row="0" Column="4"/>
+            <LayoutButtons Face="TentacleAttack" Type="AbilCmd" AbilCmd="TentacleAttack,Execute" Row="2" Column="0"/>
+        </CardLayouts>
+        <Radius value="0.875"/>
+        <InnerRadius value="0.5"/>
+        <CargoSize value="2"/>
+        <ScoreMake value="350"/>
+        <ScoreKill value="700"/>
+        <ScoreResult value="BuildOrder"/>
+        <SubgroupPriority value="19"/>
+        <MinimapRadius value="1.5"/>
+        <GlossaryCategory value="Unit/Category/ZergUnits"/>
+        <GlossaryPriority value="80"/>
+        <KillDisplay value="Always"/>
+        <WeaponArray Link="Spit"/>
+        <LifeArmor value="1"/>
+    </CUnit>
+    <CUnit id="D8Charge">
+        <FlagArray index="Untargetable" value="1"/>
+    </CUnit>
+    <CUnit id="D8ClusterBomb">
+        <FlagArray index="Untargetable" value="1"/>
+    </CUnit>
+    <CUnit id="EMPTower">
+        <Race value="Terr"/>
+        <EditorCategories value="ObjectType:Unit,ObjectFamily:Campaign"/>
+    </CUnit>
+    <CUnit id="EngineeringBay">
+        <CardLayouts index="0">
+            <LayoutButtons index="3" Face="TerranInfantryWeaponsUltraCapacitorsLevel1" Type="AbilCmd" AbilCmd="EngineeringBayResearch,Research11" Row="0" Column="0"/>
+            <LayoutButtons index="4" Face="TerranInfantryWeaponsUltraCapacitorsLevel2" Type="AbilCmd" AbilCmd="EngineeringBayResearch,Research12" Row="0" Column="0"/>
+            <LayoutButtons index="5" Face="TerranInfantryWeaponsUltraCapacitorsLevel3" Type="AbilCmd" AbilCmd="EngineeringBayResearch,Research13" Row="0" Column="0"/>
+            <LayoutButtons index="6" Face="Cancel" Type="AbilCmd" AbilCmd="que5,CancelLast" Row="2" Column="4"/>
+            <LayoutButtons index="7" Face="CancelBuilding" Type="AbilCmd" AbilCmd="BuildInProgress,Cancel" Row="2" Column="4"/>
+            <LayoutButtons index="8" Face="Halt" Type="AbilCmd" AbilCmd="BuildInProgress,Halt" Row="2" Column="3"/>
+            <LayoutButtons index="9" Face="ResearchNeosteelFrame" Type="AbilCmd" AbilCmd="EngineeringBayResearch,Research6" Row="1" Column="1"/>
+            <LayoutButtons index="10" Face="UpgradeBuildingArmorLevel1" Type="AbilCmd" AbilCmd="EngineeringBayResearch,Research2" Row="1" Column="1"/>
+            <LayoutButtons index="11" Face="SelectBuilder" Type="SelectBuilder" AbilCmd="que5,CancelLast" Row="1" Column="3"/>
+            <LayoutButtons index="12" Face="TerranInfantryArmorLevel1" Type="AbilCmd" AbilCmd="EngineeringBayResearch,Research7" Row="0" Column="1"/>
+            <LayoutButtons index="13" Face="TerranInfantryArmorLevel2" Type="AbilCmd" AbilCmd="EngineeringBayResearch,Research8" Row="0" Column="1"/>
+            <LayoutButtons index="14" Face="TerranInfantryArmorLevel3" Type="AbilCmd" AbilCmd="EngineeringBayResearch,Research9" Row="0" Column="1"/>
+            <LayoutButtons index="15" Face="TerranInfantryArmorVanadiumPlatingLevel1" Type="AbilCmd" AbilCmd="EngineeringBayResearch,Research14" Row="0" Column="1"/>
+            <LayoutButtons index="16" Face="TerranInfantryArmorVanadiumPlatingLevel2" Type="AbilCmd" AbilCmd="EngineeringBayResearch,Research15" Row="0" Column="1"/>
+            <LayoutButtons index="17" Face="TerranInfantryArmorVanadiumPlatingLevel3" Type="AbilCmd" AbilCmd="EngineeringBayResearch,Research16" Row="0" Column="1"/>
+            <LayoutButtons index="18" Face="ResearchHiSecAutoTracking" Type="AbilCmd" AbilCmd="EngineeringBayResearch,Research1" Row="1" Column="0"/>
+        </CardLayouts>
+    </CUnit>
+    <CUnit id="Factory">
+        <CardLayouts index="0">
+            <LayoutButtons index="0" Face="Hellion" Type="AbilCmd" AbilCmd="FactoryTrain,Train6" Row="0" Column="1"/>
+            <LayoutButtons index="1" Face="SiegeTank" Type="AbilCmd" AbilCmd="FactoryTrain,Train2" Row="0" Column="3"/>
+            <LayoutButtons index="2" Face="Vulture" Type="AbilCmd" AbilCmd="FactoryTrain,Train9" Row="0" Column="0"/>
+            <LayoutButtons index="8" Face="TechReactor" Type="AbilCmd" AbilCmd="FactoryAddOns,Build4" Row="2" Column="0"/>
+            <LayoutButtons index="9" Face="SelectBuilder" Type="SelectBuilder" AbilCmd="Rally,Rally1" Row="1" Column="3"/>
+            <LayoutButtons index="10" Face="Cancel" Type="AbilCmd" AbilCmd="que5,CancelLast" Row="2" Column="4"/>
+            <LayoutButtons index="11" Face="Cancel" Type="AbilCmd" AbilCmd="FactoryAddOns,Halt" Row="2" Column="4"/>
+            <LayoutButtons index="12" Face="CancelBuilding" Type="AbilCmd" AbilCmd="BuildInProgress,Cancel" Row="2" Column="4"/>
+            <LayoutButtons index="13" Face="TechReactorAI" Type="AbilCmd" AbilCmd="FactoryAddOns,Build3" Row="2" Column="2"/>
+            <LayoutButtons index="14" Face="Goliath" Type="AbilCmd" AbilCmd="FactoryTrain,Train7" Row="0" Column="2"/>
+            <LayoutButtons index="15" removed="1"/>
+            <LayoutButtons index="16" removed="1"/>
+            <LayoutButtons index="17" removed="1"/>
+        </CardLayouts>
+    </CUnit>
+    <CUnit id="FactoryTechLab">
+        <CardLayouts index="0">
+            <LayoutButtons index="2" Face="ResearchCerberusMines" Type="AbilCmd" AbilCmd="FactoryTechLabResearch,Research5" Row="0" Column="0"/>
+            <LayoutButtons index="3" Face="ResearchHighCapacityBarrels" Type="AbilCmd" AbilCmd="FactoryTechLabResearch,Research2" Row="0" Column="1"/>
+            <LayoutButtons index="4" Face="ResearchMultiLockTargetingSystem" Type="AbilCmd" AbilCmd="FactoryTechLabResearch,Research6" Row="0" Column="2"/>
+            <LayoutButtons Face="ResearchShapedBlast" Type="AbilCmd" AbilCmd="FactoryTechLabResearch,Research7" Row="0" Column="3"/>
+            <LayoutButtons Face="ResearchRegenerativeBioSteel" Type="AbilCmd" AbilCmd="FactoryTechLabResearch,Research8" Row="1" Column="0"/>
+        </CardLayouts>
+    </CUnit>
+    <CUnit id="FactoryTechReactor">
+        <CardLayouts index="0">
+            <LayoutButtons index="2" Face="ResearchCerberusMines" Type="AbilCmd" AbilCmd="FactoryTechLabResearch,Research5" Row="0" Column="0"/>
+            <LayoutButtons index="3" Face="ResearchHighCapacityBarrels" Type="AbilCmd" AbilCmd="FactoryTechLabResearch,Research2" Row="0" Column="1"/>
+            <LayoutButtons index="4" Face="ResearchMultiLockTargetingSystem" Type="AbilCmd" AbilCmd="FactoryTechLabResearch,Research6" Row="0" Column="2"/>
+            <LayoutButtons Face="ResearchShapedBlast" Type="AbilCmd" AbilCmd="FactoryTechLabResearch,Research7" Row="0" Column="3"/>
+            <LayoutButtons Face="ResearchRegenerativeBioSteel" Type="AbilCmd" AbilCmd="FactoryTechLabResearch,Research8" Row="1" Column="0"/>
+        </CardLayouts>
+        <SubgroupAlias value="FactoryTechLab"/>
+    </CUnit>
+    <CUnit id="Firebat">
+        <LifeStart value="125"/>
+        <LifeMax value="125"/>
+        <AbilArray Link="StimpackFirebat"/>
+        <CardLayouts index="0">
+            <LayoutButtons Face="StimFirebat" Type="AbilCmd" AbilCmd="StimpackFirebat,Execute" Row="2" Column="0"/>
+        </CardLayouts>
+    </CUnit>
+    <CUnit id="DevilDog">
+        <AbilArray Link="StimpackFirebat"/>
+        <CardLayouts index="0">
+            <LayoutButtons Face="StimFirebat" Type="AbilCmd" AbilCmd="StimpackFirebat,Execute" Row="2" Column="0"/>
+        </CardLayouts>
+    </CUnit>
+    <CUnit id="Goliath">
+        <InnerRadius value="0.375"/>
+    </CUnit>
+    <CUnit id="Hellion">
+        <CardLayouts index="0">
+            <LayoutButtons index="5">
+                <Face value="InfernalPreIgniter"/>
+                <Type value="Passive"/>
+                <AbilCmd value="255"/>
+                <Requirements value="UseInfernalPreIgniter"/>
+                <Row value="1"/>
+                <Column value="0"/>
+            </LayoutButtons>
+            <LayoutButtons index="6" removed="1"/>
+        </CardLayouts>
+    </CUnit>
+    <CUnit id="Hunterling">
+        <DeathRevealRadius value="3"/>
+        <Race value="Zerg"/>
+        <FlagArray index="PreventDestroy" value="1"/>
+        <FlagArray index="UseLineOfSight" value="1"/>
+        <PlaneArray index="Ground" value="1"/>
+        <Collide index="Ground" value="1"/>
+        <Collide index="ForceField" value="1"/>
+        <Attributes index="Light" value="1"/>
+        <Attributes index="Biological" value="1"/>
+        <LifeStart value="100"/>
+        <LifeMax value="100"/>
+        <LifeRegenRate value="0.2734"/>
+        <LifeArmorName value="Unit/LifeArmorName/ZergGroundArmor"/>
+        <Speed value="2.9531"/>
+        <SpeedMultiplierCreep value="1.3"/>
+        <Acceleration value="1000"/>
+        <LateralAcceleration value="46.0625"/>
+        <Sight value="8"/>
+        <CostCategory value="Army"/>
+        <CostResource index="Minerals" value="25"/>
+        <AttackTargetPriority value="20"/>
+        <DamageDealtXP value="1"/>
+        <DamageTakenXP value="1"/>
+        <KillXP value="5"/>
+        <AbilArray Link="stop"/>
+        <AbilArray Link="move"/>
+        <AbilArray Link="attack"/>
+        <AbilArray Link="LeapAttack"/>
+        <AbilArray Link="LeapAttackMorphToFlyingForm"/>
+        <AbilArray Link="LeapAttackMorphToNormalForm"/>
+        <CardLayouts>
+            <LayoutButtons Face="Move" Type="AbilCmd" AbilCmd="move,Move" Row="0" Column="0"/>
+            <LayoutButtons Face="Stop" Type="AbilCmd" AbilCmd="stop,Stop" Row="0" Column="1"/>
+            <LayoutButtons Face="MoveHoldPosition" Type="AbilCmd" AbilCmd="move,HoldPos" Row="0" Column="2"/>
+            <LayoutButtons Face="MovePatrol" Type="AbilCmd" AbilCmd="move,Patrol" Row="0" Column="3"/>
+            <LayoutButtons Face="Attack" Type="AbilCmd" AbilCmd="attack,Execute" Row="0" Column="4"/>
+            <LayoutButtons Face="LeapAttack" Type="AbilCmd" AbilCmd="LeapAttack,Execute" Row="2" Column="0"/>
+        </CardLayouts>
+        <ScoreMake value="25"/>
+        <ScoreKill value="50"/>
+        <ScoreResult value="BuildOrder"/>
+        <SubgroupPriority value="8"/>
+        <MinimapRadius value="1.5"/>
+        <GlossaryCategory value="Unit/Category/ZergUnits"/>
+        <GlossaryPriority value="20"/>
+        <KillDisplay value="Always"/>
+        <Fidget>
+            <ChanceArray index="Anim" value="33"/>
+            <ChanceArray index="Idle" value="33"/>
+            <ChanceArray index="Turn" value="33"/>
+        </Fidget>
+        <TauntDuration index="Cheer" value="5"/>
+        <TauntDuration index="Dance" value="5"/>
+        <Mover value="CliffJumper"/>
+        <BehaviorArray Link="HunterlingJump"/>
+        <WeaponArray Link="HunterlingClaws"/>
+        <LifeArmor value="1"/>
+    </CUnit>
+    <CUnit id="HunterlingLeaping">
+        <DeathRevealRadius value="3"/>
+        <ReviveType value="Hunterling"/>
+        <Race value="Zerg"/>
+        <FlagArray index="PreventDestroy" value="1"/>
+        <FlagArray index="UseLineOfSight" value="1"/>
+        <PlaneArray index="Ground" value="1"/>
+        <Attributes index="Light" value="1"/>
+        <Attributes index="Biological" value="1"/>
+        <LifeStart value="100"/>
+        <LifeMax value="100"/>
+        <LifeRegenRate value="0.2734"/>
+        <LifeArmorName value="Unit/LifeArmorName/ZergGroundArmor"/>
+        <Mover value="Fly"/>
+        <Speed value="2.9531"/>
+        <SpeedMultiplierCreep value="1.3"/>
+        <Acceleration value="1000"/>
+        <LateralAcceleration value="46.0625"/>
+        <Sight value="8"/>
+        <CostCategory value="Army"/>
+        <CostResource index="Minerals" value="25"/>
+        <AttackTargetPriority value="20"/>
+        <DamageDealtXP value="1"/>
+        <DamageTakenXP value="1"/>
+        <KillXP value="5"/>
+        <AbilArray Link="stop"/>
+        <AbilArray Link="move"/>
+        <AbilArray Link="attack"/>
+        <AbilArray Link="LeapAttack"/>
+        <AbilArray Link="LeapAttackMorphToFlyingForm"/>
+        <AbilArray Link="LeapAttackMorphToNormalForm"/>
+        <BehaviorArray Link="Leaping"/>
+        <WeaponArray Link="HunterlingClaws"/>
+        <CardLayouts>
+            <LayoutButtons Face="Move" Type="AbilCmd" AbilCmd="move,Move" Row="0" Column="0"/>
+            <LayoutButtons Face="Stop" Type="AbilCmd" AbilCmd="stop,Stop" Row="0" Column="1"/>
+            <LayoutButtons Face="MoveHoldPosition" Type="AbilCmd" AbilCmd="move,HoldPos" Row="0" Column="2"/>
+            <LayoutButtons Face="MovePatrol" Type="AbilCmd" AbilCmd="move,Patrol" Row="0" Column="3"/>
+            <LayoutButtons Face="Attack" Type="AbilCmd" AbilCmd="attack,Execute" Row="0" Column="4"/>
+            <LayoutButtons Face="LeapAttack" Type="AbilCmd" AbilCmd="LeapAttack,Execute" Row="2" Column="0"/>
+        </CardLayouts>
+        <ScoreMake value="25"/>
+        <ScoreKill value="50"/>
+        <ScoreResult value="BuildOrder"/>
+        <SubgroupPriority value="8"/>
+        <MinimapRadius value="1.5"/>
+        <TacticalAI value="Hunterling"/>
+        <LeaderAlias value="Hunterling"/>
+        <SelectAlias value="Hunterling"/>
+        <SubgroupAlias value="Hunterling"/>
+        <GlossaryCategory value="Unit/Category/ZergUnits"/>
+        <GlossaryPriority value="20"/>
+        <KillDisplay value="Always"/>
+        <AIEvaluateAlias value="Hunterling"/>
+        <Fidget>
+            <ChanceArray index="Anim" value="33"/>
+            <ChanceArray index="Idle" value="33"/>
+            <ChanceArray index="Turn" value="33"/>
+        </Fidget>
+        <TauntDuration index="Cheer" value="5"/>
+        <TauntDuration index="Dance" value="5"/>
+        <LifeArmor value="1"/>
+    </CUnit>
+    <CUnit id="InfestableBiodome">
+        <LifeStart value="750"/>
+        <LifeMax value="750"/>
+    </CUnit>
+    <CUnit id="InfestedBunker">
+        <AbilArray Link="AttackRedirect"/>
+        <CardLayouts index="0">
+            <LayoutButtons Face="AttackRedirect" Type="AbilCmd" AbilCmd="AttackRedirect,Execute" Row="0" Column="4"/>
+        </CardLayouts>
+    </CUnit>
+    <CUnit id="Kaboomer">
+        <DeathRevealRadius value="3"/>
+        <Facing value="45"/>
+        <Race value="Zerg"/>
+        <FlagArray index="PreventDestroy" value="1"/>
+        <FlagArray index="UseLineOfSight" value="1"/>
+        <FlagArray index="AISplash" value="1"/>
+        <FlagArray index="AIHighPrioTarget" value="1"/>
+        <FlagArray index="AIFleeDamageDisabled" value="1"/>
+        <PlaneArray index="Ground" value="1"/>
+        <Collide index="Ground" value="1"/>
+        <Collide index="ForceField" value="1"/>
+        <Attributes index="Armored" value="1"/>
+        <Attributes index="Biological" value="1"/>
+        <LifeStart value="600"/>
+        <LifeMax value="600"/>
+        <LifeRegenRate value="0.2734"/>
+        <LifeArmorName value="Unit/LifeArmorName/ZergGroundArmor"/>
+        <Speed value="1.1015"/>
+        <SpeedMultiplierCreep value="1.3"/>
+        <Acceleration value="1000"/>
+        <LateralAcceleration value="46.0625"/>
+        <Sight value="8"/>
+        <CostCategory value="Army"/>
+        <CostResource index="Minerals" value="25"/>
+        <CostResource index="Vespene" value="25"/>
+        <AttackTargetPriority value="20"/>
+        <DamageDealtXP value="1"/>
+        <DamageTakenXP value="1"/>
+        <KillXP value="30"/>
+        <AbilArray Link="stop"/>
+        <AbilArray Link="move"/>
+        <AbilArray Link="attack"/>
+        <CardLayouts>
+            <LayoutButtons Face="Move" Type="AbilCmd" AbilCmd="move,Move" Row="0" Column="0"/>
+            <LayoutButtons Face="Stop" Type="AbilCmd" AbilCmd="stop,Stop" Row="0" Column="1"/>
+            <LayoutButtons Face="MoveHoldPosition" Type="AbilCmd" AbilCmd="move,HoldPos" Row="0" Column="2"/>
+            <LayoutButtons Face="MovePatrol" Type="AbilCmd" AbilCmd="move,Patrol" Row="0" Column="3"/>
+            <LayoutButtons Face="AcquireMove" Type="AbilCmd" AbilCmd="move,AcquireMove" Row="0" Column="4"/>
+        </CardLayouts>
+        <Radius value="1"/>
+        <SeparationRadius value="1"/>
+        <InnerRadius value="0.375"/>
+        <CargoSize value="2"/>
+        <ScoreMake value="150"/>
+        <ScoreKill value="300"/>
+        <ScoreResult value="BuildOrder"/>
+        <SubgroupPriority value="16"/>
+        <MinimapRadius value="1.5"/>
+        <AIEvalFactor value="3"/>
+        <GlossaryCategory value="Unit/Category/ZergUnits"/>
+        <GlossaryPriority value="30"/>
+        <KillDisplay value="Always"/>
+        <BehaviorArray Link="Explode"/>
+        <WeaponArray Link="Spew"/>
+    </CUnit>
+    <CUnit id="HunterlingPlaceholder" parent="PLACEHOLDER">
+        <DeathRevealRadius value="3"/>
+        <Race value="Zerg"/>
+        <Collide index="Structure" value="1"/>
+        <Attributes index="Light" value="1"/>
+        <Attributes index="Biological" value="1"/>
+        <AttackTargetPriority value="20"/>
+        <DamageDealtXP value="1"/>
+        <DamageTakenXP value="1"/>
+        <KillXP value="10"/>
+        <SeparationRadius value="0.375"/>
+        <MinimapRadius value="1.5"/>
+        <LeaderAlias value=""/>
+        <LifeArmor value="1"/>
+    </CUnit>
+    <CUnit id="Marauder">
+        <LifeStart value="125"/>
+        <LifeMax value="125"/>
+        <AbilArray Link="StimpackMarauder"/>
+        <CardLayouts index="0">
+            <LayoutButtons Face="StimMarauder" Type="AbilCmd" AbilCmd="StimpackMarauder,Execute" Row="2" Column="0"/>
+        </CardLayouts>
+    </CUnit>
+    <CUnit id="Marine"/>
+    <CUnit id="SCV">
+        <CardLayouts index="1" CardId="TBl1">
+            <LayoutButtons index="1" Face="CommandCenterOrbRelay" Type="AbilCmd" AbilCmd="TerranBuild,Build21" Row="0" Column="0"/>
+            <LayoutButtons index="2" Face="Refinery" Type="AbilCmd" AbilCmd="TerranBuild,Build3" Row="0" Column="1"/>
+            <LayoutButtons index="3" Face="AutomatedRefinery" Type="AbilCmd" AbilCmd="TerranBuild,Build19" Row="0" Column="1"/>
+            <LayoutButtons index="4" Face="Barracks" Type="AbilCmd" AbilCmd="TerranBuild,Build4" Row="1" Column="0"/>
+            <LayoutButtons index="5" Face="EngineeringBay" Type="AbilCmd" AbilCmd="TerranBuild,Build5" Row="1" Column="1"/>
+            <LayoutButtons index="6" Face="Bunker" Type="AbilCmd" AbilCmd="TerranBuild,Build7" Row="2" Column="0"/>
+            <LayoutButtons index="7" Face="BunkerFortified" Type="AbilCmd" AbilCmd="TerranBuild,Build23" Row="2" Column="0"/>
+            <LayoutButtons index="8" Face="MissileTurret" Type="AbilCmd" AbilCmd="TerranBuild,Build6" Row="2" Column="1"/>
+            <LayoutButtons index="9" Face="PerditionTurret" Type="AbilCmd" AbilCmd="TerranBuild,Build20" Row="2" Column="2"/>
+            <LayoutButtons index="10" Face="Cancel" Type="CancelSubmenu" AbilCmd="TerranBuild,Build19" Row="2" Column="4"/>
+            <LayoutButtons index="11" Face="HiveMindEmulator" Type="AbilCmd" AbilCmd="TerranBuild,Build22" Row="2" Column="3"/>
+            <LayoutButtons index="12" Face="PsiDisruptor" Type="AbilCmd" AbilCmd="TerranBuild,Build8" Row="2" Column="3"/>
+            <LayoutButtons index="13" removed="1"/>
+            <LayoutButtons index="14" removed="1"/>
+            <LayoutButtons index="15" removed="1"/>
+        </CardLayouts>
+        <CardLayouts index="2" CardId="TBl2">
+            <LayoutButtons index="1" Face="Factory" Type="AbilCmd" AbilCmd="TerranBuild,Build11" Row="0" Column="0"/>
+            <LayoutButtons index="2" Face="Starport" Type="AbilCmd" AbilCmd="TerranBuild,Build12" Row="2" Column="0"/>
+            <LayoutButtons index="3" Face="FusionCore" Type="AbilCmd" AbilCmd="TerranBuild,Build16" Row="2" Column="1"/>
+            <LayoutButtons index="4" Face="Cancel" Type="CancelSubmenu" AbilCmd="TerranBuild,Build14" Row="2" Column="4"/>
+            <LayoutButtons index="5" Face="MercCompound" Type="AbilCmd" AbilCmd="TerranBuild,Build13" Row="0" Column="1"/>
+            <LayoutButtons index="6" Face="Armory" Type="AbilCmd" AbilCmd="TerranBuild,Build14" Row="0" Column="1"/>
+        </CardLayouts>
+    </CUnit>
+    <CUnit id="ScienceFacility">
+        <FlagArray index="Hero" value="1"/>
+        <FlagArray index="Invulnerable" value="1"/>
+        <AbilArray Link="que1"/>
+        <AbilArray Link="Left2DieResearch"/>
+        <CardLayouts>
+            <LayoutButtons Face="ResearchMedic" Type="AbilCmd" AbilCmd="Left2DieResearch,Research2" Row="0" Column="0"/>
+            <LayoutButtons Face="ResearchFirebat" Type="AbilCmd" AbilCmd="Left2DieResearch,Research6" Row="0" Column="1"/>
+            <LayoutButtons Face="ResearchReaper" Type="AbilCmd" AbilCmd="Left2DieResearch,Research3" Row="0" Column="2"/>
+            <LayoutButtons Face="ResearchHellion" Type="AbilCmd" AbilCmd="Left2DieResearch,Research8" Row="1" Column="0"/>
+            <LayoutButtons Face="ResearchGoliath" Type="AbilCmd" AbilCmd="Left2DieResearch,Research11" Row="1" Column="1"/>
+            <LayoutButtons Face="ResearchBunkerUpgrade" Type="AbilCmd" AbilCmd="Left2DieResearch,Research5" Row="2" Column="0"/>
+            <LayoutButtons Face="ResearchPerditionTurret" Type="AbilCmd" AbilCmd="Left2DieResearch,Research10" Row="2" Column="1"/>
+            <LayoutButtons Face="ResearchFireSuppression" Type="AbilCmd" AbilCmd="Left2DieResearch,Research7" Row="2" Column="2"/>
+            <LayoutButtons Face="ResearchTechReactor" Type="AbilCmd" AbilCmd="Left2DieResearch,Research4" Row="2" Column="3"/>
+            <LayoutButtons Face="ResearchSiegeTank" Type="AbilCmd" AbilCmd="Left2DieResearch,Research1" Row="1" Column="2"/>
+        </CardLayouts>
+        <Attributes index="Structure" value="0"/>
+        <BehaviorArray Link="SensorTowerRadar"/>
+    </CUnit>
+    <CUnit id="SiegeTank">
+        <Food value="-4"/>
+    </CUnit>
+    <CUnit id="SiegeTankSieged">
+        <Food value="-4"/>
+    </CUnit>
+    <CUnit id="SpewMissile" parent="MISSILE_INVULNERABLE">
+        <Race value="Zerg"/>
+        <Mover value="Spew"/>
+    </CUnit>
+    <CUnit id="SpiderMineBurrowed">
+        <Attributes index="Structure" value="0"/>
+    </CUnit>
+    <CUnit id="Spotter">
+        <DeathRevealRadius value="3"/>
+        <Facing value="45"/>
+        <Race value="Zerg"/>
+        <FlagArray index="PreventDestroy" value="1"/>
+        <FlagArray index="AISupport" value="1"/>
+        <PlaneArray index="Air" value="1"/>
+        <Collide index="Flying" value="1"/>
+        <Attributes index="Armored" value="1"/>
+        <Attributes index="Biological" value="1"/>
+        <LifeStart value="350"/>
+        <LifeMax value="350"/>
+        <LifeRegenRate value="0.2734"/>
+        <LifeArmorName value="Unit/LifeArmorName/ZergAirArmor"/>
+        <Mover value="Fly"/>
+        <Speed value="1.875"/>
+        <Acceleration value="2.125"/>
+        <LateralAcceleration value="46.0625"/>
+        <Sight value="12"/>
+        <Height value="3.75"/>
+        <VisionHeight value="4"/>
+        <CostCategory value="Army"/>
+        <CostResource index="Minerals" value="150"/>
+        <CostResource index="Vespene" value="100"/>
+        <AttackTargetPriority value="20"/>
+        <DamageDealtXP value="1"/>
+        <DamageTakenXP value="1"/>
+        <KillXP value="30"/>
+        <AbilArray Link="stop"/>
+        <AbilArray Link="Corruption"/>
+        <AbilArray Link="move"/>
+        <AbilArray Link="attack"/>
+        <BehaviorArray Link="Detector11"/>
+        <CardLayouts>
+            <LayoutButtons Face="Move" Type="AbilCmd" AbilCmd="move,Move" Row="0" Column="0"/>
+            <LayoutButtons Face="Stop" Type="AbilCmd" AbilCmd="stop,Stop" Row="0" Column="1"/>
+            <LayoutButtons Face="MoveHoldPosition" Type="AbilCmd" AbilCmd="move,HoldPos" Row="0" Column="2"/>
+            <LayoutButtons Face="MovePatrol" Type="AbilCmd" AbilCmd="move,Patrol" Row="0" Column="3"/>
+            <LayoutButtons Face="Attack" Type="AbilCmd" AbilCmd="attack,Execute" Row="0" Column="4"/>
+            <LayoutButtons Face="AcquireMove" Type="AbilCmd" AbilCmd="move,AcquireMove" Row="0" Column="4"/>
+            <LayoutButtons Face="CorruptionAbility" Type="AbilCmd" AbilCmd="Corruption,Execute" Row="2" Column="0"/>
+        </CardLayouts>
+        <SeparationRadius value="0.75"/>
+        <ScoreMake value="200"/>
+        <ScoreKill value="400"/>
+        <ScoreResult value="BuildOrder"/>
+        <SubgroupPriority value="11"/>
+        <MinimapRadius value="1.5"/>
+        <AIEvalFactor value="0"/>
+        <GlossaryCategory value="Unit/Category/ZergUnits"/>
+        <GlossaryPriority value="120"/>
+        <WeaponArray Link="BioDischarge"/>
+    </CUnit>
+    <CUnit id="Stank">
+        <DeathRevealRadius value="3"/>
+        <Race value="Zerg"/>
+        <FlagArray index="PreventDestroy" value="1"/>
+        <FlagArray index="UseLineOfSight" value="1"/>
+        <FlagArray index="TurnBeforeMove" value="1"/>
+        <FlagArray index="AISplash" value="1"/>
+        <PlaneArray index="Ground" value="1"/>
+        <Collide index="Ground" value="1"/>
+        <Attributes index="Armored" value="1"/>
+        <Attributes index="Biological" value="1"/>
+        <Attributes index="Massive" value="1"/>
+        <LifeStart value="3500"/>
+        <LifeMax value="3500"/>
+        <LifeArmor value="2"/>
+        <LifeRegenRate value="0.2734"/>
+        <LifeArmorName value="Unit/LifeArmorName/ZergGroundArmor"/>
+        <Speed value="2"/>
+        <SpeedMultiplierCreep value="1.3"/>
+        <Acceleration value="1000"/>
+        <LateralAcceleration value="46.0625"/>
+        <TurningRate value="360"/>
+        <Sight value="9"/>
+        <CostCategory value="Army"/>
+        <CostResource index="Minerals" value="300"/>
+        <CostResource index="Vespene" value="200"/>
+        <AttackTargetPriority value="20"/>
+        <DamageDealtXP value="1"/>
+        <DamageTakenXP value="1"/>
+        <KillXP value="150"/>
+        <AbilArray Link="stop"/>
+        <AbilArray Link="move"/>
+        <AbilArray Link="attack"/>
+        <AbilArray Link="Headbutt"/>
+        <CardLayouts>
+            <LayoutButtons Face="Move" Type="AbilCmd" AbilCmd="move,Move" Row="0" Column="0"/>
+            <LayoutButtons Face="Stop" Type="AbilCmd" AbilCmd="stop,Stop" Row="0" Column="1"/>
+            <LayoutButtons Face="MoveHoldPosition" Type="AbilCmd" AbilCmd="move,HoldPos" Row="0" Column="2"/>
+            <LayoutButtons Face="MovePatrol" Type="AbilCmd" AbilCmd="move,Patrol" Row="0" Column="3"/>
+            <LayoutButtons Face="Attack" Type="AbilCmd" AbilCmd="attack,Execute" Row="0" Column="4"/>
+            <LayoutButtons Face="AcquireMove" Type="AbilCmd" AbilCmd="move,AcquireMove" Row="0" Column="4"/>
+            <LayoutButtons Face="Headbutt" Type="AbilCmd" AbilCmd="Headbutt,Execute" Row="2" Column="0"/>
+        </CardLayouts>
+        <Radius value="1"/>
+        <SeparationRadius value="1"/>
+        <InnerRadius value="0.75"/>
+        <CargoSize value="8"/>
+        <ScoreMake value="800"/>
+        <ScoreKill value="1600"/>
+        <ScoreResult value="BuildOrder"/>
+        <SubgroupPriority value="12"/>
+        <MinimapRadius value="1.5"/>
+        <GlossaryCategory value="Unit/Category/ZergUnits"/>
+        <GlossaryPriority value="90"/>
+        <KillDisplay value="Always"/>
+        <Fidget>
+            <ChanceArray index="Anim" value="50"/>
+            <ChanceArray index="Idle" value="50"/>
+        </Fidget>
+        <TauntDuration index="Cheer" value="5"/>
+        <TauntDuration index="Dance" value="5"/>
+        <WeaponArray Link="StankKaiserBlades"/>
+    </CUnit>
+    <CUnit id="BioDischargeMissile" parent="MISSILE_HALFLIFE">
+        <Race value="Zerg"/>
+    </CUnit>
+    <CUnit id="SpitMissile" parent="MISSILE_HALFLIFE">
+        <Race value="Zerg"/>
+    </CUnit>
+    <CUnit id="SupplyDepot">
+        <BehaviorArray Link="ExtraSupplies"/>
+    </CUnit>
+    <CUnit id="SupplyDepotLowered">
+        <BehaviorArray Link="ExtraSupplies"/>
+    </CUnit>
+    <CUnit id="TentacleMissile" parent="MISSILE_INVULNERABLE">
+        <Race value="Zerg"/>
+        <Mover value="MissileDefault"/>
+    </CUnit>
+    <CUnit id="Virophage">
+        <BehaviorArray Link="ZergBuildingDies9"/>
+    </CUnit>
+    <CUnit id="Vulture">
+        <InnerRadius value="0.375"/>
+        <BehaviorArray index="0" removed="1"/>
+    </CUnit>
+    <CUnit id="MercMedic">
+        <LeaderAlias value="Medic"/>
+        <SelectAlias value="Medic"/>
+        <DeathRevealRadius value="3"/>
+        <Race value="Terr"/>
+        <Mob value="Campaign"/>
+        <LifeStart value="90"/>
+        <LifeMax value="90"/>
+        <LifeArmor value="1"/>
+        <LifeArmorName value="Unit/LifeArmorName/TerranInfantryArmor"/>
+        <EnergyStart value="50"/>
+        <EnergyMax value="200"/>
+        <EnergyRegenRate value="0.5625"/>
+        <Speed value="2.25"/>
+        <Acceleration value="1000"/>
+        <LateralAcceleration value="46.0625"/>
+        <Food value="-2"/>
+        <CostResource index="Minerals" value="75"/>
+        <CostResource index="Vespene" value="50"/>
+        <RepairTime value="25"/>
+        <AttackTargetPriority value="20"/>
+        <DamageDealtXP value="1"/>
+        <DamageTakenXP value="1"/>
+        <KillXP value="15"/>
+        <Radius value="0.375"/>
+        <SeparationRadius value="0.375"/>
+        <InnerRadius value="0.375"/>
+        <CargoSize value="1"/>
+        <ScoreMake value="125"/>
+        <ScoreKill value="250"/>
+        <SubgroupPriority value="4"/>
+        <MinimapRadius value="0.375"/>
+        <FlagArray index="UseLineOfSight" value="1"/>
+        <FlagArray index="AlwaysThreatens" value="1"/>
+        <FlagArray index="AISupport" value="1"/>
+        <FlagArray index="ArmySelect" value="1"/>
+        <PlaneArray index="Ground" value="1"/>
+        <Collide index="Ground" value="1"/>
+        <Sight value="10"/>
+        <AbilArray Link="stop"/>
+        <AbilArray Link="Flare"/>
+        <AbilArray Link="move"/>
+        <AbilArray Link="MercMedicHeal"/>
+        <CardLayouts>
+            <LayoutButtons Face="Move" Type="AbilCmd" AbilCmd="move,Move" Row="0" Column="0"/>
+            <LayoutButtons Face="Stop" Type="AbilCmd" AbilCmd="stop,Stop" Row="0" Column="1"/>
+            <LayoutButtons Face="MoveHoldPosition" Type="AbilCmd" AbilCmd="move,HoldPos" Row="0" Column="2"/>
+            <LayoutButtons Face="Attack" Type="AbilCmd" AbilCmd="attack,Execute" Row="0" Column="4"/>
+            <LayoutButtons Face="AcquireMove" Type="AbilCmd" AbilCmd="move,AcquireMove" Row="0" Column="4"/>
+            <LayoutButtons Face="MovePatrol" Type="AbilCmd" AbilCmd="move,Patrol" Row="0" Column="3"/>
+            <LayoutButtons Face="MercMedicHeal" Type="AbilCmd" AbilCmd="MercMedicHeal,Execute" Row="2" Column="0"/>
+            <LayoutButtons Face="Flare" Type="AbilCmd" AbilCmd="Flare,0" Row="2" Column="1"/>
+            <LayoutButtons>
+                <Face value="StabilizerMedPacks"/>
+                <Type value="Passive"/>
+                <AbilCmd value="255"/>
+                <Requirements value="UseStabilizerMedpacks"/>
+                <Row value="1"/>
+                <Column value="0"/>
+            </LayoutButtons>
+        </CardLayouts>
+        <Attributes index="Light" value="1"/>
+        <Attributes index="Biological" value="1"/>
+        <EditorCategories value="ObjectType:Unit,ObjectFamily:Campaign"/>
+        <GlossaryCategory value="Unit/Category/TerranUnits"/>
+        <GlossaryPriority value="30"/>
+        <Fidget>
+            <ChanceArray index="Anim" value="33"/>
+            <ChanceArray index="Idle" value="33"/>
+            <ChanceArray index="Turn" value="33"/>
+        </Fidget>
+    </CUnit>
+    <CUnit id="MercHellion">
+        <LeaderAlias value="Hellion"/>
+        <SelectAlias value="Hellion"/>
+        <DeathRevealRadius value="3"/>
+        <Race value="Terr"/>
+        <Mob value="Multiplayer"/>
+        <LifeStart value="150"/>
+        <LifeMax value="150"/>
+        <LifeArmorName value="Unit/LifeArmorName/TerranVehiclePlating"/>
+        <Speed value="4.25"/>
+        <Acceleration value="1000"/>
+        <LateralAcceleration value="46"/>
+        <StationaryTurningRate value="1499.9414"/>
+        <Food value="-2"/>
+        <CostCategory value="Army"/>
+        <CostResource index="Minerals" value="100"/>
+        <RepairTime value="30"/>
+        <AttackTargetPriority value="20"/>
+        <DamageDealtXP value="1"/>
+        <DamageTakenXP value="1"/>
+        <KillXP value="30"/>
+        <Radius value="0.625"/>
+        <SeparationRadius value="0.625"/>
+        <InnerRadius value="0.5"/>
+        <CargoSize value="2"/>
+        <ScoreMake value="300"/>
+        <ScoreKill value="600"/>
+        <ScoreResult value="BuildOrder"/>
+        <SubgroupPriority value="8"/>
+        <FlagArray index="PreventDestroy" value="1"/>
+        <FlagArray index="UseLineOfSight" value="1"/>
+        <FlagArray index="AISplash" value="1"/>
+        <FlagArray index="ArmySelect" value="1"/>
+        <PlaneArray index="Ground" value="1"/>
+        <Collide index="Ground" value="1"/>
+        <Collide index="ForceField" value="1"/>
+        <Sight value="10"/>
+        <AbilArray Link="stop"/>
+        <AbilArray Link="attack"/>
+        <AbilArray Link="move"/>
+        <CardLayouts>
+            <LayoutButtons Face="Move" Type="AbilCmd" AbilCmd="move,Move" Row="0" Column="0"/>
+            <LayoutButtons Face="Stop" Type="AbilCmd" AbilCmd="stop,Stop" Row="0" Column="1"/>
+            <LayoutButtons Face="MoveHoldPosition" Type="AbilCmd" AbilCmd="move,HoldPos" Row="0" Column="2"/>
+            <LayoutButtons Face="Attack" Type="AbilCmd" AbilCmd="attack,Execute" Row="0" Column="4"/>
+            <LayoutButtons Face="MovePatrol" Type="AbilCmd" AbilCmd="move,Patrol" Row="0" Column="3"/>
+            <LayoutButtons Face="InfernalPreIgniter" Type="Passive" Requirements="UseInfernalPreIgniter" Row="1" Column="0"/>
+        </CardLayouts>
+        <Attributes index="Light" value="1"/>
+        <Attributes index="Mechanical" value="1"/>
+        <EditorCategories value="ObjectType:Unit,ObjectFamily:Melee"/>
+        <GlossaryCategory value="Unit/Category/TerranUnits"/>
+        <GlossaryPriority value="80"/>
+        <GlossaryStrongArray value="Zergling"/>
+        <GlossaryStrongArray value="Zealot"/>
+        <GlossaryWeakArray value="Marauder"/>
+        <GlossaryWeakArray value="Roach"/>
+        <GlossaryWeakArray value="Stalker"/>
+        <MinimapRadius value="0.625"/>
+        <WeaponArray Link="MercHellionInfernalFlameThrower" Turret="Hellion"/>
+    </CUnit>
+    <CUnit id="MercReaper">
+        <LeaderAlias value="Reaper"/>
+        <SelectAlias value="Reaper"/>
+        <DeathRevealRadius value="3"/>
+        <Race value="Terr"/>
+        <Mob value="Multiplayer"/>
+        <LifeStart value="75"/>
+        <LifeMax value="75"/>
+        <LifeArmorName value="Unit/LifeArmorName/TerranInfantryArmor"/>
+        <Speed value="2.9531"/>
+        <Acceleration value="1000"/>
+        <LateralAcceleration value="46.0625"/>
+        <StationaryTurningRate value="999.8437"/>
+        <TurningRate value="999.8437"/>
+        <Height value="0.5"/>
+        <Food value="-1"/>
+        <CostCategory value="Army"/>
+        <CostResource index="Minerals" value="50"/>
+        <CostResource index="Vespene" value="50"/>
+        <RepairTime value="20"/>
+        <AttackTargetPriority value="20"/>
+        <DamageDealtXP value="1"/>
+        <DamageTakenXP value="1"/>
+        <KillXP value="20"/>
+        <Radius value="0.375"/>
+        <SeparationRadius value="0.375"/>
+        <InnerRadius value="0.375"/>
+        <CargoSize value="2"/>
+        <ScoreMake value="100"/>
+        <ScoreKill value="200"/>
+        <ScoreResult value="BuildOrder"/>
+        <SubgroupPriority value="14"/>
+        <MinimapRadius value="0.375"/>
+        <FlagArray index="PreventDestroy" value="1"/>
+        <FlagArray index="UseLineOfSight" value="1"/>
+        <FlagArray index="AIPressForwardDisabled" value="1"/>
+        <FlagArray index="ArmySelect" value="1"/>
+        <PlaneArray index="Ground" value="1"/>
+        <Collide index="Ground" value="1"/>
+        <Collide index="ForceField" value="1"/>
+        <Sight value="9"/>
+        <AbilArray Link="stop"/>
+        <AbilArray Link="attack"/>
+        <AbilArray Link="move"/>
+        <AbilArray Link="D8Charge"/>
+        <BehaviorArray Link="MercReaperJump"/>
+        <CardLayouts>
+            <LayoutButtons Face="Move" Type="AbilCmd" AbilCmd="move,Move" Row="0" Column="0"/>
+            <LayoutButtons Face="Stop" Type="AbilCmd" AbilCmd="stop,Stop" Row="0" Column="1"/>
+            <LayoutButtons Face="MoveHoldPosition" Type="AbilCmd" AbilCmd="move,HoldPos" Row="0" Column="2"/>
+            <LayoutButtons Face="Attack" Type="AbilCmd" AbilCmd="attack,Execute" Row="0" Column="4"/>
+            <LayoutButtons Face="MovePatrol" Type="AbilCmd" AbilCmd="move,Patrol" Row="0" Column="3"/>
+            <LayoutButtons Face="JetPack" Type="Passive" AbilCmd="255" Row="1" Column="0"/>
+            <LayoutButtons Face="D8Charge" Type="AbilCmd" AbilCmd="D8Charge,Execute" Row="2" Column="0"/>
+        </CardLayouts>
+        <Attributes index="Light" value="1"/>
+        <Attributes index="Biological" value="1"/>
+        <EditorCategories value="ObjectType:Unit,ObjectFamily:Melee"/>
+        <AIEvalFactor value="1.5"/>
+        <GlossaryCategory value="Unit/Category/TerranUnits"/>
+        <GlossaryPriority value="60"/>
+        <GlossaryStrongArray value="SCV"/>
+        <GlossaryStrongArray value="Drone"/>
+        <GlossaryStrongArray value="Probe"/>
+        <GlossaryWeakArray value="Marauder"/>
+        <GlossaryWeakArray value="Roach"/>
+        <GlossaryWeakArray value="Stalker"/>
+        <WeaponArray Link="MercReaperP38ScytheGuassPistol"/>
+        <WeaponArray Link="MercReaperD8Charge"/>
+        <Fidget>
+            <ChanceArray index="Anim" value="33"/>
+            <ChanceArray index="Idle" value="33"/>
+            <ChanceArray index="Turn" value="33"/>
+        </Fidget>
+        <Mover value="CliffJumper"/>
+        <!--
+        <TauntDuration index="Cheer" value="2"/>
+        <TauntDuration index="Dance" value="2"/>
+        -->
+    </CUnit>
+    <CUnit id="MercReaperPlaceholder" parent="PLACEHOLDER">
+        <DeathRevealRadius value="3"/>
+        <Race value="Terr"/>
+        <StationaryTurningRate value="719.4726"/>
+        <TurningRate value="719.4726"/>
+        <AttackTargetPriority value="20"/>
+        <DamageDealtXP value="1"/>
+        <DamageTakenXP value="1"/>
+        <KillXP value="10"/>
+        <Radius value="0.375"/>
+        <SeparationRadius value="0.375"/>
+        <MinimapRadius value="0.375"/>
+        <Collide index="Structure" value="1"/>
+        <Attributes index="Biological" value="1"/>
+        <EditorCategories value="ObjectType:Unit,ObjectFamily:Melee"/>
+        <LeaderAlias value=""/>
+    </CUnit>
+    <CUnit id="MercReaperD8ChargeWeapon" parent="MISSILE">
+        <Race value="Terr"/>
+        <Mover value="D8Charge"/>
+        <EditorCategories value="ObjectType:Projectile,ObjectFamily:Campaign"/>
+    </CUnit>
+</Catalog>

@@ -7,6 +7,7 @@ Protoss
 				ReturnCargo=C
 				ProtossBuild/Probe=B
 				ProtossBuildAdvanced/Probe=V
+				MutatorWorkerSleep/Probe=E
 
 			Basic Structures
 				Nexus/Probe=N
@@ -214,6 +215,7 @@ Protoss
 			ResearchDragoonRange/TwilightCouncil=B
 			ResearchWhirlwind/TwilightCouncil=D
 			ResearchDragoonChassis/TwilightCouncil=E
+			WarpInDarkArchonChampion/TwilightCouncil=R
 			Cancel=Escape
 
 		Stargate
@@ -427,6 +429,7 @@ Terran
 				TerranBuild/SCV=B
 				TerranBuildAdvanced/SCV=V
 				Repair=R
+				MutatorWorkerSleep/SCV=E
 				Halt=T
 
 			Basic Structures
@@ -450,13 +453,14 @@ Terran
 				FusionCore/SCV=C
 				Cancel=Escape
 
-		Marine
+		Reaper (Nova Campaign?)
+			BasicUnitCommands
+			SpiderMine/Reaper=E
+			
+		Marauder
 			BasicUnitCommands
 			Stim=T
-
-		Reaper (WoL Campaign)
-			BasicUnitCommands
-			D8Charge/Reaper=G
+			MagrailMunitions/Marauder=U
 
 		Ghost
 			BasicUnitCommands
@@ -481,6 +485,12 @@ Terran
 			WidowMineUnburrow/WidowMine=D
 
 		Siege Tank
+			General (Nova Campaign)
+				BasicUnitCommands
+				SiegeMode=E
+				Unsiege=D
+				SiegeTankJumpJet/SiegeTank=J
+				
 			General (Raynor Commander)
 				BasicUnitCommands
 				SiegeMode=E
@@ -582,13 +592,23 @@ Terran
 				Land=L
 
 		Orbital Command
-			SCV=S
-			Rally=Y
-			CalldownMULE/OrbitalCommand=E
-			SupplyDrop/OrbitalCommand=X
-			Scan/OrbitalCommand=C
-			Lift=L
-			Cancel=Escape
+			General (Nova Campaign)
+				SCV=S
+				Rally=Y
+				CalldownMULE/OrbitalCommand=E
+				OrbitalCommandCalldownSupplyDepot/OrbitalCommand=B
+				Scan/OrbitalCommand=C
+				Lift=L
+				Cancel=Escape
+			
+			General (Raynor Commander)
+				SCV=S
+				Rally=Y
+				CalldownMULE/OrbitalCommand=E
+				SupplyDrop/OrbitalCommand=X
+				Scan/OrbitalCommand=C
+				Lift=L
+				Cancel=Escape
 
 		Planetary Fortress
 			SCV=S
@@ -643,7 +663,7 @@ Terran
 				MercMedic/Barracks=B
 				Cancel=Escape
 
-		Engineering Bay (Raynor Commander)
+		Engineering Bay (Swann Commander)
 			TerranInfantryWeaponsLevel1/EngineeringBay=E
 			TerranInfantryArmorLevel1/EngineeringBay=A
 			ResearchNeosteelFrame/EngineeringBay=N
@@ -671,14 +691,6 @@ Terran
 			Attack=A
 			SelectBuilder=Q
 			Salvage/MissileTurret=V
-			Halt=T
-			Cancel=Escape
-
-		Ghost Academy
-			ResearchPersonalCloaking/GhostAcademy=C
-			ResearchGhostEnergyUpgrade/GhostAcademy=M
-			SelectBuilder=Q
-			NukeArm/GhostAcademy=N
 			Halt=T
 			Cancel=Escape
 
@@ -835,6 +847,14 @@ Terran Story
 			HerculesLoad/Hercules=L
 			HerculesUnloadAll/Hercules=D
 			HyperjumpHercules/Hercules=T
+			
+		Nova
+			BasicUnitCommands
+			GhostHoldFire/NovaHero=F
+			WeaponsFree/NovaHero=G
+			NovaWeaponCanisterRifleSnipe/NovaHero=Q
+			NovaGadgetPulseGrenades/NovaHero=W
+			HeroNukeCalldown/NovaHero=
 
 	Structures
 		Devastation Turret (Swann Commander)
@@ -921,12 +941,37 @@ Zerg
 				Zergling/Larva=Z
 				Aberration/Larva=B
 				Roach/Larva=R
-				Hydralisk/Larva=H
+				SwarmHostMP/Larva=A
 				Infestor/Larva=F
 				Ultralisk/Larva=U
+				Mutalisk/Larva=T
+				Viper/Larva=E
+				Cancel=Escape
+				
+			General (Kerrigan)
+				Drone/Larva=D
+				Overlord/Larva=V
+				Zergling/Larva=Z
+				Hydralisk/Larva=H
+				Ultralisk/Larva=U
+				Mutalisk/Larva=T
+				Cancel=Escape
+			
+			General (Abathur)
+				Drone/Larva=D
+				Overlord/Larva=V
+				Roach/Larva=R
 				SwarmHostMP/Larva=A
 				Mutalisk/Larva=T
-				Brutalisk/Larva=X
+				Viper/Larva=E
+				
+			General (Zagara)
+				Drone/Larva=D
+				Overlord/Larva=V
+				Zergling/Larva=Z
+				Aberration/Larva=B
+				Scourge/Larva=S
+				Corruptor/Larva=C
 				Cancel=Escape
 
 			Swarm Queen Egg
@@ -942,6 +987,7 @@ Zerg
 				ReturnCargo=C
 				ZergBuild/Drone=B
 				ZergBuildAdvanced/Drone=V
+				MutatorWorkerSleep/Drone=E
 				BurrowDown=R
 
 			Basic Structures (Zagara+Kerrigan Commander)
@@ -987,6 +1033,35 @@ Zerg
 				Attack=A
 				Explode/BanelingBurrowed=X
 				BurrowUp=R,Auto-Cast
+				
+		Roach
+			General
+				BasicUnitCommands
+				Ravager/Roach=V
+				EvolveToBrutalisk/Roach=B
+				BurrowDown=R
+				
+			Burrowed
+				BasicUnitCommands
+				EvolveToBrutalisk/RoachBurrowed=B
+				BurrowUp=R
+				
+		Ravager
+			General
+				BasicUnitCommands
+				RavagerCorrosiveBile/Ravager=C
+				BurrowDown=R
+		
+			General (Burrowed)
+				BasicUnitCommands
+				EvolveToBrutalisk/RavagerAbathurBurrowed=B
+				BurrowUp=R
+				
+		Ravager (Abathur)
+			BasicUnitCommands
+			RavagerAbathurCorrosiveBile=C
+			EvolveToBrutalisk/RavagerAbathur=B
+			BurrowDown=R
 
 		Hydralisk
 			BasicUnitCommands
@@ -998,9 +1073,18 @@ Zerg
 			FaceEmbrace/Viper=D
 			DisablingCloud/Viper=B
 			ViperConsumption/Viper=C
+			ParasiticBomb/Viper=R
+			EvolveToLeviathan/Viper=L
+			
+		Mutalisk
+			BasicUnitCommands
+			MorphToGuardian/Mutalisk=G
+			MorphtoDevourer/Mutalisk=D
+			EvolveToLeviathan/Mutalisk=L
 
 		Corruptor
 			BasicUnitCommands
+			CausticSpray/Corruptor=C
 			CorruptionAbility/Corruptor=C
 			BroodLord/Corruptor=B
 			Cancel=Escape
@@ -1060,13 +1144,27 @@ Zerg
 			BasicUnitCommands
 			MorphtoOverseerSiege/Overseer=E
 			MorphtoOverseer/Overseer=T
-
+			
 		Queen
-			BasicUnitCommands
-			BuildCreepTumor/QueenCoop=C
-			MorphMorphalisk/QueenCoop=V
-			Transfusion/QueenCoop=T
-			BurrowDown=R
+			General
+				BasicUnitCommands
+				BuildCreepTumor/Queen=C
+				QueenBurstHeal/Queen=T
+				EvolveToBrutalisk/Queen=B
+				DeepTunnel/Queen=D
+				BurrowDown=R
+			
+			Burrowed
+				BasicUnitCommands
+				EvolveToBrutalisk/QueenBurrowed=B
+				BurrowUp=R
+				
+			General (QueenCoop)
+				BasicUnitCommands
+				BuildCreepTumor/QueenCoop=C
+				MorphMorphalisk/QueenCoop=V
+				Transfusion/QueenCoop=T
+				BurrowDown=R
 
 	Structures
 		Hatchery
@@ -1118,20 +1216,23 @@ Zerg
 			EvolveBileLauncherBombardmentCooldown/SpawningPool=D
 			Cancel=Escape
 
-		Evolution Chamber (Kerrigan+Zagara Commander)
+		Evolution Chamber
 			zergmeleeweapons1/EvolutionChamber=M
 			zergmissileweapons1/EvolutionChamber=A
 			zerggroundarmor1/EvolutionChamber=C
+			EvolveBioMechanicalTransfusion/EvolutionChamber=T
+			EvolveHatcheryDoubleQueue/EvolutionChamber=I
 			EvolveKerriganHeroicFortitude/EvolutionChamber=F
 			EvolveK5ChainLightning/EvolutionChamber=R
 			EvolveK5Cooldowns/EvolutionChamber=E
 			Cancel=Escape
 
-		Roach Warren (Kerrigan Commander)
+		Roach Warren (Abathur Commander)
 			EvolveGlialRegeneration/RoachWarren=G
 			EvolveTunnelingClaws/RoachWarren=T
-			EvolveHydriodicBile/RoachWarren=B
 			EvolveAdaptivePlating/RoachWarren=D
+			EvolveCorrosiveBileRadiusIncrease/RoachWarren=C
+			EvolveCorrosiveBileDamageIncrease/RoachWarren=E
 			Cancel=Escape
 
 		Baneling Nest (Zagara Commander)
@@ -1168,29 +1269,62 @@ Zerg
 				Cancel=Escape
 
 		Infestation Pit
-			EvolveInfestorEnergyUpgrade/InfestationPit=G
-			RapidIncubation/InfestationPit=A
-			HotSPressurizedGlands/InfestationPit=P
-			Cancel=Escape
+			General (Front)
+				HotSPressurizedGlands/InfestationPit=P
+				EvolveViperImprovedCastRange/InfestationPit=R
+				EvolveInfestorEnergyUpgrade/InfestationPit=G
+				ResearchNeuralParasite/InfestationPit=E
+				Cancel=Escape
+			
+			General (Abathur Commander)
+				HotSPressurizedGlands/InfestationPit=P
+				EvolveViperImprovedCastRange/InfestationPit=R
+				SwarmHostDeepBurrow/InfestationPit=D
+				EvolveViperAbductImprovedStun/InfestationPit=T
+				Cancel=Escape
 
 		Spire
-			zergflyerattack1=A
-			zergflyerarmor1=C
-			EvolveMutaliskRapidRegeneration/Spire=R
-			EvolveViciousGlaive/Spire=V
-			EvolveSunderingGlave/Spire=S
-			EvolveBroodLordSpeed/Spire=E
-			GreaterSpireBroodlord/Spire=G
-			Cancel=Escape
+			General (Front)
+				zergflyerattack1=A
+				zergflyerarmor1=C
+				EvolveMutaliskRapidRegeneration/Spire=R
+				EvolveViciousGlaive/Spire=V
+				EvolveSunderingGlave/Spire=S
+				EvolveBroodLordSpeed/Spire=E
+				GreaterSpireBroodlord/Spire=G
+				Cancel=Escape
+			
+			General (Kerrigan Commander)
+				zergflyerattack1=A
+				zergflyerarmor1=C
+				EvolveMutaliskRapidRegeneration/Spire=R
+				EvolveViciousGlaive/Spire=V
+				EvolveSunderingGlave/Spire=S
+				EvolveGuardianAttackRangeIncrease/Spire=E
+				EvolveDevourerAoEDamage/Spire=D
+				GreaterSpireBroodlord/Spire=G
+				Cancel=Escape
+			
 
 		Greater Spire
-			zergflyerattack1=A
-			zergflyerarmor1=C
-			EvolveMutaliskRapidRegeneration/GreaterSpire=R
-			EvolveViciousGlaive/GreaterSpire=V
-			EvolveSunderingGlave/GreaterSpire=S
-			EvolveBroodLordSpeed/GreaterSpire=E
-			Cancel=Escape
+			General (Front)
+				zergflyerattack1=A
+				zergflyerarmor1=C
+				EvolveMutaliskRapidRegeneration/GreaterSpire=R
+				EvolveViciousGlaive/GreaterSpire=V
+				EvolveSunderingGlave/GreaterSpire=S
+				EvolveGuardianAttackRangeIncrease/GreaterSpire=E
+				EvolveDevourerAoEDamage/GreaterSpire=D
+				Cancel=Escape
+		
+			General (Kerrigan Commander)
+				zergflyerattack1=A
+				zergflyerarmor1=C
+				EvolveMutaliskRapidRegeneration/GreaterSpire=R
+				EvolveViciousGlaive/GreaterSpire=V
+				EvolveSunderingGlave/GreaterSpire=S
+				EvolveBroodLordSpeed/GreaterSpire=E
+				Cancel=Escape
 
 		Nydus Network (Kerrigan Commander)
 			Stop=S
@@ -1208,6 +1342,10 @@ Zerg
 
 		Creep Tumor
 			BuildCreepTumorPropagate/CreepTumorBurrowed=C
+			Cancel=Escape
+			
+		Toxic Nest
+			ToxicNestExplode/ToxicNestBurrowed=X
 			Cancel=Escape
 
 Zerg Story
@@ -1245,6 +1383,23 @@ Zerg Story
 				ZagaraVoidCoopMassFrenzy/ZagaraVoidCoopBurrowed=E,NotAvailable
 				MassRoachDrop/ZagaraVoidCoopBurrowed=D,NotAvailable
 				BurrowUp=R,Auto-Cast
+				
+		Roach (Corpser Strain)
+			BasicUnitCommands
+			Ravager/RoachCorpser=V
+			BurrowDown=R
+			
+		Roach (Vile Strain)
+			General
+				BasicUnitCommands
+				Ravager/RoachVile=V
+				EvolveToBrutalisk/RoachVile=B
+				BurrowDown=R
+				
+			Burrowed
+				BasicUnitCommands
+				EvolveToBrutalisk/RoachVileBurrowed=B
+				BurrowUp=R
 
 		Hydralisk (Impaler Strain)
 			BasicUnitCommands
@@ -1272,6 +1427,22 @@ Zerg Story
 		Mutalisk (Viper Strain)
 			BasicUnitCommands
 			Viper/MutaliskViper=E
+			
+		Swarm Host
+			General
+				BasicUnitCommands
+				LocustLaunch/SwarmHost=C,Auto-Cast
+				AbathurDeepTunnel/SwarmHost=D
+				EvolveToBrutalisk/SwarmHost=B
+				SwarmHostRootBurrow=R
+				
+			Burrowed
+				Stop=S
+				Attack=A
+				LocustLaunch/SwarmHostBurrowed=C,Auto-Cast
+				AbathurDeepTunnel/SwarmHostBurrowed=D
+				EvolveToBrutalisk/SwarmHostBurrowed=B
+				SwarmHostUprootUnburrow=R
 
 		Ultralisk (Noxious Strain)
 			BasicUnitCommands
