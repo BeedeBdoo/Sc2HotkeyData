@@ -1,6 +1,6 @@
 filepaths = ['data\HotkeyData LotV Multiplayer.txt',
 			 'data\HotkeyData Coop.txt',
-                         'data\HotkeyData Nova Campaign.txt',
+             'data\HotkeyData Nova Campaign.txt',
 			 'data\HotkeyData LotV Campaign.txt',
 			 'data\HotkeyData LotV Prologue.txt',
 			 'data\HotkeyData HotS Campaign.txt',

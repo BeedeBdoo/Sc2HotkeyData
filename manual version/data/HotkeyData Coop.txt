@@ -462,17 +462,6 @@ Terran
 			Stim=T
 			MagrailMunitions/Marauder=U
 
-		Ghost
-			BasicUnitCommands
-			CloakOnBanshee=C
-			CloakOff=D
-			GhostHoldFire/Ghost=F
-			WeaponsFree/Ghost=G
-			Snipe/Ghost=R
-			EMP/Ghost=E
-			NukeCalldown/Ghost=N
-			Cancel=Escape
-
 		Hellion (Swann Commander)
 			BasicUnitCommands
 			MorphToHellion/Hellion=E
@@ -848,10 +837,16 @@ Terran Story
 			HerculesUnloadAll/Hercules=D
 			HyperjumpHercules/Hercules=T
 			
-		Nova
+		Nova (Weapons Free)
+			BasicUnitCommands
+			WeaponsFree/NovaHero=G
+			NovaWeaponCanisterRifleSnipe/NovaHero=Q
+			NovaGadgetPulseGrenades/NovaHero=W
+			HeroNukeCalldown/NovaHero=
+			
+		Nova (Hold Fire)
 			BasicUnitCommands
 			GhostHoldFire/NovaHero=F
-			WeaponsFree/NovaHero=G
 			NovaWeaponCanisterRifleSnipe/NovaHero=Q
 			NovaGadgetPulseGrenades/NovaHero=W
 			HeroNukeCalldown/NovaHero=
@@ -1135,7 +1130,7 @@ Zerg
 			General (Creeping)
 				BasicUnitCommands
 				MorphToOverseer/Overlord=V
-				StopGenerateCreep/Overlord=C
+				StopGenerateCreep=C
 				BunkerLoad=L
 				BunkerUnloadAll=D
 				Cancel=Escape

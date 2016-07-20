@@ -219,21 +219,6 @@ Terran
 				FusionCore/SCV=C
 				Cancel=Escape
 
-		Marine
-			BasicUnitCommands
-			Stim=T
-
-		Ghost
-			BasicUnitCommands
-			NukeCalldown/Ghost=N
-			CloakOnBanshee=C
-			CloakOff=D
-			GhostHoldFire/Ghost=F
-			WeaponsFree/Ghost=G
-			Snipe/Ghost=R
-			EMP/Ghost=E
-			Cancel=Escape
-
 		Hellion
 			BasicUnitCommands
 			MorphToHellion/Hellion=E
@@ -244,21 +229,11 @@ Terran
 			WidowMineBurrow/WidowMine=E
 			WidowMineUnburrow/WidowMine=D
 
-		Siege Tank
-			BasicUnitCommands
-			SiegeMode=E
-			Unsiege=D
-
 		Thor
 			BasicUnitCommands
 			ArmorpiercingMode=E
 			ExplosiveMode=D
 			Cancel=Escape
-
-		Viking
-			BasicUnitCommands
-			FighterMode=E
-			AssaultMode=D
 
 		Medivac
 			BasicUnitCommands
@@ -288,7 +263,6 @@ Terran
 				CommandCenterLoad=O
 				CommandCenterUnloadAll=D
 				Lift=L
-				Halt=T
 				Cancel=Escape
 
 			Flying
@@ -342,7 +316,6 @@ Terran
 				TechLabBarracks/Barracks=X
 				Reactor/Barracks=C
 				Lift=L
-				Halt=T
 				Cancel=Escape
 
 			Flying
@@ -351,7 +324,7 @@ Terran
 				Reactor/BarracksFlying=C
 				Land=L
 
-			Engineering BayGeneral
+		Engineering Bay
 			TerranInfantryWeaponsLevel1/EngineeringBay=E
 			TerranInfantryArmorLevel1/EngineeringBay=A
 			ResearchHiSecAutoTracking/EngineeringBay=H

@@ -267,11 +267,20 @@ Terran
 			BasicUnitCommands
 			Stim=T
 
-		Ghost
+		Ghost (Weapons Free)
+			BasicUnitCommands
+			NukeCalldown/Ghost=N
+			WeaponsFree/Ghost=G
+			Snipe/Ghost=R
+			EMP/Ghost=E
+			CloakOnBanshee=C
+			CloakOff=D
+			Cancel=Escape
+			
+		Ghost (Hold Fire)
 			BasicUnitCommands
 			NukeCalldown/Ghost=N
 			GhostHoldFire/Ghost=F
-			WeaponsFree/Ghost=G
 			Snipe/Ghost=R
 			EMP/Ghost=E
 			CloakOnBanshee=C

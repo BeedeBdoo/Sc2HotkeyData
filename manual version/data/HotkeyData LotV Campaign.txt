@@ -440,24 +440,9 @@ Terran
 				FusionCore/SCV=C
 				Cancel=Escape
 
-		Marine
-			BasicUnitCommands
-			Stim=T
-
 		Reaper
 			BasicUnitCommands
 			D8Charge/Reaper=G
-
-		Ghost
-			BasicUnitCommands
-			NukeCalldown/Ghost=N
-			GhostHoldFire/Ghost=F
-			WeaponsFree/Ghost=G
-			Snipe/Ghost=R
-			EMP/Ghost=E
-			CloakOnBanshee=C
-			CloakOff=D
-			Cancel=Escape
 
 		Hellion
 			BasicUnitCommands
@@ -1215,14 +1200,6 @@ Zerg Story
 				KerriganEpilogue03Heal/KerriganEpilogue03=C
 				KerriganEpilogue03CreepTeleport/KerriganEpilogue03=T
 				KerriganEpilogue03Extinction/KerriganEpilogue03=E
-				Cancel=Escape
-
-			Kerrigan - Void
-				BasicUnitCommands
-				MindBolt/KerriganVoid=Q
-				PsionicLift/KerriganVoid=T
-				WildMutation/KerriganVoid=E
-				K5Leviathan/KerriganVoid=D
 				Cancel=Escape
 
 			Kerrigan - Void - Burrowed

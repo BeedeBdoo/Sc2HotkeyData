@@ -255,15 +255,24 @@ Terran
 			BasicUnitCommands
 			KD8Charge/Reaper=D
 
-		Ghost
+		Ghost (Weapons Free)
 			BasicUnitCommands
+			NukeCalldown/Ghost=N
 			CloakOnBanshee=C
 			CloakOff=D
-			GhostHoldFire/Ghost=F
 			WeaponsFree/Ghost=G
 			ChannelSnipe/Ghost=R
 			EMP/Ghost=E
+			Cancel=Escape
+			
+		Ghost (Hold Fire)
+			BasicUnitCommands
 			NukeCalldown/Ghost=N
+			CloakOnBanshee=C
+			CloakOff=D
+			GhostHoldFire/Ghost=F
+			ChannelSnipe/Ghost=R
+			EMP/Ghost=E
 			Cancel=Escape
 
 		Hellion
@@ -325,7 +334,6 @@ Terran
 				CommandCenterLoad=O
 				CommandCenterUnloadAll=D
 				Lift=L
-				Halt=T
 				Cancel=Escape
 
 			Flying
@@ -379,7 +387,6 @@ Terran
 				TechLabBarracks/Barracks=X
 				Reactor/Barracks=C
 				Lift=L
-				Halt=T
 				Cancel=Escape
 
 			Flying
@@ -387,8 +394,8 @@ Terran
 				TechLabBarracks/BarracksFlying=X
 				Reactor/BarracksFlying=C
 				Land=L
-
-			Engineering BayGeneral
+				
+		Engineering Bay
 			TerranInfantryWeaponsLevel1/EngineeringBay=E
 			TerranInfantryArmorLevel1/EngineeringBay=A
 			ResearchHiSecAutoTracking/EngineeringBay=H

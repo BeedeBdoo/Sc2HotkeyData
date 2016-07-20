@@ -131,10 +131,16 @@ Terran
 				
 Terran Story
 	Units
-		Nova
+		Nova (Weapons Free)
+			BasicUnitCommands
+			WeaponsFree/NovaHero=G
+			NovaWeaponCanisterRifleSnipe/NovaHero=Q
+			NovaGadgetPulseGrenades/NovaHero=W
+			HeroNukeCalldown/NovaHero=N
+			
+		Nova (Hold Fire)
 			BasicUnitCommands
 			GhostHoldFire/NovaHero=F
-			WeaponsFree/NovaHero=G
 			NovaWeaponCanisterRifleSnipe/NovaHero=Q
 			NovaGadgetPulseGrenades/NovaHero=W
 			HeroNukeCalldown/NovaHero=N

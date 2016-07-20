@@ -199,13 +199,22 @@ Terran
 			BasicUnitCommands
 			Stim=T
 
-		Ghost
+		Ghost (Weapons Free)
+			BasicUnitCommands
+			NukeCalldown/Ghost=N
+			CloakOnBanshee=C
+			CloakOff=D
+			WeaponsFree/Ghost=G
+			Snipe/Ghost=R
+			EMP/Ghost=E
+			Cancel=Escape
+			
+		Ghost (Hold Fire)
 			BasicUnitCommands
 			NukeCalldown/Ghost=N
 			CloakOnBanshee=C
 			CloakOff=D
 			GhostHoldFire/Ghost=F
-			WeaponsFree/Ghost=G
 			Snipe/Ghost=R
 			EMP/Ghost=E
 			Cancel=Escape
@@ -252,7 +261,6 @@ Terran
 				CommandCenterLoad=O
 				CommandCenterUnloadAll=D
 				Lift=L
-				Halt=T
 				Cancel=Escape
 
 			Flying
@@ -306,7 +314,6 @@ Terran
 				TechLabBarracks/Barracks=X
 				Reactor/Barracks=C
 				Lift=L
-				Halt=T
 				Cancel=Escape
 
 			Flying
@@ -315,7 +322,7 @@ Terran
 				Reactor/BarracksFlying=C
 				Land=L
 
-			Engineering BayGeneral
+		Engineering Bay
 			TerranInfantryWeaponsLevel1/EngineeringBay=E
 			TerranInfantryArmorLevel1/EngineeringBay=A
 			ResearchHiSecAutoTracking/EngineeringBay=H

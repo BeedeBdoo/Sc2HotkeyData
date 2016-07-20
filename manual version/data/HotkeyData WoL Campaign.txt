@@ -246,10 +246,9 @@ Terran
 			BasicUnitCommands
 			D8Charge/Reaper=G
 
-		Ghost
+		Ghost (Weapons Free)
 			General
 				BasicUnitCommands
-				GhostHoldFire/Ghost=F
 				WeaponsFree/Ghost=G
 				Snipe/Ghost=R
 				EMP/Ghost=E
@@ -257,10 +256,30 @@ Terran
 				CloakOff=D
 				NukeCalldown/Ghost=N
 				Cancel=Escape
+				
+			Cloaked
+				BasicUnitCommands
+				WeaponsFree/Ghost=G
+				Snipe/Ghost=R
+				EMP/Ghost=E
+				CloakOff=D
+				NukeCalldown/Ghost=N
+				Cancel=Escape
+				
+		Ghost (Hold Fire)
+			General
+				BasicUnitCommands
+				GhostHoldFire/Ghost=F
+				Snipe/Ghost=R
+				EMP/Ghost=E
+				CloakOnBanshee=C
+				CloakOff=D
+				NukeCalldown/Ghost=N
+				Cancel=Escape
+				
 			Cloaked
 				BasicUnitCommands
 				GhostHoldFire/Ghost=F
-				WeaponsFree/Ghost=G
 				Snipe/Ghost=R
 				EMP/Ghost=E
 				CloakOff=D
