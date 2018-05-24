@@ -7,6 +7,7 @@ Protoss
 				ReturnCargo=C
 				ProtossBuild/Probe=B
 				ProtossBuildAdvanced/Probe=V
+				Spray=Y
 
 			Basic Structures
 				Nexus/Probe=N
@@ -16,6 +17,7 @@ Protoss
 				Forge/Probe=F
 				CyberneticsCore/Probe=Y
 				PhotonCannon/Probe=C
+				ShieldBattery/Probe=B
 				Cancel=Escape
 
 			ProbeAdvanced Structures
@@ -69,6 +71,7 @@ Protoss
 
 		Dark Templar
 			BasicUnitCommands
+			DarkTemplarBlink/DarkTemplar=B
 			AWrp=C
 			Rally=Y
 
@@ -78,6 +81,11 @@ Protoss
 			PsiStorm/HighTemplar=T
 			AWrp=C
 			Rally=Y
+			
+		Observer
+			BasicUnitCommands
+			MorphtoObserverSiege/Observer=E
+			MorphtoObserver/Observer=T
 
 		Warp Prism
 			BasicUnitCommands
@@ -119,28 +127,18 @@ Protoss
 			ReleaseInterceptors/Carrier=R
 			Cancel=Escape
 
-		Mothership Core
-			BasicUnitCommands
-			MorphToMothership/MothershipCore=U
-			MothershipCoreWeapon/MothershipCore=F
-			MothershipCoreMassRecall/MothershipCore=R
-			TemporalField/MothershipCore=T
-			Cancel=Escape
-
 		Mothership
 			BasicUnitCommands
-			MothershipCoreWeapon/Mothership=F
-			MothershipMassRecall/Mothership=R
+			MassRecall/Mothership=R
 			TemporalField/Mothership=T
 
 	Structures
 		Nexus
 			Probe/Nexus=E
-			MothershipCore/Nexus=M
-			Stop=S
-			Attack=A
+			Mothership/Nexus=M
 			Rally=Y
-			TimeWarp/Nexus=C
+			ChronoBoostEnergyCost/Nexus=C
+			NexusMassRecall/Nexus=R
 			Cancel=Escape
 
 		Gateway
@@ -175,6 +173,11 @@ Protoss
 			ProtossAirWeaponsLevel1/CyberneticsCore=E
 			ProtossAirArmorLevel1/CyberneticsCore=A
 			ResearchWarpGate/CyberneticsCore=G
+			Cancel=Escape
+			
+		Shield Battery
+			Stop=S
+			ShieldBatteryRecharge/ShieldBattery=R,Auto-Cast
 			Cancel=Escape
 
 		Twilight Council
@@ -215,6 +218,10 @@ Protoss
 			ResearchGraviticDrive/RoboticsBay=G
 			ResearchExtendedThermalLance/RoboticsBay=E
 			Cancel=Escape
+			
+		Dark Shrine
+			ResearchDarkTemplarBlink/DarkShrine=B
+			Cancel=Escape
 
 Terran
 	Units
@@ -226,6 +233,7 @@ Terran
 				TerranBuild/SCV=B
 				TerranBuildAdvanced/SCV=V
 				Repair=R
+				Spray=Y
 				Halt=T
 
 			Basic Structures
@@ -255,24 +263,15 @@ Terran
 			BasicUnitCommands
 			KD8Charge/Reaper=D
 
-		Ghost (Weapons Free)
+		Ghost
 			BasicUnitCommands
 			NukeCalldown/Ghost=N
-			CloakOnBanshee=C
-			CloakOff=D
+			GhostHoldFire/Ghost=F
 			WeaponsFree/Ghost=G
 			ChannelSnipe/Ghost=R
 			EMP/Ghost=E
-			Cancel=Escape
-			
-		Ghost (Hold Fire)
-			BasicUnitCommands
-			NukeCalldown/Ghost=N
 			CloakOnBanshee=C
 			CloakOff=D
-			GhostHoldFire/Ghost=F
-			ChannelSnipe/Ghost=R
-			EMP/Ghost=E
 			Cancel=Escape
 
 		Hellion
@@ -315,8 +314,8 @@ Terran
 		Raven
 			BasicUnitCommands
 			AutoTurret/Raven=T
-			PointDefenseDrone/Raven=D
-			HunterSeekerMissile/Raven=R
+			RavenScramblerMissile/Raven=C
+			RavenShredderMissile/Raven=R
 
 		Battlecruiser
 			BasicUnitCommands
@@ -489,7 +488,6 @@ Terran
 
 		Fusion Core
 			ResearchBattlecruiserSpecializations/FusionCore=R
-			ResearchBattlecruiserEnergyUpgrade/FusionCore=B
 			SelectBuilder=Q
 			Halt=T
 			Cancel=Escape
@@ -503,13 +501,13 @@ Terran
 
 			Attached to Factory
 				ResearchHighCapacityBarrels/FactoryTechLab=I
+				ResearchCycloneRapidFireLaunchers/FactoryTechLab=A
 				ResearchDrillClaws/FactoryTechLab=C
-				CycloneResearchLockOnDamageUpgrade/FactoryTechLab=R
+				ResearchSmartServos/FactoryTechLab=S
 				Cancel=Escape
 
 			Attached to Starport
 				ResearchHighCapacityFuelTanks/StarportTechLab=R
-				ResearchExplosiveShrapnelShells/StarportTechLab=E
 				ResearchRavenEnergyUpgrade/StarportTechLab=T
 				ResearchBansheeCloak/StarportTechLab=C
 				BansheeSpeed/StarportTechLab=B
@@ -545,6 +543,7 @@ Zerg
 				ReturnCargo=C
 				ZergBuild/Drone=B
 				ZergBuildAdvanced/Drone=V
+				Spray=Y
 				BurrowDown=R
 
 			Basic Structures
@@ -561,6 +560,7 @@ Zerg
 			Advanced Structures
 				HydraliskDen/Drone=H
 				InfestationPit/Drone=I
+				MutateintoLurkerDen/Drone=D
 				Spire/Drone=S
 				NydusNetwork/Drone=N
 				UltraliskCavern/Drone=U
@@ -651,23 +651,23 @@ Zerg
 			Burrowed
 				BasicUnitCommands
 				InfestedTerrans/InfestorBurrowed=T
+				NeuralParasite/InfestorBurrowed=E
+				Cancel=Escape
 				BurrowUp=R,Auto-Cast
 
 		Overlord
-			General (BunkerUnloadAll shouldn't be here)
+			General
 				BasicUnitCommands
 				MorphToOverseer/Overlord=V
 				GenerateCreep/Overlord=G
 				MorphtoOverlordTransport/Overlord=T
-				BunkerUnloadAll=D
 				Cancel=Escape
 
-			Creeping (BunkerUnloadAll shouldn't be here)
+			Creeping
 				BasicUnitCommands
 				MorphToOverseer/Overlord=V
 				StopGenerateCreep=C
 				MorphtoOverlordTransport/Overlord=T
-				BunkerUnloadAll=D
 				Cancel=Escape
 
 		Droplord
@@ -689,6 +689,8 @@ Zerg
 
 		Overseer
 			BasicUnitCommands
+			MorphtoOverseerSiege/Overseer=W
+			MorphtoOverseerNormal/Overseer=R
 			SpawnChangeling/Overseer=C
 			Contaminate/Overseer=E
 
@@ -774,12 +776,12 @@ Zerg
 				Cancel=Escape
 
 		Hydralisk Den
-			hydraliskspeed/HydraliskDen=G
-			MutateintoLurkerDen/HydraliskDen=D
+			EvolveGroovedSpines/HydraliskDen=G
+			EvolveMuscularAugments/HydraliskDen=H
 			Cancel=Escape
 
 		Lurker Den
-			hydraliskspeed/LurkerDenMP=G
+			EvolveDiggingClaws/LurkerDenMP=D
 			Cancel=Escape
 
 		Infestation Pit
