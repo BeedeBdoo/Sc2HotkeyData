@@ -518,7 +518,7 @@ Terran
 				TerranBuild/SCV=B
 				TerranBuildAdvanced/SCV=V
 				Repair=R
-				MutatorWorkerSleep/SCV=E
+				Spray=Y
 				Halt=T
 
 			Basic Structures
@@ -546,30 +546,23 @@ Terran
 			BasicUnitCommands
 			SpiderMine/Reaper=E
 			
-		Marauder
-			BasicUnitCommands
-			Stim=T
-			MagrailMunitions/Marauder=U
-
 		Hellion (Swann Commander)
 			BasicUnitCommands
 			MorphToHellion/Hellion=E
 			MorphToHellionTank/Hellion=D
 			SwannCommanderRebuild=R
-
-		Widow MineGeneral
+	
+		Widow Mine Mutator
+			BasicUnitCommands
+			WidowMineBurrow/MutatorWidowMine=E
+			
+		Widow Mine
 			BasicUnitCommands
 			WidowMineBurrow/WidowMine=E
 			WidowMineUnburrow/WidowMine=D
 
 		Siege Tank
-			General (Nova Campaign)
-				BasicUnitCommands
-				SiegeMode=E
-				Unsiege=D
-				SiegeTankJumpJet/SiegeTank=J
-				
-			General (Raynor Commander)
+			General
 				BasicUnitCommands
 				SiegeMode=E
 				Unsiege=D
@@ -583,36 +576,19 @@ Terran
 		Cyclone
 			BasicUnitCommands
 			LockOn/Cyclone=C
-			SwannCommanderRebuild=R
 			Cancel=Escape
 
 		Thor (Swann Commander)
 			General
 				BasicUnitCommands
 				250mmStrikeCannons/Thor=C
-				Cancel=Escape
+				ExplosiveMode=D
+				SelfRepair/Thor=R
 				
 			Wreckage
 				BasicUnitCommands
-				SwannCommanderRebuild=R
-				
-			Front 01
-				BasicUnitCommands
-				250mmStrikeCannons/Thor=C
-				ThorDefensiveMatrix/Thor=D
-				SelfRepair/Thor=R
-				Cancel=Escape
-
-			Front 02
-				ImmortalityProtocol/ThorWreckage=I
-				Cancel=Escape
-
-			Front 03
-				BasicUnitCommands
 				250mmStrikeCannons/ThorWreckageSwann=C
-				ThorDefensiveMatrix/ThorWreckageSwann=D
 				SelfRepair/ThorWreckageSwann=R
-				Cancel=Escape
 
 		Viking (Raynor Commander)
 			BasicUnitCommands
@@ -621,16 +597,24 @@ Terran
 			IgniteAfterburners/VikingAssault=B
 
 		Medivac
-			BasicUnitCommands
-			Heal/Medivac=E,Auto-Cast
-			MedivacSpeedBoost/Medivac=B
-			BunkerLoad=L
-			BunkerUnloadAll=D
+			General
+				BasicUnitCommands
+				Heal/Medivac=E,Auto-Cast
+				MedivacSpeedBoost/Medivac=B
+				BunkerLoad=L
+				BunkerUnloadAll=D
+				
+			Black Ops
+				BasicUnitCommands
+				MedicHeal/Medivac_BlackOps=E,Auto-Cast
+				MedivacSpeedBoost/Medivac_BlackOps=B
+				BunkerLoad=L
+				BunkerUnloadAll=D
 
 		Liberator
 			BasicUnitCommands
 			LiberatorAGMode/Liberator=E
-			IgniteAfterburners/Liberator=B
+			LiberatorAAMode/Liberator=D
 
 		Raven
 			BasicUnitCommands
@@ -643,6 +627,7 @@ Terran
 			CloakOnBanshee=C
 			CloakOff=D
 			IgniteAfterburners/Banshee=B
+			BurrowUp=R
 
 		Battlecruiser (Raynor Commander)
 			BasicUnitCommands
@@ -670,23 +655,13 @@ Terran
 				Land=L
 
 		Orbital Command
-			General (Nova Campaign)
-				SCV=S
-				Rally=Y
-				CalldownMULE/OrbitalCommand=E
-				OrbitalCommandCalldownSupplyDepot/OrbitalCommand=B
-				Scan/OrbitalCommand=C
-				Lift=L
-				Cancel=Escape
-			
-			General (Raynor Commander)
-				SCV=S
-				Rally=Y
-				CalldownMULE/OrbitalCommand=E
-				SupplyDrop/OrbitalCommand=X
-				Scan/OrbitalCommand=C
-				Lift=L
-				Cancel=Escape
+			SCV=S
+			Rally=Y
+			CalldownMULE/OrbitalCommand=E
+			OrbitalCommandCalldownSupplyDepot/OrbitalCommand=B
+			Scan/OrbitalCommand=C
+			Lift=L
+			Cancel=Escape
 
 		Planetary Fortress
 			SCV=S
@@ -739,6 +714,7 @@ Terran
 				HireDevilDogs/Barracks=L
 				MercReaper/Barracks=J
 				MercMedic/Barracks=B
+				Ghost/Barracks=G
 				Cancel=Escape
 
 		Engineering Bay (Swann Commander)
@@ -752,7 +728,6 @@ Terran
 			Halt=T
 			Cancel=Escape
 			
-
 		Bunker
 			Stop=S
 			Attack=A
@@ -771,6 +746,14 @@ Terran
 			Salvage/MissileTurret=V
 			Halt=T
 			Cancel=Escape
+			
+		Ghost Academy
+			ResearchPersonalCloaking/GhostAcademy=C
+			ResearchGhostEnergyUpgrade/GhostAcademy=M
+			SelectBuilder=Q
+			NukeArm/GhostAcademy=N
+			Halt=T
+			Cancel=Escape
 
 		Factory
 			General (kinda Swann Commander)
@@ -779,6 +762,7 @@ Terran
 				SiegeTank/Factory=S
 				BuildCyclone/Factory=N
 				Thor/Factory=T
+				Hellion/Factory=E
 				SelectBuilder=Q
 				Rally=Y
 				TechLabFactory/Factory=X
@@ -791,21 +775,15 @@ Terran
 				BuildTechLabFactory/FactoryFlying=X
 				Reactor/FactoryFlying=C
 				Land=L
+				
+			Stukov Unrooted
+				PacifistUnitCommands
+				BuildSITechLabFactory/SIFactoryFlying=X
+				SIRoot/SIFactoryFlying=R
 
 			General2
 				Predator/Factory=P
 				MicroBot/Factory=M
-				Cancel=Escape
-
-			General3
-				HellionTank/Factory=R
-				Goliath/Factory=G
-				SiegeTank/Factory=S
-				WidowMine/Factory=D
-				Thor/Factory=T
-				MercHellion/Factory=N
-				HireSpartanCompany/Factory=C
-				HireSiegeBreakers/Factory=K
 				Cancel=Escape
 
 		Armory
@@ -836,17 +814,20 @@ Terran
 				Land=L
 
 			General3
+				Wraith/Starport=T
 				VikingFighter/Starport=V
 				Banshee/Starport=E
-				Wraith/Starport=T
+				Liberator/Starport=N
+				Medivac/Starport=D
+				Raven/Starport=R
+				BuildScienceVessel/Starport=S
+				BuildHercules/Starport=H
 				Battlecruiser/Starport=B
-				HireDuskWing/Starport=I
-				HireHelsAngels/Starport=A
-				HireDukesRevenge/Starport=U
 				Cancel=Escape
 
 		Fusion Core
 			ResearchBattlecruiserSpecializations/FusionCore=R
+			ResearchHHBomberNapalm/FusionCore=E
 			SelectBuilder=Q
 			Halt=T
 			Cancel=Escape
@@ -856,9 +837,9 @@ Terran
 				ResearchShieldWall/BarracksTechLab=C
 				Stimpack/BarracksTechLab=T
 				ResearchPunisherGrenades/BarracksTechLab=G
+				ResearchMarauderMagrailMunitions/BarracksTechLab=S
 				ResearchIncineratorGauntlets/BarracksTechLab=I
 				ResearchJuggernautPlating/BarracksTechLab=J
-				ResearchStabilizerMedpacks/BarracksTechLab=S
 				Cancel=Escape
 
 			Attached to Factory (Swann(+Raynor) Commander)
@@ -877,7 +858,102 @@ Terran
 				ResearchShockwaveMissileBattery/StarportTechLab=S
 				ResearchPhobosClassWeaponsSystem/StarportTechLab=B
 				ResearchRipwaveMissiles/StarportTechLab=R
+				ResearchMedivacCloakedHealBeam/StarportTechLab=H
+				ResearchHHTacticalJumpCharges/StarportTechLab=Q
 				Cancel=Escape
+
+Terran-Covert
+	Units
+		Nova
+			BasicUnitCommands
+			GhostHoldFire/NovaCoop=F
+			WeaponsFree/NovaCoop=G
+			NovaWeaponImprovedCanisterRifleSnipe/NovaCoop=Q
+			NovaGadgetBoombots/NovaCoop=E
+			NovaUnitNuke/NovaCoop=R
+			NovaSwitchAssaultMode/NovaCoop=D
+			
+		Elite Marine
+			BasicUnitCommands
+			MarineSuperStimpack/Marine_BlackOps=T
+			
+		Marauder Commando
+			BasicUnitCommands
+			MagrailMunitions/Marauder_BlackOps=U
+			
+		Spec Ops Ghost
+			BasicUnitCommands
+			GhostHoldFire/Ghost_BlackOps=F
+			WeaponsFree/Ghost_BlackOps=G
+			Snipe_BlackOps/Ghost_BlackOps=R
+			EMP/Ghost_BlackOps=E
+			Cancel=Escape
+			
+		Hellion Ranger
+			BasicUnitCommands
+			MorphToHellion/HellionBlackOps=E
+			MorphToHellbatBlackOps/HellionBlackOps=D
+		
+		Heavy Siege Tank
+			BasicUnitCommands
+			SiegeTank_BlackOpsSiege=E
+			SiegeTank_BlackOpsUnsiege=D
+			DeploySpiderMines/SiegeTank_BlackOps=R
+			
+		Raid Liberator
+			BasicUnitCommands
+			Liberator_BlackOpsMorphtoAG/Liberator_BlackOps=E
+			Liberator_BlackOpsMorphtoAA/Liberator_BlackOps=D
+			
+		Raven Type-II
+			BasicUnitCommands
+			AutoTurret/Raven_BlackOps=T
+			PointDefenseDrone/Raven_BlackOps=D
+			InstantHunterSeekerMissile/Raven_BlackOps=R
+			
+		Covert Banshee
+			BasicUnitCommands
+			Banshee_BlackOpsAirstrike/Banshee_BlackOps=R
+
+		Covert Banshee
+			BasicUnitCommands
+			NovaBoombotBurrow/NovaBoombot=E
+			
+		Covert Banshee
+			BasicUnitCommands
+			BioMechanicalHeal/HealingDrone=E
+			
+	Structures
+		Nova Statis Shell
+			BasicUnitCommands
+			Rally=Y
+			NovaWeaponImprovedCanisterRifleSnipe/NovaReviveBeacon=Q
+			NovaGadgetBoombots/NovaReviveBeacon=E
+			NovaUnitNuke/NovaReviveBeacon=R
+			NovaSwitchAssaultMode/NovaReviveBeacon=D
+			
+		Defensive Drone
+			DefensiveMatrixTarget/NovaDefensiveMatrixDrone=D
+			
+		Ghost Academy
+			ResearchNovaDetector/GhostAcademyNova=G
+			ResearchNovaLifeRegen/GhostAcademyNova=C
+			ResearchNovaSnipeRefund/GhostAcademyNova=E
+			ResearchNovaShotgunBlastRange/GhostAcademyNova=H
+			SelectBuilder=Q
+			Halt=T
+			Cancel=Escape
+		
+		Railgun Turret
+			Stop=S
+			Attack=A
+			SelectBuilder=Q
+			Salvage/NovaACLaserTurret=V
+			Halt=T
+			Cancel=Escape
+
+Terran-Infested
+
 
 Terran Story
 	Units
