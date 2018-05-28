@@ -7,7 +7,7 @@ Protoss
 				ReturnCargo=C
 				ProtossBuild/Probe=B
 				ProtossBuildAdvanced/Probe=V
-				MutatorWorkerSleep/Probe=E
+				Spray=Y
 
 			Basic Structures
 				Nexus/Probe=N
@@ -35,6 +35,12 @@ Protoss
 			BasicUnitCommands
 			Charge/Zealot=C,Auto-Cast
 			Rally=Y
+			
+		Zealot (Artanis Commander)
+			BasicUnitCommands
+			Charge/ZealotAiur=C,Auto-Cast
+			VoidZealotWhirlwind/ZealotAiur=E,Auto-Cast
+			Rally=Y
 
 		Adept
 			General
@@ -45,13 +51,21 @@ Protoss
 			Shade
 				BasicUnitCommands
 				Rally=Y
+				
+		
 
 		Sentry
-			General
+			General 1
 				BasicUnitCommands
 				VoidSentryShieldRepair/Sentry=Q,Auto-Cast
 				GuardianShield/Sentry=G
 				ForceField/Sentry=F
+				Rally=Y
+			
+			General 2
+				BasicUnitCommands
+				VoidSentryShieldRepairDouble/SentryAiur=Q,Auto-Cast
+				GuardianShield/Sentry=G
 				Rally=Y
 
 			Hallucinations
@@ -88,12 +102,6 @@ Protoss
 			PsiStorm/Archon=T
 			Rally=Y
 
-		Dark Archon
-			BasicUnitCommands
-			DarkArchonConfusion/DarkArchon=F
-			DarkArchonMindControl/DarkArchon=R
-			Rally=Y
-
 		Observer
 			BasicUnitCommands
 			MorphtoObserverSiege/Observer=E
@@ -109,6 +117,7 @@ Protoss
 		Immortal
 			BasicUnitCommands
 			ImmortalOverload/Immortal=B,Auto-Cast
+			ImmortalShakurasShadowCannon/Immortal=C
 
 		Reaver
 			BasicUnitCommands
@@ -131,20 +140,13 @@ Protoss
 			ArbiterMPRecall/ArbiterMP=R
 			Rally=Y
 
-		Oracle
-			PacifistUnitCommands
-			OracleAttack=A
-			OracleWeaponOn/Oracle=C
-			OracleWeaponOff/Oracle=D
-			OracleBuildStasisTrap/Oracle=T
-			Cancel=Escape
-
 		Carrier
 			BasicUnitCommands
 			Interceptor/Carrier=I,Auto-Cast
+			RepairDrones/Carrier=E
 			Cancel=Escape
 
-		TempestGeneral
+		Tempest
 			BasicUnitCommands
 			LightningBomb/Tempest=D
 			Rally=Y
@@ -152,14 +154,14 @@ Protoss
 		Mothership
 			BasicUnitCommands
 			MothershipMassRecall/Mothership=R
-			TemporalField/Mothership=T
+			TemporalField/Mothership=C
 
 		Mothership Core
 			BasicUnitCommands
 			MorphToMothership/MothershipCore=U
 			MothershipCoreWeapon/MothershipCore=F
 			MothershipCoreMassRecall/MothershipCore=R
-			TemporalField/MothershipCore=T
+			TemporalField/MothershipCore=C
 			Cancel=Escape
 
 	Structures
@@ -207,181 +209,15 @@ Protoss
 		Cybernetics Core
 			ProtossAirWeaponsLevel1/CyberneticsCore=E
 			ProtossAirArmorLevel1/CyberneticsCore=A
+			ResearchAlarakTargetLockBuff/CyberneticsCore=T
 			ResearchWarpGate/CyberneticsCore=G
 			Cancel=Escape
-
-		Twilight Council (Artanis commander)
-			ResearchCharge/TwilightCouncil=C
-			ResearchDragoonRange/TwilightCouncil=B
-			ResearchWhirlwind/TwilightCouncil=D
-			ResearchDragoonChassis/TwilightCouncil=E
-			WarpInDarkArchonChampion/TwilightCouncil=R
+			
+		Shield Battery
+			ShieldBatteryRecharge/ShieldBattery=R,Auto-Cast
+			ShieldBatteryStructureBarrier/ShieldBattery=B,Auto-Cast
 			Cancel=Escape
-
-		Stargate
-			Phoenix/Stargate=X
-			VoidRay/Stargate=V
-			Oracle/Stargate=E
-			Arbiter/Stargate=A
-			Rally=Y
-			UpgradeToStargateWarp/Stargate=G
-			Cancel=Escape
-
-		Robotics Facility
-			Immortal/RoboticsFacility=I
-			Colossus/RoboticsFacility=C
-			Observer/RoboticsFacility=B
-			Rally=Y
-			UpgradeToRoboticsFacilityWarp/RoboticsFacility=G
-			Cancel=Escape
-
-		Templar Archives (Artanis Commander)
-			ResearchPsiStorm/TemplarArchive=T
-			ResearchHighTemplarEnergyUpgrade/TemplarArchive=K
-			ResearchHealingPsionicStorm/TemplarArchive=H
-			Cancel=Escape
-
-		Fleet Beacon (Artanis+Vorazun Commander)
-			AnionPulseCrystals/FleetBeacon=R
-			ResearchDoubleGravitonBeam/FleetBeacon=G
-			ResearchTempestDisintegration/FleetBeacon=D
-			ResearchOracleStasisWardUpgrade/FleetBeacon=A
-			Cancel=Escape
-
-		Robotics Bay (Artanis Commander)
-			ResearchGraviticBooster/RoboticsBay=B
-			ResearchBarrier/RoboticsBay=R
-			ResearchReaverIncreasedScarabCount/RoboticsBay=C
-			ResearchReaverIncreasedScarabSplashRadius/RoboticsBay=A
-			Cancel=Escape
-		
-		Robotics Bay (Karax Commander)(not tested)
-			ResearchGraviticBooster/RoboticsBay=B
-			ResearchExtendedThermalLance/RoboticsBay=E
-			ResearchReaverIncreasedScarabSplashRadius/RoboticsBay=A
-			ResearchBarrier/RoboticsBay=R
-			Cancel=Escape
-
-		Dark Shrine (Vorazun Commander)
-			ResearchShadowFury/DarkShrine=S
-			ResearchShadowDash/DarkShrine=D
-			ResearchVoidStasis/DarkShrine=V
-			ResearchDarkArchonFullStartingEnergy/DarkShrine=E
-			ResearchDarkArchonMindControl/DarkShrine=C
-			Cancel=Escape
-
-Protoss Story
-	Units
-		Zealot (Artanis Commander)
-			BasicUnitCommands
-			Charge/ZealotAiur=C,Auto-Cast
-			VoidZealotWhirlwind/ZealotAiur=E,Auto-Cast
-			Rally=Y
-
-		Sentinel (Karax Commander)
-			BasicUnitCommands
-			Charge/ZealotPurifier=C,Auto-Cast
-			Rally=Y
-
-		Centurion (Vorazun Commander)
-			BasicUnitCommands
-			VoidZealotShadowCharge/ZealotShakuras=C,Auto-Cast
-			VoidZealotShadowChargeStun/ZealotShakuras=Z,Auto-Cast
-			Rally=Y
-
-		Sentry
-			BasicUnitCommands
-			VoidSentryShieldRepairDouble/SentryAiur=Q,Auto-Cast
-			GuardianShield/SentryAiur=G
-			Rally=Y
-
-		Energizer (Karax Commander)
-			BasicUnitCommands
-			VoidSentryChronoBeam/SentryPurifier=C,Auto-Cast
-			EnergizerReclamation/SentryPurifier=R
-			VoidSentryPhasingMode/SentryPurifier=E
-			VoidSentryMobileMode/SentryPurifier=T
-			Rally=Y
-
-		Stalker
-			BasicUnitCommands
-			StalkerBlinkShieldRestoreBase/StalkerShakuras=B
-			Rally=Y
-
-		Dark Templar (Vorazun Commander)
-			BasicUnitCommands
-			VoidDarkTemplarShadowFury/DarkTemplarShakuras=E,Auto-Cast
-			DarkTemplarShadowDash/DarkTemplarShakuras=B
-			VoidStasis/DarkTemplarShakuras=V,Auto-Cast
-			Rally=Y
-
-		Blood Hunter
-			BasicUnitCommands
-			VoidStasis/DarkTemplarTaldarim=V,Auto-Cast
-			Rally=Y
-
-		High Templar
-			BasicUnitCommands
-			Feedback/HighArchonTemplar=F
-			HighArchonPsiStorm/HighArchonTemplar=T
-			ArchonAdvancedMergeSelection=C
-			Rally=Y
-
-		Ascendant
-			BasicUnitCommands
-			VoidHighTemplarPsiOrb/HighTemplarTaldarim=T
-			VoidHighTemplarMindBlast/HighTemplarTaldarim=F
-			AscendantSacrifice/HighTemplarTaldarim=R
-			Rally=Y
-
-		Immortal
-			BasicUnitCommands
-			ImmortalOverload/ImmortalAiur=B
-			ImmortalShakurasShadowCannon/ImmortalAiur=C
-
-		Havoc
-			BasicUnitCommands
-			TargetLock/Monitor=T
-			SentryTaldarimForceField/Monitor=F
-			Rally=Y
-
-		Annihilator
-			BasicUnitCommands
-			ImmortalShakurasShadowCannon/ImmortalShakuras=C
-
-		Mirage
-			BasicUnitCommands
-			GravitonBeamVoidCampaign/PhoenixPurifier=G,Auto-Cast
-			Cancel=Escape
-
-		Corsair
-			BasicUnitCommands
-			CorsairMPDisruptionWeb/CorsairMP=D
-			Rally=Y
-
-		Carrier
-			BasicUnitCommands
-			Interceptor/CarrierAiur=I
-			Cancel=Escape
-
-		Tempest
-			BasicUnitCommands
-			LightningBomb/TempestPurifier=D
-			Rally=Y
-
-		Mothership
-			BasicUnitCommands
-			VoidSentryBlackHole/SOAMothershipv4=E
-			SOAMothershipLineAttack/SOAMothershipv4=R
-			SOAMothershipBlink/SOAMothershipv4=B
-
-		Shadow Guard
-			BasicUnitCommands
-			VoidShadowGuardShadowFury/VorazunShadowGuard=E
-			ShadowGuardBlink/VorazunShadowGuard=B
-			VoidStasis/VorazunShadowGuard=V
-	
-	Structures
+			
 		Solar Forge (Karax Commander)
 			General
 				ResearchSolarEfficiencyLevel1/SolarForge=E
@@ -393,18 +229,22 @@ Protoss Story
 			General (Broken)
 				BrokenSolarForge/SolarForge=R
 
-		Warp Robotics Facility
-			Immortal/RoboticsFacilityWarp=I
-			Colossus/RoboticsFacilityWarp=C
-			Observer/RoboticsFacilityWarp=B
-			MorphBackToRoboticsFacility/RoboticsFacilityWarp=M
+		Twilight Council (Artanis commander)
+			ResearchCharge/TwilightCouncil=C
+			ResearchDragoonRange/TwilightCouncil=B
+			ResearchWhirlwind/TwilightCouncil=D
+			ResearchDragoonChassis/TwilightCouncil=E
 			Cancel=Escape
 
-		Shield Battery
-			ShieldBatteryRecharge/ShieldBattery=R,Auto-Cast
-			ShieldBatteryStructureBarrier/ShieldBattery=B,Auto-Cast
+		Stargate
+			Phoenix/Stargate=X
+			VoidRay/Stargate=V
+			Oracle/Stargate=E
+			Arbiter/Stargate=A
+			Rally=Y
+			UpgradeToStargateWarp/Stargate=G
 			Cancel=Escape
-
+			
 		Warp Stargate
 			Phoenix/StargateWarp=X
 			VoidRay/StargateWarp=V
@@ -413,11 +253,260 @@ Protoss Story
 			MorphBackToStargate/StargateWarp=M
 			Cancel=Escape
 
+		Robotics Facility
+			Immortal/RoboticsFacility=I
+			Colossus/RoboticsFacility=C
+			Observer/RoboticsFacility=B
+			WarpinDisruptor/RoboticsFacility=D
+			Rally=Y
+			UpgradeToRoboticsFacilityWarp/RoboticsFacility=G
+			Cancel=Escape
+			
+		Warp Robotics Facility
+			Immortal/RoboticsFacilityWarp=I
+			Colossus/RoboticsFacilityWarp=C
+			Observer/RoboticsFacilityWarp=B
+			MorphBackToRoboticsFacility/RoboticsFacilityWarp=M
+			Cancel=Escape
+
+		Templar Archives (Artanis Commander)
+			ResearchPsiStorm/TemplarArchive=T
+			ResearchHighTemplarEnergyUpgrade/TemplarArchive=K
+			ResearchHealingPsionicStorm/TemplarArchive=H
+			Cancel=Escape
+
+		Fleet Beacon
+			AnionPulseCrystals/FleetBeacon=R
+			ResearchDoubleGravitonBeam/FleetBeacon=G
+			ResearchTempestDisintegration/FleetBeacon=D
+			ResearchOracleStasisWardUpgrade/FleetBeacon=A
+			Cancel=Escape
+
+		Robotics Bay (Artanis Commander)
+			ResearchGraviticBooster/RoboticsBay=B
+			
+			ResearchBarrier/RoboticsBay=R
+			ResearchExtendedThermalLance/RoboticsBay=E
+			ResearchReaverIncreasedScarabCount/RoboticsBay=C
+			ResearchReaverIncreasedScarabSplashRadius/RoboticsBay=A
+			FenixImmortalResearchDetonationShot/RoboticsBay=S
+			ResearchFenixWarbringerColossusPowerShot/RoboticsBay=R
+			Cancel=Escape
+
+Protoss-Nerazim
+	Units
+		Centurion
+			BasicUnitCommands
+			VoidZealotShadowCharge/ZealotShakuras=C,Auto-Cast
+			VoidZealotShadowChargeStun/ZealotShakuras=Z,Auto-Cast
+			Rally=Y
+			
+		Stalker
+			BasicUnitCommands
+			StalkerBlinkShieldRestoreBase/StalkerShakuras=B
+			Rally=Y
+		
+		Dark Templar
+			BasicUnitCommands
+			VoidDarkTemplarShadowFury/DarkTemplarShakuras=E,Auto-Cast
+			DarkTemplarShadowDash/DarkTemplarShakuras=B
+			VoidStasis/DarkTemplarShakuras=V,Auto-Cast
+			Rally=Y
+		
+		Dark Archon
+			BasicUnitCommands
+			DarkArchonConfusion/DarkArchon=F
+			DarkArchonMindControl/DarkArchon=R
+			Rally=Y
+			
+		Annihilator
+			BasicUnitCommands
+			ImmortalShakurasShadowCannon/ImmortalShakuras=C
+			
+		Corsair
+			BasicUnitCommands
+			CorsairMPDisruptionWeb/CorsairMP=D
+			Rally=Y
+		
+		Oracle
+			PacifistUnitCommands
+			OracleAttack=A
+			OracleWeaponOn/Oracle=C
+			OracleWeaponOff/Oracle=D
+			OracleBuildStasisTrap/Oracle=T
+			Cancel=Escape
+			
+		Shadow Guard
+			BasicUnitCommands
+			VoidShadowGuardShadowFury/VorazunShadowGuard=E,Auto-Cast
+			ShadowGuardBlink/VorazunShadowGuard=B
+			VoidStasis/VorazunShadowGuard=V,Auto-Cast
+			
+	Structures
 		Dark Pylon
 			Stop=S
 			Attack=A
 			DarkPylonRecall/DarkPylon=R
 			Cancel=Escape
+			
+		Dark Shrine
+			ResearchShadowFury/DarkShrine=S
+			ResearchShadowDash/DarkShrine=D
+			ResearchVoidStasis/DarkShrine=V
+			ResearchDarkArchonFullStartingEnergy/DarkShrine=E
+			ResearchDarkArchonMindControl/DarkShrine=C
+			Cancel=Escape
+			
+Protoss-Purifier
+	Units
+		Fenix
+			BasicUnitCommands
+			FenixThunderousChargeCoop/FenixCoop=Q
+			FenixWhirlwind/FenixCoop=E,Auto-Cast
+			VoidShieldCapacitor/FenixCoop=R,Auto-Cast
+			Rally=Y
+		
+		Fenix (Dragoon)
+			BasicUnitCommands
+			FenixDragoonChargedBuster/FenixDragoon=Q
+			FenixDragoonAirBomb/FenixDragoon=E
+			FenixDragoonArsenalOvercharge/FenixDragoon=R
+			Rally=Y
+			
+		Fenix (Arbiter)
+			BasicUnitCommands
+			FenixArbiterStasisField/FenixArbiter=Q
+			FenixArbiterCloakField/FenixArbiter=E
+			ArbiterMPRecall/FenixArbiter=R
+			
+		Disruptor
+			BasicUnitCommands
+			FenixPurificationNova/Disruptor=V
+			Rally=Y
+			
+		Kaldaris
+			BasicUnitCommands
+			FenixKaldalisZealotCharge/FenixKaldalisZealot=C
+			Rally=Y
+			
+		Talis
+			BasicUnitCommands
+			FenixTalisAdeptBounceShot/FenixTalisAdept=E
+			Rally=Y
+			
+		Taldarin
+			BasicUnitCommands
+			ImmortalOverload/FenixTaldarinImmortal=B
+			
+		Warbringer
+			BasicUnitCommands
+			FenixWarbringerColossusPowerShot/FenixWarbringerColossus=R
+			Rally=Y
+			
+		Mojo
+			BasicUnitCommands
+			FenixMojoMissiles/FenixMojoScout=C
+			
+		Clolarion
+			BasicUnitCommands
+			FenixClolarionInterceptor/FenixClolarionCarrier=I
+			FenixClolarionBomberDummy/FenixClolarionCarrier=B
+			Cancel=Escape
+			
+		Legionnaire
+			BasicUnitCommands
+			Charge/ZealotPurifier=C,Auto-Cast
+			Rally=Y
+		
+		Energizer
+			BasicUnitCommands
+			VoidSentryChronoBeam/SentryPurifier=C,Auto-Cast
+			EnergizerReclamation/SentryPurifier=R
+			VoidSentryPhasingMode/SentryPurifier=E
+			VoidSentryMobileMode/SentryPurifier=T
+			Rally=Y
+			
+		Conservator
+			BasicUnitCommands
+			FenixSentryGuardianZone/SentryFenix=G
+			VoidSentryPhasingMode/SentryFenix=E
+			VoidSentryMobileMode/SentryFenix=T
+			Rally=Y
+			
+		Mirage
+			BasicUnitCommands
+			GravitonBeam/PhoenixPurifier=G
+			Cancel=Escape
+		
+		Tempest
+			BasicUnitCommands
+			LightningBomb/TempestPurifier=D
+			Rally=Y
+	
+	Structures
+		Purifier Data Core
+			DownloadBackupPart1/CybrosEscortDownloader=Q
+			DownloadBackupPart2/CybrosEscortDownloader=E
+			DownloadBackupPart3/CybrosEscortDownloader=R
+			
+		Purifier Conclave
+			FenixKaldalisZealotDownloadUpgrade=Z
+			FenixTalisAdeptDownloadUpgrade=S
+			FenixTaldarinImmortalDownloadUpgrade=I
+			FenixWarbringerColossusDownloadUpgrade=C
+			FenixMojoScoutDownloadUpgrade=X
+			FenixClolarionCarrierDownloadUpgrade=V
+			Cancel=Escape
+
+		Purifier Conclave (Broken)
+			BrokenFenixAltarOfPsiStorms/FenixAltarOfPsiStorms=R
+			
+Protoss-Taldarim
+	Units
+		Alarak
+			BasicUnitCommands
+			AlarakDeadlyCharge/AlarakCoop=Q
+			AlarakKnockback/AlarakCoop=E
+			AlarakEmpower/AlarakCoop=R
+			Rally=Y
+			
+		Havoc
+			BasicUnitCommands
+			TargetLock/Monitor=T
+			SentryTaldarimForceField/Monitor=F
+			Rally=Y
+			
+		Blood Hunter
+			BasicUnitCommands
+			VoidStasis/DarkTemplarTaldarim=V,Auto-Cast
+			Rally=Y
+			
+		Ascendant
+			BasicUnitCommands
+			VoidHighTemplarMindBlast/HighTemplarTaldarim=T
+			VoidHighTemplarPsiOrb/HighTemplarTaldarim=F
+			AscendantSacrifice/HighTemplarTaldarim=C
+			Rally=Y
+			
+		War Prism
+			BasicUnitCommands
+			ACAlarakPhasingMode/WarpPrismTaldarim=E
+			ACAlarakTransportMode/WarpPrismTaldarim=T
+			BunkerLoad=L
+			BunkerUnloadAll=D
+		
+		Mothership
+			BasicUnitCommands
+			SOAMothershipLineAttack/SOAMothershipv4=E
+			AlarakMothershipMassTeleport/SOAMothershipv4=T
+			
+	Structures
+		Alarak Beacon
+			BasicUnitCommands
+			AlarakDeadlyCharge/AlarakReviveBeacon=Q
+			AlarakKnockback/AlarakReviveBeacon=E
+			AlarakEmpower/AlarakReviveBeacon=R
+			Rally=Y
 			
 Terran
 	Units
