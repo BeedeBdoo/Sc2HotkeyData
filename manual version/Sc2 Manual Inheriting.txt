@@ -1,0 +1,111 @@
+// Blinks
+ZeratulBlink/PrologueZeratul=Blink/Stalker
+ZeratulBlink/Zeratul=Blink/Stalker
+ZeratulBlink/ZeratulVoid=Blink/Stalker
+ZeratulBlink/ZeratulVoidAiur01=Blink/Stalker
+SOAMothershipBlink/SOAMothershipv4=Blink/Stalker
+StalkerBlinkShieldRestoreBase/StalkerShakuras=Blink/Stalker
+VorazunBlink/VorazunChampion=Blink/Stalker
+
+// COOP Stukov Baneling
+ExplodeVolatileInfested/SIVolatileInfested=Explode/Baneling
+EnableBuildingAttackVolatileInfested/SIVolatileInfested=EnableBuildingAttack/Baneling
+DisableBuildingAttackVolatileInfested/SIVolatileInfested=DisableBuildingAttack/Baneling
+ExplodeVolatileInfested/SIVolatileInfestedBurrowed=Explode/BanelingBurrowed
+
+// COOP Stukov SCV
+TerranBuild/SISCV=TerranBuild/SCV
+TerranBuildAdvanced/SISCV=TerranBuildAdvanced/SCV
+SICommandCenter/SISCV=CommandCenter/SCV
+SIRefinery/SISCV=Refinery/SCV
+SICivilianStructure/SISCV=SupplyDepot/SCV
+SIBarracks/SISCV=Barracks/SCV
+SIEngineeringBay/SISCV=EngineeringBay/SCV
+SIInfestedBunker/SISCV=Bunker/SCV
+SIMissileTurret/SISCV=MissileTurret/SCV
+SIFactory/SISCV=Factory/SCV
+SIStarport/SISCV=Starport/SCV
+SIArmory/SISCV=Armory/SCV
+
+// COOP Stukov Infested Siege Tank
+StukovInfestedSiegeTankDeepTunnel/StukovInfestedSiegeTank=
+StukovInfestedSiegeTankRoot/StukovInfestedSiegeTank=SiegeMode
+StukovInfestedSiegeTankUproot/StukovInfestedSiegeTank=Unsiege
+
+// COOP Stukov Overlord
+MorphToOverseer/SIOverlord=MorphToOverseer/Overlord
+
+// COOP Stukov Brood Queen
+SIQueenFungalGrowth/SIQueen=FungalGrowth/Infestor
+
+// COOP Stukov Lift off
+SIInfestedBunkerUproot/SIInfestedBunker=Lift
+SIUproot/SIBarracks=Lift
+SIUproot/SICivilianStructure=Lift
+SIUproot/SICommandCenter=Lift
+SIUproot/SIFactory=Lift
+SIUproot/SIMissileTurret=Lift
+SIUproot/SIStarport=Lift
+
+// COOP Stukov Land
+SIInfestedBunkerRoot/SIInfestedBunkerUprooted=Land
+SIRoot/SIBarracksFlying=Land
+SIRoot/SICivilianStructureFlying=Land
+SIRoot/SICommandCenterFlying=Land
+SIRoot/SIFactoryFlying=Land
+SIRoot/SIMissileTurretFlying=Land
+SIRoot/SIStarportFlying=Land
+
+// COOP Stukov Rally
+SIStukovPlaceHordeRally/SIBarracks=Rally
+SIStukovPlaceHordeRally/SIInfestedBunker=SetBunkerRallyPoint/Bunker
+SIStukovPlaceHordeRally/SICivilianStructure=Rally
+
+// COOP Stukov Barracks
+SIInfestedMarine/SIBarracks=Marine/Barracks
+SITechLabBarracks/SIBarracks=TechLabBarracks/Barracks
+SITechLabBarracks/SIBarracksFlying=TechLabBarracks/BarracksFlying
+
+// COOP Stukov Command Center
+SISCV=S
+SIOverlord/SICommandCenter=Overlord/Larva
+
+// COOP Stukov Armory
+TerranVehicleAndShipPlatingLevel1/SIArmory=TerranVehicleWeaponsLevel1/Armory
+TerranVehicleAndShipWeaponsLevel1/SIArmory=TerranVehicleAndShipPlatingLevel1/Armory
+
+// COOP Stukov Factory
+SISiegeTank/SIFactory=SiegeTank/Factory
+SITechLabFactory/SIFactory=TechLabFactory/Factory
+BuildSITechLabFactory/SIFactoryFlying=BuildTechLabFactory/FactoryFlying
+
+// COOP Stukov Starport
+SILiberator/SIStarport=Liberator/Starport
+SIBanshee/SIStarport=Banshee/Starport
+SITechLabStarport/SIStarport=TechLabStarport/Starport
+BuildSITechLabStarport/SIStarportFlying=BuildTechLabStarport/StarportFlying
+
+// COOP Stukov Missile Turret
+Salvage/SIMissileTurret=Salvage/Bunker
+Salvage/SIMissileTurretFlying=Salvage/Bunker
+
+// COOP Stukov Engineering Bay
+TerranInfantryWeaponsLevel1/SIEngineeringBay=TerranInfantryWeaponsLevel1/EngineeringBay
+TerranInfantryArmorLevel1/SIEngineeringBay=TerranInfantryArmorLevel1/EngineeringBay
+ResearchInfestedBunkerArmor/SIEngineeringBay=UpgradeBuildingArmorLevel1/EngineeringBay
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

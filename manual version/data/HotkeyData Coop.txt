@@ -915,11 +915,11 @@ Terran-Covert
 			BasicUnitCommands
 			Banshee_BlackOpsAirstrike/Banshee_BlackOps=R
 
-		Covert Banshee
+		Sabotage Drone
 			BasicUnitCommands
 			NovaBoombotBurrow/NovaBoombot=E
 			
-		Covert Banshee
+		Bio-mechanical Repair Drone
 			BasicUnitCommands
 			BioMechanicalHeal/HealingDrone=E
 			
@@ -953,7 +953,228 @@ Terran-Covert
 			Cancel=Escape
 
 Terran-Infested
+	Units
+		Volatile Infested
+			General
+				BasicUnitCommands
+				ExplodeVolatileInfested/SIVolatileInfested=X
+				EnableBuildingAttackVolatileInfested/SIVolatileInfested=F
+				BurrowDown=R
+				
+			Burrowed
+				Attack=A
+				ExplodeVolatileInfested/SIVolatileInfestedBurrowed=X
+				BurrowUp=R
+		
+		Infested SCV
+			General
+				BasicUnitCommands
+				GatherProt=G
+				ReturnCargo=C
+				TerranBuild/SISCV=B
+				TerranBuildAdvanced/SISCV=V
+				Repair=R
+				Spray=Y
+				Halt=T
 
+			Basic Structures
+				SICommandCenter/SISCV=C
+				SIRefinery/SISCV=R
+				SICivilianStructure/SISCV=V
+				SIInfestedBunker/SISCV=B
+				SIEngineeringBay/SISCV=E
+				SIBunker/SISCV=U
+				SIMissileTurret/SISCV=T
+				Cancel=Escape
+
+			Advanced Structures
+				SIFactory/SISCV=F
+				SIStarport/SISCV=S
+				SIArmory/SISCV=A
+				Cancel=Escape
+				
+		Infested Diamondback
+			BasicUnitCommands
+			StukovInfestedDiamondbackSnare/StukovInfestedDiamondBack=Q
+			
+		Infested Siege Tank
+			BasicUnitCommands
+			StukovInfestedSiegeTankRoot/StukovInfestedSiegeTank=E
+			StukovInfestedSiegeTankUproot/StukovInfestedSiegeTank=D
+			StukovInfestedSiegeTankDeepTunnel/StukovInfestedSiegeTank=R
+			
+		Apokalisk
+			BasicUnitCommands
+			SIClusterRockets/StukovApocalisk=Q
+			ApocaliskBurrowCharge/StukovApocalisk=B
+			
+		Overlord
+			BasicUnitCommands
+			MorphToOverseer/SIOverlord=V
+			Cancel=Escape
+			
+		Infested Banshee
+			BasicUnitCommands
+			CloakOnBanshee=C
+			CloakOff=D
+			BurrowDown=R
+			
+		Brood Queen
+			BasicUnitCommands
+			QueenClassicParasite/SIQueen=E
+			QueenMPSpawnBroodlings/SIQueen=B
+			SIQueenFungalGrowth/SIQueen=F
+	
+	Structures
+		Infested Bunker
+			General
+				SIInfestedBunkerSpawnInfestedMarine/SIInfestedBunker=E
+				Stop=S
+				Attack=A
+				SelectBuilder=Q
+				SIStukovPlaceHordeRally/SIInfestedBunker=Y
+				BunkerLoad=L
+				BunkerUnloadAll=D
+				SIInfestedBunkerUproot/SIInfestedBunker=R
+				Cancel=Escape
+				
+			Flying
+				BasicUnitCommands
+				BunkerLoad=L
+				BunkerUnloadAll=D
+				SIInfestedBunkerRoot/SIInfestedBunkerUprooted=R
+				Cancel=Escape
+			
+		Infested Barracks
+			General
+				SIInfestedMarine/SIBarracks=A
+				SelectBuilder=Q
+				SIStukovPlaceHordeRally/SIBarracks=Y
+				SITechLabBarracks/SIBarracks=X
+				SIUproot/SIBarracks=R
+				Cancel=Escape
+				
+			Flying
+				PacifistUnitCommands
+				SITechLabBarracks/SIBarracksFlying=X
+				SIRoot/SIBarracksFlying=R
+			
+		Infested Colonist Compound
+			General
+				ResearchSIBarracksTrainInfestedCivilianLevel2/SICivilianStructure=E
+				EvolveStukovInfestedInfestedCivilianLeap/SICivilianStructure=A
+				EvolveStukovInfestedCivilianSpawnBroodlingsOnDeath/SICivilianStructure=B
+				SelectBuilder=Q
+				SIStukovPlaceHordeRally/SICivilianStructure=Y
+				SIInfestedCivilian/SICivilianStructure=D
+				SIUproot/SICivilianStructure=R
+				Cancel=Escape
+				
+			Flying
+				PacifistUnitCommands
+				SIInfestedCivilian/SICivilianStructureFlying=D
+				SIRoot/SICivilianStructureFlying=R
+			
+		Infested Armory
+			TerranVehicleAndShipPlatingLevel1/SIArmory=E
+			TerranVehicleAndShipWeaponsLevel1/SIArmory=V
+			Cancel=Escape
+			
+		Infested Tech Lab
+			Attached to Barracks
+				EvolveSIMarineTrooperImprovedRange/SIBarracksTechLab=R
+				EvolvePlaguedMunitions/SIBarracksTechLab=G
+				Cancel=Escape
+				
+			Attached to Factory
+				EvolveSIDiamondbackImprovedEnsnare/SIFactoryTechLab=S
+				EvolveSIDiamondbackSnailTrail/SIFactoryTechLab=C
+				ResearchAutoCreateInfestedCivilianAmmo/SIFactoryTechLab=A
+				ResearchInfestedSiegeTankArmoredDamage/SIFactoryTechLab=E
+				Cancel=Escape
+				
+			Attached to Starport
+				ResearchSILiberatorImprovedAoeAttack/SIStarportTechLab=V
+				ResearchSILiberatorBecometheSwarm/SIStarportTechLab=C
+				ResearchStukovInfestedBansheeBurrowRegeneration/SIStarportTechLab=R
+				ResearchStukovInfestedBansheeInfestedLife/SIStarportTechLab=B
+				ResearchSIQueenFungalGrowth/SIStarportTechLab=F
+				ResearchSIQueenEnergy/SIStarportTechLab=E
+				Cancel=Escape
+			
+		Infested Command Center
+			General
+				SISCV=S
+				SIOverlord/SICommandCenter=V
+				ResearchHeavyInfestation/SICommandCenter=G
+				overlordspeed=P
+				SelectBuilder=Q
+				Rally=Y
+				CommandCenterLoad=O
+				CommandCenterUnloadAll=D
+				SIUproot/SICommandCenter=R
+				Cancel=Escape
+				
+			Flying
+				PacifistUnitCommands
+				CommandCenterLoad=O
+				CommandCenterUnloadAll=D
+				SIRoot/SICommandCenterFlying=R
+			
+		Infested Factory
+			General
+				SIDiamondBack/SIFactory=D
+				SISiegeTank/SIFactory=S
+				SITechLabFactory/SIFactory=X
+				SelectBuilder=Q
+				Rally=Y
+				SIUproot/SIFactory=R
+				SITechLabFactory/SIFactory=X
+				Cancel=Escape
+				
+			Flying
+				PacifistUnitCommands
+				BuildSITechLabFactory/SIFactoryFlying=R
+				SIRoot/SIFactoryFlying=R
+			
+		Infested Starport
+			General
+				SILiberator/SIStarport=N
+				SIBanshee/SIStarport=E
+				SIQueen=U
+				SelectBuilder=Q
+				Rally=Y
+				SITechLabStarport/SIStarport=X
+				SIUproot/SIStarport=R
+				Cancel=Escape
+				
+			Flying
+				PacifistUnitCommands
+				BuildSITechLabStarport/SIStarportFlying=X
+				SIRoot/SIStarportFlying=R
+			
+		Infested Engineering Bay
+			TerranInfantryWeaponsLevel1/SIEngineeringBay=E
+			TerranInfantryArmorLevel1/SIEngineeringBay=A
+			SelectBuilder=Q
+			ResearchInfestedBunkerLifeRegen/SIEngineeringBay=R
+			ResearchInfestedBunkerArmor/SIEngineeringBay=C
+			Halt=T
+			Cancel=Escape
+		
+		Infested Missile Turret
+			General
+				Stop=S
+				Attack=A
+				SelectBuilder=Q
+				Salvage/SIMissileTurret=V
+				SIUproot/SIMissileTurret=R
+				Cancel=Escape
+				
+			Flying
+				PacifistUnitCommands
+				Salvage/SIMissileTurretFlying=V
+				SIRoot/SIMissileTurretFlying=R
 
 Terran Story
 	Units
