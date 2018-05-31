@@ -433,6 +433,11 @@ Protoss-Purifier
 			VoidSentryMobileMode/SentryFenix=T
 			Rally=Y
 			
+		Disruptor
+			BasicUnitCommands
+			FenixPurificationNova/Disruptor=V
+			Rally=Y
+			
 		Mirage
 			BasicUnitCommands
 			GravitonBeam/PhoenixPurifier=G
@@ -483,8 +488,8 @@ Protoss-Taldarim
 			
 		Ascendant
 			BasicUnitCommands
-			VoidHighTemplarMindBlast/HighTemplarTaldarim=T
-			VoidHighTemplarPsiOrb/HighTemplarTaldarim=F
+			VoidHighTemplarPsiOrb/HighTemplarTaldarim=T
+			VoidHighTemplarMindBlast/HighTemplarTaldarim=F
 			AscendantSacrifice/HighTemplarTaldarim=C
 			Rally=Y
 			
@@ -1175,15 +1180,134 @@ Terran-Infested
 				PacifistUnitCommands
 				Salvage/SIMissileTurretFlying=V
 				SIRoot/SIMissileTurretFlying=R
+				
+Terran-Marauder
+	Units
+		SCV
+			General
+				BasicUnitCommands
+				GatherProt=G
+				ReturnCargo=C
+				TerranBuild/HHSCV=B
+				TerranBuildAdvanced/HHSCV=V
+				Repair=R
+				Spray=Y
+				Halt=T
 
-Terran Story
+			Basic Structures
+				CommandCenter/HHSCV=C
+				Refinery/HHSCV=R
+				SupplyDepot/HHSCV=S
+				BuildHHMercStarport/HHSCV=B
+				HHMercCompound/HHSCV=E
+				MissileTurret/HHSCV=T
+				Cancel=Escape
+
+			Advanced Structures
+				BuildHHBomberPlatform/HHSCV=F
+				HHArmory/HHSCV=A
+				FusionCore/HHSCV=C
+				Cancel=Escape
+			
+		Reaper
+			BasicUnitCommands
+			HHKD8Charge/HHReaper=D
+			HHReaperFly/HHReaper=F
+			
+		Hellion
+			BasicUnitCommands			
+			MorphToHellionTank/HHHellion=D
+			HHHellionBomb/HHHellion=E
+			
+		Hellbat
+			BasicUnitCommands
+			MorphToHHHellion/HHHellionTank=E
+			
+		Widow Mine
+			BasicUnitCommands
+			WidowMineBurrow/HHWidowMine=E
+			WidowMineUnburrow/HHWidowMine=D
+			
+		Assault Galleon
+			BasicUnitCommands
+			ResearchHHMercStarportHangarBay/HHMercStarportUpgraded=B
+			SelectBuilder=Q
+			HHReaper/HHMercStarportUpgraded=R
+			HHWidowMine/HHMercStarportUpgraded=D
+			HHHellion/HHMercStarportUpgraded=E
+			HHHellionTank/HHMercStarportUpgraded=T
+			Cancel=Escape
+			
+		Wraith
+			BasicUnitCommands
+			FleetwideJump/HHWraith=T
+			WraithCloakOn/HHWraith=C
+			WraithCloakOff/HHWraith=D
+			
+		Viking
+			BasicUnitCommands
+			FleetwideJump/HHVikingFighter=T
+			HHVikingRockets/HHVikingFighter=W
+			AssaultMode=D
+			
+		Viking Landed
+			BasicUnitCommands
+			FleetwideJump/HHVikingAssault=T
+			FighterMode=E
+			
+		Raven
+			BasicUnitCommands
+			FleetwideJump/HHRaven=T
+			HHNomadTargetLock/HHRaven=R
+			MorphtoHHRavenSiege/HHRaven=E
+			MorphtoHHRaven/HHRaven=D
+			
+		Battlecruiser
+			BasicUnitCommands
+			Hyperjump/HHBattlecruiser=T
+			HHYamatoShots/HHBattlecruiser=E
+			HHBattlecruiserShots/HHBattlecruiser=D
+			
+	Structures
+		Starport
+			General
+				Wraith/HHStarport=T
+				VikingFighter/HHStarport=V
+				Battlecruiser/HHStarport=B
+				HHRaven/HHStarport=R
+				HHTechLabStarport/HHStarport=X
+				Cancel=Escape
+				
+			Flying
+				PacifistUnitCommands
+				BuildHHTechLabStarport/HHStarportFlying=X
+				Land=L
+		
+		Bomber Platform
+			HHBomberAreaBomb/HHBomberPlatform=Q
+			TrainHHBomber/HHBomberPlatform=B
+			Halt=T
+			Cancel=Escape
+			
+		Engineering Bay
+			ResearchHHReaperClusterBombs/HHMercCompound=B
+			ResearchHHReaperFlight/HHMercCompound=F
+			ResearchHHWidowMineDeathBlossom/HHMercCompound=D
+			ResearchHHWidowMineRangeAttack/HHMercCompound=R
+			SelectBuilder=Q
+			ResearchHHHellionDeathStim/HHMercCompound=A
+			ResearchHHHellionRocket/HHMercCompound=E
+			ResearchHHHellionDeathFear/HHMercCompound=H
+			Halt=T
+			Cancel=Escape
+
+Terran-Raider
 	Units
 		Hyperion (Raynor Commander)
 			BasicUnitCommands
 			HyperionVoidCoopHyperjump/HyperionVoidCoop=Q
 			HyperionVoidCoopYamatoCannon/HyperionVoidCoop=Y
 			HyperionAdvancedPDD/HyperionVoidCoop=R
-			
 			
 		Medic
 			BasicUnitCommands
@@ -1222,28 +1346,11 @@ Terran Story
 			HerculesLoad/Hercules=L
 			HerculesUnloadAll/Hercules=D
 			HyperjumpHercules/Hercules=T
-			
-		Nova (Weapons Free)
-			BasicUnitCommands
-			WeaponsFree/NovaHero=G
-			NovaWeaponCanisterRifleSnipe/NovaHero=Q
-			NovaGadgetPulseGrenades/NovaHero=W
-			HeroNukeCalldown/NovaHero=
-			
-		Nova (Hold Fire)
-			BasicUnitCommands
-			GhostHoldFire/NovaHero=F
-			NovaWeaponCanisterRifleSnipe/NovaHero=Q
-			NovaGadgetPulseGrenades/NovaHero=W
-			HeroNukeCalldown/NovaHero=
 
 	Structures
-		Devastation Turret (Swann Commander)
-			Stop=S
+		Drakken Laser Drill
 			Attack=A
-			SelectBuilder=Q
-			Salvage/KelMorianGrenadeTurret=V
-			Halt=T
+			ResearchDrakkenLaserDrillBFG/DrakkenLaserDrillCoop=D
 			Cancel=Escape
 			
 		Tech Reactor
@@ -1251,9 +1358,9 @@ Terran Story
 				ResearchShieldWall/BarracksTechReactor=C
 				Stimpack/BarracksTechReactor=T
 				ResearchPunisherGrenades/BarracksTechReactor=G
+				ResearchMarauderMagrailMunitions/BarracksTechReactor=S
 				ResearchIncineratorGauntlets/BarracksTechReactor=I
 				ResearchJuggernautPlating/BarracksTechReactor=J
-				ResearchStabilizerMedpacks/BarracksTechReactor=S
 				Cancel=Escape
 
 			Attached to Factory (Swann Commander)
@@ -1272,21 +1379,10 @@ Terran Story
 				ResearchShockwaveMissileBattery/StarportTechReactor=S
 				ResearchPhobosClassWeaponsSystem/StarportTechReactor=B
 				ResearchRipwaveMissiles/StarportTechReactor=R
+				ResearchMedivacCloakedHealBeam/StarportTechReactor=H
+				ResearchSuperScience/StarportTechReactor=U
 				Cancel=Escape
-
-		Merc Compound
-			HireKelmorianMiners/MercCompound=P
-			HireDevilDogs/MercCompound=L
-			HireHammerSecurities/MercCompound=H
-			HireSpartanCompany/MercCompound=C
-			HireSiegeBreakers/MercCompound=K
-			HireHelsAngels/MercCompound=A
-			HireDuskWing/MercCompound=I
-			HireDukesRevenge/MercCompound=U
-			Rally=Y
-			Halt=T
-			Cancel=Escape
-
+				
 		Perdition Turret
 			Stop=S
 			Attack=A
@@ -1302,10 +1398,13 @@ Terran Story
 			Salvage/KelMorianMissileTurret=V
 			Halt=T
 			Cancel=Escape
-
-		Drakken Laser Drill
+			
+		Devastation Turret (Swann Commander)
+			Stop=S
 			Attack=A
-			ResearchDrakkenLaserDrillBFG/DrakkenLaserDrillCoop=D
+			SelectBuilder=Q
+			Salvage/KelMorianGrenadeTurret=V
+			Halt=T
 			Cancel=Escape
 
 Zerg

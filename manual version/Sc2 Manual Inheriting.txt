@@ -1,4 +1,4 @@
-// Blinks
+// Protoss Stalker Blink
 ZeratulBlink/PrologueZeratul=Blink/Stalker
 ZeratulBlink/Zeratul=Blink/Stalker
 ZeratulBlink/ZeratulVoid=Blink/Stalker
@@ -6,6 +6,86 @@ ZeratulBlink/ZeratulVoidAiur01=Blink/Stalker
 SOAMothershipBlink/SOAMothershipv4=Blink/Stalker
 StalkerBlinkShieldRestoreBase/StalkerShakuras=Blink/Stalker
 VorazunBlink/VorazunChampion=Blink/Stalker
+DarkTemplarShadowDash/DarkTemplarShakuras=Blink/Stalker
+ShadowGuardBlink/VorazunShadowGuard=Blink/Stalker
+
+// Protoss Zealot Charge
+Charge/ZealotPurifier=Charge/Zealot
+Charge/ZealotAiur=Charge/Zealot
+VoidZealotShadowCharge/ZealotShakuras=Charge/Zealot
+
+
+// COOP Fenix Super Carrier
+FenixClolarionInterceptor/FenixClolarionCarrier=Interceptor/Carrier
+
+// COOP Fenix Sentry Energizer
+VoidSentryPhasingMode/SentryPurifier=PhasingMode/WarpPrism
+VoidSentryMobileMode/SentryPurifier=TransportMode/WarpPrism
+
+// COOP Fenix Sentry Conservator
+VoidSentryPhasingMode/SentryFenix=PhasingMode/WarpPrism
+VoidSentryMobileMode/SentryFenix=TransportMode/WarpPrism
+
+// COOP Fenix Disruptor
+FenixPurificationNova/Disruptor=PurificationNovaTargeted/Disruptor
+
+// COOP Fenix Phoenix
+GravitonBeam/PhoenixPurifier=GravitonBeam/Phoenix
+
+
+// COOP Alarak Sentry
+SentryTaldarimForceField/Monitor=ForceField/Sentry
+
+// COOP Alarak Templar
+VoidHighTemplarPsiOrb/HighTemplarTaldarim=PsiStorm/HighTemplar
+VoidHighTemplarMindBlast/HighTemplarTaldarim=Feedback/HighTemplar
+
+// COOP Alarak War Prism (Yes 'war' not 'warp'. I bet someone at Blizzard had a real kicker with that one)
+ACAlarakPhasingMode/WarpPrismTaldarim=PhasingMode/WarpPrism
+ACAlarakTransportMode/WarpPrismTaldarim=TransportMode/WarpPrism
+
+// COOP Alarak Mothership
+SOAMothershipLineAttack/SOAMothershipv4=TemporalField/Mothership
+AlarakMothershipMassTeleport/SOAMothershipv4=MassRecall/Mothership
+
+
+// COOP Nova Nova
+GhostHoldFire/NovaCoop=GhostHoldFire/Ghost
+WeaponsFree/NovaCoop=WeaponsFree/Ghost
+NovaWeaponImprovedCanisterRifleSnipe/NovaCoop=Q
+NovaGadgetBoombots/NovaCoop=ChannelSnipe/Ghost
+NovaUnitNuke/NovaCoop=NukeCalldown/Ghost
+NovaSwitchAssaultMode/NovaCoop=D
+
+// COOP Nova Marine
+MarineSuperStimpack/Marine_BlackOps=Stim
+
+// COOP Nova Ghost
+GhostHoldFire/Ghost_BlackOps=GhostHoldFire/Ghost
+WeaponsFree/Ghost_BlackOps=WeaponsFree/Ghost
+Snipe_BlackOps/Ghost_BlackOps=ChannelSnipe/Ghost
+EMP/Ghost_BlackOps=EMP/Ghost
+
+// COOP Nova Hellion
+MorphToHellion/HellionBlackOps=MorphToHellion/Hellion
+MorphToHellbatBlackOps/HellionBlackOps=MorphToHellionTank/Hellion
+
+// COOP Nova Siege Tank
+SiegeTank_BlackOpsSiege=SiegeMode
+SiegeTank_BlackOpsUnsiege=Unsiege
+
+// COOP Nova Liberator
+Liberator_BlackOpsMorphtoAG/Liberator_BlackOps=LiberatorAGMode/Liberator
+Liberator_BlackOpsMorphtoAA/Liberator_BlackOps=LiberatorAAMode/Liberator
+
+// COOP Nova Raven
+AutoTurret/Raven_BlackOps=AutoTurret/Raven
+PointDefenseDrone/Raven_BlackOps=RavenScramblerMissile/Raven
+InstantHunterSeekerMissile/Raven_BlackOps=RavenShredderMissile/Raven
+
+// COOP Nova Railgun
+Salvage/NovaACLaserTurret=Salvage/Bunker
+
 
 // COOP Stukov Baneling
 ExplodeVolatileInfested/SIVolatileInfested=Explode/Baneling
@@ -67,7 +147,7 @@ SITechLabBarracks/SIBarracks=TechLabBarracks/Barracks
 SITechLabBarracks/SIBarracksFlying=TechLabBarracks/BarracksFlying
 
 // COOP Stukov Command Center
-SISCV=S
+SISCV=SCV
 SIOverlord/SICommandCenter=Overlord/Larva
 
 // COOP Stukov Armory
@@ -93,6 +173,55 @@ Salvage/SIMissileTurretFlying=Salvage/Bunker
 TerranInfantryWeaponsLevel1/SIEngineeringBay=TerranInfantryWeaponsLevel1/EngineeringBay
 TerranInfantryArmorLevel1/SIEngineeringBay=TerranInfantryArmorLevel1/EngineeringBay
 ResearchInfestedBunkerArmor/SIEngineeringBay=UpgradeBuildingArmorLevel1/EngineeringBay
+
+
+// COOP HanHorner SCV
+TerranBuild/HHSCV=TerranBuild/SCV
+TerranBuildAdvanced/HHSCV=TerranBuildAdvanced/SCV
+CommandCenter/HHSCV=CommandCenter/SCV
+Refinery/HHSCV=Refinery/SCV
+SupplyDepot/HHSCV=SupplyDepot/SCV
+BuildHHMercStarport/HHSCV=Barracks/SCV
+HHMercCompound/HHSCV=EngineeringBay/SCV
+MissileTurret/HHSCV=MissileTurret/SCV
+BuildHHBomberPlatform/HHSCV=Starport/SCV
+HHArmory/HHSCV=Armory/SCV
+FusionCore/HHSCV=FusionCore/SCV
+
+// COOP HanHorner Reaper
+HHKD8Charge/HHReaper=KD8Charge/Reaper
+
+// COOP HanHorner Hellion/Hellbat
+MorphToHellionTank/HHHellion=MorphToHellionTank/Hellion
+MorphToHHHellion/HHHellionTank=MorphToHellion/Hellion
+
+// COOP HanHorner Widow Mine
+WidowMineBurrow/HHWidowMine=WidowMineBurrow/WidowMine
+WidowMineUnburrow/HHWidowMine=WidowMineUnburrow/WidowMine
+
+// COOP HanHorner Assault Galleon
+HHReaper/HHMercStarportUpgraded=Reaper/Barracks
+HHWidowMine/HHMercStarportUpgraded=WidowMine/Factory
+HHHellion/HHMercStarportUpgraded=Hellion/Factory
+HHHellionTank/HHMercStarportUpgraded=HellionTank/Factory
+
+// COOP HanHorner Warp
+FleetwideJump/HHWraith=Hyperjump/Battlecruiser
+FleetwideJump/HHVikingFighter=Hyperjump/Battlecruiser
+FleetwideJump/HHVikingAssault=Hyperjump/Battlecruiser
+FleetwideJump/HHRaven=Hyperjump/Battlecruiser
+Hyperjump/HHBattlecruiser=Hyperjump/Battlecruiser
+
+// COOP HanHorner Wraith
+WraithCloakOn/HHWraith=CloakOnBanshee
+WraithCloakOff/HHWraith=CloakOff
+
+// COOP HanHorner Raven
+MorphtoHHRavenSiege/HHRaven=MorphtoObserverSiege/Observer
+MorphtoHHRaven/HHRaven=MorphtoObserver/Observer
+
+// COOP HanHorner Battlecruiser
+HHYamatoShots/HHBattlecruiser=YamatoGun
 
 
 
